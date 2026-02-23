@@ -1,0 +1,101 @@
+{
+  "schema_version": "1",
+  "templates": {
+    "LINEAR_TRANSFER": {
+      "expansion_type": "linear",
+      "canonical_nodes": [
+        {"id": "n0", "type": "pipe_segment",   "semantic_defaults": {"flow_direction": "forward"}},
+        {"id": "n1", "type": "equipment_block","semantic_defaults": {}},
+        {"id": "n2", "type": "valve", "subtype": "isolation",
+                     "semantic_defaults": {"normally_open": true, "fail_position": "closed"}},
+        {"id": "n3", "type": "pipe_segment",   "semantic_defaults": {"flow_direction": "forward"}}
+      ],
+      "canonical_edges": [["n0","n1"],["n1","n2"],["n2","n3"]],
+      "interfaces": {"entry": "n0", "exit": "n3"},
+      "equipment_canonical_count": 1,
+      "equipment_insertion_index": 1
+    },
+    "MEASUREMENT_ONLY": {
+      "expansion_type": "linear",
+      "canonical_nodes": [
+        {"id": "n0", "type": "pipe_segment",  "semantic_defaults": {"flow_direction": "forward"}},
+        {"id": "n1", "type": "instrument", "subtype": "flow_meter",
+                     "semantic_defaults": {"measurement": "flow"}},
+        {"id": "n2", "type": "pipe_segment",  "semantic_defaults": {"flow_direction": "forward"}}
+      ],
+      "canonical_edges": [["n0","n1"],["n1","n2"]],
+      "interfaces": {"entry": "n0", "exit": "n2"},
+      "equipment_canonical_count": 0,
+      "equipment_insertion_index": 1
+    },
+    "CONTROLLED_TRANSFER": {
+      "expansion_type": "linear",
+      "canonical_nodes": [
+        {"id": "n0", "type": "valve", "subtype": "control",
+                     "semantic_defaults": {"control_loop": true}},
+        {"id": "n1", "type": "pipe_segment",  "semantic_defaults": {"flow_direction": "forward"}},
+        {"id": "n2", "type": "equipment_block","semantic_defaults": {}},
+        {"id": "n3", "type": "valve", "subtype": "control",
+                     "semantic_defaults": {"control_loop": true}}
+      ],
+      "canonical_edges": [["n0","n1"],["n1","n2"],["n2","n3"]],
+      "interfaces": {"entry": "n0", "exit": "n3"},
+      "equipment_canonical_count": 1,
+      "equipment_insertion_index": 2
+    },
+    "ISOLATED_SEGMENT": {
+      "expansion_type": "linear",
+      "canonical_nodes": [
+        {"id": "n0", "type": "pipe_segment",  "semantic_defaults": {"flow_direction": "forward"}},
+        {"id": "n1", "type": "equipment_block","semantic_defaults": {}},
+        {"id": "n2", "type": "pipe_segment",  "semantic_defaults": {"flow_direction": "forward"}}
+      ],
+      "canonical_edges": [["n0","n1"],["n1","n2"]],
+      "interfaces": {"entry": "n0", "exit": "n2"},
+      "equipment_canonical_count": 1,
+      "equipment_insertion_index": 1
+    },
+    "CONNECTIVITY_VALVE": {
+      "expansion_type": "linear",
+      "canonical_nodes": [
+        {"id": "n0", "type": "pipe_segment",  "semantic_defaults": {"flow_direction": "forward"}},
+        {"id": "n1", "type": "valve", "subtype": "isolation",
+                     "semantic_defaults": {"normally_open": true, "fail_position": "closed"}},
+        {"id": "n2", "type": "pipe_segment",  "semantic_defaults": {"flow_direction": "forward"}}
+      ],
+      "canonical_edges": [["n0","n1"],["n1","n2"]],
+      "interfaces": {"entry": "n0", "exit": "n2"},
+      "equipment_canonical_count": 0,
+      "equipment_insertion_index": null
+    },
+    "CONNECTIVITY_METER": {
+      "expansion_type": "linear",
+      "canonical_nodes": [
+        {"id": "n0", "type": "pipe_segment",  "semantic_defaults": {"flow_direction": "forward"}},
+        {"id": "n1", "type": "instrument", "subtype": "flow_meter",
+                     "semantic_defaults": {"measurement": "flow"}},
+        {"id": "n2", "type": "pipe_segment",  "semantic_defaults": {"flow_direction": "forward"}}
+      ],
+      "canonical_edges": [["n0","n1"],["n1","n2"]],
+      "interfaces": {"entry": "n0", "exit": "n2"},
+      "equipment_canonical_count": 0,
+      "equipment_insertion_index": null
+    },
+    "EQUIPMENT_CLUSTER": {
+      "expansion_type": "repeat",
+      "canonical_nodes": [
+        {"id": "n0", "type": "equipment_block", "semantic_defaults": {}}
+      ],
+      "canonical_edges": [],
+      "interfaces": {"entry": "n0", "exit": "n0"},
+      "equipment_canonical_count": 1,
+      "equipment_insertion_index": null
+    },
+    "PATTERN_REF": {
+      "expansion_type": "none",
+      "canonical_nodes": [],
+      "canonical_edges": [],
+      "interfaces": {}
+    }
+  }
+}

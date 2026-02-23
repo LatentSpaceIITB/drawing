@@ -1,0 +1,661 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1800" height="2089" viewBox="0 0 3020.0 3505.0">
+  <defs>
+    <marker id="arr"  markerWidth="7" markerHeight="5" refX="6" refY="2.5" orient="auto">
+      <polygon points="0 0, 7 2.5, 0 5" fill="#555"/>
+    </marker>
+    <marker id="arrs" markerWidth="7" markerHeight="5" refX="6" refY="2.5" orient="auto">
+      <polygon points="0 0, 7 2.5, 0 5" fill="#c03030"/>
+    </marker>
+    <style>text { font-family: monospace; pointer-events: none; }</style>
+  </defs>
+  <!-- groups -->
+  <rect x="40.0" y="1020.0" width="190.0" height="80.0" fill="#fff0f0" stroke="#cc7777" stroke-width="0.7" stroke-dasharray="5 3" rx="3"/>
+  <text x="43.0" y="1029.0" font-size="6" fill="#cc7777" opacity="0.8">cfrag_0</text>
+  <rect x="290.0" y="1020.0" width="190.0" height="80.0" fill="#fff0f0" stroke="#cc7777" stroke-width="0.7" stroke-dasharray="5 3" rx="3"/>
+  <text x="293.0" y="1029.0" font-size="6" fill="#cc7777" opacity="0.8">cfrag_1</text>
+  <rect x="540.0" y="1020.0" width="190.0" height="80.0" fill="#fff0f0" stroke="#cc7777" stroke-width="0.7" stroke-dasharray="5 3" rx="3"/>
+  <text x="543.0" y="1029.0" font-size="6" fill="#cc7777" opacity="0.8">cfrag_2</text>
+  <rect x="790.0" y="1020.0" width="190.0" height="80.0" fill="#fff0f0" stroke="#cc7777" stroke-width="0.7" stroke-dasharray="5 3" rx="3"/>
+  <text x="793.0" y="1029.0" font-size="6" fill="#cc7777" opacity="0.8">cfrag_3</text>
+  <rect x="40.0" y="1270.0" width="130.0" height="100.0" fill="#f0fff0" stroke="#77aa77" stroke-width="0.7" stroke-dasharray="5 3" rx="3"/>
+  <text x="43.0" y="1279.0" font-size="6" fill="#77aa77" opacity="0.8">efrag_0</text>
+  <rect x="240.0" y="1270.0" width="130.0" height="100.0" fill="#f0fff0" stroke="#77aa77" stroke-width="0.7" stroke-dasharray="5 3" rx="3"/>
+  <text x="243.0" y="1279.0" font-size="6" fill="#77aa77" opacity="0.8">efrag_1</text>
+  <rect x="840.0" y="1770.0" width="130.0" height="100.0" fill="#f0fff0" stroke="#77aa77" stroke-width="0.7" stroke-dasharray="5 3" rx="3"/>
+  <text x="843.0" y="1779.0" font-size="6" fill="#77aa77" opacity="0.8">efrag_10</text>
+  <rect x="1040.0" y="1770.0" width="130.0" height="100.0" fill="#f0fff0" stroke="#77aa77" stroke-width="0.7" stroke-dasharray="5 3" rx="3"/>
+  <text x="1043.0" y="1779.0" font-size="6" fill="#77aa77" opacity="0.8">efrag_11</text>
+  <rect x="40.0" y="2270.0" width="130.0" height="290.0" fill="#f0fff0" stroke="#77aa77" stroke-width="0.7" stroke-dasharray="5 3" rx="3"/>
+  <text x="43.0" y="2279.0" font-size="6" fill="#77aa77" opacity="0.8">efrag_12</text>
+  <rect x="240.0" y="2270.0" width="130.0" height="100.0" fill="#f0fff0" stroke="#77aa77" stroke-width="0.7" stroke-dasharray="5 3" rx="3"/>
+  <text x="243.0" y="2279.0" font-size="6" fill="#77aa77" opacity="0.8">efrag_13</text>
+  <rect x="440.0" y="2270.0" width="130.0" height="290.0" fill="#f0fff0" stroke="#77aa77" stroke-width="0.7" stroke-dasharray="5 3" rx="3"/>
+  <text x="443.0" y="2279.0" font-size="6" fill="#77aa77" opacity="0.8">efrag_14</text>
+  <rect x="640.0" y="2270.0" width="130.0" height="100.0" fill="#f0fff0" stroke="#77aa77" stroke-width="0.7" stroke-dasharray="5 3" rx="3"/>
+  <text x="643.0" y="2279.0" font-size="6" fill="#77aa77" opacity="0.8">efrag_15</text>
+  <rect x="840.0" y="2270.0" width="130.0" height="195.0" fill="#f0fff0" stroke="#77aa77" stroke-width="0.7" stroke-dasharray="5 3" rx="3"/>
+  <text x="843.0" y="2279.0" font-size="6" fill="#77aa77" opacity="0.8">efrag_16</text>
+  <rect x="1040.0" y="2270.0" width="130.0" height="100.0" fill="#f0fff0" stroke="#77aa77" stroke-width="0.7" stroke-dasharray="5 3" rx="3"/>
+  <text x="1043.0" y="2279.0" font-size="6" fill="#77aa77" opacity="0.8">efrag_17</text>
+  <rect x="40.0" y="2770.0" width="130.0" height="100.0" fill="#f0fff0" stroke="#77aa77" stroke-width="0.7" stroke-dasharray="5 3" rx="3"/>
+  <text x="43.0" y="2779.0" font-size="6" fill="#77aa77" opacity="0.8">efrag_18</text>
+  <rect x="240.0" y="2770.0" width="130.0" height="385.0" fill="#f0fff0" stroke="#77aa77" stroke-width="0.7" stroke-dasharray="5 3" rx="3"/>
+  <text x="243.0" y="2779.0" font-size="6" fill="#77aa77" opacity="0.8">efrag_19</text>
+  <rect x="440.0" y="1270.0" width="130.0" height="100.0" fill="#f0fff0" stroke="#77aa77" stroke-width="0.7" stroke-dasharray="5 3" rx="3"/>
+  <text x="443.0" y="1279.0" font-size="6" fill="#77aa77" opacity="0.8">efrag_2</text>
+  <rect x="440.0" y="2770.0" width="130.0" height="100.0" fill="#f0fff0" stroke="#77aa77" stroke-width="0.7" stroke-dasharray="5 3" rx="3"/>
+  <text x="443.0" y="2779.0" font-size="6" fill="#77aa77" opacity="0.8">efrag_20</text>
+  <rect x="640.0" y="2770.0" width="130.0" height="100.0" fill="#f0fff0" stroke="#77aa77" stroke-width="0.7" stroke-dasharray="5 3" rx="3"/>
+  <text x="643.0" y="2779.0" font-size="6" fill="#77aa77" opacity="0.8">efrag_21</text>
+  <rect x="840.0" y="2770.0" width="130.0" height="195.0" fill="#f0fff0" stroke="#77aa77" stroke-width="0.7" stroke-dasharray="5 3" rx="3"/>
+  <text x="843.0" y="2779.0" font-size="6" fill="#77aa77" opacity="0.8">efrag_22</text>
+  <rect x="1040.0" y="2770.0" width="130.0" height="100.0" fill="#f0fff0" stroke="#77aa77" stroke-width="0.7" stroke-dasharray="5 3" rx="3"/>
+  <text x="1043.0" y="2779.0" font-size="6" fill="#77aa77" opacity="0.8">efrag_23</text>
+  <rect x="40.0" y="3270.0" width="130.0" height="100.0" fill="#f0fff0" stroke="#77aa77" stroke-width="0.7" stroke-dasharray="5 3" rx="3"/>
+  <text x="43.0" y="3279.0" font-size="6" fill="#77aa77" opacity="0.8">efrag_24</text>
+  <rect x="240.0" y="3270.0" width="130.0" height="100.0" fill="#f0fff0" stroke="#77aa77" stroke-width="0.7" stroke-dasharray="5 3" rx="3"/>
+  <text x="243.0" y="3279.0" font-size="6" fill="#77aa77" opacity="0.8">efrag_25</text>
+  <rect x="440.0" y="3270.0" width="130.0" height="195.0" fill="#f0fff0" stroke="#77aa77" stroke-width="0.7" stroke-dasharray="5 3" rx="3"/>
+  <text x="443.0" y="3279.0" font-size="6" fill="#77aa77" opacity="0.8">efrag_26</text>
+  <rect x="640.0" y="3270.0" width="130.0" height="100.0" fill="#f0fff0" stroke="#77aa77" stroke-width="0.7" stroke-dasharray="5 3" rx="3"/>
+  <text x="643.0" y="3279.0" font-size="6" fill="#77aa77" opacity="0.8">efrag_27</text>
+  <rect x="840.0" y="3270.0" width="130.0" height="100.0" fill="#f0fff0" stroke="#77aa77" stroke-width="0.7" stroke-dasharray="5 3" rx="3"/>
+  <text x="843.0" y="3279.0" font-size="6" fill="#77aa77" opacity="0.8">efrag_28</text>
+  <rect x="1040.0" y="3270.0" width="130.0" height="100.0" fill="#f0fff0" stroke="#77aa77" stroke-width="0.7" stroke-dasharray="5 3" rx="3"/>
+  <text x="1043.0" y="3279.0" font-size="6" fill="#77aa77" opacity="0.8">efrag_29</text>
+  <rect x="640.0" y="1270.0" width="130.0" height="195.0" fill="#f0fff0" stroke="#77aa77" stroke-width="0.7" stroke-dasharray="5 3" rx="3"/>
+  <text x="643.0" y="1279.0" font-size="6" fill="#77aa77" opacity="0.8">efrag_3</text>
+  <rect x="840.0" y="1270.0" width="130.0" height="100.0" fill="#f0fff0" stroke="#77aa77" stroke-width="0.7" stroke-dasharray="5 3" rx="3"/>
+  <text x="843.0" y="1279.0" font-size="6" fill="#77aa77" opacity="0.8">efrag_4</text>
+  <rect x="1040.0" y="1270.0" width="130.0" height="100.0" fill="#f0fff0" stroke="#77aa77" stroke-width="0.7" stroke-dasharray="5 3" rx="3"/>
+  <text x="1043.0" y="1279.0" font-size="6" fill="#77aa77" opacity="0.8">efrag_5</text>
+  <rect x="40.0" y="1770.0" width="130.0" height="100.0" fill="#f0fff0" stroke="#77aa77" stroke-width="0.7" stroke-dasharray="5 3" rx="3"/>
+  <text x="43.0" y="1779.0" font-size="6" fill="#77aa77" opacity="0.8">efrag_6</text>
+  <rect x="240.0" y="1770.0" width="130.0" height="195.0" fill="#f0fff0" stroke="#77aa77" stroke-width="0.7" stroke-dasharray="5 3" rx="3"/>
+  <text x="243.0" y="1779.0" font-size="6" fill="#77aa77" opacity="0.8">efrag_7</text>
+  <rect x="440.0" y="1770.0" width="130.0" height="195.0" fill="#f0fff0" stroke="#77aa77" stroke-width="0.7" stroke-dasharray="5 3" rx="3"/>
+  <text x="443.0" y="1779.0" font-size="6" fill="#77aa77" opacity="0.8">efrag_8</text>
+  <rect x="640.0" y="1770.0" width="130.0" height="100.0" fill="#f0fff0" stroke="#77aa77" stroke-width="0.7" stroke-dasharray="5 3" rx="3"/>
+  <text x="643.0" y="1779.0" font-size="6" fill="#77aa77" opacity="0.8">efrag_9</text>
+  <rect x="40.0" y="40.0" width="315.0" height="100.0" fill="#eef0ff" stroke="#7777cc" stroke-width="0.7" stroke-dasharray="5 3" rx="3"/>
+  <text x="43.0" y="49.0" font-size="6" fill="#7777cc" opacity="0.8">rfrag_region_0</text>
+  <rect x="540.0" y="40.0" width="315.0" height="100.0" fill="#eef0ff" stroke="#7777cc" stroke-width="0.7" stroke-dasharray="5 3" rx="3"/>
+  <text x="543.0" y="49.0" font-size="6" fill="#7777cc" opacity="0.8">rfrag_region_1</text>
+  <rect x="2040.0" y="190.0" width="315.0" height="100.0" fill="#eef0ff" stroke="#7777cc" stroke-width="0.7" stroke-dasharray="5 3" rx="3"/>
+  <text x="2043.0" y="199.0" font-size="6" fill="#7777cc" opacity="0.8">rfrag_region_10</text>
+  <rect x="2540.0" y="190.0" width="315.0" height="100.0" fill="#eef0ff" stroke="#7777cc" stroke-width="0.7" stroke-dasharray="5 3" rx="3"/>
+  <text x="2543.0" y="199.0" font-size="6" fill="#7777cc" opacity="0.8">rfrag_region_11</text>
+  <rect x="40.0" y="340.0" width="190.0" height="80.0" fill="#eef0ff" stroke="#7777cc" stroke-width="0.7" stroke-dasharray="5 3" rx="3"/>
+  <text x="43.0" y="349.0" font-size="6" fill="#7777cc" opacity="0.8">rfrag_region_12</text>
+  <rect x="540.0" y="340.0" width="335.0" height="100.0" fill="#eef0ff" stroke="#7777cc" stroke-width="0.7" stroke-dasharray="5 3" rx="3"/>
+  <text x="543.0" y="349.0" font-size="6" fill="#7777cc" opacity="0.8">rfrag_region_13</text>
+  <rect x="1040.0" y="340.0" width="335.0" height="100.0" fill="#eef0ff" stroke="#7777cc" stroke-width="0.7" stroke-dasharray="5 3" rx="3"/>
+  <text x="1043.0" y="349.0" font-size="6" fill="#7777cc" opacity="0.8">rfrag_region_14</text>
+  <rect x="1540.0" y="340.0" width="315.0" height="100.0" fill="#eef0ff" stroke="#7777cc" stroke-width="0.7" stroke-dasharray="5 3" rx="3"/>
+  <text x="1543.0" y="349.0" font-size="6" fill="#7777cc" opacity="0.8">rfrag_region_15</text>
+  <rect x="2040.0" y="340.0" width="240.0" height="100.0" fill="#eef0ff" stroke="#7777cc" stroke-width="0.7" stroke-dasharray="5 3" rx="3"/>
+  <text x="2043.0" y="349.0" font-size="6" fill="#7777cc" opacity="0.8">rfrag_region_16</text>
+  <rect x="2540.0" y="340.0" width="315.0" height="100.0" fill="#eef0ff" stroke="#7777cc" stroke-width="0.7" stroke-dasharray="5 3" rx="3"/>
+  <text x="2543.0" y="349.0" font-size="6" fill="#7777cc" opacity="0.8">rfrag_region_17</text>
+  <rect x="40.0" y="490.0" width="240.0" height="100.0" fill="#eef0ff" stroke="#7777cc" stroke-width="0.7" stroke-dasharray="5 3" rx="3"/>
+  <text x="43.0" y="499.0" font-size="6" fill="#7777cc" opacity="0.8">rfrag_region_18</text>
+  <rect x="540.0" y="490.0" width="335.0" height="100.0" fill="#eef0ff" stroke="#7777cc" stroke-width="0.7" stroke-dasharray="5 3" rx="3"/>
+  <text x="543.0" y="499.0" font-size="6" fill="#7777cc" opacity="0.8">rfrag_region_19</text>
+  <rect x="1040.0" y="40.0" width="440.0" height="100.0" fill="#eef0ff" stroke="#7777cc" stroke-width="0.7" stroke-dasharray="5 3" rx="3"/>
+  <text x="1043.0" y="49.0" font-size="6" fill="#7777cc" opacity="0.8">rfrag_region_2</text>
+  <rect x="1040.0" y="490.0" width="315.0" height="100.0" fill="#eef0ff" stroke="#7777cc" stroke-width="0.7" stroke-dasharray="5 3" rx="3"/>
+  <text x="1043.0" y="499.0" font-size="6" fill="#7777cc" opacity="0.8">rfrag_region_20</text>
+  <rect x="1540.0" y="490.0" width="335.0" height="100.0" fill="#eef0ff" stroke="#7777cc" stroke-width="0.7" stroke-dasharray="5 3" rx="3"/>
+  <text x="1543.0" y="499.0" font-size="6" fill="#7777cc" opacity="0.8">rfrag_region_21</text>
+  <rect x="2040.0" y="490.0" width="315.0" height="100.0" fill="#eef0ff" stroke="#7777cc" stroke-width="0.7" stroke-dasharray="5 3" rx="3"/>
+  <text x="2043.0" y="499.0" font-size="6" fill="#7777cc" opacity="0.8">rfrag_region_22</text>
+  <rect x="2540.0" y="490.0" width="240.0" height="100.0" fill="#eef0ff" stroke="#7777cc" stroke-width="0.7" stroke-dasharray="5 3" rx="3"/>
+  <text x="2543.0" y="499.0" font-size="6" fill="#7777cc" opacity="0.8">rfrag_region_23</text>
+  <rect x="40.0" y="640.0" width="240.0" height="100.0" fill="#eef0ff" stroke="#7777cc" stroke-width="0.7" stroke-dasharray="5 3" rx="3"/>
+  <text x="43.0" y="649.0" font-size="6" fill="#7777cc" opacity="0.8">rfrag_region_24</text>
+  <rect x="540.0" y="640.0" width="115.0" height="45.0" fill="#eef0ff" stroke="#7777cc" stroke-width="0.7" stroke-dasharray="5 3" rx="3"/>
+  <text x="543.0" y="649.0" font-size="6" fill="#7777cc" opacity="0.8">rfrag_region_25</text>
+  <rect x="1040.0" y="640.0" width="315.0" height="100.0" fill="#eef0ff" stroke="#7777cc" stroke-width="0.7" stroke-dasharray="5 3" rx="3"/>
+  <text x="1043.0" y="649.0" font-size="6" fill="#7777cc" opacity="0.8">rfrag_region_26</text>
+  <rect x="1540.0" y="640.0" width="315.0" height="100.0" fill="#eef0ff" stroke="#7777cc" stroke-width="0.7" stroke-dasharray="5 3" rx="3"/>
+  <text x="1543.0" y="649.0" font-size="6" fill="#7777cc" opacity="0.8">rfrag_region_27</text>
+  <rect x="2040.0" y="640.0" width="315.0" height="100.0" fill="#eef0ff" stroke="#7777cc" stroke-width="0.7" stroke-dasharray="5 3" rx="3"/>
+  <text x="2043.0" y="649.0" font-size="6" fill="#7777cc" opacity="0.8">rfrag_region_28</text>
+  <rect x="2540.0" y="640.0" width="440.0" height="100.0" fill="#eef0ff" stroke="#7777cc" stroke-width="0.7" stroke-dasharray="5 3" rx="3"/>
+  <text x="2543.0" y="649.0" font-size="6" fill="#7777cc" opacity="0.8">rfrag_region_29</text>
+  <rect x="1540.0" y="40.0" width="315.0" height="100.0" fill="#eef0ff" stroke="#7777cc" stroke-width="0.7" stroke-dasharray="5 3" rx="3"/>
+  <text x="1543.0" y="49.0" font-size="6" fill="#7777cc" opacity="0.8">rfrag_region_3</text>
+  <rect x="40.0" y="790.0" width="240.0" height="100.0" fill="#eef0ff" stroke="#7777cc" stroke-width="0.7" stroke-dasharray="5 3" rx="3"/>
+  <text x="43.0" y="799.0" font-size="6" fill="#7777cc" opacity="0.8">rfrag_region_30</text>
+  <rect x="540.0" y="790.0" width="315.0" height="100.0" fill="#eef0ff" stroke="#7777cc" stroke-width="0.7" stroke-dasharray="5 3" rx="3"/>
+  <text x="543.0" y="799.0" font-size="6" fill="#7777cc" opacity="0.8">rfrag_region_31</text>
+  <rect x="1040.0" y="790.0" width="335.0" height="100.0" fill="#eef0ff" stroke="#7777cc" stroke-width="0.7" stroke-dasharray="5 3" rx="3"/>
+  <text x="1043.0" y="799.0" font-size="6" fill="#7777cc" opacity="0.8">rfrag_region_32</text>
+  <rect x="1540.0" y="790.0" width="315.0" height="100.0" fill="#eef0ff" stroke="#7777cc" stroke-width="0.7" stroke-dasharray="5 3" rx="3"/>
+  <text x="1543.0" y="799.0" font-size="6" fill="#7777cc" opacity="0.8">rfrag_region_33</text>
+  <rect x="2040.0" y="40.0" width="315.0" height="100.0" fill="#eef0ff" stroke="#7777cc" stroke-width="0.7" stroke-dasharray="5 3" rx="3"/>
+  <text x="2043.0" y="49.0" font-size="6" fill="#7777cc" opacity="0.8">rfrag_region_4</text>
+  <rect x="2540.0" y="40.0" width="440.0" height="100.0" fill="#eef0ff" stroke="#7777cc" stroke-width="0.7" stroke-dasharray="5 3" rx="3"/>
+  <text x="2543.0" y="49.0" font-size="6" fill="#7777cc" opacity="0.8">rfrag_region_5</text>
+  <rect x="40.0" y="190.0" width="315.0" height="100.0" fill="#eef0ff" stroke="#7777cc" stroke-width="0.7" stroke-dasharray="5 3" rx="3"/>
+  <text x="43.0" y="199.0" font-size="6" fill="#7777cc" opacity="0.8">rfrag_region_6</text>
+  <rect x="540.0" y="190.0" width="315.0" height="100.0" fill="#eef0ff" stroke="#7777cc" stroke-width="0.7" stroke-dasharray="5 3" rx="3"/>
+  <text x="543.0" y="199.0" font-size="6" fill="#7777cc" opacity="0.8">rfrag_region_7</text>
+  <rect x="1040.0" y="190.0" width="335.0" height="100.0" fill="#eef0ff" stroke="#7777cc" stroke-width="0.7" stroke-dasharray="5 3" rx="3"/>
+  <text x="1043.0" y="199.0" font-size="6" fill="#7777cc" opacity="0.8">rfrag_region_8</text>
+  <rect x="1540.0" y="190.0" width="190.0" height="80.0" fill="#eef0ff" stroke="#7777cc" stroke-width="0.7" stroke-dasharray="5 3" rx="3"/>
+  <text x="1543.0" y="199.0" font-size="6" fill="#7777cc" opacity="0.8">rfrag_region_9</text>
+  <!-- edges -->
+  <polyline points="85.0,90.0 110.0,90.0" fill="none" stroke="#444" stroke-width="1.0"  marker-end="url(#arr)"/>
+  <polyline points="210.0,90.0 235.0,90.0" fill="none" stroke="#444" stroke-width="1.0"  marker-end="url(#arr)"/>
+  <polyline points="285.0,90.0 310.0,90.0" fill="none" stroke="#444" stroke-width="1.0"  marker-end="url(#arr)"/>
+  <polyline points="585.0,90.0 610.0,90.0" fill="none" stroke="#444" stroke-width="1.0"  marker-end="url(#arr)"/>
+  <polyline points="710.0,90.0 735.0,90.0" fill="none" stroke="#444" stroke-width="1.0"  marker-end="url(#arr)"/>
+  <polyline points="785.0,90.0 810.0,90.0" fill="none" stroke="#444" stroke-width="1.0"  marker-end="url(#arr)"/>
+  <polyline points="1085.0,90.0 1110.0,90.0" fill="none" stroke="#444" stroke-width="1.0"  marker-end="url(#arr)"/>
+  <polyline points="1210.0,90.0 1235.0,90.0" fill="none" stroke="#444" stroke-width="1.0"  marker-end="url(#arr)"/>
+  <polyline points="1335.0,90.0 1360.0,90.0" fill="none" stroke="#444" stroke-width="1.0"  marker-end="url(#arr)"/>
+  <polyline points="1410.0,90.0 1435.0,90.0" fill="none" stroke="#444" stroke-width="1.0"  marker-end="url(#arr)"/>
+  <polyline points="1585.0,90.0 1610.0,90.0" fill="none" stroke="#444" stroke-width="1.0"  marker-end="url(#arr)"/>
+  <polyline points="1710.0,90.0 1735.0,90.0" fill="none" stroke="#444" stroke-width="1.0"  marker-end="url(#arr)"/>
+  <polyline points="1785.0,90.0 1810.0,90.0" fill="none" stroke="#444" stroke-width="1.0"  marker-end="url(#arr)"/>
+  <polyline points="2085.0,90.0 2110.0,90.0" fill="none" stroke="#444" stroke-width="1.0"  marker-end="url(#arr)"/>
+  <polyline points="2210.0,90.0 2235.0,90.0" fill="none" stroke="#444" stroke-width="1.0"  marker-end="url(#arr)"/>
+  <polyline points="2285.0,90.0 2310.0,90.0" fill="none" stroke="#444" stroke-width="1.0"  marker-end="url(#arr)"/>
+  <polyline points="2585.0,90.0 2610.0,90.0" fill="none" stroke="#444" stroke-width="1.0"  marker-end="url(#arr)"/>
+  <polyline points="2710.0,90.0 2735.0,90.0" fill="none" stroke="#444" stroke-width="1.0"  marker-end="url(#arr)"/>
+  <polyline points="2835.0,90.0 2860.0,90.0" fill="none" stroke="#444" stroke-width="1.0"  marker-end="url(#arr)"/>
+  <polyline points="2910.0,90.0 2935.0,90.0" fill="none" stroke="#444" stroke-width="1.0"  marker-end="url(#arr)"/>
+  <polyline points="85.0,240.0 110.0,240.0" fill="none" stroke="#444" stroke-width="1.0"  marker-end="url(#arr)"/>
+  <polyline points="210.0,240.0 235.0,240.0" fill="none" stroke="#444" stroke-width="1.0"  marker-end="url(#arr)"/>
+  <polyline points="285.0,240.0 310.0,240.0" fill="none" stroke="#444" stroke-width="1.0"  marker-end="url(#arr)"/>
+  <polyline points="585.0,240.0 610.0,240.0" fill="none" stroke="#444" stroke-width="1.0"  marker-end="url(#arr)"/>
+  <polyline points="710.0,240.0 735.0,240.0" fill="none" stroke="#444" stroke-width="1.0"  marker-end="url(#arr)"/>
+  <polyline points="785.0,240.0 810.0,240.0" fill="none" stroke="#444" stroke-width="1.0"  marker-end="url(#arr)"/>
+  <polyline points="1105.0,240.0 1130.0,240.0" fill="none" stroke="#444" stroke-width="1.0"  marker-end="url(#arr)"/>
+  <polyline points="1160.0,240.0 1185.0,240.0" fill="none" stroke="#444" stroke-width="1.0"  marker-end="url(#arr)"/>
+  <polyline points="1285.0,240.0 1310.0,240.0" fill="none" stroke="#444" stroke-width="1.0"  marker-end="url(#arr)"/>
+  <polyline points="1585.0,230.0 1610.0,230.0" fill="none" stroke="#444" stroke-width="1.0"  marker-end="url(#arr)"/>
+  <polyline points="1660.0,230.0 1685.0,230.0" fill="none" stroke="#444" stroke-width="1.0"  marker-end="url(#arr)"/>
+  <polyline points="2085.0,240.0 2110.0,240.0" fill="none" stroke="#444" stroke-width="1.0"  marker-end="url(#arr)"/>
+  <polyline points="2210.0,240.0 2235.0,240.0" fill="none" stroke="#444" stroke-width="1.0"  marker-end="url(#arr)"/>
+  <polyline points="2285.0,240.0 2310.0,240.0" fill="none" stroke="#444" stroke-width="1.0"  marker-end="url(#arr)"/>
+  <polyline points="2585.0,240.0 2610.0,240.0" fill="none" stroke="#444" stroke-width="1.0"  marker-end="url(#arr)"/>
+  <polyline points="2710.0,240.0 2735.0,240.0" fill="none" stroke="#444" stroke-width="1.0"  marker-end="url(#arr)"/>
+  <polyline points="2785.0,240.0 2810.0,240.0" fill="none" stroke="#444" stroke-width="1.0"  marker-end="url(#arr)"/>
+  <polyline points="85.0,380.0 110.0,380.0" fill="none" stroke="#444" stroke-width="1.0"  marker-end="url(#arr)"/>
+  <polyline points="160.0,380.0 185.0,380.0" fill="none" stroke="#444" stroke-width="1.0"  marker-end="url(#arr)"/>
+  <polyline points="605.0,390.0 630.0,390.0" fill="none" stroke="#444" stroke-width="1.0"  marker-end="url(#arr)"/>
+  <polyline points="660.0,390.0 685.0,390.0" fill="none" stroke="#444" stroke-width="1.0"  marker-end="url(#arr)"/>
+  <polyline points="785.0,390.0 810.0,390.0" fill="none" stroke="#444" stroke-width="1.0"  marker-end="url(#arr)"/>
+  <polyline points="1105.0,390.0 1130.0,390.0" fill="none" stroke="#444" stroke-width="1.0"  marker-end="url(#arr)"/>
+  <polyline points="1160.0,390.0 1185.0,390.0" fill="none" stroke="#444" stroke-width="1.0"  marker-end="url(#arr)"/>
+  <polyline points="1285.0,390.0 1310.0,390.0" fill="none" stroke="#444" stroke-width="1.0"  marker-end="url(#arr)"/>
+  <polyline points="1585.0,390.0 1610.0,390.0" fill="none" stroke="#444" stroke-width="1.0"  marker-end="url(#arr)"/>
+  <polyline points="1710.0,390.0 1735.0,390.0" fill="none" stroke="#444" stroke-width="1.0"  marker-end="url(#arr)"/>
+  <polyline points="1785.0,390.0 1810.0,390.0" fill="none" stroke="#444" stroke-width="1.0"  marker-end="url(#arr)"/>
+  <polyline points="2085.0,390.0 2110.0,390.0" fill="none" stroke="#444" stroke-width="1.0"  marker-end="url(#arr)"/>
+  <polyline points="2210.0,390.0 2235.0,390.0" fill="none" stroke="#444" stroke-width="1.0"  marker-end="url(#arr)"/>
+  <polyline points="2585.0,390.0 2610.0,390.0" fill="none" stroke="#444" stroke-width="1.0"  marker-end="url(#arr)"/>
+  <polyline points="2710.0,390.0 2735.0,390.0" fill="none" stroke="#444" stroke-width="1.0"  marker-end="url(#arr)"/>
+  <polyline points="2785.0,390.0 2810.0,390.0" fill="none" stroke="#444" stroke-width="1.0"  marker-end="url(#arr)"/>
+  <polyline points="85.0,540.0 110.0,540.0" fill="none" stroke="#444" stroke-width="1.0"  marker-end="url(#arr)"/>
+  <polyline points="210.0,540.0 235.0,540.0" fill="none" stroke="#444" stroke-width="1.0"  marker-end="url(#arr)"/>
+  <polyline points="605.0,540.0 630.0,540.0" fill="none" stroke="#444" stroke-width="1.0"  marker-end="url(#arr)"/>
+  <polyline points="660.0,540.0 685.0,540.0" fill="none" stroke="#444" stroke-width="1.0"  marker-end="url(#arr)"/>
+  <polyline points="785.0,540.0 810.0,540.0" fill="none" stroke="#444" stroke-width="1.0"  marker-end="url(#arr)"/>
+  <polyline points="1085.0,540.0 1110.0,540.0" fill="none" stroke="#444" stroke-width="1.0"  marker-end="url(#arr)"/>
+  <polyline points="1210.0,540.0 1235.0,540.0" fill="none" stroke="#444" stroke-width="1.0"  marker-end="url(#arr)"/>
+  <polyline points="1285.0,540.0 1310.0,540.0" fill="none" stroke="#444" stroke-width="1.0"  marker-end="url(#arr)"/>
+  <polyline points="1605.0,540.0 1630.0,540.0" fill="none" stroke="#444" stroke-width="1.0"  marker-end="url(#arr)"/>
+  <polyline points="1660.0,540.0 1685.0,540.0" fill="none" stroke="#444" stroke-width="1.0"  marker-end="url(#arr)"/>
+  <polyline points="1785.0,540.0 1810.0,540.0" fill="none" stroke="#444" stroke-width="1.0"  marker-end="url(#arr)"/>
+  <polyline points="2085.0,540.0 2110.0,540.0" fill="none" stroke="#444" stroke-width="1.0"  marker-end="url(#arr)"/>
+  <polyline points="2210.0,540.0 2235.0,540.0" fill="none" stroke="#444" stroke-width="1.0"  marker-end="url(#arr)"/>
+  <polyline points="2285.0,540.0 2310.0,540.0" fill="none" stroke="#444" stroke-width="1.0"  marker-end="url(#arr)"/>
+  <polyline points="2585.0,540.0 2610.0,540.0" fill="none" stroke="#444" stroke-width="1.0"  marker-end="url(#arr)"/>
+  <polyline points="2710.0,540.0 2735.0,540.0" fill="none" stroke="#444" stroke-width="1.0"  marker-end="url(#arr)"/>
+  <polyline points="85.0,690.0 110.0,690.0" fill="none" stroke="#444" stroke-width="1.0"  marker-end="url(#arr)"/>
+  <polyline points="210.0,690.0 235.0,690.0" fill="none" stroke="#444" stroke-width="1.0"  marker-end="url(#arr)"/>
+  <polyline points="585.0,662.5 610.0,662.5" fill="none" stroke="#444" stroke-width="1.0"  marker-end="url(#arr)"/>
+  <polyline points="1085.0,690.0 1110.0,690.0" fill="none" stroke="#444" stroke-width="1.0"  marker-end="url(#arr)"/>
+  <polyline points="1210.0,690.0 1235.0,690.0" fill="none" stroke="#444" stroke-width="1.0"  marker-end="url(#arr)"/>
+  <polyline points="1285.0,690.0 1310.0,690.0" fill="none" stroke="#444" stroke-width="1.0"  marker-end="url(#arr)"/>
+  <polyline points="1585.0,690.0 1610.0,690.0" fill="none" stroke="#444" stroke-width="1.0"  marker-end="url(#arr)"/>
+  <polyline points="1710.0,690.0 1735.0,690.0" fill="none" stroke="#444" stroke-width="1.0"  marker-end="url(#arr)"/>
+  <polyline points="1785.0,690.0 1810.0,690.0" fill="none" stroke="#444" stroke-width="1.0"  marker-end="url(#arr)"/>
+  <polyline points="2085.0,690.0 2110.0,690.0" fill="none" stroke="#444" stroke-width="1.0"  marker-end="url(#arr)"/>
+  <polyline points="2210.0,690.0 2235.0,690.0" fill="none" stroke="#444" stroke-width="1.0"  marker-end="url(#arr)"/>
+  <polyline points="2285.0,690.0 2310.0,690.0" fill="none" stroke="#444" stroke-width="1.0"  marker-end="url(#arr)"/>
+  <polyline points="2585.0,690.0 2610.0,690.0" fill="none" stroke="#444" stroke-width="1.0"  marker-end="url(#arr)"/>
+  <polyline points="2710.0,690.0 2735.0,690.0" fill="none" stroke="#444" stroke-width="1.0"  marker-end="url(#arr)"/>
+  <polyline points="2835.0,690.0 2860.0,690.0" fill="none" stroke="#444" stroke-width="1.0"  marker-end="url(#arr)"/>
+  <polyline points="2910.0,690.0 2935.0,690.0" fill="none" stroke="#444" stroke-width="1.0"  marker-end="url(#arr)"/>
+  <polyline points="85.0,840.0 110.0,840.0" fill="none" stroke="#444" stroke-width="1.0"  marker-end="url(#arr)"/>
+  <polyline points="210.0,840.0 235.0,840.0" fill="none" stroke="#444" stroke-width="1.0"  marker-end="url(#arr)"/>
+  <polyline points="585.0,840.0 610.0,840.0" fill="none" stroke="#444" stroke-width="1.0"  marker-end="url(#arr)"/>
+  <polyline points="710.0,840.0 735.0,840.0" fill="none" stroke="#444" stroke-width="1.0"  marker-end="url(#arr)"/>
+  <polyline points="785.0,840.0 810.0,840.0" fill="none" stroke="#444" stroke-width="1.0"  marker-end="url(#arr)"/>
+  <polyline points="1105.0,840.0 1130.0,840.0" fill="none" stroke="#444" stroke-width="1.0"  marker-end="url(#arr)"/>
+  <polyline points="1160.0,840.0 1185.0,840.0" fill="none" stroke="#444" stroke-width="1.0"  marker-end="url(#arr)"/>
+  <polyline points="1285.0,840.0 1310.0,840.0" fill="none" stroke="#444" stroke-width="1.0"  marker-end="url(#arr)"/>
+  <polyline points="1585.0,840.0 1610.0,840.0" fill="none" stroke="#444" stroke-width="1.0"  marker-end="url(#arr)"/>
+  <polyline points="1710.0,840.0 1735.0,840.0" fill="none" stroke="#444" stroke-width="1.0"  marker-end="url(#arr)"/>
+  <polyline points="1785.0,840.0 1810.0,840.0" fill="none" stroke="#444" stroke-width="1.0"  marker-end="url(#arr)"/>
+  <polyline points="85.0,1060.0 110.0,1060.0" fill="none" stroke="#444" stroke-width="1.0"  marker-end="url(#arr)"/>
+  <polyline points="160.0,1060.0 185.0,1060.0" fill="none" stroke="#444" stroke-width="1.0"  marker-end="url(#arr)"/>
+  <polyline points="335.0,1060.0 360.0,1060.0" fill="none" stroke="#444" stroke-width="1.0"  marker-end="url(#arr)"/>
+  <polyline points="410.0,1060.0 435.0,1060.0" fill="none" stroke="#444" stroke-width="1.0"  marker-end="url(#arr)"/>
+  <polyline points="585.0,1060.0 610.0,1060.0" fill="none" stroke="#444" stroke-width="1.0"  marker-end="url(#arr)"/>
+  <polyline points="660.0,1060.0 685.0,1060.0" fill="none" stroke="#444" stroke-width="1.0"  marker-end="url(#arr)"/>
+  <polyline points="835.0,1060.0 860.0,1060.0" fill="none" stroke="#444" stroke-width="1.0"  marker-end="url(#arr)"/>
+  <polyline points="910.0,1060.0 935.0,1060.0" fill="none" stroke="#444" stroke-width="1.0"  marker-end="url(#arr)"/>
+  <polyline points="705.0,1355.0 705.0,1380.0" fill="none" stroke="#444" stroke-width="1.0"  marker-end="url(#arr)"/>
+  <polyline points="305.0,1855.0 305.0,1880.0" fill="none" stroke="#444" stroke-width="1.0"  marker-end="url(#arr)"/>
+  <polyline points="505.0,1855.0 505.0,1880.0" fill="none" stroke="#444" stroke-width="1.0"  marker-end="url(#arr)"/>
+  <polyline points="105.0,2355.0 105.0,2380.0" fill="none" stroke="#444" stroke-width="1.0"  marker-end="url(#arr)"/>
+  <polyline points="105.0,2450.0 105.0,2475.0" fill="none" stroke="#444" stroke-width="1.0"  marker-end="url(#arr)"/>
+  <polyline points="505.0,2355.0 505.0,2380.0" fill="none" stroke="#444" stroke-width="1.0"  marker-end="url(#arr)"/>
+  <polyline points="505.0,2450.0 505.0,2475.0" fill="none" stroke="#444" stroke-width="1.0"  marker-end="url(#arr)"/>
+  <polyline points="905.0,2355.0 905.0,2380.0" fill="none" stroke="#444" stroke-width="1.0"  marker-end="url(#arr)"/>
+  <polyline points="305.0,2855.0 305.0,2880.0" fill="none" stroke="#444" stroke-width="1.0"  marker-end="url(#arr)"/>
+  <polyline points="305.0,2950.0 305.0,2975.0" fill="none" stroke="#444" stroke-width="1.0"  marker-end="url(#arr)"/>
+  <polyline points="305.0,3045.0 305.0,3070.0" fill="none" stroke="#444" stroke-width="1.0"  marker-end="url(#arr)"/>
+  <polyline points="905.0,2855.0 905.0,2880.0" fill="none" stroke="#444" stroke-width="1.0"  marker-end="url(#arr)"/>
+  <polyline points="505.0,3355.0 505.0,3380.0" fill="none" stroke="#444" stroke-width="1.0"  marker-end="url(#arr)"/>
+  <polyline points="340.0,90.0 197.5,90.0 197.5,1060.0 55.0,1060.0" fill="none" stroke="#c03030" stroke-width="1.8" stroke-dasharray="7 3" marker-end="url(#arrs)"/>
+  <polyline points="215.0,1060.0 1135.0,1060.0 1135.0,690.0 2055.0,690.0" fill="none" stroke="#c03030" stroke-width="1.8" stroke-dasharray="7 3" marker-end="url(#arrs)"/>
+  <polyline points="340.0,240.0 322.5,240.0 322.5,1060.0 305.0,1060.0" fill="none" stroke="#c03030" stroke-width="1.8" stroke-dasharray="7 3" marker-end="url(#arrs)"/>
+  <polyline points="465.0,1060.0 1010.0,1060.0 1010.0,540.0 1555.0,540.0" fill="none" stroke="#c03030" stroke-width="1.8" stroke-dasharray="7 3" marker-end="url(#arrs)"/>
+  <polyline points="1715.0,230.0 1135.0,230.0 1135.0,1060.0 555.0,1060.0" fill="none" stroke="#c03030" stroke-width="1.8" stroke-dasharray="7 3" marker-end="url(#arrs)"/>
+  <polyline points="715.0,1060.0 1635.0,1060.0 1635.0,390.0 2555.0,390.0" fill="none" stroke="#c03030" stroke-width="1.8" stroke-dasharray="7 3" marker-end="url(#arrs)"/>
+  <polyline points="1360.0,390.0 1082.5,390.0 1082.5,1060.0 805.0,1060.0" fill="none" stroke="#c03030" stroke-width="1.8" stroke-dasharray="7 3" marker-end="url(#arrs)"/>
+  <polyline points="965.0,1060.0 1010.0,1060.0 1010.0,540.0 1055.0,540.0" fill="none" stroke="#c03030" stroke-width="1.8" stroke-dasharray="7 3" marker-end="url(#arrs)"/>
+  <!-- nodes -->
+  <rect x="55.0" y="82.5" width="30.0" height="15.0" fill="#c8c8c8" stroke="#333" stroke-width="0.5" rx="2"><title>rfrag_region_0:n0 (pipe_segment)</title></rect>
+  <text x="70.0" y="91.9" font-size="5.1" text-anchor="middle" fill="#111">pipe</text>
+  <rect x="110.0" y="55.0" width="100.0" height="70.0" fill="#9ec4e8" stroke="#333" stroke-width="0.5" rx="2"><title>rfrag_region_0:n1 (equipment_block)</title></rect>
+  <text x="160.0" y="92.5" font-size="6.5" text-anchor="middle" fill="#111">equip</text>
+  <rect x="235.0" y="65.0" width="50.0" height="50.0" fill="#f5c97f" stroke="#333" stroke-width="0.5" rx="2"><title>rfrag_region_0:n2 (valve:isolation)</title></rect>
+  <text x="260.0" y="92.5" font-size="6.5" text-anchor="middle" fill="#111">V-iso</text>
+  <rect x="310.0" y="82.5" width="30.0" height="15.0" fill="#c8c8c8" stroke="#333" stroke-width="0.5" rx="2"><title>rfrag_region_0:n3 (pipe_segment)</title></rect>
+  <text x="325.0" y="91.9" font-size="5.1" text-anchor="middle" fill="#111">pipe</text>
+  <rect x="555.0" y="82.5" width="30.0" height="15.0" fill="#c8c8c8" stroke="#333" stroke-width="0.5" rx="2"><title>rfrag_region_1:n0 (pipe_segment)</title></rect>
+  <text x="570.0" y="91.9" font-size="5.1" text-anchor="middle" fill="#111">pipe</text>
+  <rect x="610.0" y="55.0" width="100.0" height="70.0" fill="#9ec4e8" stroke="#333" stroke-width="0.5" rx="2"><title>rfrag_region_1:n1 (equipment_block)</title></rect>
+  <text x="660.0" y="92.5" font-size="6.5" text-anchor="middle" fill="#111">equip</text>
+  <rect x="735.0" y="65.0" width="50.0" height="50.0" fill="#f5c97f" stroke="#333" stroke-width="0.5" rx="2"><title>rfrag_region_1:n2 (valve:isolation)</title></rect>
+  <text x="760.0" y="92.5" font-size="6.5" text-anchor="middle" fill="#111">V-iso</text>
+  <rect x="810.0" y="82.5" width="30.0" height="15.0" fill="#c8c8c8" stroke="#333" stroke-width="0.5" rx="2"><title>rfrag_region_1:n3 (pipe_segment)</title></rect>
+  <text x="825.0" y="91.9" font-size="5.1" text-anchor="middle" fill="#111">pipe</text>
+  <rect x="1055.0" y="82.5" width="30.0" height="15.0" fill="#c8c8c8" stroke="#333" stroke-width="0.5" rx="2"><title>rfrag_region_2:n0 (pipe_segment)</title></rect>
+  <text x="1070.0" y="91.9" font-size="5.1" text-anchor="middle" fill="#111">pipe</text>
+  <rect x="1110.0" y="55.0" width="100.0" height="70.0" fill="#9ec4e8" stroke="#333" stroke-width="0.5" rx="2"><title>rfrag_region_2:n1 (equipment_block)</title></rect>
+  <text x="1160.0" y="92.5" font-size="6.5" text-anchor="middle" fill="#111">equip</text>
+  <rect x="1235.0" y="55.0" width="100.0" height="70.0" fill="#9ec4e8" stroke="#333" stroke-width="0.5" rx="2"><title>rfrag_region_2:n2 (equipment_block)</title></rect>
+  <text x="1285.0" y="92.5" font-size="6.5" text-anchor="middle" fill="#111">equip</text>
+  <rect x="1360.0" y="65.0" width="50.0" height="50.0" fill="#8fd4a0" stroke="#333" stroke-width="0.5" rx="2"><title>rfrag_region_2:n3 (instrument:flow_meter)</title></rect>
+  <text x="1385.0" y="92.5" font-size="6.5" text-anchor="middle" fill="#111">FM</text>
+  <rect x="1435.0" y="82.5" width="30.0" height="15.0" fill="#c8c8c8" stroke="#333" stroke-width="0.5" rx="2"><title>rfrag_region_2:n4 (pipe_segment)</title></rect>
+  <text x="1450.0" y="91.9" font-size="5.1" text-anchor="middle" fill="#111">pipe</text>
+  <rect x="1555.0" y="82.5" width="30.0" height="15.0" fill="#c8c8c8" stroke="#333" stroke-width="0.5" rx="2"><title>rfrag_region_3:n0 (pipe_segment)</title></rect>
+  <text x="1570.0" y="91.9" font-size="5.1" text-anchor="middle" fill="#111">pipe</text>
+  <rect x="1610.0" y="55.0" width="100.0" height="70.0" fill="#9ec4e8" stroke="#333" stroke-width="0.5" rx="2"><title>rfrag_region_3:n1 (equipment_block)</title></rect>
+  <text x="1660.0" y="92.5" font-size="6.5" text-anchor="middle" fill="#111">equip</text>
+  <rect x="1735.0" y="65.0" width="50.0" height="50.0" fill="#f5c97f" stroke="#333" stroke-width="0.5" rx="2"><title>rfrag_region_3:n2 (valve:isolation)</title></rect>
+  <text x="1760.0" y="92.5" font-size="6.5" text-anchor="middle" fill="#111">V-iso</text>
+  <rect x="1810.0" y="82.5" width="30.0" height="15.0" fill="#c8c8c8" stroke="#333" stroke-width="0.5" rx="2"><title>rfrag_region_3:n3 (pipe_segment)</title></rect>
+  <text x="1825.0" y="91.9" font-size="5.1" text-anchor="middle" fill="#111">pipe</text>
+  <rect x="2055.0" y="82.5" width="30.0" height="15.0" fill="#c8c8c8" stroke="#333" stroke-width="0.5" rx="2"><title>rfrag_region_4:n0 (pipe_segment)</title></rect>
+  <text x="2070.0" y="91.9" font-size="5.1" text-anchor="middle" fill="#111">pipe</text>
+  <rect x="2110.0" y="55.0" width="100.0" height="70.0" fill="#9ec4e8" stroke="#333" stroke-width="0.5" rx="2"><title>rfrag_region_4:n1 (equipment_block)</title></rect>
+  <text x="2160.0" y="92.5" font-size="6.5" text-anchor="middle" fill="#111">equip</text>
+  <rect x="2235.0" y="65.0" width="50.0" height="50.0" fill="#f5c97f" stroke="#333" stroke-width="0.5" rx="2"><title>rfrag_region_4:n2 (valve:isolation)</title></rect>
+  <text x="2260.0" y="92.5" font-size="6.5" text-anchor="middle" fill="#111">V-iso</text>
+  <rect x="2310.0" y="82.5" width="30.0" height="15.0" fill="#c8c8c8" stroke="#333" stroke-width="0.5" rx="2"><title>rfrag_region_4:n3 (pipe_segment)</title></rect>
+  <text x="2325.0" y="91.9" font-size="5.1" text-anchor="middle" fill="#111">pipe</text>
+  <rect x="2555.0" y="82.5" width="30.0" height="15.0" fill="#c8c8c8" stroke="#333" stroke-width="0.5" rx="2"><title>rfrag_region_5:n0 (pipe_segment)</title></rect>
+  <text x="2570.0" y="91.9" font-size="5.1" text-anchor="middle" fill="#111">pipe</text>
+  <rect x="2610.0" y="55.0" width="100.0" height="70.0" fill="#9ec4e8" stroke="#333" stroke-width="0.5" rx="2"><title>rfrag_region_5:n1 (equipment_block)</title></rect>
+  <text x="2660.0" y="92.5" font-size="6.5" text-anchor="middle" fill="#111">equip</text>
+  <rect x="2735.0" y="55.0" width="100.0" height="70.0" fill="#9ec4e8" stroke="#333" stroke-width="0.5" rx="2"><title>rfrag_region_5:n2 (equipment_block)</title></rect>
+  <text x="2785.0" y="92.5" font-size="6.5" text-anchor="middle" fill="#111">equip</text>
+  <rect x="2860.0" y="65.0" width="50.0" height="50.0" fill="#f5c97f" stroke="#333" stroke-width="0.5" rx="2"><title>rfrag_region_5:n3 (valve:isolation)</title></rect>
+  <text x="2885.0" y="92.5" font-size="6.5" text-anchor="middle" fill="#111">V-iso</text>
+  <rect x="2935.0" y="82.5" width="30.0" height="15.0" fill="#c8c8c8" stroke="#333" stroke-width="0.5" rx="2"><title>rfrag_region_5:n4 (pipe_segment)</title></rect>
+  <text x="2950.0" y="91.9" font-size="5.1" text-anchor="middle" fill="#111">pipe</text>
+  <rect x="55.0" y="232.5" width="30.0" height="15.0" fill="#c8c8c8" stroke="#333" stroke-width="0.5" rx="2"><title>rfrag_region_6:n0 (pipe_segment)</title></rect>
+  <text x="70.0" y="241.9" font-size="5.1" text-anchor="middle" fill="#111">pipe</text>
+  <rect x="110.0" y="205.0" width="100.0" height="70.0" fill="#9ec4e8" stroke="#333" stroke-width="0.5" rx="2"><title>rfrag_region_6:n1 (equipment_block)</title></rect>
+  <text x="160.0" y="242.5" font-size="6.5" text-anchor="middle" fill="#111">equip</text>
+  <rect x="235.0" y="215.0" width="50.0" height="50.0" fill="#8fd4a0" stroke="#333" stroke-width="0.5" rx="2"><title>rfrag_region_6:n2 (instrument:flow_meter)</title></rect>
+  <text x="260.0" y="242.5" font-size="6.5" text-anchor="middle" fill="#111">FM</text>
+  <rect x="310.0" y="232.5" width="30.0" height="15.0" fill="#c8c8c8" stroke="#333" stroke-width="0.5" rx="2"><title>rfrag_region_6:n3 (pipe_segment)</title></rect>
+  <text x="325.0" y="241.9" font-size="5.1" text-anchor="middle" fill="#111">pipe</text>
+  <rect x="555.0" y="232.5" width="30.0" height="15.0" fill="#c8c8c8" stroke="#333" stroke-width="0.5" rx="2"><title>rfrag_region_7:n0 (pipe_segment)</title></rect>
+  <text x="570.0" y="241.9" font-size="5.1" text-anchor="middle" fill="#111">pipe</text>
+  <rect x="610.0" y="205.0" width="100.0" height="70.0" fill="#9ec4e8" stroke="#333" stroke-width="0.5" rx="2"><title>rfrag_region_7:n1 (equipment_block)</title></rect>
+  <text x="660.0" y="242.5" font-size="6.5" text-anchor="middle" fill="#111">equip</text>
+  <rect x="735.0" y="215.0" width="50.0" height="50.0" fill="#f5c97f" stroke="#333" stroke-width="0.5" rx="2"><title>rfrag_region_7:n2 (valve:isolation)</title></rect>
+  <text x="760.0" y="242.5" font-size="6.5" text-anchor="middle" fill="#111">V-iso</text>
+  <rect x="810.0" y="232.5" width="30.0" height="15.0" fill="#c8c8c8" stroke="#333" stroke-width="0.5" rx="2"><title>rfrag_region_7:n3 (pipe_segment)</title></rect>
+  <text x="825.0" y="241.9" font-size="5.1" text-anchor="middle" fill="#111">pipe</text>
+  <rect x="1055.0" y="215.0" width="50.0" height="50.0" fill="#f5956a" stroke="#333" stroke-width="0.5" rx="2"><title>rfrag_region_8:n0 (valve:control)</title></rect>
+  <text x="1080.0" y="242.5" font-size="6.5" text-anchor="middle" fill="#111">V-ctl</text>
+  <rect x="1130.0" y="232.5" width="30.0" height="15.0" fill="#c8c8c8" stroke="#333" stroke-width="0.5" rx="2"><title>rfrag_region_8:n1 (pipe_segment)</title></rect>
+  <text x="1145.0" y="241.9" font-size="5.1" text-anchor="middle" fill="#111">pipe</text>
+  <rect x="1185.0" y="205.0" width="100.0" height="70.0" fill="#9ec4e8" stroke="#333" stroke-width="0.5" rx="2"><title>rfrag_region_8:n2 (equipment_block)</title></rect>
+  <text x="1235.0" y="242.5" font-size="6.5" text-anchor="middle" fill="#111">equip</text>
+  <rect x="1310.0" y="215.0" width="50.0" height="50.0" fill="#f5956a" stroke="#333" stroke-width="0.5" rx="2"><title>rfrag_region_8:n3 (valve:control)</title></rect>
+  <text x="1335.0" y="242.5" font-size="6.5" text-anchor="middle" fill="#111">V-ctl</text>
+  <rect x="1555.0" y="222.5" width="30.0" height="15.0" fill="#c8c8c8" stroke="#333" stroke-width="0.5" rx="2"><title>rfrag_region_9:n0 (pipe_segment)</title></rect>
+  <text x="1570.0" y="231.9" font-size="5.1" text-anchor="middle" fill="#111">pipe</text>
+  <rect x="1610.0" y="205.0" width="50.0" height="50.0" fill="#8fd4a0" stroke="#333" stroke-width="0.5" rx="2"><title>rfrag_region_9:n1 (instrument:flow_meter)</title></rect>
+  <text x="1635.0" y="232.5" font-size="6.5" text-anchor="middle" fill="#111">FM</text>
+  <rect x="1685.0" y="222.5" width="30.0" height="15.0" fill="#c8c8c8" stroke="#333" stroke-width="0.5" rx="2"><title>rfrag_region_9:n2 (pipe_segment)</title></rect>
+  <text x="1700.0" y="231.9" font-size="5.1" text-anchor="middle" fill="#111">pipe</text>
+  <rect x="2055.0" y="232.5" width="30.0" height="15.0" fill="#c8c8c8" stroke="#333" stroke-width="0.5" rx="2"><title>rfrag_region_10:n0 (pipe_segment)</title></rect>
+  <text x="2070.0" y="241.9" font-size="5.1" text-anchor="middle" fill="#111">pipe</text>
+  <rect x="2110.0" y="205.0" width="100.0" height="70.0" fill="#9ec4e8" stroke="#333" stroke-width="0.5" rx="2"><title>rfrag_region_10:n1 (equipment_block)</title></rect>
+  <text x="2160.0" y="242.5" font-size="6.5" text-anchor="middle" fill="#111">equip</text>
+  <rect x="2235.0" y="215.0" width="50.0" height="50.0" fill="#f5c97f" stroke="#333" stroke-width="0.5" rx="2"><title>rfrag_region_10:n2 (valve:isolation)</title></rect>
+  <text x="2260.0" y="242.5" font-size="6.5" text-anchor="middle" fill="#111">V-iso</text>
+  <rect x="2310.0" y="232.5" width="30.0" height="15.0" fill="#c8c8c8" stroke="#333" stroke-width="0.5" rx="2"><title>rfrag_region_10:n3 (pipe_segment)</title></rect>
+  <text x="2325.0" y="241.9" font-size="5.1" text-anchor="middle" fill="#111">pipe</text>
+  <rect x="2555.0" y="232.5" width="30.0" height="15.0" fill="#c8c8c8" stroke="#333" stroke-width="0.5" rx="2"><title>rfrag_region_11:n0 (pipe_segment)</title></rect>
+  <text x="2570.0" y="241.9" font-size="5.1" text-anchor="middle" fill="#111">pipe</text>
+  <rect x="2610.0" y="205.0" width="100.0" height="70.0" fill="#9ec4e8" stroke="#333" stroke-width="0.5" rx="2"><title>rfrag_region_11:n1 (equipment_block)</title></rect>
+  <text x="2660.0" y="242.5" font-size="6.5" text-anchor="middle" fill="#111">equip</text>
+  <rect x="2735.0" y="215.0" width="50.0" height="50.0" fill="#f5c97f" stroke="#333" stroke-width="0.5" rx="2"><title>rfrag_region_11:n2 (valve:isolation)</title></rect>
+  <text x="2760.0" y="242.5" font-size="6.5" text-anchor="middle" fill="#111">V-iso</text>
+  <rect x="2810.0" y="232.5" width="30.0" height="15.0" fill="#c8c8c8" stroke="#333" stroke-width="0.5" rx="2"><title>rfrag_region_11:n3 (pipe_segment)</title></rect>
+  <text x="2825.0" y="241.9" font-size="5.1" text-anchor="middle" fill="#111">pipe</text>
+  <rect x="55.0" y="372.5" width="30.0" height="15.0" fill="#c8c8c8" stroke="#333" stroke-width="0.5" rx="2"><title>rfrag_region_12:n0 (pipe_segment)</title></rect>
+  <text x="70.0" y="381.9" font-size="5.1" text-anchor="middle" fill="#111">pipe</text>
+  <rect x="110.0" y="355.0" width="50.0" height="50.0" fill="#f5c97f" stroke="#333" stroke-width="0.5" rx="2"><title>rfrag_region_12:n1 (valve:isolation)</title></rect>
+  <text x="135.0" y="382.5" font-size="6.5" text-anchor="middle" fill="#111">V-iso</text>
+  <rect x="185.0" y="372.5" width="30.0" height="15.0" fill="#c8c8c8" stroke="#333" stroke-width="0.5" rx="2"><title>rfrag_region_12:n2 (pipe_segment)</title></rect>
+  <text x="200.0" y="381.9" font-size="5.1" text-anchor="middle" fill="#111">pipe</text>
+  <rect x="555.0" y="365.0" width="50.0" height="50.0" fill="#f5956a" stroke="#333" stroke-width="0.5" rx="2"><title>rfrag_region_13:n0 (valve:control)</title></rect>
+  <text x="580.0" y="392.5" font-size="6.5" text-anchor="middle" fill="#111">V-ctl</text>
+  <rect x="630.0" y="382.5" width="30.0" height="15.0" fill="#c8c8c8" stroke="#333" stroke-width="0.5" rx="2"><title>rfrag_region_13:n1 (pipe_segment)</title></rect>
+  <text x="645.0" y="391.9" font-size="5.1" text-anchor="middle" fill="#111">pipe</text>
+  <rect x="685.0" y="355.0" width="100.0" height="70.0" fill="#9ec4e8" stroke="#333" stroke-width="0.5" rx="2"><title>rfrag_region_13:n2 (equipment_block)</title></rect>
+  <text x="735.0" y="392.5" font-size="6.5" text-anchor="middle" fill="#111">equip</text>
+  <rect x="810.0" y="365.0" width="50.0" height="50.0" fill="#f5956a" stroke="#333" stroke-width="0.5" rx="2"><title>rfrag_region_13:n3 (valve:control)</title></rect>
+  <text x="835.0" y="392.5" font-size="6.5" text-anchor="middle" fill="#111">V-ctl</text>
+  <rect x="1055.0" y="365.0" width="50.0" height="50.0" fill="#f5956a" stroke="#333" stroke-width="0.5" rx="2"><title>rfrag_region_14:n0 (valve:control)</title></rect>
+  <text x="1080.0" y="392.5" font-size="6.5" text-anchor="middle" fill="#111">V-ctl</text>
+  <rect x="1130.0" y="382.5" width="30.0" height="15.0" fill="#c8c8c8" stroke="#333" stroke-width="0.5" rx="2"><title>rfrag_region_14:n1 (pipe_segment)</title></rect>
+  <text x="1145.0" y="391.9" font-size="5.1" text-anchor="middle" fill="#111">pipe</text>
+  <rect x="1185.0" y="355.0" width="100.0" height="70.0" fill="#9ec4e8" stroke="#333" stroke-width="0.5" rx="2"><title>rfrag_region_14:n2 (equipment_block)</title></rect>
+  <text x="1235.0" y="392.5" font-size="6.5" text-anchor="middle" fill="#111">equip</text>
+  <rect x="1310.0" y="365.0" width="50.0" height="50.0" fill="#f5956a" stroke="#333" stroke-width="0.5" rx="2"><title>rfrag_region_14:n3 (valve:control)</title></rect>
+  <text x="1335.0" y="392.5" font-size="6.5" text-anchor="middle" fill="#111">V-ctl</text>
+  <rect x="1555.0" y="382.5" width="30.0" height="15.0" fill="#c8c8c8" stroke="#333" stroke-width="0.5" rx="2"><title>rfrag_region_15:n0 (pipe_segment)</title></rect>
+  <text x="1570.0" y="391.9" font-size="5.1" text-anchor="middle" fill="#111">pipe</text>
+  <rect x="1610.0" y="355.0" width="100.0" height="70.0" fill="#9ec4e8" stroke="#333" stroke-width="0.5" rx="2"><title>rfrag_region_15:n1 (equipment_block)</title></rect>
+  <text x="1660.0" y="392.5" font-size="6.5" text-anchor="middle" fill="#111">equip</text>
+  <rect x="1735.0" y="365.0" width="50.0" height="50.0" fill="#f5c97f" stroke="#333" stroke-width="0.5" rx="2"><title>rfrag_region_15:n2 (valve:isolation)</title></rect>
+  <text x="1760.0" y="392.5" font-size="6.5" text-anchor="middle" fill="#111">V-iso</text>
+  <rect x="1810.0" y="382.5" width="30.0" height="15.0" fill="#c8c8c8" stroke="#333" stroke-width="0.5" rx="2"><title>rfrag_region_15:n3 (pipe_segment)</title></rect>
+  <text x="1825.0" y="391.9" font-size="5.1" text-anchor="middle" fill="#111">pipe</text>
+  <rect x="2055.0" y="382.5" width="30.0" height="15.0" fill="#c8c8c8" stroke="#333" stroke-width="0.5" rx="2"><title>rfrag_region_16:n0 (pipe_segment)</title></rect>
+  <text x="2070.0" y="391.9" font-size="5.1" text-anchor="middle" fill="#111">pipe</text>
+  <rect x="2110.0" y="355.0" width="100.0" height="70.0" fill="#9ec4e8" stroke="#333" stroke-width="0.5" rx="2"><title>rfrag_region_16:n1 (equipment_block)</title></rect>
+  <text x="2160.0" y="392.5" font-size="6.5" text-anchor="middle" fill="#111">equip</text>
+  <rect x="2235.0" y="382.5" width="30.0" height="15.0" fill="#c8c8c8" stroke="#333" stroke-width="0.5" rx="2"><title>rfrag_region_16:n2 (pipe_segment)</title></rect>
+  <text x="2250.0" y="391.9" font-size="5.1" text-anchor="middle" fill="#111">pipe</text>
+  <rect x="2555.0" y="382.5" width="30.0" height="15.0" fill="#c8c8c8" stroke="#333" stroke-width="0.5" rx="2"><title>rfrag_region_17:n0 (pipe_segment)</title></rect>
+  <text x="2570.0" y="391.9" font-size="5.1" text-anchor="middle" fill="#111">pipe</text>
+  <rect x="2610.0" y="355.0" width="100.0" height="70.0" fill="#9ec4e8" stroke="#333" stroke-width="0.5" rx="2"><title>rfrag_region_17:n1 (equipment_block)</title></rect>
+  <text x="2660.0" y="392.5" font-size="6.5" text-anchor="middle" fill="#111">equip</text>
+  <rect x="2735.0" y="365.0" width="50.0" height="50.0" fill="#8fd4a0" stroke="#333" stroke-width="0.5" rx="2"><title>rfrag_region_17:n2 (instrument:flow_meter)</title></rect>
+  <text x="2760.0" y="392.5" font-size="6.5" text-anchor="middle" fill="#111">FM</text>
+  <rect x="2810.0" y="382.5" width="30.0" height="15.0" fill="#c8c8c8" stroke="#333" stroke-width="0.5" rx="2"><title>rfrag_region_17:n3 (pipe_segment)</title></rect>
+  <text x="2825.0" y="391.9" font-size="5.1" text-anchor="middle" fill="#111">pipe</text>
+  <rect x="55.0" y="532.5" width="30.0" height="15.0" fill="#c8c8c8" stroke="#333" stroke-width="0.5" rx="2"><title>rfrag_region_18:n0 (pipe_segment)</title></rect>
+  <text x="70.0" y="541.9" font-size="5.1" text-anchor="middle" fill="#111">pipe</text>
+  <rect x="110.0" y="505.0" width="100.0" height="70.0" fill="#9ec4e8" stroke="#333" stroke-width="0.5" rx="2"><title>rfrag_region_18:n1 (equipment_block)</title></rect>
+  <text x="160.0" y="542.5" font-size="6.5" text-anchor="middle" fill="#111">equip</text>
+  <rect x="235.0" y="532.5" width="30.0" height="15.0" fill="#c8c8c8" stroke="#333" stroke-width="0.5" rx="2"><title>rfrag_region_18:n2 (pipe_segment)</title></rect>
+  <text x="250.0" y="541.9" font-size="5.1" text-anchor="middle" fill="#111">pipe</text>
+  <rect x="555.0" y="515.0" width="50.0" height="50.0" fill="#f5956a" stroke="#333" stroke-width="0.5" rx="2"><title>rfrag_region_19:n0 (valve:control)</title></rect>
+  <text x="580.0" y="542.5" font-size="6.5" text-anchor="middle" fill="#111">V-ctl</text>
+  <rect x="630.0" y="532.5" width="30.0" height="15.0" fill="#c8c8c8" stroke="#333" stroke-width="0.5" rx="2"><title>rfrag_region_19:n1 (pipe_segment)</title></rect>
+  <text x="645.0" y="541.9" font-size="5.1" text-anchor="middle" fill="#111">pipe</text>
+  <rect x="685.0" y="505.0" width="100.0" height="70.0" fill="#9ec4e8" stroke="#333" stroke-width="0.5" rx="2"><title>rfrag_region_19:n2 (equipment_block)</title></rect>
+  <text x="735.0" y="542.5" font-size="6.5" text-anchor="middle" fill="#111">equip</text>
+  <rect x="810.0" y="515.0" width="50.0" height="50.0" fill="#f5956a" stroke="#333" stroke-width="0.5" rx="2"><title>rfrag_region_19:n3 (valve:control)</title></rect>
+  <text x="835.0" y="542.5" font-size="6.5" text-anchor="middle" fill="#111">V-ctl</text>
+  <rect x="1055.0" y="532.5" width="30.0" height="15.0" fill="#c8c8c8" stroke="#333" stroke-width="0.5" rx="2"><title>rfrag_region_20:n0 (pipe_segment)</title></rect>
+  <text x="1070.0" y="541.9" font-size="5.1" text-anchor="middle" fill="#111">pipe</text>
+  <rect x="1110.0" y="505.0" width="100.0" height="70.0" fill="#9ec4e8" stroke="#333" stroke-width="0.5" rx="2"><title>rfrag_region_20:n1 (equipment_block)</title></rect>
+  <text x="1160.0" y="542.5" font-size="6.5" text-anchor="middle" fill="#111">equip</text>
+  <rect x="1235.0" y="515.0" width="50.0" height="50.0" fill="#f5c97f" stroke="#333" stroke-width="0.5" rx="2"><title>rfrag_region_20:n2 (valve:isolation)</title></rect>
+  <text x="1260.0" y="542.5" font-size="6.5" text-anchor="middle" fill="#111">V-iso</text>
+  <rect x="1310.0" y="532.5" width="30.0" height="15.0" fill="#c8c8c8" stroke="#333" stroke-width="0.5" rx="2"><title>rfrag_region_20:n3 (pipe_segment)</title></rect>
+  <text x="1325.0" y="541.9" font-size="5.1" text-anchor="middle" fill="#111">pipe</text>
+  <rect x="1555.0" y="515.0" width="50.0" height="50.0" fill="#f5956a" stroke="#333" stroke-width="0.5" rx="2"><title>rfrag_region_21:n0 (valve:control)</title></rect>
+  <text x="1580.0" y="542.5" font-size="6.5" text-anchor="middle" fill="#111">V-ctl</text>
+  <rect x="1630.0" y="532.5" width="30.0" height="15.0" fill="#c8c8c8" stroke="#333" stroke-width="0.5" rx="2"><title>rfrag_region_21:n1 (pipe_segment)</title></rect>
+  <text x="1645.0" y="541.9" font-size="5.1" text-anchor="middle" fill="#111">pipe</text>
+  <rect x="1685.0" y="505.0" width="100.0" height="70.0" fill="#9ec4e8" stroke="#333" stroke-width="0.5" rx="2"><title>rfrag_region_21:n2 (equipment_block)</title></rect>
+  <text x="1735.0" y="542.5" font-size="6.5" text-anchor="middle" fill="#111">equip</text>
+  <rect x="1810.0" y="515.0" width="50.0" height="50.0" fill="#f5956a" stroke="#333" stroke-width="0.5" rx="2"><title>rfrag_region_21:n3 (valve:control)</title></rect>
+  <text x="1835.0" y="542.5" font-size="6.5" text-anchor="middle" fill="#111">V-ctl</text>
+  <rect x="2055.0" y="532.5" width="30.0" height="15.0" fill="#c8c8c8" stroke="#333" stroke-width="0.5" rx="2"><title>rfrag_region_22:n0 (pipe_segment)</title></rect>
+  <text x="2070.0" y="541.9" font-size="5.1" text-anchor="middle" fill="#111">pipe</text>
+  <rect x="2110.0" y="505.0" width="100.0" height="70.0" fill="#9ec4e8" stroke="#333" stroke-width="0.5" rx="2"><title>rfrag_region_22:n1 (equipment_block)</title></rect>
+  <text x="2160.0" y="542.5" font-size="6.5" text-anchor="middle" fill="#111">equip</text>
+  <rect x="2235.0" y="515.0" width="50.0" height="50.0" fill="#f5c97f" stroke="#333" stroke-width="0.5" rx="2"><title>rfrag_region_22:n2 (valve:isolation)</title></rect>
+  <text x="2260.0" y="542.5" font-size="6.5" text-anchor="middle" fill="#111">V-iso</text>
+  <rect x="2310.0" y="532.5" width="30.0" height="15.0" fill="#c8c8c8" stroke="#333" stroke-width="0.5" rx="2"><title>rfrag_region_22:n3 (pipe_segment)</title></rect>
+  <text x="2325.0" y="541.9" font-size="5.1" text-anchor="middle" fill="#111">pipe</text>
+  <rect x="2555.0" y="532.5" width="30.0" height="15.0" fill="#c8c8c8" stroke="#333" stroke-width="0.5" rx="2"><title>rfrag_region_23:n0 (pipe_segment)</title></rect>
+  <text x="2570.0" y="541.9" font-size="5.1" text-anchor="middle" fill="#111">pipe</text>
+  <rect x="2610.0" y="505.0" width="100.0" height="70.0" fill="#9ec4e8" stroke="#333" stroke-width="0.5" rx="2"><title>rfrag_region_23:n1 (equipment_block)</title></rect>
+  <text x="2660.0" y="542.5" font-size="6.5" text-anchor="middle" fill="#111">equip</text>
+  <rect x="2735.0" y="532.5" width="30.0" height="15.0" fill="#c8c8c8" stroke="#333" stroke-width="0.5" rx="2"><title>rfrag_region_23:n2 (pipe_segment)</title></rect>
+  <text x="2750.0" y="541.9" font-size="5.1" text-anchor="middle" fill="#111">pipe</text>
+  <rect x="55.0" y="682.5" width="30.0" height="15.0" fill="#c8c8c8" stroke="#333" stroke-width="0.5" rx="2"><title>rfrag_region_24:n0 (pipe_segment)</title></rect>
+  <text x="70.0" y="691.9" font-size="5.1" text-anchor="middle" fill="#111">pipe</text>
+  <rect x="110.0" y="655.0" width="100.0" height="70.0" fill="#9ec4e8" stroke="#333" stroke-width="0.5" rx="2"><title>rfrag_region_24:n1 (equipment_block)</title></rect>
+  <text x="160.0" y="692.5" font-size="6.5" text-anchor="middle" fill="#111">equip</text>
+  <rect x="235.0" y="682.5" width="30.0" height="15.0" fill="#c8c8c8" stroke="#333" stroke-width="0.5" rx="2"><title>rfrag_region_24:n2 (pipe_segment)</title></rect>
+  <text x="250.0" y="691.9" font-size="5.1" text-anchor="middle" fill="#111">pipe</text>
+  <rect x="555.0" y="655.0" width="30.0" height="15.0" fill="#c8c8c8" stroke="#333" stroke-width="0.5" rx="2"><title>rfrag_region_25:n0 (pipe_segment)</title></rect>
+  <text x="570.0" y="664.4" font-size="5.1" text-anchor="middle" fill="#111">pipe</text>
+  <rect x="610.0" y="655.0" width="30.0" height="15.0" fill="#c8c8c8" stroke="#333" stroke-width="0.5" rx="2"><title>rfrag_region_25:n1 (pipe_segment)</title></rect>
+  <text x="625.0" y="664.4" font-size="5.1" text-anchor="middle" fill="#111">pipe</text>
+  <rect x="1055.0" y="682.5" width="30.0" height="15.0" fill="#c8c8c8" stroke="#333" stroke-width="0.5" rx="2"><title>rfrag_region_26:n0 (pipe_segment)</title></rect>
+  <text x="1070.0" y="691.9" font-size="5.1" text-anchor="middle" fill="#111">pipe</text>
+  <rect x="1110.0" y="655.0" width="100.0" height="70.0" fill="#9ec4e8" stroke="#333" stroke-width="0.5" rx="2"><title>rfrag_region_26:n1 (equipment_block)</title></rect>
+  <text x="1160.0" y="692.5" font-size="6.5" text-anchor="middle" fill="#111">equip</text>
+  <rect x="1235.0" y="665.0" width="50.0" height="50.0" fill="#8fd4a0" stroke="#333" stroke-width="0.5" rx="2"><title>rfrag_region_26:n2 (instrument:flow_meter)</title></rect>
+  <text x="1260.0" y="692.5" font-size="6.5" text-anchor="middle" fill="#111">FM</text>
+  <rect x="1310.0" y="682.5" width="30.0" height="15.0" fill="#c8c8c8" stroke="#333" stroke-width="0.5" rx="2"><title>rfrag_region_26:n3 (pipe_segment)</title></rect>
+  <text x="1325.0" y="691.9" font-size="5.1" text-anchor="middle" fill="#111">pipe</text>
+  <rect x="1555.0" y="682.5" width="30.0" height="15.0" fill="#c8c8c8" stroke="#333" stroke-width="0.5" rx="2"><title>rfrag_region_27:n0 (pipe_segment)</title></rect>
+  <text x="1570.0" y="691.9" font-size="5.1" text-anchor="middle" fill="#111">pipe</text>
+  <rect x="1610.0" y="655.0" width="100.0" height="70.0" fill="#9ec4e8" stroke="#333" stroke-width="0.5" rx="2"><title>rfrag_region_27:n1 (equipment_block)</title></rect>
+  <text x="1660.0" y="692.5" font-size="6.5" text-anchor="middle" fill="#111">equip</text>
+  <rect x="1735.0" y="665.0" width="50.0" height="50.0" fill="#f5c97f" stroke="#333" stroke-width="0.5" rx="2"><title>rfrag_region_27:n2 (valve:isolation)</title></rect>
+  <text x="1760.0" y="692.5" font-size="6.5" text-anchor="middle" fill="#111">V-iso</text>
+  <rect x="1810.0" y="682.5" width="30.0" height="15.0" fill="#c8c8c8" stroke="#333" stroke-width="0.5" rx="2"><title>rfrag_region_27:n3 (pipe_segment)</title></rect>
+  <text x="1825.0" y="691.9" font-size="5.1" text-anchor="middle" fill="#111">pipe</text>
+  <rect x="2055.0" y="682.5" width="30.0" height="15.0" fill="#c8c8c8" stroke="#333" stroke-width="0.5" rx="2"><title>rfrag_region_28:n0 (pipe_segment)</title></rect>
+  <text x="2070.0" y="691.9" font-size="5.1" text-anchor="middle" fill="#111">pipe</text>
+  <rect x="2110.0" y="655.0" width="100.0" height="70.0" fill="#9ec4e8" stroke="#333" stroke-width="0.5" rx="2"><title>rfrag_region_28:n1 (equipment_block)</title></rect>
+  <text x="2160.0" y="692.5" font-size="6.5" text-anchor="middle" fill="#111">equip</text>
+  <rect x="2235.0" y="665.0" width="50.0" height="50.0" fill="#f5c97f" stroke="#333" stroke-width="0.5" rx="2"><title>rfrag_region_28:n2 (valve:isolation)</title></rect>
+  <text x="2260.0" y="692.5" font-size="6.5" text-anchor="middle" fill="#111">V-iso</text>
+  <rect x="2310.0" y="682.5" width="30.0" height="15.0" fill="#c8c8c8" stroke="#333" stroke-width="0.5" rx="2"><title>rfrag_region_28:n3 (pipe_segment)</title></rect>
+  <text x="2325.0" y="691.9" font-size="5.1" text-anchor="middle" fill="#111">pipe</text>
+  <rect x="2555.0" y="682.5" width="30.0" height="15.0" fill="#c8c8c8" stroke="#333" stroke-width="0.5" rx="2"><title>rfrag_region_29:n0 (pipe_segment)</title></rect>
+  <text x="2570.0" y="691.9" font-size="5.1" text-anchor="middle" fill="#111">pipe</text>
+  <rect x="2610.0" y="655.0" width="100.0" height="70.0" fill="#9ec4e8" stroke="#333" stroke-width="0.5" rx="2"><title>rfrag_region_29:n1 (equipment_block)</title></rect>
+  <text x="2660.0" y="692.5" font-size="6.5" text-anchor="middle" fill="#111">equip</text>
+  <rect x="2735.0" y="655.0" width="100.0" height="70.0" fill="#9ec4e8" stroke="#333" stroke-width="0.5" rx="2"><title>rfrag_region_29:n2 (equipment_block)</title></rect>
+  <text x="2785.0" y="692.5" font-size="6.5" text-anchor="middle" fill="#111">equip</text>
+  <rect x="2860.0" y="665.0" width="50.0" height="50.0" fill="#f5c97f" stroke="#333" stroke-width="0.5" rx="2"><title>rfrag_region_29:n3 (valve:isolation)</title></rect>
+  <text x="2885.0" y="692.5" font-size="6.5" text-anchor="middle" fill="#111">V-iso</text>
+  <rect x="2935.0" y="682.5" width="30.0" height="15.0" fill="#c8c8c8" stroke="#333" stroke-width="0.5" rx="2"><title>rfrag_region_29:n4 (pipe_segment)</title></rect>
+  <text x="2950.0" y="691.9" font-size="5.1" text-anchor="middle" fill="#111">pipe</text>
+  <rect x="55.0" y="832.5" width="30.0" height="15.0" fill="#c8c8c8" stroke="#333" stroke-width="0.5" rx="2"><title>rfrag_region_30:n0 (pipe_segment)</title></rect>
+  <text x="70.0" y="841.9" font-size="5.1" text-anchor="middle" fill="#111">pipe</text>
+  <rect x="110.0" y="805.0" width="100.0" height="70.0" fill="#9ec4e8" stroke="#333" stroke-width="0.5" rx="2"><title>rfrag_region_30:n1 (equipment_block)</title></rect>
+  <text x="160.0" y="842.5" font-size="6.5" text-anchor="middle" fill="#111">equip</text>
+  <rect x="235.0" y="832.5" width="30.0" height="15.0" fill="#c8c8c8" stroke="#333" stroke-width="0.5" rx="2"><title>rfrag_region_30:n2 (pipe_segment)</title></rect>
+  <text x="250.0" y="841.9" font-size="5.1" text-anchor="middle" fill="#111">pipe</text>
+  <rect x="555.0" y="832.5" width="30.0" height="15.0" fill="#c8c8c8" stroke="#333" stroke-width="0.5" rx="2"><title>rfrag_region_31:n0 (pipe_segment)</title></rect>
+  <text x="570.0" y="841.9" font-size="5.1" text-anchor="middle" fill="#111">pipe</text>
+  <rect x="610.0" y="805.0" width="100.0" height="70.0" fill="#9ec4e8" stroke="#333" stroke-width="0.5" rx="2"><title>rfrag_region_31:n1 (equipment_block)</title></rect>
+  <text x="660.0" y="842.5" font-size="6.5" text-anchor="middle" fill="#111">equip</text>
+  <rect x="735.0" y="815.0" width="50.0" height="50.0" fill="#f5c97f" stroke="#333" stroke-width="0.5" rx="2"><title>rfrag_region_31:n2 (valve:isolation)</title></rect>
+  <text x="760.0" y="842.5" font-size="6.5" text-anchor="middle" fill="#111">V-iso</text>
+  <rect x="810.0" y="832.5" width="30.0" height="15.0" fill="#c8c8c8" stroke="#333" stroke-width="0.5" rx="2"><title>rfrag_region_31:n3 (pipe_segment)</title></rect>
+  <text x="825.0" y="841.9" font-size="5.1" text-anchor="middle" fill="#111">pipe</text>
+  <rect x="1055.0" y="815.0" width="50.0" height="50.0" fill="#f5956a" stroke="#333" stroke-width="0.5" rx="2"><title>rfrag_region_32:n0 (valve:control)</title></rect>
+  <text x="1080.0" y="842.5" font-size="6.5" text-anchor="middle" fill="#111">V-ctl</text>
+  <rect x="1130.0" y="832.5" width="30.0" height="15.0" fill="#c8c8c8" stroke="#333" stroke-width="0.5" rx="2"><title>rfrag_region_32:n1 (pipe_segment)</title></rect>
+  <text x="1145.0" y="841.9" font-size="5.1" text-anchor="middle" fill="#111">pipe</text>
+  <rect x="1185.0" y="805.0" width="100.0" height="70.0" fill="#9ec4e8" stroke="#333" stroke-width="0.5" rx="2"><title>rfrag_region_32:n2 (equipment_block)</title></rect>
+  <text x="1235.0" y="842.5" font-size="6.5" text-anchor="middle" fill="#111">equip</text>
+  <rect x="1310.0" y="815.0" width="50.0" height="50.0" fill="#f5956a" stroke="#333" stroke-width="0.5" rx="2"><title>rfrag_region_32:n3 (valve:control)</title></rect>
+  <text x="1335.0" y="842.5" font-size="6.5" text-anchor="middle" fill="#111">V-ctl</text>
+  <rect x="1555.0" y="832.5" width="30.0" height="15.0" fill="#c8c8c8" stroke="#333" stroke-width="0.5" rx="2"><title>rfrag_region_33:n0 (pipe_segment)</title></rect>
+  <text x="1570.0" y="841.9" font-size="5.1" text-anchor="middle" fill="#111">pipe</text>
+  <rect x="1610.0" y="805.0" width="100.0" height="70.0" fill="#9ec4e8" stroke="#333" stroke-width="0.5" rx="2"><title>rfrag_region_33:n1 (equipment_block)</title></rect>
+  <text x="1660.0" y="842.5" font-size="6.5" text-anchor="middle" fill="#111">equip</text>
+  <rect x="1735.0" y="815.0" width="50.0" height="50.0" fill="#f5c97f" stroke="#333" stroke-width="0.5" rx="2"><title>rfrag_region_33:n2 (valve:isolation)</title></rect>
+  <text x="1760.0" y="842.5" font-size="6.5" text-anchor="middle" fill="#111">V-iso</text>
+  <rect x="1810.0" y="832.5" width="30.0" height="15.0" fill="#c8c8c8" stroke="#333" stroke-width="0.5" rx="2"><title>rfrag_region_33:n3 (pipe_segment)</title></rect>
+  <text x="1825.0" y="841.9" font-size="5.1" text-anchor="middle" fill="#111">pipe</text>
+  <rect x="55.0" y="1052.5" width="30.0" height="15.0" fill="#c8c8c8" stroke="#333" stroke-width="0.5" rx="2"><title>cfrag_0:n0 (pipe_segment)</title></rect>
+  <text x="70.0" y="1061.9" font-size="5.1" text-anchor="middle" fill="#111">pipe</text>
+  <rect x="110.0" y="1035.0" width="50.0" height="50.0" fill="#f5c97f" stroke="#333" stroke-width="0.5" rx="2"><title>cfrag_0:n1 (valve:isolation)</title></rect>
+  <text x="135.0" y="1062.5" font-size="6.5" text-anchor="middle" fill="#111">V-iso</text>
+  <rect x="185.0" y="1052.5" width="30.0" height="15.0" fill="#c8c8c8" stroke="#333" stroke-width="0.5" rx="2"><title>cfrag_0:n2 (pipe_segment)</title></rect>
+  <text x="200.0" y="1061.9" font-size="5.1" text-anchor="middle" fill="#111">pipe</text>
+  <rect x="305.0" y="1052.5" width="30.0" height="15.0" fill="#c8c8c8" stroke="#333" stroke-width="0.5" rx="2"><title>cfrag_1:n0 (pipe_segment)</title></rect>
+  <text x="320.0" y="1061.9" font-size="5.1" text-anchor="middle" fill="#111">pipe</text>
+  <rect x="360.0" y="1035.0" width="50.0" height="50.0" fill="#8fd4a0" stroke="#333" stroke-width="0.5" rx="2"><title>cfrag_1:n1 (instrument:flow_meter)</title></rect>
+  <text x="385.0" y="1062.5" font-size="6.5" text-anchor="middle" fill="#111">FM</text>
+  <rect x="435.0" y="1052.5" width="30.0" height="15.0" fill="#c8c8c8" stroke="#333" stroke-width="0.5" rx="2"><title>cfrag_1:n2 (pipe_segment)</title></rect>
+  <text x="450.0" y="1061.9" font-size="5.1" text-anchor="middle" fill="#111">pipe</text>
+  <rect x="555.0" y="1052.5" width="30.0" height="15.0" fill="#c8c8c8" stroke="#333" stroke-width="0.5" rx="2"><title>cfrag_2:n0 (pipe_segment)</title></rect>
+  <text x="570.0" y="1061.9" font-size="5.1" text-anchor="middle" fill="#111">pipe</text>
+  <rect x="610.0" y="1035.0" width="50.0" height="50.0" fill="#8fd4a0" stroke="#333" stroke-width="0.5" rx="2"><title>cfrag_2:n1 (instrument:flow_meter)</title></rect>
+  <text x="635.0" y="1062.5" font-size="6.5" text-anchor="middle" fill="#111">FM</text>
+  <rect x="685.0" y="1052.5" width="30.0" height="15.0" fill="#c8c8c8" stroke="#333" stroke-width="0.5" rx="2"><title>cfrag_2:n2 (pipe_segment)</title></rect>
+  <text x="700.0" y="1061.9" font-size="5.1" text-anchor="middle" fill="#111">pipe</text>
+  <rect x="805.0" y="1052.5" width="30.0" height="15.0" fill="#c8c8c8" stroke="#333" stroke-width="0.5" rx="2"><title>cfrag_3:n0 (pipe_segment)</title></rect>
+  <text x="820.0" y="1061.9" font-size="5.1" text-anchor="middle" fill="#111">pipe</text>
+  <rect x="860.0" y="1035.0" width="50.0" height="50.0" fill="#f5c97f" stroke="#333" stroke-width="0.5" rx="2"><title>cfrag_3:n1 (valve:isolation)</title></rect>
+  <text x="885.0" y="1062.5" font-size="6.5" text-anchor="middle" fill="#111">V-iso</text>
+  <rect x="935.0" y="1052.5" width="30.0" height="15.0" fill="#c8c8c8" stroke="#333" stroke-width="0.5" rx="2"><title>cfrag_3:n2 (pipe_segment)</title></rect>
+  <text x="950.0" y="1061.9" font-size="5.1" text-anchor="middle" fill="#111">pipe</text>
+  <rect x="55.0" y="1285.0" width="100.0" height="70.0" fill="#9ec4e8" stroke="#333" stroke-width="0.5" rx="2"><title>efrag_0:n0 (equipment_block)</title></rect>
+  <text x="105.0" y="1322.5" font-size="6.5" text-anchor="middle" fill="#111">equip</text>
+  <rect x="255.0" y="1285.0" width="100.0" height="70.0" fill="#9ec4e8" stroke="#333" stroke-width="0.5" rx="2"><title>efrag_1:n0 (equipment_block)</title></rect>
+  <text x="305.0" y="1322.5" font-size="6.5" text-anchor="middle" fill="#111">equip</text>
+  <rect x="455.0" y="1285.0" width="100.0" height="70.0" fill="#9ec4e8" stroke="#333" stroke-width="0.5" rx="2"><title>efrag_2:n0 (equipment_block)</title></rect>
+  <text x="505.0" y="1322.5" font-size="6.5" text-anchor="middle" fill="#111">equip</text>
+  <rect x="655.0" y="1285.0" width="100.0" height="70.0" fill="#9ec4e8" stroke="#333" stroke-width="0.5" rx="2"><title>efrag_3:n0 (equipment_block)</title></rect>
+  <text x="705.0" y="1322.5" font-size="6.5" text-anchor="middle" fill="#111">equip</text>
+  <rect x="655.0" y="1380.0" width="100.0" height="70.0" fill="#9ec4e8" stroke="#333" stroke-width="0.5" rx="2"><title>efrag_3:n1 (equipment_block)</title></rect>
+  <text x="705.0" y="1417.5" font-size="6.5" text-anchor="middle" fill="#111">equip</text>
+  <rect x="855.0" y="1285.0" width="100.0" height="70.0" fill="#9ec4e8" stroke="#333" stroke-width="0.5" rx="2"><title>efrag_4:n0 (equipment_block)</title></rect>
+  <text x="905.0" y="1322.5" font-size="6.5" text-anchor="middle" fill="#111">equip</text>
+  <rect x="1055.0" y="1285.0" width="100.0" height="70.0" fill="#9ec4e8" stroke="#333" stroke-width="0.5" rx="2"><title>efrag_5:n0 (equipment_block)</title></rect>
+  <text x="1105.0" y="1322.5" font-size="6.5" text-anchor="middle" fill="#111">equip</text>
+  <rect x="55.0" y="1785.0" width="100.0" height="70.0" fill="#9ec4e8" stroke="#333" stroke-width="0.5" rx="2"><title>efrag_6:n0 (equipment_block)</title></rect>
+  <text x="105.0" y="1822.5" font-size="6.5" text-anchor="middle" fill="#111">equip</text>
+  <rect x="255.0" y="1785.0" width="100.0" height="70.0" fill="#9ec4e8" stroke="#333" stroke-width="0.5" rx="2"><title>efrag_7:n0 (equipment_block)</title></rect>
+  <text x="305.0" y="1822.5" font-size="6.5" text-anchor="middle" fill="#111">equip</text>
+  <rect x="255.0" y="1880.0" width="100.0" height="70.0" fill="#9ec4e8" stroke="#333" stroke-width="0.5" rx="2"><title>efrag_7:n1 (equipment_block)</title></rect>
+  <text x="305.0" y="1917.5" font-size="6.5" text-anchor="middle" fill="#111">equip</text>
+  <rect x="455.0" y="1785.0" width="100.0" height="70.0" fill="#9ec4e8" stroke="#333" stroke-width="0.5" rx="2"><title>efrag_8:n0 (equipment_block)</title></rect>
+  <text x="505.0" y="1822.5" font-size="6.5" text-anchor="middle" fill="#111">equip</text>
+  <rect x="455.0" y="1880.0" width="100.0" height="70.0" fill="#9ec4e8" stroke="#333" stroke-width="0.5" rx="2"><title>efrag_8:n1 (equipment_block)</title></rect>
+  <text x="505.0" y="1917.5" font-size="6.5" text-anchor="middle" fill="#111">equip</text>
+  <rect x="655.0" y="1785.0" width="100.0" height="70.0" fill="#9ec4e8" stroke="#333" stroke-width="0.5" rx="2"><title>efrag_9:n0 (equipment_block)</title></rect>
+  <text x="705.0" y="1822.5" font-size="6.5" text-anchor="middle" fill="#111">equip</text>
+  <rect x="855.0" y="1785.0" width="100.0" height="70.0" fill="#9ec4e8" stroke="#333" stroke-width="0.5" rx="2"><title>efrag_10:n0 (equipment_block)</title></rect>
+  <text x="905.0" y="1822.5" font-size="6.5" text-anchor="middle" fill="#111">equip</text>
+  <rect x="1055.0" y="1785.0" width="100.0" height="70.0" fill="#9ec4e8" stroke="#333" stroke-width="0.5" rx="2"><title>efrag_11:n0 (equipment_block)</title></rect>
+  <text x="1105.0" y="1822.5" font-size="6.5" text-anchor="middle" fill="#111">equip</text>
+  <rect x="55.0" y="2285.0" width="100.0" height="70.0" fill="#9ec4e8" stroke="#333" stroke-width="0.5" rx="2"><title>efrag_12:n0 (equipment_block)</title></rect>
+  <text x="105.0" y="2322.5" font-size="6.5" text-anchor="middle" fill="#111">equip</text>
+  <rect x="55.0" y="2380.0" width="100.0" height="70.0" fill="#9ec4e8" stroke="#333" stroke-width="0.5" rx="2"><title>efrag_12:n1 (equipment_block)</title></rect>
+  <text x="105.0" y="2417.5" font-size="6.5" text-anchor="middle" fill="#111">equip</text>
+  <rect x="55.0" y="2475.0" width="100.0" height="70.0" fill="#9ec4e8" stroke="#333" stroke-width="0.5" rx="2"><title>efrag_12:n2 (equipment_block)</title></rect>
+  <text x="105.0" y="2512.5" font-size="6.5" text-anchor="middle" fill="#111">equip</text>
+  <rect x="255.0" y="2285.0" width="100.0" height="70.0" fill="#9ec4e8" stroke="#333" stroke-width="0.5" rx="2"><title>efrag_13:n0 (equipment_block)</title></rect>
+  <text x="305.0" y="2322.5" font-size="6.5" text-anchor="middle" fill="#111">equip</text>
+  <rect x="455.0" y="2285.0" width="100.0" height="70.0" fill="#9ec4e8" stroke="#333" stroke-width="0.5" rx="2"><title>efrag_14:n0 (equipment_block)</title></rect>
+  <text x="505.0" y="2322.5" font-size="6.5" text-anchor="middle" fill="#111">equip</text>
+  <rect x="455.0" y="2380.0" width="100.0" height="70.0" fill="#9ec4e8" stroke="#333" stroke-width="0.5" rx="2"><title>efrag_14:n1 (equipment_block)</title></rect>
+  <text x="505.0" y="2417.5" font-size="6.5" text-anchor="middle" fill="#111">equip</text>
+  <rect x="455.0" y="2475.0" width="100.0" height="70.0" fill="#9ec4e8" stroke="#333" stroke-width="0.5" rx="2"><title>efrag_14:n2 (equipment_block)</title></rect>
+  <text x="505.0" y="2512.5" font-size="6.5" text-anchor="middle" fill="#111">equip</text>
+  <rect x="655.0" y="2285.0" width="100.0" height="70.0" fill="#9ec4e8" stroke="#333" stroke-width="0.5" rx="2"><title>efrag_15:n0 (equipment_block)</title></rect>
+  <text x="705.0" y="2322.5" font-size="6.5" text-anchor="middle" fill="#111">equip</text>
+  <rect x="855.0" y="2285.0" width="100.0" height="70.0" fill="#9ec4e8" stroke="#333" stroke-width="0.5" rx="2"><title>efrag_16:n0 (equipment_block)</title></rect>
+  <text x="905.0" y="2322.5" font-size="6.5" text-anchor="middle" fill="#111">equip</text>
+  <rect x="855.0" y="2380.0" width="100.0" height="70.0" fill="#9ec4e8" stroke="#333" stroke-width="0.5" rx="2"><title>efrag_16:n1 (equipment_block)</title></rect>
+  <text x="905.0" y="2417.5" font-size="6.5" text-anchor="middle" fill="#111">equip</text>
+  <rect x="1055.0" y="2285.0" width="100.0" height="70.0" fill="#9ec4e8" stroke="#333" stroke-width="0.5" rx="2"><title>efrag_17:n0 (equipment_block)</title></rect>
+  <text x="1105.0" y="2322.5" font-size="6.5" text-anchor="middle" fill="#111">equip</text>
+  <rect x="55.0" y="2785.0" width="100.0" height="70.0" fill="#9ec4e8" stroke="#333" stroke-width="0.5" rx="2"><title>efrag_18:n0 (equipment_block)</title></rect>
+  <text x="105.0" y="2822.5" font-size="6.5" text-anchor="middle" fill="#111">equip</text>
+  <rect x="255.0" y="2785.0" width="100.0" height="70.0" fill="#9ec4e8" stroke="#333" stroke-width="0.5" rx="2"><title>efrag_19:n0 (equipment_block)</title></rect>
+  <text x="305.0" y="2822.5" font-size="6.5" text-anchor="middle" fill="#111">equip</text>
+  <rect x="255.0" y="2880.0" width="100.0" height="70.0" fill="#9ec4e8" stroke="#333" stroke-width="0.5" rx="2"><title>efrag_19:n1 (equipment_block)</title></rect>
+  <text x="305.0" y="2917.5" font-size="6.5" text-anchor="middle" fill="#111">equip</text>
+  <rect x="255.0" y="2975.0" width="100.0" height="70.0" fill="#9ec4e8" stroke="#333" stroke-width="0.5" rx="2"><title>efrag_19:n2 (equipment_block)</title></rect>
+  <text x="305.0" y="3012.5" font-size="6.5" text-anchor="middle" fill="#111">equip</text>
+  <rect x="255.0" y="3070.0" width="100.0" height="70.0" fill="#9ec4e8" stroke="#333" stroke-width="0.5" rx="2"><title>efrag_19:n3 (equipment_block)</title></rect>
+  <text x="305.0" y="3107.5" font-size="6.5" text-anchor="middle" fill="#111">equip</text>
+  <rect x="455.0" y="2785.0" width="100.0" height="70.0" fill="#9ec4e8" stroke="#333" stroke-width="0.5" rx="2"><title>efrag_20:n0 (equipment_block)</title></rect>
+  <text x="505.0" y="2822.5" font-size="6.5" text-anchor="middle" fill="#111">equip</text>
+  <rect x="655.0" y="2785.0" width="100.0" height="70.0" fill="#9ec4e8" stroke="#333" stroke-width="0.5" rx="2"><title>efrag_21:n0 (equipment_block)</title></rect>
+  <text x="705.0" y="2822.5" font-size="6.5" text-anchor="middle" fill="#111">equip</text>
+  <rect x="855.0" y="2785.0" width="100.0" height="70.0" fill="#9ec4e8" stroke="#333" stroke-width="0.5" rx="2"><title>efrag_22:n0 (equipment_block)</title></rect>
+  <text x="905.0" y="2822.5" font-size="6.5" text-anchor="middle" fill="#111">equip</text>
+  <rect x="855.0" y="2880.0" width="100.0" height="70.0" fill="#9ec4e8" stroke="#333" stroke-width="0.5" rx="2"><title>efrag_22:n1 (equipment_block)</title></rect>
+  <text x="905.0" y="2917.5" font-size="6.5" text-anchor="middle" fill="#111">equip</text>
+  <rect x="1055.0" y="2785.0" width="100.0" height="70.0" fill="#9ec4e8" stroke="#333" stroke-width="0.5" rx="2"><title>efrag_23:n0 (equipment_block)</title></rect>
+  <text x="1105.0" y="2822.5" font-size="6.5" text-anchor="middle" fill="#111">equip</text>
+  <rect x="55.0" y="3285.0" width="100.0" height="70.0" fill="#9ec4e8" stroke="#333" stroke-width="0.5" rx="2"><title>efrag_24:n0 (equipment_block)</title></rect>
+  <text x="105.0" y="3322.5" font-size="6.5" text-anchor="middle" fill="#111">equip</text>
+  <rect x="255.0" y="3285.0" width="100.0" height="70.0" fill="#9ec4e8" stroke="#333" stroke-width="0.5" rx="2"><title>efrag_25:n0 (equipment_block)</title></rect>
+  <text x="305.0" y="3322.5" font-size="6.5" text-anchor="middle" fill="#111">equip</text>
+  <rect x="455.0" y="3285.0" width="100.0" height="70.0" fill="#9ec4e8" stroke="#333" stroke-width="0.5" rx="2"><title>efrag_26:n0 (equipment_block)</title></rect>
+  <text x="505.0" y="3322.5" font-size="6.5" text-anchor="middle" fill="#111">equip</text>
+  <rect x="455.0" y="3380.0" width="100.0" height="70.0" fill="#9ec4e8" stroke="#333" stroke-width="0.5" rx="2"><title>efrag_26:n1 (equipment_block)</title></rect>
+  <text x="505.0" y="3417.5" font-size="6.5" text-anchor="middle" fill="#111">equip</text>
+  <rect x="655.0" y="3285.0" width="100.0" height="70.0" fill="#9ec4e8" stroke="#333" stroke-width="0.5" rx="2"><title>efrag_27:n0 (equipment_block)</title></rect>
+  <text x="705.0" y="3322.5" font-size="6.5" text-anchor="middle" fill="#111">equip</text>
+  <rect x="855.0" y="3285.0" width="100.0" height="70.0" fill="#9ec4e8" stroke="#333" stroke-width="0.5" rx="2"><title>efrag_28:n0 (equipment_block)</title></rect>
+  <text x="905.0" y="3322.5" font-size="6.5" text-anchor="middle" fill="#111">equip</text>
+  <rect x="1055.0" y="3285.0" width="100.0" height="70.0" fill="#9ec4e8" stroke="#333" stroke-width="0.5" rx="2"><title>efrag_29:n0 (equipment_block)</title></rect>
+  <text x="1105.0" y="3322.5" font-size="6.5" text-anchor="middle" fill="#111">equip</text>
+  <rect x="8" y="3410" width="138" height="90" fill="white" stroke="#999" stroke-width="0.8" rx="4" opacity="0.9"/>
+  <text x="13" y="3421" font-size="7.5" font-weight="bold" fill="#222">Legend</text>
+  <rect x="13" y="3428" width="13" height="8" fill="#c8c8c8" stroke="#333" stroke-width="0.5" rx="1"/>
+  <text x="30" y="3435" font-size="6" fill="#222">pipe_segment</text>
+  <rect x="13" y="3439" width="13" height="8" fill="#9ec4e8" stroke="#333" stroke-width="0.5" rx="1"/>
+  <text x="30" y="3446" font-size="6" fill="#222">equipment_block</text>
+  <rect x="13" y="3450" width="13" height="8" fill="#f5c97f" stroke="#333" stroke-width="0.5" rx="1"/>
+  <text x="30" y="3457" font-size="6" fill="#222">valve:isolation</text>
+  <rect x="13" y="3461" width="13" height="8" fill="#f5956a" stroke="#333" stroke-width="0.5" rx="1"/>
+  <text x="30" y="3468" font-size="6" fill="#222">valve:control</text>
+  <rect x="13" y="3472" width="13" height="8" fill="#8fd4a0" stroke="#333" stroke-width="0.5" rx="1"/>
+  <text x="30" y="3479" font-size="6" fill="#222">instrument:flow_meter</text>
+  <line x1="13" y1="3487" x2="26" y2="3487" stroke="#c03030" stroke-width="2"/>
+  <text x="30" y="3490" font-size="6" fill="#222">stitch edge</text>
+  <line x1="13" y1="3498" x2="26" y2="3498" stroke="#444" stroke-width="2"/>
+  <text x="30" y="3501" font-size="6" fill="#222">intra-frag edge</text>
+</svg>
