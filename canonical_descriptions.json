@@ -1,0 +1,459 @@
+{
+  "metadata": {
+    "source_file": "fragments.json",
+    "total_fragments": 75,
+    "generation_method": "deterministic"
+  },
+  "descriptions": [
+    {
+      "fragment_id": "rfrag_region_0",
+      "fragment_type": "region_fragment",
+      "fragment_subtype": "linear_transfer",
+      "canonical_text": "A pipe segment containing 1 process equipment item, with 1 isolating valve on its boundary. Flow passes through without full enclosure."
+    },
+    {
+      "fragment_id": "rfrag_region_1",
+      "fragment_type": "region_fragment",
+      "fragment_subtype": "linear_transfer",
+      "canonical_text": "A pipe segment containing 1 process equipment item, with 1 isolating valve on its boundary. Flow passes through without full enclosure."
+    },
+    {
+      "fragment_id": "rfrag_region_2",
+      "fragment_type": "region_fragment",
+      "fragment_subtype": "measurement_only",
+      "canonical_text": "A monitored pipe segment containing 2 process equipment items, fitted with 1 instrumentation point. No valve control is present; flow is measured but not regulated."
+    },
+    {
+      "fragment_id": "rfrag_region_3",
+      "fragment_type": "region_fragment",
+      "fragment_subtype": "linear_transfer",
+      "canonical_text": "A pipe segment containing 1 process equipment item, with 1 isolating valve on its boundary. Flow passes through without full enclosure."
+    },
+    {
+      "fragment_id": "rfrag_region_4",
+      "fragment_type": "region_fragment",
+      "fragment_subtype": "linear_transfer",
+      "canonical_text": "A pipe segment containing 1 process equipment item, with 1 isolating valve on its boundary. Flow passes through without full enclosure."
+    },
+    {
+      "fragment_id": "rfrag_region_5",
+      "fragment_type": "region_fragment",
+      "fragment_subtype": "linear_transfer",
+      "canonical_text": "A pipe segment containing 2 process equipment items, with 1 isolating valve on its boundary. Flow passes through without full enclosure."
+    },
+    {
+      "fragment_id": "rfrag_region_6",
+      "fragment_type": "region_fragment",
+      "fragment_subtype": "measurement_only",
+      "canonical_text": "A monitored pipe segment containing 1 process equipment item, fitted with 1 instrumentation point. No valve control is present; flow is measured but not regulated."
+    },
+    {
+      "fragment_id": "rfrag_region_7",
+      "fragment_type": "region_fragment",
+      "fragment_subtype": "linear_transfer",
+      "canonical_text": "A pipe segment containing 1 process equipment item, with 1 isolating valve on its boundary. Flow passes through without full enclosure."
+    },
+    {
+      "fragment_id": "rfrag_region_8",
+      "fragment_type": "region_fragment",
+      "fragment_subtype": "controlled_transfer",
+      "canonical_text": "A fully bounded pipe segment containing 1 process equipment item. The segment is enclosed by 2 control elements: one control valve and one instrumentation point, preventing unrestricted flow in either direction."
+    },
+    {
+      "fragment_id": "rfrag_region_9",
+      "fragment_type": "region_fragment",
+      "fragment_subtype": "measurement_only",
+      "canonical_text": "A monitored pipe segment containing 0 process equipment items, fitted with 1 instrumentation point. No valve control is present; flow is measured but not regulated."
+    },
+    {
+      "fragment_id": "rfrag_region_10",
+      "fragment_type": "region_fragment",
+      "fragment_subtype": "linear_transfer",
+      "canonical_text": "A pipe segment containing 1 process equipment item, with 1 isolating valve on its boundary. Flow passes through without full enclosure."
+    },
+    {
+      "fragment_id": "rfrag_region_11",
+      "fragment_type": "region_fragment",
+      "fragment_subtype": "linear_transfer",
+      "canonical_text": "A pipe segment containing 1 process equipment item, with 1 isolating valve on its boundary. Flow passes through without full enclosure."
+    },
+    {
+      "fragment_id": "rfrag_region_12",
+      "fragment_type": "region_fragment",
+      "fragment_subtype": "linear_transfer",
+      "canonical_text": "A pipe segment containing 0 process equipment items, with 1 isolating valve on its boundary. Flow passes through without full enclosure."
+    },
+    {
+      "fragment_id": "rfrag_region_13",
+      "fragment_type": "region_fragment",
+      "fragment_subtype": "controlled_transfer",
+      "canonical_text": "A fully bounded pipe segment containing 1 process equipment item. The segment is enclosed by 2 control elements: two control valves, preventing unrestricted flow in either direction."
+    },
+    {
+      "fragment_id": "rfrag_region_14",
+      "fragment_type": "region_fragment",
+      "fragment_subtype": "controlled_transfer",
+      "canonical_text": "A fully bounded pipe segment containing 1 process equipment item. The segment is enclosed by 2 control elements: two control valves, preventing unrestricted flow in either direction."
+    },
+    {
+      "fragment_id": "rfrag_region_15",
+      "fragment_type": "region_fragment",
+      "fragment_subtype": "linear_transfer",
+      "canonical_text": "A pipe segment containing 1 process equipment item, with 1 isolating valve on its boundary. Flow passes through without full enclosure."
+    },
+    {
+      "fragment_id": "rfrag_region_16",
+      "fragment_type": "region_fragment",
+      "fragment_subtype": "isolated_segment",
+      "canonical_text": "An open pipe segment containing 1 process equipment item, with no control or instrumentation elements on its boundary."
+    },
+    {
+      "fragment_id": "rfrag_region_17",
+      "fragment_type": "region_fragment",
+      "fragment_subtype": "measurement_only",
+      "canonical_text": "A monitored pipe segment containing 1 process equipment item, fitted with 1 instrumentation point. No valve control is present; flow is measured but not regulated."
+    },
+    {
+      "fragment_id": "rfrag_region_18",
+      "fragment_type": "region_fragment",
+      "fragment_subtype": "isolated_segment",
+      "canonical_text": "An open pipe segment containing 1 process equipment item, with no control or instrumentation elements on its boundary."
+    },
+    {
+      "fragment_id": "rfrag_region_19",
+      "fragment_type": "region_fragment",
+      "fragment_subtype": "controlled_transfer",
+      "canonical_text": "A fully bounded pipe segment containing 1 process equipment item. The segment is enclosed by 2 control elements: one control valve and one instrumentation point, preventing unrestricted flow in either direction."
+    },
+    {
+      "fragment_id": "rfrag_region_20",
+      "fragment_type": "region_fragment",
+      "fragment_subtype": "linear_transfer",
+      "canonical_text": "A pipe segment containing 1 process equipment item, with 1 isolating valve on its boundary. Flow passes through without full enclosure."
+    },
+    {
+      "fragment_id": "rfrag_region_21",
+      "fragment_type": "region_fragment",
+      "fragment_subtype": "controlled_transfer",
+      "canonical_text": "A fully bounded pipe segment containing 1 process equipment item. The segment is enclosed by 2 control elements: one control valve and one instrumentation point, preventing unrestricted flow in either direction."
+    },
+    {
+      "fragment_id": "rfrag_region_22",
+      "fragment_type": "region_fragment",
+      "fragment_subtype": "linear_transfer",
+      "canonical_text": "A pipe segment containing 1 process equipment item, with 1 isolating valve on its boundary. Flow passes through without full enclosure."
+    },
+    {
+      "fragment_id": "rfrag_region_23",
+      "fragment_type": "region_fragment",
+      "fragment_subtype": "isolated_segment",
+      "canonical_text": "An open pipe segment containing 1 process equipment item, with no control or instrumentation elements on its boundary."
+    },
+    {
+      "fragment_id": "rfrag_region_24",
+      "fragment_type": "region_fragment",
+      "fragment_subtype": "isolated_segment",
+      "canonical_text": "An open pipe segment containing 1 process equipment item, with no control or instrumentation elements on its boundary."
+    },
+    {
+      "fragment_id": "rfrag_region_25",
+      "fragment_type": "region_fragment",
+      "fragment_subtype": "isolated_segment",
+      "canonical_text": "An open pipe segment containing 0 process equipment items, with no control or instrumentation elements on its boundary."
+    },
+    {
+      "fragment_id": "rfrag_region_26",
+      "fragment_type": "region_fragment",
+      "fragment_subtype": "measurement_only",
+      "canonical_text": "A monitored pipe segment containing 1 process equipment item, fitted with 1 instrumentation point. No valve control is present; flow is measured but not regulated."
+    },
+    {
+      "fragment_id": "rfrag_region_27",
+      "fragment_type": "region_fragment",
+      "fragment_subtype": "linear_transfer",
+      "canonical_text": "A pipe segment containing 1 process equipment item, with 1 isolating valve on its boundary. Flow passes through without full enclosure."
+    },
+    {
+      "fragment_id": "rfrag_region_28",
+      "fragment_type": "region_fragment",
+      "fragment_subtype": "linear_transfer",
+      "canonical_text": "A pipe segment containing 1 process equipment item, with 1 isolating valve on its boundary. Flow passes through without full enclosure."
+    },
+    {
+      "fragment_id": "rfrag_region_29",
+      "fragment_type": "region_fragment",
+      "fragment_subtype": "linear_transfer",
+      "canonical_text": "A pipe segment containing 2 process equipment items, with 1 isolating valve on its boundary. Flow passes through without full enclosure."
+    },
+    {
+      "fragment_id": "rfrag_region_30",
+      "fragment_type": "region_fragment",
+      "fragment_subtype": "isolated_segment",
+      "canonical_text": "An open pipe segment containing 1 process equipment item, with no control or instrumentation elements on its boundary."
+    },
+    {
+      "fragment_id": "rfrag_region_31",
+      "fragment_type": "region_fragment",
+      "fragment_subtype": "linear_transfer",
+      "canonical_text": "A pipe segment containing 1 process equipment item, with 1 isolating valve on its boundary. Flow passes through without full enclosure."
+    },
+    {
+      "fragment_id": "rfrag_region_32",
+      "fragment_type": "region_fragment",
+      "fragment_subtype": "controlled_transfer",
+      "canonical_text": "A fully bounded pipe segment containing 1 process equipment item. The segment is enclosed by 2 control elements: one control valve and one instrumentation point, preventing unrestricted flow in either direction."
+    },
+    {
+      "fragment_id": "rfrag_region_33",
+      "fragment_type": "region_fragment",
+      "fragment_subtype": "linear_transfer",
+      "canonical_text": "A pipe segment containing 1 process equipment item, with 1 isolating valve on its boundary. Flow passes through without full enclosure."
+    },
+    {
+      "fragment_id": "cfrag_0",
+      "fragment_type": "connectivity_fragment",
+      "fragment_subtype": null,
+      "canonical_text": "A control valve connects two process regions (region_0 and region_28) via a single, non-redundant path."
+    },
+    {
+      "fragment_id": "cfrag_1",
+      "fragment_type": "connectivity_fragment",
+      "fragment_subtype": null,
+      "canonical_text": "An instrumentation point connects two process regions (region_6 and region_21) via a single, non-redundant path."
+    },
+    {
+      "fragment_id": "cfrag_2",
+      "fragment_type": "connectivity_fragment",
+      "fragment_subtype": null,
+      "canonical_text": "An instrumentation point connects two process regions (region_9 and region_17) via a single, non-redundant path."
+    },
+    {
+      "fragment_id": "cfrag_3",
+      "fragment_type": "connectivity_fragment",
+      "fragment_subtype": null,
+      "canonical_text": "A control valve connects two process regions (region_14 and region_20) via a single, non-redundant path."
+    },
+    {
+      "fragment_id": "efrag_0",
+      "fragment_type": "equipment_cluster_fragment",
+      "fragment_subtype": null,
+      "canonical_text": "A standalone process equipment item within a single process region."
+    },
+    {
+      "fragment_id": "efrag_1",
+      "fragment_type": "equipment_cluster_fragment",
+      "fragment_subtype": null,
+      "canonical_text": "A standalone process equipment item within a single process region."
+    },
+    {
+      "fragment_id": "efrag_2",
+      "fragment_type": "equipment_cluster_fragment",
+      "fragment_subtype": null,
+      "canonical_text": "A standalone process equipment item within a single process region."
+    },
+    {
+      "fragment_id": "efrag_3",
+      "fragment_type": "equipment_cluster_fragment",
+      "fragment_subtype": null,
+      "canonical_text": "A cluster of 2 interconnected equipment items (general equipment item, instrumentation point) within a single process region."
+    },
+    {
+      "fragment_id": "efrag_4",
+      "fragment_type": "equipment_cluster_fragment",
+      "fragment_subtype": null,
+      "canonical_text": "A standalone process equipment item within a single process region."
+    },
+    {
+      "fragment_id": "efrag_5",
+      "fragment_type": "equipment_cluster_fragment",
+      "fragment_subtype": null,
+      "canonical_text": "A standalone process equipment item within a single process region."
+    },
+    {
+      "fragment_id": "efrag_6",
+      "fragment_type": "equipment_cluster_fragment",
+      "fragment_subtype": null,
+      "canonical_text": "A standalone process equipment item within a single process region."
+    },
+    {
+      "fragment_id": "efrag_7",
+      "fragment_type": "equipment_cluster_fragment",
+      "fragment_subtype": null,
+      "canonical_text": "A cluster of 2 interconnected equipment items (general equipment item, instrumentation point) within a single process region."
+    },
+    {
+      "fragment_id": "efrag_8",
+      "fragment_type": "equipment_cluster_fragment",
+      "fragment_subtype": null,
+      "canonical_text": "A cluster of 2 interconnected equipment items (general equipment item, instrumentation point) within a single process region."
+    },
+    {
+      "fragment_id": "efrag_9",
+      "fragment_type": "equipment_cluster_fragment",
+      "fragment_subtype": null,
+      "canonical_text": "A standalone process equipment item within a single process region."
+    },
+    {
+      "fragment_id": "efrag_10",
+      "fragment_type": "equipment_cluster_fragment",
+      "fragment_subtype": null,
+      "canonical_text": "A standalone process equipment item within a single process region."
+    },
+    {
+      "fragment_id": "efrag_11",
+      "fragment_type": "equipment_cluster_fragment",
+      "fragment_subtype": null,
+      "canonical_text": "A standalone process equipment item within a single process region."
+    },
+    {
+      "fragment_id": "efrag_12",
+      "fragment_type": "equipment_cluster_fragment",
+      "fragment_subtype": null,
+      "canonical_text": "A cluster of 3 interconnected equipment items (2 general equipment items, instrumentation point) within a single process region."
+    },
+    {
+      "fragment_id": "efrag_13",
+      "fragment_type": "equipment_cluster_fragment",
+      "fragment_subtype": null,
+      "canonical_text": "A standalone process equipment item within a single process region."
+    },
+    {
+      "fragment_id": "efrag_14",
+      "fragment_type": "equipment_cluster_fragment",
+      "fragment_subtype": null,
+      "canonical_text": "A cross-region equipment cluster of 3 interconnected items (2 general equipment items, instrumentation point), spanning 2 adjacent process regions."
+    },
+    {
+      "fragment_id": "efrag_15",
+      "fragment_type": "equipment_cluster_fragment",
+      "fragment_subtype": null,
+      "canonical_text": "A standalone process equipment item within a single process region."
+    },
+    {
+      "fragment_id": "efrag_16",
+      "fragment_type": "equipment_cluster_fragment",
+      "fragment_subtype": null,
+      "canonical_text": "A cluster of 2 interconnected equipment items (2 general equipment items) within a single process region."
+    },
+    {
+      "fragment_id": "efrag_17",
+      "fragment_type": "equipment_cluster_fragment",
+      "fragment_subtype": null,
+      "canonical_text": "A standalone process equipment item within a single process region."
+    },
+    {
+      "fragment_id": "efrag_18",
+      "fragment_type": "equipment_cluster_fragment",
+      "fragment_subtype": null,
+      "canonical_text": "A standalone process equipment item within a single process region."
+    },
+    {
+      "fragment_id": "efrag_19",
+      "fragment_type": "equipment_cluster_fragment",
+      "fragment_subtype": null,
+      "canonical_text": "A cluster of 4 interconnected equipment items (general equipment item, 3 instrumentation points) within a single process region."
+    },
+    {
+      "fragment_id": "efrag_20",
+      "fragment_type": "equipment_cluster_fragment",
+      "fragment_subtype": null,
+      "canonical_text": "A standalone process equipment item within a single process region."
+    },
+    {
+      "fragment_id": "efrag_21",
+      "fragment_type": "equipment_cluster_fragment",
+      "fragment_subtype": null,
+      "canonical_text": "A standalone process equipment item within a single process region."
+    },
+    {
+      "fragment_id": "efrag_22",
+      "fragment_type": "equipment_cluster_fragment",
+      "fragment_subtype": null,
+      "canonical_text": "A cluster of 2 interconnected equipment items (general equipment item, instrumentation point) within a single process region."
+    },
+    {
+      "fragment_id": "efrag_23",
+      "fragment_type": "equipment_cluster_fragment",
+      "fragment_subtype": null,
+      "canonical_text": "A standalone process equipment item within a single process region."
+    },
+    {
+      "fragment_id": "efrag_24",
+      "fragment_type": "equipment_cluster_fragment",
+      "fragment_subtype": null,
+      "canonical_text": "A standalone process equipment item within a single process region."
+    },
+    {
+      "fragment_id": "efrag_25",
+      "fragment_type": "equipment_cluster_fragment",
+      "fragment_subtype": null,
+      "canonical_text": "A standalone process equipment item within a single process region."
+    },
+    {
+      "fragment_id": "efrag_26",
+      "fragment_type": "equipment_cluster_fragment",
+      "fragment_subtype": null,
+      "canonical_text": "A cluster of 2 interconnected equipment items (2 general equipment items) within a single process region."
+    },
+    {
+      "fragment_id": "efrag_27",
+      "fragment_type": "equipment_cluster_fragment",
+      "fragment_subtype": null,
+      "canonical_text": "A standalone process equipment item within a single process region."
+    },
+    {
+      "fragment_id": "efrag_28",
+      "fragment_type": "equipment_cluster_fragment",
+      "fragment_subtype": null,
+      "canonical_text": "A standalone process equipment item within a single process region."
+    },
+    {
+      "fragment_id": "efrag_29",
+      "fragment_type": "equipment_cluster_fragment",
+      "fragment_subtype": null,
+      "canonical_text": "A standalone process equipment item within a single process region."
+    },
+    {
+      "fragment_id": "pfrag_topo_group_0",
+      "fragment_type": "pattern_fragment",
+      "fragment_subtype": "topology",
+      "canonical_text": "A recurring structural topology pattern present in 30 regions, characterized by a single-node internal structure."
+    },
+    {
+      "fragment_id": "pfrag_topo_group_1",
+      "fragment_type": "pattern_fragment",
+      "fragment_subtype": "topology",
+      "canonical_text": "A recurring structural topology pattern present in 4 regions, characterized by a two-node internal structure."
+    },
+    {
+      "fragment_id": "pfrag_valve_seq_0",
+      "fragment_type": "pattern_fragment",
+      "fragment_subtype": "valve_sequence",
+      "canonical_text": "A recurring valve-sequence pattern (single valve) shared by 17 regions."
+    },
+    {
+      "fragment_id": "pfrag_valve_seq_1",
+      "fragment_type": "pattern_fragment",
+      "fragment_subtype": "valve_sequence",
+      "canonical_text": "A recurring valve-sequence pattern (single instrumentation point) shared by 5 regions."
+    },
+    {
+      "fragment_id": "pfrag_valve_seq_2",
+      "fragment_type": "pattern_fragment",
+      "fragment_subtype": "valve_sequence",
+      "canonical_text": "A recurring valve-sequence pattern (instrumentation followed by valve) shared by 4 regions."
+    },
+    {
+      "fragment_id": "pfrag_valve_seq_3",
+      "fragment_type": "pattern_fragment",
+      "fragment_subtype": "valve_sequence",
+      "canonical_text": "A recurring valve-sequence pattern (two valves) shared by 2 regions."
+    },
+    {
+      "fragment_id": "pfrag_valve_seq_4",
+      "fragment_type": "pattern_fragment",
+      "fragment_subtype": "valve_sequence",
+      "canonical_text": "A recurring valve-sequence pattern (no control elements) shared by 6 regions."
+    }
+  ]
+}
