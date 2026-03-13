@@ -4,6 +4,7 @@ Reads canonical_descriptions.json, writes text_variants.json.
 Requires: anthropic SDK, ANTHROPIC_API_KEY env var.
 """
 
+import argparse
 import json
 import os
 import sys
@@ -92,8 +93,13 @@ def with_fallback(
 
 
 def main():
-    src = Path("canonical_descriptions.json")
-    dst = Path("text_variants.json")
+    parser = argparse.ArgumentParser(description="Stage 3B: Linguistic Variants")
+    parser.add_argument("--input", default="canonical_descriptions.json", help="Path to canonical descriptions JSON")
+    parser.add_argument("--output", default="text_variants.json", help="Output path")
+    args = parser.parse_args()
+
+    src = Path(args.input)
+    dst = Path(args.output)
 
     if not src.exists():
         print(f"ERROR: {src} not found. Run generate_stage3a.py first.")

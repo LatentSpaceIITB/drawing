@@ -1,0 +1,5377 @@
+{
+  "metadata": {
+    "schema_version": "1",
+    "source_file": "pid_primitives.json",
+    "node_count": 389,
+    "edge_count": 329,
+    "stitch_edge_count": 8,
+    "expansion_node_count": 204
+  },
+  "global_graph": {
+    "nodes": {
+      "rfrag_region_0:n0": {
+        "id": "rfrag_region_0:n0",
+        "type": "pipe_segment",
+        "line_id": "L-101-A",
+        "size": "4in",
+        "spec": "CS150",
+        "service": "Process",
+        "flow_direction": "forward",
+        "fragment_id": "rfrag_region_0"
+      },
+      "rfrag_region_0:n1": {
+        "id": "rfrag_region_0:n1",
+        "type": "equipment_block",
+        "tag": "E-001",
+        "equipment_type": "vessel",
+        "duty": "process",
+        "fragment_id": "rfrag_region_0"
+      },
+      "rfrag_region_0:n1:pi": {
+        "id": "rfrag_region_0:n1:pi",
+        "type": "instrument:pressure",
+        "tag": "PI-401",
+        "fragment_id": "rfrag_region_0",
+        "parent_id": "rfrag_region_0:n1"
+      },
+      "rfrag_region_0:n1:ti": {
+        "id": "rfrag_region_0:n1:ti",
+        "type": "instrument:temperature",
+        "tag": "TI-501",
+        "fragment_id": "rfrag_region_0",
+        "parent_id": "rfrag_region_0:n1"
+      },
+      "rfrag_region_0:n2": {
+        "id": "rfrag_region_0:n2",
+        "type": "valve:isolation",
+        "tag": "XV-101",
+        "valve_type": "gate",
+        "normally_open": true,
+        "fail_position": "closed",
+        "fragment_id": "rfrag_region_0"
+      },
+      "rfrag_region_0:n2:drain": {
+        "id": "rfrag_region_0:n2:drain",
+        "type": "valve:drain",
+        "tag": "DR-601",
+        "normally_closed": true,
+        "fragment_id": "rfrag_region_0",
+        "parent_id": "rfrag_region_0:n2"
+      },
+      "rfrag_region_0:n3": {
+        "id": "rfrag_region_0:n3",
+        "type": "pipe_segment",
+        "line_id": "L-102-A",
+        "size": "4in",
+        "spec": "CS150",
+        "service": "Process",
+        "flow_direction": "forward",
+        "fragment_id": "rfrag_region_0"
+      },
+      "rfrag_region_1:n0": {
+        "id": "rfrag_region_1:n0",
+        "type": "pipe_segment",
+        "line_id": "L-103-A",
+        "size": "4in",
+        "spec": "CS150",
+        "service": "Process",
+        "flow_direction": "forward",
+        "fragment_id": "rfrag_region_1"
+      },
+      "rfrag_region_1:n1": {
+        "id": "rfrag_region_1:n1",
+        "type": "equipment_block",
+        "tag": "E-002",
+        "equipment_type": "vessel",
+        "duty": "process",
+        "fragment_id": "rfrag_region_1"
+      },
+      "rfrag_region_1:n1:pi": {
+        "id": "rfrag_region_1:n1:pi",
+        "type": "instrument:pressure",
+        "tag": "PI-402",
+        "fragment_id": "rfrag_region_1",
+        "parent_id": "rfrag_region_1:n1"
+      },
+      "rfrag_region_1:n1:ti": {
+        "id": "rfrag_region_1:n1:ti",
+        "type": "instrument:temperature",
+        "tag": "TI-502",
+        "fragment_id": "rfrag_region_1",
+        "parent_id": "rfrag_region_1:n1"
+      },
+      "rfrag_region_1:n2": {
+        "id": "rfrag_region_1:n2",
+        "type": "valve:isolation",
+        "tag": "XV-102",
+        "valve_type": "gate",
+        "normally_open": true,
+        "fail_position": "closed",
+        "fragment_id": "rfrag_region_1"
+      },
+      "rfrag_region_1:n2:drain": {
+        "id": "rfrag_region_1:n2:drain",
+        "type": "valve:drain",
+        "tag": "DR-602",
+        "normally_closed": true,
+        "fragment_id": "rfrag_region_1",
+        "parent_id": "rfrag_region_1:n2"
+      },
+      "rfrag_region_1:n3": {
+        "id": "rfrag_region_1:n3",
+        "type": "pipe_segment",
+        "line_id": "L-104-A",
+        "size": "4in",
+        "spec": "CS150",
+        "service": "Process",
+        "flow_direction": "forward",
+        "fragment_id": "rfrag_region_1"
+      },
+      "rfrag_region_2:n0": {
+        "id": "rfrag_region_2:n0",
+        "type": "pipe_segment",
+        "line_id": "L-105-A",
+        "size": "4in",
+        "spec": "CS150",
+        "service": "Process",
+        "flow_direction": "forward",
+        "fragment_id": "rfrag_region_2"
+      },
+      "rfrag_region_2:n1": {
+        "id": "rfrag_region_2:n1",
+        "type": "equipment_block",
+        "tag": "E-003",
+        "equipment_type": "vessel",
+        "duty": "process",
+        "fragment_id": "rfrag_region_2"
+      },
+      "rfrag_region_2:n1:pi": {
+        "id": "rfrag_region_2:n1:pi",
+        "type": "instrument:pressure",
+        "tag": "PI-403",
+        "fragment_id": "rfrag_region_2",
+        "parent_id": "rfrag_region_2:n1"
+      },
+      "rfrag_region_2:n1:ti": {
+        "id": "rfrag_region_2:n1:ti",
+        "type": "instrument:temperature",
+        "tag": "TI-503",
+        "fragment_id": "rfrag_region_2",
+        "parent_id": "rfrag_region_2:n1"
+      },
+      "rfrag_region_2:n2": {
+        "id": "rfrag_region_2:n2",
+        "type": "equipment_block",
+        "tag": "E-004",
+        "equipment_type": "vessel",
+        "duty": "process",
+        "fragment_id": "rfrag_region_2"
+      },
+      "rfrag_region_2:n2:pi": {
+        "id": "rfrag_region_2:n2:pi",
+        "type": "instrument:pressure",
+        "tag": "PI-404",
+        "fragment_id": "rfrag_region_2",
+        "parent_id": "rfrag_region_2:n2"
+      },
+      "rfrag_region_2:n2:ti": {
+        "id": "rfrag_region_2:n2:ti",
+        "type": "instrument:temperature",
+        "tag": "TI-504",
+        "fragment_id": "rfrag_region_2",
+        "parent_id": "rfrag_region_2:n2"
+      },
+      "rfrag_region_2:n3": {
+        "id": "rfrag_region_2:n3",
+        "type": "instrument:flow_meter",
+        "tag": "FT-301",
+        "measurement": "flow",
+        "fragment_id": "rfrag_region_2"
+      },
+      "rfrag_region_2:n3:ft": {
+        "id": "rfrag_region_2:n3:ft",
+        "type": "instrument:transmitter",
+        "tag": "FT-302",
+        "fragment_id": "rfrag_region_2",
+        "parent_id": "rfrag_region_2:n3"
+      },
+      "rfrag_region_2:n4": {
+        "id": "rfrag_region_2:n4",
+        "type": "pipe_segment",
+        "line_id": "L-106-A",
+        "size": "4in",
+        "spec": "CS150",
+        "service": "Process",
+        "flow_direction": "forward",
+        "fragment_id": "rfrag_region_2"
+      },
+      "rfrag_region_3:n0": {
+        "id": "rfrag_region_3:n0",
+        "type": "pipe_segment",
+        "line_id": "L-107-A",
+        "size": "4in",
+        "spec": "CS150",
+        "service": "Process",
+        "flow_direction": "forward",
+        "fragment_id": "rfrag_region_3"
+      },
+      "rfrag_region_3:n1": {
+        "id": "rfrag_region_3:n1",
+        "type": "equipment_block",
+        "tag": "E-005",
+        "equipment_type": "vessel",
+        "duty": "process",
+        "fragment_id": "rfrag_region_3"
+      },
+      "rfrag_region_3:n1:pi": {
+        "id": "rfrag_region_3:n1:pi",
+        "type": "instrument:pressure",
+        "tag": "PI-405",
+        "fragment_id": "rfrag_region_3",
+        "parent_id": "rfrag_region_3:n1"
+      },
+      "rfrag_region_3:n1:ti": {
+        "id": "rfrag_region_3:n1:ti",
+        "type": "instrument:temperature",
+        "tag": "TI-505",
+        "fragment_id": "rfrag_region_3",
+        "parent_id": "rfrag_region_3:n1"
+      },
+      "rfrag_region_3:n2": {
+        "id": "rfrag_region_3:n2",
+        "type": "valve:isolation",
+        "tag": "XV-103",
+        "valve_type": "gate",
+        "normally_open": true,
+        "fail_position": "closed",
+        "fragment_id": "rfrag_region_3"
+      },
+      "rfrag_region_3:n2:drain": {
+        "id": "rfrag_region_3:n2:drain",
+        "type": "valve:drain",
+        "tag": "DR-603",
+        "normally_closed": true,
+        "fragment_id": "rfrag_region_3",
+        "parent_id": "rfrag_region_3:n2"
+      },
+      "rfrag_region_3:n3": {
+        "id": "rfrag_region_3:n3",
+        "type": "pipe_segment",
+        "line_id": "L-108-A",
+        "size": "4in",
+        "spec": "CS150",
+        "service": "Process",
+        "flow_direction": "forward",
+        "fragment_id": "rfrag_region_3"
+      },
+      "rfrag_region_4:n0": {
+        "id": "rfrag_region_4:n0",
+        "type": "pipe_segment",
+        "line_id": "L-109-A",
+        "size": "4in",
+        "spec": "CS150",
+        "service": "Process",
+        "flow_direction": "forward",
+        "fragment_id": "rfrag_region_4"
+      },
+      "rfrag_region_4:n1": {
+        "id": "rfrag_region_4:n1",
+        "type": "equipment_block",
+        "tag": "E-006",
+        "equipment_type": "vessel",
+        "duty": "process",
+        "fragment_id": "rfrag_region_4"
+      },
+      "rfrag_region_4:n1:pi": {
+        "id": "rfrag_region_4:n1:pi",
+        "type": "instrument:pressure",
+        "tag": "PI-406",
+        "fragment_id": "rfrag_region_4",
+        "parent_id": "rfrag_region_4:n1"
+      },
+      "rfrag_region_4:n1:ti": {
+        "id": "rfrag_region_4:n1:ti",
+        "type": "instrument:temperature",
+        "tag": "TI-506",
+        "fragment_id": "rfrag_region_4",
+        "parent_id": "rfrag_region_4:n1"
+      },
+      "rfrag_region_4:n2": {
+        "id": "rfrag_region_4:n2",
+        "type": "valve:isolation",
+        "tag": "XV-104",
+        "valve_type": "gate",
+        "normally_open": true,
+        "fail_position": "closed",
+        "fragment_id": "rfrag_region_4"
+      },
+      "rfrag_region_4:n2:drain": {
+        "id": "rfrag_region_4:n2:drain",
+        "type": "valve:drain",
+        "tag": "DR-604",
+        "normally_closed": true,
+        "fragment_id": "rfrag_region_4",
+        "parent_id": "rfrag_region_4:n2"
+      },
+      "rfrag_region_4:n3": {
+        "id": "rfrag_region_4:n3",
+        "type": "pipe_segment",
+        "line_id": "L-110-A",
+        "size": "4in",
+        "spec": "CS150",
+        "service": "Process",
+        "flow_direction": "forward",
+        "fragment_id": "rfrag_region_4"
+      },
+      "rfrag_region_5:n0": {
+        "id": "rfrag_region_5:n0",
+        "type": "pipe_segment",
+        "line_id": "L-111-A",
+        "size": "4in",
+        "spec": "CS150",
+        "service": "Process",
+        "flow_direction": "forward",
+        "fragment_id": "rfrag_region_5"
+      },
+      "rfrag_region_5:n1": {
+        "id": "rfrag_region_5:n1",
+        "type": "equipment_block",
+        "tag": "E-007",
+        "equipment_type": "vessel",
+        "duty": "process",
+        "fragment_id": "rfrag_region_5"
+      },
+      "rfrag_region_5:n1:pi": {
+        "id": "rfrag_region_5:n1:pi",
+        "type": "instrument:pressure",
+        "tag": "PI-407",
+        "fragment_id": "rfrag_region_5",
+        "parent_id": "rfrag_region_5:n1"
+      },
+      "rfrag_region_5:n1:ti": {
+        "id": "rfrag_region_5:n1:ti",
+        "type": "instrument:temperature",
+        "tag": "TI-507",
+        "fragment_id": "rfrag_region_5",
+        "parent_id": "rfrag_region_5:n1"
+      },
+      "rfrag_region_5:n2": {
+        "id": "rfrag_region_5:n2",
+        "type": "equipment_block",
+        "tag": "E-008",
+        "equipment_type": "vessel",
+        "duty": "process",
+        "fragment_id": "rfrag_region_5"
+      },
+      "rfrag_region_5:n2:pi": {
+        "id": "rfrag_region_5:n2:pi",
+        "type": "instrument:pressure",
+        "tag": "PI-408",
+        "fragment_id": "rfrag_region_5",
+        "parent_id": "rfrag_region_5:n2"
+      },
+      "rfrag_region_5:n2:ti": {
+        "id": "rfrag_region_5:n2:ti",
+        "type": "instrument:temperature",
+        "tag": "TI-508",
+        "fragment_id": "rfrag_region_5",
+        "parent_id": "rfrag_region_5:n2"
+      },
+      "rfrag_region_5:n3": {
+        "id": "rfrag_region_5:n3",
+        "type": "valve:isolation",
+        "tag": "XV-105",
+        "valve_type": "gate",
+        "normally_open": true,
+        "fail_position": "closed",
+        "fragment_id": "rfrag_region_5"
+      },
+      "rfrag_region_5:n3:drain": {
+        "id": "rfrag_region_5:n3:drain",
+        "type": "valve:drain",
+        "tag": "DR-605",
+        "normally_closed": true,
+        "fragment_id": "rfrag_region_5",
+        "parent_id": "rfrag_region_5:n3"
+      },
+      "rfrag_region_5:n4": {
+        "id": "rfrag_region_5:n4",
+        "type": "pipe_segment",
+        "line_id": "L-112-A",
+        "size": "4in",
+        "spec": "CS150",
+        "service": "Process",
+        "flow_direction": "forward",
+        "fragment_id": "rfrag_region_5"
+      },
+      "rfrag_region_6:n0": {
+        "id": "rfrag_region_6:n0",
+        "type": "pipe_segment",
+        "line_id": "L-113-A",
+        "size": "4in",
+        "spec": "CS150",
+        "service": "Process",
+        "flow_direction": "forward",
+        "fragment_id": "rfrag_region_6"
+      },
+      "rfrag_region_6:n1": {
+        "id": "rfrag_region_6:n1",
+        "type": "equipment_block",
+        "tag": "E-009",
+        "equipment_type": "vessel",
+        "duty": "process",
+        "fragment_id": "rfrag_region_6"
+      },
+      "rfrag_region_6:n1:pi": {
+        "id": "rfrag_region_6:n1:pi",
+        "type": "instrument:pressure",
+        "tag": "PI-409",
+        "fragment_id": "rfrag_region_6",
+        "parent_id": "rfrag_region_6:n1"
+      },
+      "rfrag_region_6:n1:ti": {
+        "id": "rfrag_region_6:n1:ti",
+        "type": "instrument:temperature",
+        "tag": "TI-509",
+        "fragment_id": "rfrag_region_6",
+        "parent_id": "rfrag_region_6:n1"
+      },
+      "rfrag_region_6:n2": {
+        "id": "rfrag_region_6:n2",
+        "type": "instrument:flow_meter",
+        "tag": "FT-303",
+        "measurement": "flow",
+        "fragment_id": "rfrag_region_6"
+      },
+      "rfrag_region_6:n2:ft": {
+        "id": "rfrag_region_6:n2:ft",
+        "type": "instrument:transmitter",
+        "tag": "FT-304",
+        "fragment_id": "rfrag_region_6",
+        "parent_id": "rfrag_region_6:n2"
+      },
+      "rfrag_region_6:n3": {
+        "id": "rfrag_region_6:n3",
+        "type": "pipe_segment",
+        "line_id": "L-114-A",
+        "size": "4in",
+        "spec": "CS150",
+        "service": "Process",
+        "flow_direction": "forward",
+        "fragment_id": "rfrag_region_6"
+      },
+      "rfrag_region_7:n0": {
+        "id": "rfrag_region_7:n0",
+        "type": "pipe_segment",
+        "line_id": "L-115-A",
+        "size": "4in",
+        "spec": "CS150",
+        "service": "Process",
+        "flow_direction": "forward",
+        "fragment_id": "rfrag_region_7"
+      },
+      "rfrag_region_7:n1": {
+        "id": "rfrag_region_7:n1",
+        "type": "equipment_block",
+        "tag": "E-010",
+        "equipment_type": "vessel",
+        "duty": "process",
+        "fragment_id": "rfrag_region_7"
+      },
+      "rfrag_region_7:n1:pi": {
+        "id": "rfrag_region_7:n1:pi",
+        "type": "instrument:pressure",
+        "tag": "PI-410",
+        "fragment_id": "rfrag_region_7",
+        "parent_id": "rfrag_region_7:n1"
+      },
+      "rfrag_region_7:n1:ti": {
+        "id": "rfrag_region_7:n1:ti",
+        "type": "instrument:temperature",
+        "tag": "TI-510",
+        "fragment_id": "rfrag_region_7",
+        "parent_id": "rfrag_region_7:n1"
+      },
+      "rfrag_region_7:n2": {
+        "id": "rfrag_region_7:n2",
+        "type": "valve:isolation",
+        "tag": "XV-106",
+        "valve_type": "gate",
+        "normally_open": true,
+        "fail_position": "closed",
+        "fragment_id": "rfrag_region_7"
+      },
+      "rfrag_region_7:n2:drain": {
+        "id": "rfrag_region_7:n2:drain",
+        "type": "valve:drain",
+        "tag": "DR-606",
+        "normally_closed": true,
+        "fragment_id": "rfrag_region_7",
+        "parent_id": "rfrag_region_7:n2"
+      },
+      "rfrag_region_7:n3": {
+        "id": "rfrag_region_7:n3",
+        "type": "pipe_segment",
+        "line_id": "L-116-A",
+        "size": "4in",
+        "spec": "CS150",
+        "service": "Process",
+        "flow_direction": "forward",
+        "fragment_id": "rfrag_region_7"
+      },
+      "rfrag_region_8:n0": {
+        "id": "rfrag_region_8:n0",
+        "type": "valve:control",
+        "tag": "FV-201",
+        "fail_position": "closed",
+        "control_loop": true,
+        "fragment_id": "rfrag_region_8"
+      },
+      "rfrag_region_8:n0:act": {
+        "id": "rfrag_region_8:n0:act",
+        "type": "actuator:pneumatic",
+        "tag": "ACT-201",
+        "fragment_id": "rfrag_region_8",
+        "parent_id": "rfrag_region_8:n0"
+      },
+      "rfrag_region_8:n0:fc": {
+        "id": "rfrag_region_8:n0:fc",
+        "type": "instrument:controller",
+        "tag": "FC-201",
+        "fragment_id": "rfrag_region_8",
+        "parent_id": "rfrag_region_8:n0"
+      },
+      "rfrag_region_8:n1": {
+        "id": "rfrag_region_8:n1",
+        "type": "pipe_segment",
+        "line_id": "L-117-A",
+        "size": "4in",
+        "spec": "CS150",
+        "service": "Process",
+        "flow_direction": "forward",
+        "fragment_id": "rfrag_region_8"
+      },
+      "rfrag_region_8:n2": {
+        "id": "rfrag_region_8:n2",
+        "type": "equipment_block",
+        "tag": "E-011",
+        "equipment_type": "vessel",
+        "duty": "process",
+        "fragment_id": "rfrag_region_8"
+      },
+      "rfrag_region_8:n2:pi": {
+        "id": "rfrag_region_8:n2:pi",
+        "type": "instrument:pressure",
+        "tag": "PI-411",
+        "fragment_id": "rfrag_region_8",
+        "parent_id": "rfrag_region_8:n2"
+      },
+      "rfrag_region_8:n2:ti": {
+        "id": "rfrag_region_8:n2:ti",
+        "type": "instrument:temperature",
+        "tag": "TI-511",
+        "fragment_id": "rfrag_region_8",
+        "parent_id": "rfrag_region_8:n2"
+      },
+      "rfrag_region_8:n3": {
+        "id": "rfrag_region_8:n3",
+        "type": "valve:control",
+        "tag": "FV-202",
+        "fail_position": "closed",
+        "control_loop": true,
+        "fragment_id": "rfrag_region_8"
+      },
+      "rfrag_region_8:n3:act": {
+        "id": "rfrag_region_8:n3:act",
+        "type": "actuator:pneumatic",
+        "tag": "ACT-202",
+        "fragment_id": "rfrag_region_8",
+        "parent_id": "rfrag_region_8:n3"
+      },
+      "rfrag_region_8:n3:fc": {
+        "id": "rfrag_region_8:n3:fc",
+        "type": "instrument:controller",
+        "tag": "FC-202",
+        "fragment_id": "rfrag_region_8",
+        "parent_id": "rfrag_region_8:n3"
+      },
+      "rfrag_region_9:n0": {
+        "id": "rfrag_region_9:n0",
+        "type": "pipe_segment",
+        "line_id": "L-118-A",
+        "size": "4in",
+        "spec": "CS150",
+        "service": "Process",
+        "flow_direction": "forward",
+        "fragment_id": "rfrag_region_9"
+      },
+      "rfrag_region_9:n1": {
+        "id": "rfrag_region_9:n1",
+        "type": "instrument:flow_meter",
+        "tag": "FT-305",
+        "measurement": "flow",
+        "fragment_id": "rfrag_region_9"
+      },
+      "rfrag_region_9:n1:ft": {
+        "id": "rfrag_region_9:n1:ft",
+        "type": "instrument:transmitter",
+        "tag": "FT-306",
+        "fragment_id": "rfrag_region_9",
+        "parent_id": "rfrag_region_9:n1"
+      },
+      "rfrag_region_9:n2": {
+        "id": "rfrag_region_9:n2",
+        "type": "pipe_segment",
+        "line_id": "L-119-A",
+        "size": "4in",
+        "spec": "CS150",
+        "service": "Process",
+        "flow_direction": "forward",
+        "fragment_id": "rfrag_region_9"
+      },
+      "rfrag_region_10:n0": {
+        "id": "rfrag_region_10:n0",
+        "type": "pipe_segment",
+        "line_id": "L-120-A",
+        "size": "4in",
+        "spec": "CS150",
+        "service": "Process",
+        "flow_direction": "forward",
+        "fragment_id": "rfrag_region_10"
+      },
+      "rfrag_region_10:n1": {
+        "id": "rfrag_region_10:n1",
+        "type": "equipment_block",
+        "tag": "E-012",
+        "equipment_type": "vessel",
+        "duty": "process",
+        "fragment_id": "rfrag_region_10"
+      },
+      "rfrag_region_10:n1:pi": {
+        "id": "rfrag_region_10:n1:pi",
+        "type": "instrument:pressure",
+        "tag": "PI-412",
+        "fragment_id": "rfrag_region_10",
+        "parent_id": "rfrag_region_10:n1"
+      },
+      "rfrag_region_10:n1:ti": {
+        "id": "rfrag_region_10:n1:ti",
+        "type": "instrument:temperature",
+        "tag": "TI-512",
+        "fragment_id": "rfrag_region_10",
+        "parent_id": "rfrag_region_10:n1"
+      },
+      "rfrag_region_10:n2": {
+        "id": "rfrag_region_10:n2",
+        "type": "valve:isolation",
+        "tag": "XV-107",
+        "valve_type": "gate",
+        "normally_open": true,
+        "fail_position": "closed",
+        "fragment_id": "rfrag_region_10"
+      },
+      "rfrag_region_10:n2:drain": {
+        "id": "rfrag_region_10:n2:drain",
+        "type": "valve:drain",
+        "tag": "DR-607",
+        "normally_closed": true,
+        "fragment_id": "rfrag_region_10",
+        "parent_id": "rfrag_region_10:n2"
+      },
+      "rfrag_region_10:n3": {
+        "id": "rfrag_region_10:n3",
+        "type": "pipe_segment",
+        "line_id": "L-121-A",
+        "size": "4in",
+        "spec": "CS150",
+        "service": "Process",
+        "flow_direction": "forward",
+        "fragment_id": "rfrag_region_10"
+      },
+      "rfrag_region_11:n0": {
+        "id": "rfrag_region_11:n0",
+        "type": "pipe_segment",
+        "line_id": "L-122-A",
+        "size": "4in",
+        "spec": "CS150",
+        "service": "Process",
+        "flow_direction": "forward",
+        "fragment_id": "rfrag_region_11"
+      },
+      "rfrag_region_11:n1": {
+        "id": "rfrag_region_11:n1",
+        "type": "equipment_block",
+        "tag": "E-013",
+        "equipment_type": "vessel",
+        "duty": "process",
+        "fragment_id": "rfrag_region_11"
+      },
+      "rfrag_region_11:n1:pi": {
+        "id": "rfrag_region_11:n1:pi",
+        "type": "instrument:pressure",
+        "tag": "PI-413",
+        "fragment_id": "rfrag_region_11",
+        "parent_id": "rfrag_region_11:n1"
+      },
+      "rfrag_region_11:n1:ti": {
+        "id": "rfrag_region_11:n1:ti",
+        "type": "instrument:temperature",
+        "tag": "TI-513",
+        "fragment_id": "rfrag_region_11",
+        "parent_id": "rfrag_region_11:n1"
+      },
+      "rfrag_region_11:n2": {
+        "id": "rfrag_region_11:n2",
+        "type": "valve:isolation",
+        "tag": "XV-108",
+        "valve_type": "gate",
+        "normally_open": true,
+        "fail_position": "closed",
+        "fragment_id": "rfrag_region_11"
+      },
+      "rfrag_region_11:n2:drain": {
+        "id": "rfrag_region_11:n2:drain",
+        "type": "valve:drain",
+        "tag": "DR-608",
+        "normally_closed": true,
+        "fragment_id": "rfrag_region_11",
+        "parent_id": "rfrag_region_11:n2"
+      },
+      "rfrag_region_11:n3": {
+        "id": "rfrag_region_11:n3",
+        "type": "pipe_segment",
+        "line_id": "L-123-A",
+        "size": "4in",
+        "spec": "CS150",
+        "service": "Process",
+        "flow_direction": "forward",
+        "fragment_id": "rfrag_region_11"
+      },
+      "rfrag_region_12:n0": {
+        "id": "rfrag_region_12:n0",
+        "type": "pipe_segment",
+        "line_id": "L-124-A",
+        "size": "4in",
+        "spec": "CS150",
+        "service": "Process",
+        "flow_direction": "forward",
+        "fragment_id": "rfrag_region_12"
+      },
+      "rfrag_region_12:n1": {
+        "id": "rfrag_region_12:n1",
+        "type": "valve:isolation",
+        "tag": "XV-109",
+        "valve_type": "gate",
+        "normally_open": true,
+        "fail_position": "closed",
+        "fragment_id": "rfrag_region_12"
+      },
+      "rfrag_region_12:n1:drain": {
+        "id": "rfrag_region_12:n1:drain",
+        "type": "valve:drain",
+        "tag": "DR-609",
+        "normally_closed": true,
+        "fragment_id": "rfrag_region_12",
+        "parent_id": "rfrag_region_12:n1"
+      },
+      "rfrag_region_12:n2": {
+        "id": "rfrag_region_12:n2",
+        "type": "pipe_segment",
+        "line_id": "L-125-A",
+        "size": "4in",
+        "spec": "CS150",
+        "service": "Process",
+        "flow_direction": "forward",
+        "fragment_id": "rfrag_region_12"
+      },
+      "rfrag_region_13:n0": {
+        "id": "rfrag_region_13:n0",
+        "type": "valve:control",
+        "tag": "FV-203",
+        "fail_position": "closed",
+        "control_loop": true,
+        "fragment_id": "rfrag_region_13"
+      },
+      "rfrag_region_13:n0:act": {
+        "id": "rfrag_region_13:n0:act",
+        "type": "actuator:pneumatic",
+        "tag": "ACT-203",
+        "fragment_id": "rfrag_region_13",
+        "parent_id": "rfrag_region_13:n0"
+      },
+      "rfrag_region_13:n0:fc": {
+        "id": "rfrag_region_13:n0:fc",
+        "type": "instrument:controller",
+        "tag": "FC-203",
+        "fragment_id": "rfrag_region_13",
+        "parent_id": "rfrag_region_13:n0"
+      },
+      "rfrag_region_13:n1": {
+        "id": "rfrag_region_13:n1",
+        "type": "pipe_segment",
+        "line_id": "L-126-A",
+        "size": "4in",
+        "spec": "CS150",
+        "service": "Process",
+        "flow_direction": "forward",
+        "fragment_id": "rfrag_region_13"
+      },
+      "rfrag_region_13:n2": {
+        "id": "rfrag_region_13:n2",
+        "type": "equipment_block",
+        "tag": "E-014",
+        "equipment_type": "vessel",
+        "duty": "process",
+        "fragment_id": "rfrag_region_13"
+      },
+      "rfrag_region_13:n2:pi": {
+        "id": "rfrag_region_13:n2:pi",
+        "type": "instrument:pressure",
+        "tag": "PI-414",
+        "fragment_id": "rfrag_region_13",
+        "parent_id": "rfrag_region_13:n2"
+      },
+      "rfrag_region_13:n2:ti": {
+        "id": "rfrag_region_13:n2:ti",
+        "type": "instrument:temperature",
+        "tag": "TI-514",
+        "fragment_id": "rfrag_region_13",
+        "parent_id": "rfrag_region_13:n2"
+      },
+      "rfrag_region_13:n3": {
+        "id": "rfrag_region_13:n3",
+        "type": "valve:control",
+        "tag": "FV-204",
+        "fail_position": "closed",
+        "control_loop": true,
+        "fragment_id": "rfrag_region_13"
+      },
+      "rfrag_region_13:n3:act": {
+        "id": "rfrag_region_13:n3:act",
+        "type": "actuator:pneumatic",
+        "tag": "ACT-204",
+        "fragment_id": "rfrag_region_13",
+        "parent_id": "rfrag_region_13:n3"
+      },
+      "rfrag_region_13:n3:fc": {
+        "id": "rfrag_region_13:n3:fc",
+        "type": "instrument:controller",
+        "tag": "FC-204",
+        "fragment_id": "rfrag_region_13",
+        "parent_id": "rfrag_region_13:n3"
+      },
+      "rfrag_region_14:n0": {
+        "id": "rfrag_region_14:n0",
+        "type": "valve:control",
+        "tag": "FV-205",
+        "fail_position": "closed",
+        "control_loop": true,
+        "fragment_id": "rfrag_region_14"
+      },
+      "rfrag_region_14:n0:act": {
+        "id": "rfrag_region_14:n0:act",
+        "type": "actuator:pneumatic",
+        "tag": "ACT-205",
+        "fragment_id": "rfrag_region_14",
+        "parent_id": "rfrag_region_14:n0"
+      },
+      "rfrag_region_14:n0:fc": {
+        "id": "rfrag_region_14:n0:fc",
+        "type": "instrument:controller",
+        "tag": "FC-205",
+        "fragment_id": "rfrag_region_14",
+        "parent_id": "rfrag_region_14:n0"
+      },
+      "rfrag_region_14:n1": {
+        "id": "rfrag_region_14:n1",
+        "type": "pipe_segment",
+        "line_id": "L-127-A",
+        "size": "4in",
+        "spec": "CS150",
+        "service": "Process",
+        "flow_direction": "forward",
+        "fragment_id": "rfrag_region_14"
+      },
+      "rfrag_region_14:n2": {
+        "id": "rfrag_region_14:n2",
+        "type": "equipment_block",
+        "tag": "E-015",
+        "equipment_type": "vessel",
+        "duty": "process",
+        "fragment_id": "rfrag_region_14"
+      },
+      "rfrag_region_14:n2:pi": {
+        "id": "rfrag_region_14:n2:pi",
+        "type": "instrument:pressure",
+        "tag": "PI-415",
+        "fragment_id": "rfrag_region_14",
+        "parent_id": "rfrag_region_14:n2"
+      },
+      "rfrag_region_14:n2:ti": {
+        "id": "rfrag_region_14:n2:ti",
+        "type": "instrument:temperature",
+        "tag": "TI-515",
+        "fragment_id": "rfrag_region_14",
+        "parent_id": "rfrag_region_14:n2"
+      },
+      "rfrag_region_14:n3": {
+        "id": "rfrag_region_14:n3",
+        "type": "valve:control",
+        "tag": "FV-206",
+        "fail_position": "closed",
+        "control_loop": true,
+        "fragment_id": "rfrag_region_14"
+      },
+      "rfrag_region_14:n3:act": {
+        "id": "rfrag_region_14:n3:act",
+        "type": "actuator:pneumatic",
+        "tag": "ACT-206",
+        "fragment_id": "rfrag_region_14",
+        "parent_id": "rfrag_region_14:n3"
+      },
+      "rfrag_region_14:n3:fc": {
+        "id": "rfrag_region_14:n3:fc",
+        "type": "instrument:controller",
+        "tag": "FC-206",
+        "fragment_id": "rfrag_region_14",
+        "parent_id": "rfrag_region_14:n3"
+      },
+      "rfrag_region_15:n0": {
+        "id": "rfrag_region_15:n0",
+        "type": "pipe_segment",
+        "line_id": "L-128-A",
+        "size": "4in",
+        "spec": "CS150",
+        "service": "Process",
+        "flow_direction": "forward",
+        "fragment_id": "rfrag_region_15"
+      },
+      "rfrag_region_15:n1": {
+        "id": "rfrag_region_15:n1",
+        "type": "equipment_block",
+        "tag": "E-016",
+        "equipment_type": "vessel",
+        "duty": "process",
+        "fragment_id": "rfrag_region_15"
+      },
+      "rfrag_region_15:n1:pi": {
+        "id": "rfrag_region_15:n1:pi",
+        "type": "instrument:pressure",
+        "tag": "PI-416",
+        "fragment_id": "rfrag_region_15",
+        "parent_id": "rfrag_region_15:n1"
+      },
+      "rfrag_region_15:n1:ti": {
+        "id": "rfrag_region_15:n1:ti",
+        "type": "instrument:temperature",
+        "tag": "TI-516",
+        "fragment_id": "rfrag_region_15",
+        "parent_id": "rfrag_region_15:n1"
+      },
+      "rfrag_region_15:n2": {
+        "id": "rfrag_region_15:n2",
+        "type": "valve:isolation",
+        "tag": "XV-110",
+        "valve_type": "gate",
+        "normally_open": true,
+        "fail_position": "closed",
+        "fragment_id": "rfrag_region_15"
+      },
+      "rfrag_region_15:n2:drain": {
+        "id": "rfrag_region_15:n2:drain",
+        "type": "valve:drain",
+        "tag": "DR-610",
+        "normally_closed": true,
+        "fragment_id": "rfrag_region_15",
+        "parent_id": "rfrag_region_15:n2"
+      },
+      "rfrag_region_15:n3": {
+        "id": "rfrag_region_15:n3",
+        "type": "pipe_segment",
+        "line_id": "L-129-A",
+        "size": "4in",
+        "spec": "CS150",
+        "service": "Process",
+        "flow_direction": "forward",
+        "fragment_id": "rfrag_region_15"
+      },
+      "rfrag_region_16:n0": {
+        "id": "rfrag_region_16:n0",
+        "type": "pipe_segment",
+        "line_id": "L-130-A",
+        "size": "4in",
+        "spec": "CS150",
+        "service": "Process",
+        "flow_direction": "forward",
+        "fragment_id": "rfrag_region_16"
+      },
+      "rfrag_region_16:n1": {
+        "id": "rfrag_region_16:n1",
+        "type": "equipment_block",
+        "tag": "E-017",
+        "equipment_type": "vessel",
+        "duty": "process",
+        "fragment_id": "rfrag_region_16"
+      },
+      "rfrag_region_16:n1:pi": {
+        "id": "rfrag_region_16:n1:pi",
+        "type": "instrument:pressure",
+        "tag": "PI-417",
+        "fragment_id": "rfrag_region_16",
+        "parent_id": "rfrag_region_16:n1"
+      },
+      "rfrag_region_16:n1:ti": {
+        "id": "rfrag_region_16:n1:ti",
+        "type": "instrument:temperature",
+        "tag": "TI-517",
+        "fragment_id": "rfrag_region_16",
+        "parent_id": "rfrag_region_16:n1"
+      },
+      "rfrag_region_16:n2": {
+        "id": "rfrag_region_16:n2",
+        "type": "pipe_segment",
+        "line_id": "L-131-A",
+        "size": "4in",
+        "spec": "CS150",
+        "service": "Process",
+        "flow_direction": "forward",
+        "fragment_id": "rfrag_region_16"
+      },
+      "rfrag_region_17:n0": {
+        "id": "rfrag_region_17:n0",
+        "type": "pipe_segment",
+        "line_id": "L-132-A",
+        "size": "4in",
+        "spec": "CS150",
+        "service": "Process",
+        "flow_direction": "forward",
+        "fragment_id": "rfrag_region_17"
+      },
+      "rfrag_region_17:n1": {
+        "id": "rfrag_region_17:n1",
+        "type": "equipment_block",
+        "tag": "E-018",
+        "equipment_type": "vessel",
+        "duty": "process",
+        "fragment_id": "rfrag_region_17"
+      },
+      "rfrag_region_17:n1:pi": {
+        "id": "rfrag_region_17:n1:pi",
+        "type": "instrument:pressure",
+        "tag": "PI-418",
+        "fragment_id": "rfrag_region_17",
+        "parent_id": "rfrag_region_17:n1"
+      },
+      "rfrag_region_17:n1:ti": {
+        "id": "rfrag_region_17:n1:ti",
+        "type": "instrument:temperature",
+        "tag": "TI-518",
+        "fragment_id": "rfrag_region_17",
+        "parent_id": "rfrag_region_17:n1"
+      },
+      "rfrag_region_17:n2": {
+        "id": "rfrag_region_17:n2",
+        "type": "instrument:flow_meter",
+        "tag": "FT-307",
+        "measurement": "flow",
+        "fragment_id": "rfrag_region_17"
+      },
+      "rfrag_region_17:n2:ft": {
+        "id": "rfrag_region_17:n2:ft",
+        "type": "instrument:transmitter",
+        "tag": "FT-308",
+        "fragment_id": "rfrag_region_17",
+        "parent_id": "rfrag_region_17:n2"
+      },
+      "rfrag_region_17:n3": {
+        "id": "rfrag_region_17:n3",
+        "type": "pipe_segment",
+        "line_id": "L-133-A",
+        "size": "4in",
+        "spec": "CS150",
+        "service": "Process",
+        "flow_direction": "forward",
+        "fragment_id": "rfrag_region_17"
+      },
+      "rfrag_region_18:n0": {
+        "id": "rfrag_region_18:n0",
+        "type": "pipe_segment",
+        "line_id": "L-134-A",
+        "size": "4in",
+        "spec": "CS150",
+        "service": "Process",
+        "flow_direction": "forward",
+        "fragment_id": "rfrag_region_18"
+      },
+      "rfrag_region_18:n1": {
+        "id": "rfrag_region_18:n1",
+        "type": "equipment_block",
+        "tag": "E-019",
+        "equipment_type": "vessel",
+        "duty": "process",
+        "fragment_id": "rfrag_region_18"
+      },
+      "rfrag_region_18:n1:pi": {
+        "id": "rfrag_region_18:n1:pi",
+        "type": "instrument:pressure",
+        "tag": "PI-419",
+        "fragment_id": "rfrag_region_18",
+        "parent_id": "rfrag_region_18:n1"
+      },
+      "rfrag_region_18:n1:ti": {
+        "id": "rfrag_region_18:n1:ti",
+        "type": "instrument:temperature",
+        "tag": "TI-519",
+        "fragment_id": "rfrag_region_18",
+        "parent_id": "rfrag_region_18:n1"
+      },
+      "rfrag_region_18:n2": {
+        "id": "rfrag_region_18:n2",
+        "type": "pipe_segment",
+        "line_id": "L-135-A",
+        "size": "4in",
+        "spec": "CS150",
+        "service": "Process",
+        "flow_direction": "forward",
+        "fragment_id": "rfrag_region_18"
+      },
+      "rfrag_region_19:n0": {
+        "id": "rfrag_region_19:n0",
+        "type": "valve:control",
+        "tag": "FV-207",
+        "fail_position": "closed",
+        "control_loop": true,
+        "fragment_id": "rfrag_region_19"
+      },
+      "rfrag_region_19:n0:act": {
+        "id": "rfrag_region_19:n0:act",
+        "type": "actuator:pneumatic",
+        "tag": "ACT-207",
+        "fragment_id": "rfrag_region_19",
+        "parent_id": "rfrag_region_19:n0"
+      },
+      "rfrag_region_19:n0:fc": {
+        "id": "rfrag_region_19:n0:fc",
+        "type": "instrument:controller",
+        "tag": "FC-207",
+        "fragment_id": "rfrag_region_19",
+        "parent_id": "rfrag_region_19:n0"
+      },
+      "rfrag_region_19:n1": {
+        "id": "rfrag_region_19:n1",
+        "type": "pipe_segment",
+        "line_id": "L-136-A",
+        "size": "4in",
+        "spec": "CS150",
+        "service": "Process",
+        "flow_direction": "forward",
+        "fragment_id": "rfrag_region_19"
+      },
+      "rfrag_region_19:n2": {
+        "id": "rfrag_region_19:n2",
+        "type": "equipment_block",
+        "tag": "E-020",
+        "equipment_type": "vessel",
+        "duty": "process",
+        "fragment_id": "rfrag_region_19"
+      },
+      "rfrag_region_19:n2:pi": {
+        "id": "rfrag_region_19:n2:pi",
+        "type": "instrument:pressure",
+        "tag": "PI-420",
+        "fragment_id": "rfrag_region_19",
+        "parent_id": "rfrag_region_19:n2"
+      },
+      "rfrag_region_19:n2:ti": {
+        "id": "rfrag_region_19:n2:ti",
+        "type": "instrument:temperature",
+        "tag": "TI-520",
+        "fragment_id": "rfrag_region_19",
+        "parent_id": "rfrag_region_19:n2"
+      },
+      "rfrag_region_19:n3": {
+        "id": "rfrag_region_19:n3",
+        "type": "valve:control",
+        "tag": "FV-208",
+        "fail_position": "closed",
+        "control_loop": true,
+        "fragment_id": "rfrag_region_19"
+      },
+      "rfrag_region_19:n3:act": {
+        "id": "rfrag_region_19:n3:act",
+        "type": "actuator:pneumatic",
+        "tag": "ACT-208",
+        "fragment_id": "rfrag_region_19",
+        "parent_id": "rfrag_region_19:n3"
+      },
+      "rfrag_region_19:n3:fc": {
+        "id": "rfrag_region_19:n3:fc",
+        "type": "instrument:controller",
+        "tag": "FC-208",
+        "fragment_id": "rfrag_region_19",
+        "parent_id": "rfrag_region_19:n3"
+      },
+      "rfrag_region_20:n0": {
+        "id": "rfrag_region_20:n0",
+        "type": "pipe_segment",
+        "line_id": "L-137-A",
+        "size": "4in",
+        "spec": "CS150",
+        "service": "Process",
+        "flow_direction": "forward",
+        "fragment_id": "rfrag_region_20"
+      },
+      "rfrag_region_20:n1": {
+        "id": "rfrag_region_20:n1",
+        "type": "equipment_block",
+        "tag": "E-021",
+        "equipment_type": "vessel",
+        "duty": "process",
+        "fragment_id": "rfrag_region_20"
+      },
+      "rfrag_region_20:n1:pi": {
+        "id": "rfrag_region_20:n1:pi",
+        "type": "instrument:pressure",
+        "tag": "PI-421",
+        "fragment_id": "rfrag_region_20",
+        "parent_id": "rfrag_region_20:n1"
+      },
+      "rfrag_region_20:n1:ti": {
+        "id": "rfrag_region_20:n1:ti",
+        "type": "instrument:temperature",
+        "tag": "TI-521",
+        "fragment_id": "rfrag_region_20",
+        "parent_id": "rfrag_region_20:n1"
+      },
+      "rfrag_region_20:n2": {
+        "id": "rfrag_region_20:n2",
+        "type": "valve:isolation",
+        "tag": "XV-111",
+        "valve_type": "gate",
+        "normally_open": true,
+        "fail_position": "closed",
+        "fragment_id": "rfrag_region_20"
+      },
+      "rfrag_region_20:n2:drain": {
+        "id": "rfrag_region_20:n2:drain",
+        "type": "valve:drain",
+        "tag": "DR-611",
+        "normally_closed": true,
+        "fragment_id": "rfrag_region_20",
+        "parent_id": "rfrag_region_20:n2"
+      },
+      "rfrag_region_20:n3": {
+        "id": "rfrag_region_20:n3",
+        "type": "pipe_segment",
+        "line_id": "L-138-A",
+        "size": "4in",
+        "spec": "CS150",
+        "service": "Process",
+        "flow_direction": "forward",
+        "fragment_id": "rfrag_region_20"
+      },
+      "rfrag_region_21:n0": {
+        "id": "rfrag_region_21:n0",
+        "type": "valve:control",
+        "tag": "FV-209",
+        "fail_position": "closed",
+        "control_loop": true,
+        "fragment_id": "rfrag_region_21"
+      },
+      "rfrag_region_21:n0:act": {
+        "id": "rfrag_region_21:n0:act",
+        "type": "actuator:pneumatic",
+        "tag": "ACT-209",
+        "fragment_id": "rfrag_region_21",
+        "parent_id": "rfrag_region_21:n0"
+      },
+      "rfrag_region_21:n0:fc": {
+        "id": "rfrag_region_21:n0:fc",
+        "type": "instrument:controller",
+        "tag": "FC-209",
+        "fragment_id": "rfrag_region_21",
+        "parent_id": "rfrag_region_21:n0"
+      },
+      "rfrag_region_21:n1": {
+        "id": "rfrag_region_21:n1",
+        "type": "pipe_segment",
+        "line_id": "L-139-A",
+        "size": "4in",
+        "spec": "CS150",
+        "service": "Process",
+        "flow_direction": "forward",
+        "fragment_id": "rfrag_region_21"
+      },
+      "rfrag_region_21:n2": {
+        "id": "rfrag_region_21:n2",
+        "type": "equipment_block",
+        "tag": "E-022",
+        "equipment_type": "vessel",
+        "duty": "process",
+        "fragment_id": "rfrag_region_21"
+      },
+      "rfrag_region_21:n2:pi": {
+        "id": "rfrag_region_21:n2:pi",
+        "type": "instrument:pressure",
+        "tag": "PI-422",
+        "fragment_id": "rfrag_region_21",
+        "parent_id": "rfrag_region_21:n2"
+      },
+      "rfrag_region_21:n2:ti": {
+        "id": "rfrag_region_21:n2:ti",
+        "type": "instrument:temperature",
+        "tag": "TI-522",
+        "fragment_id": "rfrag_region_21",
+        "parent_id": "rfrag_region_21:n2"
+      },
+      "rfrag_region_21:n3": {
+        "id": "rfrag_region_21:n3",
+        "type": "valve:control",
+        "tag": "FV-210",
+        "fail_position": "closed",
+        "control_loop": true,
+        "fragment_id": "rfrag_region_21"
+      },
+      "rfrag_region_21:n3:act": {
+        "id": "rfrag_region_21:n3:act",
+        "type": "actuator:pneumatic",
+        "tag": "ACT-210",
+        "fragment_id": "rfrag_region_21",
+        "parent_id": "rfrag_region_21:n3"
+      },
+      "rfrag_region_21:n3:fc": {
+        "id": "rfrag_region_21:n3:fc",
+        "type": "instrument:controller",
+        "tag": "FC-210",
+        "fragment_id": "rfrag_region_21",
+        "parent_id": "rfrag_region_21:n3"
+      },
+      "rfrag_region_22:n0": {
+        "id": "rfrag_region_22:n0",
+        "type": "pipe_segment",
+        "line_id": "L-140-A",
+        "size": "4in",
+        "spec": "CS150",
+        "service": "Process",
+        "flow_direction": "forward",
+        "fragment_id": "rfrag_region_22"
+      },
+      "rfrag_region_22:n1": {
+        "id": "rfrag_region_22:n1",
+        "type": "equipment_block",
+        "tag": "E-023",
+        "equipment_type": "vessel",
+        "duty": "process",
+        "fragment_id": "rfrag_region_22"
+      },
+      "rfrag_region_22:n1:pi": {
+        "id": "rfrag_region_22:n1:pi",
+        "type": "instrument:pressure",
+        "tag": "PI-423",
+        "fragment_id": "rfrag_region_22",
+        "parent_id": "rfrag_region_22:n1"
+      },
+      "rfrag_region_22:n1:ti": {
+        "id": "rfrag_region_22:n1:ti",
+        "type": "instrument:temperature",
+        "tag": "TI-523",
+        "fragment_id": "rfrag_region_22",
+        "parent_id": "rfrag_region_22:n1"
+      },
+      "rfrag_region_22:n2": {
+        "id": "rfrag_region_22:n2",
+        "type": "valve:isolation",
+        "tag": "XV-112",
+        "valve_type": "gate",
+        "normally_open": true,
+        "fail_position": "closed",
+        "fragment_id": "rfrag_region_22"
+      },
+      "rfrag_region_22:n2:drain": {
+        "id": "rfrag_region_22:n2:drain",
+        "type": "valve:drain",
+        "tag": "DR-612",
+        "normally_closed": true,
+        "fragment_id": "rfrag_region_22",
+        "parent_id": "rfrag_region_22:n2"
+      },
+      "rfrag_region_22:n3": {
+        "id": "rfrag_region_22:n3",
+        "type": "pipe_segment",
+        "line_id": "L-141-A",
+        "size": "4in",
+        "spec": "CS150",
+        "service": "Process",
+        "flow_direction": "forward",
+        "fragment_id": "rfrag_region_22"
+      },
+      "rfrag_region_23:n0": {
+        "id": "rfrag_region_23:n0",
+        "type": "pipe_segment",
+        "line_id": "L-142-A",
+        "size": "4in",
+        "spec": "CS150",
+        "service": "Process",
+        "flow_direction": "forward",
+        "fragment_id": "rfrag_region_23"
+      },
+      "rfrag_region_23:n1": {
+        "id": "rfrag_region_23:n1",
+        "type": "equipment_block",
+        "tag": "E-024",
+        "equipment_type": "vessel",
+        "duty": "process",
+        "fragment_id": "rfrag_region_23"
+      },
+      "rfrag_region_23:n1:pi": {
+        "id": "rfrag_region_23:n1:pi",
+        "type": "instrument:pressure",
+        "tag": "PI-424",
+        "fragment_id": "rfrag_region_23",
+        "parent_id": "rfrag_region_23:n1"
+      },
+      "rfrag_region_23:n1:ti": {
+        "id": "rfrag_region_23:n1:ti",
+        "type": "instrument:temperature",
+        "tag": "TI-524",
+        "fragment_id": "rfrag_region_23",
+        "parent_id": "rfrag_region_23:n1"
+      },
+      "rfrag_region_23:n2": {
+        "id": "rfrag_region_23:n2",
+        "type": "pipe_segment",
+        "line_id": "L-143-A",
+        "size": "4in",
+        "spec": "CS150",
+        "service": "Process",
+        "flow_direction": "forward",
+        "fragment_id": "rfrag_region_23"
+      },
+      "rfrag_region_24:n0": {
+        "id": "rfrag_region_24:n0",
+        "type": "pipe_segment",
+        "line_id": "L-144-A",
+        "size": "4in",
+        "spec": "CS150",
+        "service": "Process",
+        "flow_direction": "forward",
+        "fragment_id": "rfrag_region_24"
+      },
+      "rfrag_region_24:n1": {
+        "id": "rfrag_region_24:n1",
+        "type": "equipment_block",
+        "tag": "E-025",
+        "equipment_type": "vessel",
+        "duty": "process",
+        "fragment_id": "rfrag_region_24"
+      },
+      "rfrag_region_24:n1:pi": {
+        "id": "rfrag_region_24:n1:pi",
+        "type": "instrument:pressure",
+        "tag": "PI-425",
+        "fragment_id": "rfrag_region_24",
+        "parent_id": "rfrag_region_24:n1"
+      },
+      "rfrag_region_24:n1:ti": {
+        "id": "rfrag_region_24:n1:ti",
+        "type": "instrument:temperature",
+        "tag": "TI-525",
+        "fragment_id": "rfrag_region_24",
+        "parent_id": "rfrag_region_24:n1"
+      },
+      "rfrag_region_24:n2": {
+        "id": "rfrag_region_24:n2",
+        "type": "pipe_segment",
+        "line_id": "L-145-A",
+        "size": "4in",
+        "spec": "CS150",
+        "service": "Process",
+        "flow_direction": "forward",
+        "fragment_id": "rfrag_region_24"
+      },
+      "rfrag_region_25:n0": {
+        "id": "rfrag_region_25:n0",
+        "type": "pipe_segment",
+        "line_id": "L-146-A",
+        "size": "4in",
+        "spec": "CS150",
+        "service": "Process",
+        "flow_direction": "forward",
+        "fragment_id": "rfrag_region_25"
+      },
+      "rfrag_region_25:n1": {
+        "id": "rfrag_region_25:n1",
+        "type": "pipe_segment",
+        "line_id": "L-147-A",
+        "size": "4in",
+        "spec": "CS150",
+        "service": "Process",
+        "flow_direction": "forward",
+        "fragment_id": "rfrag_region_25"
+      },
+      "rfrag_region_26:n0": {
+        "id": "rfrag_region_26:n0",
+        "type": "pipe_segment",
+        "line_id": "L-148-A",
+        "size": "4in",
+        "spec": "CS150",
+        "service": "Process",
+        "flow_direction": "forward",
+        "fragment_id": "rfrag_region_26"
+      },
+      "rfrag_region_26:n1": {
+        "id": "rfrag_region_26:n1",
+        "type": "equipment_block",
+        "tag": "E-026",
+        "equipment_type": "vessel",
+        "duty": "process",
+        "fragment_id": "rfrag_region_26"
+      },
+      "rfrag_region_26:n1:pi": {
+        "id": "rfrag_region_26:n1:pi",
+        "type": "instrument:pressure",
+        "tag": "PI-426",
+        "fragment_id": "rfrag_region_26",
+        "parent_id": "rfrag_region_26:n1"
+      },
+      "rfrag_region_26:n1:ti": {
+        "id": "rfrag_region_26:n1:ti",
+        "type": "instrument:temperature",
+        "tag": "TI-526",
+        "fragment_id": "rfrag_region_26",
+        "parent_id": "rfrag_region_26:n1"
+      },
+      "rfrag_region_26:n2": {
+        "id": "rfrag_region_26:n2",
+        "type": "instrument:flow_meter",
+        "tag": "FT-309",
+        "measurement": "flow",
+        "fragment_id": "rfrag_region_26"
+      },
+      "rfrag_region_26:n2:ft": {
+        "id": "rfrag_region_26:n2:ft",
+        "type": "instrument:transmitter",
+        "tag": "FT-310",
+        "fragment_id": "rfrag_region_26",
+        "parent_id": "rfrag_region_26:n2"
+      },
+      "rfrag_region_26:n3": {
+        "id": "rfrag_region_26:n3",
+        "type": "pipe_segment",
+        "line_id": "L-149-A",
+        "size": "4in",
+        "spec": "CS150",
+        "service": "Process",
+        "flow_direction": "forward",
+        "fragment_id": "rfrag_region_26"
+      },
+      "rfrag_region_27:n0": {
+        "id": "rfrag_region_27:n0",
+        "type": "pipe_segment",
+        "line_id": "L-150-A",
+        "size": "4in",
+        "spec": "CS150",
+        "service": "Process",
+        "flow_direction": "forward",
+        "fragment_id": "rfrag_region_27"
+      },
+      "rfrag_region_27:n1": {
+        "id": "rfrag_region_27:n1",
+        "type": "equipment_block",
+        "tag": "E-027",
+        "equipment_type": "vessel",
+        "duty": "process",
+        "fragment_id": "rfrag_region_27"
+      },
+      "rfrag_region_27:n1:pi": {
+        "id": "rfrag_region_27:n1:pi",
+        "type": "instrument:pressure",
+        "tag": "PI-427",
+        "fragment_id": "rfrag_region_27",
+        "parent_id": "rfrag_region_27:n1"
+      },
+      "rfrag_region_27:n1:ti": {
+        "id": "rfrag_region_27:n1:ti",
+        "type": "instrument:temperature",
+        "tag": "TI-527",
+        "fragment_id": "rfrag_region_27",
+        "parent_id": "rfrag_region_27:n1"
+      },
+      "rfrag_region_27:n2": {
+        "id": "rfrag_region_27:n2",
+        "type": "valve:isolation",
+        "tag": "XV-113",
+        "valve_type": "gate",
+        "normally_open": true,
+        "fail_position": "closed",
+        "fragment_id": "rfrag_region_27"
+      },
+      "rfrag_region_27:n2:drain": {
+        "id": "rfrag_region_27:n2:drain",
+        "type": "valve:drain",
+        "tag": "DR-613",
+        "normally_closed": true,
+        "fragment_id": "rfrag_region_27",
+        "parent_id": "rfrag_region_27:n2"
+      },
+      "rfrag_region_27:n3": {
+        "id": "rfrag_region_27:n3",
+        "type": "pipe_segment",
+        "line_id": "L-151-A",
+        "size": "4in",
+        "spec": "CS150",
+        "service": "Process",
+        "flow_direction": "forward",
+        "fragment_id": "rfrag_region_27"
+      },
+      "rfrag_region_28:n0": {
+        "id": "rfrag_region_28:n0",
+        "type": "pipe_segment",
+        "line_id": "L-152-A",
+        "size": "4in",
+        "spec": "CS150",
+        "service": "Process",
+        "flow_direction": "forward",
+        "fragment_id": "rfrag_region_28"
+      },
+      "rfrag_region_28:n1": {
+        "id": "rfrag_region_28:n1",
+        "type": "equipment_block",
+        "tag": "E-028",
+        "equipment_type": "vessel",
+        "duty": "process",
+        "fragment_id": "rfrag_region_28"
+      },
+      "rfrag_region_28:n1:pi": {
+        "id": "rfrag_region_28:n1:pi",
+        "type": "instrument:pressure",
+        "tag": "PI-428",
+        "fragment_id": "rfrag_region_28",
+        "parent_id": "rfrag_region_28:n1"
+      },
+      "rfrag_region_28:n1:ti": {
+        "id": "rfrag_region_28:n1:ti",
+        "type": "instrument:temperature",
+        "tag": "TI-528",
+        "fragment_id": "rfrag_region_28",
+        "parent_id": "rfrag_region_28:n1"
+      },
+      "rfrag_region_28:n2": {
+        "id": "rfrag_region_28:n2",
+        "type": "valve:isolation",
+        "tag": "XV-114",
+        "valve_type": "gate",
+        "normally_open": true,
+        "fail_position": "closed",
+        "fragment_id": "rfrag_region_28"
+      },
+      "rfrag_region_28:n2:drain": {
+        "id": "rfrag_region_28:n2:drain",
+        "type": "valve:drain",
+        "tag": "DR-614",
+        "normally_closed": true,
+        "fragment_id": "rfrag_region_28",
+        "parent_id": "rfrag_region_28:n2"
+      },
+      "rfrag_region_28:n3": {
+        "id": "rfrag_region_28:n3",
+        "type": "pipe_segment",
+        "line_id": "L-153-A",
+        "size": "4in",
+        "spec": "CS150",
+        "service": "Process",
+        "flow_direction": "forward",
+        "fragment_id": "rfrag_region_28"
+      },
+      "rfrag_region_29:n0": {
+        "id": "rfrag_region_29:n0",
+        "type": "pipe_segment",
+        "line_id": "L-154-A",
+        "size": "4in",
+        "spec": "CS150",
+        "service": "Process",
+        "flow_direction": "forward",
+        "fragment_id": "rfrag_region_29"
+      },
+      "rfrag_region_29:n1": {
+        "id": "rfrag_region_29:n1",
+        "type": "equipment_block",
+        "tag": "E-029",
+        "equipment_type": "vessel",
+        "duty": "process",
+        "fragment_id": "rfrag_region_29"
+      },
+      "rfrag_region_29:n1:pi": {
+        "id": "rfrag_region_29:n1:pi",
+        "type": "instrument:pressure",
+        "tag": "PI-429",
+        "fragment_id": "rfrag_region_29",
+        "parent_id": "rfrag_region_29:n1"
+      },
+      "rfrag_region_29:n1:ti": {
+        "id": "rfrag_region_29:n1:ti",
+        "type": "instrument:temperature",
+        "tag": "TI-529",
+        "fragment_id": "rfrag_region_29",
+        "parent_id": "rfrag_region_29:n1"
+      },
+      "rfrag_region_29:n2": {
+        "id": "rfrag_region_29:n2",
+        "type": "equipment_block",
+        "tag": "E-030",
+        "equipment_type": "vessel",
+        "duty": "process",
+        "fragment_id": "rfrag_region_29"
+      },
+      "rfrag_region_29:n2:pi": {
+        "id": "rfrag_region_29:n2:pi",
+        "type": "instrument:pressure",
+        "tag": "PI-430",
+        "fragment_id": "rfrag_region_29",
+        "parent_id": "rfrag_region_29:n2"
+      },
+      "rfrag_region_29:n2:ti": {
+        "id": "rfrag_region_29:n2:ti",
+        "type": "instrument:temperature",
+        "tag": "TI-530",
+        "fragment_id": "rfrag_region_29",
+        "parent_id": "rfrag_region_29:n2"
+      },
+      "rfrag_region_29:n3": {
+        "id": "rfrag_region_29:n3",
+        "type": "valve:isolation",
+        "tag": "XV-115",
+        "valve_type": "gate",
+        "normally_open": true,
+        "fail_position": "closed",
+        "fragment_id": "rfrag_region_29"
+      },
+      "rfrag_region_29:n3:drain": {
+        "id": "rfrag_region_29:n3:drain",
+        "type": "valve:drain",
+        "tag": "DR-615",
+        "normally_closed": true,
+        "fragment_id": "rfrag_region_29",
+        "parent_id": "rfrag_region_29:n3"
+      },
+      "rfrag_region_29:n4": {
+        "id": "rfrag_region_29:n4",
+        "type": "pipe_segment",
+        "line_id": "L-155-A",
+        "size": "4in",
+        "spec": "CS150",
+        "service": "Process",
+        "flow_direction": "forward",
+        "fragment_id": "rfrag_region_29"
+      },
+      "rfrag_region_30:n0": {
+        "id": "rfrag_region_30:n0",
+        "type": "pipe_segment",
+        "line_id": "L-156-A",
+        "size": "4in",
+        "spec": "CS150",
+        "service": "Process",
+        "flow_direction": "forward",
+        "fragment_id": "rfrag_region_30"
+      },
+      "rfrag_region_30:n1": {
+        "id": "rfrag_region_30:n1",
+        "type": "equipment_block",
+        "tag": "E-031",
+        "equipment_type": "vessel",
+        "duty": "process",
+        "fragment_id": "rfrag_region_30"
+      },
+      "rfrag_region_30:n1:pi": {
+        "id": "rfrag_region_30:n1:pi",
+        "type": "instrument:pressure",
+        "tag": "PI-431",
+        "fragment_id": "rfrag_region_30",
+        "parent_id": "rfrag_region_30:n1"
+      },
+      "rfrag_region_30:n1:ti": {
+        "id": "rfrag_region_30:n1:ti",
+        "type": "instrument:temperature",
+        "tag": "TI-531",
+        "fragment_id": "rfrag_region_30",
+        "parent_id": "rfrag_region_30:n1"
+      },
+      "rfrag_region_30:n2": {
+        "id": "rfrag_region_30:n2",
+        "type": "pipe_segment",
+        "line_id": "L-157-A",
+        "size": "4in",
+        "spec": "CS150",
+        "service": "Process",
+        "flow_direction": "forward",
+        "fragment_id": "rfrag_region_30"
+      },
+      "rfrag_region_31:n0": {
+        "id": "rfrag_region_31:n0",
+        "type": "pipe_segment",
+        "line_id": "L-158-A",
+        "size": "4in",
+        "spec": "CS150",
+        "service": "Process",
+        "flow_direction": "forward",
+        "fragment_id": "rfrag_region_31"
+      },
+      "rfrag_region_31:n1": {
+        "id": "rfrag_region_31:n1",
+        "type": "equipment_block",
+        "tag": "E-032",
+        "equipment_type": "vessel",
+        "duty": "process",
+        "fragment_id": "rfrag_region_31"
+      },
+      "rfrag_region_31:n1:pi": {
+        "id": "rfrag_region_31:n1:pi",
+        "type": "instrument:pressure",
+        "tag": "PI-432",
+        "fragment_id": "rfrag_region_31",
+        "parent_id": "rfrag_region_31:n1"
+      },
+      "rfrag_region_31:n1:ti": {
+        "id": "rfrag_region_31:n1:ti",
+        "type": "instrument:temperature",
+        "tag": "TI-532",
+        "fragment_id": "rfrag_region_31",
+        "parent_id": "rfrag_region_31:n1"
+      },
+      "rfrag_region_31:n2": {
+        "id": "rfrag_region_31:n2",
+        "type": "valve:isolation",
+        "tag": "XV-116",
+        "valve_type": "gate",
+        "normally_open": true,
+        "fail_position": "closed",
+        "fragment_id": "rfrag_region_31"
+      },
+      "rfrag_region_31:n2:drain": {
+        "id": "rfrag_region_31:n2:drain",
+        "type": "valve:drain",
+        "tag": "DR-616",
+        "normally_closed": true,
+        "fragment_id": "rfrag_region_31",
+        "parent_id": "rfrag_region_31:n2"
+      },
+      "rfrag_region_31:n3": {
+        "id": "rfrag_region_31:n3",
+        "type": "pipe_segment",
+        "line_id": "L-159-A",
+        "size": "4in",
+        "spec": "CS150",
+        "service": "Process",
+        "flow_direction": "forward",
+        "fragment_id": "rfrag_region_31"
+      },
+      "rfrag_region_32:n0": {
+        "id": "rfrag_region_32:n0",
+        "type": "valve:control",
+        "tag": "FV-211",
+        "fail_position": "closed",
+        "control_loop": true,
+        "fragment_id": "rfrag_region_32"
+      },
+      "rfrag_region_32:n0:act": {
+        "id": "rfrag_region_32:n0:act",
+        "type": "actuator:pneumatic",
+        "tag": "ACT-211",
+        "fragment_id": "rfrag_region_32",
+        "parent_id": "rfrag_region_32:n0"
+      },
+      "rfrag_region_32:n0:fc": {
+        "id": "rfrag_region_32:n0:fc",
+        "type": "instrument:controller",
+        "tag": "FC-211",
+        "fragment_id": "rfrag_region_32",
+        "parent_id": "rfrag_region_32:n0"
+      },
+      "rfrag_region_32:n1": {
+        "id": "rfrag_region_32:n1",
+        "type": "pipe_segment",
+        "line_id": "L-160-A",
+        "size": "4in",
+        "spec": "CS150",
+        "service": "Process",
+        "flow_direction": "forward",
+        "fragment_id": "rfrag_region_32"
+      },
+      "rfrag_region_32:n2": {
+        "id": "rfrag_region_32:n2",
+        "type": "equipment_block",
+        "tag": "E-033",
+        "equipment_type": "vessel",
+        "duty": "process",
+        "fragment_id": "rfrag_region_32"
+      },
+      "rfrag_region_32:n2:pi": {
+        "id": "rfrag_region_32:n2:pi",
+        "type": "instrument:pressure",
+        "tag": "PI-433",
+        "fragment_id": "rfrag_region_32",
+        "parent_id": "rfrag_region_32:n2"
+      },
+      "rfrag_region_32:n2:ti": {
+        "id": "rfrag_region_32:n2:ti",
+        "type": "instrument:temperature",
+        "tag": "TI-533",
+        "fragment_id": "rfrag_region_32",
+        "parent_id": "rfrag_region_32:n2"
+      },
+      "rfrag_region_32:n3": {
+        "id": "rfrag_region_32:n3",
+        "type": "valve:control",
+        "tag": "FV-212",
+        "fail_position": "closed",
+        "control_loop": true,
+        "fragment_id": "rfrag_region_32"
+      },
+      "rfrag_region_32:n3:act": {
+        "id": "rfrag_region_32:n3:act",
+        "type": "actuator:pneumatic",
+        "tag": "ACT-212",
+        "fragment_id": "rfrag_region_32",
+        "parent_id": "rfrag_region_32:n3"
+      },
+      "rfrag_region_32:n3:fc": {
+        "id": "rfrag_region_32:n3:fc",
+        "type": "instrument:controller",
+        "tag": "FC-212",
+        "fragment_id": "rfrag_region_32",
+        "parent_id": "rfrag_region_32:n3"
+      },
+      "rfrag_region_33:n0": {
+        "id": "rfrag_region_33:n0",
+        "type": "pipe_segment",
+        "line_id": "L-161-A",
+        "size": "4in",
+        "spec": "CS150",
+        "service": "Process",
+        "flow_direction": "forward",
+        "fragment_id": "rfrag_region_33"
+      },
+      "rfrag_region_33:n1": {
+        "id": "rfrag_region_33:n1",
+        "type": "equipment_block",
+        "tag": "E-034",
+        "equipment_type": "vessel",
+        "duty": "process",
+        "fragment_id": "rfrag_region_33"
+      },
+      "rfrag_region_33:n1:pi": {
+        "id": "rfrag_region_33:n1:pi",
+        "type": "instrument:pressure",
+        "tag": "PI-434",
+        "fragment_id": "rfrag_region_33",
+        "parent_id": "rfrag_region_33:n1"
+      },
+      "rfrag_region_33:n1:ti": {
+        "id": "rfrag_region_33:n1:ti",
+        "type": "instrument:temperature",
+        "tag": "TI-534",
+        "fragment_id": "rfrag_region_33",
+        "parent_id": "rfrag_region_33:n1"
+      },
+      "rfrag_region_33:n2": {
+        "id": "rfrag_region_33:n2",
+        "type": "valve:isolation",
+        "tag": "XV-117",
+        "valve_type": "gate",
+        "normally_open": true,
+        "fail_position": "closed",
+        "fragment_id": "rfrag_region_33"
+      },
+      "rfrag_region_33:n2:drain": {
+        "id": "rfrag_region_33:n2:drain",
+        "type": "valve:drain",
+        "tag": "DR-617",
+        "normally_closed": true,
+        "fragment_id": "rfrag_region_33",
+        "parent_id": "rfrag_region_33:n2"
+      },
+      "rfrag_region_33:n3": {
+        "id": "rfrag_region_33:n3",
+        "type": "pipe_segment",
+        "line_id": "L-162-A",
+        "size": "4in",
+        "spec": "CS150",
+        "service": "Process",
+        "flow_direction": "forward",
+        "fragment_id": "rfrag_region_33"
+      },
+      "cfrag_0:n0": {
+        "id": "cfrag_0:n0",
+        "type": "pipe_segment",
+        "line_id": "L-163-A",
+        "size": "4in",
+        "spec": "CS150",
+        "service": "Process",
+        "flow_direction": "forward",
+        "fragment_id": "cfrag_0"
+      },
+      "cfrag_0:n1": {
+        "id": "cfrag_0:n1",
+        "type": "valve:isolation",
+        "tag": "XV-118",
+        "valve_type": "gate",
+        "normally_open": true,
+        "fail_position": "closed",
+        "fragment_id": "cfrag_0"
+      },
+      "cfrag_0:n1:drain": {
+        "id": "cfrag_0:n1:drain",
+        "type": "valve:drain",
+        "tag": "DR-618",
+        "normally_closed": true,
+        "fragment_id": "cfrag_0",
+        "parent_id": "cfrag_0:n1"
+      },
+      "cfrag_0:n2": {
+        "id": "cfrag_0:n2",
+        "type": "pipe_segment",
+        "line_id": "L-164-A",
+        "size": "4in",
+        "spec": "CS150",
+        "service": "Process",
+        "flow_direction": "forward",
+        "fragment_id": "cfrag_0"
+      },
+      "cfrag_1:n0": {
+        "id": "cfrag_1:n0",
+        "type": "pipe_segment",
+        "line_id": "L-165-A",
+        "size": "4in",
+        "spec": "CS150",
+        "service": "Process",
+        "flow_direction": "forward",
+        "fragment_id": "cfrag_1"
+      },
+      "cfrag_1:n1": {
+        "id": "cfrag_1:n1",
+        "type": "instrument:flow_meter",
+        "tag": "FT-311",
+        "measurement": "flow",
+        "fragment_id": "cfrag_1"
+      },
+      "cfrag_1:n1:ft": {
+        "id": "cfrag_1:n1:ft",
+        "type": "instrument:transmitter",
+        "tag": "FT-312",
+        "fragment_id": "cfrag_1",
+        "parent_id": "cfrag_1:n1"
+      },
+      "cfrag_1:n2": {
+        "id": "cfrag_1:n2",
+        "type": "pipe_segment",
+        "line_id": "L-166-A",
+        "size": "4in",
+        "spec": "CS150",
+        "service": "Process",
+        "flow_direction": "forward",
+        "fragment_id": "cfrag_1"
+      },
+      "cfrag_2:n0": {
+        "id": "cfrag_2:n0",
+        "type": "pipe_segment",
+        "line_id": "L-167-A",
+        "size": "4in",
+        "spec": "CS150",
+        "service": "Process",
+        "flow_direction": "forward",
+        "fragment_id": "cfrag_2"
+      },
+      "cfrag_2:n1": {
+        "id": "cfrag_2:n1",
+        "type": "instrument:flow_meter",
+        "tag": "FT-313",
+        "measurement": "flow",
+        "fragment_id": "cfrag_2"
+      },
+      "cfrag_2:n1:ft": {
+        "id": "cfrag_2:n1:ft",
+        "type": "instrument:transmitter",
+        "tag": "FT-314",
+        "fragment_id": "cfrag_2",
+        "parent_id": "cfrag_2:n1"
+      },
+      "cfrag_2:n2": {
+        "id": "cfrag_2:n2",
+        "type": "pipe_segment",
+        "line_id": "L-168-A",
+        "size": "4in",
+        "spec": "CS150",
+        "service": "Process",
+        "flow_direction": "forward",
+        "fragment_id": "cfrag_2"
+      },
+      "cfrag_3:n0": {
+        "id": "cfrag_3:n0",
+        "type": "pipe_segment",
+        "line_id": "L-169-A",
+        "size": "4in",
+        "spec": "CS150",
+        "service": "Process",
+        "flow_direction": "forward",
+        "fragment_id": "cfrag_3"
+      },
+      "cfrag_3:n1": {
+        "id": "cfrag_3:n1",
+        "type": "valve:isolation",
+        "tag": "XV-119",
+        "valve_type": "gate",
+        "normally_open": true,
+        "fail_position": "closed",
+        "fragment_id": "cfrag_3"
+      },
+      "cfrag_3:n1:drain": {
+        "id": "cfrag_3:n1:drain",
+        "type": "valve:drain",
+        "tag": "DR-619",
+        "normally_closed": true,
+        "fragment_id": "cfrag_3",
+        "parent_id": "cfrag_3:n1"
+      },
+      "cfrag_3:n2": {
+        "id": "cfrag_3:n2",
+        "type": "pipe_segment",
+        "line_id": "L-170-A",
+        "size": "4in",
+        "spec": "CS150",
+        "service": "Process",
+        "flow_direction": "forward",
+        "fragment_id": "cfrag_3"
+      },
+      "efrag_0:n0": {
+        "id": "efrag_0:n0",
+        "type": "equipment_block",
+        "tag": "E-035",
+        "equipment_type": "vessel",
+        "duty": "process",
+        "fragment_id": "efrag_0"
+      },
+      "efrag_0:n0:pi": {
+        "id": "efrag_0:n0:pi",
+        "type": "instrument:pressure",
+        "tag": "PI-435",
+        "fragment_id": "efrag_0",
+        "parent_id": "efrag_0:n0"
+      },
+      "efrag_0:n0:ti": {
+        "id": "efrag_0:n0:ti",
+        "type": "instrument:temperature",
+        "tag": "TI-535",
+        "fragment_id": "efrag_0",
+        "parent_id": "efrag_0:n0"
+      },
+      "efrag_1:n0": {
+        "id": "efrag_1:n0",
+        "type": "equipment_block",
+        "tag": "E-036",
+        "equipment_type": "vessel",
+        "duty": "process",
+        "fragment_id": "efrag_1"
+      },
+      "efrag_1:n0:pi": {
+        "id": "efrag_1:n0:pi",
+        "type": "instrument:pressure",
+        "tag": "PI-436",
+        "fragment_id": "efrag_1",
+        "parent_id": "efrag_1:n0"
+      },
+      "efrag_1:n0:ti": {
+        "id": "efrag_1:n0:ti",
+        "type": "instrument:temperature",
+        "tag": "TI-536",
+        "fragment_id": "efrag_1",
+        "parent_id": "efrag_1:n0"
+      },
+      "efrag_2:n0": {
+        "id": "efrag_2:n0",
+        "type": "equipment_block",
+        "tag": "E-037",
+        "equipment_type": "vessel",
+        "duty": "process",
+        "fragment_id": "efrag_2"
+      },
+      "efrag_2:n0:pi": {
+        "id": "efrag_2:n0:pi",
+        "type": "instrument:pressure",
+        "tag": "PI-437",
+        "fragment_id": "efrag_2",
+        "parent_id": "efrag_2:n0"
+      },
+      "efrag_2:n0:ti": {
+        "id": "efrag_2:n0:ti",
+        "type": "instrument:temperature",
+        "tag": "TI-537",
+        "fragment_id": "efrag_2",
+        "parent_id": "efrag_2:n0"
+      },
+      "efrag_3:n0": {
+        "id": "efrag_3:n0",
+        "type": "equipment_block",
+        "tag": "E-038",
+        "equipment_type": "vessel",
+        "duty": "process",
+        "fragment_id": "efrag_3"
+      },
+      "efrag_3:n0:pi": {
+        "id": "efrag_3:n0:pi",
+        "type": "instrument:pressure",
+        "tag": "PI-438",
+        "fragment_id": "efrag_3",
+        "parent_id": "efrag_3:n0"
+      },
+      "efrag_3:n0:ti": {
+        "id": "efrag_3:n0:ti",
+        "type": "instrument:temperature",
+        "tag": "TI-538",
+        "fragment_id": "efrag_3",
+        "parent_id": "efrag_3:n0"
+      },
+      "efrag_3:n1": {
+        "id": "efrag_3:n1",
+        "type": "equipment_block",
+        "tag": "E-039",
+        "equipment_type": "vessel",
+        "duty": "process",
+        "fragment_id": "efrag_3"
+      },
+      "efrag_3:n1:pi": {
+        "id": "efrag_3:n1:pi",
+        "type": "instrument:pressure",
+        "tag": "PI-439",
+        "fragment_id": "efrag_3",
+        "parent_id": "efrag_3:n1"
+      },
+      "efrag_3:n1:ti": {
+        "id": "efrag_3:n1:ti",
+        "type": "instrument:temperature",
+        "tag": "TI-539",
+        "fragment_id": "efrag_3",
+        "parent_id": "efrag_3:n1"
+      },
+      "efrag_4:n0": {
+        "id": "efrag_4:n0",
+        "type": "equipment_block",
+        "tag": "E-040",
+        "equipment_type": "vessel",
+        "duty": "process",
+        "fragment_id": "efrag_4"
+      },
+      "efrag_4:n0:pi": {
+        "id": "efrag_4:n0:pi",
+        "type": "instrument:pressure",
+        "tag": "PI-440",
+        "fragment_id": "efrag_4",
+        "parent_id": "efrag_4:n0"
+      },
+      "efrag_4:n0:ti": {
+        "id": "efrag_4:n0:ti",
+        "type": "instrument:temperature",
+        "tag": "TI-540",
+        "fragment_id": "efrag_4",
+        "parent_id": "efrag_4:n0"
+      },
+      "efrag_5:n0": {
+        "id": "efrag_5:n0",
+        "type": "equipment_block",
+        "tag": "E-041",
+        "equipment_type": "vessel",
+        "duty": "process",
+        "fragment_id": "efrag_5"
+      },
+      "efrag_5:n0:pi": {
+        "id": "efrag_5:n0:pi",
+        "type": "instrument:pressure",
+        "tag": "PI-441",
+        "fragment_id": "efrag_5",
+        "parent_id": "efrag_5:n0"
+      },
+      "efrag_5:n0:ti": {
+        "id": "efrag_5:n0:ti",
+        "type": "instrument:temperature",
+        "tag": "TI-541",
+        "fragment_id": "efrag_5",
+        "parent_id": "efrag_5:n0"
+      },
+      "efrag_6:n0": {
+        "id": "efrag_6:n0",
+        "type": "equipment_block",
+        "tag": "E-042",
+        "equipment_type": "vessel",
+        "duty": "process",
+        "fragment_id": "efrag_6"
+      },
+      "efrag_6:n0:pi": {
+        "id": "efrag_6:n0:pi",
+        "type": "instrument:pressure",
+        "tag": "PI-442",
+        "fragment_id": "efrag_6",
+        "parent_id": "efrag_6:n0"
+      },
+      "efrag_6:n0:ti": {
+        "id": "efrag_6:n0:ti",
+        "type": "instrument:temperature",
+        "tag": "TI-542",
+        "fragment_id": "efrag_6",
+        "parent_id": "efrag_6:n0"
+      },
+      "efrag_7:n0": {
+        "id": "efrag_7:n0",
+        "type": "equipment_block",
+        "tag": "E-043",
+        "equipment_type": "vessel",
+        "duty": "process",
+        "fragment_id": "efrag_7"
+      },
+      "efrag_7:n0:pi": {
+        "id": "efrag_7:n0:pi",
+        "type": "instrument:pressure",
+        "tag": "PI-443",
+        "fragment_id": "efrag_7",
+        "parent_id": "efrag_7:n0"
+      },
+      "efrag_7:n0:ti": {
+        "id": "efrag_7:n0:ti",
+        "type": "instrument:temperature",
+        "tag": "TI-543",
+        "fragment_id": "efrag_7",
+        "parent_id": "efrag_7:n0"
+      },
+      "efrag_7:n1": {
+        "id": "efrag_7:n1",
+        "type": "equipment_block",
+        "tag": "E-044",
+        "equipment_type": "vessel",
+        "duty": "process",
+        "fragment_id": "efrag_7"
+      },
+      "efrag_7:n1:pi": {
+        "id": "efrag_7:n1:pi",
+        "type": "instrument:pressure",
+        "tag": "PI-444",
+        "fragment_id": "efrag_7",
+        "parent_id": "efrag_7:n1"
+      },
+      "efrag_7:n1:ti": {
+        "id": "efrag_7:n1:ti",
+        "type": "instrument:temperature",
+        "tag": "TI-544",
+        "fragment_id": "efrag_7",
+        "parent_id": "efrag_7:n1"
+      },
+      "efrag_8:n0": {
+        "id": "efrag_8:n0",
+        "type": "equipment_block",
+        "tag": "E-045",
+        "equipment_type": "vessel",
+        "duty": "process",
+        "fragment_id": "efrag_8"
+      },
+      "efrag_8:n0:pi": {
+        "id": "efrag_8:n0:pi",
+        "type": "instrument:pressure",
+        "tag": "PI-445",
+        "fragment_id": "efrag_8",
+        "parent_id": "efrag_8:n0"
+      },
+      "efrag_8:n0:ti": {
+        "id": "efrag_8:n0:ti",
+        "type": "instrument:temperature",
+        "tag": "TI-545",
+        "fragment_id": "efrag_8",
+        "parent_id": "efrag_8:n0"
+      },
+      "efrag_8:n1": {
+        "id": "efrag_8:n1",
+        "type": "equipment_block",
+        "tag": "E-046",
+        "equipment_type": "vessel",
+        "duty": "process",
+        "fragment_id": "efrag_8"
+      },
+      "efrag_8:n1:pi": {
+        "id": "efrag_8:n1:pi",
+        "type": "instrument:pressure",
+        "tag": "PI-446",
+        "fragment_id": "efrag_8",
+        "parent_id": "efrag_8:n1"
+      },
+      "efrag_8:n1:ti": {
+        "id": "efrag_8:n1:ti",
+        "type": "instrument:temperature",
+        "tag": "TI-546",
+        "fragment_id": "efrag_8",
+        "parent_id": "efrag_8:n1"
+      },
+      "efrag_9:n0": {
+        "id": "efrag_9:n0",
+        "type": "equipment_block",
+        "tag": "E-047",
+        "equipment_type": "vessel",
+        "duty": "process",
+        "fragment_id": "efrag_9"
+      },
+      "efrag_9:n0:pi": {
+        "id": "efrag_9:n0:pi",
+        "type": "instrument:pressure",
+        "tag": "PI-447",
+        "fragment_id": "efrag_9",
+        "parent_id": "efrag_9:n0"
+      },
+      "efrag_9:n0:ti": {
+        "id": "efrag_9:n0:ti",
+        "type": "instrument:temperature",
+        "tag": "TI-547",
+        "fragment_id": "efrag_9",
+        "parent_id": "efrag_9:n0"
+      },
+      "efrag_10:n0": {
+        "id": "efrag_10:n0",
+        "type": "equipment_block",
+        "tag": "E-048",
+        "equipment_type": "vessel",
+        "duty": "process",
+        "fragment_id": "efrag_10"
+      },
+      "efrag_10:n0:pi": {
+        "id": "efrag_10:n0:pi",
+        "type": "instrument:pressure",
+        "tag": "PI-448",
+        "fragment_id": "efrag_10",
+        "parent_id": "efrag_10:n0"
+      },
+      "efrag_10:n0:ti": {
+        "id": "efrag_10:n0:ti",
+        "type": "instrument:temperature",
+        "tag": "TI-548",
+        "fragment_id": "efrag_10",
+        "parent_id": "efrag_10:n0"
+      },
+      "efrag_11:n0": {
+        "id": "efrag_11:n0",
+        "type": "equipment_block",
+        "tag": "E-049",
+        "equipment_type": "vessel",
+        "duty": "process",
+        "fragment_id": "efrag_11"
+      },
+      "efrag_11:n0:pi": {
+        "id": "efrag_11:n0:pi",
+        "type": "instrument:pressure",
+        "tag": "PI-449",
+        "fragment_id": "efrag_11",
+        "parent_id": "efrag_11:n0"
+      },
+      "efrag_11:n0:ti": {
+        "id": "efrag_11:n0:ti",
+        "type": "instrument:temperature",
+        "tag": "TI-549",
+        "fragment_id": "efrag_11",
+        "parent_id": "efrag_11:n0"
+      },
+      "efrag_12:n0": {
+        "id": "efrag_12:n0",
+        "type": "equipment_block",
+        "tag": "E-050",
+        "equipment_type": "vessel",
+        "duty": "process",
+        "fragment_id": "efrag_12"
+      },
+      "efrag_12:n0:pi": {
+        "id": "efrag_12:n0:pi",
+        "type": "instrument:pressure",
+        "tag": "PI-450",
+        "fragment_id": "efrag_12",
+        "parent_id": "efrag_12:n0"
+      },
+      "efrag_12:n0:ti": {
+        "id": "efrag_12:n0:ti",
+        "type": "instrument:temperature",
+        "tag": "TI-550",
+        "fragment_id": "efrag_12",
+        "parent_id": "efrag_12:n0"
+      },
+      "efrag_12:n1": {
+        "id": "efrag_12:n1",
+        "type": "equipment_block",
+        "tag": "E-051",
+        "equipment_type": "vessel",
+        "duty": "process",
+        "fragment_id": "efrag_12"
+      },
+      "efrag_12:n1:pi": {
+        "id": "efrag_12:n1:pi",
+        "type": "instrument:pressure",
+        "tag": "PI-451",
+        "fragment_id": "efrag_12",
+        "parent_id": "efrag_12:n1"
+      },
+      "efrag_12:n1:ti": {
+        "id": "efrag_12:n1:ti",
+        "type": "instrument:temperature",
+        "tag": "TI-551",
+        "fragment_id": "efrag_12",
+        "parent_id": "efrag_12:n1"
+      },
+      "efrag_12:n2": {
+        "id": "efrag_12:n2",
+        "type": "equipment_block",
+        "tag": "E-052",
+        "equipment_type": "vessel",
+        "duty": "process",
+        "fragment_id": "efrag_12"
+      },
+      "efrag_12:n2:pi": {
+        "id": "efrag_12:n2:pi",
+        "type": "instrument:pressure",
+        "tag": "PI-452",
+        "fragment_id": "efrag_12",
+        "parent_id": "efrag_12:n2"
+      },
+      "efrag_12:n2:ti": {
+        "id": "efrag_12:n2:ti",
+        "type": "instrument:temperature",
+        "tag": "TI-552",
+        "fragment_id": "efrag_12",
+        "parent_id": "efrag_12:n2"
+      },
+      "efrag_13:n0": {
+        "id": "efrag_13:n0",
+        "type": "equipment_block",
+        "tag": "E-053",
+        "equipment_type": "vessel",
+        "duty": "process",
+        "fragment_id": "efrag_13"
+      },
+      "efrag_13:n0:pi": {
+        "id": "efrag_13:n0:pi",
+        "type": "instrument:pressure",
+        "tag": "PI-453",
+        "fragment_id": "efrag_13",
+        "parent_id": "efrag_13:n0"
+      },
+      "efrag_13:n0:ti": {
+        "id": "efrag_13:n0:ti",
+        "type": "instrument:temperature",
+        "tag": "TI-553",
+        "fragment_id": "efrag_13",
+        "parent_id": "efrag_13:n0"
+      },
+      "efrag_14:n0": {
+        "id": "efrag_14:n0",
+        "type": "equipment_block",
+        "tag": "E-054",
+        "equipment_type": "vessel",
+        "duty": "process",
+        "fragment_id": "efrag_14"
+      },
+      "efrag_14:n0:pi": {
+        "id": "efrag_14:n0:pi",
+        "type": "instrument:pressure",
+        "tag": "PI-454",
+        "fragment_id": "efrag_14",
+        "parent_id": "efrag_14:n0"
+      },
+      "efrag_14:n0:ti": {
+        "id": "efrag_14:n0:ti",
+        "type": "instrument:temperature",
+        "tag": "TI-554",
+        "fragment_id": "efrag_14",
+        "parent_id": "efrag_14:n0"
+      },
+      "efrag_14:n1": {
+        "id": "efrag_14:n1",
+        "type": "equipment_block",
+        "tag": "E-055",
+        "equipment_type": "vessel",
+        "duty": "process",
+        "fragment_id": "efrag_14"
+      },
+      "efrag_14:n1:pi": {
+        "id": "efrag_14:n1:pi",
+        "type": "instrument:pressure",
+        "tag": "PI-455",
+        "fragment_id": "efrag_14",
+        "parent_id": "efrag_14:n1"
+      },
+      "efrag_14:n1:ti": {
+        "id": "efrag_14:n1:ti",
+        "type": "instrument:temperature",
+        "tag": "TI-555",
+        "fragment_id": "efrag_14",
+        "parent_id": "efrag_14:n1"
+      },
+      "efrag_14:n2": {
+        "id": "efrag_14:n2",
+        "type": "equipment_block",
+        "tag": "E-056",
+        "equipment_type": "vessel",
+        "duty": "process",
+        "fragment_id": "efrag_14"
+      },
+      "efrag_14:n2:pi": {
+        "id": "efrag_14:n2:pi",
+        "type": "instrument:pressure",
+        "tag": "PI-456",
+        "fragment_id": "efrag_14",
+        "parent_id": "efrag_14:n2"
+      },
+      "efrag_14:n2:ti": {
+        "id": "efrag_14:n2:ti",
+        "type": "instrument:temperature",
+        "tag": "TI-556",
+        "fragment_id": "efrag_14",
+        "parent_id": "efrag_14:n2"
+      },
+      "efrag_15:n0": {
+        "id": "efrag_15:n0",
+        "type": "equipment_block",
+        "tag": "E-057",
+        "equipment_type": "vessel",
+        "duty": "process",
+        "fragment_id": "efrag_15"
+      },
+      "efrag_15:n0:pi": {
+        "id": "efrag_15:n0:pi",
+        "type": "instrument:pressure",
+        "tag": "PI-457",
+        "fragment_id": "efrag_15",
+        "parent_id": "efrag_15:n0"
+      },
+      "efrag_15:n0:ti": {
+        "id": "efrag_15:n0:ti",
+        "type": "instrument:temperature",
+        "tag": "TI-557",
+        "fragment_id": "efrag_15",
+        "parent_id": "efrag_15:n0"
+      },
+      "efrag_16:n0": {
+        "id": "efrag_16:n0",
+        "type": "equipment_block",
+        "tag": "E-058",
+        "equipment_type": "vessel",
+        "duty": "process",
+        "fragment_id": "efrag_16"
+      },
+      "efrag_16:n0:pi": {
+        "id": "efrag_16:n0:pi",
+        "type": "instrument:pressure",
+        "tag": "PI-458",
+        "fragment_id": "efrag_16",
+        "parent_id": "efrag_16:n0"
+      },
+      "efrag_16:n0:ti": {
+        "id": "efrag_16:n0:ti",
+        "type": "instrument:temperature",
+        "tag": "TI-558",
+        "fragment_id": "efrag_16",
+        "parent_id": "efrag_16:n0"
+      },
+      "efrag_16:n1": {
+        "id": "efrag_16:n1",
+        "type": "equipment_block",
+        "tag": "E-059",
+        "equipment_type": "vessel",
+        "duty": "process",
+        "fragment_id": "efrag_16"
+      },
+      "efrag_16:n1:pi": {
+        "id": "efrag_16:n1:pi",
+        "type": "instrument:pressure",
+        "tag": "PI-459",
+        "fragment_id": "efrag_16",
+        "parent_id": "efrag_16:n1"
+      },
+      "efrag_16:n1:ti": {
+        "id": "efrag_16:n1:ti",
+        "type": "instrument:temperature",
+        "tag": "TI-559",
+        "fragment_id": "efrag_16",
+        "parent_id": "efrag_16:n1"
+      },
+      "efrag_17:n0": {
+        "id": "efrag_17:n0",
+        "type": "equipment_block",
+        "tag": "E-060",
+        "equipment_type": "vessel",
+        "duty": "process",
+        "fragment_id": "efrag_17"
+      },
+      "efrag_17:n0:pi": {
+        "id": "efrag_17:n0:pi",
+        "type": "instrument:pressure",
+        "tag": "PI-460",
+        "fragment_id": "efrag_17",
+        "parent_id": "efrag_17:n0"
+      },
+      "efrag_17:n0:ti": {
+        "id": "efrag_17:n0:ti",
+        "type": "instrument:temperature",
+        "tag": "TI-560",
+        "fragment_id": "efrag_17",
+        "parent_id": "efrag_17:n0"
+      },
+      "efrag_18:n0": {
+        "id": "efrag_18:n0",
+        "type": "equipment_block",
+        "tag": "E-061",
+        "equipment_type": "vessel",
+        "duty": "process",
+        "fragment_id": "efrag_18"
+      },
+      "efrag_18:n0:pi": {
+        "id": "efrag_18:n0:pi",
+        "type": "instrument:pressure",
+        "tag": "PI-461",
+        "fragment_id": "efrag_18",
+        "parent_id": "efrag_18:n0"
+      },
+      "efrag_18:n0:ti": {
+        "id": "efrag_18:n0:ti",
+        "type": "instrument:temperature",
+        "tag": "TI-561",
+        "fragment_id": "efrag_18",
+        "parent_id": "efrag_18:n0"
+      },
+      "efrag_19:n0": {
+        "id": "efrag_19:n0",
+        "type": "equipment_block",
+        "tag": "E-062",
+        "equipment_type": "vessel",
+        "duty": "process",
+        "fragment_id": "efrag_19"
+      },
+      "efrag_19:n0:pi": {
+        "id": "efrag_19:n0:pi",
+        "type": "instrument:pressure",
+        "tag": "PI-462",
+        "fragment_id": "efrag_19",
+        "parent_id": "efrag_19:n0"
+      },
+      "efrag_19:n0:ti": {
+        "id": "efrag_19:n0:ti",
+        "type": "instrument:temperature",
+        "tag": "TI-562",
+        "fragment_id": "efrag_19",
+        "parent_id": "efrag_19:n0"
+      },
+      "efrag_19:n1": {
+        "id": "efrag_19:n1",
+        "type": "equipment_block",
+        "tag": "E-063",
+        "equipment_type": "vessel",
+        "duty": "process",
+        "fragment_id": "efrag_19"
+      },
+      "efrag_19:n1:pi": {
+        "id": "efrag_19:n1:pi",
+        "type": "instrument:pressure",
+        "tag": "PI-463",
+        "fragment_id": "efrag_19",
+        "parent_id": "efrag_19:n1"
+      },
+      "efrag_19:n1:ti": {
+        "id": "efrag_19:n1:ti",
+        "type": "instrument:temperature",
+        "tag": "TI-563",
+        "fragment_id": "efrag_19",
+        "parent_id": "efrag_19:n1"
+      },
+      "efrag_19:n2": {
+        "id": "efrag_19:n2",
+        "type": "equipment_block",
+        "tag": "E-064",
+        "equipment_type": "vessel",
+        "duty": "process",
+        "fragment_id": "efrag_19"
+      },
+      "efrag_19:n2:pi": {
+        "id": "efrag_19:n2:pi",
+        "type": "instrument:pressure",
+        "tag": "PI-464",
+        "fragment_id": "efrag_19",
+        "parent_id": "efrag_19:n2"
+      },
+      "efrag_19:n2:ti": {
+        "id": "efrag_19:n2:ti",
+        "type": "instrument:temperature",
+        "tag": "TI-564",
+        "fragment_id": "efrag_19",
+        "parent_id": "efrag_19:n2"
+      },
+      "efrag_19:n3": {
+        "id": "efrag_19:n3",
+        "type": "equipment_block",
+        "tag": "E-065",
+        "equipment_type": "vessel",
+        "duty": "process",
+        "fragment_id": "efrag_19"
+      },
+      "efrag_19:n3:pi": {
+        "id": "efrag_19:n3:pi",
+        "type": "instrument:pressure",
+        "tag": "PI-465",
+        "fragment_id": "efrag_19",
+        "parent_id": "efrag_19:n3"
+      },
+      "efrag_19:n3:ti": {
+        "id": "efrag_19:n3:ti",
+        "type": "instrument:temperature",
+        "tag": "TI-565",
+        "fragment_id": "efrag_19",
+        "parent_id": "efrag_19:n3"
+      },
+      "efrag_20:n0": {
+        "id": "efrag_20:n0",
+        "type": "equipment_block",
+        "tag": "E-066",
+        "equipment_type": "vessel",
+        "duty": "process",
+        "fragment_id": "efrag_20"
+      },
+      "efrag_20:n0:pi": {
+        "id": "efrag_20:n0:pi",
+        "type": "instrument:pressure",
+        "tag": "PI-466",
+        "fragment_id": "efrag_20",
+        "parent_id": "efrag_20:n0"
+      },
+      "efrag_20:n0:ti": {
+        "id": "efrag_20:n0:ti",
+        "type": "instrument:temperature",
+        "tag": "TI-566",
+        "fragment_id": "efrag_20",
+        "parent_id": "efrag_20:n0"
+      },
+      "efrag_21:n0": {
+        "id": "efrag_21:n0",
+        "type": "equipment_block",
+        "tag": "E-067",
+        "equipment_type": "vessel",
+        "duty": "process",
+        "fragment_id": "efrag_21"
+      },
+      "efrag_21:n0:pi": {
+        "id": "efrag_21:n0:pi",
+        "type": "instrument:pressure",
+        "tag": "PI-467",
+        "fragment_id": "efrag_21",
+        "parent_id": "efrag_21:n0"
+      },
+      "efrag_21:n0:ti": {
+        "id": "efrag_21:n0:ti",
+        "type": "instrument:temperature",
+        "tag": "TI-567",
+        "fragment_id": "efrag_21",
+        "parent_id": "efrag_21:n0"
+      },
+      "efrag_22:n0": {
+        "id": "efrag_22:n0",
+        "type": "equipment_block",
+        "tag": "E-068",
+        "equipment_type": "vessel",
+        "duty": "process",
+        "fragment_id": "efrag_22"
+      },
+      "efrag_22:n0:pi": {
+        "id": "efrag_22:n0:pi",
+        "type": "instrument:pressure",
+        "tag": "PI-468",
+        "fragment_id": "efrag_22",
+        "parent_id": "efrag_22:n0"
+      },
+      "efrag_22:n0:ti": {
+        "id": "efrag_22:n0:ti",
+        "type": "instrument:temperature",
+        "tag": "TI-568",
+        "fragment_id": "efrag_22",
+        "parent_id": "efrag_22:n0"
+      },
+      "efrag_22:n1": {
+        "id": "efrag_22:n1",
+        "type": "equipment_block",
+        "tag": "E-069",
+        "equipment_type": "vessel",
+        "duty": "process",
+        "fragment_id": "efrag_22"
+      },
+      "efrag_22:n1:pi": {
+        "id": "efrag_22:n1:pi",
+        "type": "instrument:pressure",
+        "tag": "PI-469",
+        "fragment_id": "efrag_22",
+        "parent_id": "efrag_22:n1"
+      },
+      "efrag_22:n1:ti": {
+        "id": "efrag_22:n1:ti",
+        "type": "instrument:temperature",
+        "tag": "TI-569",
+        "fragment_id": "efrag_22",
+        "parent_id": "efrag_22:n1"
+      },
+      "efrag_23:n0": {
+        "id": "efrag_23:n0",
+        "type": "equipment_block",
+        "tag": "E-070",
+        "equipment_type": "vessel",
+        "duty": "process",
+        "fragment_id": "efrag_23"
+      },
+      "efrag_23:n0:pi": {
+        "id": "efrag_23:n0:pi",
+        "type": "instrument:pressure",
+        "tag": "PI-470",
+        "fragment_id": "efrag_23",
+        "parent_id": "efrag_23:n0"
+      },
+      "efrag_23:n0:ti": {
+        "id": "efrag_23:n0:ti",
+        "type": "instrument:temperature",
+        "tag": "TI-570",
+        "fragment_id": "efrag_23",
+        "parent_id": "efrag_23:n0"
+      },
+      "efrag_24:n0": {
+        "id": "efrag_24:n0",
+        "type": "equipment_block",
+        "tag": "E-071",
+        "equipment_type": "vessel",
+        "duty": "process",
+        "fragment_id": "efrag_24"
+      },
+      "efrag_24:n0:pi": {
+        "id": "efrag_24:n0:pi",
+        "type": "instrument:pressure",
+        "tag": "PI-471",
+        "fragment_id": "efrag_24",
+        "parent_id": "efrag_24:n0"
+      },
+      "efrag_24:n0:ti": {
+        "id": "efrag_24:n0:ti",
+        "type": "instrument:temperature",
+        "tag": "TI-571",
+        "fragment_id": "efrag_24",
+        "parent_id": "efrag_24:n0"
+      },
+      "efrag_25:n0": {
+        "id": "efrag_25:n0",
+        "type": "equipment_block",
+        "tag": "E-072",
+        "equipment_type": "vessel",
+        "duty": "process",
+        "fragment_id": "efrag_25"
+      },
+      "efrag_25:n0:pi": {
+        "id": "efrag_25:n0:pi",
+        "type": "instrument:pressure",
+        "tag": "PI-472",
+        "fragment_id": "efrag_25",
+        "parent_id": "efrag_25:n0"
+      },
+      "efrag_25:n0:ti": {
+        "id": "efrag_25:n0:ti",
+        "type": "instrument:temperature",
+        "tag": "TI-572",
+        "fragment_id": "efrag_25",
+        "parent_id": "efrag_25:n0"
+      },
+      "efrag_26:n0": {
+        "id": "efrag_26:n0",
+        "type": "equipment_block",
+        "tag": "E-073",
+        "equipment_type": "vessel",
+        "duty": "process",
+        "fragment_id": "efrag_26"
+      },
+      "efrag_26:n0:pi": {
+        "id": "efrag_26:n0:pi",
+        "type": "instrument:pressure",
+        "tag": "PI-473",
+        "fragment_id": "efrag_26",
+        "parent_id": "efrag_26:n0"
+      },
+      "efrag_26:n0:ti": {
+        "id": "efrag_26:n0:ti",
+        "type": "instrument:temperature",
+        "tag": "TI-573",
+        "fragment_id": "efrag_26",
+        "parent_id": "efrag_26:n0"
+      },
+      "efrag_26:n1": {
+        "id": "efrag_26:n1",
+        "type": "equipment_block",
+        "tag": "E-074",
+        "equipment_type": "vessel",
+        "duty": "process",
+        "fragment_id": "efrag_26"
+      },
+      "efrag_26:n1:pi": {
+        "id": "efrag_26:n1:pi",
+        "type": "instrument:pressure",
+        "tag": "PI-474",
+        "fragment_id": "efrag_26",
+        "parent_id": "efrag_26:n1"
+      },
+      "efrag_26:n1:ti": {
+        "id": "efrag_26:n1:ti",
+        "type": "instrument:temperature",
+        "tag": "TI-574",
+        "fragment_id": "efrag_26",
+        "parent_id": "efrag_26:n1"
+      },
+      "efrag_27:n0": {
+        "id": "efrag_27:n0",
+        "type": "equipment_block",
+        "tag": "E-075",
+        "equipment_type": "vessel",
+        "duty": "process",
+        "fragment_id": "efrag_27"
+      },
+      "efrag_27:n0:pi": {
+        "id": "efrag_27:n0:pi",
+        "type": "instrument:pressure",
+        "tag": "PI-475",
+        "fragment_id": "efrag_27",
+        "parent_id": "efrag_27:n0"
+      },
+      "efrag_27:n0:ti": {
+        "id": "efrag_27:n0:ti",
+        "type": "instrument:temperature",
+        "tag": "TI-575",
+        "fragment_id": "efrag_27",
+        "parent_id": "efrag_27:n0"
+      },
+      "efrag_28:n0": {
+        "id": "efrag_28:n0",
+        "type": "equipment_block",
+        "tag": "E-076",
+        "equipment_type": "vessel",
+        "duty": "process",
+        "fragment_id": "efrag_28"
+      },
+      "efrag_28:n0:pi": {
+        "id": "efrag_28:n0:pi",
+        "type": "instrument:pressure",
+        "tag": "PI-476",
+        "fragment_id": "efrag_28",
+        "parent_id": "efrag_28:n0"
+      },
+      "efrag_28:n0:ti": {
+        "id": "efrag_28:n0:ti",
+        "type": "instrument:temperature",
+        "tag": "TI-576",
+        "fragment_id": "efrag_28",
+        "parent_id": "efrag_28:n0"
+      },
+      "efrag_29:n0": {
+        "id": "efrag_29:n0",
+        "type": "equipment_block",
+        "tag": "E-077",
+        "equipment_type": "vessel",
+        "duty": "process",
+        "fragment_id": "efrag_29"
+      },
+      "efrag_29:n0:pi": {
+        "id": "efrag_29:n0:pi",
+        "type": "instrument:pressure",
+        "tag": "PI-477",
+        "fragment_id": "efrag_29",
+        "parent_id": "efrag_29:n0"
+      },
+      "efrag_29:n0:ti": {
+        "id": "efrag_29:n0:ti",
+        "type": "instrument:temperature",
+        "tag": "TI-577",
+        "fragment_id": "efrag_29",
+        "parent_id": "efrag_29:n0"
+      }
+    },
+    "edges": [
+      {
+        "edge_id": "pe_0",
+        "from": "rfrag_region_0:n0",
+        "to": "rfrag_region_0:n1",
+        "kind": "process",
+        "stitch": false,
+        "line_id": "L-101-A"
+      },
+      {
+        "edge_id": "pe_1",
+        "from": "rfrag_region_0:n1",
+        "to": "rfrag_region_0:n2",
+        "kind": "process",
+        "stitch": false,
+        "line_id": null
+      },
+      {
+        "edge_id": "pe_2",
+        "from": "rfrag_region_0:n2",
+        "to": "rfrag_region_0:n3",
+        "kind": "process",
+        "stitch": false,
+        "line_id": "L-102-A"
+      },
+      {
+        "edge_id": "pe_3",
+        "from": "rfrag_region_1:n0",
+        "to": "rfrag_region_1:n1",
+        "kind": "process",
+        "stitch": false,
+        "line_id": "L-103-A"
+      },
+      {
+        "edge_id": "pe_4",
+        "from": "rfrag_region_1:n1",
+        "to": "rfrag_region_1:n2",
+        "kind": "process",
+        "stitch": false,
+        "line_id": null
+      },
+      {
+        "edge_id": "pe_5",
+        "from": "rfrag_region_1:n2",
+        "to": "rfrag_region_1:n3",
+        "kind": "process",
+        "stitch": false,
+        "line_id": "L-104-A"
+      },
+      {
+        "edge_id": "pe_6",
+        "from": "rfrag_region_2:n0",
+        "to": "rfrag_region_2:n1",
+        "kind": "process",
+        "stitch": false,
+        "line_id": "L-105-A"
+      },
+      {
+        "edge_id": "pe_7",
+        "from": "rfrag_region_2:n1",
+        "to": "rfrag_region_2:n2",
+        "kind": "process",
+        "stitch": false,
+        "line_id": null
+      },
+      {
+        "edge_id": "pe_8",
+        "from": "rfrag_region_2:n2",
+        "to": "rfrag_region_2:n3",
+        "kind": "process",
+        "stitch": false,
+        "line_id": null
+      },
+      {
+        "edge_id": "pe_9",
+        "from": "rfrag_region_2:n3",
+        "to": "rfrag_region_2:n4",
+        "kind": "process",
+        "stitch": false,
+        "line_id": "L-106-A"
+      },
+      {
+        "edge_id": "pe_10",
+        "from": "rfrag_region_3:n0",
+        "to": "rfrag_region_3:n1",
+        "kind": "process",
+        "stitch": false,
+        "line_id": "L-107-A"
+      },
+      {
+        "edge_id": "pe_11",
+        "from": "rfrag_region_3:n1",
+        "to": "rfrag_region_3:n2",
+        "kind": "process",
+        "stitch": false,
+        "line_id": null
+      },
+      {
+        "edge_id": "pe_12",
+        "from": "rfrag_region_3:n2",
+        "to": "rfrag_region_3:n3",
+        "kind": "process",
+        "stitch": false,
+        "line_id": "L-108-A"
+      },
+      {
+        "edge_id": "pe_13",
+        "from": "rfrag_region_4:n0",
+        "to": "rfrag_region_4:n1",
+        "kind": "process",
+        "stitch": false,
+        "line_id": "L-109-A"
+      },
+      {
+        "edge_id": "pe_14",
+        "from": "rfrag_region_4:n1",
+        "to": "rfrag_region_4:n2",
+        "kind": "process",
+        "stitch": false,
+        "line_id": null
+      },
+      {
+        "edge_id": "pe_15",
+        "from": "rfrag_region_4:n2",
+        "to": "rfrag_region_4:n3",
+        "kind": "process",
+        "stitch": false,
+        "line_id": "L-110-A"
+      },
+      {
+        "edge_id": "pe_16",
+        "from": "rfrag_region_5:n0",
+        "to": "rfrag_region_5:n1",
+        "kind": "process",
+        "stitch": false,
+        "line_id": "L-111-A"
+      },
+      {
+        "edge_id": "pe_17",
+        "from": "rfrag_region_5:n1",
+        "to": "rfrag_region_5:n2",
+        "kind": "process",
+        "stitch": false,
+        "line_id": null
+      },
+      {
+        "edge_id": "pe_18",
+        "from": "rfrag_region_5:n2",
+        "to": "rfrag_region_5:n3",
+        "kind": "process",
+        "stitch": false,
+        "line_id": null
+      },
+      {
+        "edge_id": "pe_19",
+        "from": "rfrag_region_5:n3",
+        "to": "rfrag_region_5:n4",
+        "kind": "process",
+        "stitch": false,
+        "line_id": "L-112-A"
+      },
+      {
+        "edge_id": "pe_20",
+        "from": "rfrag_region_6:n0",
+        "to": "rfrag_region_6:n1",
+        "kind": "process",
+        "stitch": false,
+        "line_id": "L-113-A"
+      },
+      {
+        "edge_id": "pe_21",
+        "from": "rfrag_region_6:n1",
+        "to": "rfrag_region_6:n2",
+        "kind": "process",
+        "stitch": false,
+        "line_id": null
+      },
+      {
+        "edge_id": "pe_22",
+        "from": "rfrag_region_6:n2",
+        "to": "rfrag_region_6:n3",
+        "kind": "process",
+        "stitch": false,
+        "line_id": "L-114-A"
+      },
+      {
+        "edge_id": "pe_23",
+        "from": "rfrag_region_7:n0",
+        "to": "rfrag_region_7:n1",
+        "kind": "process",
+        "stitch": false,
+        "line_id": "L-115-A"
+      },
+      {
+        "edge_id": "pe_24",
+        "from": "rfrag_region_7:n1",
+        "to": "rfrag_region_7:n2",
+        "kind": "process",
+        "stitch": false,
+        "line_id": null
+      },
+      {
+        "edge_id": "pe_25",
+        "from": "rfrag_region_7:n2",
+        "to": "rfrag_region_7:n3",
+        "kind": "process",
+        "stitch": false,
+        "line_id": "L-116-A"
+      },
+      {
+        "edge_id": "pe_26",
+        "from": "rfrag_region_8:n0",
+        "to": "rfrag_region_8:n1",
+        "kind": "process",
+        "stitch": false,
+        "line_id": "L-117-A"
+      },
+      {
+        "edge_id": "pe_27",
+        "from": "rfrag_region_8:n1",
+        "to": "rfrag_region_8:n2",
+        "kind": "process",
+        "stitch": false,
+        "line_id": "L-117-A"
+      },
+      {
+        "edge_id": "pe_28",
+        "from": "rfrag_region_8:n2",
+        "to": "rfrag_region_8:n3",
+        "kind": "process",
+        "stitch": false,
+        "line_id": null
+      },
+      {
+        "edge_id": "pe_29",
+        "from": "rfrag_region_9:n0",
+        "to": "rfrag_region_9:n1",
+        "kind": "process",
+        "stitch": false,
+        "line_id": "L-118-A"
+      },
+      {
+        "edge_id": "pe_30",
+        "from": "rfrag_region_9:n1",
+        "to": "rfrag_region_9:n2",
+        "kind": "process",
+        "stitch": false,
+        "line_id": "L-119-A"
+      },
+      {
+        "edge_id": "pe_31",
+        "from": "rfrag_region_10:n0",
+        "to": "rfrag_region_10:n1",
+        "kind": "process",
+        "stitch": false,
+        "line_id": "L-120-A"
+      },
+      {
+        "edge_id": "pe_32",
+        "from": "rfrag_region_10:n1",
+        "to": "rfrag_region_10:n2",
+        "kind": "process",
+        "stitch": false,
+        "line_id": null
+      },
+      {
+        "edge_id": "pe_33",
+        "from": "rfrag_region_10:n2",
+        "to": "rfrag_region_10:n3",
+        "kind": "process",
+        "stitch": false,
+        "line_id": "L-121-A"
+      },
+      {
+        "edge_id": "pe_34",
+        "from": "rfrag_region_11:n0",
+        "to": "rfrag_region_11:n1",
+        "kind": "process",
+        "stitch": false,
+        "line_id": "L-122-A"
+      },
+      {
+        "edge_id": "pe_35",
+        "from": "rfrag_region_11:n1",
+        "to": "rfrag_region_11:n2",
+        "kind": "process",
+        "stitch": false,
+        "line_id": null
+      },
+      {
+        "edge_id": "pe_36",
+        "from": "rfrag_region_11:n2",
+        "to": "rfrag_region_11:n3",
+        "kind": "process",
+        "stitch": false,
+        "line_id": "L-123-A"
+      },
+      {
+        "edge_id": "pe_37",
+        "from": "rfrag_region_12:n0",
+        "to": "rfrag_region_12:n1",
+        "kind": "process",
+        "stitch": false,
+        "line_id": "L-124-A"
+      },
+      {
+        "edge_id": "pe_38",
+        "from": "rfrag_region_12:n1",
+        "to": "rfrag_region_12:n2",
+        "kind": "process",
+        "stitch": false,
+        "line_id": "L-125-A"
+      },
+      {
+        "edge_id": "pe_39",
+        "from": "rfrag_region_13:n0",
+        "to": "rfrag_region_13:n1",
+        "kind": "process",
+        "stitch": false,
+        "line_id": "L-126-A"
+      },
+      {
+        "edge_id": "pe_40",
+        "from": "rfrag_region_13:n1",
+        "to": "rfrag_region_13:n2",
+        "kind": "process",
+        "stitch": false,
+        "line_id": "L-126-A"
+      },
+      {
+        "edge_id": "pe_41",
+        "from": "rfrag_region_13:n2",
+        "to": "rfrag_region_13:n3",
+        "kind": "process",
+        "stitch": false,
+        "line_id": null
+      },
+      {
+        "edge_id": "pe_42",
+        "from": "rfrag_region_14:n0",
+        "to": "rfrag_region_14:n1",
+        "kind": "process",
+        "stitch": false,
+        "line_id": "L-127-A"
+      },
+      {
+        "edge_id": "pe_43",
+        "from": "rfrag_region_14:n1",
+        "to": "rfrag_region_14:n2",
+        "kind": "process",
+        "stitch": false,
+        "line_id": "L-127-A"
+      },
+      {
+        "edge_id": "pe_44",
+        "from": "rfrag_region_14:n2",
+        "to": "rfrag_region_14:n3",
+        "kind": "process",
+        "stitch": false,
+        "line_id": null
+      },
+      {
+        "edge_id": "pe_45",
+        "from": "rfrag_region_15:n0",
+        "to": "rfrag_region_15:n1",
+        "kind": "process",
+        "stitch": false,
+        "line_id": "L-128-A"
+      },
+      {
+        "edge_id": "pe_46",
+        "from": "rfrag_region_15:n1",
+        "to": "rfrag_region_15:n2",
+        "kind": "process",
+        "stitch": false,
+        "line_id": null
+      },
+      {
+        "edge_id": "pe_47",
+        "from": "rfrag_region_15:n2",
+        "to": "rfrag_region_15:n3",
+        "kind": "process",
+        "stitch": false,
+        "line_id": "L-129-A"
+      },
+      {
+        "edge_id": "pe_48",
+        "from": "rfrag_region_16:n0",
+        "to": "rfrag_region_16:n1",
+        "kind": "process",
+        "stitch": false,
+        "line_id": "L-130-A"
+      },
+      {
+        "edge_id": "pe_49",
+        "from": "rfrag_region_16:n1",
+        "to": "rfrag_region_16:n2",
+        "kind": "process",
+        "stitch": false,
+        "line_id": "L-131-A"
+      },
+      {
+        "edge_id": "pe_50",
+        "from": "rfrag_region_17:n0",
+        "to": "rfrag_region_17:n1",
+        "kind": "process",
+        "stitch": false,
+        "line_id": "L-132-A"
+      },
+      {
+        "edge_id": "pe_51",
+        "from": "rfrag_region_17:n1",
+        "to": "rfrag_region_17:n2",
+        "kind": "process",
+        "stitch": false,
+        "line_id": null
+      },
+      {
+        "edge_id": "pe_52",
+        "from": "rfrag_region_17:n2",
+        "to": "rfrag_region_17:n3",
+        "kind": "process",
+        "stitch": false,
+        "line_id": "L-133-A"
+      },
+      {
+        "edge_id": "pe_53",
+        "from": "rfrag_region_18:n0",
+        "to": "rfrag_region_18:n1",
+        "kind": "process",
+        "stitch": false,
+        "line_id": "L-134-A"
+      },
+      {
+        "edge_id": "pe_54",
+        "from": "rfrag_region_18:n1",
+        "to": "rfrag_region_18:n2",
+        "kind": "process",
+        "stitch": false,
+        "line_id": "L-135-A"
+      },
+      {
+        "edge_id": "pe_55",
+        "from": "rfrag_region_19:n0",
+        "to": "rfrag_region_19:n1",
+        "kind": "process",
+        "stitch": false,
+        "line_id": "L-136-A"
+      },
+      {
+        "edge_id": "pe_56",
+        "from": "rfrag_region_19:n1",
+        "to": "rfrag_region_19:n2",
+        "kind": "process",
+        "stitch": false,
+        "line_id": "L-136-A"
+      },
+      {
+        "edge_id": "pe_57",
+        "from": "rfrag_region_19:n2",
+        "to": "rfrag_region_19:n3",
+        "kind": "process",
+        "stitch": false,
+        "line_id": null
+      },
+      {
+        "edge_id": "pe_58",
+        "from": "rfrag_region_20:n0",
+        "to": "rfrag_region_20:n1",
+        "kind": "process",
+        "stitch": false,
+        "line_id": "L-137-A"
+      },
+      {
+        "edge_id": "pe_59",
+        "from": "rfrag_region_20:n1",
+        "to": "rfrag_region_20:n2",
+        "kind": "process",
+        "stitch": false,
+        "line_id": null
+      },
+      {
+        "edge_id": "pe_60",
+        "from": "rfrag_region_20:n2",
+        "to": "rfrag_region_20:n3",
+        "kind": "process",
+        "stitch": false,
+        "line_id": "L-138-A"
+      },
+      {
+        "edge_id": "pe_61",
+        "from": "rfrag_region_21:n0",
+        "to": "rfrag_region_21:n1",
+        "kind": "process",
+        "stitch": false,
+        "line_id": "L-139-A"
+      },
+      {
+        "edge_id": "pe_62",
+        "from": "rfrag_region_21:n1",
+        "to": "rfrag_region_21:n2",
+        "kind": "process",
+        "stitch": false,
+        "line_id": "L-139-A"
+      },
+      {
+        "edge_id": "pe_63",
+        "from": "rfrag_region_21:n2",
+        "to": "rfrag_region_21:n3",
+        "kind": "process",
+        "stitch": false,
+        "line_id": null
+      },
+      {
+        "edge_id": "pe_64",
+        "from": "rfrag_region_22:n0",
+        "to": "rfrag_region_22:n1",
+        "kind": "process",
+        "stitch": false,
+        "line_id": "L-140-A"
+      },
+      {
+        "edge_id": "pe_65",
+        "from": "rfrag_region_22:n1",
+        "to": "rfrag_region_22:n2",
+        "kind": "process",
+        "stitch": false,
+        "line_id": null
+      },
+      {
+        "edge_id": "pe_66",
+        "from": "rfrag_region_22:n2",
+        "to": "rfrag_region_22:n3",
+        "kind": "process",
+        "stitch": false,
+        "line_id": "L-141-A"
+      },
+      {
+        "edge_id": "pe_67",
+        "from": "rfrag_region_23:n0",
+        "to": "rfrag_region_23:n1",
+        "kind": "process",
+        "stitch": false,
+        "line_id": "L-142-A"
+      },
+      {
+        "edge_id": "pe_68",
+        "from": "rfrag_region_23:n1",
+        "to": "rfrag_region_23:n2",
+        "kind": "process",
+        "stitch": false,
+        "line_id": "L-143-A"
+      },
+      {
+        "edge_id": "pe_69",
+        "from": "rfrag_region_24:n0",
+        "to": "rfrag_region_24:n1",
+        "kind": "process",
+        "stitch": false,
+        "line_id": "L-144-A"
+      },
+      {
+        "edge_id": "pe_70",
+        "from": "rfrag_region_24:n1",
+        "to": "rfrag_region_24:n2",
+        "kind": "process",
+        "stitch": false,
+        "line_id": "L-145-A"
+      },
+      {
+        "edge_id": "pe_71",
+        "from": "rfrag_region_25:n0",
+        "to": "rfrag_region_25:n1",
+        "kind": "process",
+        "stitch": false,
+        "line_id": "L-146-A"
+      },
+      {
+        "edge_id": "pe_72",
+        "from": "rfrag_region_26:n0",
+        "to": "rfrag_region_26:n1",
+        "kind": "process",
+        "stitch": false,
+        "line_id": "L-148-A"
+      },
+      {
+        "edge_id": "pe_73",
+        "from": "rfrag_region_26:n1",
+        "to": "rfrag_region_26:n2",
+        "kind": "process",
+        "stitch": false,
+        "line_id": null
+      },
+      {
+        "edge_id": "pe_74",
+        "from": "rfrag_region_26:n2",
+        "to": "rfrag_region_26:n3",
+        "kind": "process",
+        "stitch": false,
+        "line_id": "L-149-A"
+      },
+      {
+        "edge_id": "pe_75",
+        "from": "rfrag_region_27:n0",
+        "to": "rfrag_region_27:n1",
+        "kind": "process",
+        "stitch": false,
+        "line_id": "L-150-A"
+      },
+      {
+        "edge_id": "pe_76",
+        "from": "rfrag_region_27:n1",
+        "to": "rfrag_region_27:n2",
+        "kind": "process",
+        "stitch": false,
+        "line_id": null
+      },
+      {
+        "edge_id": "pe_77",
+        "from": "rfrag_region_27:n2",
+        "to": "rfrag_region_27:n3",
+        "kind": "process",
+        "stitch": false,
+        "line_id": "L-151-A"
+      },
+      {
+        "edge_id": "pe_78",
+        "from": "rfrag_region_28:n0",
+        "to": "rfrag_region_28:n1",
+        "kind": "process",
+        "stitch": false,
+        "line_id": "L-152-A"
+      },
+      {
+        "edge_id": "pe_79",
+        "from": "rfrag_region_28:n1",
+        "to": "rfrag_region_28:n2",
+        "kind": "process",
+        "stitch": false,
+        "line_id": null
+      },
+      {
+        "edge_id": "pe_80",
+        "from": "rfrag_region_28:n2",
+        "to": "rfrag_region_28:n3",
+        "kind": "process",
+        "stitch": false,
+        "line_id": "L-153-A"
+      },
+      {
+        "edge_id": "pe_81",
+        "from": "rfrag_region_29:n0",
+        "to": "rfrag_region_29:n1",
+        "kind": "process",
+        "stitch": false,
+        "line_id": "L-154-A"
+      },
+      {
+        "edge_id": "pe_82",
+        "from": "rfrag_region_29:n1",
+        "to": "rfrag_region_29:n2",
+        "kind": "process",
+        "stitch": false,
+        "line_id": null
+      },
+      {
+        "edge_id": "pe_83",
+        "from": "rfrag_region_29:n2",
+        "to": "rfrag_region_29:n3",
+        "kind": "process",
+        "stitch": false,
+        "line_id": null
+      },
+      {
+        "edge_id": "pe_84",
+        "from": "rfrag_region_29:n3",
+        "to": "rfrag_region_29:n4",
+        "kind": "process",
+        "stitch": false,
+        "line_id": "L-155-A"
+      },
+      {
+        "edge_id": "pe_85",
+        "from": "rfrag_region_30:n0",
+        "to": "rfrag_region_30:n1",
+        "kind": "process",
+        "stitch": false,
+        "line_id": "L-156-A"
+      },
+      {
+        "edge_id": "pe_86",
+        "from": "rfrag_region_30:n1",
+        "to": "rfrag_region_30:n2",
+        "kind": "process",
+        "stitch": false,
+        "line_id": "L-157-A"
+      },
+      {
+        "edge_id": "pe_87",
+        "from": "rfrag_region_31:n0",
+        "to": "rfrag_region_31:n1",
+        "kind": "process",
+        "stitch": false,
+        "line_id": "L-158-A"
+      },
+      {
+        "edge_id": "pe_88",
+        "from": "rfrag_region_31:n1",
+        "to": "rfrag_region_31:n2",
+        "kind": "process",
+        "stitch": false,
+        "line_id": null
+      },
+      {
+        "edge_id": "pe_89",
+        "from": "rfrag_region_31:n2",
+        "to": "rfrag_region_31:n3",
+        "kind": "process",
+        "stitch": false,
+        "line_id": "L-159-A"
+      },
+      {
+        "edge_id": "pe_90",
+        "from": "rfrag_region_32:n0",
+        "to": "rfrag_region_32:n1",
+        "kind": "process",
+        "stitch": false,
+        "line_id": "L-160-A"
+      },
+      {
+        "edge_id": "pe_91",
+        "from": "rfrag_region_32:n1",
+        "to": "rfrag_region_32:n2",
+        "kind": "process",
+        "stitch": false,
+        "line_id": "L-160-A"
+      },
+      {
+        "edge_id": "pe_92",
+        "from": "rfrag_region_32:n2",
+        "to": "rfrag_region_32:n3",
+        "kind": "process",
+        "stitch": false,
+        "line_id": null
+      },
+      {
+        "edge_id": "pe_93",
+        "from": "rfrag_region_33:n0",
+        "to": "rfrag_region_33:n1",
+        "kind": "process",
+        "stitch": false,
+        "line_id": "L-161-A"
+      },
+      {
+        "edge_id": "pe_94",
+        "from": "rfrag_region_33:n1",
+        "to": "rfrag_region_33:n2",
+        "kind": "process",
+        "stitch": false,
+        "line_id": null
+      },
+      {
+        "edge_id": "pe_95",
+        "from": "rfrag_region_33:n2",
+        "to": "rfrag_region_33:n3",
+        "kind": "process",
+        "stitch": false,
+        "line_id": "L-162-A"
+      },
+      {
+        "edge_id": "pe_96",
+        "from": "cfrag_0:n0",
+        "to": "cfrag_0:n1",
+        "kind": "process",
+        "stitch": false,
+        "line_id": "L-163-A"
+      },
+      {
+        "edge_id": "pe_97",
+        "from": "cfrag_0:n1",
+        "to": "cfrag_0:n2",
+        "kind": "process",
+        "stitch": false,
+        "line_id": "L-164-A"
+      },
+      {
+        "edge_id": "pe_98",
+        "from": "cfrag_1:n0",
+        "to": "cfrag_1:n1",
+        "kind": "process",
+        "stitch": false,
+        "line_id": "L-165-A"
+      },
+      {
+        "edge_id": "pe_99",
+        "from": "cfrag_1:n1",
+        "to": "cfrag_1:n2",
+        "kind": "process",
+        "stitch": false,
+        "line_id": "L-166-A"
+      },
+      {
+        "edge_id": "pe_100",
+        "from": "cfrag_2:n0",
+        "to": "cfrag_2:n1",
+        "kind": "process",
+        "stitch": false,
+        "line_id": "L-167-A"
+      },
+      {
+        "edge_id": "pe_101",
+        "from": "cfrag_2:n1",
+        "to": "cfrag_2:n2",
+        "kind": "process",
+        "stitch": false,
+        "line_id": "L-168-A"
+      },
+      {
+        "edge_id": "pe_102",
+        "from": "cfrag_3:n0",
+        "to": "cfrag_3:n1",
+        "kind": "process",
+        "stitch": false,
+        "line_id": "L-169-A"
+      },
+      {
+        "edge_id": "pe_103",
+        "from": "cfrag_3:n1",
+        "to": "cfrag_3:n2",
+        "kind": "process",
+        "stitch": false,
+        "line_id": "L-170-A"
+      },
+      {
+        "edge_id": "pe_104",
+        "from": "efrag_3:n0",
+        "to": "efrag_3:n1",
+        "kind": "process",
+        "stitch": false,
+        "line_id": null
+      },
+      {
+        "edge_id": "pe_105",
+        "from": "efrag_7:n0",
+        "to": "efrag_7:n1",
+        "kind": "process",
+        "stitch": false,
+        "line_id": null
+      },
+      {
+        "edge_id": "pe_106",
+        "from": "efrag_8:n0",
+        "to": "efrag_8:n1",
+        "kind": "process",
+        "stitch": false,
+        "line_id": null
+      },
+      {
+        "edge_id": "pe_107",
+        "from": "efrag_12:n0",
+        "to": "efrag_12:n1",
+        "kind": "process",
+        "stitch": false,
+        "line_id": null
+      },
+      {
+        "edge_id": "pe_108",
+        "from": "efrag_12:n1",
+        "to": "efrag_12:n2",
+        "kind": "process",
+        "stitch": false,
+        "line_id": null
+      },
+      {
+        "edge_id": "pe_109",
+        "from": "efrag_14:n0",
+        "to": "efrag_14:n1",
+        "kind": "process",
+        "stitch": false,
+        "line_id": null
+      },
+      {
+        "edge_id": "pe_110",
+        "from": "efrag_14:n1",
+        "to": "efrag_14:n2",
+        "kind": "process",
+        "stitch": false,
+        "line_id": null
+      },
+      {
+        "edge_id": "pe_111",
+        "from": "efrag_16:n0",
+        "to": "efrag_16:n1",
+        "kind": "process",
+        "stitch": false,
+        "line_id": null
+      },
+      {
+        "edge_id": "pe_112",
+        "from": "efrag_19:n0",
+        "to": "efrag_19:n1",
+        "kind": "process",
+        "stitch": false,
+        "line_id": null
+      },
+      {
+        "edge_id": "pe_113",
+        "from": "efrag_19:n1",
+        "to": "efrag_19:n2",
+        "kind": "process",
+        "stitch": false,
+        "line_id": null
+      },
+      {
+        "edge_id": "pe_114",
+        "from": "efrag_19:n2",
+        "to": "efrag_19:n3",
+        "kind": "process",
+        "stitch": false,
+        "line_id": null
+      },
+      {
+        "edge_id": "pe_115",
+        "from": "efrag_22:n0",
+        "to": "efrag_22:n1",
+        "kind": "process",
+        "stitch": false,
+        "line_id": null
+      },
+      {
+        "edge_id": "pe_116",
+        "from": "efrag_26:n0",
+        "to": "efrag_26:n1",
+        "kind": "process",
+        "stitch": false,
+        "line_id": null
+      },
+      {
+        "edge_id": "pe_117",
+        "from": "rfrag_region_0:n3",
+        "to": "cfrag_0:n0",
+        "kind": "process",
+        "stitch": true,
+        "line_id": "L-102-A"
+      },
+      {
+        "edge_id": "pe_118",
+        "from": "cfrag_0:n2",
+        "to": "rfrag_region_28:n0",
+        "kind": "process",
+        "stitch": true,
+        "line_id": "L-164-A"
+      },
+      {
+        "edge_id": "pe_119",
+        "from": "rfrag_region_6:n3",
+        "to": "cfrag_1:n0",
+        "kind": "process",
+        "stitch": true,
+        "line_id": "L-114-A"
+      },
+      {
+        "edge_id": "pe_120",
+        "from": "cfrag_1:n2",
+        "to": "rfrag_region_21:n0",
+        "kind": "process",
+        "stitch": true,
+        "line_id": "L-166-A"
+      },
+      {
+        "edge_id": "pe_121",
+        "from": "rfrag_region_9:n2",
+        "to": "cfrag_2:n0",
+        "kind": "process",
+        "stitch": true,
+        "line_id": "L-119-A"
+      },
+      {
+        "edge_id": "pe_122",
+        "from": "cfrag_2:n2",
+        "to": "rfrag_region_17:n0",
+        "kind": "process",
+        "stitch": true,
+        "line_id": "L-168-A"
+      },
+      {
+        "edge_id": "pe_123",
+        "from": "rfrag_region_14:n3",
+        "to": "cfrag_3:n0",
+        "kind": "process",
+        "stitch": true,
+        "line_id": "L-169-A"
+      },
+      {
+        "edge_id": "pe_124",
+        "from": "cfrag_3:n2",
+        "to": "rfrag_region_20:n0",
+        "kind": "process",
+        "stitch": true,
+        "line_id": "L-170-A"
+      },
+      {
+        "edge_id": "xe_0",
+        "from": "rfrag_region_0:n1",
+        "to": "rfrag_region_0:n1:pi",
+        "kind": "sense"
+      },
+      {
+        "edge_id": "xe_1",
+        "from": "rfrag_region_0:n1",
+        "to": "rfrag_region_0:n1:ti",
+        "kind": "sense"
+      },
+      {
+        "edge_id": "xe_2",
+        "from": "rfrag_region_0:n2",
+        "to": "rfrag_region_0:n2:drain",
+        "kind": "branch"
+      },
+      {
+        "edge_id": "xe_3",
+        "from": "rfrag_region_1:n1",
+        "to": "rfrag_region_1:n1:pi",
+        "kind": "sense"
+      },
+      {
+        "edge_id": "xe_4",
+        "from": "rfrag_region_1:n1",
+        "to": "rfrag_region_1:n1:ti",
+        "kind": "sense"
+      },
+      {
+        "edge_id": "xe_5",
+        "from": "rfrag_region_1:n2",
+        "to": "rfrag_region_1:n2:drain",
+        "kind": "branch"
+      },
+      {
+        "edge_id": "xe_6",
+        "from": "rfrag_region_2:n1",
+        "to": "rfrag_region_2:n1:pi",
+        "kind": "sense"
+      },
+      {
+        "edge_id": "xe_7",
+        "from": "rfrag_region_2:n1",
+        "to": "rfrag_region_2:n1:ti",
+        "kind": "sense"
+      },
+      {
+        "edge_id": "xe_8",
+        "from": "rfrag_region_2:n2",
+        "to": "rfrag_region_2:n2:pi",
+        "kind": "sense"
+      },
+      {
+        "edge_id": "xe_9",
+        "from": "rfrag_region_2:n2",
+        "to": "rfrag_region_2:n2:ti",
+        "kind": "sense"
+      },
+      {
+        "edge_id": "xe_10",
+        "from": "rfrag_region_2:n3",
+        "to": "rfrag_region_2:n3:ft",
+        "kind": "signal"
+      },
+      {
+        "edge_id": "xe_11",
+        "from": "rfrag_region_3:n1",
+        "to": "rfrag_region_3:n1:pi",
+        "kind": "sense"
+      },
+      {
+        "edge_id": "xe_12",
+        "from": "rfrag_region_3:n1",
+        "to": "rfrag_region_3:n1:ti",
+        "kind": "sense"
+      },
+      {
+        "edge_id": "xe_13",
+        "from": "rfrag_region_3:n2",
+        "to": "rfrag_region_3:n2:drain",
+        "kind": "branch"
+      },
+      {
+        "edge_id": "xe_14",
+        "from": "rfrag_region_4:n1",
+        "to": "rfrag_region_4:n1:pi",
+        "kind": "sense"
+      },
+      {
+        "edge_id": "xe_15",
+        "from": "rfrag_region_4:n1",
+        "to": "rfrag_region_4:n1:ti",
+        "kind": "sense"
+      },
+      {
+        "edge_id": "xe_16",
+        "from": "rfrag_region_4:n2",
+        "to": "rfrag_region_4:n2:drain",
+        "kind": "branch"
+      },
+      {
+        "edge_id": "xe_17",
+        "from": "rfrag_region_5:n1",
+        "to": "rfrag_region_5:n1:pi",
+        "kind": "sense"
+      },
+      {
+        "edge_id": "xe_18",
+        "from": "rfrag_region_5:n1",
+        "to": "rfrag_region_5:n1:ti",
+        "kind": "sense"
+      },
+      {
+        "edge_id": "xe_19",
+        "from": "rfrag_region_5:n2",
+        "to": "rfrag_region_5:n2:pi",
+        "kind": "sense"
+      },
+      {
+        "edge_id": "xe_20",
+        "from": "rfrag_region_5:n2",
+        "to": "rfrag_region_5:n2:ti",
+        "kind": "sense"
+      },
+      {
+        "edge_id": "xe_21",
+        "from": "rfrag_region_5:n3",
+        "to": "rfrag_region_5:n3:drain",
+        "kind": "branch"
+      },
+      {
+        "edge_id": "xe_22",
+        "from": "rfrag_region_6:n1",
+        "to": "rfrag_region_6:n1:pi",
+        "kind": "sense"
+      },
+      {
+        "edge_id": "xe_23",
+        "from": "rfrag_region_6:n1",
+        "to": "rfrag_region_6:n1:ti",
+        "kind": "sense"
+      },
+      {
+        "edge_id": "xe_24",
+        "from": "rfrag_region_6:n2",
+        "to": "rfrag_region_6:n2:ft",
+        "kind": "signal"
+      },
+      {
+        "edge_id": "xe_25",
+        "from": "rfrag_region_7:n1",
+        "to": "rfrag_region_7:n1:pi",
+        "kind": "sense"
+      },
+      {
+        "edge_id": "xe_26",
+        "from": "rfrag_region_7:n1",
+        "to": "rfrag_region_7:n1:ti",
+        "kind": "sense"
+      },
+      {
+        "edge_id": "xe_27",
+        "from": "rfrag_region_7:n2",
+        "to": "rfrag_region_7:n2:drain",
+        "kind": "branch"
+      },
+      {
+        "edge_id": "xe_28",
+        "from": "rfrag_region_8:n0:fc",
+        "to": "rfrag_region_8:n0:act",
+        "kind": "signal"
+      },
+      {
+        "edge_id": "xe_29",
+        "from": "rfrag_region_8:n0:act",
+        "to": "rfrag_region_8:n0",
+        "kind": "mechanical"
+      },
+      {
+        "edge_id": "xe_30",
+        "from": "rfrag_region_8:n2",
+        "to": "rfrag_region_8:n2:pi",
+        "kind": "sense"
+      },
+      {
+        "edge_id": "xe_31",
+        "from": "rfrag_region_8:n2",
+        "to": "rfrag_region_8:n2:ti",
+        "kind": "sense"
+      },
+      {
+        "edge_id": "xe_32",
+        "from": "rfrag_region_8:n3:fc",
+        "to": "rfrag_region_8:n3:act",
+        "kind": "signal"
+      },
+      {
+        "edge_id": "xe_33",
+        "from": "rfrag_region_8:n3:act",
+        "to": "rfrag_region_8:n3",
+        "kind": "mechanical"
+      },
+      {
+        "edge_id": "xe_34",
+        "from": "rfrag_region_9:n1",
+        "to": "rfrag_region_9:n1:ft",
+        "kind": "signal"
+      },
+      {
+        "edge_id": "xe_35",
+        "from": "rfrag_region_10:n1",
+        "to": "rfrag_region_10:n1:pi",
+        "kind": "sense"
+      },
+      {
+        "edge_id": "xe_36",
+        "from": "rfrag_region_10:n1",
+        "to": "rfrag_region_10:n1:ti",
+        "kind": "sense"
+      },
+      {
+        "edge_id": "xe_37",
+        "from": "rfrag_region_10:n2",
+        "to": "rfrag_region_10:n2:drain",
+        "kind": "branch"
+      },
+      {
+        "edge_id": "xe_38",
+        "from": "rfrag_region_11:n1",
+        "to": "rfrag_region_11:n1:pi",
+        "kind": "sense"
+      },
+      {
+        "edge_id": "xe_39",
+        "from": "rfrag_region_11:n1",
+        "to": "rfrag_region_11:n1:ti",
+        "kind": "sense"
+      },
+      {
+        "edge_id": "xe_40",
+        "from": "rfrag_region_11:n2",
+        "to": "rfrag_region_11:n2:drain",
+        "kind": "branch"
+      },
+      {
+        "edge_id": "xe_41",
+        "from": "rfrag_region_12:n1",
+        "to": "rfrag_region_12:n1:drain",
+        "kind": "branch"
+      },
+      {
+        "edge_id": "xe_42",
+        "from": "rfrag_region_13:n0:fc",
+        "to": "rfrag_region_13:n0:act",
+        "kind": "signal"
+      },
+      {
+        "edge_id": "xe_43",
+        "from": "rfrag_region_13:n0:act",
+        "to": "rfrag_region_13:n0",
+        "kind": "mechanical"
+      },
+      {
+        "edge_id": "xe_44",
+        "from": "rfrag_region_13:n2",
+        "to": "rfrag_region_13:n2:pi",
+        "kind": "sense"
+      },
+      {
+        "edge_id": "xe_45",
+        "from": "rfrag_region_13:n2",
+        "to": "rfrag_region_13:n2:ti",
+        "kind": "sense"
+      },
+      {
+        "edge_id": "xe_46",
+        "from": "rfrag_region_13:n3:fc",
+        "to": "rfrag_region_13:n3:act",
+        "kind": "signal"
+      },
+      {
+        "edge_id": "xe_47",
+        "from": "rfrag_region_13:n3:act",
+        "to": "rfrag_region_13:n3",
+        "kind": "mechanical"
+      },
+      {
+        "edge_id": "xe_48",
+        "from": "rfrag_region_14:n0:fc",
+        "to": "rfrag_region_14:n0:act",
+        "kind": "signal"
+      },
+      {
+        "edge_id": "xe_49",
+        "from": "rfrag_region_14:n0:act",
+        "to": "rfrag_region_14:n0",
+        "kind": "mechanical"
+      },
+      {
+        "edge_id": "xe_50",
+        "from": "rfrag_region_14:n2",
+        "to": "rfrag_region_14:n2:pi",
+        "kind": "sense"
+      },
+      {
+        "edge_id": "xe_51",
+        "from": "rfrag_region_14:n2",
+        "to": "rfrag_region_14:n2:ti",
+        "kind": "sense"
+      },
+      {
+        "edge_id": "xe_52",
+        "from": "rfrag_region_14:n3:fc",
+        "to": "rfrag_region_14:n3:act",
+        "kind": "signal"
+      },
+      {
+        "edge_id": "xe_53",
+        "from": "rfrag_region_14:n3:act",
+        "to": "rfrag_region_14:n3",
+        "kind": "mechanical"
+      },
+      {
+        "edge_id": "xe_54",
+        "from": "rfrag_region_15:n1",
+        "to": "rfrag_region_15:n1:pi",
+        "kind": "sense"
+      },
+      {
+        "edge_id": "xe_55",
+        "from": "rfrag_region_15:n1",
+        "to": "rfrag_region_15:n1:ti",
+        "kind": "sense"
+      },
+      {
+        "edge_id": "xe_56",
+        "from": "rfrag_region_15:n2",
+        "to": "rfrag_region_15:n2:drain",
+        "kind": "branch"
+      },
+      {
+        "edge_id": "xe_57",
+        "from": "rfrag_region_16:n1",
+        "to": "rfrag_region_16:n1:pi",
+        "kind": "sense"
+      },
+      {
+        "edge_id": "xe_58",
+        "from": "rfrag_region_16:n1",
+        "to": "rfrag_region_16:n1:ti",
+        "kind": "sense"
+      },
+      {
+        "edge_id": "xe_59",
+        "from": "rfrag_region_17:n1",
+        "to": "rfrag_region_17:n1:pi",
+        "kind": "sense"
+      },
+      {
+        "edge_id": "xe_60",
+        "from": "rfrag_region_17:n1",
+        "to": "rfrag_region_17:n1:ti",
+        "kind": "sense"
+      },
+      {
+        "edge_id": "xe_61",
+        "from": "rfrag_region_17:n2",
+        "to": "rfrag_region_17:n2:ft",
+        "kind": "signal"
+      },
+      {
+        "edge_id": "xe_62",
+        "from": "rfrag_region_18:n1",
+        "to": "rfrag_region_18:n1:pi",
+        "kind": "sense"
+      },
+      {
+        "edge_id": "xe_63",
+        "from": "rfrag_region_18:n1",
+        "to": "rfrag_region_18:n1:ti",
+        "kind": "sense"
+      },
+      {
+        "edge_id": "xe_64",
+        "from": "rfrag_region_19:n0:fc",
+        "to": "rfrag_region_19:n0:act",
+        "kind": "signal"
+      },
+      {
+        "edge_id": "xe_65",
+        "from": "rfrag_region_19:n0:act",
+        "to": "rfrag_region_19:n0",
+        "kind": "mechanical"
+      },
+      {
+        "edge_id": "xe_66",
+        "from": "rfrag_region_19:n2",
+        "to": "rfrag_region_19:n2:pi",
+        "kind": "sense"
+      },
+      {
+        "edge_id": "xe_67",
+        "from": "rfrag_region_19:n2",
+        "to": "rfrag_region_19:n2:ti",
+        "kind": "sense"
+      },
+      {
+        "edge_id": "xe_68",
+        "from": "rfrag_region_19:n3:fc",
+        "to": "rfrag_region_19:n3:act",
+        "kind": "signal"
+      },
+      {
+        "edge_id": "xe_69",
+        "from": "rfrag_region_19:n3:act",
+        "to": "rfrag_region_19:n3",
+        "kind": "mechanical"
+      },
+      {
+        "edge_id": "xe_70",
+        "from": "rfrag_region_20:n1",
+        "to": "rfrag_region_20:n1:pi",
+        "kind": "sense"
+      },
+      {
+        "edge_id": "xe_71",
+        "from": "rfrag_region_20:n1",
+        "to": "rfrag_region_20:n1:ti",
+        "kind": "sense"
+      },
+      {
+        "edge_id": "xe_72",
+        "from": "rfrag_region_20:n2",
+        "to": "rfrag_region_20:n2:drain",
+        "kind": "branch"
+      },
+      {
+        "edge_id": "xe_73",
+        "from": "rfrag_region_21:n0:fc",
+        "to": "rfrag_region_21:n0:act",
+        "kind": "signal"
+      },
+      {
+        "edge_id": "xe_74",
+        "from": "rfrag_region_21:n0:act",
+        "to": "rfrag_region_21:n0",
+        "kind": "mechanical"
+      },
+      {
+        "edge_id": "xe_75",
+        "from": "rfrag_region_21:n2",
+        "to": "rfrag_region_21:n2:pi",
+        "kind": "sense"
+      },
+      {
+        "edge_id": "xe_76",
+        "from": "rfrag_region_21:n2",
+        "to": "rfrag_region_21:n2:ti",
+        "kind": "sense"
+      },
+      {
+        "edge_id": "xe_77",
+        "from": "rfrag_region_21:n3:fc",
+        "to": "rfrag_region_21:n3:act",
+        "kind": "signal"
+      },
+      {
+        "edge_id": "xe_78",
+        "from": "rfrag_region_21:n3:act",
+        "to": "rfrag_region_21:n3",
+        "kind": "mechanical"
+      },
+      {
+        "edge_id": "xe_79",
+        "from": "rfrag_region_22:n1",
+        "to": "rfrag_region_22:n1:pi",
+        "kind": "sense"
+      },
+      {
+        "edge_id": "xe_80",
+        "from": "rfrag_region_22:n1",
+        "to": "rfrag_region_22:n1:ti",
+        "kind": "sense"
+      },
+      {
+        "edge_id": "xe_81",
+        "from": "rfrag_region_22:n2",
+        "to": "rfrag_region_22:n2:drain",
+        "kind": "branch"
+      },
+      {
+        "edge_id": "xe_82",
+        "from": "rfrag_region_23:n1",
+        "to": "rfrag_region_23:n1:pi",
+        "kind": "sense"
+      },
+      {
+        "edge_id": "xe_83",
+        "from": "rfrag_region_23:n1",
+        "to": "rfrag_region_23:n1:ti",
+        "kind": "sense"
+      },
+      {
+        "edge_id": "xe_84",
+        "from": "rfrag_region_24:n1",
+        "to": "rfrag_region_24:n1:pi",
+        "kind": "sense"
+      },
+      {
+        "edge_id": "xe_85",
+        "from": "rfrag_region_24:n1",
+        "to": "rfrag_region_24:n1:ti",
+        "kind": "sense"
+      },
+      {
+        "edge_id": "xe_86",
+        "from": "rfrag_region_26:n1",
+        "to": "rfrag_region_26:n1:pi",
+        "kind": "sense"
+      },
+      {
+        "edge_id": "xe_87",
+        "from": "rfrag_region_26:n1",
+        "to": "rfrag_region_26:n1:ti",
+        "kind": "sense"
+      },
+      {
+        "edge_id": "xe_88",
+        "from": "rfrag_region_26:n2",
+        "to": "rfrag_region_26:n2:ft",
+        "kind": "signal"
+      },
+      {
+        "edge_id": "xe_89",
+        "from": "rfrag_region_27:n1",
+        "to": "rfrag_region_27:n1:pi",
+        "kind": "sense"
+      },
+      {
+        "edge_id": "xe_90",
+        "from": "rfrag_region_27:n1",
+        "to": "rfrag_region_27:n1:ti",
+        "kind": "sense"
+      },
+      {
+        "edge_id": "xe_91",
+        "from": "rfrag_region_27:n2",
+        "to": "rfrag_region_27:n2:drain",
+        "kind": "branch"
+      },
+      {
+        "edge_id": "xe_92",
+        "from": "rfrag_region_28:n1",
+        "to": "rfrag_region_28:n1:pi",
+        "kind": "sense"
+      },
+      {
+        "edge_id": "xe_93",
+        "from": "rfrag_region_28:n1",
+        "to": "rfrag_region_28:n1:ti",
+        "kind": "sense"
+      },
+      {
+        "edge_id": "xe_94",
+        "from": "rfrag_region_28:n2",
+        "to": "rfrag_region_28:n2:drain",
+        "kind": "branch"
+      },
+      {
+        "edge_id": "xe_95",
+        "from": "rfrag_region_29:n1",
+        "to": "rfrag_region_29:n1:pi",
+        "kind": "sense"
+      },
+      {
+        "edge_id": "xe_96",
+        "from": "rfrag_region_29:n1",
+        "to": "rfrag_region_29:n1:ti",
+        "kind": "sense"
+      },
+      {
+        "edge_id": "xe_97",
+        "from": "rfrag_region_29:n2",
+        "to": "rfrag_region_29:n2:pi",
+        "kind": "sense"
+      },
+      {
+        "edge_id": "xe_98",
+        "from": "rfrag_region_29:n2",
+        "to": "rfrag_region_29:n2:ti",
+        "kind": "sense"
+      },
+      {
+        "edge_id": "xe_99",
+        "from": "rfrag_region_29:n3",
+        "to": "rfrag_region_29:n3:drain",
+        "kind": "branch"
+      },
+      {
+        "edge_id": "xe_100",
+        "from": "rfrag_region_30:n1",
+        "to": "rfrag_region_30:n1:pi",
+        "kind": "sense"
+      },
+      {
+        "edge_id": "xe_101",
+        "from": "rfrag_region_30:n1",
+        "to": "rfrag_region_30:n1:ti",
+        "kind": "sense"
+      },
+      {
+        "edge_id": "xe_102",
+        "from": "rfrag_region_31:n1",
+        "to": "rfrag_region_31:n1:pi",
+        "kind": "sense"
+      },
+      {
+        "edge_id": "xe_103",
+        "from": "rfrag_region_31:n1",
+        "to": "rfrag_region_31:n1:ti",
+        "kind": "sense"
+      },
+      {
+        "edge_id": "xe_104",
+        "from": "rfrag_region_31:n2",
+        "to": "rfrag_region_31:n2:drain",
+        "kind": "branch"
+      },
+      {
+        "edge_id": "xe_105",
+        "from": "rfrag_region_32:n0:fc",
+        "to": "rfrag_region_32:n0:act",
+        "kind": "signal"
+      },
+      {
+        "edge_id": "xe_106",
+        "from": "rfrag_region_32:n0:act",
+        "to": "rfrag_region_32:n0",
+        "kind": "mechanical"
+      },
+      {
+        "edge_id": "xe_107",
+        "from": "rfrag_region_32:n2",
+        "to": "rfrag_region_32:n2:pi",
+        "kind": "sense"
+      },
+      {
+        "edge_id": "xe_108",
+        "from": "rfrag_region_32:n2",
+        "to": "rfrag_region_32:n2:ti",
+        "kind": "sense"
+      },
+      {
+        "edge_id": "xe_109",
+        "from": "rfrag_region_32:n3:fc",
+        "to": "rfrag_region_32:n3:act",
+        "kind": "signal"
+      },
+      {
+        "edge_id": "xe_110",
+        "from": "rfrag_region_32:n3:act",
+        "to": "rfrag_region_32:n3",
+        "kind": "mechanical"
+      },
+      {
+        "edge_id": "xe_111",
+        "from": "rfrag_region_33:n1",
+        "to": "rfrag_region_33:n1:pi",
+        "kind": "sense"
+      },
+      {
+        "edge_id": "xe_112",
+        "from": "rfrag_region_33:n1",
+        "to": "rfrag_region_33:n1:ti",
+        "kind": "sense"
+      },
+      {
+        "edge_id": "xe_113",
+        "from": "rfrag_region_33:n2",
+        "to": "rfrag_region_33:n2:drain",
+        "kind": "branch"
+      },
+      {
+        "edge_id": "xe_114",
+        "from": "cfrag_0:n1",
+        "to": "cfrag_0:n1:drain",
+        "kind": "branch"
+      },
+      {
+        "edge_id": "xe_115",
+        "from": "cfrag_1:n1",
+        "to": "cfrag_1:n1:ft",
+        "kind": "signal"
+      },
+      {
+        "edge_id": "xe_116",
+        "from": "cfrag_2:n1",
+        "to": "cfrag_2:n1:ft",
+        "kind": "signal"
+      },
+      {
+        "edge_id": "xe_117",
+        "from": "cfrag_3:n1",
+        "to": "cfrag_3:n1:drain",
+        "kind": "branch"
+      },
+      {
+        "edge_id": "xe_118",
+        "from": "efrag_0:n0",
+        "to": "efrag_0:n0:pi",
+        "kind": "sense"
+      },
+      {
+        "edge_id": "xe_119",
+        "from": "efrag_0:n0",
+        "to": "efrag_0:n0:ti",
+        "kind": "sense"
+      },
+      {
+        "edge_id": "xe_120",
+        "from": "efrag_1:n0",
+        "to": "efrag_1:n0:pi",
+        "kind": "sense"
+      },
+      {
+        "edge_id": "xe_121",
+        "from": "efrag_1:n0",
+        "to": "efrag_1:n0:ti",
+        "kind": "sense"
+      },
+      {
+        "edge_id": "xe_122",
+        "from": "efrag_2:n0",
+        "to": "efrag_2:n0:pi",
+        "kind": "sense"
+      },
+      {
+        "edge_id": "xe_123",
+        "from": "efrag_2:n0",
+        "to": "efrag_2:n0:ti",
+        "kind": "sense"
+      },
+      {
+        "edge_id": "xe_124",
+        "from": "efrag_3:n0",
+        "to": "efrag_3:n0:pi",
+        "kind": "sense"
+      },
+      {
+        "edge_id": "xe_125",
+        "from": "efrag_3:n0",
+        "to": "efrag_3:n0:ti",
+        "kind": "sense"
+      },
+      {
+        "edge_id": "xe_126",
+        "from": "efrag_3:n1",
+        "to": "efrag_3:n1:pi",
+        "kind": "sense"
+      },
+      {
+        "edge_id": "xe_127",
+        "from": "efrag_3:n1",
+        "to": "efrag_3:n1:ti",
+        "kind": "sense"
+      },
+      {
+        "edge_id": "xe_128",
+        "from": "efrag_4:n0",
+        "to": "efrag_4:n0:pi",
+        "kind": "sense"
+      },
+      {
+        "edge_id": "xe_129",
+        "from": "efrag_4:n0",
+        "to": "efrag_4:n0:ti",
+        "kind": "sense"
+      },
+      {
+        "edge_id": "xe_130",
+        "from": "efrag_5:n0",
+        "to": "efrag_5:n0:pi",
+        "kind": "sense"
+      },
+      {
+        "edge_id": "xe_131",
+        "from": "efrag_5:n0",
+        "to": "efrag_5:n0:ti",
+        "kind": "sense"
+      },
+      {
+        "edge_id": "xe_132",
+        "from": "efrag_6:n0",
+        "to": "efrag_6:n0:pi",
+        "kind": "sense"
+      },
+      {
+        "edge_id": "xe_133",
+        "from": "efrag_6:n0",
+        "to": "efrag_6:n0:ti",
+        "kind": "sense"
+      },
+      {
+        "edge_id": "xe_134",
+        "from": "efrag_7:n0",
+        "to": "efrag_7:n0:pi",
+        "kind": "sense"
+      },
+      {
+        "edge_id": "xe_135",
+        "from": "efrag_7:n0",
+        "to": "efrag_7:n0:ti",
+        "kind": "sense"
+      },
+      {
+        "edge_id": "xe_136",
+        "from": "efrag_7:n1",
+        "to": "efrag_7:n1:pi",
+        "kind": "sense"
+      },
+      {
+        "edge_id": "xe_137",
+        "from": "efrag_7:n1",
+        "to": "efrag_7:n1:ti",
+        "kind": "sense"
+      },
+      {
+        "edge_id": "xe_138",
+        "from": "efrag_8:n0",
+        "to": "efrag_8:n0:pi",
+        "kind": "sense"
+      },
+      {
+        "edge_id": "xe_139",
+        "from": "efrag_8:n0",
+        "to": "efrag_8:n0:ti",
+        "kind": "sense"
+      },
+      {
+        "edge_id": "xe_140",
+        "from": "efrag_8:n1",
+        "to": "efrag_8:n1:pi",
+        "kind": "sense"
+      },
+      {
+        "edge_id": "xe_141",
+        "from": "efrag_8:n1",
+        "to": "efrag_8:n1:ti",
+        "kind": "sense"
+      },
+      {
+        "edge_id": "xe_142",
+        "from": "efrag_9:n0",
+        "to": "efrag_9:n0:pi",
+        "kind": "sense"
+      },
+      {
+        "edge_id": "xe_143",
+        "from": "efrag_9:n0",
+        "to": "efrag_9:n0:ti",
+        "kind": "sense"
+      },
+      {
+        "edge_id": "xe_144",
+        "from": "efrag_10:n0",
+        "to": "efrag_10:n0:pi",
+        "kind": "sense"
+      },
+      {
+        "edge_id": "xe_145",
+        "from": "efrag_10:n0",
+        "to": "efrag_10:n0:ti",
+        "kind": "sense"
+      },
+      {
+        "edge_id": "xe_146",
+        "from": "efrag_11:n0",
+        "to": "efrag_11:n0:pi",
+        "kind": "sense"
+      },
+      {
+        "edge_id": "xe_147",
+        "from": "efrag_11:n0",
+        "to": "efrag_11:n0:ti",
+        "kind": "sense"
+      },
+      {
+        "edge_id": "xe_148",
+        "from": "efrag_12:n0",
+        "to": "efrag_12:n0:pi",
+        "kind": "sense"
+      },
+      {
+        "edge_id": "xe_149",
+        "from": "efrag_12:n0",
+        "to": "efrag_12:n0:ti",
+        "kind": "sense"
+      },
+      {
+        "edge_id": "xe_150",
+        "from": "efrag_12:n1",
+        "to": "efrag_12:n1:pi",
+        "kind": "sense"
+      },
+      {
+        "edge_id": "xe_151",
+        "from": "efrag_12:n1",
+        "to": "efrag_12:n1:ti",
+        "kind": "sense"
+      },
+      {
+        "edge_id": "xe_152",
+        "from": "efrag_12:n2",
+        "to": "efrag_12:n2:pi",
+        "kind": "sense"
+      },
+      {
+        "edge_id": "xe_153",
+        "from": "efrag_12:n2",
+        "to": "efrag_12:n2:ti",
+        "kind": "sense"
+      },
+      {
+        "edge_id": "xe_154",
+        "from": "efrag_13:n0",
+        "to": "efrag_13:n0:pi",
+        "kind": "sense"
+      },
+      {
+        "edge_id": "xe_155",
+        "from": "efrag_13:n0",
+        "to": "efrag_13:n0:ti",
+        "kind": "sense"
+      },
+      {
+        "edge_id": "xe_156",
+        "from": "efrag_14:n0",
+        "to": "efrag_14:n0:pi",
+        "kind": "sense"
+      },
+      {
+        "edge_id": "xe_157",
+        "from": "efrag_14:n0",
+        "to": "efrag_14:n0:ti",
+        "kind": "sense"
+      },
+      {
+        "edge_id": "xe_158",
+        "from": "efrag_14:n1",
+        "to": "efrag_14:n1:pi",
+        "kind": "sense"
+      },
+      {
+        "edge_id": "xe_159",
+        "from": "efrag_14:n1",
+        "to": "efrag_14:n1:ti",
+        "kind": "sense"
+      },
+      {
+        "edge_id": "xe_160",
+        "from": "efrag_14:n2",
+        "to": "efrag_14:n2:pi",
+        "kind": "sense"
+      },
+      {
+        "edge_id": "xe_161",
+        "from": "efrag_14:n2",
+        "to": "efrag_14:n2:ti",
+        "kind": "sense"
+      },
+      {
+        "edge_id": "xe_162",
+        "from": "efrag_15:n0",
+        "to": "efrag_15:n0:pi",
+        "kind": "sense"
+      },
+      {
+        "edge_id": "xe_163",
+        "from": "efrag_15:n0",
+        "to": "efrag_15:n0:ti",
+        "kind": "sense"
+      },
+      {
+        "edge_id": "xe_164",
+        "from": "efrag_16:n0",
+        "to": "efrag_16:n0:pi",
+        "kind": "sense"
+      },
+      {
+        "edge_id": "xe_165",
+        "from": "efrag_16:n0",
+        "to": "efrag_16:n0:ti",
+        "kind": "sense"
+      },
+      {
+        "edge_id": "xe_166",
+        "from": "efrag_16:n1",
+        "to": "efrag_16:n1:pi",
+        "kind": "sense"
+      },
+      {
+        "edge_id": "xe_167",
+        "from": "efrag_16:n1",
+        "to": "efrag_16:n1:ti",
+        "kind": "sense"
+      },
+      {
+        "edge_id": "xe_168",
+        "from": "efrag_17:n0",
+        "to": "efrag_17:n0:pi",
+        "kind": "sense"
+      },
+      {
+        "edge_id": "xe_169",
+        "from": "efrag_17:n0",
+        "to": "efrag_17:n0:ti",
+        "kind": "sense"
+      },
+      {
+        "edge_id": "xe_170",
+        "from": "efrag_18:n0",
+        "to": "efrag_18:n0:pi",
+        "kind": "sense"
+      },
+      {
+        "edge_id": "xe_171",
+        "from": "efrag_18:n0",
+        "to": "efrag_18:n0:ti",
+        "kind": "sense"
+      },
+      {
+        "edge_id": "xe_172",
+        "from": "efrag_19:n0",
+        "to": "efrag_19:n0:pi",
+        "kind": "sense"
+      },
+      {
+        "edge_id": "xe_173",
+        "from": "efrag_19:n0",
+        "to": "efrag_19:n0:ti",
+        "kind": "sense"
+      },
+      {
+        "edge_id": "xe_174",
+        "from": "efrag_19:n1",
+        "to": "efrag_19:n1:pi",
+        "kind": "sense"
+      },
+      {
+        "edge_id": "xe_175",
+        "from": "efrag_19:n1",
+        "to": "efrag_19:n1:ti",
+        "kind": "sense"
+      },
+      {
+        "edge_id": "xe_176",
+        "from": "efrag_19:n2",
+        "to": "efrag_19:n2:pi",
+        "kind": "sense"
+      },
+      {
+        "edge_id": "xe_177",
+        "from": "efrag_19:n2",
+        "to": "efrag_19:n2:ti",
+        "kind": "sense"
+      },
+      {
+        "edge_id": "xe_178",
+        "from": "efrag_19:n3",
+        "to": "efrag_19:n3:pi",
+        "kind": "sense"
+      },
+      {
+        "edge_id": "xe_179",
+        "from": "efrag_19:n3",
+        "to": "efrag_19:n3:ti",
+        "kind": "sense"
+      },
+      {
+        "edge_id": "xe_180",
+        "from": "efrag_20:n0",
+        "to": "efrag_20:n0:pi",
+        "kind": "sense"
+      },
+      {
+        "edge_id": "xe_181",
+        "from": "efrag_20:n0",
+        "to": "efrag_20:n0:ti",
+        "kind": "sense"
+      },
+      {
+        "edge_id": "xe_182",
+        "from": "efrag_21:n0",
+        "to": "efrag_21:n0:pi",
+        "kind": "sense"
+      },
+      {
+        "edge_id": "xe_183",
+        "from": "efrag_21:n0",
+        "to": "efrag_21:n0:ti",
+        "kind": "sense"
+      },
+      {
+        "edge_id": "xe_184",
+        "from": "efrag_22:n0",
+        "to": "efrag_22:n0:pi",
+        "kind": "sense"
+      },
+      {
+        "edge_id": "xe_185",
+        "from": "efrag_22:n0",
+        "to": "efrag_22:n0:ti",
+        "kind": "sense"
+      },
+      {
+        "edge_id": "xe_186",
+        "from": "efrag_22:n1",
+        "to": "efrag_22:n1:pi",
+        "kind": "sense"
+      },
+      {
+        "edge_id": "xe_187",
+        "from": "efrag_22:n1",
+        "to": "efrag_22:n1:ti",
+        "kind": "sense"
+      },
+      {
+        "edge_id": "xe_188",
+        "from": "efrag_23:n0",
+        "to": "efrag_23:n0:pi",
+        "kind": "sense"
+      },
+      {
+        "edge_id": "xe_189",
+        "from": "efrag_23:n0",
+        "to": "efrag_23:n0:ti",
+        "kind": "sense"
+      },
+      {
+        "edge_id": "xe_190",
+        "from": "efrag_24:n0",
+        "to": "efrag_24:n0:pi",
+        "kind": "sense"
+      },
+      {
+        "edge_id": "xe_191",
+        "from": "efrag_24:n0",
+        "to": "efrag_24:n0:ti",
+        "kind": "sense"
+      },
+      {
+        "edge_id": "xe_192",
+        "from": "efrag_25:n0",
+        "to": "efrag_25:n0:pi",
+        "kind": "sense"
+      },
+      {
+        "edge_id": "xe_193",
+        "from": "efrag_25:n0",
+        "to": "efrag_25:n0:ti",
+        "kind": "sense"
+      },
+      {
+        "edge_id": "xe_194",
+        "from": "efrag_26:n0",
+        "to": "efrag_26:n0:pi",
+        "kind": "sense"
+      },
+      {
+        "edge_id": "xe_195",
+        "from": "efrag_26:n0",
+        "to": "efrag_26:n0:ti",
+        "kind": "sense"
+      },
+      {
+        "edge_id": "xe_196",
+        "from": "efrag_26:n1",
+        "to": "efrag_26:n1:pi",
+        "kind": "sense"
+      },
+      {
+        "edge_id": "xe_197",
+        "from": "efrag_26:n1",
+        "to": "efrag_26:n1:ti",
+        "kind": "sense"
+      },
+      {
+        "edge_id": "xe_198",
+        "from": "efrag_27:n0",
+        "to": "efrag_27:n0:pi",
+        "kind": "sense"
+      },
+      {
+        "edge_id": "xe_199",
+        "from": "efrag_27:n0",
+        "to": "efrag_27:n0:ti",
+        "kind": "sense"
+      },
+      {
+        "edge_id": "xe_200",
+        "from": "efrag_28:n0",
+        "to": "efrag_28:n0:pi",
+        "kind": "sense"
+      },
+      {
+        "edge_id": "xe_201",
+        "from": "efrag_28:n0",
+        "to": "efrag_28:n0:ti",
+        "kind": "sense"
+      },
+      {
+        "edge_id": "xe_202",
+        "from": "efrag_29:n0",
+        "to": "efrag_29:n0:pi",
+        "kind": "sense"
+      },
+      {
+        "edge_id": "xe_203",
+        "from": "efrag_29:n0",
+        "to": "efrag_29:n0:ti",
+        "kind": "sense"
+      }
+    ]
+  },
+  "instrument_loops": [
+    {
+      "loop_id": "FIC-301",
+      "flow_meter_tag": "FT-301",
+      "controller_tag": "FC-201",
+      "control_valve_tag": "FV-201",
+      "pfd_meter_origin": "rfrag_region_2:n3",
+      "pfd_valve_origin": "rfrag_region_8:n0"
+    },
+    {
+      "loop_id": "FIC-303",
+      "flow_meter_tag": "FT-303",
+      "controller_tag": "FC-202",
+      "control_valve_tag": "FV-202",
+      "pfd_meter_origin": "rfrag_region_6:n2",
+      "pfd_valve_origin": "rfrag_region_8:n3"
+    },
+    {
+      "loop_id": "FIC-305",
+      "flow_meter_tag": "FT-305",
+      "controller_tag": "FC-203",
+      "control_valve_tag": "FV-203",
+      "pfd_meter_origin": "rfrag_region_9:n1",
+      "pfd_valve_origin": "rfrag_region_13:n0"
+    },
+    {
+      "loop_id": "FIC-307",
+      "flow_meter_tag": "FT-307",
+      "controller_tag": "FC-204",
+      "control_valve_tag": "FV-204",
+      "pfd_meter_origin": "rfrag_region_17:n2",
+      "pfd_valve_origin": "rfrag_region_13:n3"
+    },
+    {
+      "loop_id": "FIC-309",
+      "flow_meter_tag": "FT-309",
+      "controller_tag": "FC-205",
+      "control_valve_tag": "FV-205",
+      "pfd_meter_origin": "rfrag_region_26:n2",
+      "pfd_valve_origin": "rfrag_region_14:n0"
+    },
+    {
+      "loop_id": "FIC-311",
+      "flow_meter_tag": "FT-311",
+      "controller_tag": "FC-206",
+      "control_valve_tag": "FV-206",
+      "pfd_meter_origin": "cfrag_1:n1",
+      "pfd_valve_origin": "rfrag_region_14:n3"
+    },
+    {
+      "loop_id": "FIC-313",
+      "flow_meter_tag": "FT-313",
+      "controller_tag": "FC-207",
+      "control_valve_tag": "FV-207",
+      "pfd_meter_origin": "cfrag_2:n1",
+      "pfd_valve_origin": "rfrag_region_19:n0"
+    }
+  ]
+}

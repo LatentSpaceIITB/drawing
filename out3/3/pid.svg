@@ -1,0 +1,2257 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1747" height="1200" viewBox="0 0 3098.0 2128.0">
+  <defs>
+    <style>
+      text { font-family: monospace; pointer-events: none; }
+      .loop-group { transition: opacity 0.15s; }
+      .loop-group:hover { opacity: 0.85 !important; }
+      .node-g { cursor: pointer; }
+      .node-g:hover rect,
+      .node-g:hover circle,
+      .node-g:hover polygon,
+      .node-g:hover path { filter: brightness(0.88); }
+    </style>
+  </defs>
+  <rect x="0" y="0" width="3098.0" height="2128.0" fill="#c8c8c8"/>
+  <rect x="10" y="10" width="3078.0" height="2108.0" fill="#f5f5f5" stroke="#111111" stroke-width="2"/>
+  <!-- process edges -->
+  <polyline points="2297.00,108.00 2312.00,108.00" fill="none" stroke="#111111" stroke-width="3.0"  />
+  <text x="2304.50" y="105.50" font-size="4.5" text-anchor="middle" fill="#333">L-101-A</text>
+  <polyline points="2392.00,108.00 2407.00,108.00" fill="none" stroke="#111111" stroke-width="3.0"  />
+  <polyline points="2487.00,108.00 2502.00,108.00" fill="none" stroke="#111111" stroke-width="3.0"  />
+  <polyline points="2582.00,108.00 2597.00,108.00" fill="none" stroke="#111111" stroke-width="3.0"  />
+  <polyline points="2677.00,108.00 2692.00,108.00" fill="none" stroke="#111111" stroke-width="3.0"  />
+  <polyline points="2772.00,108.00 2787.00,108.00" fill="none" stroke="#111111" stroke-width="3.0"  />
+  <polyline points="2867.00,108.00 2882.00,108.00" fill="none" stroke="#111111" stroke-width="3.0"  />
+  <polyline points="2962.00,108.00 2977.00,108.00" fill="none" stroke="#111111" stroke-width="3.0"  />
+  <polyline points="3003.00,108.00 3018.00,108.00" fill="none" stroke="#111111" stroke-width="3.0"  />
+  <text x="3010.50" y="105.50" font-size="4.5" text-anchor="middle" fill="#333">L-102-A</text>
+  <polyline points="80.00,371.00 95.00,371.00" fill="none" stroke="#111111" stroke-width="3.0"  />
+  <text x="87.50" y="368.50" font-size="4.5" text-anchor="middle" fill="#333">L-103-A</text>
+  <polyline points="121.00,371.00 136.00,371.00" fill="none" stroke="#111111" stroke-width="3.0"  />
+  <text x="128.50" y="368.50" font-size="4.5" text-anchor="middle" fill="#333">L-104-A</text>
+  <polyline points="66.00,108.00 81.00,108.00" fill="none" stroke="#111111" stroke-width="3.0"  />
+  <text x="73.50" y="105.50" font-size="4.5" text-anchor="middle" fill="#333">L-105-A</text>
+  <polyline points="121.00,108.00 136.00,108.00" fill="none" stroke="#111111" stroke-width="3.0"  />
+  <text x="128.50" y="105.50" font-size="4.5" text-anchor="middle" fill="#333">L-105-A</text>
+  <polyline points="216.00,108.00 231.00,108.00" fill="none" stroke="#111111" stroke-width="3.0"  />
+  <polyline points="311.00,108.00 326.00,108.00" fill="none" stroke="#111111" stroke-width="3.0"  />
+  <polyline points="406.00,108.00 421.00,108.00" fill="none" stroke="#111111" stroke-width="3.0"  />
+  <polyline points="501.00,108.00 516.00,108.00" fill="none" stroke="#111111" stroke-width="3.0"  />
+  <polyline points="596.00,108.00 611.00,108.00" fill="none" stroke="#111111" stroke-width="3.0"  />
+  <polyline points="691.00,108.00 706.00,108.00" fill="none" stroke="#111111" stroke-width="3.0"  />
+  <polyline points="786.00,108.00 801.00,108.00" fill="none" stroke="#111111" stroke-width="3.0"  />
+  <polyline points="881.00,108.00 896.00,108.00" fill="none" stroke="#111111" stroke-width="3.0"  />
+  <polyline points="976.00,108.00 991.00,108.00" fill="none" stroke="#111111" stroke-width="3.0"  />
+  <polyline points="1071.00,108.00 1086.00,108.00" fill="none" stroke="#111111" stroke-width="3.0"  />
+  <polyline points="1166.00,108.00 1181.00,108.00" fill="none" stroke="#111111" stroke-width="3.0"  />
+  <polyline points="1261.00,108.00 1276.00,108.00" fill="none" stroke="#111111" stroke-width="3.0"  />
+  <polyline points="1356.00,108.00 1371.00,108.00" fill="none" stroke="#111111" stroke-width="3.0"  />
+  <polyline points="246.00,371.00 261.00,371.00" fill="none" stroke="#111111" stroke-width="3.0"  />
+  <text x="253.50" y="368.50" font-size="4.5" text-anchor="middle" fill="#333">L-106-A</text>
+  <polyline points="287.00,371.00 302.00,371.00" fill="none" stroke="#111111" stroke-width="3.0"  />
+  <text x="294.50" y="368.50" font-size="4.5" text-anchor="middle" fill="#333">L-107-A</text>
+  <polyline points="412.00,371.00 427.00,371.00" fill="none" stroke="#111111" stroke-width="3.0"  />
+  <text x="419.50" y="368.50" font-size="4.5" text-anchor="middle" fill="#333">L-108-A</text>
+  <polyline points="453.00,371.00 468.00,371.00" fill="none" stroke="#111111" stroke-width="3.0"  />
+  <text x="460.50" y="368.50" font-size="4.5" text-anchor="middle" fill="#333">L-109-A</text>
+  <polyline points="578.00,388.00 593.00,388.00" fill="none" stroke="#111111" stroke-width="3.0"  />
+  <text x="585.50" y="385.50" font-size="4.5" text-anchor="middle" fill="#333">L-110-A</text>
+  <polyline points="673.00,388.00 688.00,388.00" fill="none" stroke="#111111" stroke-width="3.0"  />
+  <text x="680.50" y="385.50" font-size="4.5" text-anchor="middle" fill="#333">L-111-A</text>
+  <polyline points="1799.00,91.00 1814.00,91.00" fill="none" stroke="#111111" stroke-width="3.0"  />
+  <text x="1806.50" y="88.50" font-size="4.5" text-anchor="middle" fill="#333">L-112-A</text>
+  <polyline points="1840.00,91.00 1855.00,91.00" fill="none" stroke="#111111" stroke-width="3.0"  />
+  <text x="1847.50" y="88.50" font-size="4.5" text-anchor="middle" fill="#333">L-113-A</text>
+  <polyline points="798.00,371.00 813.00,371.00" fill="none" stroke="#111111" stroke-width="3.0"  />
+  <text x="805.50" y="368.50" font-size="4.5" text-anchor="middle" fill="#333">L-114-A</text>
+  <polyline points="839.00,371.00 854.00,371.00" fill="none" stroke="#111111" stroke-width="3.0"  />
+  <text x="846.50" y="368.50" font-size="4.5" text-anchor="middle" fill="#333">L-115-A</text>
+  <polyline points="964.00,371.00 979.00,371.00" fill="none" stroke="#111111" stroke-width="3.0"  />
+  <text x="971.50" y="368.50" font-size="4.5" text-anchor="middle" fill="#333">L-116-A</text>
+  <polyline points="1005.00,371.00 1020.00,371.00" fill="none" stroke="#111111" stroke-width="3.0"  />
+  <text x="1012.50" y="368.50" font-size="4.5" text-anchor="middle" fill="#333">L-117-A</text>
+  <polyline points="2131.00,91.00 2146.00,91.00" fill="none" stroke="#111111" stroke-width="3.0"  />
+  <text x="2138.50" y="88.50" font-size="4.5" text-anchor="middle" fill="#333">L-118-A</text>
+  <polyline points="2172.00,91.00 2187.00,91.00" fill="none" stroke="#111111" stroke-width="3.0"  />
+  <text x="2179.50" y="88.50" font-size="4.5" text-anchor="middle" fill="#333">L-119-A</text>
+  <polyline points="1130.00,388.00 1145.00,388.00" fill="none" stroke="#111111" stroke-width="3.0"  />
+  <text x="1137.50" y="385.50" font-size="4.5" text-anchor="middle" fill="#333">L-120-A</text>
+  <polyline points="1225.00,388.00 1240.00,388.00" fill="none" stroke="#111111" stroke-width="3.0"  />
+  <text x="1232.50" y="385.50" font-size="4.5" text-anchor="middle" fill="#333">L-121-A</text>
+  <polyline points="1350.00,388.00 1365.00,388.00" fill="none" stroke="#111111" stroke-width="3.0"  />
+  <text x="1357.50" y="385.50" font-size="4.5" text-anchor="middle" fill="#333">L-122-A</text>
+  <polyline points="1445.00,388.00 1460.00,388.00" fill="none" stroke="#111111" stroke-width="3.0"  />
+  <text x="1452.50" y="385.50" font-size="4.5" text-anchor="middle" fill="#333">L-123-A</text>
+  <polyline points="1570.00,371.00 1585.00,371.00" fill="none" stroke="#111111" stroke-width="3.0"  />
+  <text x="1577.50" y="368.50" font-size="4.5" text-anchor="middle" fill="#333">L-124-A</text>
+  <polyline points="1611.00,371.00 1626.00,371.00" fill="none" stroke="#111111" stroke-width="3.0"  />
+  <text x="1618.50" y="368.50" font-size="4.5" text-anchor="middle" fill="#333">L-125-A</text>
+  <polyline points="1736.00,388.00 1751.00,388.00" fill="none" stroke="#111111" stroke-width="3.0"  />
+  <text x="1743.50" y="385.50" font-size="4.5" text-anchor="middle" fill="#333">L-126-A</text>
+  <polyline points="1831.00,388.00 1846.00,388.00" fill="none" stroke="#111111" stroke-width="3.0"  />
+  <text x="1838.50" y="385.50" font-size="4.5" text-anchor="middle" fill="#333">L-127-A</text>
+  <polyline points="1633.00,91.00 1648.00,91.00" fill="none" stroke="#111111" stroke-width="3.0"  />
+  <text x="1640.50" y="88.50" font-size="4.5" text-anchor="middle" fill="#333">L-128-A</text>
+  <polyline points="1674.00,91.00 1689.00,91.00" fill="none" stroke="#111111" stroke-width="3.0"  />
+  <text x="1681.50" y="88.50" font-size="4.5" text-anchor="middle" fill="#333">L-129-A</text>
+  <polyline points="1956.00,365.50 1971.00,365.50" fill="none" stroke="#111111" stroke-width="3.0"  />
+  <text x="1963.50" y="363.00" font-size="4.5" text-anchor="middle" fill="#333">L-130-A</text>
+  <polyline points="1467.00,91.00 1482.00,91.00" fill="none" stroke="#111111" stroke-width="3.0"  />
+  <text x="1474.50" y="88.50" font-size="4.5" text-anchor="middle" fill="#333">L-132-A</text>
+  <polyline points="1508.00,91.00 1523.00,91.00" fill="none" stroke="#111111" stroke-width="3.0"  />
+  <text x="1515.50" y="88.50" font-size="4.5" text-anchor="middle" fill="#333">L-133-A</text>
+  <polyline points="1965.00,91.00 1980.00,91.00" fill="none" stroke="#111111" stroke-width="3.0"  />
+  <text x="1972.50" y="88.50" font-size="4.5" text-anchor="middle" fill="#333">L-134-A</text>
+  <polyline points="2006.00,91.00 2021.00,91.00" fill="none" stroke="#111111" stroke-width="3.0"  />
+  <text x="2013.50" y="88.50" font-size="4.5" text-anchor="middle" fill="#333">L-135-A</text>
+  <polyline points="80.00,738.00 80.00,753.00" fill="none" stroke="#111111" stroke-width="3.0"  />
+  <polyline points="80.00,813.00 80.00,828.00" fill="none" stroke="#111111" stroke-width="3.0"  />
+  <polyline points="80.00,888.00 80.00,903.00" fill="none" stroke="#111111" stroke-width="3.0"  />
+  <polyline points="80.00,963.00 80.00,978.00" fill="none" stroke="#111111" stroke-width="3.0"  />
+  <polyline points="80.00,1038.00 80.00,1053.00" fill="none" stroke="#111111" stroke-width="3.0"  />
+  <polyline points="80.00,1113.00 80.00,1128.00" fill="none" stroke="#111111" stroke-width="3.0"  />
+  <polyline points="80.00,1188.00 80.00,1203.00" fill="none" stroke="#111111" stroke-width="3.0"  />
+  <polyline points="80.00,1263.00 80.00,1278.00" fill="none" stroke="#111111" stroke-width="3.0"  />
+  <polyline points="80.00,1338.00 80.00,1353.00" fill="none" stroke="#111111" stroke-width="3.0"  />
+  <polyline points="80.00,1413.00 80.00,1428.00" fill="none" stroke="#111111" stroke-width="3.0"  />
+  <polyline points="80.00,1488.00 80.00,1503.00" fill="none" stroke="#111111" stroke-width="3.0"  />
+  <polyline points="80.00,1563.00 80.00,1578.00" fill="none" stroke="#111111" stroke-width="3.0"  />
+  <polyline points="80.00,1638.00 80.00,1653.00" fill="none" stroke="#111111" stroke-width="3.0"  />
+  <polyline points="80.00,1713.00 80.00,1728.00" fill="none" stroke="#111111" stroke-width="3.0"  />
+  <polyline points="80.00,1788.00 80.00,1803.00" fill="none" stroke="#111111" stroke-width="3.0"  />
+  <polyline points="80.00,1863.00 80.00,1878.00" fill="none" stroke="#111111" stroke-width="3.0"  />
+  <polyline points="80.00,1938.00 80.00,1953.00" fill="none" stroke="#111111" stroke-width="3.0"  />
+  <polyline points="80.00,2013.00 80.00,2028.00" fill="none" stroke="#111111" stroke-width="3.0"  />
+  <polyline points="190.00,738.00 190.00,753.00" fill="none" stroke="#111111" stroke-width="3.0"  />
+  <polyline points="190.00,813.00 190.00,828.00" fill="none" stroke="#111111" stroke-width="3.0"  />
+  <polyline points="190.00,888.00 190.00,903.00" fill="none" stroke="#111111" stroke-width="3.0"  />
+  <polyline points="190.00,963.00 190.00,978.00" fill="none" stroke="#111111" stroke-width="3.0"  />
+  <polyline points="190.00,1038.00 190.00,1053.00" fill="none" stroke="#111111" stroke-width="3.0"  />
+  <polyline points="190.00,1113.00 190.00,1128.00" fill="none" stroke="#111111" stroke-width="3.0"  />
+  <polyline points="1397.00,108.00 1412.00,108.00 1412.00,91.00 1427.00,91.00" fill="none" stroke="#111111" stroke-width="3.0"  />
+  <text x="1412.00" y="97.00" font-size="4.5" text-anchor="middle" fill="#333">L-132-A</text>
+  <polyline points="1563.00,91.00 1578.00,91.00 1578.00,91.00 1593.00,91.00" fill="none" stroke="#111111" stroke-width="3.0"  />
+  <text x="1578.00" y="88.50" font-size="4.5" text-anchor="middle" fill="#333">L-133-A</text>
+  <polyline points="1895.00,91.00 1910.00,91.00 1910.00,91.00 1925.00,91.00" fill="none" stroke="#111111" stroke-width="3.0"  />
+  <text x="1910.00" y="88.50" font-size="4.5" text-anchor="middle" fill="#333">L-113-A</text>
+  <polyline points="2061.00,91.00 2076.00,91.00 2076.00,91.00 2091.00,91.00" fill="none" stroke="#111111" stroke-width="3.0"  />
+  <text x="2076.00" y="88.50" font-size="4.5" text-anchor="middle" fill="#333">L-135-A</text>
+  <!-- expansion edges -->
+  <polyline points="2352.00,108.00 2406.00,83.00" fill="none" stroke="#444444" stroke-width="0.8" stroke-dasharray="3 2" />
+  <polyline points="2352.00,108.00 2406.00,107.00" fill="none" stroke="#444444" stroke-width="0.8" stroke-dasharray="3 2" />
+  <polyline points="2447.00,108.00 2501.00,83.00" fill="none" stroke="#444444" stroke-width="0.8" stroke-dasharray="3 2" />
+  <polyline points="2447.00,108.00 2501.00,107.00" fill="none" stroke="#444444" stroke-width="0.8" stroke-dasharray="3 2" />
+  <polyline points="2542.00,108.00 2596.00,83.00" fill="none" stroke="#444444" stroke-width="0.8" stroke-dasharray="3 2" />
+  <polyline points="2542.00,108.00 2596.00,107.00" fill="none" stroke="#444444" stroke-width="0.8" stroke-dasharray="3 2" />
+  <polyline points="2637.00,108.00 2691.00,83.00" fill="none" stroke="#444444" stroke-width="0.8" stroke-dasharray="3 2" />
+  <polyline points="2637.00,108.00 2691.00,107.00" fill="none" stroke="#444444" stroke-width="0.8" stroke-dasharray="3 2" />
+  <polyline points="2732.00,108.00 2786.00,83.00" fill="none" stroke="#444444" stroke-width="0.8" stroke-dasharray="3 2" />
+  <polyline points="2732.00,108.00 2786.00,107.00" fill="none" stroke="#444444" stroke-width="0.8" stroke-dasharray="3 2" />
+  <polyline points="2827.00,108.00 2881.00,83.00" fill="none" stroke="#444444" stroke-width="0.8" stroke-dasharray="3 2" />
+  <polyline points="2827.00,108.00 2881.00,107.00" fill="none" stroke="#444444" stroke-width="0.8" stroke-dasharray="3 2" />
+  <polyline points="2922.00,108.00 2976.00,83.00" fill="none" stroke="#444444" stroke-width="0.8" stroke-dasharray="3 2" />
+  <polyline points="2922.00,108.00 2976.00,107.00" fill="none" stroke="#444444" stroke-width="0.8" stroke-dasharray="3 2" />
+  <polyline points="2990.00,108.00 2990.00,134.00" fill="none" stroke="#222222" stroke-width="1.6"  />
+  <polyline points="108.00,371.00 108.00,397.00" fill="none" stroke="#222222" stroke-width="1.6"  />
+  <polyline points="53.00,50.00 53.00,73.00" fill="none" stroke="#444444" stroke-width="0.9" stroke-dasharray="6 3" />
+  <polyline points="53.00,73.00 53.00,108.00" fill="none" stroke="#222222" stroke-width="1.4"  />
+  <polyline points="176.00,108.00 230.00,83.00" fill="none" stroke="#444444" stroke-width="0.8" stroke-dasharray="3 2" />
+  <polyline points="176.00,108.00 230.00,107.00" fill="none" stroke="#444444" stroke-width="0.8" stroke-dasharray="3 2" />
+  <polyline points="271.00,108.00 325.00,83.00" fill="none" stroke="#444444" stroke-width="0.8" stroke-dasharray="3 2" />
+  <polyline points="271.00,108.00 325.00,107.00" fill="none" stroke="#444444" stroke-width="0.8" stroke-dasharray="3 2" />
+  <polyline points="366.00,108.00 420.00,83.00" fill="none" stroke="#444444" stroke-width="0.8" stroke-dasharray="3 2" />
+  <polyline points="366.00,108.00 420.00,107.00" fill="none" stroke="#444444" stroke-width="0.8" stroke-dasharray="3 2" />
+  <polyline points="461.00,108.00 515.00,83.00" fill="none" stroke="#444444" stroke-width="0.8" stroke-dasharray="3 2" />
+  <polyline points="461.00,108.00 515.00,107.00" fill="none" stroke="#444444" stroke-width="0.8" stroke-dasharray="3 2" />
+  <polyline points="556.00,108.00 610.00,83.00" fill="none" stroke="#444444" stroke-width="0.8" stroke-dasharray="3 2" />
+  <polyline points="556.00,108.00 610.00,107.00" fill="none" stroke="#444444" stroke-width="0.8" stroke-dasharray="3 2" />
+  <polyline points="651.00,108.00 705.00,83.00" fill="none" stroke="#444444" stroke-width="0.8" stroke-dasharray="3 2" />
+  <polyline points="651.00,108.00 705.00,107.00" fill="none" stroke="#444444" stroke-width="0.8" stroke-dasharray="3 2" />
+  <polyline points="746.00,108.00 800.00,83.00" fill="none" stroke="#444444" stroke-width="0.8" stroke-dasharray="3 2" />
+  <polyline points="746.00,108.00 800.00,107.00" fill="none" stroke="#444444" stroke-width="0.8" stroke-dasharray="3 2" />
+  <polyline points="841.00,108.00 895.00,83.00" fill="none" stroke="#444444" stroke-width="0.8" stroke-dasharray="3 2" />
+  <polyline points="841.00,108.00 895.00,107.00" fill="none" stroke="#444444" stroke-width="0.8" stroke-dasharray="3 2" />
+  <polyline points="936.00,108.00 990.00,83.00" fill="none" stroke="#444444" stroke-width="0.8" stroke-dasharray="3 2" />
+  <polyline points="936.00,108.00 990.00,107.00" fill="none" stroke="#444444" stroke-width="0.8" stroke-dasharray="3 2" />
+  <polyline points="1031.00,108.00 1085.00,83.00" fill="none" stroke="#444444" stroke-width="0.8" stroke-dasharray="3 2" />
+  <polyline points="1031.00,108.00 1085.00,107.00" fill="none" stroke="#444444" stroke-width="0.8" stroke-dasharray="3 2" />
+  <polyline points="1126.00,108.00 1180.00,83.00" fill="none" stroke="#444444" stroke-width="0.8" stroke-dasharray="3 2" />
+  <polyline points="1126.00,108.00 1180.00,107.00" fill="none" stroke="#444444" stroke-width="0.8" stroke-dasharray="3 2" />
+  <polyline points="1221.00,108.00 1275.00,83.00" fill="none" stroke="#444444" stroke-width="0.8" stroke-dasharray="3 2" />
+  <polyline points="1221.00,108.00 1275.00,107.00" fill="none" stroke="#444444" stroke-width="0.8" stroke-dasharray="3 2" />
+  <polyline points="1316.00,108.00 1370.00,83.00" fill="none" stroke="#444444" stroke-width="0.8" stroke-dasharray="3 2" />
+  <polyline points="1316.00,108.00 1370.00,107.00" fill="none" stroke="#444444" stroke-width="0.8" stroke-dasharray="3 2" />
+  <polyline points="1384.00,50.00 1384.00,73.00" fill="none" stroke="#444444" stroke-width="0.9" stroke-dasharray="6 3" />
+  <polyline points="1384.00,73.00 1384.00,108.00" fill="none" stroke="#222222" stroke-width="1.4"  />
+  <polyline points="274.00,371.00 274.00,397.00" fill="none" stroke="#222222" stroke-width="1.6"  />
+  <polyline points="440.00,371.00 440.00,397.00" fill="none" stroke="#222222" stroke-width="1.6"  />
+  <polyline points="633.00,388.00 687.00,363.00" fill="none" stroke="#444444" stroke-width="0.8" stroke-dasharray="3 2" />
+  <polyline points="633.00,388.00 687.00,387.00" fill="none" stroke="#444444" stroke-width="0.8" stroke-dasharray="3 2" />
+  <polyline points="1827.00,91.00 1827.00,117.00" fill="none" stroke="#222222" stroke-width="1.6"  />
+  <polyline points="826.00,371.00 826.00,397.00" fill="none" stroke="#222222" stroke-width="1.6"  />
+  <polyline points="992.00,371.00 992.00,397.00" fill="none" stroke="#222222" stroke-width="1.6"  />
+  <polyline points="2159.00,91.00 2159.00,117.00" fill="none" stroke="#222222" stroke-width="1.6"  />
+  <polyline points="1185.00,388.00 1239.00,363.00" fill="none" stroke="#444444" stroke-width="0.8" stroke-dasharray="3 2" />
+  <polyline points="1185.00,388.00 1239.00,387.00" fill="none" stroke="#444444" stroke-width="0.8" stroke-dasharray="3 2" />
+  <polyline points="1405.00,388.00 1459.00,363.00" fill="none" stroke="#444444" stroke-width="0.8" stroke-dasharray="3 2" />
+  <polyline points="1405.00,388.00 1459.00,387.00" fill="none" stroke="#444444" stroke-width="0.8" stroke-dasharray="3 2" />
+  <polyline points="1598.00,371.00 1598.00,397.00" fill="none" stroke="#222222" stroke-width="1.6"  />
+  <polyline points="1791.00,388.00 1845.00,363.00" fill="none" stroke="#444444" stroke-width="0.8" stroke-dasharray="3 2" />
+  <polyline points="1791.00,388.00 1845.00,387.00" fill="none" stroke="#444444" stroke-width="0.8" stroke-dasharray="3 2" />
+  <polyline points="1661.00,91.00 1661.00,117.00" fill="none" stroke="#222222" stroke-width="1.6"  />
+  <polyline points="1495.00,91.00 1495.00,117.00" fill="none" stroke="#222222" stroke-width="1.6"  />
+  <polyline points="1993.00,91.00 1993.00,117.00" fill="none" stroke="#222222" stroke-width="1.6"  />
+  <polyline points="80.00,708.00 134.00,683.00" fill="none" stroke="#444444" stroke-width="0.8" stroke-dasharray="3 2" />
+  <polyline points="80.00,708.00 134.00,707.00" fill="none" stroke="#444444" stroke-width="0.8" stroke-dasharray="3 2" />
+  <polyline points="80.00,783.00 134.00,758.00" fill="none" stroke="#444444" stroke-width="0.8" stroke-dasharray="3 2" />
+  <polyline points="80.00,783.00 134.00,782.00" fill="none" stroke="#444444" stroke-width="0.8" stroke-dasharray="3 2" />
+  <polyline points="80.00,858.00 134.00,833.00" fill="none" stroke="#444444" stroke-width="0.8" stroke-dasharray="3 2" />
+  <polyline points="80.00,858.00 134.00,857.00" fill="none" stroke="#444444" stroke-width="0.8" stroke-dasharray="3 2" />
+  <polyline points="80.00,933.00 134.00,908.00" fill="none" stroke="#444444" stroke-width="0.8" stroke-dasharray="3 2" />
+  <polyline points="80.00,933.00 134.00,932.00" fill="none" stroke="#444444" stroke-width="0.8" stroke-dasharray="3 2" />
+  <polyline points="80.00,1008.00 134.00,983.00" fill="none" stroke="#444444" stroke-width="0.8" stroke-dasharray="3 2" />
+  <polyline points="80.00,1008.00 134.00,1007.00" fill="none" stroke="#444444" stroke-width="0.8" stroke-dasharray="3 2" />
+  <polyline points="80.00,1083.00 134.00,1058.00" fill="none" stroke="#444444" stroke-width="0.8" stroke-dasharray="3 2" />
+  <polyline points="80.00,1083.00 134.00,1082.00" fill="none" stroke="#444444" stroke-width="0.8" stroke-dasharray="3 2" />
+  <polyline points="80.00,1158.00 134.00,1133.00" fill="none" stroke="#444444" stroke-width="0.8" stroke-dasharray="3 2" />
+  <polyline points="80.00,1158.00 134.00,1157.00" fill="none" stroke="#444444" stroke-width="0.8" stroke-dasharray="3 2" />
+  <polyline points="80.00,1233.00 134.00,1208.00" fill="none" stroke="#444444" stroke-width="0.8" stroke-dasharray="3 2" />
+  <polyline points="80.00,1233.00 134.00,1232.00" fill="none" stroke="#444444" stroke-width="0.8" stroke-dasharray="3 2" />
+  <polyline points="80.00,1308.00 134.00,1283.00" fill="none" stroke="#444444" stroke-width="0.8" stroke-dasharray="3 2" />
+  <polyline points="80.00,1308.00 134.00,1307.00" fill="none" stroke="#444444" stroke-width="0.8" stroke-dasharray="3 2" />
+  <polyline points="80.00,1383.00 134.00,1358.00" fill="none" stroke="#444444" stroke-width="0.8" stroke-dasharray="3 2" />
+  <polyline points="80.00,1383.00 134.00,1382.00" fill="none" stroke="#444444" stroke-width="0.8" stroke-dasharray="3 2" />
+  <polyline points="80.00,1458.00 134.00,1433.00" fill="none" stroke="#444444" stroke-width="0.8" stroke-dasharray="3 2" />
+  <polyline points="80.00,1458.00 134.00,1457.00" fill="none" stroke="#444444" stroke-width="0.8" stroke-dasharray="3 2" />
+  <polyline points="80.00,1533.00 134.00,1508.00" fill="none" stroke="#444444" stroke-width="0.8" stroke-dasharray="3 2" />
+  <polyline points="80.00,1533.00 134.00,1532.00" fill="none" stroke="#444444" stroke-width="0.8" stroke-dasharray="3 2" />
+  <polyline points="80.00,1608.00 134.00,1583.00" fill="none" stroke="#444444" stroke-width="0.8" stroke-dasharray="3 2" />
+  <polyline points="80.00,1608.00 134.00,1607.00" fill="none" stroke="#444444" stroke-width="0.8" stroke-dasharray="3 2" />
+  <polyline points="80.00,1683.00 134.00,1658.00" fill="none" stroke="#444444" stroke-width="0.8" stroke-dasharray="3 2" />
+  <polyline points="80.00,1683.00 134.00,1682.00" fill="none" stroke="#444444" stroke-width="0.8" stroke-dasharray="3 2" />
+  <polyline points="80.00,1758.00 134.00,1733.00" fill="none" stroke="#444444" stroke-width="0.8" stroke-dasharray="3 2" />
+  <polyline points="80.00,1758.00 134.00,1757.00" fill="none" stroke="#444444" stroke-width="0.8" stroke-dasharray="3 2" />
+  <polyline points="80.00,1833.00 134.00,1808.00" fill="none" stroke="#444444" stroke-width="0.8" stroke-dasharray="3 2" />
+  <polyline points="80.00,1833.00 134.00,1832.00" fill="none" stroke="#444444" stroke-width="0.8" stroke-dasharray="3 2" />
+  <polyline points="80.00,1908.00 134.00,1883.00" fill="none" stroke="#444444" stroke-width="0.8" stroke-dasharray="3 2" />
+  <polyline points="80.00,1908.00 134.00,1907.00" fill="none" stroke="#444444" stroke-width="0.8" stroke-dasharray="3 2" />
+  <polyline points="80.00,1983.00 134.00,1958.00" fill="none" stroke="#444444" stroke-width="0.8" stroke-dasharray="3 2" />
+  <polyline points="80.00,1983.00 134.00,1982.00" fill="none" stroke="#444444" stroke-width="0.8" stroke-dasharray="3 2" />
+  <polyline points="80.00,2058.00 134.00,2033.00" fill="none" stroke="#444444" stroke-width="0.8" stroke-dasharray="3 2" />
+  <polyline points="80.00,2058.00 134.00,2057.00" fill="none" stroke="#444444" stroke-width="0.8" stroke-dasharray="3 2" />
+  <polyline points="190.00,708.00 244.00,683.00" fill="none" stroke="#444444" stroke-width="0.8" stroke-dasharray="3 2" />
+  <polyline points="190.00,708.00 244.00,707.00" fill="none" stroke="#444444" stroke-width="0.8" stroke-dasharray="3 2" />
+  <polyline points="190.00,783.00 244.00,758.00" fill="none" stroke="#444444" stroke-width="0.8" stroke-dasharray="3 2" />
+  <polyline points="190.00,783.00 244.00,782.00" fill="none" stroke="#444444" stroke-width="0.8" stroke-dasharray="3 2" />
+  <polyline points="190.00,858.00 244.00,833.00" fill="none" stroke="#444444" stroke-width="0.8" stroke-dasharray="3 2" />
+  <polyline points="190.00,858.00 244.00,857.00" fill="none" stroke="#444444" stroke-width="0.8" stroke-dasharray="3 2" />
+  <polyline points="190.00,933.00 244.00,908.00" fill="none" stroke="#444444" stroke-width="0.8" stroke-dasharray="3 2" />
+  <polyline points="190.00,933.00 244.00,932.00" fill="none" stroke="#444444" stroke-width="0.8" stroke-dasharray="3 2" />
+  <polyline points="190.00,1008.00 244.00,983.00" fill="none" stroke="#444444" stroke-width="0.8" stroke-dasharray="3 2" />
+  <polyline points="190.00,1008.00 244.00,1007.00" fill="none" stroke="#444444" stroke-width="0.8" stroke-dasharray="3 2" />
+  <polyline points="190.00,1083.00 244.00,1058.00" fill="none" stroke="#444444" stroke-width="0.8" stroke-dasharray="3 2" />
+  <polyline points="190.00,1083.00 244.00,1082.00" fill="none" stroke="#444444" stroke-width="0.8" stroke-dasharray="3 2" />
+  <polyline points="190.00,1158.00 244.00,1133.00" fill="none" stroke="#444444" stroke-width="0.8" stroke-dasharray="3 2" />
+  <polyline points="190.00,1158.00 244.00,1157.00" fill="none" stroke="#444444" stroke-width="0.8" stroke-dasharray="3 2" />
+  <polyline points="300.00,708.00 354.00,683.00" fill="none" stroke="#444444" stroke-width="0.8" stroke-dasharray="3 2" />
+  <polyline points="300.00,708.00 354.00,707.00" fill="none" stroke="#444444" stroke-width="0.8" stroke-dasharray="3 2" />
+  <polyline points="410.00,708.00 464.00,683.00" fill="none" stroke="#444444" stroke-width="0.8" stroke-dasharray="3 2" />
+  <polyline points="410.00,708.00 464.00,707.00" fill="none" stroke="#444444" stroke-width="0.8" stroke-dasharray="3 2" />
+  <polyline points="520.00,708.00 574.00,683.00" fill="none" stroke="#444444" stroke-width="0.8" stroke-dasharray="3 2" />
+  <polyline points="520.00,708.00 574.00,707.00" fill="none" stroke="#444444" stroke-width="0.8" stroke-dasharray="3 2" />
+  <polyline points="630.00,708.00 684.00,683.00" fill="none" stroke="#444444" stroke-width="0.8" stroke-dasharray="3 2" />
+  <polyline points="630.00,708.00 684.00,707.00" fill="none" stroke="#444444" stroke-width="0.8" stroke-dasharray="3 2" />
+  <!-- nodes -->
+  <g transform="translate(2257.00,100.50)" id="rfrag_region_0:n0" class="node-g fragment-rfrag" data-loop-id="" data-fragment-id="rfrag_region_0">
+    <title>L-101-A (pipe_segment)
+line_id: L-101-A
+size: 4in
+spec: CS150
+service: Process
+flow_direction: forward</title>
+    <text x="20.00" y="3.50" font-size="4.20" text-anchor="middle" fill="#444">L-101-A</text>
+  </g>
+  <g transform="translate(2312.00,78.00)" id="rfrag_region_0:n1" class="node-g fragment-rfrag" data-loop-id="" data-fragment-id="rfrag_region_0">
+    <title>E-001 (equipment_block)
+tag: E-001
+equipment_type: vessel
+duty: process</title>
+    <rect x="0.00" y="0.00" width="80.00" height="60.00" fill="#ffffff" stroke="#111111" stroke-width="2.0" rx="4.00" ry="4.20"/>
+    <line x1="0.00" y1="49.20" x2="80.00" y2="49.20" stroke="#111111" stroke-width="0.8"/>
+    <text x="40.00" y="32.47" font-size="6.50" text-anchor="middle" fill="#111111" font-weight="bold">E-001</text>
+  </g>
+  <g transform="translate(2396.00,73.00)" id="rfrag_region_0:n1:pi" class="node-g fragment-rfrag" data-loop-id="" data-fragment-id="rfrag_region_0">
+    <title>PI-401 (instrument:pressure)
+tag: PI-401</title>
+    <circle cx="10.00" cy="10.00" r="8.80" fill="#ffffff" stroke="#111111" stroke-width="1.0"/>
+    <line x1="1.20" y1="10.00" x2="18.80" y2="10.00" stroke="#111111" stroke-width="0.7"/>
+    <text x="10.00" y="12.28" font-size="6.00" text-anchor="middle" fill="#111111">PI</text>
+    <text x="10.00" y="25.90" font-size="4.40" text-anchor="middle" fill="#222">PI-401</text>
+  </g>
+  <g transform="translate(2396.00,97.00)" id="rfrag_region_0:n1:ti" class="node-g fragment-rfrag" data-loop-id="" data-fragment-id="rfrag_region_0">
+    <title>TI-501 (instrument:temperature)
+tag: TI-501</title>
+    <circle cx="10.00" cy="10.00" r="8.80" fill="#ffffff" stroke="#111111" stroke-width="1.0"/>
+    <line x1="1.20" y1="10.00" x2="18.80" y2="10.00" stroke="#111111" stroke-width="0.7"/>
+    <text x="10.00" y="12.28" font-size="6.00" text-anchor="middle" fill="#111111">TI</text>
+    <text x="10.00" y="25.90" font-size="4.40" text-anchor="middle" fill="#222">TI-501</text>
+  </g>
+  <g transform="translate(2407.00,78.00)" id="rfrag_region_0:n2" class="node-g fragment-rfrag" data-loop-id="" data-fragment-id="rfrag_region_0">
+    <title>E-002 (equipment_block)
+tag: E-002
+equipment_type: vessel
+duty: process</title>
+    <rect x="0.00" y="0.00" width="80.00" height="60.00" fill="#ffffff" stroke="#111111" stroke-width="2.0" rx="4.00" ry="4.20"/>
+    <line x1="0.00" y1="49.20" x2="80.00" y2="49.20" stroke="#111111" stroke-width="0.8"/>
+    <text x="40.00" y="32.47" font-size="6.50" text-anchor="middle" fill="#111111" font-weight="bold">E-002</text>
+  </g>
+  <g transform="translate(2491.00,73.00)" id="rfrag_region_0:n2:pi" class="node-g fragment-rfrag" data-loop-id="" data-fragment-id="rfrag_region_0">
+    <title>PI-402 (instrument:pressure)
+tag: PI-402</title>
+    <circle cx="10.00" cy="10.00" r="8.80" fill="#ffffff" stroke="#111111" stroke-width="1.0"/>
+    <line x1="1.20" y1="10.00" x2="18.80" y2="10.00" stroke="#111111" stroke-width="0.7"/>
+    <text x="10.00" y="12.28" font-size="6.00" text-anchor="middle" fill="#111111">PI</text>
+    <text x="10.00" y="25.90" font-size="4.40" text-anchor="middle" fill="#222">PI-402</text>
+  </g>
+  <g transform="translate(2491.00,97.00)" id="rfrag_region_0:n2:ti" class="node-g fragment-rfrag" data-loop-id="" data-fragment-id="rfrag_region_0">
+    <title>TI-502 (instrument:temperature)
+tag: TI-502</title>
+    <circle cx="10.00" cy="10.00" r="8.80" fill="#ffffff" stroke="#111111" stroke-width="1.0"/>
+    <line x1="1.20" y1="10.00" x2="18.80" y2="10.00" stroke="#111111" stroke-width="0.7"/>
+    <text x="10.00" y="12.28" font-size="6.00" text-anchor="middle" fill="#111111">TI</text>
+    <text x="10.00" y="25.90" font-size="4.40" text-anchor="middle" fill="#222">TI-502</text>
+  </g>
+  <g transform="translate(2502.00,78.00)" id="rfrag_region_0:n3" class="node-g fragment-rfrag" data-loop-id="" data-fragment-id="rfrag_region_0">
+    <title>E-003 (equipment_block)
+tag: E-003
+equipment_type: vessel
+duty: process</title>
+    <rect x="0.00" y="0.00" width="80.00" height="60.00" fill="#ffffff" stroke="#111111" stroke-width="2.0" rx="4.00" ry="4.20"/>
+    <line x1="0.00" y1="49.20" x2="80.00" y2="49.20" stroke="#111111" stroke-width="0.8"/>
+    <text x="40.00" y="32.47" font-size="6.50" text-anchor="middle" fill="#111111" font-weight="bold">E-003</text>
+  </g>
+  <g transform="translate(2586.00,73.00)" id="rfrag_region_0:n3:pi" class="node-g fragment-rfrag" data-loop-id="" data-fragment-id="rfrag_region_0">
+    <title>PI-403 (instrument:pressure)
+tag: PI-403</title>
+    <circle cx="10.00" cy="10.00" r="8.80" fill="#ffffff" stroke="#111111" stroke-width="1.0"/>
+    <line x1="1.20" y1="10.00" x2="18.80" y2="10.00" stroke="#111111" stroke-width="0.7"/>
+    <text x="10.00" y="12.28" font-size="6.00" text-anchor="middle" fill="#111111">PI</text>
+    <text x="10.00" y="25.90" font-size="4.40" text-anchor="middle" fill="#222">PI-403</text>
+  </g>
+  <g transform="translate(2586.00,97.00)" id="rfrag_region_0:n3:ti" class="node-g fragment-rfrag" data-loop-id="" data-fragment-id="rfrag_region_0">
+    <title>TI-503 (instrument:temperature)
+tag: TI-503</title>
+    <circle cx="10.00" cy="10.00" r="8.80" fill="#ffffff" stroke="#111111" stroke-width="1.0"/>
+    <line x1="1.20" y1="10.00" x2="18.80" y2="10.00" stroke="#111111" stroke-width="0.7"/>
+    <text x="10.00" y="12.28" font-size="6.00" text-anchor="middle" fill="#111111">TI</text>
+    <text x="10.00" y="25.90" font-size="4.40" text-anchor="middle" fill="#222">TI-503</text>
+  </g>
+  <g transform="translate(2597.00,78.00)" id="rfrag_region_0:n4" class="node-g fragment-rfrag" data-loop-id="" data-fragment-id="rfrag_region_0">
+    <title>E-004 (equipment_block)
+tag: E-004
+equipment_type: vessel
+duty: process</title>
+    <rect x="0.00" y="0.00" width="80.00" height="60.00" fill="#ffffff" stroke="#111111" stroke-width="2.0" rx="4.00" ry="4.20"/>
+    <line x1="0.00" y1="49.20" x2="80.00" y2="49.20" stroke="#111111" stroke-width="0.8"/>
+    <text x="40.00" y="32.47" font-size="6.50" text-anchor="middle" fill="#111111" font-weight="bold">E-004</text>
+  </g>
+  <g transform="translate(2681.00,73.00)" id="rfrag_region_0:n4:pi" class="node-g fragment-rfrag" data-loop-id="" data-fragment-id="rfrag_region_0">
+    <title>PI-404 (instrument:pressure)
+tag: PI-404</title>
+    <circle cx="10.00" cy="10.00" r="8.80" fill="#ffffff" stroke="#111111" stroke-width="1.0"/>
+    <line x1="1.20" y1="10.00" x2="18.80" y2="10.00" stroke="#111111" stroke-width="0.7"/>
+    <text x="10.00" y="12.28" font-size="6.00" text-anchor="middle" fill="#111111">PI</text>
+    <text x="10.00" y="25.90" font-size="4.40" text-anchor="middle" fill="#222">PI-404</text>
+  </g>
+  <g transform="translate(2681.00,97.00)" id="rfrag_region_0:n4:ti" class="node-g fragment-rfrag" data-loop-id="" data-fragment-id="rfrag_region_0">
+    <title>TI-504 (instrument:temperature)
+tag: TI-504</title>
+    <circle cx="10.00" cy="10.00" r="8.80" fill="#ffffff" stroke="#111111" stroke-width="1.0"/>
+    <line x1="1.20" y1="10.00" x2="18.80" y2="10.00" stroke="#111111" stroke-width="0.7"/>
+    <text x="10.00" y="12.28" font-size="6.00" text-anchor="middle" fill="#111111">TI</text>
+    <text x="10.00" y="25.90" font-size="4.40" text-anchor="middle" fill="#222">TI-504</text>
+  </g>
+  <g transform="translate(2692.00,78.00)" id="rfrag_region_0:n5" class="node-g fragment-rfrag" data-loop-id="" data-fragment-id="rfrag_region_0">
+    <title>E-005 (equipment_block)
+tag: E-005
+equipment_type: vessel
+duty: process</title>
+    <rect x="0.00" y="0.00" width="80.00" height="60.00" fill="#ffffff" stroke="#111111" stroke-width="2.0" rx="4.00" ry="4.20"/>
+    <line x1="0.00" y1="49.20" x2="80.00" y2="49.20" stroke="#111111" stroke-width="0.8"/>
+    <text x="40.00" y="32.47" font-size="6.50" text-anchor="middle" fill="#111111" font-weight="bold">E-005</text>
+  </g>
+  <g transform="translate(2776.00,73.00)" id="rfrag_region_0:n5:pi" class="node-g fragment-rfrag" data-loop-id="" data-fragment-id="rfrag_region_0">
+    <title>PI-405 (instrument:pressure)
+tag: PI-405</title>
+    <circle cx="10.00" cy="10.00" r="8.80" fill="#ffffff" stroke="#111111" stroke-width="1.0"/>
+    <line x1="1.20" y1="10.00" x2="18.80" y2="10.00" stroke="#111111" stroke-width="0.7"/>
+    <text x="10.00" y="12.28" font-size="6.00" text-anchor="middle" fill="#111111">PI</text>
+    <text x="10.00" y="25.90" font-size="4.40" text-anchor="middle" fill="#222">PI-405</text>
+  </g>
+  <g transform="translate(2776.00,97.00)" id="rfrag_region_0:n5:ti" class="node-g fragment-rfrag" data-loop-id="" data-fragment-id="rfrag_region_0">
+    <title>TI-505 (instrument:temperature)
+tag: TI-505</title>
+    <circle cx="10.00" cy="10.00" r="8.80" fill="#ffffff" stroke="#111111" stroke-width="1.0"/>
+    <line x1="1.20" y1="10.00" x2="18.80" y2="10.00" stroke="#111111" stroke-width="0.7"/>
+    <text x="10.00" y="12.28" font-size="6.00" text-anchor="middle" fill="#111111">TI</text>
+    <text x="10.00" y="25.90" font-size="4.40" text-anchor="middle" fill="#222">TI-505</text>
+  </g>
+  <g transform="translate(2787.00,78.00)" id="rfrag_region_0:n6" class="node-g fragment-rfrag" data-loop-id="" data-fragment-id="rfrag_region_0">
+    <title>E-006 (equipment_block)
+tag: E-006
+equipment_type: vessel
+duty: process</title>
+    <rect x="0.00" y="0.00" width="80.00" height="60.00" fill="#ffffff" stroke="#111111" stroke-width="2.0" rx="4.00" ry="4.20"/>
+    <line x1="0.00" y1="49.20" x2="80.00" y2="49.20" stroke="#111111" stroke-width="0.8"/>
+    <text x="40.00" y="32.47" font-size="6.50" text-anchor="middle" fill="#111111" font-weight="bold">E-006</text>
+  </g>
+  <g transform="translate(2871.00,73.00)" id="rfrag_region_0:n6:pi" class="node-g fragment-rfrag" data-loop-id="" data-fragment-id="rfrag_region_0">
+    <title>PI-406 (instrument:pressure)
+tag: PI-406</title>
+    <circle cx="10.00" cy="10.00" r="8.80" fill="#ffffff" stroke="#111111" stroke-width="1.0"/>
+    <line x1="1.20" y1="10.00" x2="18.80" y2="10.00" stroke="#111111" stroke-width="0.7"/>
+    <text x="10.00" y="12.28" font-size="6.00" text-anchor="middle" fill="#111111">PI</text>
+    <text x="10.00" y="25.90" font-size="4.40" text-anchor="middle" fill="#222">PI-406</text>
+  </g>
+  <g transform="translate(2871.00,97.00)" id="rfrag_region_0:n6:ti" class="node-g fragment-rfrag" data-loop-id="" data-fragment-id="rfrag_region_0">
+    <title>TI-506 (instrument:temperature)
+tag: TI-506</title>
+    <circle cx="10.00" cy="10.00" r="8.80" fill="#ffffff" stroke="#111111" stroke-width="1.0"/>
+    <line x1="1.20" y1="10.00" x2="18.80" y2="10.00" stroke="#111111" stroke-width="0.7"/>
+    <text x="10.00" y="12.28" font-size="6.00" text-anchor="middle" fill="#111111">TI</text>
+    <text x="10.00" y="25.90" font-size="4.40" text-anchor="middle" fill="#222">TI-506</text>
+  </g>
+  <g transform="translate(2882.00,78.00)" id="rfrag_region_0:n7" class="node-g fragment-rfrag" data-loop-id="" data-fragment-id="rfrag_region_0">
+    <title>E-007 (equipment_block)
+tag: E-007
+equipment_type: vessel
+duty: process</title>
+    <rect x="0.00" y="0.00" width="80.00" height="60.00" fill="#ffffff" stroke="#111111" stroke-width="2.0" rx="4.00" ry="4.20"/>
+    <line x1="0.00" y1="49.20" x2="80.00" y2="49.20" stroke="#111111" stroke-width="0.8"/>
+    <text x="40.00" y="32.47" font-size="6.50" text-anchor="middle" fill="#111111" font-weight="bold">E-007</text>
+  </g>
+  <g transform="translate(2966.00,73.00)" id="rfrag_region_0:n7:pi" class="node-g fragment-rfrag" data-loop-id="" data-fragment-id="rfrag_region_0">
+    <title>PI-407 (instrument:pressure)
+tag: PI-407</title>
+    <circle cx="10.00" cy="10.00" r="8.80" fill="#ffffff" stroke="#111111" stroke-width="1.0"/>
+    <line x1="1.20" y1="10.00" x2="18.80" y2="10.00" stroke="#111111" stroke-width="0.7"/>
+    <text x="10.00" y="12.28" font-size="6.00" text-anchor="middle" fill="#111111">PI</text>
+    <text x="10.00" y="25.90" font-size="4.40" text-anchor="middle" fill="#222">PI-407</text>
+  </g>
+  <g transform="translate(2966.00,97.00)" id="rfrag_region_0:n7:ti" class="node-g fragment-rfrag" data-loop-id="" data-fragment-id="rfrag_region_0">
+    <title>TI-507 (instrument:temperature)
+tag: TI-507</title>
+    <circle cx="10.00" cy="10.00" r="8.80" fill="#ffffff" stroke="#111111" stroke-width="1.0"/>
+    <line x1="1.20" y1="10.00" x2="18.80" y2="10.00" stroke="#111111" stroke-width="0.7"/>
+    <text x="10.00" y="12.28" font-size="6.00" text-anchor="middle" fill="#111111">TI</text>
+    <text x="10.00" y="25.90" font-size="4.40" text-anchor="middle" fill="#222">TI-507</text>
+  </g>
+  <g transform="translate(2977.00,95.00)" id="rfrag_region_0:n8" class="node-g fragment-rfrag" data-loop-id="" data-fragment-id="rfrag_region_0">
+    <title>XV-101 (valve:isolation)
+tag: XV-101
+valve_type: gate
+normally_open: True
+fail_position: closed</title>
+    <polygon points="0.00,0.00 13.00,13.00 0.00,26.00" fill="#ffffff" stroke="#111111" stroke-width="1.2"/>
+    <polygon points="26.00,0.00 13.00,13.00 26.00,26.00" fill="#ffffff" stroke="#111111" stroke-width="1.2"/>
+    <line x1="13.00" y1="13.00" x2="13.00" y2="1.82" stroke="#111111" stroke-width="1.0"/>
+    <line x1="6.50" y1="1.82" x2="19.50" y2="1.82" stroke="#111111" stroke-width="2.5"/>
+    <text x="13.00" y="32.18" font-size="4.68" text-anchor="middle" fill="#222">XV-101</text>
+  </g>
+  <g transform="translate(2981.00,125.00)" id="rfrag_region_0:n8:drain" class="node-g fragment-rfrag" data-loop-id="" data-fragment-id="rfrag_region_0">
+    <title>DR-601 (valve:drain)
+tag: DR-601
+normally_closed: True</title>
+    <polygon points="2.70,0.00 15.30,0.00 9.00,18.00" fill="#ffffff" stroke="#111111" stroke-width="1.2"/>
+    <text x="9.00" y="22.74" font-size="3.24" text-anchor="middle" fill="#222">DR-601</text>
+  </g>
+  <g transform="translate(3018.00,100.50)" id="rfrag_region_0:n9" class="node-g fragment-rfrag" data-loop-id="" data-fragment-id="rfrag_region_0">
+    <title>L-102-A (pipe_segment)
+line_id: L-102-A
+size: 4in
+spec: CS150
+service: Process
+flow_direction: forward</title>
+    <text x="20.00" y="3.50" font-size="4.20" text-anchor="middle" fill="#444">L-102-A</text>
+  </g>
+  <g transform="translate(40.00,363.50)" id="rfrag_region_1:n0" class="node-g fragment-rfrag" data-loop-id="" data-fragment-id="rfrag_region_1">
+    <title>L-103-A (pipe_segment)
+line_id: L-103-A
+size: 4in
+spec: CS150
+service: Process
+flow_direction: forward</title>
+    <text x="20.00" y="3.50" font-size="4.20" text-anchor="middle" fill="#444">L-103-A</text>
+  </g>
+  <g transform="translate(95.00,358.00)" id="rfrag_region_1:n1" class="node-g fragment-rfrag" data-loop-id="" data-fragment-id="rfrag_region_1">
+    <title>XV-102 (valve:isolation)
+tag: XV-102
+valve_type: gate
+normally_open: True
+fail_position: closed</title>
+    <polygon points="0.00,0.00 13.00,13.00 0.00,26.00" fill="#ffffff" stroke="#111111" stroke-width="1.2"/>
+    <polygon points="26.00,0.00 13.00,13.00 26.00,26.00" fill="#ffffff" stroke="#111111" stroke-width="1.2"/>
+    <line x1="13.00" y1="13.00" x2="13.00" y2="1.82" stroke="#111111" stroke-width="1.0"/>
+    <line x1="6.50" y1="1.82" x2="19.50" y2="1.82" stroke="#111111" stroke-width="2.5"/>
+    <text x="13.00" y="32.18" font-size="4.68" text-anchor="middle" fill="#222">XV-102</text>
+  </g>
+  <g transform="translate(99.00,388.00)" id="rfrag_region_1:n1:drain" class="node-g fragment-rfrag" data-loop-id="" data-fragment-id="rfrag_region_1">
+    <title>DR-602 (valve:drain)
+tag: DR-602
+normally_closed: True</title>
+    <polygon points="2.70,0.00 15.30,0.00 9.00,18.00" fill="#ffffff" stroke="#111111" stroke-width="1.2"/>
+    <text x="9.00" y="22.74" font-size="3.24" text-anchor="middle" fill="#222">DR-602</text>
+  </g>
+  <g transform="translate(136.00,363.50)" id="rfrag_region_1:n2" class="node-g fragment-rfrag" data-loop-id="" data-fragment-id="rfrag_region_1">
+    <title>L-104-A (pipe_segment)
+line_id: L-104-A
+size: 4in
+spec: CS150
+service: Process
+flow_direction: forward</title>
+    <text x="20.00" y="3.50" font-size="4.20" text-anchor="middle" fill="#444">L-104-A</text>
+  </g>
+  <g transform="translate(40.00,86.00)" id="rfrag_region_2:n0" class="node-g fragment-rfrag" data-loop-id="" data-fragment-id="rfrag_region_2">
+    <title>FV-201 (valve:control)
+tag: FV-201
+fail_position: closed
+control_loop: True</title>
+    <polygon points="0.00,22.00 13.00,33.00 0.00,44.00" fill="#ffffff" stroke="#111111" stroke-width="1.2"/>
+    <polygon points="26.00,22.00 13.00,33.00 26.00,44.00" fill="#ffffff" stroke="#111111" stroke-width="1.2"/>
+    <line x1="13.00" y1="33.00" x2="13.00" y2="15.40" stroke="#111111" stroke-width="1.0"/>
+    <line x1="3.90" y1="15.40" x2="22.10" y2="15.40" stroke="#111111" stroke-width="2.5"/>
+    <polygon points="5.20,0.00 20.80,0.00 13.00,15.40" fill="#111111" stroke="#111111" stroke-width="0.8"/>
+    <text x="13.00" y="50.18" font-size="4.68" text-anchor="middle" fill="#222">FV-201</text>
+  </g>
+  <g transform="translate(42.00,64.00)" id="rfrag_region_2:n0:act" class="node-g fragment-rfrag" data-loop-id="" data-fragment-id="rfrag_region_2">
+    <title>ACT-201 (actuator:pneumatic)
+tag: ACT-201</title>
+    <polygon points="2.20,0.90 19.80,0.90 11.00,18.00" fill="#111111" stroke="#111111" stroke-width="0.8"/>
+    <line x1="1.10" y1="0.90" x2="20.90" y2="0.90" stroke="#111111" stroke-width="3.0"/>
+    <text x="11.00" y="23.46" font-size="3.96" text-anchor="middle" fill="#222">ACT-201</text>
+  </g>
+  <g transform="translate(43.00,40.00)" id="rfrag_region_2:n0:fc" class="node-g fragment-rfrag" data-loop-id="" data-fragment-id="rfrag_region_2">
+    <title>FC-201 (instrument:controller)
+tag: FC-201</title>
+    <circle cx="10.00" cy="10.00" r="8.80" fill="#ffffff" stroke="#111111" stroke-width="1.0"/>
+    <line x1="1.20" y1="10.00" x2="18.80" y2="10.00" stroke="#111111" stroke-width="0.7"/>
+    <text x="10.00" y="12.28" font-size="6.00" text-anchor="middle" fill="#111111">FC</text>
+    <text x="10.00" y="25.90" font-size="4.40" text-anchor="middle" fill="#222">FC-201</text>
+  </g>
+  <g transform="translate(81.00,100.50)" id="rfrag_region_2:n1" class="node-g fragment-rfrag" data-loop-id="" data-fragment-id="rfrag_region_2">
+    <title>L-105-A (pipe_segment)
+line_id: L-105-A
+size: 4in
+spec: CS150
+service: Process
+flow_direction: forward</title>
+    <text x="20.00" y="3.50" font-size="4.20" text-anchor="middle" fill="#444">L-105-A</text>
+  </g>
+  <g transform="translate(136.00,78.00)" id="rfrag_region_2:n2" class="node-g fragment-rfrag" data-loop-id="" data-fragment-id="rfrag_region_2">
+    <title>E-008 (equipment_block)
+tag: E-008
+equipment_type: vessel
+duty: process</title>
+    <rect x="0.00" y="0.00" width="80.00" height="60.00" fill="#ffffff" stroke="#111111" stroke-width="2.0" rx="4.00" ry="4.20"/>
+    <line x1="0.00" y1="49.20" x2="80.00" y2="49.20" stroke="#111111" stroke-width="0.8"/>
+    <text x="40.00" y="32.47" font-size="6.50" text-anchor="middle" fill="#111111" font-weight="bold">E-008</text>
+  </g>
+  <g transform="translate(220.00,73.00)" id="rfrag_region_2:n2:pi" class="node-g fragment-rfrag" data-loop-id="" data-fragment-id="rfrag_region_2">
+    <title>PI-408 (instrument:pressure)
+tag: PI-408</title>
+    <circle cx="10.00" cy="10.00" r="8.80" fill="#ffffff" stroke="#111111" stroke-width="1.0"/>
+    <line x1="1.20" y1="10.00" x2="18.80" y2="10.00" stroke="#111111" stroke-width="0.7"/>
+    <text x="10.00" y="12.28" font-size="6.00" text-anchor="middle" fill="#111111">PI</text>
+    <text x="10.00" y="25.90" font-size="4.40" text-anchor="middle" fill="#222">PI-408</text>
+  </g>
+  <g transform="translate(220.00,97.00)" id="rfrag_region_2:n2:ti" class="node-g fragment-rfrag" data-loop-id="" data-fragment-id="rfrag_region_2">
+    <title>TI-508 (instrument:temperature)
+tag: TI-508</title>
+    <circle cx="10.00" cy="10.00" r="8.80" fill="#ffffff" stroke="#111111" stroke-width="1.0"/>
+    <line x1="1.20" y1="10.00" x2="18.80" y2="10.00" stroke="#111111" stroke-width="0.7"/>
+    <text x="10.00" y="12.28" font-size="6.00" text-anchor="middle" fill="#111111">TI</text>
+    <text x="10.00" y="25.90" font-size="4.40" text-anchor="middle" fill="#222">TI-508</text>
+  </g>
+  <g transform="translate(231.00,78.00)" id="rfrag_region_2:n3" class="node-g fragment-rfrag" data-loop-id="" data-fragment-id="rfrag_region_2">
+    <title>E-009 (equipment_block)
+tag: E-009
+equipment_type: vessel
+duty: process</title>
+    <rect x="0.00" y="0.00" width="80.00" height="60.00" fill="#ffffff" stroke="#111111" stroke-width="2.0" rx="4.00" ry="4.20"/>
+    <line x1="0.00" y1="49.20" x2="80.00" y2="49.20" stroke="#111111" stroke-width="0.8"/>
+    <text x="40.00" y="32.47" font-size="6.50" text-anchor="middle" fill="#111111" font-weight="bold">E-009</text>
+  </g>
+  <g transform="translate(315.00,73.00)" id="rfrag_region_2:n3:pi" class="node-g fragment-rfrag" data-loop-id="" data-fragment-id="rfrag_region_2">
+    <title>PI-409 (instrument:pressure)
+tag: PI-409</title>
+    <circle cx="10.00" cy="10.00" r="8.80" fill="#ffffff" stroke="#111111" stroke-width="1.0"/>
+    <line x1="1.20" y1="10.00" x2="18.80" y2="10.00" stroke="#111111" stroke-width="0.7"/>
+    <text x="10.00" y="12.28" font-size="6.00" text-anchor="middle" fill="#111111">PI</text>
+    <text x="10.00" y="25.90" font-size="4.40" text-anchor="middle" fill="#222">PI-409</text>
+  </g>
+  <g transform="translate(315.00,97.00)" id="rfrag_region_2:n3:ti" class="node-g fragment-rfrag" data-loop-id="" data-fragment-id="rfrag_region_2">
+    <title>TI-509 (instrument:temperature)
+tag: TI-509</title>
+    <circle cx="10.00" cy="10.00" r="8.80" fill="#ffffff" stroke="#111111" stroke-width="1.0"/>
+    <line x1="1.20" y1="10.00" x2="18.80" y2="10.00" stroke="#111111" stroke-width="0.7"/>
+    <text x="10.00" y="12.28" font-size="6.00" text-anchor="middle" fill="#111111">TI</text>
+    <text x="10.00" y="25.90" font-size="4.40" text-anchor="middle" fill="#222">TI-509</text>
+  </g>
+  <g transform="translate(326.00,78.00)" id="rfrag_region_2:n4" class="node-g fragment-rfrag" data-loop-id="" data-fragment-id="rfrag_region_2">
+    <title>E-010 (equipment_block)
+tag: E-010
+equipment_type: vessel
+duty: process</title>
+    <rect x="0.00" y="0.00" width="80.00" height="60.00" fill="#ffffff" stroke="#111111" stroke-width="2.0" rx="4.00" ry="4.20"/>
+    <line x1="0.00" y1="49.20" x2="80.00" y2="49.20" stroke="#111111" stroke-width="0.8"/>
+    <text x="40.00" y="32.47" font-size="6.50" text-anchor="middle" fill="#111111" font-weight="bold">E-010</text>
+  </g>
+  <g transform="translate(410.00,73.00)" id="rfrag_region_2:n4:pi" class="node-g fragment-rfrag" data-loop-id="" data-fragment-id="rfrag_region_2">
+    <title>PI-410 (instrument:pressure)
+tag: PI-410</title>
+    <circle cx="10.00" cy="10.00" r="8.80" fill="#ffffff" stroke="#111111" stroke-width="1.0"/>
+    <line x1="1.20" y1="10.00" x2="18.80" y2="10.00" stroke="#111111" stroke-width="0.7"/>
+    <text x="10.00" y="12.28" font-size="6.00" text-anchor="middle" fill="#111111">PI</text>
+    <text x="10.00" y="25.90" font-size="4.40" text-anchor="middle" fill="#222">PI-410</text>
+  </g>
+  <g transform="translate(410.00,97.00)" id="rfrag_region_2:n4:ti" class="node-g fragment-rfrag" data-loop-id="" data-fragment-id="rfrag_region_2">
+    <title>TI-510 (instrument:temperature)
+tag: TI-510</title>
+    <circle cx="10.00" cy="10.00" r="8.80" fill="#ffffff" stroke="#111111" stroke-width="1.0"/>
+    <line x1="1.20" y1="10.00" x2="18.80" y2="10.00" stroke="#111111" stroke-width="0.7"/>
+    <text x="10.00" y="12.28" font-size="6.00" text-anchor="middle" fill="#111111">TI</text>
+    <text x="10.00" y="25.90" font-size="4.40" text-anchor="middle" fill="#222">TI-510</text>
+  </g>
+  <g transform="translate(421.00,78.00)" id="rfrag_region_2:n5" class="node-g fragment-rfrag" data-loop-id="" data-fragment-id="rfrag_region_2">
+    <title>E-011 (equipment_block)
+tag: E-011
+equipment_type: vessel
+duty: process</title>
+    <rect x="0.00" y="0.00" width="80.00" height="60.00" fill="#ffffff" stroke="#111111" stroke-width="2.0" rx="4.00" ry="4.20"/>
+    <line x1="0.00" y1="49.20" x2="80.00" y2="49.20" stroke="#111111" stroke-width="0.8"/>
+    <text x="40.00" y="32.47" font-size="6.50" text-anchor="middle" fill="#111111" font-weight="bold">E-011</text>
+  </g>
+  <g transform="translate(505.00,73.00)" id="rfrag_region_2:n5:pi" class="node-g fragment-rfrag" data-loop-id="" data-fragment-id="rfrag_region_2">
+    <title>PI-411 (instrument:pressure)
+tag: PI-411</title>
+    <circle cx="10.00" cy="10.00" r="8.80" fill="#ffffff" stroke="#111111" stroke-width="1.0"/>
+    <line x1="1.20" y1="10.00" x2="18.80" y2="10.00" stroke="#111111" stroke-width="0.7"/>
+    <text x="10.00" y="12.28" font-size="6.00" text-anchor="middle" fill="#111111">PI</text>
+    <text x="10.00" y="25.90" font-size="4.40" text-anchor="middle" fill="#222">PI-411</text>
+  </g>
+  <g transform="translate(505.00,97.00)" id="rfrag_region_2:n5:ti" class="node-g fragment-rfrag" data-loop-id="" data-fragment-id="rfrag_region_2">
+    <title>TI-511 (instrument:temperature)
+tag: TI-511</title>
+    <circle cx="10.00" cy="10.00" r="8.80" fill="#ffffff" stroke="#111111" stroke-width="1.0"/>
+    <line x1="1.20" y1="10.00" x2="18.80" y2="10.00" stroke="#111111" stroke-width="0.7"/>
+    <text x="10.00" y="12.28" font-size="6.00" text-anchor="middle" fill="#111111">TI</text>
+    <text x="10.00" y="25.90" font-size="4.40" text-anchor="middle" fill="#222">TI-511</text>
+  </g>
+  <g transform="translate(516.00,78.00)" id="rfrag_region_2:n6" class="node-g fragment-rfrag" data-loop-id="" data-fragment-id="rfrag_region_2">
+    <title>E-012 (equipment_block)
+tag: E-012
+equipment_type: vessel
+duty: process</title>
+    <rect x="0.00" y="0.00" width="80.00" height="60.00" fill="#ffffff" stroke="#111111" stroke-width="2.0" rx="4.00" ry="4.20"/>
+    <line x1="0.00" y1="49.20" x2="80.00" y2="49.20" stroke="#111111" stroke-width="0.8"/>
+    <text x="40.00" y="32.47" font-size="6.50" text-anchor="middle" fill="#111111" font-weight="bold">E-012</text>
+  </g>
+  <g transform="translate(600.00,73.00)" id="rfrag_region_2:n6:pi" class="node-g fragment-rfrag" data-loop-id="" data-fragment-id="rfrag_region_2">
+    <title>PI-412 (instrument:pressure)
+tag: PI-412</title>
+    <circle cx="10.00" cy="10.00" r="8.80" fill="#ffffff" stroke="#111111" stroke-width="1.0"/>
+    <line x1="1.20" y1="10.00" x2="18.80" y2="10.00" stroke="#111111" stroke-width="0.7"/>
+    <text x="10.00" y="12.28" font-size="6.00" text-anchor="middle" fill="#111111">PI</text>
+    <text x="10.00" y="25.90" font-size="4.40" text-anchor="middle" fill="#222">PI-412</text>
+  </g>
+  <g transform="translate(600.00,97.00)" id="rfrag_region_2:n6:ti" class="node-g fragment-rfrag" data-loop-id="" data-fragment-id="rfrag_region_2">
+    <title>TI-512 (instrument:temperature)
+tag: TI-512</title>
+    <circle cx="10.00" cy="10.00" r="8.80" fill="#ffffff" stroke="#111111" stroke-width="1.0"/>
+    <line x1="1.20" y1="10.00" x2="18.80" y2="10.00" stroke="#111111" stroke-width="0.7"/>
+    <text x="10.00" y="12.28" font-size="6.00" text-anchor="middle" fill="#111111">TI</text>
+    <text x="10.00" y="25.90" font-size="4.40" text-anchor="middle" fill="#222">TI-512</text>
+  </g>
+  <g transform="translate(611.00,78.00)" id="rfrag_region_2:n7" class="node-g fragment-rfrag" data-loop-id="" data-fragment-id="rfrag_region_2">
+    <title>E-013 (equipment_block)
+tag: E-013
+equipment_type: vessel
+duty: process</title>
+    <rect x="0.00" y="0.00" width="80.00" height="60.00" fill="#ffffff" stroke="#111111" stroke-width="2.0" rx="4.00" ry="4.20"/>
+    <line x1="0.00" y1="49.20" x2="80.00" y2="49.20" stroke="#111111" stroke-width="0.8"/>
+    <text x="40.00" y="32.47" font-size="6.50" text-anchor="middle" fill="#111111" font-weight="bold">E-013</text>
+  </g>
+  <g transform="translate(695.00,73.00)" id="rfrag_region_2:n7:pi" class="node-g fragment-rfrag" data-loop-id="" data-fragment-id="rfrag_region_2">
+    <title>PI-413 (instrument:pressure)
+tag: PI-413</title>
+    <circle cx="10.00" cy="10.00" r="8.80" fill="#ffffff" stroke="#111111" stroke-width="1.0"/>
+    <line x1="1.20" y1="10.00" x2="18.80" y2="10.00" stroke="#111111" stroke-width="0.7"/>
+    <text x="10.00" y="12.28" font-size="6.00" text-anchor="middle" fill="#111111">PI</text>
+    <text x="10.00" y="25.90" font-size="4.40" text-anchor="middle" fill="#222">PI-413</text>
+  </g>
+  <g transform="translate(695.00,97.00)" id="rfrag_region_2:n7:ti" class="node-g fragment-rfrag" data-loop-id="" data-fragment-id="rfrag_region_2">
+    <title>TI-513 (instrument:temperature)
+tag: TI-513</title>
+    <circle cx="10.00" cy="10.00" r="8.80" fill="#ffffff" stroke="#111111" stroke-width="1.0"/>
+    <line x1="1.20" y1="10.00" x2="18.80" y2="10.00" stroke="#111111" stroke-width="0.7"/>
+    <text x="10.00" y="12.28" font-size="6.00" text-anchor="middle" fill="#111111">TI</text>
+    <text x="10.00" y="25.90" font-size="4.40" text-anchor="middle" fill="#222">TI-513</text>
+  </g>
+  <g transform="translate(706.00,78.00)" id="rfrag_region_2:n8" class="node-g fragment-rfrag" data-loop-id="" data-fragment-id="rfrag_region_2">
+    <title>E-014 (equipment_block)
+tag: E-014
+equipment_type: vessel
+duty: process</title>
+    <rect x="0.00" y="0.00" width="80.00" height="60.00" fill="#ffffff" stroke="#111111" stroke-width="2.0" rx="4.00" ry="4.20"/>
+    <line x1="0.00" y1="49.20" x2="80.00" y2="49.20" stroke="#111111" stroke-width="0.8"/>
+    <text x="40.00" y="32.47" font-size="6.50" text-anchor="middle" fill="#111111" font-weight="bold">E-014</text>
+  </g>
+  <g transform="translate(790.00,73.00)" id="rfrag_region_2:n8:pi" class="node-g fragment-rfrag" data-loop-id="" data-fragment-id="rfrag_region_2">
+    <title>PI-414 (instrument:pressure)
+tag: PI-414</title>
+    <circle cx="10.00" cy="10.00" r="8.80" fill="#ffffff" stroke="#111111" stroke-width="1.0"/>
+    <line x1="1.20" y1="10.00" x2="18.80" y2="10.00" stroke="#111111" stroke-width="0.7"/>
+    <text x="10.00" y="12.28" font-size="6.00" text-anchor="middle" fill="#111111">PI</text>
+    <text x="10.00" y="25.90" font-size="4.40" text-anchor="middle" fill="#222">PI-414</text>
+  </g>
+  <g transform="translate(790.00,97.00)" id="rfrag_region_2:n8:ti" class="node-g fragment-rfrag" data-loop-id="" data-fragment-id="rfrag_region_2">
+    <title>TI-514 (instrument:temperature)
+tag: TI-514</title>
+    <circle cx="10.00" cy="10.00" r="8.80" fill="#ffffff" stroke="#111111" stroke-width="1.0"/>
+    <line x1="1.20" y1="10.00" x2="18.80" y2="10.00" stroke="#111111" stroke-width="0.7"/>
+    <text x="10.00" y="12.28" font-size="6.00" text-anchor="middle" fill="#111111">TI</text>
+    <text x="10.00" y="25.90" font-size="4.40" text-anchor="middle" fill="#222">TI-514</text>
+  </g>
+  <g transform="translate(801.00,78.00)" id="rfrag_region_2:n9" class="node-g fragment-rfrag" data-loop-id="" data-fragment-id="rfrag_region_2">
+    <title>E-015 (equipment_block)
+tag: E-015
+equipment_type: vessel
+duty: process</title>
+    <rect x="0.00" y="0.00" width="80.00" height="60.00" fill="#ffffff" stroke="#111111" stroke-width="2.0" rx="4.00" ry="4.20"/>
+    <line x1="0.00" y1="49.20" x2="80.00" y2="49.20" stroke="#111111" stroke-width="0.8"/>
+    <text x="40.00" y="32.47" font-size="6.50" text-anchor="middle" fill="#111111" font-weight="bold">E-015</text>
+  </g>
+  <g transform="translate(885.00,73.00)" id="rfrag_region_2:n9:pi" class="node-g fragment-rfrag" data-loop-id="" data-fragment-id="rfrag_region_2">
+    <title>PI-415 (instrument:pressure)
+tag: PI-415</title>
+    <circle cx="10.00" cy="10.00" r="8.80" fill="#ffffff" stroke="#111111" stroke-width="1.0"/>
+    <line x1="1.20" y1="10.00" x2="18.80" y2="10.00" stroke="#111111" stroke-width="0.7"/>
+    <text x="10.00" y="12.28" font-size="6.00" text-anchor="middle" fill="#111111">PI</text>
+    <text x="10.00" y="25.90" font-size="4.40" text-anchor="middle" fill="#222">PI-415</text>
+  </g>
+  <g transform="translate(885.00,97.00)" id="rfrag_region_2:n9:ti" class="node-g fragment-rfrag" data-loop-id="" data-fragment-id="rfrag_region_2">
+    <title>TI-515 (instrument:temperature)
+tag: TI-515</title>
+    <circle cx="10.00" cy="10.00" r="8.80" fill="#ffffff" stroke="#111111" stroke-width="1.0"/>
+    <line x1="1.20" y1="10.00" x2="18.80" y2="10.00" stroke="#111111" stroke-width="0.7"/>
+    <text x="10.00" y="12.28" font-size="6.00" text-anchor="middle" fill="#111111">TI</text>
+    <text x="10.00" y="25.90" font-size="4.40" text-anchor="middle" fill="#222">TI-515</text>
+  </g>
+  <g transform="translate(896.00,78.00)" id="rfrag_region_2:n10" class="node-g fragment-rfrag" data-loop-id="" data-fragment-id="rfrag_region_2">
+    <title>E-016 (equipment_block)
+tag: E-016
+equipment_type: vessel
+duty: process</title>
+    <rect x="0.00" y="0.00" width="80.00" height="60.00" fill="#ffffff" stroke="#111111" stroke-width="2.0" rx="4.00" ry="4.20"/>
+    <line x1="0.00" y1="49.20" x2="80.00" y2="49.20" stroke="#111111" stroke-width="0.8"/>
+    <text x="40.00" y="32.47" font-size="6.50" text-anchor="middle" fill="#111111" font-weight="bold">E-016</text>
+  </g>
+  <g transform="translate(980.00,73.00)" id="rfrag_region_2:n10:pi" class="node-g fragment-rfrag" data-loop-id="" data-fragment-id="rfrag_region_2">
+    <title>PI-416 (instrument:pressure)
+tag: PI-416</title>
+    <circle cx="10.00" cy="10.00" r="8.80" fill="#ffffff" stroke="#111111" stroke-width="1.0"/>
+    <line x1="1.20" y1="10.00" x2="18.80" y2="10.00" stroke="#111111" stroke-width="0.7"/>
+    <text x="10.00" y="12.28" font-size="6.00" text-anchor="middle" fill="#111111">PI</text>
+    <text x="10.00" y="25.90" font-size="4.40" text-anchor="middle" fill="#222">PI-416</text>
+  </g>
+  <g transform="translate(980.00,97.00)" id="rfrag_region_2:n10:ti" class="node-g fragment-rfrag" data-loop-id="" data-fragment-id="rfrag_region_2">
+    <title>TI-516 (instrument:temperature)
+tag: TI-516</title>
+    <circle cx="10.00" cy="10.00" r="8.80" fill="#ffffff" stroke="#111111" stroke-width="1.0"/>
+    <line x1="1.20" y1="10.00" x2="18.80" y2="10.00" stroke="#111111" stroke-width="0.7"/>
+    <text x="10.00" y="12.28" font-size="6.00" text-anchor="middle" fill="#111111">TI</text>
+    <text x="10.00" y="25.90" font-size="4.40" text-anchor="middle" fill="#222">TI-516</text>
+  </g>
+  <g transform="translate(991.00,78.00)" id="rfrag_region_2:n11" class="node-g fragment-rfrag" data-loop-id="" data-fragment-id="rfrag_region_2">
+    <title>E-017 (equipment_block)
+tag: E-017
+equipment_type: vessel
+duty: process</title>
+    <rect x="0.00" y="0.00" width="80.00" height="60.00" fill="#ffffff" stroke="#111111" stroke-width="2.0" rx="4.00" ry="4.20"/>
+    <line x1="0.00" y1="49.20" x2="80.00" y2="49.20" stroke="#111111" stroke-width="0.8"/>
+    <text x="40.00" y="32.47" font-size="6.50" text-anchor="middle" fill="#111111" font-weight="bold">E-017</text>
+  </g>
+  <g transform="translate(1075.00,73.00)" id="rfrag_region_2:n11:pi" class="node-g fragment-rfrag" data-loop-id="" data-fragment-id="rfrag_region_2">
+    <title>PI-417 (instrument:pressure)
+tag: PI-417</title>
+    <circle cx="10.00" cy="10.00" r="8.80" fill="#ffffff" stroke="#111111" stroke-width="1.0"/>
+    <line x1="1.20" y1="10.00" x2="18.80" y2="10.00" stroke="#111111" stroke-width="0.7"/>
+    <text x="10.00" y="12.28" font-size="6.00" text-anchor="middle" fill="#111111">PI</text>
+    <text x="10.00" y="25.90" font-size="4.40" text-anchor="middle" fill="#222">PI-417</text>
+  </g>
+  <g transform="translate(1075.00,97.00)" id="rfrag_region_2:n11:ti" class="node-g fragment-rfrag" data-loop-id="" data-fragment-id="rfrag_region_2">
+    <title>TI-517 (instrument:temperature)
+tag: TI-517</title>
+    <circle cx="10.00" cy="10.00" r="8.80" fill="#ffffff" stroke="#111111" stroke-width="1.0"/>
+    <line x1="1.20" y1="10.00" x2="18.80" y2="10.00" stroke="#111111" stroke-width="0.7"/>
+    <text x="10.00" y="12.28" font-size="6.00" text-anchor="middle" fill="#111111">TI</text>
+    <text x="10.00" y="25.90" font-size="4.40" text-anchor="middle" fill="#222">TI-517</text>
+  </g>
+  <g transform="translate(1086.00,78.00)" id="rfrag_region_2:n12" class="node-g fragment-rfrag" data-loop-id="" data-fragment-id="rfrag_region_2">
+    <title>E-018 (equipment_block)
+tag: E-018
+equipment_type: vessel
+duty: process</title>
+    <rect x="0.00" y="0.00" width="80.00" height="60.00" fill="#ffffff" stroke="#111111" stroke-width="2.0" rx="4.00" ry="4.20"/>
+    <line x1="0.00" y1="49.20" x2="80.00" y2="49.20" stroke="#111111" stroke-width="0.8"/>
+    <text x="40.00" y="32.47" font-size="6.50" text-anchor="middle" fill="#111111" font-weight="bold">E-018</text>
+  </g>
+  <g transform="translate(1170.00,73.00)" id="rfrag_region_2:n12:pi" class="node-g fragment-rfrag" data-loop-id="" data-fragment-id="rfrag_region_2">
+    <title>PI-418 (instrument:pressure)
+tag: PI-418</title>
+    <circle cx="10.00" cy="10.00" r="8.80" fill="#ffffff" stroke="#111111" stroke-width="1.0"/>
+    <line x1="1.20" y1="10.00" x2="18.80" y2="10.00" stroke="#111111" stroke-width="0.7"/>
+    <text x="10.00" y="12.28" font-size="6.00" text-anchor="middle" fill="#111111">PI</text>
+    <text x="10.00" y="25.90" font-size="4.40" text-anchor="middle" fill="#222">PI-418</text>
+  </g>
+  <g transform="translate(1170.00,97.00)" id="rfrag_region_2:n12:ti" class="node-g fragment-rfrag" data-loop-id="" data-fragment-id="rfrag_region_2">
+    <title>TI-518 (instrument:temperature)
+tag: TI-518</title>
+    <circle cx="10.00" cy="10.00" r="8.80" fill="#ffffff" stroke="#111111" stroke-width="1.0"/>
+    <line x1="1.20" y1="10.00" x2="18.80" y2="10.00" stroke="#111111" stroke-width="0.7"/>
+    <text x="10.00" y="12.28" font-size="6.00" text-anchor="middle" fill="#111111">TI</text>
+    <text x="10.00" y="25.90" font-size="4.40" text-anchor="middle" fill="#222">TI-518</text>
+  </g>
+  <g transform="translate(1181.00,78.00)" id="rfrag_region_2:n13" class="node-g fragment-rfrag" data-loop-id="" data-fragment-id="rfrag_region_2">
+    <title>E-019 (equipment_block)
+tag: E-019
+equipment_type: vessel
+duty: process</title>
+    <rect x="0.00" y="0.00" width="80.00" height="60.00" fill="#ffffff" stroke="#111111" stroke-width="2.0" rx="4.00" ry="4.20"/>
+    <line x1="0.00" y1="49.20" x2="80.00" y2="49.20" stroke="#111111" stroke-width="0.8"/>
+    <text x="40.00" y="32.47" font-size="6.50" text-anchor="middle" fill="#111111" font-weight="bold">E-019</text>
+  </g>
+  <g transform="translate(1265.00,73.00)" id="rfrag_region_2:n13:pi" class="node-g fragment-rfrag" data-loop-id="" data-fragment-id="rfrag_region_2">
+    <title>PI-419 (instrument:pressure)
+tag: PI-419</title>
+    <circle cx="10.00" cy="10.00" r="8.80" fill="#ffffff" stroke="#111111" stroke-width="1.0"/>
+    <line x1="1.20" y1="10.00" x2="18.80" y2="10.00" stroke="#111111" stroke-width="0.7"/>
+    <text x="10.00" y="12.28" font-size="6.00" text-anchor="middle" fill="#111111">PI</text>
+    <text x="10.00" y="25.90" font-size="4.40" text-anchor="middle" fill="#222">PI-419</text>
+  </g>
+  <g transform="translate(1265.00,97.00)" id="rfrag_region_2:n13:ti" class="node-g fragment-rfrag" data-loop-id="" data-fragment-id="rfrag_region_2">
+    <title>TI-519 (instrument:temperature)
+tag: TI-519</title>
+    <circle cx="10.00" cy="10.00" r="8.80" fill="#ffffff" stroke="#111111" stroke-width="1.0"/>
+    <line x1="1.20" y1="10.00" x2="18.80" y2="10.00" stroke="#111111" stroke-width="0.7"/>
+    <text x="10.00" y="12.28" font-size="6.00" text-anchor="middle" fill="#111111">TI</text>
+    <text x="10.00" y="25.90" font-size="4.40" text-anchor="middle" fill="#222">TI-519</text>
+  </g>
+  <g transform="translate(1276.00,78.00)" id="rfrag_region_2:n14" class="node-g fragment-rfrag" data-loop-id="" data-fragment-id="rfrag_region_2">
+    <title>E-020 (equipment_block)
+tag: E-020
+equipment_type: vessel
+duty: process</title>
+    <rect x="0.00" y="0.00" width="80.00" height="60.00" fill="#ffffff" stroke="#111111" stroke-width="2.0" rx="4.00" ry="4.20"/>
+    <line x1="0.00" y1="49.20" x2="80.00" y2="49.20" stroke="#111111" stroke-width="0.8"/>
+    <text x="40.00" y="32.47" font-size="6.50" text-anchor="middle" fill="#111111" font-weight="bold">E-020</text>
+  </g>
+  <g transform="translate(1360.00,73.00)" id="rfrag_region_2:n14:pi" class="node-g fragment-rfrag" data-loop-id="" data-fragment-id="rfrag_region_2">
+    <title>PI-420 (instrument:pressure)
+tag: PI-420</title>
+    <circle cx="10.00" cy="10.00" r="8.80" fill="#ffffff" stroke="#111111" stroke-width="1.0"/>
+    <line x1="1.20" y1="10.00" x2="18.80" y2="10.00" stroke="#111111" stroke-width="0.7"/>
+    <text x="10.00" y="12.28" font-size="6.00" text-anchor="middle" fill="#111111">PI</text>
+    <text x="10.00" y="25.90" font-size="4.40" text-anchor="middle" fill="#222">PI-420</text>
+  </g>
+  <g transform="translate(1360.00,97.00)" id="rfrag_region_2:n14:ti" class="node-g fragment-rfrag" data-loop-id="" data-fragment-id="rfrag_region_2">
+    <title>TI-520 (instrument:temperature)
+tag: TI-520</title>
+    <circle cx="10.00" cy="10.00" r="8.80" fill="#ffffff" stroke="#111111" stroke-width="1.0"/>
+    <line x1="1.20" y1="10.00" x2="18.80" y2="10.00" stroke="#111111" stroke-width="0.7"/>
+    <text x="10.00" y="12.28" font-size="6.00" text-anchor="middle" fill="#111111">TI</text>
+    <text x="10.00" y="25.90" font-size="4.40" text-anchor="middle" fill="#222">TI-520</text>
+  </g>
+  <g transform="translate(1371.00,86.00)" id="rfrag_region_2:n15" class="node-g fragment-rfrag" data-loop-id="" data-fragment-id="rfrag_region_2">
+    <title>FV-202 (valve:control)
+tag: FV-202
+fail_position: closed
+control_loop: True</title>
+    <polygon points="0.00,22.00 13.00,33.00 0.00,44.00" fill="#ffffff" stroke="#111111" stroke-width="1.2"/>
+    <polygon points="26.00,22.00 13.00,33.00 26.00,44.00" fill="#ffffff" stroke="#111111" stroke-width="1.2"/>
+    <line x1="13.00" y1="33.00" x2="13.00" y2="15.40" stroke="#111111" stroke-width="1.0"/>
+    <line x1="3.90" y1="15.40" x2="22.10" y2="15.40" stroke="#111111" stroke-width="2.5"/>
+    <polygon points="5.20,0.00 20.80,0.00 13.00,15.40" fill="#111111" stroke="#111111" stroke-width="0.8"/>
+    <text x="13.00" y="50.18" font-size="4.68" text-anchor="middle" fill="#222">FV-202</text>
+  </g>
+  <g transform="translate(1373.00,64.00)" id="rfrag_region_2:n15:act" class="node-g fragment-rfrag" data-loop-id="" data-fragment-id="rfrag_region_2">
+    <title>ACT-202 (actuator:pneumatic)
+tag: ACT-202</title>
+    <polygon points="2.20,0.90 19.80,0.90 11.00,18.00" fill="#111111" stroke="#111111" stroke-width="0.8"/>
+    <line x1="1.10" y1="0.90" x2="20.90" y2="0.90" stroke="#111111" stroke-width="3.0"/>
+    <text x="11.00" y="23.46" font-size="3.96" text-anchor="middle" fill="#222">ACT-202</text>
+  </g>
+  <g transform="translate(1374.00,40.00)" id="rfrag_region_2:n15:fc" class="node-g fragment-rfrag" data-loop-id="" data-fragment-id="rfrag_region_2">
+    <title>FC-202 (instrument:controller)
+tag: FC-202</title>
+    <circle cx="10.00" cy="10.00" r="8.80" fill="#ffffff" stroke="#111111" stroke-width="1.0"/>
+    <line x1="1.20" y1="10.00" x2="18.80" y2="10.00" stroke="#111111" stroke-width="0.7"/>
+    <text x="10.00" y="12.28" font-size="6.00" text-anchor="middle" fill="#111111">FC</text>
+    <text x="10.00" y="25.90" font-size="4.40" text-anchor="middle" fill="#222">FC-202</text>
+  </g>
+  <g transform="translate(206.00,363.50)" id="rfrag_region_3:n0" class="node-g fragment-rfrag" data-loop-id="" data-fragment-id="rfrag_region_3">
+    <title>L-106-A (pipe_segment)
+line_id: L-106-A
+size: 4in
+spec: CS150
+service: Process
+flow_direction: forward</title>
+    <text x="20.00" y="3.50" font-size="4.20" text-anchor="middle" fill="#444">L-106-A</text>
+  </g>
+  <g transform="translate(261.00,358.00)" id="rfrag_region_3:n1" class="node-g fragment-rfrag" data-loop-id="" data-fragment-id="rfrag_region_3">
+    <title>XV-103 (valve:isolation)
+tag: XV-103
+valve_type: gate
+normally_open: True
+fail_position: closed</title>
+    <polygon points="0.00,0.00 13.00,13.00 0.00,26.00" fill="#ffffff" stroke="#111111" stroke-width="1.2"/>
+    <polygon points="26.00,0.00 13.00,13.00 26.00,26.00" fill="#ffffff" stroke="#111111" stroke-width="1.2"/>
+    <line x1="13.00" y1="13.00" x2="13.00" y2="1.82" stroke="#111111" stroke-width="1.0"/>
+    <line x1="6.50" y1="1.82" x2="19.50" y2="1.82" stroke="#111111" stroke-width="2.5"/>
+    <text x="13.00" y="32.18" font-size="4.68" text-anchor="middle" fill="#222">XV-103</text>
+  </g>
+  <g transform="translate(265.00,388.00)" id="rfrag_region_3:n1:drain" class="node-g fragment-rfrag" data-loop-id="" data-fragment-id="rfrag_region_3">
+    <title>DR-603 (valve:drain)
+tag: DR-603
+normally_closed: True</title>
+    <polygon points="2.70,0.00 15.30,0.00 9.00,18.00" fill="#ffffff" stroke="#111111" stroke-width="1.2"/>
+    <text x="9.00" y="22.74" font-size="3.24" text-anchor="middle" fill="#222">DR-603</text>
+  </g>
+  <g transform="translate(302.00,363.50)" id="rfrag_region_3:n2" class="node-g fragment-rfrag" data-loop-id="" data-fragment-id="rfrag_region_3">
+    <title>L-107-A (pipe_segment)
+line_id: L-107-A
+size: 4in
+spec: CS150
+service: Process
+flow_direction: forward</title>
+    <text x="20.00" y="3.50" font-size="4.20" text-anchor="middle" fill="#444">L-107-A</text>
+  </g>
+  <g transform="translate(372.00,363.50)" id="rfrag_region_4:n0" class="node-g fragment-rfrag" data-loop-id="" data-fragment-id="rfrag_region_4">
+    <title>L-108-A (pipe_segment)
+line_id: L-108-A
+size: 4in
+spec: CS150
+service: Process
+flow_direction: forward</title>
+    <text x="20.00" y="3.50" font-size="4.20" text-anchor="middle" fill="#444">L-108-A</text>
+  </g>
+  <g transform="translate(427.00,358.00)" id="rfrag_region_4:n1" class="node-g fragment-rfrag" data-loop-id="" data-fragment-id="rfrag_region_4">
+    <title>XV-104 (valve:isolation)
+tag: XV-104
+valve_type: gate
+normally_open: True
+fail_position: closed</title>
+    <polygon points="0.00,0.00 13.00,13.00 0.00,26.00" fill="#ffffff" stroke="#111111" stroke-width="1.2"/>
+    <polygon points="26.00,0.00 13.00,13.00 26.00,26.00" fill="#ffffff" stroke="#111111" stroke-width="1.2"/>
+    <line x1="13.00" y1="13.00" x2="13.00" y2="1.82" stroke="#111111" stroke-width="1.0"/>
+    <line x1="6.50" y1="1.82" x2="19.50" y2="1.82" stroke="#111111" stroke-width="2.5"/>
+    <text x="13.00" y="32.18" font-size="4.68" text-anchor="middle" fill="#222">XV-104</text>
+  </g>
+  <g transform="translate(431.00,388.00)" id="rfrag_region_4:n1:drain" class="node-g fragment-rfrag" data-loop-id="" data-fragment-id="rfrag_region_4">
+    <title>DR-604 (valve:drain)
+tag: DR-604
+normally_closed: True</title>
+    <polygon points="2.70,0.00 15.30,0.00 9.00,18.00" fill="#ffffff" stroke="#111111" stroke-width="1.2"/>
+    <text x="9.00" y="22.74" font-size="3.24" text-anchor="middle" fill="#222">DR-604</text>
+  </g>
+  <g transform="translate(468.00,363.50)" id="rfrag_region_4:n2" class="node-g fragment-rfrag" data-loop-id="" data-fragment-id="rfrag_region_4">
+    <title>L-109-A (pipe_segment)
+line_id: L-109-A
+size: 4in
+spec: CS150
+service: Process
+flow_direction: forward</title>
+    <text x="20.00" y="3.50" font-size="4.20" text-anchor="middle" fill="#444">L-109-A</text>
+  </g>
+  <g transform="translate(538.00,380.50)" id="rfrag_region_5:n0" class="node-g fragment-rfrag" data-loop-id="" data-fragment-id="rfrag_region_5">
+    <title>L-110-A (pipe_segment)
+line_id: L-110-A
+size: 4in
+spec: CS150
+service: Process
+flow_direction: forward</title>
+    <text x="20.00" y="3.50" font-size="4.20" text-anchor="middle" fill="#444">L-110-A</text>
+  </g>
+  <g transform="translate(593.00,358.00)" id="rfrag_region_5:n1" class="node-g fragment-rfrag" data-loop-id="" data-fragment-id="rfrag_region_5">
+    <title>E-021 (equipment_block)
+tag: E-021
+equipment_type: vessel
+duty: process</title>
+    <rect x="0.00" y="0.00" width="80.00" height="60.00" fill="#ffffff" stroke="#111111" stroke-width="2.0" rx="4.00" ry="4.20"/>
+    <line x1="0.00" y1="49.20" x2="80.00" y2="49.20" stroke="#111111" stroke-width="0.8"/>
+    <text x="40.00" y="32.47" font-size="6.50" text-anchor="middle" fill="#111111" font-weight="bold">E-021</text>
+  </g>
+  <g transform="translate(677.00,353.00)" id="rfrag_region_5:n1:pi" class="node-g fragment-rfrag" data-loop-id="" data-fragment-id="rfrag_region_5">
+    <title>PI-421 (instrument:pressure)
+tag: PI-421</title>
+    <circle cx="10.00" cy="10.00" r="8.80" fill="#ffffff" stroke="#111111" stroke-width="1.0"/>
+    <line x1="1.20" y1="10.00" x2="18.80" y2="10.00" stroke="#111111" stroke-width="0.7"/>
+    <text x="10.00" y="12.28" font-size="6.00" text-anchor="middle" fill="#111111">PI</text>
+    <text x="10.00" y="25.90" font-size="4.40" text-anchor="middle" fill="#222">PI-421</text>
+  </g>
+  <g transform="translate(677.00,377.00)" id="rfrag_region_5:n1:ti" class="node-g fragment-rfrag" data-loop-id="" data-fragment-id="rfrag_region_5">
+    <title>TI-521 (instrument:temperature)
+tag: TI-521</title>
+    <circle cx="10.00" cy="10.00" r="8.80" fill="#ffffff" stroke="#111111" stroke-width="1.0"/>
+    <line x1="1.20" y1="10.00" x2="18.80" y2="10.00" stroke="#111111" stroke-width="0.7"/>
+    <text x="10.00" y="12.28" font-size="6.00" text-anchor="middle" fill="#111111">TI</text>
+    <text x="10.00" y="25.90" font-size="4.40" text-anchor="middle" fill="#222">TI-521</text>
+  </g>
+  <g transform="translate(688.00,380.50)" id="rfrag_region_5:n2" class="node-g fragment-rfrag" data-loop-id="" data-fragment-id="rfrag_region_5">
+    <title>L-111-A (pipe_segment)
+line_id: L-111-A
+size: 4in
+spec: CS150
+service: Process
+flow_direction: forward</title>
+    <text x="20.00" y="3.50" font-size="4.20" text-anchor="middle" fill="#444">L-111-A</text>
+  </g>
+  <g transform="translate(1759.00,83.50)" id="rfrag_region_6:n0" class="node-g fragment-rfrag" data-loop-id="" data-fragment-id="rfrag_region_6">
+    <title>L-112-A (pipe_segment)
+line_id: L-112-A
+size: 4in
+spec: CS150
+service: Process
+flow_direction: forward</title>
+    <text x="20.00" y="3.50" font-size="4.20" text-anchor="middle" fill="#444">L-112-A</text>
+  </g>
+  <g transform="translate(1814.00,78.00)" id="rfrag_region_6:n1" class="node-g fragment-rfrag" data-loop-id="" data-fragment-id="rfrag_region_6">
+    <title>XV-105 (valve:isolation)
+tag: XV-105
+valve_type: gate
+normally_open: True
+fail_position: closed</title>
+    <polygon points="0.00,0.00 13.00,13.00 0.00,26.00" fill="#ffffff" stroke="#111111" stroke-width="1.2"/>
+    <polygon points="26.00,0.00 13.00,13.00 26.00,26.00" fill="#ffffff" stroke="#111111" stroke-width="1.2"/>
+    <line x1="13.00" y1="13.00" x2="13.00" y2="1.82" stroke="#111111" stroke-width="1.0"/>
+    <line x1="6.50" y1="1.82" x2="19.50" y2="1.82" stroke="#111111" stroke-width="2.5"/>
+    <text x="13.00" y="32.18" font-size="4.68" text-anchor="middle" fill="#222">XV-105</text>
+  </g>
+  <g transform="translate(1818.00,108.00)" id="rfrag_region_6:n1:drain" class="node-g fragment-rfrag" data-loop-id="" data-fragment-id="rfrag_region_6">
+    <title>DR-605 (valve:drain)
+tag: DR-605
+normally_closed: True</title>
+    <polygon points="2.70,0.00 15.30,0.00 9.00,18.00" fill="#ffffff" stroke="#111111" stroke-width="1.2"/>
+    <text x="9.00" y="22.74" font-size="3.24" text-anchor="middle" fill="#222">DR-605</text>
+  </g>
+  <g transform="translate(1855.00,83.50)" id="rfrag_region_6:n2" class="node-g fragment-rfrag" data-loop-id="" data-fragment-id="rfrag_region_6">
+    <title>L-113-A (pipe_segment)
+line_id: L-113-A
+size: 4in
+spec: CS150
+service: Process
+flow_direction: forward</title>
+    <text x="20.00" y="3.50" font-size="4.20" text-anchor="middle" fill="#444">L-113-A</text>
+  </g>
+  <g transform="translate(758.00,363.50)" id="rfrag_region_7:n0" class="node-g fragment-rfrag" data-loop-id="" data-fragment-id="rfrag_region_7">
+    <title>L-114-A (pipe_segment)
+line_id: L-114-A
+size: 4in
+spec: CS150
+service: Process
+flow_direction: forward</title>
+    <text x="20.00" y="3.50" font-size="4.20" text-anchor="middle" fill="#444">L-114-A</text>
+  </g>
+  <g transform="translate(813.00,358.00)" id="rfrag_region_7:n1" class="node-g fragment-rfrag" data-loop-id="" data-fragment-id="rfrag_region_7">
+    <title>XV-106 (valve:isolation)
+tag: XV-106
+valve_type: gate
+normally_open: True
+fail_position: closed</title>
+    <polygon points="0.00,0.00 13.00,13.00 0.00,26.00" fill="#ffffff" stroke="#111111" stroke-width="1.2"/>
+    <polygon points="26.00,0.00 13.00,13.00 26.00,26.00" fill="#ffffff" stroke="#111111" stroke-width="1.2"/>
+    <line x1="13.00" y1="13.00" x2="13.00" y2="1.82" stroke="#111111" stroke-width="1.0"/>
+    <line x1="6.50" y1="1.82" x2="19.50" y2="1.82" stroke="#111111" stroke-width="2.5"/>
+    <text x="13.00" y="32.18" font-size="4.68" text-anchor="middle" fill="#222">XV-106</text>
+  </g>
+  <g transform="translate(817.00,388.00)" id="rfrag_region_7:n1:drain" class="node-g fragment-rfrag" data-loop-id="" data-fragment-id="rfrag_region_7">
+    <title>DR-606 (valve:drain)
+tag: DR-606
+normally_closed: True</title>
+    <polygon points="2.70,0.00 15.30,0.00 9.00,18.00" fill="#ffffff" stroke="#111111" stroke-width="1.2"/>
+    <text x="9.00" y="22.74" font-size="3.24" text-anchor="middle" fill="#222">DR-606</text>
+  </g>
+  <g transform="translate(854.00,363.50)" id="rfrag_region_7:n2" class="node-g fragment-rfrag" data-loop-id="" data-fragment-id="rfrag_region_7">
+    <title>L-115-A (pipe_segment)
+line_id: L-115-A
+size: 4in
+spec: CS150
+service: Process
+flow_direction: forward</title>
+    <text x="20.00" y="3.50" font-size="4.20" text-anchor="middle" fill="#444">L-115-A</text>
+  </g>
+  <g transform="translate(924.00,363.50)" id="rfrag_region_8:n0" class="node-g fragment-rfrag" data-loop-id="" data-fragment-id="rfrag_region_8">
+    <title>L-116-A (pipe_segment)
+line_id: L-116-A
+size: 4in
+spec: CS150
+service: Process
+flow_direction: forward</title>
+    <text x="20.00" y="3.50" font-size="4.20" text-anchor="middle" fill="#444">L-116-A</text>
+  </g>
+  <g transform="translate(979.00,358.00)" id="rfrag_region_8:n1" class="node-g fragment-rfrag" data-loop-id="" data-fragment-id="rfrag_region_8">
+    <title>XV-107 (valve:isolation)
+tag: XV-107
+valve_type: gate
+normally_open: True
+fail_position: closed</title>
+    <polygon points="0.00,0.00 13.00,13.00 0.00,26.00" fill="#ffffff" stroke="#111111" stroke-width="1.2"/>
+    <polygon points="26.00,0.00 13.00,13.00 26.00,26.00" fill="#ffffff" stroke="#111111" stroke-width="1.2"/>
+    <line x1="13.00" y1="13.00" x2="13.00" y2="1.82" stroke="#111111" stroke-width="1.0"/>
+    <line x1="6.50" y1="1.82" x2="19.50" y2="1.82" stroke="#111111" stroke-width="2.5"/>
+    <text x="13.00" y="32.18" font-size="4.68" text-anchor="middle" fill="#222">XV-107</text>
+  </g>
+  <g transform="translate(983.00,388.00)" id="rfrag_region_8:n1:drain" class="node-g fragment-rfrag" data-loop-id="" data-fragment-id="rfrag_region_8">
+    <title>DR-607 (valve:drain)
+tag: DR-607
+normally_closed: True</title>
+    <polygon points="2.70,0.00 15.30,0.00 9.00,18.00" fill="#ffffff" stroke="#111111" stroke-width="1.2"/>
+    <text x="9.00" y="22.74" font-size="3.24" text-anchor="middle" fill="#222">DR-607</text>
+  </g>
+  <g transform="translate(1020.00,363.50)" id="rfrag_region_8:n2" class="node-g fragment-rfrag" data-loop-id="" data-fragment-id="rfrag_region_8">
+    <title>L-117-A (pipe_segment)
+line_id: L-117-A
+size: 4in
+spec: CS150
+service: Process
+flow_direction: forward</title>
+    <text x="20.00" y="3.50" font-size="4.20" text-anchor="middle" fill="#444">L-117-A</text>
+  </g>
+  <g transform="translate(2091.00,83.50)" id="rfrag_region_9:n0" class="node-g fragment-rfrag" data-loop-id="" data-fragment-id="rfrag_region_9">
+    <title>L-118-A (pipe_segment)
+line_id: L-118-A
+size: 4in
+spec: CS150
+service: Process
+flow_direction: forward</title>
+    <text x="20.00" y="3.50" font-size="4.20" text-anchor="middle" fill="#444">L-118-A</text>
+  </g>
+  <g transform="translate(2146.00,78.00)" id="rfrag_region_9:n1" class="node-g fragment-rfrag" data-loop-id="" data-fragment-id="rfrag_region_9">
+    <title>XV-108 (valve:isolation)
+tag: XV-108
+valve_type: gate
+normally_open: True
+fail_position: closed</title>
+    <polygon points="0.00,0.00 13.00,13.00 0.00,26.00" fill="#ffffff" stroke="#111111" stroke-width="1.2"/>
+    <polygon points="26.00,0.00 13.00,13.00 26.00,26.00" fill="#ffffff" stroke="#111111" stroke-width="1.2"/>
+    <line x1="13.00" y1="13.00" x2="13.00" y2="1.82" stroke="#111111" stroke-width="1.0"/>
+    <line x1="6.50" y1="1.82" x2="19.50" y2="1.82" stroke="#111111" stroke-width="2.5"/>
+    <text x="13.00" y="32.18" font-size="4.68" text-anchor="middle" fill="#222">XV-108</text>
+  </g>
+  <g transform="translate(2150.00,108.00)" id="rfrag_region_9:n1:drain" class="node-g fragment-rfrag" data-loop-id="" data-fragment-id="rfrag_region_9">
+    <title>DR-608 (valve:drain)
+tag: DR-608
+normally_closed: True</title>
+    <polygon points="2.70,0.00 15.30,0.00 9.00,18.00" fill="#ffffff" stroke="#111111" stroke-width="1.2"/>
+    <text x="9.00" y="22.74" font-size="3.24" text-anchor="middle" fill="#222">DR-608</text>
+  </g>
+  <g transform="translate(2187.00,83.50)" id="rfrag_region_9:n2" class="node-g fragment-rfrag" data-loop-id="" data-fragment-id="rfrag_region_9">
+    <title>L-119-A (pipe_segment)
+line_id: L-119-A
+size: 4in
+spec: CS150
+service: Process
+flow_direction: forward</title>
+    <text x="20.00" y="3.50" font-size="4.20" text-anchor="middle" fill="#444">L-119-A</text>
+  </g>
+  <g transform="translate(1090.00,380.50)" id="rfrag_region_10:n0" class="node-g fragment-rfrag" data-loop-id="" data-fragment-id="rfrag_region_10">
+    <title>L-120-A (pipe_segment)
+line_id: L-120-A
+size: 4in
+spec: CS150
+service: Process
+flow_direction: forward</title>
+    <text x="20.00" y="3.50" font-size="4.20" text-anchor="middle" fill="#444">L-120-A</text>
+  </g>
+  <g transform="translate(1145.00,358.00)" id="rfrag_region_10:n1" class="node-g fragment-rfrag" data-loop-id="" data-fragment-id="rfrag_region_10">
+    <title>E-022 (equipment_block)
+tag: E-022
+equipment_type: vessel
+duty: process</title>
+    <rect x="0.00" y="0.00" width="80.00" height="60.00" fill="#ffffff" stroke="#111111" stroke-width="2.0" rx="4.00" ry="4.20"/>
+    <line x1="0.00" y1="49.20" x2="80.00" y2="49.20" stroke="#111111" stroke-width="0.8"/>
+    <text x="40.00" y="32.47" font-size="6.50" text-anchor="middle" fill="#111111" font-weight="bold">E-022</text>
+  </g>
+  <g transform="translate(1229.00,353.00)" id="rfrag_region_10:n1:pi" class="node-g fragment-rfrag" data-loop-id="" data-fragment-id="rfrag_region_10">
+    <title>PI-422 (instrument:pressure)
+tag: PI-422</title>
+    <circle cx="10.00" cy="10.00" r="8.80" fill="#ffffff" stroke="#111111" stroke-width="1.0"/>
+    <line x1="1.20" y1="10.00" x2="18.80" y2="10.00" stroke="#111111" stroke-width="0.7"/>
+    <text x="10.00" y="12.28" font-size="6.00" text-anchor="middle" fill="#111111">PI</text>
+    <text x="10.00" y="25.90" font-size="4.40" text-anchor="middle" fill="#222">PI-422</text>
+  </g>
+  <g transform="translate(1229.00,377.00)" id="rfrag_region_10:n1:ti" class="node-g fragment-rfrag" data-loop-id="" data-fragment-id="rfrag_region_10">
+    <title>TI-522 (instrument:temperature)
+tag: TI-522</title>
+    <circle cx="10.00" cy="10.00" r="8.80" fill="#ffffff" stroke="#111111" stroke-width="1.0"/>
+    <line x1="1.20" y1="10.00" x2="18.80" y2="10.00" stroke="#111111" stroke-width="0.7"/>
+    <text x="10.00" y="12.28" font-size="6.00" text-anchor="middle" fill="#111111">TI</text>
+    <text x="10.00" y="25.90" font-size="4.40" text-anchor="middle" fill="#222">TI-522</text>
+  </g>
+  <g transform="translate(1240.00,380.50)" id="rfrag_region_10:n2" class="node-g fragment-rfrag" data-loop-id="" data-fragment-id="rfrag_region_10">
+    <title>L-121-A (pipe_segment)
+line_id: L-121-A
+size: 4in
+spec: CS150
+service: Process
+flow_direction: forward</title>
+    <text x="20.00" y="3.50" font-size="4.20" text-anchor="middle" fill="#444">L-121-A</text>
+  </g>
+  <g transform="translate(1310.00,380.50)" id="rfrag_region_11:n0" class="node-g fragment-rfrag" data-loop-id="" data-fragment-id="rfrag_region_11">
+    <title>L-122-A (pipe_segment)
+line_id: L-122-A
+size: 4in
+spec: CS150
+service: Process
+flow_direction: forward</title>
+    <text x="20.00" y="3.50" font-size="4.20" text-anchor="middle" fill="#444">L-122-A</text>
+  </g>
+  <g transform="translate(1365.00,358.00)" id="rfrag_region_11:n1" class="node-g fragment-rfrag" data-loop-id="" data-fragment-id="rfrag_region_11">
+    <title>E-023 (equipment_block)
+tag: E-023
+equipment_type: vessel
+duty: process</title>
+    <rect x="0.00" y="0.00" width="80.00" height="60.00" fill="#ffffff" stroke="#111111" stroke-width="2.0" rx="4.00" ry="4.20"/>
+    <line x1="0.00" y1="49.20" x2="80.00" y2="49.20" stroke="#111111" stroke-width="0.8"/>
+    <text x="40.00" y="32.47" font-size="6.50" text-anchor="middle" fill="#111111" font-weight="bold">E-023</text>
+  </g>
+  <g transform="translate(1449.00,353.00)" id="rfrag_region_11:n1:pi" class="node-g fragment-rfrag" data-loop-id="" data-fragment-id="rfrag_region_11">
+    <title>PI-423 (instrument:pressure)
+tag: PI-423</title>
+    <circle cx="10.00" cy="10.00" r="8.80" fill="#ffffff" stroke="#111111" stroke-width="1.0"/>
+    <line x1="1.20" y1="10.00" x2="18.80" y2="10.00" stroke="#111111" stroke-width="0.7"/>
+    <text x="10.00" y="12.28" font-size="6.00" text-anchor="middle" fill="#111111">PI</text>
+    <text x="10.00" y="25.90" font-size="4.40" text-anchor="middle" fill="#222">PI-423</text>
+  </g>
+  <g transform="translate(1449.00,377.00)" id="rfrag_region_11:n1:ti" class="node-g fragment-rfrag" data-loop-id="" data-fragment-id="rfrag_region_11">
+    <title>TI-523 (instrument:temperature)
+tag: TI-523</title>
+    <circle cx="10.00" cy="10.00" r="8.80" fill="#ffffff" stroke="#111111" stroke-width="1.0"/>
+    <line x1="1.20" y1="10.00" x2="18.80" y2="10.00" stroke="#111111" stroke-width="0.7"/>
+    <text x="10.00" y="12.28" font-size="6.00" text-anchor="middle" fill="#111111">TI</text>
+    <text x="10.00" y="25.90" font-size="4.40" text-anchor="middle" fill="#222">TI-523</text>
+  </g>
+  <g transform="translate(1460.00,380.50)" id="rfrag_region_11:n2" class="node-g fragment-rfrag" data-loop-id="" data-fragment-id="rfrag_region_11">
+    <title>L-123-A (pipe_segment)
+line_id: L-123-A
+size: 4in
+spec: CS150
+service: Process
+flow_direction: forward</title>
+    <text x="20.00" y="3.50" font-size="4.20" text-anchor="middle" fill="#444">L-123-A</text>
+  </g>
+  <g transform="translate(1530.00,363.50)" id="rfrag_region_12:n0" class="node-g fragment-rfrag" data-loop-id="" data-fragment-id="rfrag_region_12">
+    <title>L-124-A (pipe_segment)
+line_id: L-124-A
+size: 4in
+spec: CS150
+service: Process
+flow_direction: forward</title>
+    <text x="20.00" y="3.50" font-size="4.20" text-anchor="middle" fill="#444">L-124-A</text>
+  </g>
+  <g transform="translate(1585.00,358.00)" id="rfrag_region_12:n1" class="node-g fragment-rfrag" data-loop-id="" data-fragment-id="rfrag_region_12">
+    <title>XV-109 (valve:isolation)
+tag: XV-109
+valve_type: gate
+normally_open: True
+fail_position: closed</title>
+    <polygon points="0.00,0.00 13.00,13.00 0.00,26.00" fill="#ffffff" stroke="#111111" stroke-width="1.2"/>
+    <polygon points="26.00,0.00 13.00,13.00 26.00,26.00" fill="#ffffff" stroke="#111111" stroke-width="1.2"/>
+    <line x1="13.00" y1="13.00" x2="13.00" y2="1.82" stroke="#111111" stroke-width="1.0"/>
+    <line x1="6.50" y1="1.82" x2="19.50" y2="1.82" stroke="#111111" stroke-width="2.5"/>
+    <text x="13.00" y="32.18" font-size="4.68" text-anchor="middle" fill="#222">XV-109</text>
+  </g>
+  <g transform="translate(1589.00,388.00)" id="rfrag_region_12:n1:drain" class="node-g fragment-rfrag" data-loop-id="" data-fragment-id="rfrag_region_12">
+    <title>DR-609 (valve:drain)
+tag: DR-609
+normally_closed: True</title>
+    <polygon points="2.70,0.00 15.30,0.00 9.00,18.00" fill="#ffffff" stroke="#111111" stroke-width="1.2"/>
+    <text x="9.00" y="22.74" font-size="3.24" text-anchor="middle" fill="#222">DR-609</text>
+  </g>
+  <g transform="translate(1626.00,363.50)" id="rfrag_region_12:n2" class="node-g fragment-rfrag" data-loop-id="" data-fragment-id="rfrag_region_12">
+    <title>L-125-A (pipe_segment)
+line_id: L-125-A
+size: 4in
+spec: CS150
+service: Process
+flow_direction: forward</title>
+    <text x="20.00" y="3.50" font-size="4.20" text-anchor="middle" fill="#444">L-125-A</text>
+  </g>
+  <g transform="translate(1696.00,380.50)" id="rfrag_region_13:n0" class="node-g fragment-rfrag" data-loop-id="" data-fragment-id="rfrag_region_13">
+    <title>L-126-A (pipe_segment)
+line_id: L-126-A
+size: 4in
+spec: CS150
+service: Process
+flow_direction: forward</title>
+    <text x="20.00" y="3.50" font-size="4.20" text-anchor="middle" fill="#444">L-126-A</text>
+  </g>
+  <g transform="translate(1751.00,358.00)" id="rfrag_region_13:n1" class="node-g fragment-rfrag" data-loop-id="" data-fragment-id="rfrag_region_13">
+    <title>E-024 (equipment_block)
+tag: E-024
+equipment_type: vessel
+duty: process</title>
+    <rect x="0.00" y="0.00" width="80.00" height="60.00" fill="#ffffff" stroke="#111111" stroke-width="2.0" rx="4.00" ry="4.20"/>
+    <line x1="0.00" y1="49.20" x2="80.00" y2="49.20" stroke="#111111" stroke-width="0.8"/>
+    <text x="40.00" y="32.47" font-size="6.50" text-anchor="middle" fill="#111111" font-weight="bold">E-024</text>
+  </g>
+  <g transform="translate(1835.00,353.00)" id="rfrag_region_13:n1:pi" class="node-g fragment-rfrag" data-loop-id="" data-fragment-id="rfrag_region_13">
+    <title>PI-424 (instrument:pressure)
+tag: PI-424</title>
+    <circle cx="10.00" cy="10.00" r="8.80" fill="#ffffff" stroke="#111111" stroke-width="1.0"/>
+    <line x1="1.20" y1="10.00" x2="18.80" y2="10.00" stroke="#111111" stroke-width="0.7"/>
+    <text x="10.00" y="12.28" font-size="6.00" text-anchor="middle" fill="#111111">PI</text>
+    <text x="10.00" y="25.90" font-size="4.40" text-anchor="middle" fill="#222">PI-424</text>
+  </g>
+  <g transform="translate(1835.00,377.00)" id="rfrag_region_13:n1:ti" class="node-g fragment-rfrag" data-loop-id="" data-fragment-id="rfrag_region_13">
+    <title>TI-524 (instrument:temperature)
+tag: TI-524</title>
+    <circle cx="10.00" cy="10.00" r="8.80" fill="#ffffff" stroke="#111111" stroke-width="1.0"/>
+    <line x1="1.20" y1="10.00" x2="18.80" y2="10.00" stroke="#111111" stroke-width="0.7"/>
+    <text x="10.00" y="12.28" font-size="6.00" text-anchor="middle" fill="#111111">TI</text>
+    <text x="10.00" y="25.90" font-size="4.40" text-anchor="middle" fill="#222">TI-524</text>
+  </g>
+  <g transform="translate(1846.00,380.50)" id="rfrag_region_13:n2" class="node-g fragment-rfrag" data-loop-id="" data-fragment-id="rfrag_region_13">
+    <title>L-127-A (pipe_segment)
+line_id: L-127-A
+size: 4in
+spec: CS150
+service: Process
+flow_direction: forward</title>
+    <text x="20.00" y="3.50" font-size="4.20" text-anchor="middle" fill="#444">L-127-A</text>
+  </g>
+  <g transform="translate(1593.00,83.50)" id="rfrag_region_14:n0" class="node-g fragment-rfrag" data-loop-id="" data-fragment-id="rfrag_region_14">
+    <title>L-128-A (pipe_segment)
+line_id: L-128-A
+size: 4in
+spec: CS150
+service: Process
+flow_direction: forward</title>
+    <text x="20.00" y="3.50" font-size="4.20" text-anchor="middle" fill="#444">L-128-A</text>
+  </g>
+  <g transform="translate(1648.00,78.00)" id="rfrag_region_14:n1" class="node-g fragment-rfrag" data-loop-id="" data-fragment-id="rfrag_region_14">
+    <title>XV-110 (valve:isolation)
+tag: XV-110
+valve_type: gate
+normally_open: True
+fail_position: closed</title>
+    <polygon points="0.00,0.00 13.00,13.00 0.00,26.00" fill="#ffffff" stroke="#111111" stroke-width="1.2"/>
+    <polygon points="26.00,0.00 13.00,13.00 26.00,26.00" fill="#ffffff" stroke="#111111" stroke-width="1.2"/>
+    <line x1="13.00" y1="13.00" x2="13.00" y2="1.82" stroke="#111111" stroke-width="1.0"/>
+    <line x1="6.50" y1="1.82" x2="19.50" y2="1.82" stroke="#111111" stroke-width="2.5"/>
+    <text x="13.00" y="32.18" font-size="4.68" text-anchor="middle" fill="#222">XV-110</text>
+  </g>
+  <g transform="translate(1652.00,108.00)" id="rfrag_region_14:n1:drain" class="node-g fragment-rfrag" data-loop-id="" data-fragment-id="rfrag_region_14">
+    <title>DR-610 (valve:drain)
+tag: DR-610
+normally_closed: True</title>
+    <polygon points="2.70,0.00 15.30,0.00 9.00,18.00" fill="#ffffff" stroke="#111111" stroke-width="1.2"/>
+    <text x="9.00" y="22.74" font-size="3.24" text-anchor="middle" fill="#222">DR-610</text>
+  </g>
+  <g transform="translate(1689.00,83.50)" id="rfrag_region_14:n2" class="node-g fragment-rfrag" data-loop-id="" data-fragment-id="rfrag_region_14">
+    <title>L-129-A (pipe_segment)
+line_id: L-129-A
+size: 4in
+spec: CS150
+service: Process
+flow_direction: forward</title>
+    <text x="20.00" y="3.50" font-size="4.20" text-anchor="middle" fill="#444">L-129-A</text>
+  </g>
+  <g transform="translate(1916.00,358.00)" id="rfrag_region_15:n0" class="node-g fragment-rfrag" data-loop-id="" data-fragment-id="rfrag_region_15">
+    <title>L-130-A (pipe_segment)
+line_id: L-130-A
+size: 4in
+spec: CS150
+service: Process
+flow_direction: forward</title>
+    <text x="20.00" y="3.50" font-size="4.20" text-anchor="middle" fill="#444">L-130-A</text>
+  </g>
+  <g transform="translate(1971.00,358.00)" id="rfrag_region_15:n1" class="node-g fragment-rfrag" data-loop-id="" data-fragment-id="rfrag_region_15">
+    <title>L-131-A (pipe_segment)
+line_id: L-131-A
+size: 4in
+spec: CS150
+service: Process
+flow_direction: forward</title>
+    <text x="20.00" y="3.50" font-size="4.20" text-anchor="middle" fill="#444">L-131-A</text>
+  </g>
+  <g transform="translate(1427.00,83.50)" id="cfrag_0:n0" class="node-g fragment-cfrag" data-loop-id="" data-fragment-id="cfrag_0">
+    <title>L-132-A (pipe_segment)
+line_id: L-132-A
+size: 4in
+spec: CS150
+service: Process
+flow_direction: forward</title>
+    <text x="20.00" y="3.50" font-size="4.20" text-anchor="middle" fill="#444">L-132-A</text>
+  </g>
+  <g transform="translate(1482.00,78.00)" id="cfrag_0:n1" class="node-g fragment-cfrag" data-loop-id="" data-fragment-id="cfrag_0">
+    <title>XV-111 (valve:isolation)
+tag: XV-111
+valve_type: gate
+normally_open: True
+fail_position: closed</title>
+    <polygon points="0.00,0.00 13.00,13.00 0.00,26.00" fill="#ffffff" stroke="#111111" stroke-width="1.2"/>
+    <polygon points="26.00,0.00 13.00,13.00 26.00,26.00" fill="#ffffff" stroke="#111111" stroke-width="1.2"/>
+    <line x1="13.00" y1="13.00" x2="13.00" y2="1.82" stroke="#111111" stroke-width="1.0"/>
+    <line x1="6.50" y1="1.82" x2="19.50" y2="1.82" stroke="#111111" stroke-width="2.5"/>
+    <text x="13.00" y="32.18" font-size="4.68" text-anchor="middle" fill="#222">XV-111</text>
+  </g>
+  <g transform="translate(1486.00,108.00)" id="cfrag_0:n1:drain" class="node-g fragment-cfrag" data-loop-id="" data-fragment-id="cfrag_0">
+    <title>DR-611 (valve:drain)
+tag: DR-611
+normally_closed: True</title>
+    <polygon points="2.70,0.00 15.30,0.00 9.00,18.00" fill="#ffffff" stroke="#111111" stroke-width="1.2"/>
+    <text x="9.00" y="22.74" font-size="3.24" text-anchor="middle" fill="#222">DR-611</text>
+  </g>
+  <g transform="translate(1523.00,83.50)" id="cfrag_0:n2" class="node-g fragment-cfrag" data-loop-id="" data-fragment-id="cfrag_0">
+    <title>L-133-A (pipe_segment)
+line_id: L-133-A
+size: 4in
+spec: CS150
+service: Process
+flow_direction: forward</title>
+    <text x="20.00" y="3.50" font-size="4.20" text-anchor="middle" fill="#444">L-133-A</text>
+  </g>
+  <g transform="translate(1925.00,83.50)" id="cfrag_1:n0" class="node-g fragment-cfrag" data-loop-id="" data-fragment-id="cfrag_1">
+    <title>L-134-A (pipe_segment)
+line_id: L-134-A
+size: 4in
+spec: CS150
+service: Process
+flow_direction: forward</title>
+    <text x="20.00" y="3.50" font-size="4.20" text-anchor="middle" fill="#444">L-134-A</text>
+  </g>
+  <g transform="translate(1980.00,78.00)" id="cfrag_1:n1" class="node-g fragment-cfrag" data-loop-id="" data-fragment-id="cfrag_1">
+    <title>XV-112 (valve:isolation)
+tag: XV-112
+valve_type: gate
+normally_open: True
+fail_position: closed</title>
+    <polygon points="0.00,0.00 13.00,13.00 0.00,26.00" fill="#ffffff" stroke="#111111" stroke-width="1.2"/>
+    <polygon points="26.00,0.00 13.00,13.00 26.00,26.00" fill="#ffffff" stroke="#111111" stroke-width="1.2"/>
+    <line x1="13.00" y1="13.00" x2="13.00" y2="1.82" stroke="#111111" stroke-width="1.0"/>
+    <line x1="6.50" y1="1.82" x2="19.50" y2="1.82" stroke="#111111" stroke-width="2.5"/>
+    <text x="13.00" y="32.18" font-size="4.68" text-anchor="middle" fill="#222">XV-112</text>
+  </g>
+  <g transform="translate(1984.00,108.00)" id="cfrag_1:n1:drain" class="node-g fragment-cfrag" data-loop-id="" data-fragment-id="cfrag_1">
+    <title>DR-612 (valve:drain)
+tag: DR-612
+normally_closed: True</title>
+    <polygon points="2.70,0.00 15.30,0.00 9.00,18.00" fill="#ffffff" stroke="#111111" stroke-width="1.2"/>
+    <text x="9.00" y="22.74" font-size="3.24" text-anchor="middle" fill="#222">DR-612</text>
+  </g>
+  <g transform="translate(2021.00,83.50)" id="cfrag_1:n2" class="node-g fragment-cfrag" data-loop-id="" data-fragment-id="cfrag_1">
+    <title>L-135-A (pipe_segment)
+line_id: L-135-A
+size: 4in
+spec: CS150
+service: Process
+flow_direction: forward</title>
+    <text x="20.00" y="3.50" font-size="4.20" text-anchor="middle" fill="#444">L-135-A</text>
+  </g>
+  <g transform="translate(40.00,678.00)" id="efrag_0:n0" class="node-g fragment-efrag" data-loop-id="" data-fragment-id="efrag_0">
+    <title>E-025 (equipment_block)
+tag: E-025
+equipment_type: vessel
+duty: process</title>
+    <rect x="0.00" y="0.00" width="80.00" height="60.00" fill="#ffffff" stroke="#111111" stroke-width="2.0" rx="4.00" ry="4.20"/>
+    <line x1="0.00" y1="49.20" x2="80.00" y2="49.20" stroke="#111111" stroke-width="0.8"/>
+    <text x="40.00" y="32.47" font-size="6.50" text-anchor="middle" fill="#111111" font-weight="bold">E-025</text>
+  </g>
+  <g transform="translate(124.00,673.00)" id="efrag_0:n0:pi" class="node-g fragment-efrag" data-loop-id="" data-fragment-id="efrag_0">
+    <title>PI-425 (instrument:pressure)
+tag: PI-425</title>
+    <circle cx="10.00" cy="10.00" r="8.80" fill="#ffffff" stroke="#111111" stroke-width="1.0"/>
+    <line x1="1.20" y1="10.00" x2="18.80" y2="10.00" stroke="#111111" stroke-width="0.7"/>
+    <text x="10.00" y="12.28" font-size="6.00" text-anchor="middle" fill="#111111">PI</text>
+    <text x="10.00" y="25.90" font-size="4.40" text-anchor="middle" fill="#222">PI-425</text>
+  </g>
+  <g transform="translate(124.00,697.00)" id="efrag_0:n0:ti" class="node-g fragment-efrag" data-loop-id="" data-fragment-id="efrag_0">
+    <title>TI-525 (instrument:temperature)
+tag: TI-525</title>
+    <circle cx="10.00" cy="10.00" r="8.80" fill="#ffffff" stroke="#111111" stroke-width="1.0"/>
+    <line x1="1.20" y1="10.00" x2="18.80" y2="10.00" stroke="#111111" stroke-width="0.7"/>
+    <text x="10.00" y="12.28" font-size="6.00" text-anchor="middle" fill="#111111">TI</text>
+    <text x="10.00" y="25.90" font-size="4.40" text-anchor="middle" fill="#222">TI-525</text>
+  </g>
+  <g transform="translate(40.00,753.00)" id="efrag_0:n1" class="node-g fragment-efrag" data-loop-id="" data-fragment-id="efrag_0">
+    <title>E-026 (equipment_block)
+tag: E-026
+equipment_type: vessel
+duty: process</title>
+    <rect x="0.00" y="0.00" width="80.00" height="60.00" fill="#ffffff" stroke="#111111" stroke-width="2.0" rx="4.00" ry="4.20"/>
+    <line x1="0.00" y1="49.20" x2="80.00" y2="49.20" stroke="#111111" stroke-width="0.8"/>
+    <text x="40.00" y="32.47" font-size="6.50" text-anchor="middle" fill="#111111" font-weight="bold">E-026</text>
+  </g>
+  <g transform="translate(124.00,748.00)" id="efrag_0:n1:pi" class="node-g fragment-efrag" data-loop-id="" data-fragment-id="efrag_0">
+    <title>PI-426 (instrument:pressure)
+tag: PI-426</title>
+    <circle cx="10.00" cy="10.00" r="8.80" fill="#ffffff" stroke="#111111" stroke-width="1.0"/>
+    <line x1="1.20" y1="10.00" x2="18.80" y2="10.00" stroke="#111111" stroke-width="0.7"/>
+    <text x="10.00" y="12.28" font-size="6.00" text-anchor="middle" fill="#111111">PI</text>
+    <text x="10.00" y="25.90" font-size="4.40" text-anchor="middle" fill="#222">PI-426</text>
+  </g>
+  <g transform="translate(124.00,772.00)" id="efrag_0:n1:ti" class="node-g fragment-efrag" data-loop-id="" data-fragment-id="efrag_0">
+    <title>TI-526 (instrument:temperature)
+tag: TI-526</title>
+    <circle cx="10.00" cy="10.00" r="8.80" fill="#ffffff" stroke="#111111" stroke-width="1.0"/>
+    <line x1="1.20" y1="10.00" x2="18.80" y2="10.00" stroke="#111111" stroke-width="0.7"/>
+    <text x="10.00" y="12.28" font-size="6.00" text-anchor="middle" fill="#111111">TI</text>
+    <text x="10.00" y="25.90" font-size="4.40" text-anchor="middle" fill="#222">TI-526</text>
+  </g>
+  <g transform="translate(40.00,828.00)" id="efrag_0:n2" class="node-g fragment-efrag" data-loop-id="" data-fragment-id="efrag_0">
+    <title>E-027 (equipment_block)
+tag: E-027
+equipment_type: vessel
+duty: process</title>
+    <rect x="0.00" y="0.00" width="80.00" height="60.00" fill="#ffffff" stroke="#111111" stroke-width="2.0" rx="4.00" ry="4.20"/>
+    <line x1="0.00" y1="49.20" x2="80.00" y2="49.20" stroke="#111111" stroke-width="0.8"/>
+    <text x="40.00" y="32.47" font-size="6.50" text-anchor="middle" fill="#111111" font-weight="bold">E-027</text>
+  </g>
+  <g transform="translate(124.00,823.00)" id="efrag_0:n2:pi" class="node-g fragment-efrag" data-loop-id="" data-fragment-id="efrag_0">
+    <title>PI-427 (instrument:pressure)
+tag: PI-427</title>
+    <circle cx="10.00" cy="10.00" r="8.80" fill="#ffffff" stroke="#111111" stroke-width="1.0"/>
+    <line x1="1.20" y1="10.00" x2="18.80" y2="10.00" stroke="#111111" stroke-width="0.7"/>
+    <text x="10.00" y="12.28" font-size="6.00" text-anchor="middle" fill="#111111">PI</text>
+    <text x="10.00" y="25.90" font-size="4.40" text-anchor="middle" fill="#222">PI-427</text>
+  </g>
+  <g transform="translate(124.00,847.00)" id="efrag_0:n2:ti" class="node-g fragment-efrag" data-loop-id="" data-fragment-id="efrag_0">
+    <title>TI-527 (instrument:temperature)
+tag: TI-527</title>
+    <circle cx="10.00" cy="10.00" r="8.80" fill="#ffffff" stroke="#111111" stroke-width="1.0"/>
+    <line x1="1.20" y1="10.00" x2="18.80" y2="10.00" stroke="#111111" stroke-width="0.7"/>
+    <text x="10.00" y="12.28" font-size="6.00" text-anchor="middle" fill="#111111">TI</text>
+    <text x="10.00" y="25.90" font-size="4.40" text-anchor="middle" fill="#222">TI-527</text>
+  </g>
+  <g transform="translate(40.00,903.00)" id="efrag_0:n3" class="node-g fragment-efrag" data-loop-id="" data-fragment-id="efrag_0">
+    <title>E-028 (equipment_block)
+tag: E-028
+equipment_type: vessel
+duty: process</title>
+    <rect x="0.00" y="0.00" width="80.00" height="60.00" fill="#ffffff" stroke="#111111" stroke-width="2.0" rx="4.00" ry="4.20"/>
+    <line x1="0.00" y1="49.20" x2="80.00" y2="49.20" stroke="#111111" stroke-width="0.8"/>
+    <text x="40.00" y="32.47" font-size="6.50" text-anchor="middle" fill="#111111" font-weight="bold">E-028</text>
+  </g>
+  <g transform="translate(124.00,898.00)" id="efrag_0:n3:pi" class="node-g fragment-efrag" data-loop-id="" data-fragment-id="efrag_0">
+    <title>PI-428 (instrument:pressure)
+tag: PI-428</title>
+    <circle cx="10.00" cy="10.00" r="8.80" fill="#ffffff" stroke="#111111" stroke-width="1.0"/>
+    <line x1="1.20" y1="10.00" x2="18.80" y2="10.00" stroke="#111111" stroke-width="0.7"/>
+    <text x="10.00" y="12.28" font-size="6.00" text-anchor="middle" fill="#111111">PI</text>
+    <text x="10.00" y="25.90" font-size="4.40" text-anchor="middle" fill="#222">PI-428</text>
+  </g>
+  <g transform="translate(124.00,922.00)" id="efrag_0:n3:ti" class="node-g fragment-efrag" data-loop-id="" data-fragment-id="efrag_0">
+    <title>TI-528 (instrument:temperature)
+tag: TI-528</title>
+    <circle cx="10.00" cy="10.00" r="8.80" fill="#ffffff" stroke="#111111" stroke-width="1.0"/>
+    <line x1="1.20" y1="10.00" x2="18.80" y2="10.00" stroke="#111111" stroke-width="0.7"/>
+    <text x="10.00" y="12.28" font-size="6.00" text-anchor="middle" fill="#111111">TI</text>
+    <text x="10.00" y="25.90" font-size="4.40" text-anchor="middle" fill="#222">TI-528</text>
+  </g>
+  <g transform="translate(40.00,978.00)" id="efrag_0:n4" class="node-g fragment-efrag" data-loop-id="" data-fragment-id="efrag_0">
+    <title>E-029 (equipment_block)
+tag: E-029
+equipment_type: vessel
+duty: process</title>
+    <rect x="0.00" y="0.00" width="80.00" height="60.00" fill="#ffffff" stroke="#111111" stroke-width="2.0" rx="4.00" ry="4.20"/>
+    <line x1="0.00" y1="49.20" x2="80.00" y2="49.20" stroke="#111111" stroke-width="0.8"/>
+    <text x="40.00" y="32.47" font-size="6.50" text-anchor="middle" fill="#111111" font-weight="bold">E-029</text>
+  </g>
+  <g transform="translate(124.00,973.00)" id="efrag_0:n4:pi" class="node-g fragment-efrag" data-loop-id="" data-fragment-id="efrag_0">
+    <title>PI-429 (instrument:pressure)
+tag: PI-429</title>
+    <circle cx="10.00" cy="10.00" r="8.80" fill="#ffffff" stroke="#111111" stroke-width="1.0"/>
+    <line x1="1.20" y1="10.00" x2="18.80" y2="10.00" stroke="#111111" stroke-width="0.7"/>
+    <text x="10.00" y="12.28" font-size="6.00" text-anchor="middle" fill="#111111">PI</text>
+    <text x="10.00" y="25.90" font-size="4.40" text-anchor="middle" fill="#222">PI-429</text>
+  </g>
+  <g transform="translate(124.00,997.00)" id="efrag_0:n4:ti" class="node-g fragment-efrag" data-loop-id="" data-fragment-id="efrag_0">
+    <title>TI-529 (instrument:temperature)
+tag: TI-529</title>
+    <circle cx="10.00" cy="10.00" r="8.80" fill="#ffffff" stroke="#111111" stroke-width="1.0"/>
+    <line x1="1.20" y1="10.00" x2="18.80" y2="10.00" stroke="#111111" stroke-width="0.7"/>
+    <text x="10.00" y="12.28" font-size="6.00" text-anchor="middle" fill="#111111">TI</text>
+    <text x="10.00" y="25.90" font-size="4.40" text-anchor="middle" fill="#222">TI-529</text>
+  </g>
+  <g transform="translate(40.00,1053.00)" id="efrag_0:n5" class="node-g fragment-efrag" data-loop-id="" data-fragment-id="efrag_0">
+    <title>E-030 (equipment_block)
+tag: E-030
+equipment_type: vessel
+duty: process</title>
+    <rect x="0.00" y="0.00" width="80.00" height="60.00" fill="#ffffff" stroke="#111111" stroke-width="2.0" rx="4.00" ry="4.20"/>
+    <line x1="0.00" y1="49.20" x2="80.00" y2="49.20" stroke="#111111" stroke-width="0.8"/>
+    <text x="40.00" y="32.47" font-size="6.50" text-anchor="middle" fill="#111111" font-weight="bold">E-030</text>
+  </g>
+  <g transform="translate(124.00,1048.00)" id="efrag_0:n5:pi" class="node-g fragment-efrag" data-loop-id="" data-fragment-id="efrag_0">
+    <title>PI-430 (instrument:pressure)
+tag: PI-430</title>
+    <circle cx="10.00" cy="10.00" r="8.80" fill="#ffffff" stroke="#111111" stroke-width="1.0"/>
+    <line x1="1.20" y1="10.00" x2="18.80" y2="10.00" stroke="#111111" stroke-width="0.7"/>
+    <text x="10.00" y="12.28" font-size="6.00" text-anchor="middle" fill="#111111">PI</text>
+    <text x="10.00" y="25.90" font-size="4.40" text-anchor="middle" fill="#222">PI-430</text>
+  </g>
+  <g transform="translate(124.00,1072.00)" id="efrag_0:n5:ti" class="node-g fragment-efrag" data-loop-id="" data-fragment-id="efrag_0">
+    <title>TI-530 (instrument:temperature)
+tag: TI-530</title>
+    <circle cx="10.00" cy="10.00" r="8.80" fill="#ffffff" stroke="#111111" stroke-width="1.0"/>
+    <line x1="1.20" y1="10.00" x2="18.80" y2="10.00" stroke="#111111" stroke-width="0.7"/>
+    <text x="10.00" y="12.28" font-size="6.00" text-anchor="middle" fill="#111111">TI</text>
+    <text x="10.00" y="25.90" font-size="4.40" text-anchor="middle" fill="#222">TI-530</text>
+  </g>
+  <g transform="translate(40.00,1128.00)" id="efrag_0:n6" class="node-g fragment-efrag" data-loop-id="" data-fragment-id="efrag_0">
+    <title>E-031 (equipment_block)
+tag: E-031
+equipment_type: vessel
+duty: process</title>
+    <rect x="0.00" y="0.00" width="80.00" height="60.00" fill="#ffffff" stroke="#111111" stroke-width="2.0" rx="4.00" ry="4.20"/>
+    <line x1="0.00" y1="49.20" x2="80.00" y2="49.20" stroke="#111111" stroke-width="0.8"/>
+    <text x="40.00" y="32.47" font-size="6.50" text-anchor="middle" fill="#111111" font-weight="bold">E-031</text>
+  </g>
+  <g transform="translate(124.00,1123.00)" id="efrag_0:n6:pi" class="node-g fragment-efrag" data-loop-id="" data-fragment-id="efrag_0">
+    <title>PI-431 (instrument:pressure)
+tag: PI-431</title>
+    <circle cx="10.00" cy="10.00" r="8.80" fill="#ffffff" stroke="#111111" stroke-width="1.0"/>
+    <line x1="1.20" y1="10.00" x2="18.80" y2="10.00" stroke="#111111" stroke-width="0.7"/>
+    <text x="10.00" y="12.28" font-size="6.00" text-anchor="middle" fill="#111111">PI</text>
+    <text x="10.00" y="25.90" font-size="4.40" text-anchor="middle" fill="#222">PI-431</text>
+  </g>
+  <g transform="translate(124.00,1147.00)" id="efrag_0:n6:ti" class="node-g fragment-efrag" data-loop-id="" data-fragment-id="efrag_0">
+    <title>TI-531 (instrument:temperature)
+tag: TI-531</title>
+    <circle cx="10.00" cy="10.00" r="8.80" fill="#ffffff" stroke="#111111" stroke-width="1.0"/>
+    <line x1="1.20" y1="10.00" x2="18.80" y2="10.00" stroke="#111111" stroke-width="0.7"/>
+    <text x="10.00" y="12.28" font-size="6.00" text-anchor="middle" fill="#111111">TI</text>
+    <text x="10.00" y="25.90" font-size="4.40" text-anchor="middle" fill="#222">TI-531</text>
+  </g>
+  <g transform="translate(40.00,1203.00)" id="efrag_0:n7" class="node-g fragment-efrag" data-loop-id="" data-fragment-id="efrag_0">
+    <title>E-032 (equipment_block)
+tag: E-032
+equipment_type: vessel
+duty: process</title>
+    <rect x="0.00" y="0.00" width="80.00" height="60.00" fill="#ffffff" stroke="#111111" stroke-width="2.0" rx="4.00" ry="4.20"/>
+    <line x1="0.00" y1="49.20" x2="80.00" y2="49.20" stroke="#111111" stroke-width="0.8"/>
+    <text x="40.00" y="32.47" font-size="6.50" text-anchor="middle" fill="#111111" font-weight="bold">E-032</text>
+  </g>
+  <g transform="translate(124.00,1198.00)" id="efrag_0:n7:pi" class="node-g fragment-efrag" data-loop-id="" data-fragment-id="efrag_0">
+    <title>PI-432 (instrument:pressure)
+tag: PI-432</title>
+    <circle cx="10.00" cy="10.00" r="8.80" fill="#ffffff" stroke="#111111" stroke-width="1.0"/>
+    <line x1="1.20" y1="10.00" x2="18.80" y2="10.00" stroke="#111111" stroke-width="0.7"/>
+    <text x="10.00" y="12.28" font-size="6.00" text-anchor="middle" fill="#111111">PI</text>
+    <text x="10.00" y="25.90" font-size="4.40" text-anchor="middle" fill="#222">PI-432</text>
+  </g>
+  <g transform="translate(124.00,1222.00)" id="efrag_0:n7:ti" class="node-g fragment-efrag" data-loop-id="" data-fragment-id="efrag_0">
+    <title>TI-532 (instrument:temperature)
+tag: TI-532</title>
+    <circle cx="10.00" cy="10.00" r="8.80" fill="#ffffff" stroke="#111111" stroke-width="1.0"/>
+    <line x1="1.20" y1="10.00" x2="18.80" y2="10.00" stroke="#111111" stroke-width="0.7"/>
+    <text x="10.00" y="12.28" font-size="6.00" text-anchor="middle" fill="#111111">TI</text>
+    <text x="10.00" y="25.90" font-size="4.40" text-anchor="middle" fill="#222">TI-532</text>
+  </g>
+  <g transform="translate(40.00,1278.00)" id="efrag_0:n8" class="node-g fragment-efrag" data-loop-id="" data-fragment-id="efrag_0">
+    <title>E-033 (equipment_block)
+tag: E-033
+equipment_type: vessel
+duty: process</title>
+    <rect x="0.00" y="0.00" width="80.00" height="60.00" fill="#ffffff" stroke="#111111" stroke-width="2.0" rx="4.00" ry="4.20"/>
+    <line x1="0.00" y1="49.20" x2="80.00" y2="49.20" stroke="#111111" stroke-width="0.8"/>
+    <text x="40.00" y="32.47" font-size="6.50" text-anchor="middle" fill="#111111" font-weight="bold">E-033</text>
+  </g>
+  <g transform="translate(124.00,1273.00)" id="efrag_0:n8:pi" class="node-g fragment-efrag" data-loop-id="" data-fragment-id="efrag_0">
+    <title>PI-433 (instrument:pressure)
+tag: PI-433</title>
+    <circle cx="10.00" cy="10.00" r="8.80" fill="#ffffff" stroke="#111111" stroke-width="1.0"/>
+    <line x1="1.20" y1="10.00" x2="18.80" y2="10.00" stroke="#111111" stroke-width="0.7"/>
+    <text x="10.00" y="12.28" font-size="6.00" text-anchor="middle" fill="#111111">PI</text>
+    <text x="10.00" y="25.90" font-size="4.40" text-anchor="middle" fill="#222">PI-433</text>
+  </g>
+  <g transform="translate(124.00,1297.00)" id="efrag_0:n8:ti" class="node-g fragment-efrag" data-loop-id="" data-fragment-id="efrag_0">
+    <title>TI-533 (instrument:temperature)
+tag: TI-533</title>
+    <circle cx="10.00" cy="10.00" r="8.80" fill="#ffffff" stroke="#111111" stroke-width="1.0"/>
+    <line x1="1.20" y1="10.00" x2="18.80" y2="10.00" stroke="#111111" stroke-width="0.7"/>
+    <text x="10.00" y="12.28" font-size="6.00" text-anchor="middle" fill="#111111">TI</text>
+    <text x="10.00" y="25.90" font-size="4.40" text-anchor="middle" fill="#222">TI-533</text>
+  </g>
+  <g transform="translate(40.00,1353.00)" id="efrag_0:n9" class="node-g fragment-efrag" data-loop-id="" data-fragment-id="efrag_0">
+    <title>E-034 (equipment_block)
+tag: E-034
+equipment_type: vessel
+duty: process</title>
+    <rect x="0.00" y="0.00" width="80.00" height="60.00" fill="#ffffff" stroke="#111111" stroke-width="2.0" rx="4.00" ry="4.20"/>
+    <line x1="0.00" y1="49.20" x2="80.00" y2="49.20" stroke="#111111" stroke-width="0.8"/>
+    <text x="40.00" y="32.47" font-size="6.50" text-anchor="middle" fill="#111111" font-weight="bold">E-034</text>
+  </g>
+  <g transform="translate(124.00,1348.00)" id="efrag_0:n9:pi" class="node-g fragment-efrag" data-loop-id="" data-fragment-id="efrag_0">
+    <title>PI-434 (instrument:pressure)
+tag: PI-434</title>
+    <circle cx="10.00" cy="10.00" r="8.80" fill="#ffffff" stroke="#111111" stroke-width="1.0"/>
+    <line x1="1.20" y1="10.00" x2="18.80" y2="10.00" stroke="#111111" stroke-width="0.7"/>
+    <text x="10.00" y="12.28" font-size="6.00" text-anchor="middle" fill="#111111">PI</text>
+    <text x="10.00" y="25.90" font-size="4.40" text-anchor="middle" fill="#222">PI-434</text>
+  </g>
+  <g transform="translate(124.00,1372.00)" id="efrag_0:n9:ti" class="node-g fragment-efrag" data-loop-id="" data-fragment-id="efrag_0">
+    <title>TI-534 (instrument:temperature)
+tag: TI-534</title>
+    <circle cx="10.00" cy="10.00" r="8.80" fill="#ffffff" stroke="#111111" stroke-width="1.0"/>
+    <line x1="1.20" y1="10.00" x2="18.80" y2="10.00" stroke="#111111" stroke-width="0.7"/>
+    <text x="10.00" y="12.28" font-size="6.00" text-anchor="middle" fill="#111111">TI</text>
+    <text x="10.00" y="25.90" font-size="4.40" text-anchor="middle" fill="#222">TI-534</text>
+  </g>
+  <g transform="translate(40.00,1428.00)" id="efrag_0:n10" class="node-g fragment-efrag" data-loop-id="" data-fragment-id="efrag_0">
+    <title>E-035 (equipment_block)
+tag: E-035
+equipment_type: vessel
+duty: process</title>
+    <rect x="0.00" y="0.00" width="80.00" height="60.00" fill="#ffffff" stroke="#111111" stroke-width="2.0" rx="4.00" ry="4.20"/>
+    <line x1="0.00" y1="49.20" x2="80.00" y2="49.20" stroke="#111111" stroke-width="0.8"/>
+    <text x="40.00" y="32.47" font-size="6.50" text-anchor="middle" fill="#111111" font-weight="bold">E-035</text>
+  </g>
+  <g transform="translate(124.00,1423.00)" id="efrag_0:n10:pi" class="node-g fragment-efrag" data-loop-id="" data-fragment-id="efrag_0">
+    <title>PI-435 (instrument:pressure)
+tag: PI-435</title>
+    <circle cx="10.00" cy="10.00" r="8.80" fill="#ffffff" stroke="#111111" stroke-width="1.0"/>
+    <line x1="1.20" y1="10.00" x2="18.80" y2="10.00" stroke="#111111" stroke-width="0.7"/>
+    <text x="10.00" y="12.28" font-size="6.00" text-anchor="middle" fill="#111111">PI</text>
+    <text x="10.00" y="25.90" font-size="4.40" text-anchor="middle" fill="#222">PI-435</text>
+  </g>
+  <g transform="translate(124.00,1447.00)" id="efrag_0:n10:ti" class="node-g fragment-efrag" data-loop-id="" data-fragment-id="efrag_0">
+    <title>TI-535 (instrument:temperature)
+tag: TI-535</title>
+    <circle cx="10.00" cy="10.00" r="8.80" fill="#ffffff" stroke="#111111" stroke-width="1.0"/>
+    <line x1="1.20" y1="10.00" x2="18.80" y2="10.00" stroke="#111111" stroke-width="0.7"/>
+    <text x="10.00" y="12.28" font-size="6.00" text-anchor="middle" fill="#111111">TI</text>
+    <text x="10.00" y="25.90" font-size="4.40" text-anchor="middle" fill="#222">TI-535</text>
+  </g>
+  <g transform="translate(40.00,1503.00)" id="efrag_0:n11" class="node-g fragment-efrag" data-loop-id="" data-fragment-id="efrag_0">
+    <title>E-036 (equipment_block)
+tag: E-036
+equipment_type: vessel
+duty: process</title>
+    <rect x="0.00" y="0.00" width="80.00" height="60.00" fill="#ffffff" stroke="#111111" stroke-width="2.0" rx="4.00" ry="4.20"/>
+    <line x1="0.00" y1="49.20" x2="80.00" y2="49.20" stroke="#111111" stroke-width="0.8"/>
+    <text x="40.00" y="32.47" font-size="6.50" text-anchor="middle" fill="#111111" font-weight="bold">E-036</text>
+  </g>
+  <g transform="translate(124.00,1498.00)" id="efrag_0:n11:pi" class="node-g fragment-efrag" data-loop-id="" data-fragment-id="efrag_0">
+    <title>PI-436 (instrument:pressure)
+tag: PI-436</title>
+    <circle cx="10.00" cy="10.00" r="8.80" fill="#ffffff" stroke="#111111" stroke-width="1.0"/>
+    <line x1="1.20" y1="10.00" x2="18.80" y2="10.00" stroke="#111111" stroke-width="0.7"/>
+    <text x="10.00" y="12.28" font-size="6.00" text-anchor="middle" fill="#111111">PI</text>
+    <text x="10.00" y="25.90" font-size="4.40" text-anchor="middle" fill="#222">PI-436</text>
+  </g>
+  <g transform="translate(124.00,1522.00)" id="efrag_0:n11:ti" class="node-g fragment-efrag" data-loop-id="" data-fragment-id="efrag_0">
+    <title>TI-536 (instrument:temperature)
+tag: TI-536</title>
+    <circle cx="10.00" cy="10.00" r="8.80" fill="#ffffff" stroke="#111111" stroke-width="1.0"/>
+    <line x1="1.20" y1="10.00" x2="18.80" y2="10.00" stroke="#111111" stroke-width="0.7"/>
+    <text x="10.00" y="12.28" font-size="6.00" text-anchor="middle" fill="#111111">TI</text>
+    <text x="10.00" y="25.90" font-size="4.40" text-anchor="middle" fill="#222">TI-536</text>
+  </g>
+  <g transform="translate(40.00,1578.00)" id="efrag_0:n12" class="node-g fragment-efrag" data-loop-id="" data-fragment-id="efrag_0">
+    <title>E-037 (equipment_block)
+tag: E-037
+equipment_type: vessel
+duty: process</title>
+    <rect x="0.00" y="0.00" width="80.00" height="60.00" fill="#ffffff" stroke="#111111" stroke-width="2.0" rx="4.00" ry="4.20"/>
+    <line x1="0.00" y1="49.20" x2="80.00" y2="49.20" stroke="#111111" stroke-width="0.8"/>
+    <text x="40.00" y="32.47" font-size="6.50" text-anchor="middle" fill="#111111" font-weight="bold">E-037</text>
+  </g>
+  <g transform="translate(124.00,1573.00)" id="efrag_0:n12:pi" class="node-g fragment-efrag" data-loop-id="" data-fragment-id="efrag_0">
+    <title>PI-437 (instrument:pressure)
+tag: PI-437</title>
+    <circle cx="10.00" cy="10.00" r="8.80" fill="#ffffff" stroke="#111111" stroke-width="1.0"/>
+    <line x1="1.20" y1="10.00" x2="18.80" y2="10.00" stroke="#111111" stroke-width="0.7"/>
+    <text x="10.00" y="12.28" font-size="6.00" text-anchor="middle" fill="#111111">PI</text>
+    <text x="10.00" y="25.90" font-size="4.40" text-anchor="middle" fill="#222">PI-437</text>
+  </g>
+  <g transform="translate(124.00,1597.00)" id="efrag_0:n12:ti" class="node-g fragment-efrag" data-loop-id="" data-fragment-id="efrag_0">
+    <title>TI-537 (instrument:temperature)
+tag: TI-537</title>
+    <circle cx="10.00" cy="10.00" r="8.80" fill="#ffffff" stroke="#111111" stroke-width="1.0"/>
+    <line x1="1.20" y1="10.00" x2="18.80" y2="10.00" stroke="#111111" stroke-width="0.7"/>
+    <text x="10.00" y="12.28" font-size="6.00" text-anchor="middle" fill="#111111">TI</text>
+    <text x="10.00" y="25.90" font-size="4.40" text-anchor="middle" fill="#222">TI-537</text>
+  </g>
+  <g transform="translate(40.00,1653.00)" id="efrag_0:n13" class="node-g fragment-efrag" data-loop-id="" data-fragment-id="efrag_0">
+    <title>E-038 (equipment_block)
+tag: E-038
+equipment_type: vessel
+duty: process</title>
+    <rect x="0.00" y="0.00" width="80.00" height="60.00" fill="#ffffff" stroke="#111111" stroke-width="2.0" rx="4.00" ry="4.20"/>
+    <line x1="0.00" y1="49.20" x2="80.00" y2="49.20" stroke="#111111" stroke-width="0.8"/>
+    <text x="40.00" y="32.47" font-size="6.50" text-anchor="middle" fill="#111111" font-weight="bold">E-038</text>
+  </g>
+  <g transform="translate(124.00,1648.00)" id="efrag_0:n13:pi" class="node-g fragment-efrag" data-loop-id="" data-fragment-id="efrag_0">
+    <title>PI-438 (instrument:pressure)
+tag: PI-438</title>
+    <circle cx="10.00" cy="10.00" r="8.80" fill="#ffffff" stroke="#111111" stroke-width="1.0"/>
+    <line x1="1.20" y1="10.00" x2="18.80" y2="10.00" stroke="#111111" stroke-width="0.7"/>
+    <text x="10.00" y="12.28" font-size="6.00" text-anchor="middle" fill="#111111">PI</text>
+    <text x="10.00" y="25.90" font-size="4.40" text-anchor="middle" fill="#222">PI-438</text>
+  </g>
+  <g transform="translate(124.00,1672.00)" id="efrag_0:n13:ti" class="node-g fragment-efrag" data-loop-id="" data-fragment-id="efrag_0">
+    <title>TI-538 (instrument:temperature)
+tag: TI-538</title>
+    <circle cx="10.00" cy="10.00" r="8.80" fill="#ffffff" stroke="#111111" stroke-width="1.0"/>
+    <line x1="1.20" y1="10.00" x2="18.80" y2="10.00" stroke="#111111" stroke-width="0.7"/>
+    <text x="10.00" y="12.28" font-size="6.00" text-anchor="middle" fill="#111111">TI</text>
+    <text x="10.00" y="25.90" font-size="4.40" text-anchor="middle" fill="#222">TI-538</text>
+  </g>
+  <g transform="translate(40.00,1728.00)" id="efrag_0:n14" class="node-g fragment-efrag" data-loop-id="" data-fragment-id="efrag_0">
+    <title>E-039 (equipment_block)
+tag: E-039
+equipment_type: vessel
+duty: process</title>
+    <rect x="0.00" y="0.00" width="80.00" height="60.00" fill="#ffffff" stroke="#111111" stroke-width="2.0" rx="4.00" ry="4.20"/>
+    <line x1="0.00" y1="49.20" x2="80.00" y2="49.20" stroke="#111111" stroke-width="0.8"/>
+    <text x="40.00" y="32.47" font-size="6.50" text-anchor="middle" fill="#111111" font-weight="bold">E-039</text>
+  </g>
+  <g transform="translate(124.00,1723.00)" id="efrag_0:n14:pi" class="node-g fragment-efrag" data-loop-id="" data-fragment-id="efrag_0">
+    <title>PI-439 (instrument:pressure)
+tag: PI-439</title>
+    <circle cx="10.00" cy="10.00" r="8.80" fill="#ffffff" stroke="#111111" stroke-width="1.0"/>
+    <line x1="1.20" y1="10.00" x2="18.80" y2="10.00" stroke="#111111" stroke-width="0.7"/>
+    <text x="10.00" y="12.28" font-size="6.00" text-anchor="middle" fill="#111111">PI</text>
+    <text x="10.00" y="25.90" font-size="4.40" text-anchor="middle" fill="#222">PI-439</text>
+  </g>
+  <g transform="translate(124.00,1747.00)" id="efrag_0:n14:ti" class="node-g fragment-efrag" data-loop-id="" data-fragment-id="efrag_0">
+    <title>TI-539 (instrument:temperature)
+tag: TI-539</title>
+    <circle cx="10.00" cy="10.00" r="8.80" fill="#ffffff" stroke="#111111" stroke-width="1.0"/>
+    <line x1="1.20" y1="10.00" x2="18.80" y2="10.00" stroke="#111111" stroke-width="0.7"/>
+    <text x="10.00" y="12.28" font-size="6.00" text-anchor="middle" fill="#111111">TI</text>
+    <text x="10.00" y="25.90" font-size="4.40" text-anchor="middle" fill="#222">TI-539</text>
+  </g>
+  <g transform="translate(40.00,1803.00)" id="efrag_0:n15" class="node-g fragment-efrag" data-loop-id="" data-fragment-id="efrag_0">
+    <title>E-040 (equipment_block)
+tag: E-040
+equipment_type: vessel
+duty: process</title>
+    <rect x="0.00" y="0.00" width="80.00" height="60.00" fill="#ffffff" stroke="#111111" stroke-width="2.0" rx="4.00" ry="4.20"/>
+    <line x1="0.00" y1="49.20" x2="80.00" y2="49.20" stroke="#111111" stroke-width="0.8"/>
+    <text x="40.00" y="32.47" font-size="6.50" text-anchor="middle" fill="#111111" font-weight="bold">E-040</text>
+  </g>
+  <g transform="translate(124.00,1798.00)" id="efrag_0:n15:pi" class="node-g fragment-efrag" data-loop-id="" data-fragment-id="efrag_0">
+    <title>PI-440 (instrument:pressure)
+tag: PI-440</title>
+    <circle cx="10.00" cy="10.00" r="8.80" fill="#ffffff" stroke="#111111" stroke-width="1.0"/>
+    <line x1="1.20" y1="10.00" x2="18.80" y2="10.00" stroke="#111111" stroke-width="0.7"/>
+    <text x="10.00" y="12.28" font-size="6.00" text-anchor="middle" fill="#111111">PI</text>
+    <text x="10.00" y="25.90" font-size="4.40" text-anchor="middle" fill="#222">PI-440</text>
+  </g>
+  <g transform="translate(124.00,1822.00)" id="efrag_0:n15:ti" class="node-g fragment-efrag" data-loop-id="" data-fragment-id="efrag_0">
+    <title>TI-540 (instrument:temperature)
+tag: TI-540</title>
+    <circle cx="10.00" cy="10.00" r="8.80" fill="#ffffff" stroke="#111111" stroke-width="1.0"/>
+    <line x1="1.20" y1="10.00" x2="18.80" y2="10.00" stroke="#111111" stroke-width="0.7"/>
+    <text x="10.00" y="12.28" font-size="6.00" text-anchor="middle" fill="#111111">TI</text>
+    <text x="10.00" y="25.90" font-size="4.40" text-anchor="middle" fill="#222">TI-540</text>
+  </g>
+  <g transform="translate(40.00,1878.00)" id="efrag_0:n16" class="node-g fragment-efrag" data-loop-id="" data-fragment-id="efrag_0">
+    <title>E-041 (equipment_block)
+tag: E-041
+equipment_type: vessel
+duty: process</title>
+    <rect x="0.00" y="0.00" width="80.00" height="60.00" fill="#ffffff" stroke="#111111" stroke-width="2.0" rx="4.00" ry="4.20"/>
+    <line x1="0.00" y1="49.20" x2="80.00" y2="49.20" stroke="#111111" stroke-width="0.8"/>
+    <text x="40.00" y="32.47" font-size="6.50" text-anchor="middle" fill="#111111" font-weight="bold">E-041</text>
+  </g>
+  <g transform="translate(124.00,1873.00)" id="efrag_0:n16:pi" class="node-g fragment-efrag" data-loop-id="" data-fragment-id="efrag_0">
+    <title>PI-441 (instrument:pressure)
+tag: PI-441</title>
+    <circle cx="10.00" cy="10.00" r="8.80" fill="#ffffff" stroke="#111111" stroke-width="1.0"/>
+    <line x1="1.20" y1="10.00" x2="18.80" y2="10.00" stroke="#111111" stroke-width="0.7"/>
+    <text x="10.00" y="12.28" font-size="6.00" text-anchor="middle" fill="#111111">PI</text>
+    <text x="10.00" y="25.90" font-size="4.40" text-anchor="middle" fill="#222">PI-441</text>
+  </g>
+  <g transform="translate(124.00,1897.00)" id="efrag_0:n16:ti" class="node-g fragment-efrag" data-loop-id="" data-fragment-id="efrag_0">
+    <title>TI-541 (instrument:temperature)
+tag: TI-541</title>
+    <circle cx="10.00" cy="10.00" r="8.80" fill="#ffffff" stroke="#111111" stroke-width="1.0"/>
+    <line x1="1.20" y1="10.00" x2="18.80" y2="10.00" stroke="#111111" stroke-width="0.7"/>
+    <text x="10.00" y="12.28" font-size="6.00" text-anchor="middle" fill="#111111">TI</text>
+    <text x="10.00" y="25.90" font-size="4.40" text-anchor="middle" fill="#222">TI-541</text>
+  </g>
+  <g transform="translate(40.00,1953.00)" id="efrag_0:n17" class="node-g fragment-efrag" data-loop-id="" data-fragment-id="efrag_0">
+    <title>E-042 (equipment_block)
+tag: E-042
+equipment_type: vessel
+duty: process</title>
+    <rect x="0.00" y="0.00" width="80.00" height="60.00" fill="#ffffff" stroke="#111111" stroke-width="2.0" rx="4.00" ry="4.20"/>
+    <line x1="0.00" y1="49.20" x2="80.00" y2="49.20" stroke="#111111" stroke-width="0.8"/>
+    <text x="40.00" y="32.47" font-size="6.50" text-anchor="middle" fill="#111111" font-weight="bold">E-042</text>
+  </g>
+  <g transform="translate(124.00,1948.00)" id="efrag_0:n17:pi" class="node-g fragment-efrag" data-loop-id="" data-fragment-id="efrag_0">
+    <title>PI-442 (instrument:pressure)
+tag: PI-442</title>
+    <circle cx="10.00" cy="10.00" r="8.80" fill="#ffffff" stroke="#111111" stroke-width="1.0"/>
+    <line x1="1.20" y1="10.00" x2="18.80" y2="10.00" stroke="#111111" stroke-width="0.7"/>
+    <text x="10.00" y="12.28" font-size="6.00" text-anchor="middle" fill="#111111">PI</text>
+    <text x="10.00" y="25.90" font-size="4.40" text-anchor="middle" fill="#222">PI-442</text>
+  </g>
+  <g transform="translate(124.00,1972.00)" id="efrag_0:n17:ti" class="node-g fragment-efrag" data-loop-id="" data-fragment-id="efrag_0">
+    <title>TI-542 (instrument:temperature)
+tag: TI-542</title>
+    <circle cx="10.00" cy="10.00" r="8.80" fill="#ffffff" stroke="#111111" stroke-width="1.0"/>
+    <line x1="1.20" y1="10.00" x2="18.80" y2="10.00" stroke="#111111" stroke-width="0.7"/>
+    <text x="10.00" y="12.28" font-size="6.00" text-anchor="middle" fill="#111111">TI</text>
+    <text x="10.00" y="25.90" font-size="4.40" text-anchor="middle" fill="#222">TI-542</text>
+  </g>
+  <g transform="translate(40.00,2028.00)" id="efrag_0:n18" class="node-g fragment-efrag" data-loop-id="" data-fragment-id="efrag_0">
+    <title>E-043 (equipment_block)
+tag: E-043
+equipment_type: vessel
+duty: process</title>
+    <rect x="0.00" y="0.00" width="80.00" height="60.00" fill="#ffffff" stroke="#111111" stroke-width="2.0" rx="4.00" ry="4.20"/>
+    <line x1="0.00" y1="49.20" x2="80.00" y2="49.20" stroke="#111111" stroke-width="0.8"/>
+    <text x="40.00" y="32.47" font-size="6.50" text-anchor="middle" fill="#111111" font-weight="bold">E-043</text>
+  </g>
+  <g transform="translate(124.00,2023.00)" id="efrag_0:n18:pi" class="node-g fragment-efrag" data-loop-id="" data-fragment-id="efrag_0">
+    <title>PI-443 (instrument:pressure)
+tag: PI-443</title>
+    <circle cx="10.00" cy="10.00" r="8.80" fill="#ffffff" stroke="#111111" stroke-width="1.0"/>
+    <line x1="1.20" y1="10.00" x2="18.80" y2="10.00" stroke="#111111" stroke-width="0.7"/>
+    <text x="10.00" y="12.28" font-size="6.00" text-anchor="middle" fill="#111111">PI</text>
+    <text x="10.00" y="25.90" font-size="4.40" text-anchor="middle" fill="#222">PI-443</text>
+  </g>
+  <g transform="translate(124.00,2047.00)" id="efrag_0:n18:ti" class="node-g fragment-efrag" data-loop-id="" data-fragment-id="efrag_0">
+    <title>TI-543 (instrument:temperature)
+tag: TI-543</title>
+    <circle cx="10.00" cy="10.00" r="8.80" fill="#ffffff" stroke="#111111" stroke-width="1.0"/>
+    <line x1="1.20" y1="10.00" x2="18.80" y2="10.00" stroke="#111111" stroke-width="0.7"/>
+    <text x="10.00" y="12.28" font-size="6.00" text-anchor="middle" fill="#111111">TI</text>
+    <text x="10.00" y="25.90" font-size="4.40" text-anchor="middle" fill="#222">TI-543</text>
+  </g>
+  <g transform="translate(150.00,678.00)" id="efrag_1:n0" class="node-g fragment-efrag" data-loop-id="" data-fragment-id="efrag_1">
+    <title>E-044 (equipment_block)
+tag: E-044
+equipment_type: vessel
+duty: process</title>
+    <rect x="0.00" y="0.00" width="80.00" height="60.00" fill="#ffffff" stroke="#111111" stroke-width="2.0" rx="4.00" ry="4.20"/>
+    <line x1="0.00" y1="49.20" x2="80.00" y2="49.20" stroke="#111111" stroke-width="0.8"/>
+    <text x="40.00" y="32.47" font-size="6.50" text-anchor="middle" fill="#111111" font-weight="bold">E-044</text>
+  </g>
+  <g transform="translate(234.00,673.00)" id="efrag_1:n0:pi" class="node-g fragment-efrag" data-loop-id="" data-fragment-id="efrag_1">
+    <title>PI-444 (instrument:pressure)
+tag: PI-444</title>
+    <circle cx="10.00" cy="10.00" r="8.80" fill="#ffffff" stroke="#111111" stroke-width="1.0"/>
+    <line x1="1.20" y1="10.00" x2="18.80" y2="10.00" stroke="#111111" stroke-width="0.7"/>
+    <text x="10.00" y="12.28" font-size="6.00" text-anchor="middle" fill="#111111">PI</text>
+    <text x="10.00" y="25.90" font-size="4.40" text-anchor="middle" fill="#222">PI-444</text>
+  </g>
+  <g transform="translate(234.00,697.00)" id="efrag_1:n0:ti" class="node-g fragment-efrag" data-loop-id="" data-fragment-id="efrag_1">
+    <title>TI-544 (instrument:temperature)
+tag: TI-544</title>
+    <circle cx="10.00" cy="10.00" r="8.80" fill="#ffffff" stroke="#111111" stroke-width="1.0"/>
+    <line x1="1.20" y1="10.00" x2="18.80" y2="10.00" stroke="#111111" stroke-width="0.7"/>
+    <text x="10.00" y="12.28" font-size="6.00" text-anchor="middle" fill="#111111">TI</text>
+    <text x="10.00" y="25.90" font-size="4.40" text-anchor="middle" fill="#222">TI-544</text>
+  </g>
+  <g transform="translate(150.00,753.00)" id="efrag_1:n1" class="node-g fragment-efrag" data-loop-id="" data-fragment-id="efrag_1">
+    <title>E-045 (equipment_block)
+tag: E-045
+equipment_type: vessel
+duty: process</title>
+    <rect x="0.00" y="0.00" width="80.00" height="60.00" fill="#ffffff" stroke="#111111" stroke-width="2.0" rx="4.00" ry="4.20"/>
+    <line x1="0.00" y1="49.20" x2="80.00" y2="49.20" stroke="#111111" stroke-width="0.8"/>
+    <text x="40.00" y="32.47" font-size="6.50" text-anchor="middle" fill="#111111" font-weight="bold">E-045</text>
+  </g>
+  <g transform="translate(234.00,748.00)" id="efrag_1:n1:pi" class="node-g fragment-efrag" data-loop-id="" data-fragment-id="efrag_1">
+    <title>PI-445 (instrument:pressure)
+tag: PI-445</title>
+    <circle cx="10.00" cy="10.00" r="8.80" fill="#ffffff" stroke="#111111" stroke-width="1.0"/>
+    <line x1="1.20" y1="10.00" x2="18.80" y2="10.00" stroke="#111111" stroke-width="0.7"/>
+    <text x="10.00" y="12.28" font-size="6.00" text-anchor="middle" fill="#111111">PI</text>
+    <text x="10.00" y="25.90" font-size="4.40" text-anchor="middle" fill="#222">PI-445</text>
+  </g>
+  <g transform="translate(234.00,772.00)" id="efrag_1:n1:ti" class="node-g fragment-efrag" data-loop-id="" data-fragment-id="efrag_1">
+    <title>TI-545 (instrument:temperature)
+tag: TI-545</title>
+    <circle cx="10.00" cy="10.00" r="8.80" fill="#ffffff" stroke="#111111" stroke-width="1.0"/>
+    <line x1="1.20" y1="10.00" x2="18.80" y2="10.00" stroke="#111111" stroke-width="0.7"/>
+    <text x="10.00" y="12.28" font-size="6.00" text-anchor="middle" fill="#111111">TI</text>
+    <text x="10.00" y="25.90" font-size="4.40" text-anchor="middle" fill="#222">TI-545</text>
+  </g>
+  <g transform="translate(150.00,828.00)" id="efrag_1:n2" class="node-g fragment-efrag" data-loop-id="" data-fragment-id="efrag_1">
+    <title>E-046 (equipment_block)
+tag: E-046
+equipment_type: vessel
+duty: process</title>
+    <rect x="0.00" y="0.00" width="80.00" height="60.00" fill="#ffffff" stroke="#111111" stroke-width="2.0" rx="4.00" ry="4.20"/>
+    <line x1="0.00" y1="49.20" x2="80.00" y2="49.20" stroke="#111111" stroke-width="0.8"/>
+    <text x="40.00" y="32.47" font-size="6.50" text-anchor="middle" fill="#111111" font-weight="bold">E-046</text>
+  </g>
+  <g transform="translate(234.00,823.00)" id="efrag_1:n2:pi" class="node-g fragment-efrag" data-loop-id="" data-fragment-id="efrag_1">
+    <title>PI-446 (instrument:pressure)
+tag: PI-446</title>
+    <circle cx="10.00" cy="10.00" r="8.80" fill="#ffffff" stroke="#111111" stroke-width="1.0"/>
+    <line x1="1.20" y1="10.00" x2="18.80" y2="10.00" stroke="#111111" stroke-width="0.7"/>
+    <text x="10.00" y="12.28" font-size="6.00" text-anchor="middle" fill="#111111">PI</text>
+    <text x="10.00" y="25.90" font-size="4.40" text-anchor="middle" fill="#222">PI-446</text>
+  </g>
+  <g transform="translate(234.00,847.00)" id="efrag_1:n2:ti" class="node-g fragment-efrag" data-loop-id="" data-fragment-id="efrag_1">
+    <title>TI-546 (instrument:temperature)
+tag: TI-546</title>
+    <circle cx="10.00" cy="10.00" r="8.80" fill="#ffffff" stroke="#111111" stroke-width="1.0"/>
+    <line x1="1.20" y1="10.00" x2="18.80" y2="10.00" stroke="#111111" stroke-width="0.7"/>
+    <text x="10.00" y="12.28" font-size="6.00" text-anchor="middle" fill="#111111">TI</text>
+    <text x="10.00" y="25.90" font-size="4.40" text-anchor="middle" fill="#222">TI-546</text>
+  </g>
+  <g transform="translate(150.00,903.00)" id="efrag_1:n3" class="node-g fragment-efrag" data-loop-id="" data-fragment-id="efrag_1">
+    <title>E-047 (equipment_block)
+tag: E-047
+equipment_type: vessel
+duty: process</title>
+    <rect x="0.00" y="0.00" width="80.00" height="60.00" fill="#ffffff" stroke="#111111" stroke-width="2.0" rx="4.00" ry="4.20"/>
+    <line x1="0.00" y1="49.20" x2="80.00" y2="49.20" stroke="#111111" stroke-width="0.8"/>
+    <text x="40.00" y="32.47" font-size="6.50" text-anchor="middle" fill="#111111" font-weight="bold">E-047</text>
+  </g>
+  <g transform="translate(234.00,898.00)" id="efrag_1:n3:pi" class="node-g fragment-efrag" data-loop-id="" data-fragment-id="efrag_1">
+    <title>PI-447 (instrument:pressure)
+tag: PI-447</title>
+    <circle cx="10.00" cy="10.00" r="8.80" fill="#ffffff" stroke="#111111" stroke-width="1.0"/>
+    <line x1="1.20" y1="10.00" x2="18.80" y2="10.00" stroke="#111111" stroke-width="0.7"/>
+    <text x="10.00" y="12.28" font-size="6.00" text-anchor="middle" fill="#111111">PI</text>
+    <text x="10.00" y="25.90" font-size="4.40" text-anchor="middle" fill="#222">PI-447</text>
+  </g>
+  <g transform="translate(234.00,922.00)" id="efrag_1:n3:ti" class="node-g fragment-efrag" data-loop-id="" data-fragment-id="efrag_1">
+    <title>TI-547 (instrument:temperature)
+tag: TI-547</title>
+    <circle cx="10.00" cy="10.00" r="8.80" fill="#ffffff" stroke="#111111" stroke-width="1.0"/>
+    <line x1="1.20" y1="10.00" x2="18.80" y2="10.00" stroke="#111111" stroke-width="0.7"/>
+    <text x="10.00" y="12.28" font-size="6.00" text-anchor="middle" fill="#111111">TI</text>
+    <text x="10.00" y="25.90" font-size="4.40" text-anchor="middle" fill="#222">TI-547</text>
+  </g>
+  <g transform="translate(150.00,978.00)" id="efrag_1:n4" class="node-g fragment-efrag" data-loop-id="" data-fragment-id="efrag_1">
+    <title>E-048 (equipment_block)
+tag: E-048
+equipment_type: vessel
+duty: process</title>
+    <rect x="0.00" y="0.00" width="80.00" height="60.00" fill="#ffffff" stroke="#111111" stroke-width="2.0" rx="4.00" ry="4.20"/>
+    <line x1="0.00" y1="49.20" x2="80.00" y2="49.20" stroke="#111111" stroke-width="0.8"/>
+    <text x="40.00" y="32.47" font-size="6.50" text-anchor="middle" fill="#111111" font-weight="bold">E-048</text>
+  </g>
+  <g transform="translate(234.00,973.00)" id="efrag_1:n4:pi" class="node-g fragment-efrag" data-loop-id="" data-fragment-id="efrag_1">
+    <title>PI-448 (instrument:pressure)
+tag: PI-448</title>
+    <circle cx="10.00" cy="10.00" r="8.80" fill="#ffffff" stroke="#111111" stroke-width="1.0"/>
+    <line x1="1.20" y1="10.00" x2="18.80" y2="10.00" stroke="#111111" stroke-width="0.7"/>
+    <text x="10.00" y="12.28" font-size="6.00" text-anchor="middle" fill="#111111">PI</text>
+    <text x="10.00" y="25.90" font-size="4.40" text-anchor="middle" fill="#222">PI-448</text>
+  </g>
+  <g transform="translate(234.00,997.00)" id="efrag_1:n4:ti" class="node-g fragment-efrag" data-loop-id="" data-fragment-id="efrag_1">
+    <title>TI-548 (instrument:temperature)
+tag: TI-548</title>
+    <circle cx="10.00" cy="10.00" r="8.80" fill="#ffffff" stroke="#111111" stroke-width="1.0"/>
+    <line x1="1.20" y1="10.00" x2="18.80" y2="10.00" stroke="#111111" stroke-width="0.7"/>
+    <text x="10.00" y="12.28" font-size="6.00" text-anchor="middle" fill="#111111">TI</text>
+    <text x="10.00" y="25.90" font-size="4.40" text-anchor="middle" fill="#222">TI-548</text>
+  </g>
+  <g transform="translate(150.00,1053.00)" id="efrag_1:n5" class="node-g fragment-efrag" data-loop-id="" data-fragment-id="efrag_1">
+    <title>E-049 (equipment_block)
+tag: E-049
+equipment_type: vessel
+duty: process</title>
+    <rect x="0.00" y="0.00" width="80.00" height="60.00" fill="#ffffff" stroke="#111111" stroke-width="2.0" rx="4.00" ry="4.20"/>
+    <line x1="0.00" y1="49.20" x2="80.00" y2="49.20" stroke="#111111" stroke-width="0.8"/>
+    <text x="40.00" y="32.47" font-size="6.50" text-anchor="middle" fill="#111111" font-weight="bold">E-049</text>
+  </g>
+  <g transform="translate(234.00,1048.00)" id="efrag_1:n5:pi" class="node-g fragment-efrag" data-loop-id="" data-fragment-id="efrag_1">
+    <title>PI-449 (instrument:pressure)
+tag: PI-449</title>
+    <circle cx="10.00" cy="10.00" r="8.80" fill="#ffffff" stroke="#111111" stroke-width="1.0"/>
+    <line x1="1.20" y1="10.00" x2="18.80" y2="10.00" stroke="#111111" stroke-width="0.7"/>
+    <text x="10.00" y="12.28" font-size="6.00" text-anchor="middle" fill="#111111">PI</text>
+    <text x="10.00" y="25.90" font-size="4.40" text-anchor="middle" fill="#222">PI-449</text>
+  </g>
+  <g transform="translate(234.00,1072.00)" id="efrag_1:n5:ti" class="node-g fragment-efrag" data-loop-id="" data-fragment-id="efrag_1">
+    <title>TI-549 (instrument:temperature)
+tag: TI-549</title>
+    <circle cx="10.00" cy="10.00" r="8.80" fill="#ffffff" stroke="#111111" stroke-width="1.0"/>
+    <line x1="1.20" y1="10.00" x2="18.80" y2="10.00" stroke="#111111" stroke-width="0.7"/>
+    <text x="10.00" y="12.28" font-size="6.00" text-anchor="middle" fill="#111111">TI</text>
+    <text x="10.00" y="25.90" font-size="4.40" text-anchor="middle" fill="#222">TI-549</text>
+  </g>
+  <g transform="translate(150.00,1128.00)" id="efrag_1:n6" class="node-g fragment-efrag" data-loop-id="" data-fragment-id="efrag_1">
+    <title>E-050 (equipment_block)
+tag: E-050
+equipment_type: vessel
+duty: process</title>
+    <rect x="0.00" y="0.00" width="80.00" height="60.00" fill="#ffffff" stroke="#111111" stroke-width="2.0" rx="4.00" ry="4.20"/>
+    <line x1="0.00" y1="49.20" x2="80.00" y2="49.20" stroke="#111111" stroke-width="0.8"/>
+    <text x="40.00" y="32.47" font-size="6.50" text-anchor="middle" fill="#111111" font-weight="bold">E-050</text>
+  </g>
+  <g transform="translate(234.00,1123.00)" id="efrag_1:n6:pi" class="node-g fragment-efrag" data-loop-id="" data-fragment-id="efrag_1">
+    <title>PI-450 (instrument:pressure)
+tag: PI-450</title>
+    <circle cx="10.00" cy="10.00" r="8.80" fill="#ffffff" stroke="#111111" stroke-width="1.0"/>
+    <line x1="1.20" y1="10.00" x2="18.80" y2="10.00" stroke="#111111" stroke-width="0.7"/>
+    <text x="10.00" y="12.28" font-size="6.00" text-anchor="middle" fill="#111111">PI</text>
+    <text x="10.00" y="25.90" font-size="4.40" text-anchor="middle" fill="#222">PI-450</text>
+  </g>
+  <g transform="translate(234.00,1147.00)" id="efrag_1:n6:ti" class="node-g fragment-efrag" data-loop-id="" data-fragment-id="efrag_1">
+    <title>TI-550 (instrument:temperature)
+tag: TI-550</title>
+    <circle cx="10.00" cy="10.00" r="8.80" fill="#ffffff" stroke="#111111" stroke-width="1.0"/>
+    <line x1="1.20" y1="10.00" x2="18.80" y2="10.00" stroke="#111111" stroke-width="0.7"/>
+    <text x="10.00" y="12.28" font-size="6.00" text-anchor="middle" fill="#111111">TI</text>
+    <text x="10.00" y="25.90" font-size="4.40" text-anchor="middle" fill="#222">TI-550</text>
+  </g>
+  <g transform="translate(260.00,678.00)" id="efrag_2:n0" class="node-g fragment-efrag" data-loop-id="" data-fragment-id="efrag_2">
+    <title>E-051 (equipment_block)
+tag: E-051
+equipment_type: vessel
+duty: process</title>
+    <rect x="0.00" y="0.00" width="80.00" height="60.00" fill="#ffffff" stroke="#111111" stroke-width="2.0" rx="4.00" ry="4.20"/>
+    <line x1="0.00" y1="49.20" x2="80.00" y2="49.20" stroke="#111111" stroke-width="0.8"/>
+    <text x="40.00" y="32.47" font-size="6.50" text-anchor="middle" fill="#111111" font-weight="bold">E-051</text>
+  </g>
+  <g transform="translate(344.00,673.00)" id="efrag_2:n0:pi" class="node-g fragment-efrag" data-loop-id="" data-fragment-id="efrag_2">
+    <title>PI-451 (instrument:pressure)
+tag: PI-451</title>
+    <circle cx="10.00" cy="10.00" r="8.80" fill="#ffffff" stroke="#111111" stroke-width="1.0"/>
+    <line x1="1.20" y1="10.00" x2="18.80" y2="10.00" stroke="#111111" stroke-width="0.7"/>
+    <text x="10.00" y="12.28" font-size="6.00" text-anchor="middle" fill="#111111">PI</text>
+    <text x="10.00" y="25.90" font-size="4.40" text-anchor="middle" fill="#222">PI-451</text>
+  </g>
+  <g transform="translate(344.00,697.00)" id="efrag_2:n0:ti" class="node-g fragment-efrag" data-loop-id="" data-fragment-id="efrag_2">
+    <title>TI-551 (instrument:temperature)
+tag: TI-551</title>
+    <circle cx="10.00" cy="10.00" r="8.80" fill="#ffffff" stroke="#111111" stroke-width="1.0"/>
+    <line x1="1.20" y1="10.00" x2="18.80" y2="10.00" stroke="#111111" stroke-width="0.7"/>
+    <text x="10.00" y="12.28" font-size="6.00" text-anchor="middle" fill="#111111">TI</text>
+    <text x="10.00" y="25.90" font-size="4.40" text-anchor="middle" fill="#222">TI-551</text>
+  </g>
+  <g transform="translate(370.00,678.00)" id="efrag_3:n0" class="node-g fragment-efrag" data-loop-id="" data-fragment-id="efrag_3">
+    <title>E-052 (equipment_block)
+tag: E-052
+equipment_type: vessel
+duty: process</title>
+    <rect x="0.00" y="0.00" width="80.00" height="60.00" fill="#ffffff" stroke="#111111" stroke-width="2.0" rx="4.00" ry="4.20"/>
+    <line x1="0.00" y1="49.20" x2="80.00" y2="49.20" stroke="#111111" stroke-width="0.8"/>
+    <text x="40.00" y="32.47" font-size="6.50" text-anchor="middle" fill="#111111" font-weight="bold">E-052</text>
+  </g>
+  <g transform="translate(454.00,673.00)" id="efrag_3:n0:pi" class="node-g fragment-efrag" data-loop-id="" data-fragment-id="efrag_3">
+    <title>PI-452 (instrument:pressure)
+tag: PI-452</title>
+    <circle cx="10.00" cy="10.00" r="8.80" fill="#ffffff" stroke="#111111" stroke-width="1.0"/>
+    <line x1="1.20" y1="10.00" x2="18.80" y2="10.00" stroke="#111111" stroke-width="0.7"/>
+    <text x="10.00" y="12.28" font-size="6.00" text-anchor="middle" fill="#111111">PI</text>
+    <text x="10.00" y="25.90" font-size="4.40" text-anchor="middle" fill="#222">PI-452</text>
+  </g>
+  <g transform="translate(454.00,697.00)" id="efrag_3:n0:ti" class="node-g fragment-efrag" data-loop-id="" data-fragment-id="efrag_3">
+    <title>TI-552 (instrument:temperature)
+tag: TI-552</title>
+    <circle cx="10.00" cy="10.00" r="8.80" fill="#ffffff" stroke="#111111" stroke-width="1.0"/>
+    <line x1="1.20" y1="10.00" x2="18.80" y2="10.00" stroke="#111111" stroke-width="0.7"/>
+    <text x="10.00" y="12.28" font-size="6.00" text-anchor="middle" fill="#111111">TI</text>
+    <text x="10.00" y="25.90" font-size="4.40" text-anchor="middle" fill="#222">TI-552</text>
+  </g>
+  <g transform="translate(480.00,678.00)" id="efrag_4:n0" class="node-g fragment-efrag" data-loop-id="" data-fragment-id="efrag_4">
+    <title>E-053 (equipment_block)
+tag: E-053
+equipment_type: vessel
+duty: process</title>
+    <rect x="0.00" y="0.00" width="80.00" height="60.00" fill="#ffffff" stroke="#111111" stroke-width="2.0" rx="4.00" ry="4.20"/>
+    <line x1="0.00" y1="49.20" x2="80.00" y2="49.20" stroke="#111111" stroke-width="0.8"/>
+    <text x="40.00" y="32.47" font-size="6.50" text-anchor="middle" fill="#111111" font-weight="bold">E-053</text>
+  </g>
+  <g transform="translate(564.00,673.00)" id="efrag_4:n0:pi" class="node-g fragment-efrag" data-loop-id="" data-fragment-id="efrag_4">
+    <title>PI-453 (instrument:pressure)
+tag: PI-453</title>
+    <circle cx="10.00" cy="10.00" r="8.80" fill="#ffffff" stroke="#111111" stroke-width="1.0"/>
+    <line x1="1.20" y1="10.00" x2="18.80" y2="10.00" stroke="#111111" stroke-width="0.7"/>
+    <text x="10.00" y="12.28" font-size="6.00" text-anchor="middle" fill="#111111">PI</text>
+    <text x="10.00" y="25.90" font-size="4.40" text-anchor="middle" fill="#222">PI-453</text>
+  </g>
+  <g transform="translate(564.00,697.00)" id="efrag_4:n0:ti" class="node-g fragment-efrag" data-loop-id="" data-fragment-id="efrag_4">
+    <title>TI-553 (instrument:temperature)
+tag: TI-553</title>
+    <circle cx="10.00" cy="10.00" r="8.80" fill="#ffffff" stroke="#111111" stroke-width="1.0"/>
+    <line x1="1.20" y1="10.00" x2="18.80" y2="10.00" stroke="#111111" stroke-width="0.7"/>
+    <text x="10.00" y="12.28" font-size="6.00" text-anchor="middle" fill="#111111">TI</text>
+    <text x="10.00" y="25.90" font-size="4.40" text-anchor="middle" fill="#222">TI-553</text>
+  </g>
+  <g transform="translate(590.00,678.00)" id="efrag_5:n0" class="node-g fragment-efrag" data-loop-id="" data-fragment-id="efrag_5">
+    <title>E-054 (equipment_block)
+tag: E-054
+equipment_type: vessel
+duty: process</title>
+    <rect x="0.00" y="0.00" width="80.00" height="60.00" fill="#ffffff" stroke="#111111" stroke-width="2.0" rx="4.00" ry="4.20"/>
+    <line x1="0.00" y1="49.20" x2="80.00" y2="49.20" stroke="#111111" stroke-width="0.8"/>
+    <text x="40.00" y="32.47" font-size="6.50" text-anchor="middle" fill="#111111" font-weight="bold">E-054</text>
+  </g>
+  <g transform="translate(674.00,673.00)" id="efrag_5:n0:pi" class="node-g fragment-efrag" data-loop-id="" data-fragment-id="efrag_5">
+    <title>PI-454 (instrument:pressure)
+tag: PI-454</title>
+    <circle cx="10.00" cy="10.00" r="8.80" fill="#ffffff" stroke="#111111" stroke-width="1.0"/>
+    <line x1="1.20" y1="10.00" x2="18.80" y2="10.00" stroke="#111111" stroke-width="0.7"/>
+    <text x="10.00" y="12.28" font-size="6.00" text-anchor="middle" fill="#111111">PI</text>
+    <text x="10.00" y="25.90" font-size="4.40" text-anchor="middle" fill="#222">PI-454</text>
+  </g>
+  <g transform="translate(674.00,697.00)" id="efrag_5:n0:ti" class="node-g fragment-efrag" data-loop-id="" data-fragment-id="efrag_5">
+    <title>TI-554 (instrument:temperature)
+tag: TI-554</title>
+    <circle cx="10.00" cy="10.00" r="8.80" fill="#ffffff" stroke="#111111" stroke-width="1.0"/>
+    <line x1="1.20" y1="10.00" x2="18.80" y2="10.00" stroke="#111111" stroke-width="0.7"/>
+    <text x="10.00" y="12.28" font-size="6.00" text-anchor="middle" fill="#111111">TI</text>
+    <text x="10.00" y="25.90" font-size="4.40" text-anchor="middle" fill="#222">TI-554</text>
+  </g>
+  <rect x="8" y="1950.00" width="168" height="170" fill="white" stroke="#999" stroke-width="0.8" rx="4" opacity="0.93"/>
+  <text x="13" y="1961.00" font-size="7" font-weight="bold" fill="#222">Legend</text>
+  <rect x="13" y="1966.00" width="10" height="7" fill="#ffffff" stroke="#111111" stroke-width="0.6" rx="1"/>
+  <text x="26" y="1972.00" font-size="5.2" fill="#222">pipe_segment</text>
+  <rect x="13" y="1975.50" width="10" height="7" fill="#ffffff" stroke="#111111" stroke-width="0.6" rx="1"/>
+  <text x="26" y="1981.50" font-size="5.2" fill="#222">equipment_block</text>
+  <rect x="13" y="1985.00" width="10" height="7" fill="#ffffff" stroke="#111111" stroke-width="0.6" rx="1"/>
+  <text x="26" y="1991.00" font-size="5.2" fill="#222">valve:isolation</text>
+  <rect x="13" y="1994.50" width="10" height="7" fill="#ffffff" stroke="#111111" stroke-width="0.6" rx="1"/>
+  <text x="26" y="2000.50" font-size="5.2" fill="#222">valve:control</text>
+  <rect x="13" y="2004.00" width="10" height="7" fill="#ffffff" stroke="#111111" stroke-width="0.6" rx="1"/>
+  <text x="26" y="2010.00" font-size="5.2" fill="#222">valve:drain</text>
+  <rect x="13" y="2013.50" width="10" height="7" fill="#ffffff" stroke="#111111" stroke-width="0.6" rx="1"/>
+  <text x="26" y="2019.50" font-size="5.2" fill="#222">instrument:flow_meter</text>
+  <rect x="13" y="2023.00" width="10" height="7" fill="#111111" stroke="#111111" stroke-width="0.6" rx="1"/>
+  <text x="26" y="2029.00" font-size="5.2" fill="#222">actuator:pneumatic</text>
+  <rect x="13" y="2032.50" width="10" height="7" fill="#ffffff" stroke="#111111" stroke-width="0.6" rx="1"/>
+  <text x="26" y="2038.50" font-size="5.2" fill="#222">instrument:controller</text>
+  <rect x="13" y="2042.00" width="10" height="7" fill="#ffffff" stroke="#111111" stroke-width="0.6" rx="1"/>
+  <text x="26" y="2048.00" font-size="5.2" fill="#222">instrument:transmitter</text>
+  <rect x="13" y="2051.50" width="10" height="7" fill="#ffffff" stroke="#111111" stroke-width="0.6" rx="1"/>
+  <text x="26" y="2057.50" font-size="5.2" fill="#222">instrument:pressure</text>
+  <rect x="13" y="2061.00" width="10" height="7" fill="#ffffff" stroke="#111111" stroke-width="0.6" rx="1"/>
+  <text x="26" y="2067.00" font-size="5.2" fill="#222">instrument:temperature</text>
+  <rect x="13" y="2070.50" width="10" height="7" fill="#ffffff" stroke="#111111" stroke-width="0.6" rx="1"/>
+  <text x="26" y="2076.50" font-size="5.2" fill="#222">tank</text>
+  <rect x="13" y="2080.00" width="10" height="7" fill="#ffffff" stroke="#111111" stroke-width="0.6" rx="1"/>
+  <text x="26" y="2086.00" font-size="5.2" fill="#222">pump</text>
+  <rect x="13" y="2089.50" width="10" height="7" fill="#ffffff" stroke="#111111" stroke-width="0.6" rx="1"/>
+  <text x="26" y="2095.50" font-size="5.2" fill="#222">inlet_outlet</text>
+  <rect x="13" y="2099.00" width="10" height="7" fill="#ffffff" stroke="#111111" stroke-width="0.6" rx="1"/>
+  <text x="26" y="2105.00" font-size="5.2" fill="#222">motor:driver</text>
+  <rect x="13" y="2108.50" width="10" height="7" fill="#ffffff" stroke="#111111" stroke-width="0.6" rx="1"/>
+  <text x="26" y="2114.50" font-size="5.2" fill="#222">instrument:level</text>
+  <line x1="12" y1="2120.00" x2="172" y2="2120.00" stroke="#ccc" stroke-width="0.5"/>
+  <line x1="13" y1="2128.50" x2="27" y2="2128.50" stroke="#111111" stroke-width="3.0" />
+  <text x="30" y="2131.00" font-size="5.2" fill="#222">process pipe</text>
+  <line x1="13" y1="2137.00" x2="27" y2="2137.00" stroke="#444444" stroke-width="0.9" stroke-dasharray="6 3"/>
+  <text x="30" y="2139.50" font-size="5.2" fill="#222">signal</text>
+  <line x1="13" y1="2145.50" x2="27" y2="2145.50" stroke="#444444" stroke-width="0.8" stroke-dasharray="3 2"/>
+  <text x="30" y="2148.00" font-size="5.2" fill="#222">sense</text>
+  <line x1="13" y1="2154.00" x2="27" y2="2154.00" stroke="#222222" stroke-width="1.4" />
+  <text x="30" y="2156.50" font-size="5.2" fill="#222">mechanical</text>
+  <line x1="13" y1="2162.50" x2="27" y2="2162.50" stroke="#222222" stroke-width="1.6" />
+  <text x="30" y="2165.00" font-size="5.2" fill="#222">branch</text>
+</svg>

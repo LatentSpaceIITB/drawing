@@ -1,0 +1,4227 @@
+{
+  "metadata": {
+    "source_file": "input.graphml",
+    "raw_node_counts": {
+      "tank": 2,
+      "general": 10,
+      "arrow": 39,
+      "valve": 19,
+      "pump": 5,
+      "instrumentation": 27,
+      "inlet_outlet": 8,
+      "connector": 177,
+      "crossing": 60
+    },
+    "semantic_node_counts": {
+      "tank": 2,
+      "general": 10,
+      "arrow": 39,
+      "valve": 19,
+      "pump": 5,
+      "instrumentation": 27,
+      "inlet_outlet": 8
+    },
+    "edge_counts": {
+      "solid": 340,
+      "non_solid": 0
+    },
+    "coordinate_bounds": {
+      "xmin": 107.89,
+      "ymin": 235.7,
+      "xmax": 2688.78,
+      "ymax": 1778.54
+    }
+  },
+  "normalized_graph": {
+    "nodes": [
+      {
+        "id": "tank1",
+        "type": "tank",
+        "center": [
+          1362.02,
+          654.715
+        ],
+        "bbox": [
+          1193.09,
+          512.33,
+          1530.95,
+          797.1
+        ]
+      },
+      {
+        "id": "general2",
+        "type": "general",
+        "center": [
+          974.03,
+          899.22
+        ],
+        "bbox": [
+          958.83,
+          672.82,
+          989.23,
+          1125.62
+        ]
+      },
+      {
+        "id": "arrow3",
+        "type": "arrow",
+        "center": [
+          2202.115,
+          1475.45
+        ],
+        "bbox": [
+          2191.98,
+          1468.89,
+          2212.25,
+          1482.01
+        ]
+      },
+      {
+        "id": "arrow4",
+        "type": "arrow",
+        "center": [
+          2205.09,
+          588.1099999999999
+        ],
+        "bbox": [
+          2196.7,
+          581.55,
+          2213.48,
+          594.67
+        ]
+      },
+      {
+        "id": "arrow5",
+        "type": "arrow",
+        "center": [
+          2194.83,
+          744.04
+        ],
+        "bbox": [
+          2188.15,
+          735.68,
+          2201.51,
+          752.4
+        ]
+      },
+      {
+        "id": "arrow6",
+        "type": "arrow",
+        "center": [
+          1140.305,
+          1619.87
+        ],
+        "bbox": [
+          1134.9,
+          1611.94,
+          1145.71,
+          1627.8
+        ]
+      },
+      {
+        "id": "arrow7",
+        "type": "arrow",
+        "center": [
+          1084.76,
+          1010.655
+        ],
+        "bbox": [
+          1078.08,
+          1002.21,
+          1091.44,
+          1019.1
+        ]
+      },
+      {
+        "id": "arrow8",
+        "type": "arrow",
+        "center": [
+          1130.055,
+          1710.06
+        ],
+        "bbox": [
+          1121.91,
+          1703.5,
+          1138.2,
+          1716.62
+        ]
+      },
+      {
+        "id": "valve9",
+        "type": "valve",
+        "center": [
+          1073.85,
+          1707.505
+        ],
+        "bbox": [
+          1060.68,
+          1697.21,
+          1087.02,
+          1717.8
+        ]
+      },
+      {
+        "id": "valve10",
+        "type": "valve",
+        "center": [
+          1073.1999999999998,
+          1315.745
+        ],
+        "bbox": [
+          1060.03,
+          1305.69,
+          1086.37,
+          1325.8
+        ]
+      },
+      {
+        "id": "valve11",
+        "type": "valve",
+        "center": [
+          1073.7849999999999,
+          1507.445
+        ],
+        "bbox": [
+          1060.62,
+          1497.59,
+          1086.95,
+          1517.3
+        ]
+      },
+      {
+        "id": "pump12",
+        "type": "pump",
+        "center": [
+          2028.415,
+          1288.38
+        ],
+        "bbox": [
+          1937.66,
+          1241.53,
+          2119.17,
+          1335.23
+        ]
+      },
+      {
+        "id": "instrumentation13",
+        "type": "instrumentation",
+        "center": [
+          712.095,
+          379.265
+        ],
+        "bbox": [
+          687.72,
+          355.48,
+          736.47,
+          403.05
+        ]
+      },
+      {
+        "id": "instrumentation14",
+        "type": "instrumentation",
+        "center": [
+          769.885,
+          479.145
+        ],
+        "bbox": [
+          745.51,
+          455.36,
+          794.26,
+          502.93
+        ]
+      },
+      {
+        "id": "instrumentation15",
+        "type": "instrumentation",
+        "center": [
+          769.425,
+          597.235
+        ],
+        "bbox": [
+          745.05,
+          573.45,
+          793.8,
+          621.02
+        ]
+      },
+      {
+        "id": "instrumentation16",
+        "type": "instrumentation",
+        "center": [
+          950.545,
+          1454.775
+        ],
+        "bbox": [
+          926.17,
+          1430.99,
+          974.92,
+          1478.56
+        ]
+      },
+      {
+        "id": "instrumentation17",
+        "type": "instrumentation",
+        "center": [
+          951.205,
+          1262.135
+        ],
+        "bbox": [
+          926.83,
+          1238.35,
+          975.58,
+          1285.92
+        ]
+      },
+      {
+        "id": "instrumentation18",
+        "type": "instrumentation",
+        "center": [
+          752.005,
+          1296.205
+        ],
+        "bbox": [
+          727.63,
+          1272.42,
+          776.38,
+          1319.99
+        ]
+      },
+      {
+        "id": "instrumentation19",
+        "type": "instrumentation",
+        "center": [
+          752.005,
+          1488.525
+        ],
+        "bbox": [
+          727.63,
+          1464.74,
+          776.38,
+          1512.31
+        ]
+      },
+      {
+        "id": "instrumentation20",
+        "type": "instrumentation",
+        "center": [
+          951.265,
+          1642.92
+        ],
+        "bbox": [
+          926.89,
+          1619.13,
+          975.64,
+          1666.71
+        ]
+      },
+      {
+        "id": "instrumentation21",
+        "type": "instrumentation",
+        "center": [
+          750.925,
+          1687.315
+        ],
+        "bbox": [
+          726.55,
+          1663.53,
+          775.3,
+          1711.1
+        ]
+      },
+      {
+        "id": "instrumentation22",
+        "type": "instrumentation",
+        "center": [
+          1646.835,
+          1543.605
+        ],
+        "bbox": [
+          1622.46,
+          1519.82,
+          1671.21,
+          1567.39
+        ]
+      },
+      {
+        "id": "instrumentation23",
+        "type": "instrumentation",
+        "center": [
+          1789.355,
+          1521.9850000000001
+        ],
+        "bbox": [
+          1764.98,
+          1498.2,
+          1813.73,
+          1545.77
+        ]
+      },
+      {
+        "id": "instrumentation24",
+        "type": "instrumentation",
+        "center": [
+          1873.485,
+          1276.4
+        ],
+        "bbox": [
+          1849.11,
+          1252.61,
+          1897.86,
+          1300.19
+        ]
+      },
+      {
+        "id": "instrumentation25",
+        "type": "instrumentation",
+        "center": [
+          917.4549999999999,
+          965.895
+        ],
+        "bbox": [
+          889.5,
+          942.11,
+          945.41,
+          989.68
+        ]
+      },
+      {
+        "id": "instrumentation26",
+        "type": "instrumentation",
+        "center": [
+          864.89,
+          964.5350000000001
+        ],
+        "bbox": [
+          838.88,
+          940.75,
+          890.9,
+          988.32
+        ]
+      },
+      {
+        "id": "pump27",
+        "type": "pump",
+        "center": [
+          2029.02,
+          921.55
+        ],
+        "bbox": [
+          1934.96,
+          874.6,
+          2123.08,
+          968.5
+        ]
+      },
+      {
+        "id": "arrow28",
+        "type": "arrow",
+        "center": [
+          1672.68,
+          754.12
+        ],
+        "bbox": [
+          1664.7,
+          748.24,
+          1680.66,
+          760.0
+        ]
+      },
+      {
+        "id": "arrow29",
+        "type": "arrow",
+        "center": [
+          418.73,
+          1263.58
+        ],
+        "bbox": [
+          412.05,
+          1253.7,
+          425.41,
+          1273.46
+        ]
+      },
+      {
+        "id": "inlet/outlet30",
+        "type": "inlet_outlet",
+        "center": [
+          2571.59,
+          1584.26
+        ],
+        "bbox": [
+          2457.26,
+          1558.2,
+          2685.92,
+          1610.32
+        ]
+      },
+      {
+        "id": "inlet/outlet31",
+        "type": "inlet_outlet",
+        "center": [
+          2573.8,
+          665.655
+        ],
+        "bbox": [
+          2458.82,
+          639.92,
+          2688.78,
+          691.39
+        ]
+      },
+      {
+        "id": "inlet/outlet32",
+        "type": "inlet_outlet",
+        "center": [
+          2573.8,
+          588.835
+        ],
+        "bbox": [
+          2458.82,
+          563.1,
+          2688.78,
+          614.57
+        ]
+      },
+      {
+        "id": "inlet/outlet33",
+        "type": "inlet_outlet",
+        "center": [
+          2573.8,
+          454.95000000000005
+        ],
+        "bbox": [
+          2458.82,
+          429.22,
+          2688.78,
+          480.68
+        ]
+      },
+      {
+        "id": "inlet/outlet34",
+        "type": "inlet_outlet",
+        "center": [
+          222.875,
+          293.83000000000004
+        ],
+        "bbox": [
+          107.89,
+          268.1,
+          337.86,
+          319.56
+        ]
+      },
+      {
+        "id": "inlet/outlet35",
+        "type": "inlet_outlet",
+        "center": [
+          488.1,
+          344.52
+        ],
+        "bbox": [
+          479.38,
+          340.41,
+          496.82,
+          348.63
+        ]
+      },
+      {
+        "id": "general36",
+        "type": "general",
+        "center": [
+          616.5,
+          344.94
+        ],
+        "bbox": [
+          607.78,
+          340.83,
+          625.22,
+          349.05
+        ]
+      },
+      {
+        "id": "general37",
+        "type": "general",
+        "center": [
+          666.37,
+          423.68
+        ],
+        "bbox": [
+          662.03,
+          415.43,
+          670.71,
+          431.93
+        ]
+      },
+      {
+        "id": "general38",
+        "type": "general",
+        "center": [
+          666.45,
+          613.95
+        ],
+        "bbox": [
+          661.2,
+          605.4,
+          671.7,
+          622.5
+        ]
+      },
+      {
+        "id": "general39",
+        "type": "general",
+        "center": [
+          551.81,
+          698.9300000000001
+        ],
+        "bbox": [
+          543.52,
+          694.16,
+          560.1,
+          703.7
+        ]
+      },
+      {
+        "id": "valve40",
+        "type": "valve",
+        "center": [
+          552.4200000000001,
+          730.19
+        ],
+        "bbox": [
+          544.9,
+          716.78,
+          559.94,
+          743.6
+        ]
+      },
+      {
+        "id": "general41",
+        "type": "general",
+        "center": [
+          1209.12,
+          543.735
+        ],
+        "bbox": [
+          1204.2,
+          534.86,
+          1214.04,
+          552.61
+        ]
+      },
+      {
+        "id": "general42",
+        "type": "general",
+        "center": [
+          1514.77,
+          543.7950000000001
+        ],
+        "bbox": [
+          1510.52,
+          535.01,
+          1519.02,
+          552.58
+        ]
+      },
+      {
+        "id": "valve43",
+        "type": "valve",
+        "center": [
+          2237.94,
+          958.9200000000001
+        ],
+        "bbox": [
+          2224.44,
+          950.76,
+          2251.44,
+          967.08
+        ]
+      },
+      {
+        "id": "pump44",
+        "type": "pump",
+        "center": [
+          867.565,
+          1346.17
+        ],
+        "bbox": [
+          825.64,
+          1304.25,
+          909.49,
+          1388.09
+        ]
+      },
+      {
+        "id": "pump45",
+        "type": "pump",
+        "center": [
+          867.56,
+          1536.425
+        ],
+        "bbox": [
+          825.64,
+          1494.5,
+          909.48,
+          1578.35
+        ]
+      },
+      {
+        "id": "pump46",
+        "type": "pump",
+        "center": [
+          867.86,
+          1736.615
+        ],
+        "bbox": [
+          825.94,
+          1694.69,
+          909.78,
+          1778.54
+        ]
+      },
+      {
+        "id": "valve47",
+        "type": "valve",
+        "center": [
+          684.73,
+          1731.62
+        ],
+        "bbox": [
+          671.56,
+          1723.48,
+          697.9,
+          1739.76
+        ]
+      },
+      {
+        "id": "valve48",
+        "type": "valve",
+        "center": [
+          995.94,
+          1709.3899999999999
+        ],
+        "bbox": [
+          982.77,
+          1701.25,
+          1009.11,
+          1717.53
+        ]
+      },
+      {
+        "id": "valve49",
+        "type": "valve",
+        "center": [
+          1007.19,
+          1318.315
+        ],
+        "bbox": [
+          994.02,
+          1310.18,
+          1020.36,
+          1326.45
+        ]
+      },
+      {
+        "id": "valve50",
+        "type": "valve",
+        "center": [
+          1007.3050000000001,
+          1509.4499999999998
+        ],
+        "bbox": [
+          994.14,
+          1501.31,
+          1020.47,
+          1517.59
+        ]
+      },
+      {
+        "id": "valve51",
+        "type": "valve",
+        "center": [
+          684.8399999999999,
+          1531.995
+        ],
+        "bbox": [
+          671.67,
+          1523.86,
+          698.01,
+          1540.13
+        ]
+      },
+      {
+        "id": "valve52",
+        "type": "valve",
+        "center": [
+          1839.4850000000001,
+          1311.79
+        ],
+        "bbox": [
+          1826.32,
+          1289.9,
+          1852.65,
+          1333.68
+        ]
+      },
+      {
+        "id": "valve53",
+        "type": "valve",
+        "center": [
+          685.505,
+          1340.305
+        ],
+        "bbox": [
+          672.34,
+          1332.17,
+          698.67,
+          1348.44
+        ]
+      },
+      {
+        "id": "general54",
+        "type": "general",
+        "center": [
+          1338.51,
+          1609.96
+        ],
+        "bbox": [
+          1330.62,
+          1601.92,
+          1346.4,
+          1618.0
+        ]
+      },
+      {
+        "id": "valve55",
+        "type": "valve",
+        "center": [
+          2237.84,
+          1325.51
+        ],
+        "bbox": [
+          2223.78,
+          1316.22,
+          2251.9,
+          1334.8
+        ]
+      },
+      {
+        "id": "general56",
+        "type": "general",
+        "center": [
+          540.92,
+          329.58500000000004
+        ],
+        "bbox": [
+          528.04,
+          305.8,
+          553.8,
+          353.37
+        ]
+      },
+      {
+        "id": "arrow57",
+        "type": "arrow",
+        "center": [
+          2203.835,
+          1432.8600000000001
+        ],
+        "bbox": [
+          2193.7,
+          1426.3,
+          2213.97,
+          1439.42
+        ]
+      },
+      {
+        "id": "arrow58",
+        "type": "arrow",
+        "center": [
+          1689.28,
+          758.6
+        ],
+        "bbox": [
+          1685.06,
+          751.1,
+          1693.5,
+          766.1
+        ]
+      },
+      {
+        "id": "arrow59",
+        "type": "arrow",
+        "center": [
+          1140.4250000000002,
+          1599.6399999999999
+        ],
+        "bbox": [
+          1135.45,
+          1591.7,
+          1145.4,
+          1607.58
+        ]
+      },
+      {
+        "id": "arrow60",
+        "type": "arrow",
+        "center": [
+          1910.85,
+          800.3299999999999
+        ],
+        "bbox": [
+          1904.17,
+          791.5,
+          1917.53,
+          809.16
+        ]
+      },
+      {
+        "id": "arrow61",
+        "type": "arrow",
+        "center": [
+          429.4,
+          1021.67
+        ],
+        "bbox": [
+          421.1,
+          1015.3,
+          437.7,
+          1028.04
+        ]
+      },
+      {
+        "id": "arrow62",
+        "type": "arrow",
+        "center": [
+          1756.135,
+          1335.3049999999998
+        ],
+        "bbox": [
+          1750.77,
+          1327.02,
+          1761.5,
+          1343.59
+        ]
+      },
+      {
+        "id": "arrow63",
+        "type": "arrow",
+        "center": [
+          640.97,
+          1639.265
+        ],
+        "bbox": [
+          634.29,
+          1629.39,
+          647.65,
+          1649.14
+        ]
+      },
+      {
+        "id": "arrow64",
+        "type": "arrow",
+        "center": [
+          1662.295,
+          554.0350000000001
+        ],
+        "bbox": [
+          1655.62,
+          546.0,
+          1668.97,
+          562.07
+        ]
+      },
+      {
+        "id": "arrow65",
+        "type": "arrow",
+        "center": [
+          1779.955,
+          1329.125
+        ],
+        "bbox": [
+          1773.9,
+          1320.8,
+          1786.01,
+          1337.45
+        ]
+      },
+      {
+        "id": "arrow66",
+        "type": "arrow",
+        "center": [
+          2403.5,
+          665.72
+        ],
+        "bbox": [
+          2393.36,
+          659.16,
+          2413.64,
+          672.28
+        ]
+      },
+      {
+        "id": "general67",
+        "type": "general",
+        "center": [
+          1717.22,
+          688.0699999999999
+        ],
+        "bbox": [
+          1702.49,
+          462.33,
+          1731.95,
+          913.81
+        ]
+      },
+      {
+        "id": "arrow68",
+        "type": "arrow",
+        "center": [
+          1756.435,
+          1007.2149999999999
+        ],
+        "bbox": [
+          1751.07,
+          998.27,
+          1761.8,
+          1016.16
+        ]
+      },
+      {
+        "id": "arrow69",
+        "type": "arrow",
+        "center": [
+          654.3399999999999,
+          1736.605
+        ],
+        "bbox": [
+          649.4,
+          1730.31,
+          659.28,
+          1742.9
+        ]
+      },
+      {
+        "id": "arrow70",
+        "type": "arrow",
+        "center": [
+          1799.6,
+          1325.5
+        ],
+        "bbox": [
+          1791.3,
+          1319.9,
+          1807.9,
+          1331.1
+        ]
+      },
+      {
+        "id": "arrow71",
+        "type": "arrow",
+        "center": [
+          1095.0,
+          543.29
+        ],
+        "bbox": [
+          1086.4,
+          536.73,
+          1103.6,
+          549.85
+        ]
+      },
+      {
+        "id": "valve72",
+        "type": "valve",
+        "center": [
+          1661.99,
+          721.685
+        ],
+        "bbox": [
+          1654.04,
+          708.64,
+          1669.94,
+          734.73
+        ]
+      },
+      {
+        "id": "valve73",
+        "type": "valve",
+        "center": [
+          1085.625,
+          943.17
+        ],
+        "bbox": [
+          1077.1,
+          930.54,
+          1094.15,
+          955.8
+        ]
+      },
+      {
+        "id": "valve74",
+        "type": "valve",
+        "center": [
+          1826.585,
+          1548.885
+        ],
+        "bbox": [
+          1814.57,
+          1524.77,
+          1838.6,
+          1573.0
+        ]
+      },
+      {
+        "id": "inlet/outlet75",
+        "type": "inlet_outlet",
+        "center": [
+          2571.7349999999997,
+          1721.7350000000001
+        ],
+        "bbox": [
+          2458.2,
+          1695.7,
+          2685.27,
+          1747.77
+        ]
+      },
+      {
+        "id": "inlet/outlet76",
+        "type": "inlet_outlet",
+        "center": [
+          2572.44,
+          1431.91
+        ],
+        "bbox": [
+          2457.46,
+          1406.18,
+          2687.42,
+          1457.64
+        ]
+      },
+      {
+        "id": "instrumentation77",
+        "type": "instrumentation",
+        "center": [
+          1873.99,
+          811.0799999999999
+        ],
+        "bbox": [
+          1851.28,
+          787.66,
+          1896.7,
+          834.5
+        ]
+      },
+      {
+        "id": "instrumentation78",
+        "type": "instrumentation",
+        "center": [
+          1874.835,
+          910.1500000000001
+        ],
+        "bbox": [
+          1852.47,
+          886.2,
+          1897.2,
+          934.1
+        ]
+      },
+      {
+        "id": "instrumentation79",
+        "type": "instrumentation",
+        "center": [
+          1852.3,
+          699.255
+        ],
+        "bbox": [
+          1825.5,
+          674.71,
+          1879.1,
+          723.8
+        ]
+      },
+      {
+        "id": "instrumentation80",
+        "type": "instrumentation",
+        "center": [
+          1795.65,
+          699.48
+        ],
+        "bbox": [
+          1769.5,
+          674.96,
+          1821.8,
+          724.0
+        ]
+      },
+      {
+        "id": "tank81",
+        "type": "tank",
+        "center": [
+          552.48,
+          515.895
+        ],
+        "bbox": [
+          454.93,
+          351.0,
+          650.03,
+          680.79
+        ]
+      },
+      {
+        "id": "valve82",
+        "type": "valve",
+        "center": [
+          435.33000000000004,
+          279.74
+        ],
+        "bbox": [
+          423.66,
+          259.0,
+          447.0,
+          300.48
+        ]
+      },
+      {
+        "id": "valve83",
+        "type": "valve",
+        "center": [
+          1840.55,
+          847.415
+        ],
+        "bbox": [
+          1828.6,
+          825.8,
+          1852.5,
+          869.03
+        ]
+      },
+      {
+        "id": "valve84",
+        "type": "valve",
+        "center": [
+          1840.395,
+          946.1500000000001
+        ],
+        "bbox": [
+          1828.5,
+          924.7,
+          1852.29,
+          967.6
+        ]
+      },
+      {
+        "id": "instrumentation85",
+        "type": "instrumentation",
+        "center": [
+          402.29,
+          258.84000000000003
+        ],
+        "bbox": [
+          379.1,
+          235.7,
+          425.48,
+          281.98
+        ]
+      },
+      {
+        "id": "arrow86",
+        "type": "arrow",
+        "center": [
+          1983.01,
+          455.475
+        ],
+        "bbox": [
+          1975.4,
+          449.4,
+          1990.62,
+          461.55
+        ]
+      },
+      {
+        "id": "arrow87",
+        "type": "arrow",
+        "center": [
+          2372.6949999999997,
+          1710.52
+        ],
+        "bbox": [
+          2366.02,
+          1702.14,
+          2379.37,
+          1718.9
+        ]
+      },
+      {
+        "id": "arrow88",
+        "type": "arrow",
+        "center": [
+          1129.08,
+          1509.3200000000002
+        ],
+        "bbox": [
+          1120.46,
+          1502.76,
+          1137.7,
+          1515.88
+        ]
+      },
+      {
+        "id": "arrow90",
+        "type": "arrow",
+        "center": [
+          2362.42,
+          1326.04
+        ],
+        "bbox": [
+          2353.64,
+          1319.48,
+          2371.2,
+          1332.6
+        ]
+      },
+      {
+        "id": "instrumentation91",
+        "type": "instrumentation",
+        "center": [
+          2305.465,
+          1011.41
+        ],
+        "bbox": [
+          2281.93,
+          988.02,
+          2329.0,
+          1034.8
+        ]
+      },
+      {
+        "id": "instrumentation92",
+        "type": "instrumentation",
+        "center": [
+          2249.1800000000003,
+          1011.1600000000001
+        ],
+        "bbox": [
+          2224.1,
+          986.9,
+          2274.26,
+          1035.42
+        ]
+      },
+      {
+        "id": "instrumentation93",
+        "type": "instrumentation",
+        "center": [
+          1279.0549999999998,
+          1543.375
+        ],
+        "bbox": [
+          1252.01,
+          1519.59,
+          1306.1,
+          1567.16
+        ]
+      },
+      {
+        "id": "instrumentation94",
+        "type": "instrumentation",
+        "center": [
+          1218.505,
+          1542.78
+        ],
+        "bbox": [
+          1191.2,
+          1518.47,
+          1245.81,
+          1567.09
+        ]
+      },
+      {
+        "id": "instrumentation95",
+        "type": "instrumentation",
+        "center": [
+          2311.005,
+          1380.835
+        ],
+        "bbox": [
+          2284.61,
+          1357.37,
+          2337.4,
+          1404.3
+        ]
+      },
+      {
+        "id": "instrumentation96",
+        "type": "instrumentation",
+        "center": [
+          2368.545,
+          1380.5
+        ],
+        "bbox": [
+          2341.99,
+          1356.7,
+          2395.1,
+          1404.3
+        ]
+      },
+      {
+        "id": "instrumentation97",
+        "type": "instrumentation",
+        "center": [
+          1384.0700000000002,
+          1543.2649999999999
+        ],
+        "bbox": [
+          1360.5,
+          1519.48,
+          1407.64,
+          1567.05
+        ]
+      },
+      {
+        "id": "instrumentation98",
+        "type": "instrumentation",
+        "center": [
+          1339.37,
+          1543.2649999999999
+        ],
+        "bbox": [
+          1315.84,
+          1519.48,
+          1362.9,
+          1567.05
+        ]
+      },
+      {
+        "id": "arrow99",
+        "type": "arrow",
+        "center": [
+          1129.23,
+          1317.62
+        ],
+        "bbox": [
+          1120.76,
+          1311.06,
+          1137.7,
+          1324.18
+        ]
+      },
+      {
+        "id": "arrow100",
+        "type": "arrow",
+        "center": [
+          478.09000000000003,
+          292.72
+        ],
+        "bbox": [
+          470.18,
+          286.74,
+          486.0,
+          298.7
+        ]
+      },
+      {
+        "id": "arrow101",
+        "type": "arrow",
+        "center": [
+          1745.48,
+          1609.6399999999999
+        ],
+        "bbox": [
+          1736.96,
+          1603.08,
+          1754.0,
+          1616.2
+        ]
+      },
+      {
+        "id": "arrow102",
+        "type": "arrow",
+        "center": [
+          551.82,
+          1010.9549999999999
+        ],
+        "bbox": [
+          545.94,
+          1002.91,
+          557.7,
+          1019.0
+        ]
+      },
+      {
+        "id": "arrow103",
+        "type": "arrow",
+        "center": [
+          641.1700000000001,
+          1428.37
+        ],
+        "bbox": [
+          634.49,
+          1418.49,
+          647.85,
+          1438.25
+        ]
+      },
+      {
+        "id": "arrow104",
+        "type": "arrow",
+        "center": [
+          2372.26,
+          764.505
+        ],
+        "bbox": [
+          2365.58,
+          756.2,
+          2378.94,
+          772.81
+        ]
+      },
+      {
+        "id": "arrow105",
+        "type": "arrow",
+        "center": [
+          2327.37,
+          699.97
+        ],
+        "bbox": [
+          2320.69,
+          691.4,
+          2334.05,
+          708.54
+        ]
+      },
+      {
+        "id": "arrow106",
+        "type": "arrow",
+        "center": [
+          2361.2,
+          959.1949999999999
+        ],
+        "bbox": [
+          2353.2,
+          953.4,
+          2369.2,
+          964.99
+        ]
+      },
+      {
+        "id": "arrow107",
+        "type": "arrow",
+        "center": [
+          1972.08,
+          744.3050000000001
+        ],
+        "bbox": [
+          1965.4,
+          736.51,
+          1978.76,
+          752.1
+        ]
+      },
+      {
+        "id": "arrow108",
+        "type": "arrow",
+        "center": [
+          1755.825,
+          871.2049999999999
+        ],
+        "bbox": [
+          1749.15,
+          862.81,
+          1762.5,
+          879.6
+        ]
+      },
+      {
+        "id": "arrow109",
+        "type": "arrow",
+        "center": [
+          1798.96,
+          958.6300000000001
+        ],
+        "bbox": [
+          1788.82,
+          952.07,
+          1809.1,
+          965.19
+        ]
+      },
+      {
+        "id": "arrow110",
+        "type": "arrow",
+        "center": [
+          2362.025,
+          1564.79
+        ],
+        "bbox": [
+          2354.15,
+          1558.98,
+          2369.9,
+          1570.6
+        ]
+      },
+      {
+        "id": "arrow111",
+        "type": "arrow",
+        "center": [
+          536.37,
+          1508.9
+        ],
+        "bbox": [
+          526.23,
+          1502.34,
+          546.51,
+          1515.46
+        ]
+      }
+    ],
+    "edges": [
+      {
+        "source": "arrow3",
+        "target": "inlet/outlet30",
+        "edge_type": "solid"
+      },
+      {
+        "source": "arrow4",
+        "target": "arrow5",
+        "edge_type": "solid"
+      },
+      {
+        "source": "arrow4",
+        "target": "inlet/outlet32",
+        "edge_type": "solid"
+      },
+      {
+        "source": "arrow6",
+        "target": "arrow8",
+        "edge_type": "solid"
+      },
+      {
+        "source": "arrow7",
+        "target": "valve73",
+        "edge_type": "solid"
+      },
+      {
+        "source": "arrow7",
+        "target": "instrumentation26",
+        "edge_type": "solid"
+      },
+      {
+        "source": "arrow8",
+        "target": "valve9",
+        "edge_type": "solid"
+      },
+      {
+        "source": "valve9",
+        "target": "valve48",
+        "edge_type": "solid"
+      },
+      {
+        "source": "valve10",
+        "target": "valve49",
+        "edge_type": "solid"
+      },
+      {
+        "source": "valve10",
+        "target": "arrow99",
+        "edge_type": "solid"
+      },
+      {
+        "source": "valve11",
+        "target": "arrow88",
+        "edge_type": "solid"
+      },
+      {
+        "source": "valve11",
+        "target": "valve50",
+        "edge_type": "solid"
+      },
+      {
+        "source": "pump12",
+        "target": "valve52",
+        "edge_type": "solid"
+      },
+      {
+        "source": "pump12",
+        "target": "valve55",
+        "edge_type": "solid"
+      },
+      {
+        "source": "instrumentation13",
+        "target": "general37",
+        "edge_type": "solid"
+      },
+      {
+        "source": "instrumentation23",
+        "target": "valve74",
+        "edge_type": "solid"
+      },
+      {
+        "source": "instrumentation24",
+        "target": "valve52",
+        "edge_type": "solid"
+      },
+      {
+        "source": "instrumentation25",
+        "target": "instrumentation26",
+        "edge_type": "solid"
+      },
+      {
+        "source": "pump27",
+        "target": "valve84",
+        "edge_type": "solid"
+      },
+      {
+        "source": "pump27",
+        "target": "valve43",
+        "edge_type": "solid"
+      },
+      {
+        "source": "arrow28",
+        "target": "valve72",
+        "edge_type": "solid"
+      },
+      {
+        "source": "arrow29",
+        "target": "arrow61",
+        "edge_type": "solid"
+      },
+      {
+        "source": "arrow29",
+        "target": "arrow111",
+        "edge_type": "solid"
+      },
+      {
+        "source": "inlet/outlet31",
+        "target": "arrow66",
+        "edge_type": "solid"
+      },
+      {
+        "source": "inlet/outlet33",
+        "target": "arrow86",
+        "edge_type": "solid"
+      },
+      {
+        "source": "inlet/outlet34",
+        "target": "valve82",
+        "edge_type": "solid"
+      },
+      {
+        "source": "inlet/outlet35",
+        "target": "tank81",
+        "edge_type": "solid"
+      },
+      {
+        "source": "inlet/outlet35",
+        "target": "arrow100",
+        "edge_type": "solid"
+      },
+      {
+        "source": "general36",
+        "target": "tank81",
+        "edge_type": "solid"
+      },
+      {
+        "source": "general37",
+        "target": "tank81",
+        "edge_type": "solid"
+      },
+      {
+        "source": "general38",
+        "target": "tank81",
+        "edge_type": "solid"
+      },
+      {
+        "source": "general39",
+        "target": "tank81",
+        "edge_type": "solid"
+      },
+      {
+        "source": "general39",
+        "target": "valve40",
+        "edge_type": "solid"
+      },
+      {
+        "source": "valve40",
+        "target": "arrow102",
+        "edge_type": "solid"
+      },
+      {
+        "source": "general41",
+        "target": "arrow71",
+        "edge_type": "solid"
+      },
+      {
+        "source": "general42",
+        "target": "arrow64",
+        "edge_type": "solid"
+      },
+      {
+        "source": "pump45",
+        "target": "valve51",
+        "edge_type": "solid"
+      },
+      {
+        "source": "pump45",
+        "target": "valve50",
+        "edge_type": "solid"
+      },
+      {
+        "source": "pump46",
+        "target": "valve48",
+        "edge_type": "solid"
+      },
+      {
+        "source": "valve47",
+        "target": "arrow63",
+        "edge_type": "solid"
+      },
+      {
+        "source": "valve52",
+        "target": "arrow70",
+        "edge_type": "solid"
+      },
+      {
+        "source": "valve53",
+        "target": "arrow103",
+        "edge_type": "solid"
+      },
+      {
+        "source": "general54",
+        "target": "instrumentation94",
+        "edge_type": "solid"
+      },
+      {
+        "source": "general54",
+        "target": "instrumentation98",
+        "edge_type": "solid"
+      },
+      {
+        "source": "general56",
+        "target": "tank81",
+        "edge_type": "solid"
+      },
+      {
+        "source": "arrow57",
+        "target": "inlet/outlet76",
+        "edge_type": "solid"
+      },
+      {
+        "source": "arrow60",
+        "target": "valve83",
+        "edge_type": "solid"
+      },
+      {
+        "source": "arrow64",
+        "target": "valve72",
+        "edge_type": "solid"
+      },
+      {
+        "source": "arrow66",
+        "target": "arrow105",
+        "edge_type": "solid"
+      },
+      {
+        "source": "arrow71",
+        "target": "valve73",
+        "edge_type": "solid"
+      },
+      {
+        "source": "valve74",
+        "target": "arrow110",
+        "edge_type": "solid"
+      },
+      {
+        "source": "inlet/outlet75",
+        "target": "arrow87",
+        "edge_type": "solid"
+      },
+      {
+        "source": "instrumentation77",
+        "target": "valve83",
+        "edge_type": "solid"
+      },
+      {
+        "source": "valve82",
+        "target": "instrumentation85",
+        "edge_type": "solid"
+      },
+      {
+        "source": "valve82",
+        "target": "arrow100",
+        "edge_type": "solid"
+      },
+      {
+        "source": "valve83",
+        "target": "arrow108",
+        "edge_type": "solid"
+      },
+      {
+        "source": "valve84",
+        "target": "arrow109",
+        "edge_type": "solid"
+      },
+      {
+        "source": "arrow86",
+        "target": "arrow107",
+        "edge_type": "solid"
+      },
+      {
+        "source": "arrow87",
+        "target": "arrow110",
+        "edge_type": "solid"
+      },
+      {
+        "source": "arrow103",
+        "target": "arrow111",
+        "edge_type": "solid"
+      }
+    ]
+  },
+  "topology": {
+    "total_regions": 41,
+    "regions": [
+      {
+        "id": "region_0",
+        "nodes": [
+          "tank1"
+        ],
+        "boundary_elements": [],
+        "valve_touched": false,
+        "valve_bounded": false,
+        "entry_valves": [],
+        "exit_valves": [],
+        "junction_count": 0,
+        "max_degree": 0,
+        "avg_degree": 0.0,
+        "junction_density": 0.0,
+        "equipment_nodes": [
+          {
+            "node_id": "tank1",
+            "type": "tank",
+            "center": [
+              1362.02,
+              654.715
+            ],
+            "bbox": [
+              1193.09,
+              512.33,
+              1530.95,
+              797.1
+            ]
+          }
+        ],
+        "edge_type_histogram": {
+          "solid": 0,
+          "non_solid": 0
+        },
+        "signal_dominated": false
+      },
+      {
+        "id": "region_1",
+        "nodes": [
+          "general2"
+        ],
+        "boundary_elements": [],
+        "valve_touched": false,
+        "valve_bounded": false,
+        "entry_valves": [],
+        "exit_valves": [],
+        "junction_count": 0,
+        "max_degree": 0,
+        "avg_degree": 0.0,
+        "junction_density": 0.0,
+        "equipment_nodes": [
+          {
+            "node_id": "general2",
+            "type": "general",
+            "center": [
+              974.03,
+              899.22
+            ],
+            "bbox": [
+              958.83,
+              672.82,
+              989.23,
+              1125.62
+            ]
+          }
+        ],
+        "edge_type_histogram": {
+          "solid": 0,
+          "non_solid": 0
+        },
+        "signal_dominated": false
+      },
+      {
+        "id": "region_2",
+        "nodes": [
+          "arrow3",
+          "inlet/outlet30"
+        ],
+        "boundary_elements": [],
+        "valve_touched": false,
+        "valve_bounded": false,
+        "entry_valves": [],
+        "exit_valves": [],
+        "junction_count": 0,
+        "max_degree": 1,
+        "avg_degree": 1.0,
+        "junction_density": 0.0,
+        "equipment_nodes": [],
+        "edge_type_histogram": {
+          "solid": 1,
+          "non_solid": 0
+        },
+        "signal_dominated": false
+      },
+      {
+        "id": "region_3",
+        "nodes": [
+          "arrow4",
+          "arrow5",
+          "inlet/outlet32"
+        ],
+        "boundary_elements": [],
+        "valve_touched": false,
+        "valve_bounded": false,
+        "entry_valves": [],
+        "exit_valves": [],
+        "junction_count": 0,
+        "max_degree": 2,
+        "avg_degree": 1.3333,
+        "junction_density": 0.0,
+        "equipment_nodes": [],
+        "edge_type_histogram": {
+          "solid": 2,
+          "non_solid": 0
+        },
+        "signal_dominated": false
+      },
+      {
+        "id": "region_4",
+        "nodes": [
+          "arrow6",
+          "arrow8"
+        ],
+        "boundary_elements": [
+          {
+            "node_id": "valve9",
+            "type": "valve",
+            "connected_regions": [
+              "region_4"
+            ]
+          }
+        ],
+        "valve_touched": true,
+        "valve_bounded": false,
+        "entry_valves": [],
+        "exit_valves": [
+          "valve9"
+        ],
+        "junction_count": 0,
+        "max_degree": 1,
+        "avg_degree": 1.0,
+        "junction_density": 0.0,
+        "equipment_nodes": [],
+        "edge_type_histogram": {
+          "solid": 1,
+          "non_solid": 0
+        },
+        "signal_dominated": false
+      },
+      {
+        "id": "region_5",
+        "nodes": [
+          "arrow7"
+        ],
+        "boundary_elements": [
+          {
+            "node_id": "instrumentation26",
+            "type": "instrumentation",
+            "connected_regions": [
+              "region_5"
+            ]
+          },
+          {
+            "node_id": "valve73",
+            "type": "valve",
+            "connected_regions": [
+              "region_14",
+              "region_5"
+            ]
+          }
+        ],
+        "valve_touched": true,
+        "valve_bounded": true,
+        "entry_valves": [
+          "instrumentation26",
+          "valve73"
+        ],
+        "exit_valves": [],
+        "junction_count": 0,
+        "max_degree": 0,
+        "avg_degree": 0.0,
+        "junction_density": 0.0,
+        "equipment_nodes": [],
+        "edge_type_histogram": {
+          "solid": 0,
+          "non_solid": 0
+        },
+        "signal_dominated": false
+      },
+      {
+        "id": "region_6",
+        "nodes": [
+          "pump12"
+        ],
+        "boundary_elements": [
+          {
+            "node_id": "valve52",
+            "type": "valve",
+            "connected_regions": [
+              "region_30",
+              "region_6"
+            ]
+          },
+          {
+            "node_id": "valve55",
+            "type": "valve",
+            "connected_regions": [
+              "region_6"
+            ]
+          }
+        ],
+        "valve_touched": true,
+        "valve_bounded": true,
+        "entry_valves": [
+          "valve52"
+        ],
+        "exit_valves": [],
+        "junction_count": 0,
+        "max_degree": 0,
+        "avg_degree": 0.0,
+        "junction_density": 0.0,
+        "equipment_nodes": [
+          {
+            "node_id": "pump12",
+            "type": "pump",
+            "center": [
+              2028.415,
+              1288.38
+            ],
+            "bbox": [
+              1937.66,
+              1241.53,
+              2119.17,
+              1335.23
+            ]
+          }
+        ],
+        "edge_type_histogram": {
+          "solid": 0,
+          "non_solid": 0
+        },
+        "signal_dominated": false
+      },
+      {
+        "id": "region_7",
+        "nodes": [
+          "pump27"
+        ],
+        "boundary_elements": [
+          {
+            "node_id": "valve43",
+            "type": "valve",
+            "connected_regions": [
+              "region_7"
+            ]
+          },
+          {
+            "node_id": "valve84",
+            "type": "valve",
+            "connected_regions": [
+              "region_40",
+              "region_7"
+            ]
+          }
+        ],
+        "valve_touched": true,
+        "valve_bounded": true,
+        "entry_valves": [
+          "valve84"
+        ],
+        "exit_valves": [],
+        "junction_count": 0,
+        "max_degree": 0,
+        "avg_degree": 0.0,
+        "junction_density": 0.0,
+        "equipment_nodes": [
+          {
+            "node_id": "pump27",
+            "type": "pump",
+            "center": [
+              2029.02,
+              921.55
+            ],
+            "bbox": [
+              1934.96,
+              874.6,
+              2123.08,
+              968.5
+            ]
+          }
+        ],
+        "edge_type_histogram": {
+          "solid": 0,
+          "non_solid": 0
+        },
+        "signal_dominated": false
+      },
+      {
+        "id": "region_8",
+        "nodes": [
+          "arrow28"
+        ],
+        "boundary_elements": [
+          {
+            "node_id": "valve72",
+            "type": "valve",
+            "connected_regions": [
+              "region_15",
+              "region_8"
+            ]
+          }
+        ],
+        "valve_touched": true,
+        "valve_bounded": false,
+        "entry_valves": [
+          "valve72"
+        ],
+        "exit_valves": [],
+        "junction_count": 0,
+        "max_degree": 0,
+        "avg_degree": 0.0,
+        "junction_density": 0.0,
+        "equipment_nodes": [],
+        "edge_type_histogram": {
+          "solid": 0,
+          "non_solid": 0
+        },
+        "signal_dominated": false
+      },
+      {
+        "id": "region_9",
+        "nodes": [
+          "arrow103",
+          "arrow111",
+          "arrow29",
+          "arrow61"
+        ],
+        "boundary_elements": [
+          {
+            "node_id": "valve53",
+            "type": "valve",
+            "connected_regions": [
+              "region_9"
+            ]
+          }
+        ],
+        "valve_touched": true,
+        "valve_bounded": false,
+        "entry_valves": [],
+        "exit_valves": [
+          "valve53"
+        ],
+        "junction_count": 0,
+        "max_degree": 2,
+        "avg_degree": 1.5,
+        "junction_density": 0.0,
+        "equipment_nodes": [],
+        "edge_type_histogram": {
+          "solid": 3,
+          "non_solid": 0
+        },
+        "signal_dominated": false
+      },
+      {
+        "id": "region_10",
+        "nodes": [
+          "arrow105",
+          "arrow66",
+          "inlet/outlet31"
+        ],
+        "boundary_elements": [],
+        "valve_touched": false,
+        "valve_bounded": false,
+        "entry_valves": [],
+        "exit_valves": [],
+        "junction_count": 0,
+        "max_degree": 2,
+        "avg_degree": 1.3333,
+        "junction_density": 0.0,
+        "equipment_nodes": [],
+        "edge_type_histogram": {
+          "solid": 2,
+          "non_solid": 0
+        },
+        "signal_dominated": false
+      },
+      {
+        "id": "region_11",
+        "nodes": [
+          "arrow107",
+          "arrow86",
+          "inlet/outlet33"
+        ],
+        "boundary_elements": [],
+        "valve_touched": false,
+        "valve_bounded": false,
+        "entry_valves": [],
+        "exit_valves": [],
+        "junction_count": 0,
+        "max_degree": 2,
+        "avg_degree": 1.3333,
+        "junction_density": 0.0,
+        "equipment_nodes": [],
+        "edge_type_histogram": {
+          "solid": 2,
+          "non_solid": 0
+        },
+        "signal_dominated": false
+      },
+      {
+        "id": "region_12",
+        "nodes": [
+          "inlet/outlet34"
+        ],
+        "boundary_elements": [
+          {
+            "node_id": "valve82",
+            "type": "valve",
+            "connected_regions": [
+              "region_12",
+              "region_13"
+            ]
+          }
+        ],
+        "valve_touched": true,
+        "valve_bounded": false,
+        "entry_valves": [
+          "valve82"
+        ],
+        "exit_valves": [],
+        "junction_count": 0,
+        "max_degree": 0,
+        "avg_degree": 0.0,
+        "junction_density": 0.0,
+        "equipment_nodes": [],
+        "edge_type_histogram": {
+          "solid": 0,
+          "non_solid": 0
+        },
+        "signal_dominated": false
+      },
+      {
+        "id": "region_13",
+        "nodes": [
+          "arrow100",
+          "general36",
+          "general37",
+          "general38",
+          "general39",
+          "general56",
+          "inlet/outlet35",
+          "tank81"
+        ],
+        "boundary_elements": [
+          {
+            "node_id": "instrumentation13",
+            "type": "instrumentation",
+            "connected_regions": [
+              "region_13"
+            ]
+          },
+          {
+            "node_id": "valve40",
+            "type": "valve",
+            "connected_regions": [
+              "region_13",
+              "region_36"
+            ]
+          },
+          {
+            "node_id": "valve82",
+            "type": "valve",
+            "connected_regions": [
+              "region_12",
+              "region_13"
+            ]
+          }
+        ],
+        "valve_touched": true,
+        "valve_bounded": true,
+        "entry_valves": [
+          "valve40"
+        ],
+        "exit_valves": [
+          "valve82"
+        ],
+        "junction_count": 1,
+        "max_degree": 6,
+        "avg_degree": 1.75,
+        "junction_density": 0.125,
+        "equipment_nodes": [
+          {
+            "node_id": "general36",
+            "type": "general",
+            "center": [
+              616.5,
+              344.94
+            ],
+            "bbox": [
+              607.78,
+              340.83,
+              625.22,
+              349.05
+            ]
+          },
+          {
+            "node_id": "general37",
+            "type": "general",
+            "center": [
+              666.37,
+              423.68
+            ],
+            "bbox": [
+              662.03,
+              415.43,
+              670.71,
+              431.93
+            ]
+          },
+          {
+            "node_id": "general38",
+            "type": "general",
+            "center": [
+              666.45,
+              613.95
+            ],
+            "bbox": [
+              661.2,
+              605.4,
+              671.7,
+              622.5
+            ]
+          },
+          {
+            "node_id": "general39",
+            "type": "general",
+            "center": [
+              551.81,
+              698.9300000000001
+            ],
+            "bbox": [
+              543.52,
+              694.16,
+              560.1,
+              703.7
+            ]
+          },
+          {
+            "node_id": "general56",
+            "type": "general",
+            "center": [
+              540.92,
+              329.58500000000004
+            ],
+            "bbox": [
+              528.04,
+              305.8,
+              553.8,
+              353.37
+            ]
+          },
+          {
+            "node_id": "tank81",
+            "type": "tank",
+            "center": [
+              552.48,
+              515.895
+            ],
+            "bbox": [
+              454.93,
+              351.0,
+              650.03,
+              680.79
+            ]
+          }
+        ],
+        "edge_type_histogram": {
+          "solid": 7,
+          "non_solid": 0
+        },
+        "signal_dominated": false
+      },
+      {
+        "id": "region_14",
+        "nodes": [
+          "arrow71",
+          "general41"
+        ],
+        "boundary_elements": [
+          {
+            "node_id": "valve73",
+            "type": "valve",
+            "connected_regions": [
+              "region_14",
+              "region_5"
+            ]
+          }
+        ],
+        "valve_touched": true,
+        "valve_bounded": false,
+        "entry_valves": [
+          "valve73"
+        ],
+        "exit_valves": [
+          "valve73"
+        ],
+        "junction_count": 0,
+        "max_degree": 1,
+        "avg_degree": 1.0,
+        "junction_density": 0.0,
+        "equipment_nodes": [
+          {
+            "node_id": "general41",
+            "type": "general",
+            "center": [
+              1209.12,
+              543.735
+            ],
+            "bbox": [
+              1204.2,
+              534.86,
+              1214.04,
+              552.61
+            ]
+          }
+        ],
+        "edge_type_histogram": {
+          "solid": 1,
+          "non_solid": 0
+        },
+        "signal_dominated": false
+      },
+      {
+        "id": "region_15",
+        "nodes": [
+          "arrow64",
+          "general42"
+        ],
+        "boundary_elements": [
+          {
+            "node_id": "valve72",
+            "type": "valve",
+            "connected_regions": [
+              "region_15",
+              "region_8"
+            ]
+          }
+        ],
+        "valve_touched": true,
+        "valve_bounded": false,
+        "entry_valves": [
+          "valve72"
+        ],
+        "exit_valves": [
+          "valve72"
+        ],
+        "junction_count": 0,
+        "max_degree": 1,
+        "avg_degree": 1.0,
+        "junction_density": 0.0,
+        "equipment_nodes": [
+          {
+            "node_id": "general42",
+            "type": "general",
+            "center": [
+              1514.77,
+              543.7950000000001
+            ],
+            "bbox": [
+              1510.52,
+              535.01,
+              1519.02,
+              552.58
+            ]
+          }
+        ],
+        "edge_type_histogram": {
+          "solid": 1,
+          "non_solid": 0
+        },
+        "signal_dominated": false
+      },
+      {
+        "id": "region_16",
+        "nodes": [
+          "pump44"
+        ],
+        "boundary_elements": [],
+        "valve_touched": false,
+        "valve_bounded": false,
+        "entry_valves": [],
+        "exit_valves": [],
+        "junction_count": 0,
+        "max_degree": 0,
+        "avg_degree": 0.0,
+        "junction_density": 0.0,
+        "equipment_nodes": [
+          {
+            "node_id": "pump44",
+            "type": "pump",
+            "center": [
+              867.565,
+              1346.17
+            ],
+            "bbox": [
+              825.64,
+              1304.25,
+              909.49,
+              1388.09
+            ]
+          }
+        ],
+        "edge_type_histogram": {
+          "solid": 0,
+          "non_solid": 0
+        },
+        "signal_dominated": false
+      },
+      {
+        "id": "region_17",
+        "nodes": [
+          "pump45"
+        ],
+        "boundary_elements": [
+          {
+            "node_id": "valve50",
+            "type": "valve",
+            "connected_regions": [
+              "region_17"
+            ]
+          },
+          {
+            "node_id": "valve51",
+            "type": "valve",
+            "connected_regions": [
+              "region_17"
+            ]
+          }
+        ],
+        "valve_touched": true,
+        "valve_bounded": true,
+        "entry_valves": [],
+        "exit_valves": [],
+        "junction_count": 0,
+        "max_degree": 0,
+        "avg_degree": 0.0,
+        "junction_density": 0.0,
+        "equipment_nodes": [
+          {
+            "node_id": "pump45",
+            "type": "pump",
+            "center": [
+              867.56,
+              1536.425
+            ],
+            "bbox": [
+              825.64,
+              1494.5,
+              909.48,
+              1578.35
+            ]
+          }
+        ],
+        "edge_type_histogram": {
+          "solid": 0,
+          "non_solid": 0
+        },
+        "signal_dominated": false
+      },
+      {
+        "id": "region_18",
+        "nodes": [
+          "pump46"
+        ],
+        "boundary_elements": [
+          {
+            "node_id": "valve48",
+            "type": "valve",
+            "connected_regions": [
+              "region_18"
+            ]
+          }
+        ],
+        "valve_touched": true,
+        "valve_bounded": false,
+        "entry_valves": [],
+        "exit_valves": [],
+        "junction_count": 0,
+        "max_degree": 0,
+        "avg_degree": 0.0,
+        "junction_density": 0.0,
+        "equipment_nodes": [
+          {
+            "node_id": "pump46",
+            "type": "pump",
+            "center": [
+              867.86,
+              1736.615
+            ],
+            "bbox": [
+              825.94,
+              1694.69,
+              909.78,
+              1778.54
+            ]
+          }
+        ],
+        "edge_type_histogram": {
+          "solid": 0,
+          "non_solid": 0
+        },
+        "signal_dominated": false
+      },
+      {
+        "id": "region_19",
+        "nodes": [
+          "general54"
+        ],
+        "boundary_elements": [
+          {
+            "node_id": "instrumentation94",
+            "type": "instrumentation",
+            "connected_regions": [
+              "region_19"
+            ]
+          },
+          {
+            "node_id": "instrumentation98",
+            "type": "instrumentation",
+            "connected_regions": [
+              "region_19"
+            ]
+          }
+        ],
+        "valve_touched": true,
+        "valve_bounded": true,
+        "entry_valves": [],
+        "exit_valves": [],
+        "junction_count": 0,
+        "max_degree": 0,
+        "avg_degree": 0.0,
+        "junction_density": 0.0,
+        "equipment_nodes": [
+          {
+            "node_id": "general54",
+            "type": "general",
+            "center": [
+              1338.51,
+              1609.96
+            ],
+            "bbox": [
+              1330.62,
+              1601.92,
+              1346.4,
+              1618.0
+            ]
+          }
+        ],
+        "edge_type_histogram": {
+          "solid": 0,
+          "non_solid": 0
+        },
+        "signal_dominated": false
+      },
+      {
+        "id": "region_20",
+        "nodes": [
+          "arrow57",
+          "inlet/outlet76"
+        ],
+        "boundary_elements": [],
+        "valve_touched": false,
+        "valve_bounded": false,
+        "entry_valves": [],
+        "exit_valves": [],
+        "junction_count": 0,
+        "max_degree": 1,
+        "avg_degree": 1.0,
+        "junction_density": 0.0,
+        "equipment_nodes": [],
+        "edge_type_histogram": {
+          "solid": 1,
+          "non_solid": 0
+        },
+        "signal_dominated": false
+      },
+      {
+        "id": "region_21",
+        "nodes": [
+          "arrow58"
+        ],
+        "boundary_elements": [],
+        "valve_touched": false,
+        "valve_bounded": false,
+        "entry_valves": [],
+        "exit_valves": [],
+        "junction_count": 0,
+        "max_degree": 0,
+        "avg_degree": 0.0,
+        "junction_density": 0.0,
+        "equipment_nodes": [],
+        "edge_type_histogram": {
+          "solid": 0,
+          "non_solid": 0
+        },
+        "signal_dominated": false
+      },
+      {
+        "id": "region_22",
+        "nodes": [
+          "arrow59"
+        ],
+        "boundary_elements": [],
+        "valve_touched": false,
+        "valve_bounded": false,
+        "entry_valves": [],
+        "exit_valves": [],
+        "junction_count": 0,
+        "max_degree": 0,
+        "avg_degree": 0.0,
+        "junction_density": 0.0,
+        "equipment_nodes": [],
+        "edge_type_histogram": {
+          "solid": 0,
+          "non_solid": 0
+        },
+        "signal_dominated": false
+      },
+      {
+        "id": "region_23",
+        "nodes": [
+          "arrow60"
+        ],
+        "boundary_elements": [
+          {
+            "node_id": "valve83",
+            "type": "valve",
+            "connected_regions": [
+              "region_23",
+              "region_39"
+            ]
+          }
+        ],
+        "valve_touched": true,
+        "valve_bounded": false,
+        "entry_valves": [
+          "valve83"
+        ],
+        "exit_valves": [],
+        "junction_count": 0,
+        "max_degree": 0,
+        "avg_degree": 0.0,
+        "junction_density": 0.0,
+        "equipment_nodes": [],
+        "edge_type_histogram": {
+          "solid": 0,
+          "non_solid": 0
+        },
+        "signal_dominated": false
+      },
+      {
+        "id": "region_24",
+        "nodes": [
+          "arrow62"
+        ],
+        "boundary_elements": [],
+        "valve_touched": false,
+        "valve_bounded": false,
+        "entry_valves": [],
+        "exit_valves": [],
+        "junction_count": 0,
+        "max_degree": 0,
+        "avg_degree": 0.0,
+        "junction_density": 0.0,
+        "equipment_nodes": [],
+        "edge_type_histogram": {
+          "solid": 0,
+          "non_solid": 0
+        },
+        "signal_dominated": false
+      },
+      {
+        "id": "region_25",
+        "nodes": [
+          "arrow63"
+        ],
+        "boundary_elements": [
+          {
+            "node_id": "valve47",
+            "type": "valve",
+            "connected_regions": [
+              "region_25"
+            ]
+          }
+        ],
+        "valve_touched": true,
+        "valve_bounded": false,
+        "entry_valves": [
+          "valve47"
+        ],
+        "exit_valves": [],
+        "junction_count": 0,
+        "max_degree": 0,
+        "avg_degree": 0.0,
+        "junction_density": 0.0,
+        "equipment_nodes": [],
+        "edge_type_histogram": {
+          "solid": 0,
+          "non_solid": 0
+        },
+        "signal_dominated": false
+      },
+      {
+        "id": "region_26",
+        "nodes": [
+          "arrow65"
+        ],
+        "boundary_elements": [],
+        "valve_touched": false,
+        "valve_bounded": false,
+        "entry_valves": [],
+        "exit_valves": [],
+        "junction_count": 0,
+        "max_degree": 0,
+        "avg_degree": 0.0,
+        "junction_density": 0.0,
+        "equipment_nodes": [],
+        "edge_type_histogram": {
+          "solid": 0,
+          "non_solid": 0
+        },
+        "signal_dominated": false
+      },
+      {
+        "id": "region_27",
+        "nodes": [
+          "general67"
+        ],
+        "boundary_elements": [],
+        "valve_touched": false,
+        "valve_bounded": false,
+        "entry_valves": [],
+        "exit_valves": [],
+        "junction_count": 0,
+        "max_degree": 0,
+        "avg_degree": 0.0,
+        "junction_density": 0.0,
+        "equipment_nodes": [
+          {
+            "node_id": "general67",
+            "type": "general",
+            "center": [
+              1717.22,
+              688.0699999999999
+            ],
+            "bbox": [
+              1702.49,
+              462.33,
+              1731.95,
+              913.81
+            ]
+          }
+        ],
+        "edge_type_histogram": {
+          "solid": 0,
+          "non_solid": 0
+        },
+        "signal_dominated": false
+      },
+      {
+        "id": "region_28",
+        "nodes": [
+          "arrow68"
+        ],
+        "boundary_elements": [],
+        "valve_touched": false,
+        "valve_bounded": false,
+        "entry_valves": [],
+        "exit_valves": [],
+        "junction_count": 0,
+        "max_degree": 0,
+        "avg_degree": 0.0,
+        "junction_density": 0.0,
+        "equipment_nodes": [],
+        "edge_type_histogram": {
+          "solid": 0,
+          "non_solid": 0
+        },
+        "signal_dominated": false
+      },
+      {
+        "id": "region_29",
+        "nodes": [
+          "arrow69"
+        ],
+        "boundary_elements": [],
+        "valve_touched": false,
+        "valve_bounded": false,
+        "entry_valves": [],
+        "exit_valves": [],
+        "junction_count": 0,
+        "max_degree": 0,
+        "avg_degree": 0.0,
+        "junction_density": 0.0,
+        "equipment_nodes": [],
+        "edge_type_histogram": {
+          "solid": 0,
+          "non_solid": 0
+        },
+        "signal_dominated": false
+      },
+      {
+        "id": "region_30",
+        "nodes": [
+          "arrow70"
+        ],
+        "boundary_elements": [
+          {
+            "node_id": "valve52",
+            "type": "valve",
+            "connected_regions": [
+              "region_30",
+              "region_6"
+            ]
+          }
+        ],
+        "valve_touched": true,
+        "valve_bounded": false,
+        "entry_valves": [
+          "valve52"
+        ],
+        "exit_valves": [],
+        "junction_count": 0,
+        "max_degree": 0,
+        "avg_degree": 0.0,
+        "junction_density": 0.0,
+        "equipment_nodes": [],
+        "edge_type_histogram": {
+          "solid": 0,
+          "non_solid": 0
+        },
+        "signal_dominated": false
+      },
+      {
+        "id": "region_31",
+        "nodes": [
+          "arrow110",
+          "arrow87",
+          "inlet/outlet75"
+        ],
+        "boundary_elements": [
+          {
+            "node_id": "valve74",
+            "type": "valve",
+            "connected_regions": [
+              "region_31"
+            ]
+          }
+        ],
+        "valve_touched": true,
+        "valve_bounded": false,
+        "entry_valves": [],
+        "exit_valves": [
+          "valve74"
+        ],
+        "junction_count": 0,
+        "max_degree": 2,
+        "avg_degree": 1.3333,
+        "junction_density": 0.0,
+        "equipment_nodes": [],
+        "edge_type_histogram": {
+          "solid": 2,
+          "non_solid": 0
+        },
+        "signal_dominated": false
+      },
+      {
+        "id": "region_32",
+        "nodes": [
+          "arrow88"
+        ],
+        "boundary_elements": [
+          {
+            "node_id": "valve11",
+            "type": "valve",
+            "connected_regions": [
+              "region_32"
+            ]
+          }
+        ],
+        "valve_touched": true,
+        "valve_bounded": false,
+        "entry_valves": [
+          "valve11"
+        ],
+        "exit_valves": [],
+        "junction_count": 0,
+        "max_degree": 0,
+        "avg_degree": 0.0,
+        "junction_density": 0.0,
+        "equipment_nodes": [],
+        "edge_type_histogram": {
+          "solid": 0,
+          "non_solid": 0
+        },
+        "signal_dominated": false
+      },
+      {
+        "id": "region_33",
+        "nodes": [
+          "arrow90"
+        ],
+        "boundary_elements": [],
+        "valve_touched": false,
+        "valve_bounded": false,
+        "entry_valves": [],
+        "exit_valves": [],
+        "junction_count": 0,
+        "max_degree": 0,
+        "avg_degree": 0.0,
+        "junction_density": 0.0,
+        "equipment_nodes": [],
+        "edge_type_histogram": {
+          "solid": 0,
+          "non_solid": 0
+        },
+        "signal_dominated": false
+      },
+      {
+        "id": "region_34",
+        "nodes": [
+          "arrow99"
+        ],
+        "boundary_elements": [
+          {
+            "node_id": "valve10",
+            "type": "valve",
+            "connected_regions": [
+              "region_34"
+            ]
+          }
+        ],
+        "valve_touched": true,
+        "valve_bounded": false,
+        "entry_valves": [
+          "valve10"
+        ],
+        "exit_valves": [],
+        "junction_count": 0,
+        "max_degree": 0,
+        "avg_degree": 0.0,
+        "junction_density": 0.0,
+        "equipment_nodes": [],
+        "edge_type_histogram": {
+          "solid": 0,
+          "non_solid": 0
+        },
+        "signal_dominated": false
+      },
+      {
+        "id": "region_35",
+        "nodes": [
+          "arrow101"
+        ],
+        "boundary_elements": [],
+        "valve_touched": false,
+        "valve_bounded": false,
+        "entry_valves": [],
+        "exit_valves": [],
+        "junction_count": 0,
+        "max_degree": 0,
+        "avg_degree": 0.0,
+        "junction_density": 0.0,
+        "equipment_nodes": [],
+        "edge_type_histogram": {
+          "solid": 0,
+          "non_solid": 0
+        },
+        "signal_dominated": false
+      },
+      {
+        "id": "region_36",
+        "nodes": [
+          "arrow102"
+        ],
+        "boundary_elements": [
+          {
+            "node_id": "valve40",
+            "type": "valve",
+            "connected_regions": [
+              "region_13",
+              "region_36"
+            ]
+          }
+        ],
+        "valve_touched": true,
+        "valve_bounded": false,
+        "entry_valves": [
+          "valve40"
+        ],
+        "exit_valves": [],
+        "junction_count": 0,
+        "max_degree": 0,
+        "avg_degree": 0.0,
+        "junction_density": 0.0,
+        "equipment_nodes": [],
+        "edge_type_histogram": {
+          "solid": 0,
+          "non_solid": 0
+        },
+        "signal_dominated": false
+      },
+      {
+        "id": "region_37",
+        "nodes": [
+          "arrow104"
+        ],
+        "boundary_elements": [],
+        "valve_touched": false,
+        "valve_bounded": false,
+        "entry_valves": [],
+        "exit_valves": [],
+        "junction_count": 0,
+        "max_degree": 0,
+        "avg_degree": 0.0,
+        "junction_density": 0.0,
+        "equipment_nodes": [],
+        "edge_type_histogram": {
+          "solid": 0,
+          "non_solid": 0
+        },
+        "signal_dominated": false
+      },
+      {
+        "id": "region_38",
+        "nodes": [
+          "arrow106"
+        ],
+        "boundary_elements": [],
+        "valve_touched": false,
+        "valve_bounded": false,
+        "entry_valves": [],
+        "exit_valves": [],
+        "junction_count": 0,
+        "max_degree": 0,
+        "avg_degree": 0.0,
+        "junction_density": 0.0,
+        "equipment_nodes": [],
+        "edge_type_histogram": {
+          "solid": 0,
+          "non_solid": 0
+        },
+        "signal_dominated": false
+      },
+      {
+        "id": "region_39",
+        "nodes": [
+          "arrow108"
+        ],
+        "boundary_elements": [
+          {
+            "node_id": "valve83",
+            "type": "valve",
+            "connected_regions": [
+              "region_23",
+              "region_39"
+            ]
+          }
+        ],
+        "valve_touched": true,
+        "valve_bounded": false,
+        "entry_valves": [
+          "valve83"
+        ],
+        "exit_valves": [],
+        "junction_count": 0,
+        "max_degree": 0,
+        "avg_degree": 0.0,
+        "junction_density": 0.0,
+        "equipment_nodes": [],
+        "edge_type_histogram": {
+          "solid": 0,
+          "non_solid": 0
+        },
+        "signal_dominated": false
+      },
+      {
+        "id": "region_40",
+        "nodes": [
+          "arrow109"
+        ],
+        "boundary_elements": [
+          {
+            "node_id": "valve84",
+            "type": "valve",
+            "connected_regions": [
+              "region_40",
+              "region_7"
+            ]
+          }
+        ],
+        "valve_touched": true,
+        "valve_bounded": false,
+        "entry_valves": [
+          "valve84"
+        ],
+        "exit_valves": [],
+        "junction_count": 0,
+        "max_degree": 0,
+        "avg_degree": 0.0,
+        "junction_density": 0.0,
+        "equipment_nodes": [],
+        "edge_type_histogram": {
+          "solid": 0,
+          "non_solid": 0
+        },
+        "signal_dominated": false
+      }
+    ]
+  },
+  "control_awareness": {
+    "valve_bounded_regions": [
+      "region_5",
+      "region_6",
+      "region_7",
+      "region_13",
+      "region_17",
+      "region_19"
+    ],
+    "region_valve_map": {
+      "region_0": [],
+      "region_1": [],
+      "region_2": [],
+      "region_3": [],
+      "region_4": [
+        "valve9"
+      ],
+      "region_5": [
+        "valve73",
+        "instrumentation26"
+      ],
+      "region_6": [
+        "valve52",
+        "valve55"
+      ],
+      "region_7": [
+        "valve43",
+        "valve84"
+      ],
+      "region_8": [
+        "valve72"
+      ],
+      "region_9": [
+        "valve53"
+      ],
+      "region_10": [],
+      "region_11": [],
+      "region_12": [
+        "valve82"
+      ],
+      "region_13": [
+        "valve40",
+        "valve82",
+        "instrumentation13"
+      ],
+      "region_14": [
+        "valve73"
+      ],
+      "region_15": [
+        "valve72"
+      ],
+      "region_16": [],
+      "region_17": [
+        "valve50",
+        "valve51"
+      ],
+      "region_18": [
+        "valve48"
+      ],
+      "region_19": [
+        "instrumentation94",
+        "instrumentation98"
+      ],
+      "region_20": [],
+      "region_21": [],
+      "region_22": [],
+      "region_23": [
+        "valve83"
+      ],
+      "region_24": [],
+      "region_25": [
+        "valve47"
+      ],
+      "region_26": [],
+      "region_27": [],
+      "region_28": [],
+      "region_29": [],
+      "region_30": [
+        "valve52"
+      ],
+      "region_31": [
+        "valve74"
+      ],
+      "region_32": [
+        "valve11"
+      ],
+      "region_33": [],
+      "region_34": [
+        "valve10"
+      ],
+      "region_35": [],
+      "region_36": [
+        "valve40"
+      ],
+      "region_37": [],
+      "region_38": [],
+      "region_39": [
+        "valve83"
+      ],
+      "region_40": [
+        "valve84"
+      ]
+    }
+  },
+  "path_analysis": {
+    "disjoint_paths": [
+      {
+        "from_region": "region_5",
+        "to_region": "region_14",
+        "path_count": 1
+      },
+      {
+        "from_region": "region_6",
+        "to_region": "region_30",
+        "path_count": 1
+      },
+      {
+        "from_region": "region_7",
+        "to_region": "region_40",
+        "path_count": 1
+      },
+      {
+        "from_region": "region_8",
+        "to_region": "region_15",
+        "path_count": 1
+      },
+      {
+        "from_region": "region_12",
+        "to_region": "region_13",
+        "path_count": 1
+      },
+      {
+        "from_region": "region_13",
+        "to_region": "region_36",
+        "path_count": 1
+      },
+      {
+        "from_region": "region_23",
+        "to_region": "region_39",
+        "path_count": 1
+      }
+    ]
+  },
+  "cycle_analysis": {
+    "cycle_count": 0,
+    "cycles": []
+  },
+  "equipment_anchors": {
+    "global_equipment_graph": [
+      {
+        "source": "general54",
+        "target": "instrumentation94",
+        "edge_type": "solid"
+      },
+      {
+        "source": "general54",
+        "target": "instrumentation98",
+        "edge_type": "solid"
+      },
+      {
+        "source": "general39",
+        "target": "tank81",
+        "edge_type": "solid"
+      },
+      {
+        "source": "general36",
+        "target": "tank81",
+        "edge_type": "solid"
+      },
+      {
+        "source": "instrumentation25",
+        "target": "instrumentation26",
+        "edge_type": "solid"
+      },
+      {
+        "source": "general38",
+        "target": "tank81",
+        "edge_type": "solid"
+      },
+      {
+        "source": "general56",
+        "target": "tank81",
+        "edge_type": "solid"
+      },
+      {
+        "source": "general37",
+        "target": "tank81",
+        "edge_type": "solid"
+      },
+      {
+        "source": "general37",
+        "target": "instrumentation13",
+        "edge_type": "solid"
+      }
+    ],
+    "equipment_per_region": {
+      "region_0": {
+        "equipment_nodes": [
+          {
+            "node_id": "tank1",
+            "type": "tank",
+            "center": [
+              1362.02,
+              654.715
+            ],
+            "bbox": [
+              1193.09,
+              512.33,
+              1530.95,
+              797.1
+            ]
+          }
+        ],
+        "adjacency": []
+      },
+      "region_1": {
+        "equipment_nodes": [
+          {
+            "node_id": "general2",
+            "type": "general",
+            "center": [
+              974.03,
+              899.22
+            ],
+            "bbox": [
+              958.83,
+              672.82,
+              989.23,
+              1125.62
+            ]
+          }
+        ],
+        "adjacency": []
+      },
+      "region_2": {
+        "equipment_nodes": [],
+        "adjacency": []
+      },
+      "region_3": {
+        "equipment_nodes": [],
+        "adjacency": []
+      },
+      "region_4": {
+        "equipment_nodes": [],
+        "adjacency": []
+      },
+      "region_5": {
+        "equipment_nodes": [],
+        "adjacency": []
+      },
+      "region_6": {
+        "equipment_nodes": [
+          {
+            "node_id": "pump12",
+            "type": "pump",
+            "center": [
+              2028.415,
+              1288.38
+            ],
+            "bbox": [
+              1937.66,
+              1241.53,
+              2119.17,
+              1335.23
+            ]
+          }
+        ],
+        "adjacency": []
+      },
+      "region_7": {
+        "equipment_nodes": [
+          {
+            "node_id": "pump27",
+            "type": "pump",
+            "center": [
+              2029.02,
+              921.55
+            ],
+            "bbox": [
+              1934.96,
+              874.6,
+              2123.08,
+              968.5
+            ]
+          }
+        ],
+        "adjacency": []
+      },
+      "region_8": {
+        "equipment_nodes": [],
+        "adjacency": []
+      },
+      "region_9": {
+        "equipment_nodes": [],
+        "adjacency": []
+      },
+      "region_10": {
+        "equipment_nodes": [],
+        "adjacency": []
+      },
+      "region_11": {
+        "equipment_nodes": [],
+        "adjacency": []
+      },
+      "region_12": {
+        "equipment_nodes": [],
+        "adjacency": []
+      },
+      "region_13": {
+        "equipment_nodes": [
+          {
+            "node_id": "general36",
+            "type": "general",
+            "center": [
+              616.5,
+              344.94
+            ],
+            "bbox": [
+              607.78,
+              340.83,
+              625.22,
+              349.05
+            ]
+          },
+          {
+            "node_id": "general37",
+            "type": "general",
+            "center": [
+              666.37,
+              423.68
+            ],
+            "bbox": [
+              662.03,
+              415.43,
+              670.71,
+              431.93
+            ]
+          },
+          {
+            "node_id": "general38",
+            "type": "general",
+            "center": [
+              666.45,
+              613.95
+            ],
+            "bbox": [
+              661.2,
+              605.4,
+              671.7,
+              622.5
+            ]
+          },
+          {
+            "node_id": "general39",
+            "type": "general",
+            "center": [
+              551.81,
+              698.9300000000001
+            ],
+            "bbox": [
+              543.52,
+              694.16,
+              560.1,
+              703.7
+            ]
+          },
+          {
+            "node_id": "general56",
+            "type": "general",
+            "center": [
+              540.92,
+              329.58500000000004
+            ],
+            "bbox": [
+              528.04,
+              305.8,
+              553.8,
+              353.37
+            ]
+          },
+          {
+            "node_id": "tank81",
+            "type": "tank",
+            "center": [
+              552.48,
+              515.895
+            ],
+            "bbox": [
+              454.93,
+              351.0,
+              650.03,
+              680.79
+            ]
+          }
+        ],
+        "adjacency": [
+          {
+            "source": "general36",
+            "target": "tank81",
+            "edge_type": "solid"
+          },
+          {
+            "source": "general37",
+            "target": "tank81",
+            "edge_type": "solid"
+          },
+          {
+            "source": "general38",
+            "target": "tank81",
+            "edge_type": "solid"
+          },
+          {
+            "source": "general39",
+            "target": "tank81",
+            "edge_type": "solid"
+          },
+          {
+            "source": "general56",
+            "target": "tank81",
+            "edge_type": "solid"
+          }
+        ]
+      },
+      "region_14": {
+        "equipment_nodes": [
+          {
+            "node_id": "general41",
+            "type": "general",
+            "center": [
+              1209.12,
+              543.735
+            ],
+            "bbox": [
+              1204.2,
+              534.86,
+              1214.04,
+              552.61
+            ]
+          }
+        ],
+        "adjacency": []
+      },
+      "region_15": {
+        "equipment_nodes": [
+          {
+            "node_id": "general42",
+            "type": "general",
+            "center": [
+              1514.77,
+              543.7950000000001
+            ],
+            "bbox": [
+              1510.52,
+              535.01,
+              1519.02,
+              552.58
+            ]
+          }
+        ],
+        "adjacency": []
+      },
+      "region_16": {
+        "equipment_nodes": [
+          {
+            "node_id": "pump44",
+            "type": "pump",
+            "center": [
+              867.565,
+              1346.17
+            ],
+            "bbox": [
+              825.64,
+              1304.25,
+              909.49,
+              1388.09
+            ]
+          }
+        ],
+        "adjacency": []
+      },
+      "region_17": {
+        "equipment_nodes": [
+          {
+            "node_id": "pump45",
+            "type": "pump",
+            "center": [
+              867.56,
+              1536.425
+            ],
+            "bbox": [
+              825.64,
+              1494.5,
+              909.48,
+              1578.35
+            ]
+          }
+        ],
+        "adjacency": []
+      },
+      "region_18": {
+        "equipment_nodes": [
+          {
+            "node_id": "pump46",
+            "type": "pump",
+            "center": [
+              867.86,
+              1736.615
+            ],
+            "bbox": [
+              825.94,
+              1694.69,
+              909.78,
+              1778.54
+            ]
+          }
+        ],
+        "adjacency": []
+      },
+      "region_19": {
+        "equipment_nodes": [
+          {
+            "node_id": "general54",
+            "type": "general",
+            "center": [
+              1338.51,
+              1609.96
+            ],
+            "bbox": [
+              1330.62,
+              1601.92,
+              1346.4,
+              1618.0
+            ]
+          }
+        ],
+        "adjacency": []
+      },
+      "region_20": {
+        "equipment_nodes": [],
+        "adjacency": []
+      },
+      "region_21": {
+        "equipment_nodes": [],
+        "adjacency": []
+      },
+      "region_22": {
+        "equipment_nodes": [],
+        "adjacency": []
+      },
+      "region_23": {
+        "equipment_nodes": [],
+        "adjacency": []
+      },
+      "region_24": {
+        "equipment_nodes": [],
+        "adjacency": []
+      },
+      "region_25": {
+        "equipment_nodes": [],
+        "adjacency": []
+      },
+      "region_26": {
+        "equipment_nodes": [],
+        "adjacency": []
+      },
+      "region_27": {
+        "equipment_nodes": [
+          {
+            "node_id": "general67",
+            "type": "general",
+            "center": [
+              1717.22,
+              688.0699999999999
+            ],
+            "bbox": [
+              1702.49,
+              462.33,
+              1731.95,
+              913.81
+            ]
+          }
+        ],
+        "adjacency": []
+      },
+      "region_28": {
+        "equipment_nodes": [],
+        "adjacency": []
+      },
+      "region_29": {
+        "equipment_nodes": [],
+        "adjacency": []
+      },
+      "region_30": {
+        "equipment_nodes": [],
+        "adjacency": []
+      },
+      "region_31": {
+        "equipment_nodes": [],
+        "adjacency": []
+      },
+      "region_32": {
+        "equipment_nodes": [],
+        "adjacency": []
+      },
+      "region_33": {
+        "equipment_nodes": [],
+        "adjacency": []
+      },
+      "region_34": {
+        "equipment_nodes": [],
+        "adjacency": []
+      },
+      "region_35": {
+        "equipment_nodes": [],
+        "adjacency": []
+      },
+      "region_36": {
+        "equipment_nodes": [],
+        "adjacency": []
+      },
+      "region_37": {
+        "equipment_nodes": [],
+        "adjacency": []
+      },
+      "region_38": {
+        "equipment_nodes": [],
+        "adjacency": []
+      },
+      "region_39": {
+        "equipment_nodes": [],
+        "adjacency": []
+      },
+      "region_40": {
+        "equipment_nodes": [],
+        "adjacency": []
+      }
+    }
+  },
+  "line_type_distribution": {
+    "global": {
+      "solid": 60,
+      "non_solid": 0
+    },
+    "per_region": {
+      "region_0": {
+        "solid": 0,
+        "non_solid": 0
+      },
+      "region_1": {
+        "solid": 0,
+        "non_solid": 0
+      },
+      "region_2": {
+        "solid": 1,
+        "non_solid": 0
+      },
+      "region_3": {
+        "solid": 2,
+        "non_solid": 0
+      },
+      "region_4": {
+        "solid": 1,
+        "non_solid": 0
+      },
+      "region_5": {
+        "solid": 0,
+        "non_solid": 0
+      },
+      "region_6": {
+        "solid": 0,
+        "non_solid": 0
+      },
+      "region_7": {
+        "solid": 0,
+        "non_solid": 0
+      },
+      "region_8": {
+        "solid": 0,
+        "non_solid": 0
+      },
+      "region_9": {
+        "solid": 3,
+        "non_solid": 0
+      },
+      "region_10": {
+        "solid": 2,
+        "non_solid": 0
+      },
+      "region_11": {
+        "solid": 2,
+        "non_solid": 0
+      },
+      "region_12": {
+        "solid": 0,
+        "non_solid": 0
+      },
+      "region_13": {
+        "solid": 7,
+        "non_solid": 0
+      },
+      "region_14": {
+        "solid": 1,
+        "non_solid": 0
+      },
+      "region_15": {
+        "solid": 1,
+        "non_solid": 0
+      },
+      "region_16": {
+        "solid": 0,
+        "non_solid": 0
+      },
+      "region_17": {
+        "solid": 0,
+        "non_solid": 0
+      },
+      "region_18": {
+        "solid": 0,
+        "non_solid": 0
+      },
+      "region_19": {
+        "solid": 0,
+        "non_solid": 0
+      },
+      "region_20": {
+        "solid": 1,
+        "non_solid": 0
+      },
+      "region_21": {
+        "solid": 0,
+        "non_solid": 0
+      },
+      "region_22": {
+        "solid": 0,
+        "non_solid": 0
+      },
+      "region_23": {
+        "solid": 0,
+        "non_solid": 0
+      },
+      "region_24": {
+        "solid": 0,
+        "non_solid": 0
+      },
+      "region_25": {
+        "solid": 0,
+        "non_solid": 0
+      },
+      "region_26": {
+        "solid": 0,
+        "non_solid": 0
+      },
+      "region_27": {
+        "solid": 0,
+        "non_solid": 0
+      },
+      "region_28": {
+        "solid": 0,
+        "non_solid": 0
+      },
+      "region_29": {
+        "solid": 0,
+        "non_solid": 0
+      },
+      "region_30": {
+        "solid": 0,
+        "non_solid": 0
+      },
+      "region_31": {
+        "solid": 2,
+        "non_solid": 0
+      },
+      "region_32": {
+        "solid": 0,
+        "non_solid": 0
+      },
+      "region_33": {
+        "solid": 0,
+        "non_solid": 0
+      },
+      "region_34": {
+        "solid": 0,
+        "non_solid": 0
+      },
+      "region_35": {
+        "solid": 0,
+        "non_solid": 0
+      },
+      "region_36": {
+        "solid": 0,
+        "non_solid": 0
+      },
+      "region_37": {
+        "solid": 0,
+        "non_solid": 0
+      },
+      "region_38": {
+        "solid": 0,
+        "non_solid": 0
+      },
+      "region_39": {
+        "solid": 0,
+        "non_solid": 0
+      },
+      "region_40": {
+        "solid": 0,
+        "non_solid": 0
+      }
+    }
+  },
+  "repetition_patterns": {
+    "pattern_groups": [
+      {
+        "pattern_hash": "(0,)",
+        "regions": [
+          "region_0",
+          "region_1",
+          "region_5",
+          "region_6",
+          "region_7",
+          "region_8",
+          "region_12",
+          "region_16",
+          "region_17",
+          "region_18",
+          "region_19",
+          "region_21",
+          "region_22",
+          "region_23",
+          "region_24",
+          "region_25",
+          "region_26",
+          "region_27",
+          "region_28",
+          "region_29",
+          "region_30",
+          "region_32",
+          "region_33",
+          "region_34",
+          "region_35",
+          "region_36",
+          "region_37",
+          "region_38",
+          "region_39",
+          "region_40"
+        ]
+      },
+      {
+        "pattern_hash": "(1, 1)",
+        "regions": [
+          "region_2",
+          "region_4",
+          "region_14",
+          "region_15",
+          "region_20"
+        ]
+      },
+      {
+        "pattern_hash": "(1, 1, 2)",
+        "regions": [
+          "region_3",
+          "region_10",
+          "region_11",
+          "region_31"
+        ]
+      }
+    ],
+    "valve_sequence_patterns": [
+      {
+        "valve_sequence": "()",
+        "regions": [
+          "region_0",
+          "region_1",
+          "region_2",
+          "region_3",
+          "region_10",
+          "region_11",
+          "region_16",
+          "region_20",
+          "region_21",
+          "region_22",
+          "region_24",
+          "region_26",
+          "region_27",
+          "region_28",
+          "region_29",
+          "region_33",
+          "region_35",
+          "region_37",
+          "region_38"
+        ]
+      },
+      {
+        "valve_sequence": "('valve',)",
+        "regions": [
+          "region_4",
+          "region_8",
+          "region_9",
+          "region_12",
+          "region_14",
+          "region_15",
+          "region_18",
+          "region_23",
+          "region_25",
+          "region_30",
+          "region_31",
+          "region_32",
+          "region_34",
+          "region_36",
+          "region_39",
+          "region_40"
+        ]
+      },
+      {
+        "valve_sequence": "('valve', 'valve')",
+        "regions": [
+          "region_6",
+          "region_7",
+          "region_17"
+        ]
+      }
+    ]
+  }
+}

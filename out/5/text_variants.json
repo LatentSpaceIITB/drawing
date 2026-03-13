@@ -1,0 +1,604 @@
+{
+  "metadata": {
+    "source_file": "canonical_descriptions.json",
+    "model": "claude-haiku-4-5-20251001",
+    "variants_per_fragment": 5,
+    "total_fragments": 54
+  },
+  "variants": [
+    {
+      "fragment_id": "rfrag_region_0",
+      "canonical_text": "An open pipe segment containing 1 process equipment item, with no control or instrumentation elements on its boundary.",
+      "variants": [
+        "An unenclosed piping run housing 1 process equipment unit, devoid of boundary-mounted control valves or instrumentation devices.",
+        "A piping section with 1 process equipment item and open boundaries lacking any control or measurement instrumentation.",
+        "An open-ended pipe segment accommodating 1 process equipment component with no isolating or control elements at its perimeter.",
+        "A piping run containing 1 process equipment item, characterized by absence of boundary control or instrumentation provisions.",
+        "An unrestricted pipe segment housing a single process equipment item with no control valve or instrumentation interface."
+      ]
+    },
+    {
+      "fragment_id": "rfrag_region_1",
+      "canonical_text": "A pipe segment containing 4 process equipment items, with 1 isolating valve on its boundary. Flow passes through without full enclosure.",
+      "variants": [
+        "A piping circuit containing 4 process equipment items, bounded by 1 isolation valve on its perimeter, allowing flow passage without complete enclosure.",
+        "A linear pipe segment with 4 process equipment units and 1 isolating valve at its boundary, permitting through-flow without full containment.",
+        "A pipe run accommodating 4 process equipment items, fitted with 1 isolation valve on its boundary and open to flow continuation.",
+        "A transfer piping section containing 4 process equipment components, controlled by 1 isolating valve at the perimeter while maintaining flow continuity.",
+        "A piping path with 4 process equipment items and a single isolating valve on its edge, enabling unobstructed fluid passage."
+      ]
+    },
+    {
+      "fragment_id": "rfrag_region_2",
+      "canonical_text": "A pipe segment containing 0 process equipment items, with 1 isolating valve on its boundary. Flow passes through without full enclosure.",
+      "variants": [
+        "A pipe segment devoid of internal process equipment, fitted with 1 isolating valve at its boundary, permitting flow transfer without full enclosure.",
+        "A piping run containing no process equipment items, equipped with 1 isolation valve on its perimeter for through-flow capability.",
+        "A linear transfer piping section with 1 isolating valve on its boundary and no internal process equipment, allowing continuous fluid passage.",
+        "A pipe circuit without process equipment components, bounded by 1 isolating valve that enables flow transfer without complete isolation.",
+        "A transfer section containing zero process equipment items, controlled by 1 isolation valve at its boundary while maintaining flow path."
+      ]
+    },
+    {
+      "fragment_id": "rfrag_region_3",
+      "canonical_text": "A fully bounded pipe segment containing 2 process equipment items. The segment is enclosed by 2 control elements: two control valves, preventing unrestricted flow in either direction.",
+      "variants": [
+        "A fully enclosed piping segment housing 2 process equipment items, bounded by 2 control valves preventing bidirectional unrestricted flow.",
+        "A complete pipe circuit containing 2 process equipment units, secured at both ends by dual control valves restricting flow in both directions.",
+        "A fully bounded piping section with 2 process equipment items and 2 control valve elements limiting flow regardless of direction.",
+        "A sealed pipe segment accommodating 2 process equipment components, equipped with dual control valves to prevent uncontrolled flow in either sense.",
+        "An enclosed piping run with 2 process equipment items, controlled by 2 directional control valves restricting fluid passage in all directions."
+      ]
+    },
+    {
+      "fragment_id": "rfrag_region_4",
+      "canonical_text": "An open pipe segment containing 0 process equipment items, with no control or instrumentation elements on its boundary.",
+      "variants": [
+        "An unenclosed piping run devoid of process equipment items or boundary-mounted instrumentation and control devices.",
+        "A simple pipe segment with no internal process equipment and no control or instrumentation elements at its perimeter.",
+        "An open-ended piping section containing zero process equipment units with no boundary control or measurement instrumentation.",
+        "A piping run lacking both process equipment and boundary-mounted control or instrumentation provisions.",
+        "An unrestricted pipe segment with no process equipment items and no control valve or instrumentation interface."
+      ]
+    },
+    {
+      "fragment_id": "rfrag_region_5",
+      "canonical_text": "An open pipe segment containing 0 process equipment items, with no control or instrumentation elements on its boundary.",
+      "variants": [
+        "An unenclosed piping run devoid of process equipment items or boundary-mounted instrumentation and control devices.",
+        "A simple pipe segment with no internal process equipment and no control or instrumentation elements at its perimeter.",
+        "An open-ended piping section containing zero process equipment units with no boundary control or measurement instrumentation.",
+        "A piping run lacking both process equipment and boundary-mounted control or instrumentation provisions.",
+        "An unrestricted pipe segment with no process equipment items and no control valve or instrumentation interface."
+      ]
+    },
+    {
+      "fragment_id": "rfrag_region_6",
+      "canonical_text": "An open pipe segment containing 1 process equipment item, with no control or instrumentation elements on its boundary.",
+      "variants": [
+        "An unenclosed piping run housing 1 process equipment unit, devoid of boundary-mounted control valves or instrumentation devices.",
+        "A piping section with 1 process equipment item and open boundaries lacking any control or measurement instrumentation.",
+        "An open-ended pipe segment accommodating 1 process equipment component with no isolating or control elements at its perimeter.",
+        "A piping run containing 1 process equipment item, characterized by absence of boundary control or instrumentation provisions.",
+        "An unrestricted pipe segment housing a single process equipment item with no control valve or instrumentation interface."
+      ]
+    },
+    {
+      "fragment_id": "rfrag_region_7",
+      "canonical_text": "An open pipe segment containing 0 process equipment items, with no control or instrumentation elements on its boundary.",
+      "variants": [
+        "An unenclosed piping run devoid of process equipment items or boundary-mounted instrumentation and control devices.",
+        "A simple pipe segment with no internal process equipment and no control or instrumentation elements at its perimeter.",
+        "An open-ended piping section containing zero process equipment units with no boundary control or measurement instrumentation.",
+        "A piping run lacking both process equipment and boundary-mounted control or instrumentation provisions.",
+        "An unrestricted pipe segment with no process equipment items and no control valve or instrumentation interface."
+      ]
+    },
+    {
+      "fragment_id": "rfrag_region_8",
+      "canonical_text": "A pipe segment containing 1 process equipment item, with 1 isolating valve on its boundary. Flow passes through without full enclosure.",
+      "variants": [
+        "A piping circuit containing 1 process equipment item, bounded by 1 isolation valve on its perimeter, allowing flow passage without complete enclosure.",
+        "A linear pipe segment with 1 process equipment unit and 1 isolating valve at its boundary, permitting through-flow without full containment.",
+        "A pipe run accommodating 1 process equipment item, fitted with 1 isolation valve on its boundary and open to flow continuation.",
+        "A transfer piping section containing 1 process equipment component, controlled by 1 isolating valve at the perimeter while maintaining flow continuity.",
+        "A piping path with 1 process equipment item and a single isolating valve on its edge, enabling unobstructed fluid passage."
+      ]
+    },
+    {
+      "fragment_id": "rfrag_region_9",
+      "canonical_text": "A monitored pipe segment containing 0 process equipment items, fitted with 1 instrumentation point. No valve control is present; flow is measured but not regulated.",
+      "variants": [
+        "A monitored piping segment containing no process equipment items, equipped with 1 instrumentation port for flow measurement without valve regulation.",
+        "A measurement-instrumented pipe section with 0 process equipment items and 1 measurement point, lacking flow control valve elements.",
+        "A piping run fitted with 1 instrumentation interface for monitoring zero process equipment items, with no control valve provision.",
+        "A measured pipe segment containing no process equipment units, instrumented with 1 monitoring point and absent of any isolating or control valves.",
+        "An instrumented piping section with 1 measurement device and zero process equipment items, providing flow observation without flow regulation capability."
+      ]
+    },
+    {
+      "fragment_id": "rfrag_region_10",
+      "canonical_text": "A pipe segment containing 1 process equipment item, with 1 isolating valve on its boundary. Flow passes through without full enclosure.",
+      "variants": [
+        "A piping section housing 1 process equipment unit, bounded by 1 isolation valve, allowing fluid transport without complete confinement.",
+        "Piping run containing 1 process apparatus with 1 isolating valve at its perimeter; flow conveyance occurs without full encasement.",
+        "A conduit segment featuring 1 process device and 1 isolating valve on its periphery, permitting throughflow without total enclosure.",
+        "Tubing section with 1 process equipment component, regulated by 1 isolation valve at boundary; open flow path without complete wrapping.",
+        "Pipeline element accommodating 1 process unit with 1 shutoff valve positioned at its boundary, enabling passage without integral containment."
+      ]
+    },
+    {
+      "fragment_id": "rfrag_region_11",
+      "canonical_text": "An open pipe segment containing 0 process equipment items, with no control or instrumentation elements on its boundary.",
+      "variants": [
+        "An unobstructed piping segment devoid of process equipment, lacking boundary-mounted control or sensing devices.",
+        "Open conduit run containing no process apparatus and no peripheral instrumentation or regulation elements.",
+        "A bare pipeline section with zero process components and no boundary-integrated control instrumentation.",
+        "Unencumbered tubing segment without process equipment items or peripheral valve and instrument attachments.",
+        "Simple piping path free of process devices and boundary-mounted monitoring or control apparatus."
+      ]
+    },
+    {
+      "fragment_id": "rfrag_region_12",
+      "canonical_text": "A pipe segment containing 1 process equipment item, with 1 isolating valve on its boundary. Flow passes through without full enclosure.",
+      "variants": [
+        "A piping section housing 1 process equipment unit, bounded by 1 isolation valve, allowing fluid transport without complete confinement.",
+        "Piping run containing 1 process apparatus with 1 isolating valve at its perimeter; flow conveyance occurs without full encasement.",
+        "A conduit segment featuring 1 process device and 1 isolating valve on its periphery, permitting throughflow without total enclosure.",
+        "Tubing section with 1 process equipment component, regulated by 1 isolation valve at boundary; open flow path without complete wrapping.",
+        "Pipeline element accommodating 1 process unit with 1 shutoff valve positioned at its boundary, enabling passage without integral containment."
+      ]
+    },
+    {
+      "fragment_id": "rfrag_region_13",
+      "canonical_text": "An open pipe segment containing 0 process equipment items, with no control or instrumentation elements on its boundary.",
+      "variants": [
+        "An unobstructed piping segment devoid of process equipment, lacking boundary-mounted control or sensing devices.",
+        "Open conduit run containing no process apparatus and no peripheral instrumentation or regulation elements.",
+        "A bare pipeline section with zero process components and no boundary-integrated control instrumentation.",
+        "Unencumbered tubing segment without process equipment items or peripheral valve and instrument attachments.",
+        "Simple piping path free of process devices and boundary-mounted monitoring or control apparatus."
+      ]
+    },
+    {
+      "fragment_id": "rfrag_region_14",
+      "canonical_text": "An open pipe segment containing 0 process equipment items, with no control or instrumentation elements on its boundary.",
+      "variants": [
+        "An unobstructed piping segment devoid of process equipment, lacking boundary-mounted control or sensing devices.",
+        "Open conduit run containing no process apparatus and no peripheral instrumentation or regulation elements.",
+        "A bare pipeline section with zero process components and no boundary-integrated control instrumentation.",
+        "Unencumbered tubing segment without process equipment items or peripheral valve and instrument attachments.",
+        "Simple piping path free of process devices and boundary-mounted monitoring or control apparatus."
+      ]
+    },
+    {
+      "fragment_id": "rfrag_region_15",
+      "canonical_text": "A pipe segment containing 0 process equipment items, with 1 isolating valve on its boundary. Flow passes through without full enclosure.",
+      "variants": [
+        "A piping conduit carrying no process equipment, fitted with 1 isolation valve on its perimeter, supporting fluid flow without full enclosure.",
+        "Pipeline segment without internal process devices, equipped with 1 isolating valve at its boundary, permitting unrestricted throughput.",
+        "Tubing run free of process apparatus but incorporating 1 shutoff valve at its edge, enabling conveyance without complete encasement.",
+        "A transfer line absent of process components, controlled by 1 isolation valve positioned peripherally, allowing passage without integral confinement.",
+        "Piping element containing zero process units with 1 isolating valve on its circumference, facilitating flow without total wrapping."
+      ]
+    },
+    {
+      "fragment_id": "rfrag_region_16",
+      "canonical_text": "An open pipe segment containing 0 process equipment items, with no control or instrumentation elements on its boundary.",
+      "variants": [
+        "An unobstructed piping segment devoid of process equipment, lacking boundary-mounted control or sensing devices.",
+        "Open conduit run containing no process apparatus and no peripheral instrumentation or regulation elements.",
+        "A bare pipeline section with zero process components and no boundary-integrated control instrumentation.",
+        "Unencumbered tubing segment without process equipment items or peripheral valve and instrument attachments.",
+        "Simple piping path free of process devices and boundary-mounted monitoring or control apparatus."
+      ]
+    },
+    {
+      "fragment_id": "rfrag_region_17",
+      "canonical_text": "An open pipe segment containing 0 process equipment items, with no control or instrumentation elements on its boundary.",
+      "variants": [
+        "An unobstructed piping segment devoid of process equipment, lacking boundary-mounted control or sensing devices.",
+        "Open conduit run containing no process apparatus and no peripheral instrumentation or regulation elements.",
+        "A bare pipeline section with zero process components and no boundary-integrated control instrumentation.",
+        "Unencumbered tubing segment without process equipment items or peripheral valve and instrument attachments.",
+        "Simple piping path free of process devices and boundary-mounted monitoring or control apparatus."
+      ]
+    },
+    {
+      "fragment_id": "rfrag_region_18",
+      "canonical_text": "An open pipe segment containing 1 process equipment item, with no control or instrumentation elements on its boundary.",
+      "variants": [
+        "An open piping segment housing 1 process equipment item without peripheral control or instrumentation boundaries.",
+        "A conduit section containing 1 process apparatus, unencumbered by boundary-mounted valve or sensing apparatus.",
+        "Pipeline run with 1 process device integrated internally, lacking edge-mounted regulation or instrumentation elements.",
+        "Tubing segment accommodating 1 process unit without perimeter-positioned control or monitoring devices.",
+        "Piping pathway housing 1 process component, free from boundary-attached instrumentation or isolation provisions."
+      ]
+    },
+    {
+      "fragment_id": "rfrag_region_19",
+      "canonical_text": "An open pipe segment containing 1 process equipment item, with no control or instrumentation elements on its boundary.",
+      "variants": [
+        "An open piping segment housing 1 process equipment item without peripheral control or instrumentation boundaries.",
+        "A conduit section containing 1 process apparatus, unencumbered by boundary-mounted valve or sensing apparatus.",
+        "Pipeline run with 1 process device integrated internally, lacking edge-mounted regulation or instrumentation elements.",
+        "Tubing segment accommodating 1 process unit without perimeter-positioned control or monitoring devices.",
+        "Piping pathway housing 1 process component, free from boundary-attached instrumentation or isolation provisions."
+      ]
+    },
+    {
+      "fragment_id": "rfrag_region_20",
+      "canonical_text": "An open pipe segment containing 3 process equipment items, with no control or instrumentation elements on its boundary.",
+      "variants": [
+        "An unenclosed piping section housing 3 process equipment units, lacking any boundary-mounted control valves or instrumentation.",
+        "A free-standing pipe segment accommodating 3 process equipment items with no peripheral control or measurement devices.",
+        "An open-ended piping run containing 3 process equipment components, devoid of boundary control or instrumentation provisions.",
+        "A non-enclosed pipe section with 3 integrated process equipment items and no external control or instrumentation apparatus.",
+        "An unrestricted piping segment featuring 3 process equipment items and absent of boundary-mounted control or sensing elements."
+      ]
+    },
+    {
+      "fragment_id": "rfrag_region_21",
+      "canonical_text": "An open pipe segment containing 0 process equipment items, with no control or instrumentation elements on its boundary.",
+      "variants": [
+        "An unenclosed piping section with no process equipment units and no peripheral control or instrumentation.",
+        "A free-standing empty pipe segment lacking both internal equipment and boundary control devices.",
+        "An open-ended piping run devoid of process equipment items and any boundary-mounted instrumentation or control elements.",
+        "A non-enclosed, equipment-free pipe section with no control or measurement apparatus at its perimeter.",
+        "An unrestricted piping segment containing no equipment and absent of boundary-integrated control or sensing devices."
+      ]
+    },
+    {
+      "fragment_id": "rfrag_region_22",
+      "canonical_text": "An open pipe segment containing 0 process equipment items, with no control or instrumentation elements on its boundary.",
+      "variants": [
+        "An unenclosed piping section with no process equipment units and no peripheral control or instrumentation.",
+        "A free-standing empty pipe segment lacking both internal equipment and boundary control devices.",
+        "An open-ended piping run devoid of process equipment items and any boundary-mounted instrumentation or control elements.",
+        "A non-enclosed, equipment-free pipe section with no control or measurement apparatus at its perimeter.",
+        "An unrestricted piping segment containing no equipment and absent of boundary-integrated control or sensing devices."
+      ]
+    },
+    {
+      "fragment_id": "rfrag_region_23",
+      "canonical_text": "A pipe segment containing 0 process equipment items, with 1 isolating valve on its boundary. Flow passes through without full enclosure.",
+      "variants": [
+        "A piping section with no process equipment, featuring 1 isolating valve at its boundary, allowing unrestricted flow passage.",
+        "A pipe run containing no equipment items with 1 boundary-mounted isolation valve permitting open flow transit.",
+        "A piping segment devoid of process equipment but equipped with 1 isolating valve on its perimeter for flow control without full system enclosure.",
+        "An equipment-free pipe section incorporating 1 isolating valve at its boundary; flow proceeds without complete containment.",
+        "A piping run with 1 peripheral isolating valve and no internal equipment, facilitating flow transmission across an open boundary."
+      ]
+    },
+    {
+      "fragment_id": "rfrag_region_24",
+      "canonical_text": "An open pipe segment containing 1 process equipment item, with no control or instrumentation elements on its boundary.",
+      "variants": [
+        "An unenclosed piping section housing 1 process equipment unit, lacking any boundary-mounted control valves or instrumentation.",
+        "A free-standing pipe segment accommodating 1 process equipment item with no peripheral control or measurement devices.",
+        "An open-ended piping run containing 1 process equipment component, devoid of boundary control or instrumentation provisions.",
+        "A non-enclosed pipe section with 1 integrated process equipment item and no external control or instrumentation apparatus.",
+        "An unrestricted piping segment featuring 1 process equipment item and absent of boundary-mounted control or sensing elements."
+      ]
+    },
+    {
+      "fragment_id": "rfrag_region_25",
+      "canonical_text": "An open pipe segment containing 3 process equipment items, with no control or instrumentation elements on its boundary.",
+      "variants": [
+        "An unenclosed piping section housing 3 process equipment units, lacking any boundary-mounted control valves or instrumentation.",
+        "A free-standing pipe segment accommodating 3 process equipment items with no peripheral control or measurement devices.",
+        "An open-ended piping run containing 3 process equipment components, devoid of boundary control or instrumentation provisions.",
+        "A non-enclosed pipe section with 3 integrated process equipment items and no external control or instrumentation apparatus.",
+        "An unrestricted piping segment featuring 3 process equipment items and absent of boundary-mounted control or sensing elements."
+      ]
+    },
+    {
+      "fragment_id": "rfrag_region_26",
+      "canonical_text": "A pipe segment containing 1 process equipment item, with 1 isolating valve on its boundary. Flow passes through without full enclosure.",
+      "variants": [
+        "A piping section with 1 process equipment item, featuring 1 isolating valve at its boundary, allowing unrestricted flow passage.",
+        "A pipe run containing 1 equipment item with 1 boundary-mounted isolation valve permitting open flow transit.",
+        "A piping segment housing 1 process equipment but equipped with 1 isolating valve on its perimeter for flow control without full system enclosure.",
+        "An equipment-containing pipe section incorporating 1 isolating valve at its boundary; flow proceeds without complete containment.",
+        "A piping run with 1 peripheral isolating valve and 1 internal equipment item, facilitating flow transmission across an open boundary."
+      ]
+    },
+    {
+      "fragment_id": "rfrag_region_27",
+      "canonical_text": "An open pipe segment containing 0 process equipment items, with no control or instrumentation elements on its boundary.",
+      "variants": [
+        "An unenclosed piping section with no process equipment units and no peripheral control or instrumentation.",
+        "A free-standing empty pipe segment lacking both internal equipment and boundary control devices.",
+        "An open-ended piping run devoid of process equipment items and any boundary-mounted instrumentation or control elements.",
+        "A non-enclosed, equipment-free pipe section with no control or measurement apparatus at its perimeter.",
+        "An unrestricted piping segment containing no equipment and absent of boundary-integrated control or sensing devices."
+      ]
+    },
+    {
+      "fragment_id": "rfrag_region_28",
+      "canonical_text": "An open pipe segment containing 0 process equipment items, with no control or instrumentation elements on its boundary.",
+      "variants": [
+        "An unenclosed piping section with no process equipment units and no peripheral control or instrumentation.",
+        "A free-standing empty pipe segment lacking both internal equipment and boundary control devices.",
+        "An open-ended piping run devoid of process equipment items and any boundary-mounted instrumentation or control elements.",
+        "A non-enclosed, equipment-free pipe section with no control or measurement apparatus at its perimeter.",
+        "An unrestricted piping segment containing no equipment and absent of boundary-integrated control or sensing devices."
+      ]
+    },
+    {
+      "fragment_id": "rfrag_region_29",
+      "canonical_text": "An open pipe segment containing 0 process equipment items, with no control or instrumentation elements on its boundary.",
+      "variants": [
+        "An unenclosed piping section with no process equipment units and no peripheral control or instrumentation.",
+        "A free-standing empty pipe segment lacking both internal equipment and boundary control devices.",
+        "An open-ended piping run devoid of process equipment items and any boundary-mounted instrumentation or control elements.",
+        "A non-enclosed, equipment-free pipe section with no control or measurement apparatus at its perimeter.",
+        "An unrestricted piping segment containing no equipment and absent of boundary-integrated control or sensing devices."
+      ]
+    },
+    {
+      "fragment_id": "efrag_0",
+      "canonical_text": "A cluster of 4 interconnected equipment items (4 general equipment items) within a single process region.",
+      "variants": [
+        "Four interconnected general equipment items organized as a unified assembly within a single process zone.",
+        "A grouped arrangement of 4 general equipment pieces functioning together within one process area.",
+        "Four general equipment items networked together in a single process region forming an integrated cluster.",
+        "An assembly comprising 4 interconnected general equipment units contained within a single process boundary.",
+        "A cohesive grouping of 4 general equipment items in mutual connection occupying one process region."
+      ]
+    },
+    {
+      "fragment_id": "efrag_1",
+      "canonical_text": "A standalone process equipment item within a single process region.",
+      "variants": [
+        "An independent process equipment unit occupying a single process area.",
+        "A solitary equipment item operating within a designated process region.",
+        "A standalone process equipment element contained within one process zone.",
+        "An isolated equipment unit functioning within a single process boundary.",
+        "A single, self-contained equipment item positioned within one process area."
+      ]
+    },
+    {
+      "fragment_id": "efrag_2",
+      "canonical_text": "A standalone process equipment item within a single process region.",
+      "variants": [
+        "A discrete equipment item operated independently within a single process region.",
+        "An autonomous process equipment unit confined to one process area.",
+        "A standalone equipment component occupying a single process zone.",
+        "An isolated, individual equipment item within a designated process region.",
+        "A self-sufficient equipment unit situated alone in one process area."
+      ]
+    },
+    {
+      "fragment_id": "efrag_3",
+      "canonical_text": "A standalone process equipment item within a single process region.",
+      "variants": [
+        "A singular process equipment item localized within one process region.",
+        "An unattached equipment unit functioning independently in a single process area.",
+        "A standalone equipment component contained within a single process boundary.",
+        "An individual process equipment element occupying one designated process zone.",
+        "A solitary, independent equipment item within a single process region."
+      ]
+    },
+    {
+      "fragment_id": "efrag_4",
+      "canonical_text": "A cluster of 3 interconnected equipment items (2 general equipment items, tank) within a single process region.",
+      "variants": [
+        "Three interconnected equipment items\u2014comprising two general equipment units and one tank\u2014organized together within a single process region.",
+        "A grouped assembly of 3 equipment pieces (2 general equipment items and 1 tank) functioning as an interconnected cluster in one process area.",
+        "Three mutually connected equipment components including 2 general equipment units and 1 tank, contained within a single process boundary.",
+        "An integrated arrangement of 2 general equipment items and 1 tank networked together within one process zone.",
+        "A unified cluster of 3 interconnected units (2 general equipment items and 1 tank) occupying a single process region."
+      ]
+    },
+    {
+      "fragment_id": "efrag_5",
+      "canonical_text": "A standalone process equipment item within a single process region.",
+      "variants": [
+        "A solitary equipment item operating as a standalone unit within a single process area.",
+        "An independent process equipment element confined to one process region.",
+        "A single, unattached equipment component within a designated process zone.",
+        "A standalone process equipment unit situated alone in one process boundary.",
+        "An isolated equipment item functioning independently within a single process area."
+      ]
+    },
+    {
+      "fragment_id": "efrag_6",
+      "canonical_text": "A cluster of 3 interconnected equipment items (2 general equipment items, tank) within a single process region.",
+      "variants": [
+        "Three interconnected equipment units\u20142 general equipment items and 1 tank\u2014organized as a single cohesive assembly within one process region.",
+        "An integrated grouping of 2 general equipment components and 1 tank functioning in mutual connection within a single process area.",
+        "Three equipment pieces (2 general equipment items plus 1 tank) networked together and contained within one process boundary.",
+        "A unified cluster comprising 2 general equipment units and 1 tank all interconnected within a single process zone.",
+        "An assembled arrangement of 3 interconnected items including 2 general equipment pieces and 1 tank occupying one process region."
+      ]
+    },
+    {
+      "fragment_id": "efrag_7",
+      "canonical_text": "A cluster of 2 interconnected equipment items (2 instrumentation points) within a single process region.",
+      "variants": [
+        "Two instrumentation points interconnected and functioning together within a single process region.",
+        "A pair of instrumentation nodes networked together within one process area.",
+        "Two instrumentation elements in mutual connection contained within a single process boundary.",
+        "A coupled assembly of 2 instrumentation points operating in one process zone.",
+        "Two interconnected instrumentation items positioned together within a single process region."
+      ]
+    },
+    {
+      "fragment_id": "efrag_8",
+      "canonical_text": "A cluster of 2 interconnected equipment items (2 instrumentation points) within a single process region.",
+      "variants": [
+        "Two instrumentation units connected in tandem within a single process area.",
+        "A pair of interconnected instrumentation items contained within one process region.",
+        "Two instrumentation components networked together and localized to a single process zone.",
+        "A grouped arrangement of 2 instrumentation points functioning in mutual connection within one process boundary.",
+        "Two instrumentation elements organized as an interconnected assembly within a single process region."
+      ]
+    },
+    {
+      "fragment_id": "efrag_9",
+      "canonical_text": "A cluster of 2 interconnected equipment items (2 instrumentation points) within a single process region.",
+      "variants": [
+        "Two instrumentation nodes in direct interconnection occupying a single process area.",
+        "A coupled pair of instrumentation items networked together within one process region.",
+        "Two instrumentation points functioning in mutual connection and contained within a single process boundary.",
+        "An interconnected assembly of 2 instrumentation components within one designated process zone.",
+        "Two instrumentation units organized together in connection and occupying a single process region."
+      ]
+    },
+    {
+      "fragment_id": "efrag_10",
+      "canonical_text": "A cluster of 2 interconnected equipment items (2 instrumentation points) within a single process region.",
+      "variants": [
+        "Two interconnected instrumentation points housed together as a unified assembly in one process zone.",
+        "A pair of linked instrumentation devices forming a single cluster within a localized process area.",
+        "Two integrated measurement instruments operating as an interconnected system in a single process sector.",
+        "A coupled arrangement of 2 instrumentation stations positioned within a common process region.",
+        "Two coordinated instrumentation elements configured as an interconnected cluster in one functional process area."
+      ]
+    },
+    {
+      "fragment_id": "efrag_11",
+      "canonical_text": "A cluster of 2 interconnected equipment items (2 instrumentation points) within a single process region.",
+      "variants": [
+        "Two interlinked instrumentation measurement points consolidated in a single process compartment.",
+        "A dual-instrumentation cluster with internal connections established within one process zone.",
+        "Two integrated sensing points functioning as an interconnected assembly in a single process region.",
+        "A pair of coupled instrumentation devices arranged together within a unified process sector.",
+        "Two collaborative instrumentation stations networked as a single interconnected cluster in one process area."
+      ]
+    },
+    {
+      "fragment_id": "efrag_12",
+      "canonical_text": "A standalone process equipment item within a single process region.",
+      "variants": [
+        "An isolated process apparatus functioning independently within a designated process zone.",
+        "A single process equipment unit operating as a standalone asset in one process region.",
+        "An independent process machinery item deployed in isolation within a localized process sector.",
+        "A solitary equipment component serving as a discrete process element in one functional area.",
+        "One process device operating autonomously within a single bounded process region."
+      ]
+    },
+    {
+      "fragment_id": "efrag_13",
+      "canonical_text": "A cluster of 2 interconnected equipment items (2 pumps) within a single process region.",
+      "variants": [
+        "Two interconnected pump units forming a coordinated assembly within a single process zone.",
+        "A pair of linked pumping devices operating as an integrated cluster in one process region.",
+        "Two coupled pump elements configured as an interconnected system within a common process sector.",
+        "A dual-pump arrangement with internal piping connections housed in a single process area.",
+        "Two pump stations networked together as a unified interconnected cluster in one functional process region."
+      ]
+    },
+    {
+      "fragment_id": "efrag_14",
+      "canonical_text": "A standalone process equipment item within a single process region.",
+      "variants": [
+        "A solitary equipment item functioning independently in a confined process zone.",
+        "One discrete process apparatus deployed as a standalone unit within a single process region.",
+        "An isolated machinery component operating as a distinct process element in one process sector.",
+        "A single independent equipment piece serving the process in a localized region.",
+        "An autonomous process device occupying a standalone position within one bounded process area."
+      ]
+    },
+    {
+      "fragment_id": "efrag_15",
+      "canonical_text": "A standalone process equipment item within a single process region.",
+      "variants": [
+        "A standalone process apparatus positioned independently within a single designated zone.",
+        "One isolated process equipment unit operating discretely in a localized process region.",
+        "A solitary machinery item functioning as a distinct component in one process sector.",
+        "An independent equipment element serving as a standalone asset within a single process area.",
+        "A single autonomous process device deployed in isolation within one functional process region."
+      ]
+    },
+    {
+      "fragment_id": "efrag_16",
+      "canonical_text": "A standalone process equipment item within a single process region.",
+      "variants": [
+        "An independent process equipment component operating alone within a single process zone.",
+        "A solitary apparatus item functioning as a discrete unit in a localized process region.",
+        "One standalone machinery element serving as a distinct process asset in one sector.",
+        "An isolated equipment device operating autonomously within a single bounded process area.",
+        "A single self-contained process unit positioned independently in one functional process region."
+      ]
+    },
+    {
+      "fragment_id": "efrag_17",
+      "canonical_text": "A standalone process equipment item within a single process region.",
+      "variants": [
+        "A standalone equipment item functioning without interconnection in a single process zone.",
+        "One isolated process device operating as an autonomous unit within a localized region.",
+        "A discrete machinery component serving as a solitary element in one process sector.",
+        "An independent equipment apparatus deployed in isolation within a single process area.",
+        "A self-sufficient process unit occupying a standalone position in one bounded functional region."
+      ]
+    },
+    {
+      "fragment_id": "pfrag_topo_group_0",
+      "canonical_text": "A recurring structural topology pattern present in 14 regions, characterized by a single-node internal structure.",
+      "variants": [
+        "A single-node internal architecture pattern distributed across 14 process regions.",
+        "A recurring structural configuration featuring one-node connectivity manifested in 14 operational zones.",
+        "A prevalent topology template characterized by a single-node arrangement present throughout 14 process regions.",
+        "A standard single-node structural pattern replicated consistently across 14 distinct process sectors.",
+        "A common topological framework with one-node internal composition occurring in 14 process locations."
+      ]
+    },
+    {
+      "fragment_id": "pfrag_topo_group_1",
+      "canonical_text": "A recurring structural topology pattern present in 6 regions, characterized by a two-node internal structure.",
+      "variants": [
+        "A two-node internal connectivity pattern recurring across 6 distinct process regions.",
+        "A prevalent structural topology characterized by dual-node architecture distributed throughout 6 process zones.",
+        "A standard two-node internal configuration manifesting repeatedly in 6 operational process regions.",
+        "A common topological arrangement featuring two-node interconnection present in 6 functional sectors.",
+        "A recurring structural template with binary-node internal structure instantiated across 6 process locations."
+      ]
+    },
+    {
+      "fragment_id": "pfrag_topo_group_2",
+      "canonical_text": "A recurring structural topology pattern present in 5 regions, characterized by a (1, 1, 2, 2) internal structure.",
+      "variants": [
+        "A repeated structural topology configuration distributed across 5 regions, featuring an internal arrangement of (1, 1, 2, 2).",
+        "Five regions exhibit a common structural topology pattern defined by the internal composition (1, 1, 2, 2).",
+        "A recurring structural topology manifesting across 5 regions with characteristic (1, 1, 2, 2) internal organization.",
+        "Five regions share an identical structural topology pattern having a (1, 1, 2, 2) internal structure.",
+        "A structural topology pattern that repeats in 5 regions, distinguished by its (1, 1, 2, 2) internal configuration."
+      ]
+    },
+    {
+      "fragment_id": "pfrag_topo_group_3",
+      "canonical_text": "A recurring structural topology pattern present in 3 regions, characterized by a (1, 1, 2) internal structure.",
+      "variants": [
+        "A repeated structural topology configuration distributed across 3 regions, featuring an internal arrangement of (1, 1, 2).",
+        "Three regions exhibit a common structural topology pattern defined by the internal composition (1, 1, 2).",
+        "A recurring structural topology manifesting across 3 regions with characteristic (1, 1, 2) internal organization.",
+        "Three regions share an identical structural topology pattern having a (1, 1, 2) internal structure.",
+        "A structural topology pattern that repeats in 3 regions, distinguished by its (1, 1, 2) internal configuration."
+      ]
+    },
+    {
+      "fragment_id": "pfrag_valve_seq_0",
+      "canonical_text": "A recurring valve-sequence pattern (no control elements) shared by 20 regions.",
+      "variants": [
+        "A valve-sequence pattern lacking control instrumentation that repeats across 20 regions.",
+        "Twenty regions share a common valve-sequence arrangement without control elements.",
+        "A recurring valve-sequence pattern devoid of control components, distributed among 20 regions.",
+        "Twenty regions exhibit an identical valve-sequence pattern containing no control instrumentation.",
+        "A valve-sequence pattern shared by 20 regions, characterized by the absence of control elements."
+      ]
+    },
+    {
+      "fragment_id": "pfrag_valve_seq_1",
+      "canonical_text": "A recurring valve-sequence pattern (single valve) shared by 8 regions.",
+      "variants": [
+        "A valve-sequence pattern incorporating a single control valve, recurring across 8 regions.",
+        "Eight regions share a common valve-sequence arrangement featuring one control valve.",
+        "A recurring valve-sequence pattern with a single valve element, distributed among 8 regions.",
+        "Eight regions exhibit an identical valve-sequence pattern containing one valve component.",
+        "A valve-sequence pattern shared by 8 regions, characterized by the presence of a single control valve."
+      ]
+    }
+  ]
+}

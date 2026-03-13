@@ -4,8 +4,11 @@
     "expansion_table_file": "expansion_table.json",
     "primitive_vocabulary": [
       "equipment_block",
+      "inlet_outlet",
       "instrument",
       "pipe_segment",
+      "pump",
+      "tank",
       "valve"
     ],
     "generation_method": "deterministic",

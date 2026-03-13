@@ -4,6 +4,7 @@ Reads fragments.json, writes canonical_descriptions.json.
 No external dependencies.
 """
 
+import argparse
 import json
 import sys
 from pathlib import Path
@@ -133,6 +134,12 @@ def _describe_equipment_cluster(frag: dict) -> str:
             label = "general equipment item" if count == 1 else f"{count} general equipment items"
         elif role == "instrumentation":
             label = "instrumentation point" if count == 1 else f"{count} instrumentation points"
+        elif role == "tank":
+            label = "tank" if count == 1 else f"{count} tanks"
+        elif role == "pump":
+            label = "pump" if count == 1 else f"{count} pumps"
+        elif role == "inlet_outlet":
+            label = "inlet/outlet" if count == 1 else f"{count} inlet/outlets"
         else:
             label = role if count == 1 else f"{count} {role}s"
         role_parts.append(label)
@@ -219,6 +226,11 @@ def describe_fragment(frag: dict) -> str:
         return _describe_equipment_cluster(frag)
     elif ftype == "pattern_fragment":
         return _describe_pattern(frag)
+    elif ftype == "cycle_fragment":
+        cycle_len = frag.get("cycle_length", 0)
+        src = frag.get("source_regions", [])
+        return (f"A cyclic piping loop of length {cycle_len} "
+                f"spanning regions {', '.join(src)}.")
     else:
         return f"Unknown fragment type: {ftype}."
 
@@ -228,8 +240,13 @@ def describe_fragment(frag: dict) -> str:
 # ---------------------------------------------------------------------------
 
 def main():
-    src = Path("fragments.json")
-    dst = Path("canonical_descriptions.json")
+    parser = argparse.ArgumentParser(description="Stage 3A: Canonical Text Realization")
+    parser.add_argument("--input", default="fragments.json", help="Path to fragments JSON")
+    parser.add_argument("--output", default="canonical_descriptions.json", help="Output path")
+    args = parser.parse_args()
+
+    src = Path(args.input)
+    dst = Path(args.output)
 
     with open(src) as f:
         data = json.load(f)

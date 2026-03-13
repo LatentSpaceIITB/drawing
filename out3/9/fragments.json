@@ -1,0 +1,2384 @@
+{
+  "metadata": {
+    "source_file": "/Users/surajprasad/Desktop/latent-space/drawings/out3/9/ground_truth.json",
+    "total_fragments": 72,
+    "fragment_type_counts": {
+      "region_fragment": 39,
+      "connectivity_fragment": 6,
+      "equipment_cluster_fragment": 23,
+      "pattern_fragment": 4
+    },
+    "region_subtype_counts": {
+      "isolated_segment": 21,
+      "controlled_transfer": 1,
+      "linear_transfer": 17
+    }
+  },
+  "fragments": [
+    {
+      "fragment_id": "rfrag_region_0",
+      "fragment_type": "region_fragment",
+      "fragment_subtype": "isolated_segment",
+      "source_regions": [
+        "region_0"
+      ],
+      "topology": {
+        "internal_node_count": 1,
+        "junction_count": 0,
+        "junction_density": 0.0,
+        "is_cyclic": false,
+        "path_redundancy": 1
+      },
+      "control_semantics": {
+        "valve_bounded": false,
+        "valve_touched": false,
+        "boundary_count": 0,
+        "valve_count": 0,
+        "instrumentation_count": 0,
+        "control_sequence": [],
+        "entry_controls": [],
+        "exit_controls": []
+      },
+      "equipment_anchors": {
+        "has_equipment": false,
+        "equipment_count": 0,
+        "equipment_roles": [],
+        "internal_adjacency_count": 0
+      },
+      "pattern_signature": {
+        "topology_hash": "(0,)",
+        "valve_sequence_hash": "()",
+        "topology_group_id": "topo_group_0",
+        "valve_seq_group_id": "valve_seq_0"
+      },
+      "region_linkage": {
+        "connected_regions": [],
+        "bridge_control_roles": []
+      }
+    },
+    {
+      "fragment_id": "rfrag_region_1",
+      "fragment_type": "region_fragment",
+      "fragment_subtype": "controlled_transfer",
+      "source_regions": [
+        "region_1"
+      ],
+      "topology": {
+        "internal_node_count": 5,
+        "junction_count": 0,
+        "junction_density": 0.0,
+        "is_cyclic": false,
+        "path_redundancy": 1
+      },
+      "control_semantics": {
+        "valve_bounded": true,
+        "valve_touched": true,
+        "boundary_count": 2,
+        "valve_count": 2,
+        "instrumentation_count": 0,
+        "control_sequence": [
+          "valve"
+        ],
+        "entry_controls": [
+          "valve"
+        ],
+        "exit_controls": []
+      },
+      "equipment_anchors": {
+        "has_equipment": true,
+        "equipment_count": 5,
+        "equipment_roles": [
+          "general",
+          "general",
+          "general",
+          "general",
+          "tank"
+        ],
+        "internal_adjacency_count": 4
+      },
+      "pattern_signature": {
+        "topology_hash": null,
+        "valve_sequence_hash": null,
+        "topology_group_id": null,
+        "valve_seq_group_id": null
+      },
+      "region_linkage": {
+        "connected_regions": [
+          "region_6"
+        ],
+        "bridge_control_roles": [
+          "valve"
+        ]
+      }
+    },
+    {
+      "fragment_id": "rfrag_region_2",
+      "fragment_type": "region_fragment",
+      "fragment_subtype": "isolated_segment",
+      "source_regions": [
+        "region_2"
+      ],
+      "topology": {
+        "internal_node_count": 1,
+        "junction_count": 0,
+        "junction_density": 0.0,
+        "is_cyclic": false,
+        "path_redundancy": 1
+      },
+      "control_semantics": {
+        "valve_bounded": false,
+        "valve_touched": false,
+        "boundary_count": 0,
+        "valve_count": 0,
+        "instrumentation_count": 0,
+        "control_sequence": [],
+        "entry_controls": [],
+        "exit_controls": []
+      },
+      "equipment_anchors": {
+        "has_equipment": true,
+        "equipment_count": 1,
+        "equipment_roles": [
+          "tank"
+        ],
+        "internal_adjacency_count": 0
+      },
+      "pattern_signature": {
+        "topology_hash": "(0,)",
+        "valve_sequence_hash": "()",
+        "topology_group_id": "topo_group_0",
+        "valve_seq_group_id": "valve_seq_0"
+      },
+      "region_linkage": {
+        "connected_regions": [],
+        "bridge_control_roles": []
+      }
+    },
+    {
+      "fragment_id": "rfrag_region_3",
+      "fragment_type": "region_fragment",
+      "fragment_subtype": "isolated_segment",
+      "source_regions": [
+        "region_3"
+      ],
+      "topology": {
+        "internal_node_count": 1,
+        "junction_count": 0,
+        "junction_density": 0.0,
+        "is_cyclic": false,
+        "path_redundancy": 1
+      },
+      "control_semantics": {
+        "valve_bounded": false,
+        "valve_touched": false,
+        "boundary_count": 0,
+        "valve_count": 0,
+        "instrumentation_count": 0,
+        "control_sequence": [],
+        "entry_controls": [],
+        "exit_controls": []
+      },
+      "equipment_anchors": {
+        "has_equipment": true,
+        "equipment_count": 1,
+        "equipment_roles": [
+          "tank"
+        ],
+        "internal_adjacency_count": 0
+      },
+      "pattern_signature": {
+        "topology_hash": "(0,)",
+        "valve_sequence_hash": "()",
+        "topology_group_id": "topo_group_0",
+        "valve_seq_group_id": "valve_seq_0"
+      },
+      "region_linkage": {
+        "connected_regions": [],
+        "bridge_control_roles": []
+      }
+    },
+    {
+      "fragment_id": "rfrag_region_4",
+      "fragment_type": "region_fragment",
+      "fragment_subtype": "isolated_segment",
+      "source_regions": [
+        "region_4"
+      ],
+      "topology": {
+        "internal_node_count": 1,
+        "junction_count": 0,
+        "junction_density": 0.0,
+        "is_cyclic": false,
+        "path_redundancy": 1
+      },
+      "control_semantics": {
+        "valve_bounded": false,
+        "valve_touched": false,
+        "boundary_count": 0,
+        "valve_count": 0,
+        "instrumentation_count": 0,
+        "control_sequence": [],
+        "entry_controls": [],
+        "exit_controls": []
+      },
+      "equipment_anchors": {
+        "has_equipment": true,
+        "equipment_count": 1,
+        "equipment_roles": [
+          "tank"
+        ],
+        "internal_adjacency_count": 0
+      },
+      "pattern_signature": {
+        "topology_hash": "(0,)",
+        "valve_sequence_hash": "()",
+        "topology_group_id": "topo_group_0",
+        "valve_seq_group_id": "valve_seq_0"
+      },
+      "region_linkage": {
+        "connected_regions": [],
+        "bridge_control_roles": []
+      }
+    },
+    {
+      "fragment_id": "rfrag_region_5",
+      "fragment_type": "region_fragment",
+      "fragment_subtype": "isolated_segment",
+      "source_regions": [
+        "region_5"
+      ],
+      "topology": {
+        "internal_node_count": 1,
+        "junction_count": 0,
+        "junction_density": 0.0,
+        "is_cyclic": false,
+        "path_redundancy": 1
+      },
+      "control_semantics": {
+        "valve_bounded": false,
+        "valve_touched": false,
+        "boundary_count": 0,
+        "valve_count": 0,
+        "instrumentation_count": 0,
+        "control_sequence": [],
+        "entry_controls": [],
+        "exit_controls": []
+      },
+      "equipment_anchors": {
+        "has_equipment": true,
+        "equipment_count": 1,
+        "equipment_roles": [
+          "tank"
+        ],
+        "internal_adjacency_count": 0
+      },
+      "pattern_signature": {
+        "topology_hash": "(0,)",
+        "valve_sequence_hash": "()",
+        "topology_group_id": "topo_group_0",
+        "valve_seq_group_id": "valve_seq_0"
+      },
+      "region_linkage": {
+        "connected_regions": [],
+        "bridge_control_roles": []
+      }
+    },
+    {
+      "fragment_id": "rfrag_region_6",
+      "fragment_type": "region_fragment",
+      "fragment_subtype": "linear_transfer",
+      "source_regions": [
+        "region_6"
+      ],
+      "topology": {
+        "internal_node_count": 2,
+        "junction_count": 0,
+        "junction_density": 0.0,
+        "is_cyclic": false,
+        "path_redundancy": 1
+      },
+      "control_semantics": {
+        "valve_bounded": false,
+        "valve_touched": true,
+        "boundary_count": 1,
+        "valve_count": 1,
+        "instrumentation_count": 0,
+        "control_sequence": [
+          "valve"
+        ],
+        "entry_controls": [],
+        "exit_controls": [
+          "valve"
+        ]
+      },
+      "equipment_anchors": {
+        "has_equipment": false,
+        "equipment_count": 0,
+        "equipment_roles": [],
+        "internal_adjacency_count": 0
+      },
+      "pattern_signature": {
+        "topology_hash": "(1, 1)",
+        "valve_sequence_hash": "('valve',)",
+        "topology_group_id": "topo_group_1",
+        "valve_seq_group_id": "valve_seq_1"
+      },
+      "region_linkage": {
+        "connected_regions": [
+          "region_1"
+        ],
+        "bridge_control_roles": [
+          "valve"
+        ]
+      }
+    },
+    {
+      "fragment_id": "rfrag_region_7",
+      "fragment_type": "region_fragment",
+      "fragment_subtype": "linear_transfer",
+      "source_regions": [
+        "region_7"
+      ],
+      "topology": {
+        "internal_node_count": 1,
+        "junction_count": 0,
+        "junction_density": 0.0,
+        "is_cyclic": false,
+        "path_redundancy": 1
+      },
+      "control_semantics": {
+        "valve_bounded": false,
+        "valve_touched": true,
+        "boundary_count": 1,
+        "valve_count": 1,
+        "instrumentation_count": 0,
+        "control_sequence": [
+          "valve"
+        ],
+        "entry_controls": [
+          "valve"
+        ],
+        "exit_controls": []
+      },
+      "equipment_anchors": {
+        "has_equipment": true,
+        "equipment_count": 1,
+        "equipment_roles": [
+          "general"
+        ],
+        "internal_adjacency_count": 0
+      },
+      "pattern_signature": {
+        "topology_hash": "(0,)",
+        "valve_sequence_hash": "('valve',)",
+        "topology_group_id": "topo_group_0",
+        "valve_seq_group_id": "valve_seq_1"
+      },
+      "region_linkage": {
+        "connected_regions": [
+          "region_14"
+        ],
+        "bridge_control_roles": [
+          "valve"
+        ]
+      }
+    },
+    {
+      "fragment_id": "rfrag_region_8",
+      "fragment_type": "region_fragment",
+      "fragment_subtype": "isolated_segment",
+      "source_regions": [
+        "region_8"
+      ],
+      "topology": {
+        "internal_node_count": 1,
+        "junction_count": 0,
+        "junction_density": 0.0,
+        "is_cyclic": false,
+        "path_redundancy": 1
+      },
+      "control_semantics": {
+        "valve_bounded": false,
+        "valve_touched": false,
+        "boundary_count": 0,
+        "valve_count": 0,
+        "instrumentation_count": 0,
+        "control_sequence": [],
+        "entry_controls": [],
+        "exit_controls": []
+      },
+      "equipment_anchors": {
+        "has_equipment": true,
+        "equipment_count": 1,
+        "equipment_roles": [
+          "tank"
+        ],
+        "internal_adjacency_count": 0
+      },
+      "pattern_signature": {
+        "topology_hash": "(0,)",
+        "valve_sequence_hash": "()",
+        "topology_group_id": "topo_group_0",
+        "valve_seq_group_id": "valve_seq_0"
+      },
+      "region_linkage": {
+        "connected_regions": [],
+        "bridge_control_roles": []
+      }
+    },
+    {
+      "fragment_id": "rfrag_region_9",
+      "fragment_type": "region_fragment",
+      "fragment_subtype": "linear_transfer",
+      "source_regions": [
+        "region_9"
+      ],
+      "topology": {
+        "internal_node_count": 1,
+        "junction_count": 0,
+        "junction_density": 0.0,
+        "is_cyclic": false,
+        "path_redundancy": 1
+      },
+      "control_semantics": {
+        "valve_bounded": false,
+        "valve_touched": true,
+        "boundary_count": 1,
+        "valve_count": 1,
+        "instrumentation_count": 0,
+        "control_sequence": [
+          "valve"
+        ],
+        "entry_controls": [],
+        "exit_controls": []
+      },
+      "equipment_anchors": {
+        "has_equipment": true,
+        "equipment_count": 1,
+        "equipment_roles": [
+          "general"
+        ],
+        "internal_adjacency_count": 0
+      },
+      "pattern_signature": {
+        "topology_hash": "(0,)",
+        "valve_sequence_hash": "('valve',)",
+        "topology_group_id": "topo_group_0",
+        "valve_seq_group_id": "valve_seq_1"
+      },
+      "region_linkage": {
+        "connected_regions": [],
+        "bridge_control_roles": []
+      }
+    },
+    {
+      "fragment_id": "rfrag_region_10",
+      "fragment_type": "region_fragment",
+      "fragment_subtype": "linear_transfer",
+      "source_regions": [
+        "region_10"
+      ],
+      "topology": {
+        "internal_node_count": 1,
+        "junction_count": 0,
+        "junction_density": 0.0,
+        "is_cyclic": false,
+        "path_redundancy": 1
+      },
+      "control_semantics": {
+        "valve_bounded": false,
+        "valve_touched": true,
+        "boundary_count": 1,
+        "valve_count": 1,
+        "instrumentation_count": 0,
+        "control_sequence": [
+          "valve"
+        ],
+        "entry_controls": [],
+        "exit_controls": []
+      },
+      "equipment_anchors": {
+        "has_equipment": true,
+        "equipment_count": 1,
+        "equipment_roles": [
+          "general"
+        ],
+        "internal_adjacency_count": 0
+      },
+      "pattern_signature": {
+        "topology_hash": "(0,)",
+        "valve_sequence_hash": "('valve',)",
+        "topology_group_id": "topo_group_0",
+        "valve_seq_group_id": "valve_seq_1"
+      },
+      "region_linkage": {
+        "connected_regions": [],
+        "bridge_control_roles": []
+      }
+    },
+    {
+      "fragment_id": "rfrag_region_11",
+      "fragment_type": "region_fragment",
+      "fragment_subtype": "isolated_segment",
+      "source_regions": [
+        "region_11"
+      ],
+      "topology": {
+        "internal_node_count": 1,
+        "junction_count": 0,
+        "junction_density": 0.0,
+        "is_cyclic": false,
+        "path_redundancy": 1
+      },
+      "control_semantics": {
+        "valve_bounded": false,
+        "valve_touched": false,
+        "boundary_count": 0,
+        "valve_count": 0,
+        "instrumentation_count": 0,
+        "control_sequence": [],
+        "entry_controls": [],
+        "exit_controls": []
+      },
+      "equipment_anchors": {
+        "has_equipment": false,
+        "equipment_count": 0,
+        "equipment_roles": [],
+        "internal_adjacency_count": 0
+      },
+      "pattern_signature": {
+        "topology_hash": "(0,)",
+        "valve_sequence_hash": "()",
+        "topology_group_id": "topo_group_0",
+        "valve_seq_group_id": "valve_seq_0"
+      },
+      "region_linkage": {
+        "connected_regions": [],
+        "bridge_control_roles": []
+      }
+    },
+    {
+      "fragment_id": "rfrag_region_12",
+      "fragment_type": "region_fragment",
+      "fragment_subtype": "isolated_segment",
+      "source_regions": [
+        "region_12"
+      ],
+      "topology": {
+        "internal_node_count": 1,
+        "junction_count": 0,
+        "junction_density": 0.0,
+        "is_cyclic": false,
+        "path_redundancy": 1
+      },
+      "control_semantics": {
+        "valve_bounded": false,
+        "valve_touched": false,
+        "boundary_count": 0,
+        "valve_count": 0,
+        "instrumentation_count": 0,
+        "control_sequence": [],
+        "entry_controls": [],
+        "exit_controls": []
+      },
+      "equipment_anchors": {
+        "has_equipment": false,
+        "equipment_count": 0,
+        "equipment_roles": [],
+        "internal_adjacency_count": 0
+      },
+      "pattern_signature": {
+        "topology_hash": "(0,)",
+        "valve_sequence_hash": "()",
+        "topology_group_id": "topo_group_0",
+        "valve_seq_group_id": "valve_seq_0"
+      },
+      "region_linkage": {
+        "connected_regions": [],
+        "bridge_control_roles": []
+      }
+    },
+    {
+      "fragment_id": "rfrag_region_13",
+      "fragment_type": "region_fragment",
+      "fragment_subtype": "linear_transfer",
+      "source_regions": [
+        "region_13"
+      ],
+      "topology": {
+        "internal_node_count": 1,
+        "junction_count": 0,
+        "junction_density": 0.0,
+        "is_cyclic": false,
+        "path_redundancy": 1
+      },
+      "control_semantics": {
+        "valve_bounded": false,
+        "valve_touched": true,
+        "boundary_count": 1,
+        "valve_count": 1,
+        "instrumentation_count": 0,
+        "control_sequence": [
+          "valve"
+        ],
+        "entry_controls": [
+          "valve"
+        ],
+        "exit_controls": []
+      },
+      "equipment_anchors": {
+        "has_equipment": false,
+        "equipment_count": 0,
+        "equipment_roles": [],
+        "internal_adjacency_count": 0
+      },
+      "pattern_signature": {
+        "topology_hash": "(0,)",
+        "valve_sequence_hash": "('valve',)",
+        "topology_group_id": "topo_group_0",
+        "valve_seq_group_id": "valve_seq_1"
+      },
+      "region_linkage": {
+        "connected_regions": [
+          "region_20"
+        ],
+        "bridge_control_roles": [
+          "valve"
+        ]
+      }
+    },
+    {
+      "fragment_id": "rfrag_region_14",
+      "fragment_type": "region_fragment",
+      "fragment_subtype": "linear_transfer",
+      "source_regions": [
+        "region_14"
+      ],
+      "topology": {
+        "internal_node_count": 1,
+        "junction_count": 0,
+        "junction_density": 0.0,
+        "is_cyclic": false,
+        "path_redundancy": 1
+      },
+      "control_semantics": {
+        "valve_bounded": false,
+        "valve_touched": true,
+        "boundary_count": 1,
+        "valve_count": 1,
+        "instrumentation_count": 0,
+        "control_sequence": [
+          "valve"
+        ],
+        "entry_controls": [
+          "valve"
+        ],
+        "exit_controls": []
+      },
+      "equipment_anchors": {
+        "has_equipment": false,
+        "equipment_count": 0,
+        "equipment_roles": [],
+        "internal_adjacency_count": 0
+      },
+      "pattern_signature": {
+        "topology_hash": "(0,)",
+        "valve_sequence_hash": "('valve',)",
+        "topology_group_id": "topo_group_0",
+        "valve_seq_group_id": "valve_seq_1"
+      },
+      "region_linkage": {
+        "connected_regions": [
+          "region_7"
+        ],
+        "bridge_control_roles": [
+          "valve"
+        ]
+      }
+    },
+    {
+      "fragment_id": "rfrag_region_15",
+      "fragment_type": "region_fragment",
+      "fragment_subtype": "linear_transfer",
+      "source_regions": [
+        "region_15"
+      ],
+      "topology": {
+        "internal_node_count": 1,
+        "junction_count": 0,
+        "junction_density": 0.0,
+        "is_cyclic": false,
+        "path_redundancy": 1
+      },
+      "control_semantics": {
+        "valve_bounded": false,
+        "valve_touched": true,
+        "boundary_count": 1,
+        "valve_count": 1,
+        "instrumentation_count": 0,
+        "control_sequence": [
+          "valve"
+        ],
+        "entry_controls": [
+          "valve"
+        ],
+        "exit_controls": []
+      },
+      "equipment_anchors": {
+        "has_equipment": true,
+        "equipment_count": 1,
+        "equipment_roles": [
+          "general"
+        ],
+        "internal_adjacency_count": 0
+      },
+      "pattern_signature": {
+        "topology_hash": "(0,)",
+        "valve_sequence_hash": "('valve',)",
+        "topology_group_id": "topo_group_0",
+        "valve_seq_group_id": "valve_seq_1"
+      },
+      "region_linkage": {
+        "connected_regions": [
+          "region_17"
+        ],
+        "bridge_control_roles": [
+          "valve"
+        ]
+      }
+    },
+    {
+      "fragment_id": "rfrag_region_16",
+      "fragment_type": "region_fragment",
+      "fragment_subtype": "isolated_segment",
+      "source_regions": [
+        "region_16"
+      ],
+      "topology": {
+        "internal_node_count": 2,
+        "junction_count": 0,
+        "junction_density": 0.0,
+        "is_cyclic": false,
+        "path_redundancy": 1
+      },
+      "control_semantics": {
+        "valve_bounded": false,
+        "valve_touched": false,
+        "boundary_count": 0,
+        "valve_count": 0,
+        "instrumentation_count": 0,
+        "control_sequence": [],
+        "entry_controls": [],
+        "exit_controls": []
+      },
+      "equipment_anchors": {
+        "has_equipment": false,
+        "equipment_count": 0,
+        "equipment_roles": [],
+        "internal_adjacency_count": 0
+      },
+      "pattern_signature": {
+        "topology_hash": "(1, 1)",
+        "valve_sequence_hash": "()",
+        "topology_group_id": "topo_group_1",
+        "valve_seq_group_id": "valve_seq_0"
+      },
+      "region_linkage": {
+        "connected_regions": [],
+        "bridge_control_roles": []
+      }
+    },
+    {
+      "fragment_id": "rfrag_region_17",
+      "fragment_type": "region_fragment",
+      "fragment_subtype": "linear_transfer",
+      "source_regions": [
+        "region_17"
+      ],
+      "topology": {
+        "internal_node_count": 1,
+        "junction_count": 0,
+        "junction_density": 0.0,
+        "is_cyclic": false,
+        "path_redundancy": 1
+      },
+      "control_semantics": {
+        "valve_bounded": false,
+        "valve_touched": true,
+        "boundary_count": 1,
+        "valve_count": 1,
+        "instrumentation_count": 0,
+        "control_sequence": [
+          "valve"
+        ],
+        "entry_controls": [
+          "valve"
+        ],
+        "exit_controls": []
+      },
+      "equipment_anchors": {
+        "has_equipment": false,
+        "equipment_count": 0,
+        "equipment_roles": [],
+        "internal_adjacency_count": 0
+      },
+      "pattern_signature": {
+        "topology_hash": "(0,)",
+        "valve_sequence_hash": "('valve',)",
+        "topology_group_id": "topo_group_0",
+        "valve_seq_group_id": "valve_seq_1"
+      },
+      "region_linkage": {
+        "connected_regions": [
+          "region_15"
+        ],
+        "bridge_control_roles": [
+          "valve"
+        ]
+      }
+    },
+    {
+      "fragment_id": "rfrag_region_18",
+      "fragment_type": "region_fragment",
+      "fragment_subtype": "linear_transfer",
+      "source_regions": [
+        "region_18"
+      ],
+      "topology": {
+        "internal_node_count": 1,
+        "junction_count": 0,
+        "junction_density": 0.0,
+        "is_cyclic": false,
+        "path_redundancy": 1
+      },
+      "control_semantics": {
+        "valve_bounded": false,
+        "valve_touched": true,
+        "boundary_count": 1,
+        "valve_count": 1,
+        "instrumentation_count": 0,
+        "control_sequence": [
+          "valve"
+        ],
+        "entry_controls": [
+          "valve"
+        ],
+        "exit_controls": []
+      },
+      "equipment_anchors": {
+        "has_equipment": false,
+        "equipment_count": 0,
+        "equipment_roles": [],
+        "internal_adjacency_count": 0
+      },
+      "pattern_signature": {
+        "topology_hash": "(0,)",
+        "valve_sequence_hash": "('valve',)",
+        "topology_group_id": "topo_group_0",
+        "valve_seq_group_id": "valve_seq_1"
+      },
+      "region_linkage": {
+        "connected_regions": [],
+        "bridge_control_roles": []
+      }
+    },
+    {
+      "fragment_id": "rfrag_region_19",
+      "fragment_type": "region_fragment",
+      "fragment_subtype": "isolated_segment",
+      "source_regions": [
+        "region_19"
+      ],
+      "topology": {
+        "internal_node_count": 2,
+        "junction_count": 0,
+        "junction_density": 0.0,
+        "is_cyclic": false,
+        "path_redundancy": 1
+      },
+      "control_semantics": {
+        "valve_bounded": false,
+        "valve_touched": false,
+        "boundary_count": 0,
+        "valve_count": 0,
+        "instrumentation_count": 0,
+        "control_sequence": [],
+        "entry_controls": [],
+        "exit_controls": []
+      },
+      "equipment_anchors": {
+        "has_equipment": false,
+        "equipment_count": 0,
+        "equipment_roles": [],
+        "internal_adjacency_count": 0
+      },
+      "pattern_signature": {
+        "topology_hash": "(1, 1)",
+        "valve_sequence_hash": "()",
+        "topology_group_id": "topo_group_1",
+        "valve_seq_group_id": "valve_seq_0"
+      },
+      "region_linkage": {
+        "connected_regions": [],
+        "bridge_control_roles": []
+      }
+    },
+    {
+      "fragment_id": "rfrag_region_20",
+      "fragment_type": "region_fragment",
+      "fragment_subtype": "linear_transfer",
+      "source_regions": [
+        "region_20"
+      ],
+      "topology": {
+        "internal_node_count": 1,
+        "junction_count": 0,
+        "junction_density": 0.0,
+        "is_cyclic": false,
+        "path_redundancy": 1
+      },
+      "control_semantics": {
+        "valve_bounded": false,
+        "valve_touched": true,
+        "boundary_count": 1,
+        "valve_count": 1,
+        "instrumentation_count": 0,
+        "control_sequence": [
+          "valve"
+        ],
+        "entry_controls": [
+          "valve"
+        ],
+        "exit_controls": []
+      },
+      "equipment_anchors": {
+        "has_equipment": true,
+        "equipment_count": 1,
+        "equipment_roles": [
+          "general"
+        ],
+        "internal_adjacency_count": 0
+      },
+      "pattern_signature": {
+        "topology_hash": "(0,)",
+        "valve_sequence_hash": "('valve',)",
+        "topology_group_id": "topo_group_0",
+        "valve_seq_group_id": "valve_seq_1"
+      },
+      "region_linkage": {
+        "connected_regions": [
+          "region_13"
+        ],
+        "bridge_control_roles": [
+          "valve"
+        ]
+      }
+    },
+    {
+      "fragment_id": "rfrag_region_21",
+      "fragment_type": "region_fragment",
+      "fragment_subtype": "linear_transfer",
+      "source_regions": [
+        "region_21"
+      ],
+      "topology": {
+        "internal_node_count": 1,
+        "junction_count": 0,
+        "junction_density": 0.0,
+        "is_cyclic": false,
+        "path_redundancy": 1
+      },
+      "control_semantics": {
+        "valve_bounded": false,
+        "valve_touched": true,
+        "boundary_count": 1,
+        "valve_count": 1,
+        "instrumentation_count": 0,
+        "control_sequence": [
+          "valve"
+        ],
+        "entry_controls": [
+          "valve"
+        ],
+        "exit_controls": []
+      },
+      "equipment_anchors": {
+        "has_equipment": true,
+        "equipment_count": 1,
+        "equipment_roles": [
+          "general"
+        ],
+        "internal_adjacency_count": 0
+      },
+      "pattern_signature": {
+        "topology_hash": "(0,)",
+        "valve_sequence_hash": "('valve',)",
+        "topology_group_id": "topo_group_0",
+        "valve_seq_group_id": "valve_seq_1"
+      },
+      "region_linkage": {
+        "connected_regions": [
+          "region_29"
+        ],
+        "bridge_control_roles": [
+          "valve"
+        ]
+      }
+    },
+    {
+      "fragment_id": "rfrag_region_22",
+      "fragment_type": "region_fragment",
+      "fragment_subtype": "linear_transfer",
+      "source_regions": [
+        "region_22"
+      ],
+      "topology": {
+        "internal_node_count": 1,
+        "junction_count": 0,
+        "junction_density": 0.0,
+        "is_cyclic": false,
+        "path_redundancy": 1
+      },
+      "control_semantics": {
+        "valve_bounded": false,
+        "valve_touched": true,
+        "boundary_count": 1,
+        "valve_count": 1,
+        "instrumentation_count": 0,
+        "control_sequence": [
+          "valve"
+        ],
+        "entry_controls": [
+          "valve"
+        ],
+        "exit_controls": []
+      },
+      "equipment_anchors": {
+        "has_equipment": true,
+        "equipment_count": 1,
+        "equipment_roles": [
+          "general"
+        ],
+        "internal_adjacency_count": 0
+      },
+      "pattern_signature": {
+        "topology_hash": "(0,)",
+        "valve_sequence_hash": "('valve',)",
+        "topology_group_id": "topo_group_0",
+        "valve_seq_group_id": "valve_seq_1"
+      },
+      "region_linkage": {
+        "connected_regions": [
+          "region_23"
+        ],
+        "bridge_control_roles": [
+          "valve"
+        ]
+      }
+    },
+    {
+      "fragment_id": "rfrag_region_23",
+      "fragment_type": "region_fragment",
+      "fragment_subtype": "linear_transfer",
+      "source_regions": [
+        "region_23"
+      ],
+      "topology": {
+        "internal_node_count": 1,
+        "junction_count": 0,
+        "junction_density": 0.0,
+        "is_cyclic": false,
+        "path_redundancy": 1
+      },
+      "control_semantics": {
+        "valve_bounded": false,
+        "valve_touched": true,
+        "boundary_count": 1,
+        "valve_count": 1,
+        "instrumentation_count": 0,
+        "control_sequence": [
+          "valve"
+        ],
+        "entry_controls": [
+          "valve"
+        ],
+        "exit_controls": []
+      },
+      "equipment_anchors": {
+        "has_equipment": false,
+        "equipment_count": 0,
+        "equipment_roles": [],
+        "internal_adjacency_count": 0
+      },
+      "pattern_signature": {
+        "topology_hash": "(0,)",
+        "valve_sequence_hash": "('valve',)",
+        "topology_group_id": "topo_group_0",
+        "valve_seq_group_id": "valve_seq_1"
+      },
+      "region_linkage": {
+        "connected_regions": [
+          "region_22"
+        ],
+        "bridge_control_roles": [
+          "valve"
+        ]
+      }
+    },
+    {
+      "fragment_id": "rfrag_region_24",
+      "fragment_type": "region_fragment",
+      "fragment_subtype": "isolated_segment",
+      "source_regions": [
+        "region_24"
+      ],
+      "topology": {
+        "internal_node_count": 1,
+        "junction_count": 0,
+        "junction_density": 0.0,
+        "is_cyclic": false,
+        "path_redundancy": 1
+      },
+      "control_semantics": {
+        "valve_bounded": false,
+        "valve_touched": false,
+        "boundary_count": 0,
+        "valve_count": 0,
+        "instrumentation_count": 0,
+        "control_sequence": [],
+        "entry_controls": [],
+        "exit_controls": []
+      },
+      "equipment_anchors": {
+        "has_equipment": false,
+        "equipment_count": 0,
+        "equipment_roles": [],
+        "internal_adjacency_count": 0
+      },
+      "pattern_signature": {
+        "topology_hash": "(0,)",
+        "valve_sequence_hash": "()",
+        "topology_group_id": "topo_group_0",
+        "valve_seq_group_id": "valve_seq_0"
+      },
+      "region_linkage": {
+        "connected_regions": [],
+        "bridge_control_roles": []
+      }
+    },
+    {
+      "fragment_id": "rfrag_region_25",
+      "fragment_type": "region_fragment",
+      "fragment_subtype": "isolated_segment",
+      "source_regions": [
+        "region_25"
+      ],
+      "topology": {
+        "internal_node_count": 1,
+        "junction_count": 0,
+        "junction_density": 0.0,
+        "is_cyclic": false,
+        "path_redundancy": 1
+      },
+      "control_semantics": {
+        "valve_bounded": false,
+        "valve_touched": false,
+        "boundary_count": 0,
+        "valve_count": 0,
+        "instrumentation_count": 0,
+        "control_sequence": [],
+        "entry_controls": [],
+        "exit_controls": []
+      },
+      "equipment_anchors": {
+        "has_equipment": false,
+        "equipment_count": 0,
+        "equipment_roles": [],
+        "internal_adjacency_count": 0
+      },
+      "pattern_signature": {
+        "topology_hash": "(0,)",
+        "valve_sequence_hash": "()",
+        "topology_group_id": "topo_group_0",
+        "valve_seq_group_id": "valve_seq_0"
+      },
+      "region_linkage": {
+        "connected_regions": [],
+        "bridge_control_roles": []
+      }
+    },
+    {
+      "fragment_id": "rfrag_region_26",
+      "fragment_type": "region_fragment",
+      "fragment_subtype": "isolated_segment",
+      "source_regions": [
+        "region_26"
+      ],
+      "topology": {
+        "internal_node_count": 1,
+        "junction_count": 0,
+        "junction_density": 0.0,
+        "is_cyclic": false,
+        "path_redundancy": 1
+      },
+      "control_semantics": {
+        "valve_bounded": false,
+        "valve_touched": false,
+        "boundary_count": 0,
+        "valve_count": 0,
+        "instrumentation_count": 0,
+        "control_sequence": [],
+        "entry_controls": [],
+        "exit_controls": []
+      },
+      "equipment_anchors": {
+        "has_equipment": false,
+        "equipment_count": 0,
+        "equipment_roles": [],
+        "internal_adjacency_count": 0
+      },
+      "pattern_signature": {
+        "topology_hash": "(0,)",
+        "valve_sequence_hash": "()",
+        "topology_group_id": "topo_group_0",
+        "valve_seq_group_id": "valve_seq_0"
+      },
+      "region_linkage": {
+        "connected_regions": [],
+        "bridge_control_roles": []
+      }
+    },
+    {
+      "fragment_id": "rfrag_region_27",
+      "fragment_type": "region_fragment",
+      "fragment_subtype": "isolated_segment",
+      "source_regions": [
+        "region_27"
+      ],
+      "topology": {
+        "internal_node_count": 2,
+        "junction_count": 0,
+        "junction_density": 0.0,
+        "is_cyclic": false,
+        "path_redundancy": 1
+      },
+      "control_semantics": {
+        "valve_bounded": false,
+        "valve_touched": false,
+        "boundary_count": 0,
+        "valve_count": 0,
+        "instrumentation_count": 0,
+        "control_sequence": [],
+        "entry_controls": [],
+        "exit_controls": []
+      },
+      "equipment_anchors": {
+        "has_equipment": false,
+        "equipment_count": 0,
+        "equipment_roles": [],
+        "internal_adjacency_count": 0
+      },
+      "pattern_signature": {
+        "topology_hash": "(1, 1)",
+        "valve_sequence_hash": "()",
+        "topology_group_id": "topo_group_1",
+        "valve_seq_group_id": "valve_seq_0"
+      },
+      "region_linkage": {
+        "connected_regions": [],
+        "bridge_control_roles": []
+      }
+    },
+    {
+      "fragment_id": "rfrag_region_28",
+      "fragment_type": "region_fragment",
+      "fragment_subtype": "isolated_segment",
+      "source_regions": [
+        "region_28"
+      ],
+      "topology": {
+        "internal_node_count": 1,
+        "junction_count": 0,
+        "junction_density": 0.0,
+        "is_cyclic": false,
+        "path_redundancy": 1
+      },
+      "control_semantics": {
+        "valve_bounded": false,
+        "valve_touched": false,
+        "boundary_count": 0,
+        "valve_count": 0,
+        "instrumentation_count": 0,
+        "control_sequence": [],
+        "entry_controls": [],
+        "exit_controls": []
+      },
+      "equipment_anchors": {
+        "has_equipment": false,
+        "equipment_count": 0,
+        "equipment_roles": [],
+        "internal_adjacency_count": 0
+      },
+      "pattern_signature": {
+        "topology_hash": "(0,)",
+        "valve_sequence_hash": "()",
+        "topology_group_id": "topo_group_0",
+        "valve_seq_group_id": "valve_seq_0"
+      },
+      "region_linkage": {
+        "connected_regions": [],
+        "bridge_control_roles": []
+      }
+    },
+    {
+      "fragment_id": "rfrag_region_29",
+      "fragment_type": "region_fragment",
+      "fragment_subtype": "linear_transfer",
+      "source_regions": [
+        "region_29"
+      ],
+      "topology": {
+        "internal_node_count": 1,
+        "junction_count": 0,
+        "junction_density": 0.0,
+        "is_cyclic": false,
+        "path_redundancy": 1
+      },
+      "control_semantics": {
+        "valve_bounded": false,
+        "valve_touched": true,
+        "boundary_count": 1,
+        "valve_count": 1,
+        "instrumentation_count": 0,
+        "control_sequence": [
+          "valve"
+        ],
+        "entry_controls": [
+          "valve"
+        ],
+        "exit_controls": []
+      },
+      "equipment_anchors": {
+        "has_equipment": false,
+        "equipment_count": 0,
+        "equipment_roles": [],
+        "internal_adjacency_count": 0
+      },
+      "pattern_signature": {
+        "topology_hash": "(0,)",
+        "valve_sequence_hash": "('valve',)",
+        "topology_group_id": "topo_group_0",
+        "valve_seq_group_id": "valve_seq_1"
+      },
+      "region_linkage": {
+        "connected_regions": [
+          "region_21"
+        ],
+        "bridge_control_roles": [
+          "valve"
+        ]
+      }
+    },
+    {
+      "fragment_id": "rfrag_region_30",
+      "fragment_type": "region_fragment",
+      "fragment_subtype": "linear_transfer",
+      "source_regions": [
+        "region_30"
+      ],
+      "topology": {
+        "internal_node_count": 1,
+        "junction_count": 0,
+        "junction_density": 0.0,
+        "is_cyclic": false,
+        "path_redundancy": 1
+      },
+      "control_semantics": {
+        "valve_bounded": false,
+        "valve_touched": true,
+        "boundary_count": 1,
+        "valve_count": 1,
+        "instrumentation_count": 0,
+        "control_sequence": [
+          "valve"
+        ],
+        "entry_controls": [],
+        "exit_controls": []
+      },
+      "equipment_anchors": {
+        "has_equipment": true,
+        "equipment_count": 1,
+        "equipment_roles": [
+          "general"
+        ],
+        "internal_adjacency_count": 0
+      },
+      "pattern_signature": {
+        "topology_hash": "(0,)",
+        "valve_sequence_hash": "('valve',)",
+        "topology_group_id": "topo_group_0",
+        "valve_seq_group_id": "valve_seq_1"
+      },
+      "region_linkage": {
+        "connected_regions": [],
+        "bridge_control_roles": []
+      }
+    },
+    {
+      "fragment_id": "rfrag_region_31",
+      "fragment_type": "region_fragment",
+      "fragment_subtype": "linear_transfer",
+      "source_regions": [
+        "region_31"
+      ],
+      "topology": {
+        "internal_node_count": 1,
+        "junction_count": 0,
+        "junction_density": 0.0,
+        "is_cyclic": false,
+        "path_redundancy": 1
+      },
+      "control_semantics": {
+        "valve_bounded": false,
+        "valve_touched": true,
+        "boundary_count": 1,
+        "valve_count": 1,
+        "instrumentation_count": 0,
+        "control_sequence": [
+          "valve"
+        ],
+        "entry_controls": [],
+        "exit_controls": []
+      },
+      "equipment_anchors": {
+        "has_equipment": true,
+        "equipment_count": 1,
+        "equipment_roles": [
+          "general"
+        ],
+        "internal_adjacency_count": 0
+      },
+      "pattern_signature": {
+        "topology_hash": "(0,)",
+        "valve_sequence_hash": "('valve',)",
+        "topology_group_id": "topo_group_0",
+        "valve_seq_group_id": "valve_seq_1"
+      },
+      "region_linkage": {
+        "connected_regions": [],
+        "bridge_control_roles": []
+      }
+    },
+    {
+      "fragment_id": "rfrag_region_32",
+      "fragment_type": "region_fragment",
+      "fragment_subtype": "isolated_segment",
+      "source_regions": [
+        "region_32"
+      ],
+      "topology": {
+        "internal_node_count": 1,
+        "junction_count": 0,
+        "junction_density": 0.0,
+        "is_cyclic": false,
+        "path_redundancy": 1
+      },
+      "control_semantics": {
+        "valve_bounded": false,
+        "valve_touched": false,
+        "boundary_count": 0,
+        "valve_count": 0,
+        "instrumentation_count": 0,
+        "control_sequence": [],
+        "entry_controls": [],
+        "exit_controls": []
+      },
+      "equipment_anchors": {
+        "has_equipment": false,
+        "equipment_count": 0,
+        "equipment_roles": [],
+        "internal_adjacency_count": 0
+      },
+      "pattern_signature": {
+        "topology_hash": "(0,)",
+        "valve_sequence_hash": "()",
+        "topology_group_id": "topo_group_0",
+        "valve_seq_group_id": "valve_seq_0"
+      },
+      "region_linkage": {
+        "connected_regions": [],
+        "bridge_control_roles": []
+      }
+    },
+    {
+      "fragment_id": "rfrag_region_33",
+      "fragment_type": "region_fragment",
+      "fragment_subtype": "isolated_segment",
+      "source_regions": [
+        "region_33"
+      ],
+      "topology": {
+        "internal_node_count": 1,
+        "junction_count": 0,
+        "junction_density": 0.0,
+        "is_cyclic": false,
+        "path_redundancy": 1
+      },
+      "control_semantics": {
+        "valve_bounded": false,
+        "valve_touched": false,
+        "boundary_count": 0,
+        "valve_count": 0,
+        "instrumentation_count": 0,
+        "control_sequence": [],
+        "entry_controls": [],
+        "exit_controls": []
+      },
+      "equipment_anchors": {
+        "has_equipment": false,
+        "equipment_count": 0,
+        "equipment_roles": [],
+        "internal_adjacency_count": 0
+      },
+      "pattern_signature": {
+        "topology_hash": "(0,)",
+        "valve_sequence_hash": "()",
+        "topology_group_id": "topo_group_0",
+        "valve_seq_group_id": "valve_seq_0"
+      },
+      "region_linkage": {
+        "connected_regions": [],
+        "bridge_control_roles": []
+      }
+    },
+    {
+      "fragment_id": "rfrag_region_34",
+      "fragment_type": "region_fragment",
+      "fragment_subtype": "linear_transfer",
+      "source_regions": [
+        "region_34"
+      ],
+      "topology": {
+        "internal_node_count": 1,
+        "junction_count": 0,
+        "junction_density": 0.0,
+        "is_cyclic": false,
+        "path_redundancy": 1
+      },
+      "control_semantics": {
+        "valve_bounded": false,
+        "valve_touched": true,
+        "boundary_count": 1,
+        "valve_count": 1,
+        "instrumentation_count": 0,
+        "control_sequence": [
+          "valve"
+        ],
+        "entry_controls": [],
+        "exit_controls": []
+      },
+      "equipment_anchors": {
+        "has_equipment": true,
+        "equipment_count": 1,
+        "equipment_roles": [
+          "general"
+        ],
+        "internal_adjacency_count": 0
+      },
+      "pattern_signature": {
+        "topology_hash": "(0,)",
+        "valve_sequence_hash": "('valve',)",
+        "topology_group_id": "topo_group_0",
+        "valve_seq_group_id": "valve_seq_1"
+      },
+      "region_linkage": {
+        "connected_regions": [],
+        "bridge_control_roles": []
+      }
+    },
+    {
+      "fragment_id": "rfrag_region_35",
+      "fragment_type": "region_fragment",
+      "fragment_subtype": "isolated_segment",
+      "source_regions": [
+        "region_35"
+      ],
+      "topology": {
+        "internal_node_count": 1,
+        "junction_count": 0,
+        "junction_density": 0.0,
+        "is_cyclic": false,
+        "path_redundancy": 1
+      },
+      "control_semantics": {
+        "valve_bounded": false,
+        "valve_touched": false,
+        "boundary_count": 0,
+        "valve_count": 0,
+        "instrumentation_count": 0,
+        "control_sequence": [],
+        "entry_controls": [],
+        "exit_controls": []
+      },
+      "equipment_anchors": {
+        "has_equipment": false,
+        "equipment_count": 0,
+        "equipment_roles": [],
+        "internal_adjacency_count": 0
+      },
+      "pattern_signature": {
+        "topology_hash": "(0,)",
+        "valve_sequence_hash": "()",
+        "topology_group_id": "topo_group_0",
+        "valve_seq_group_id": "valve_seq_0"
+      },
+      "region_linkage": {
+        "connected_regions": [],
+        "bridge_control_roles": []
+      }
+    },
+    {
+      "fragment_id": "rfrag_region_36",
+      "fragment_type": "region_fragment",
+      "fragment_subtype": "isolated_segment",
+      "source_regions": [
+        "region_36"
+      ],
+      "topology": {
+        "internal_node_count": 1,
+        "junction_count": 0,
+        "junction_density": 0.0,
+        "is_cyclic": false,
+        "path_redundancy": 1
+      },
+      "control_semantics": {
+        "valve_bounded": false,
+        "valve_touched": false,
+        "boundary_count": 0,
+        "valve_count": 0,
+        "instrumentation_count": 0,
+        "control_sequence": [],
+        "entry_controls": [],
+        "exit_controls": []
+      },
+      "equipment_anchors": {
+        "has_equipment": false,
+        "equipment_count": 0,
+        "equipment_roles": [],
+        "internal_adjacency_count": 0
+      },
+      "pattern_signature": {
+        "topology_hash": "(0,)",
+        "valve_sequence_hash": "()",
+        "topology_group_id": "topo_group_0",
+        "valve_seq_group_id": "valve_seq_0"
+      },
+      "region_linkage": {
+        "connected_regions": [],
+        "bridge_control_roles": []
+      }
+    },
+    {
+      "fragment_id": "rfrag_region_37",
+      "fragment_type": "region_fragment",
+      "fragment_subtype": "isolated_segment",
+      "source_regions": [
+        "region_37"
+      ],
+      "topology": {
+        "internal_node_count": 1,
+        "junction_count": 0,
+        "junction_density": 0.0,
+        "is_cyclic": false,
+        "path_redundancy": 1
+      },
+      "control_semantics": {
+        "valve_bounded": false,
+        "valve_touched": false,
+        "boundary_count": 0,
+        "valve_count": 0,
+        "instrumentation_count": 0,
+        "control_sequence": [],
+        "entry_controls": [],
+        "exit_controls": []
+      },
+      "equipment_anchors": {
+        "has_equipment": false,
+        "equipment_count": 0,
+        "equipment_roles": [],
+        "internal_adjacency_count": 0
+      },
+      "pattern_signature": {
+        "topology_hash": "(0,)",
+        "valve_sequence_hash": "()",
+        "topology_group_id": "topo_group_0",
+        "valve_seq_group_id": "valve_seq_0"
+      },
+      "region_linkage": {
+        "connected_regions": [],
+        "bridge_control_roles": []
+      }
+    },
+    {
+      "fragment_id": "rfrag_region_38",
+      "fragment_type": "region_fragment",
+      "fragment_subtype": "isolated_segment",
+      "source_regions": [
+        "region_38"
+      ],
+      "topology": {
+        "internal_node_count": 1,
+        "junction_count": 0,
+        "junction_density": 0.0,
+        "is_cyclic": false,
+        "path_redundancy": 1
+      },
+      "control_semantics": {
+        "valve_bounded": false,
+        "valve_touched": false,
+        "boundary_count": 0,
+        "valve_count": 0,
+        "instrumentation_count": 0,
+        "control_sequence": [],
+        "entry_controls": [],
+        "exit_controls": []
+      },
+      "equipment_anchors": {
+        "has_equipment": false,
+        "equipment_count": 0,
+        "equipment_roles": [],
+        "internal_adjacency_count": 0
+      },
+      "pattern_signature": {
+        "topology_hash": "(0,)",
+        "valve_sequence_hash": "()",
+        "topology_group_id": "topo_group_0",
+        "valve_seq_group_id": "valve_seq_0"
+      },
+      "region_linkage": {
+        "connected_regions": [],
+        "bridge_control_roles": []
+      }
+    },
+    {
+      "fragment_id": "cfrag_0",
+      "fragment_type": "connectivity_fragment",
+      "source_regions": [
+        "region_1",
+        "region_6"
+      ],
+      "topology": {
+        "path_count": 1,
+        "is_redundant": false
+      },
+      "control_semantics": {
+        "bridge_control_roles": [
+          "valve"
+        ],
+        "bridge_count": 1
+      },
+      "region_linkage": {
+        "from_region": "region_1",
+        "to_region": "region_6"
+      }
+    },
+    {
+      "fragment_id": "cfrag_1",
+      "fragment_type": "connectivity_fragment",
+      "source_regions": [
+        "region_7",
+        "region_14"
+      ],
+      "topology": {
+        "path_count": 1,
+        "is_redundant": false
+      },
+      "control_semantics": {
+        "bridge_control_roles": [
+          "valve"
+        ],
+        "bridge_count": 1
+      },
+      "region_linkage": {
+        "from_region": "region_7",
+        "to_region": "region_14"
+      }
+    },
+    {
+      "fragment_id": "cfrag_2",
+      "fragment_type": "connectivity_fragment",
+      "source_regions": [
+        "region_13",
+        "region_20"
+      ],
+      "topology": {
+        "path_count": 1,
+        "is_redundant": false
+      },
+      "control_semantics": {
+        "bridge_control_roles": [
+          "valve"
+        ],
+        "bridge_count": 1
+      },
+      "region_linkage": {
+        "from_region": "region_13",
+        "to_region": "region_20"
+      }
+    },
+    {
+      "fragment_id": "cfrag_3",
+      "fragment_type": "connectivity_fragment",
+      "source_regions": [
+        "region_15",
+        "region_17"
+      ],
+      "topology": {
+        "path_count": 1,
+        "is_redundant": false
+      },
+      "control_semantics": {
+        "bridge_control_roles": [
+          "valve"
+        ],
+        "bridge_count": 1
+      },
+      "region_linkage": {
+        "from_region": "region_15",
+        "to_region": "region_17"
+      }
+    },
+    {
+      "fragment_id": "cfrag_4",
+      "fragment_type": "connectivity_fragment",
+      "source_regions": [
+        "region_21",
+        "region_29"
+      ],
+      "topology": {
+        "path_count": 1,
+        "is_redundant": false
+      },
+      "control_semantics": {
+        "bridge_control_roles": [
+          "valve"
+        ],
+        "bridge_count": 1
+      },
+      "region_linkage": {
+        "from_region": "region_21",
+        "to_region": "region_29"
+      }
+    },
+    {
+      "fragment_id": "cfrag_5",
+      "fragment_type": "connectivity_fragment",
+      "source_regions": [
+        "region_22",
+        "region_23"
+      ],
+      "topology": {
+        "path_count": 1,
+        "is_redundant": false
+      },
+      "control_semantics": {
+        "bridge_control_roles": [
+          "valve"
+        ],
+        "bridge_count": 1
+      },
+      "region_linkage": {
+        "from_region": "region_22",
+        "to_region": "region_23"
+      }
+    },
+    {
+      "fragment_id": "efrag_0",
+      "fragment_type": "equipment_cluster_fragment",
+      "cluster_size": 1,
+      "node_roles": [
+        "general"
+      ],
+      "adjacency_count": 0,
+      "spanning_regions": [
+        "region_7"
+      ],
+      "is_cross_region": false,
+      "equipment_refs": [
+        "general14"
+      ]
+    },
+    {
+      "fragment_id": "efrag_1",
+      "fragment_type": "equipment_cluster_fragment",
+      "cluster_size": 1,
+      "node_roles": [
+        "general"
+      ],
+      "adjacency_count": 0,
+      "spanning_regions": [
+        "region_9"
+      ],
+      "is_cross_region": false,
+      "equipment_refs": [
+        "general17"
+      ]
+    },
+    {
+      "fragment_id": "efrag_2",
+      "fragment_type": "equipment_cluster_fragment",
+      "cluster_size": 5,
+      "node_roles": [
+        "general",
+        "general",
+        "general",
+        "general",
+        "tank"
+      ],
+      "adjacency_count": 4,
+      "spanning_regions": [
+        "region_1"
+      ],
+      "is_cross_region": false,
+      "equipment_refs": [
+        "general21",
+        "general5",
+        "general63",
+        "general64",
+        "tank6"
+      ]
+    },
+    {
+      "fragment_id": "efrag_3",
+      "fragment_type": "equipment_cluster_fragment",
+      "cluster_size": 1,
+      "node_roles": [
+        "general"
+      ],
+      "adjacency_count": 0,
+      "spanning_regions": [
+        "region_10"
+      ],
+      "is_cross_region": false,
+      "equipment_refs": [
+        "general25"
+      ]
+    },
+    {
+      "fragment_id": "efrag_4",
+      "fragment_type": "equipment_cluster_fragment",
+      "cluster_size": 1,
+      "node_roles": [
+        "general"
+      ],
+      "adjacency_count": 0,
+      "spanning_regions": [
+        "region_15"
+      ],
+      "is_cross_region": false,
+      "equipment_refs": [
+        "general40"
+      ]
+    },
+    {
+      "fragment_id": "efrag_5",
+      "fragment_type": "equipment_cluster_fragment",
+      "cluster_size": 1,
+      "node_roles": [
+        "general"
+      ],
+      "adjacency_count": 0,
+      "spanning_regions": [
+        "region_20"
+      ],
+      "is_cross_region": false,
+      "equipment_refs": [
+        "general49"
+      ]
+    },
+    {
+      "fragment_id": "efrag_6",
+      "fragment_type": "equipment_cluster_fragment",
+      "cluster_size": 1,
+      "node_roles": [
+        "general"
+      ],
+      "adjacency_count": 0,
+      "spanning_regions": [
+        "region_21"
+      ],
+      "is_cross_region": false,
+      "equipment_refs": [
+        "general51"
+      ]
+    },
+    {
+      "fragment_id": "efrag_7",
+      "fragment_type": "equipment_cluster_fragment",
+      "cluster_size": 1,
+      "node_roles": [
+        "general"
+      ],
+      "adjacency_count": 0,
+      "spanning_regions": [
+        "region_22"
+      ],
+      "is_cross_region": false,
+      "equipment_refs": [
+        "general52"
+      ]
+    },
+    {
+      "fragment_id": "efrag_8",
+      "fragment_type": "equipment_cluster_fragment",
+      "cluster_size": 1,
+      "node_roles": [
+        "general"
+      ],
+      "adjacency_count": 0,
+      "spanning_regions": [
+        "region_30"
+      ],
+      "is_cross_region": false,
+      "equipment_refs": [
+        "general67"
+      ]
+    },
+    {
+      "fragment_id": "efrag_9",
+      "fragment_type": "equipment_cluster_fragment",
+      "cluster_size": 1,
+      "node_roles": [
+        "general"
+      ],
+      "adjacency_count": 0,
+      "spanning_regions": [
+        "region_31"
+      ],
+      "is_cross_region": false,
+      "equipment_refs": [
+        "general70"
+      ]
+    },
+    {
+      "fragment_id": "efrag_10",
+      "fragment_type": "equipment_cluster_fragment",
+      "cluster_size": 1,
+      "node_roles": [
+        "general"
+      ],
+      "adjacency_count": 0,
+      "spanning_regions": [
+        "region_34"
+      ],
+      "is_cross_region": false,
+      "equipment_refs": [
+        "general74"
+      ]
+    },
+    {
+      "fragment_id": "efrag_11",
+      "fragment_type": "equipment_cluster_fragment",
+      "cluster_size": 2,
+      "node_roles": [
+        "instrumentation",
+        "instrumentation"
+      ],
+      "adjacency_count": 1,
+      "spanning_regions": [],
+      "is_cross_region": false,
+      "equipment_refs": [
+        "instrumentation19",
+        "instrumentation24"
+      ]
+    },
+    {
+      "fragment_id": "efrag_12",
+      "fragment_type": "equipment_cluster_fragment",
+      "cluster_size": 2,
+      "node_roles": [
+        "instrumentation",
+        "instrumentation"
+      ],
+      "adjacency_count": 1,
+      "spanning_regions": [],
+      "is_cross_region": false,
+      "equipment_refs": [
+        "instrumentation23",
+        "instrumentation39"
+      ]
+    },
+    {
+      "fragment_id": "efrag_13",
+      "fragment_type": "equipment_cluster_fragment",
+      "cluster_size": 2,
+      "node_roles": [
+        "instrumentation",
+        "instrumentation"
+      ],
+      "adjacency_count": 1,
+      "spanning_regions": [],
+      "is_cross_region": false,
+      "equipment_refs": [
+        "instrumentation30",
+        "instrumentation42"
+      ]
+    },
+    {
+      "fragment_id": "efrag_14",
+      "fragment_type": "equipment_cluster_fragment",
+      "cluster_size": 2,
+      "node_roles": [
+        "instrumentation",
+        "instrumentation"
+      ],
+      "adjacency_count": 1,
+      "spanning_regions": [],
+      "is_cross_region": false,
+      "equipment_refs": [
+        "instrumentation32",
+        "instrumentation55"
+      ]
+    },
+    {
+      "fragment_id": "efrag_15",
+      "fragment_type": "equipment_cluster_fragment",
+      "cluster_size": 2,
+      "node_roles": [
+        "instrumentation",
+        "instrumentation"
+      ],
+      "adjacency_count": 1,
+      "spanning_regions": [],
+      "is_cross_region": false,
+      "equipment_refs": [
+        "instrumentation33",
+        "instrumentation34"
+      ]
+    },
+    {
+      "fragment_id": "efrag_16",
+      "fragment_type": "equipment_cluster_fragment",
+      "cluster_size": 2,
+      "node_roles": [
+        "instrumentation",
+        "instrumentation"
+      ],
+      "adjacency_count": 1,
+      "spanning_regions": [],
+      "is_cross_region": false,
+      "equipment_refs": [
+        "instrumentation35",
+        "instrumentation38"
+      ]
+    },
+    {
+      "fragment_id": "efrag_17",
+      "fragment_type": "equipment_cluster_fragment",
+      "cluster_size": 2,
+      "node_roles": [
+        "instrumentation",
+        "instrumentation"
+      ],
+      "adjacency_count": 1,
+      "spanning_regions": [],
+      "is_cross_region": false,
+      "equipment_refs": [
+        "instrumentation45",
+        "instrumentation46"
+      ]
+    },
+    {
+      "fragment_id": "efrag_18",
+      "fragment_type": "equipment_cluster_fragment",
+      "cluster_size": 1,
+      "node_roles": [
+        "tank"
+      ],
+      "adjacency_count": 0,
+      "spanning_regions": [
+        "region_4"
+      ],
+      "is_cross_region": false,
+      "equipment_refs": [
+        "tank10"
+      ]
+    },
+    {
+      "fragment_id": "efrag_19",
+      "fragment_type": "equipment_cluster_fragment",
+      "cluster_size": 1,
+      "node_roles": [
+        "tank"
+      ],
+      "adjacency_count": 0,
+      "spanning_regions": [
+        "region_5"
+      ],
+      "is_cross_region": false,
+      "equipment_refs": [
+        "tank12"
+      ]
+    },
+    {
+      "fragment_id": "efrag_20",
+      "fragment_type": "equipment_cluster_fragment",
+      "cluster_size": 1,
+      "node_roles": [
+        "tank"
+      ],
+      "adjacency_count": 0,
+      "spanning_regions": [
+        "region_8"
+      ],
+      "is_cross_region": false,
+      "equipment_refs": [
+        "tank15"
+      ]
+    },
+    {
+      "fragment_id": "efrag_21",
+      "fragment_type": "equipment_cluster_fragment",
+      "cluster_size": 1,
+      "node_roles": [
+        "tank"
+      ],
+      "adjacency_count": 0,
+      "spanning_regions": [
+        "region_2"
+      ],
+      "is_cross_region": false,
+      "equipment_refs": [
+        "tank8"
+      ]
+    },
+    {
+      "fragment_id": "efrag_22",
+      "fragment_type": "equipment_cluster_fragment",
+      "cluster_size": 1,
+      "node_roles": [
+        "tank"
+      ],
+      "adjacency_count": 0,
+      "spanning_regions": [
+        "region_3"
+      ],
+      "is_cross_region": false,
+      "equipment_refs": [
+        "tank9"
+      ]
+    },
+    {
+      "fragment_id": "pfrag_topo_group_0",
+      "fragment_type": "pattern_fragment",
+      "pattern_kind": "topology",
+      "pattern_hash": "(0,)",
+      "instance_count": 34,
+      "source_regions": [
+        "region_0",
+        "region_2",
+        "region_3",
+        "region_4",
+        "region_5",
+        "region_7",
+        "region_8",
+        "region_9",
+        "region_10",
+        "region_11",
+        "region_12",
+        "region_13",
+        "region_14",
+        "region_15",
+        "region_17",
+        "region_18",
+        "region_20",
+        "region_21",
+        "region_22",
+        "region_23",
+        "region_24",
+        "region_25",
+        "region_26",
+        "region_28",
+        "region_29",
+        "region_30",
+        "region_31",
+        "region_32",
+        "region_33",
+        "region_34",
+        "region_35",
+        "region_36",
+        "region_37",
+        "region_38"
+      ]
+    },
+    {
+      "fragment_id": "pfrag_topo_group_1",
+      "fragment_type": "pattern_fragment",
+      "pattern_kind": "topology",
+      "pattern_hash": "(1, 1)",
+      "instance_count": 4,
+      "source_regions": [
+        "region_6",
+        "region_16",
+        "region_19",
+        "region_27"
+      ]
+    },
+    {
+      "fragment_id": "pfrag_valve_seq_0",
+      "fragment_type": "pattern_fragment",
+      "pattern_kind": "valve_sequence",
+      "pattern_hash": "()",
+      "instance_count": 21,
+      "source_regions": [
+        "region_0",
+        "region_2",
+        "region_3",
+        "region_4",
+        "region_5",
+        "region_8",
+        "region_11",
+        "region_12",
+        "region_16",
+        "region_19",
+        "region_24",
+        "region_25",
+        "region_26",
+        "region_27",
+        "region_28",
+        "region_32",
+        "region_33",
+        "region_35",
+        "region_36",
+        "region_37",
+        "region_38"
+      ]
+    },
+    {
+      "fragment_id": "pfrag_valve_seq_1",
+      "fragment_type": "pattern_fragment",
+      "pattern_kind": "valve_sequence",
+      "pattern_hash": "('valve',)",
+      "instance_count": 17,
+      "source_regions": [
+        "region_6",
+        "region_7",
+        "region_9",
+        "region_10",
+        "region_13",
+        "region_14",
+        "region_15",
+        "region_17",
+        "region_18",
+        "region_20",
+        "region_21",
+        "region_22",
+        "region_23",
+        "region_29",
+        "region_30",
+        "region_31",
+        "region_34"
+      ]
+    }
+  ]
+}

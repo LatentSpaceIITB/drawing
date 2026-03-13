@@ -7,11 +7,13 @@ Key invariant: macro_template uniquely determines macro_sequence.
 All variable quantities are encoded in parameters or pattern_ref.
 """
 
+import argparse
 import json
 from collections import Counter
 from pathlib import Path
 
-VOCAB = ["PIPE_RUN", "ISOLATION_VALVE", "CONTROL_VALVE", "FLOW_METER", "EQUIPMENT_BLOCK"]
+VOCAB = ["PIPE_RUN", "ISOLATION_VALVE", "CONTROL_VALVE", "FLOW_METER", "EQUIPMENT_BLOCK",
+         "TANK", "PUMP", "INLET_OUTLET"]
 
 TEMPLATE_SEQUENCES = {
     "ISOLATED_SEGMENT":    ["PIPE_RUN", "PIPE_RUN"],
@@ -142,6 +144,14 @@ def build_macro_entry(frag: dict) -> dict:
             "macro_sequence": sequence,
             "parameters": parameters,
         }
+    elif ftype == "cycle_fragment":
+        return {
+            "fragment_id": fid,
+            "fragment_type": ftype,
+            "macro_template": "PATTERN_REF",
+            "macro_sequence": [],
+            "pattern_ref": fid,
+        }
     elif ftype == "pattern_fragment":
         return {
             "fragment_id": fid,
@@ -155,8 +165,13 @@ def build_macro_entry(frag: dict) -> dict:
 
 
 def main():
-    src = Path("fragments.json")
-    dst = Path("pfd_macros.json")
+    parser = argparse.ArgumentParser(description="Stage 3C: PFD Macro Mapping")
+    parser.add_argument("--input", default="fragments.json", help="Path to fragments JSON")
+    parser.add_argument("--output", default="pfd_macros.json", help="Output path")
+    args = parser.parse_args()
+
+    src = Path(args.input)
+    dst = Path(args.output)
 
     with open(src) as f:
         data = json.load(f)
@@ -181,7 +196,7 @@ def main():
     # --- Verification ---
 
     total = len(macros_list)
-    assert total == 75, f"Expected 75 macros, got {total}"
+    assert total == len(fragments), f"Expected {len(fragments)} macros, got {total}"
 
     pattern_entries = [m for m in macros_list if m["macro_template"] == "PATTERN_REF"]
     non_pattern_entries = [m for m in macros_list if m["macro_template"] != "PATTERN_REF"]

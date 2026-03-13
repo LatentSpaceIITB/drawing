@@ -4,6 +4,7 @@ Reads ground_truth.json, emits fragments.json.
 No LLM — all classification is deterministic.
 """
 
+import argparse
 import json
 from collections import defaultdict
 
@@ -14,7 +15,7 @@ from collections import defaultdict
 
 def node_type(node_id: str) -> str:
     """Extract type prefix from a node ID string (e.g. 'valve269' -> 'valve')."""
-    for prefix in ("instrumentation", "general", "valve", "arrow"):
+    for prefix in ("instrumentation", "inlet_outlet", "general", "valve", "arrow", "tank", "pump"):
         if node_id.startswith(prefix):
             return prefix
     raise ValueError(f"Unknown node type for id: {node_id!r}")
@@ -335,8 +336,13 @@ def assemble_output(fragments: list, source_file: str) -> dict:
 # ---------------------------------------------------------------------------
 
 def main():
-    SOURCE = "ground_truth.json"
-    OUTPUT = "fragments.json"
+    parser = argparse.ArgumentParser(description="Stage 2: Fragment extraction from ground truth")
+    parser.add_argument("--input", default="ground_truth.json", help="Path to ground_truth.json")
+    parser.add_argument("--output", default="fragments.json", help="Path to output fragments.json")
+    args = parser.parse_args()
+
+    SOURCE = args.input
+    OUTPUT = args.output
 
     gt = load_ground_truth(SOURCE)
 
@@ -372,22 +378,18 @@ def main():
     n_cycle  = len(cycle_frags)
     n_patt   = len(pattern_frags)
 
-    assert n_region == 34,  f"Expected 34 region fragments, got {n_region}"
-    assert n_conn   == 4,   f"Expected 4 connectivity fragments, got {n_conn}"
-    assert n_cycle  == 0,   f"Expected 0 cycle fragments, got {n_cycle}"
-    assert n_patt   == 7,   f"Expected 7 pattern fragments (2 topo + 5 vseq), got {n_patt}"
+    assert n_region >= 1,   f"Expected >= 1 region fragments, got {n_region}"
+    assert n_conn   >= 0,   f"Expected >= 0 connectivity fragments, got {n_conn}"
+    assert n_patt   >= 0,   f"Expected >= 0 pattern fragments, got {n_patt}"
 
     subtype_dist: dict = defaultdict(int)
     for f in region_frags:
         subtype_dist[f["fragment_subtype"]] += 1
-    assert subtype_dist["controlled_transfer"] == 6,  f"controlled_transfer={subtype_dist['controlled_transfer']}"
-    assert subtype_dist["measurement_only"]    == 5,  f"measurement_only={subtype_dist['measurement_only']}"
-    assert subtype_dist["linear_transfer"]     == 17, f"linear_transfer={subtype_dist['linear_transfer']}"
-    assert subtype_dist["isolated_segment"]    == 6,  f"isolated_segment={subtype_dist['isolated_segment']}"
-    assert sum(subtype_dist.values()) == 34, "region subtype counts must sum to 34"
+    assert sum(subtype_dist.values()) == n_region, "region subtype counts must sum to n_region"
 
-    # All 34 region IDs appear in exactly 1 region fragment
-    all_rids = [gt["topology"]["regions"][i]["id"] for i in range(34)]
+    # All region IDs appear in exactly 1 region fragment
+    regions = gt["topology"]["regions"]
+    all_rids = [r["id"] for r in regions]
     frag_rids = [f["source_regions"][0] for f in region_frags]
     assert sorted(frag_rids) == sorted(all_rids), "Region ID mismatch in fragments"
 

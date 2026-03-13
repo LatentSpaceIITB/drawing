@@ -1,0 +1,1130 @@
+{
+  "metadata": {
+    "source_file": "pfd_layout_primitives.json",
+    "schema_version": "1",
+    "node_count": 94,
+    "edge_count": 72,
+    "stitch_edge_count": 12,
+    "pattern_fragments_skipped": 5
+  },
+  "global_graph": {
+    "nodes": {
+      "rfrag_region_0:n0": {
+        "type": "pipe_segment",
+        "flow_direction": "forward",
+        "fragment_id": "rfrag_region_0"
+      },
+      "rfrag_region_0:n1": {
+        "type": "valve",
+        "subtype": "isolation",
+        "normally_open": true,
+        "fail_position": "closed",
+        "fragment_id": "rfrag_region_0"
+      },
+      "rfrag_region_0:n2": {
+        "type": "pipe_segment",
+        "flow_direction": "forward",
+        "fragment_id": "rfrag_region_0"
+      },
+      "rfrag_region_1:n0": {
+        "type": "pipe_segment",
+        "flow_direction": "forward",
+        "fragment_id": "rfrag_region_1"
+      },
+      "rfrag_region_1:n1": {
+        "type": "valve",
+        "subtype": "isolation",
+        "normally_open": true,
+        "fail_position": "closed",
+        "fragment_id": "rfrag_region_1"
+      },
+      "rfrag_region_1:n2": {
+        "type": "pipe_segment",
+        "flow_direction": "forward",
+        "fragment_id": "rfrag_region_1"
+      },
+      "rfrag_region_2:n0": {
+        "type": "pipe_segment",
+        "flow_direction": "forward",
+        "fragment_id": "rfrag_region_2"
+      },
+      "rfrag_region_2:n1": {
+        "type": "pipe_segment",
+        "flow_direction": "forward",
+        "fragment_id": "rfrag_region_2"
+      },
+      "rfrag_region_3:n0": {
+        "type": "pipe_segment",
+        "flow_direction": "forward",
+        "fragment_id": "rfrag_region_3"
+      },
+      "rfrag_region_3:n1": {
+        "type": "equipment_block",
+        "fragment_id": "rfrag_region_3"
+      },
+      "rfrag_region_3:n2": {
+        "type": "equipment_block",
+        "fragment_id": "rfrag_region_3"
+      },
+      "rfrag_region_3:n3": {
+        "type": "equipment_block",
+        "fragment_id": "rfrag_region_3"
+      },
+      "rfrag_region_3:n4": {
+        "type": "pipe_segment",
+        "flow_direction": "forward",
+        "fragment_id": "rfrag_region_3"
+      },
+      "rfrag_region_4:n0": {
+        "type": "pipe_segment",
+        "flow_direction": "forward",
+        "fragment_id": "rfrag_region_4"
+      },
+      "rfrag_region_4:n1": {
+        "type": "pipe_segment",
+        "flow_direction": "forward",
+        "fragment_id": "rfrag_region_4"
+      },
+      "rfrag_region_5:n0": {
+        "type": "pipe_segment",
+        "flow_direction": "forward",
+        "fragment_id": "rfrag_region_5"
+      },
+      "rfrag_region_5:n1": {
+        "type": "pipe_segment",
+        "flow_direction": "forward",
+        "fragment_id": "rfrag_region_5"
+      },
+      "rfrag_region_6:n0": {
+        "type": "pipe_segment",
+        "flow_direction": "forward",
+        "fragment_id": "rfrag_region_6"
+      },
+      "rfrag_region_6:n1": {
+        "type": "valve",
+        "subtype": "isolation",
+        "normally_open": true,
+        "fail_position": "closed",
+        "fragment_id": "rfrag_region_6"
+      },
+      "rfrag_region_6:n2": {
+        "type": "pipe_segment",
+        "flow_direction": "forward",
+        "fragment_id": "rfrag_region_6"
+      },
+      "rfrag_region_7:n0": {
+        "type": "pipe_segment",
+        "flow_direction": "forward",
+        "fragment_id": "rfrag_region_7"
+      },
+      "rfrag_region_7:n1": {
+        "type": "valve",
+        "subtype": "isolation",
+        "normally_open": true,
+        "fail_position": "closed",
+        "fragment_id": "rfrag_region_7"
+      },
+      "rfrag_region_7:n2": {
+        "type": "pipe_segment",
+        "flow_direction": "forward",
+        "fragment_id": "rfrag_region_7"
+      },
+      "rfrag_region_8:n0": {
+        "type": "pipe_segment",
+        "flow_direction": "forward",
+        "fragment_id": "rfrag_region_8"
+      },
+      "rfrag_region_8:n1": {
+        "type": "valve",
+        "subtype": "isolation",
+        "normally_open": true,
+        "fail_position": "closed",
+        "fragment_id": "rfrag_region_8"
+      },
+      "rfrag_region_8:n2": {
+        "type": "pipe_segment",
+        "flow_direction": "forward",
+        "fragment_id": "rfrag_region_8"
+      },
+      "rfrag_region_9:n0": {
+        "type": "pipe_segment",
+        "flow_direction": "forward",
+        "fragment_id": "rfrag_region_9"
+      },
+      "rfrag_region_9:n1": {
+        "type": "valve",
+        "subtype": "isolation",
+        "normally_open": true,
+        "fail_position": "closed",
+        "fragment_id": "rfrag_region_9"
+      },
+      "rfrag_region_9:n2": {
+        "type": "pipe_segment",
+        "flow_direction": "forward",
+        "fragment_id": "rfrag_region_9"
+      },
+      "rfrag_region_10:n0": {
+        "type": "valve",
+        "subtype": "control",
+        "control_loop": true,
+        "fragment_id": "rfrag_region_10"
+      },
+      "rfrag_region_10:n1": {
+        "type": "pipe_segment",
+        "flow_direction": "forward",
+        "fragment_id": "rfrag_region_10"
+      },
+      "rfrag_region_10:n2": {
+        "type": "equipment_block",
+        "fragment_id": "rfrag_region_10"
+      },
+      "rfrag_region_10:n3": {
+        "type": "valve",
+        "subtype": "control",
+        "control_loop": true,
+        "fragment_id": "rfrag_region_10"
+      },
+      "rfrag_region_11:n0": {
+        "type": "pipe_segment",
+        "flow_direction": "forward",
+        "fragment_id": "rfrag_region_11"
+      },
+      "rfrag_region_11:n1": {
+        "type": "pipe_segment",
+        "flow_direction": "forward",
+        "fragment_id": "rfrag_region_11"
+      },
+      "rfrag_region_12:n0": {
+        "type": "pipe_segment",
+        "flow_direction": "forward",
+        "fragment_id": "rfrag_region_12"
+      },
+      "rfrag_region_12:n1": {
+        "type": "valve",
+        "subtype": "isolation",
+        "normally_open": true,
+        "fail_position": "closed",
+        "fragment_id": "rfrag_region_12"
+      },
+      "rfrag_region_12:n2": {
+        "type": "pipe_segment",
+        "flow_direction": "forward",
+        "fragment_id": "rfrag_region_12"
+      },
+      "rfrag_region_13:n0": {
+        "type": "pipe_segment",
+        "flow_direction": "forward",
+        "fragment_id": "rfrag_region_13"
+      },
+      "rfrag_region_13:n1": {
+        "type": "valve",
+        "subtype": "isolation",
+        "normally_open": true,
+        "fail_position": "closed",
+        "fragment_id": "rfrag_region_13"
+      },
+      "rfrag_region_13:n2": {
+        "type": "pipe_segment",
+        "flow_direction": "forward",
+        "fragment_id": "rfrag_region_13"
+      },
+      "rfrag_region_14:n0": {
+        "type": "pipe_segment",
+        "flow_direction": "forward",
+        "fragment_id": "rfrag_region_14"
+      },
+      "rfrag_region_14:n1": {
+        "type": "valve",
+        "subtype": "isolation",
+        "normally_open": true,
+        "fail_position": "closed",
+        "fragment_id": "rfrag_region_14"
+      },
+      "rfrag_region_14:n2": {
+        "type": "pipe_segment",
+        "flow_direction": "forward",
+        "fragment_id": "rfrag_region_14"
+      },
+      "rfrag_region_15:n0": {
+        "type": "pipe_segment",
+        "flow_direction": "forward",
+        "fragment_id": "rfrag_region_15"
+      },
+      "rfrag_region_15:n1": {
+        "type": "pipe_segment",
+        "flow_direction": "forward",
+        "fragment_id": "rfrag_region_15"
+      },
+      "rfrag_region_16:n0": {
+        "type": "pipe_segment",
+        "flow_direction": "forward",
+        "fragment_id": "rfrag_region_16"
+      },
+      "rfrag_region_16:n1": {
+        "type": "valve",
+        "subtype": "isolation",
+        "normally_open": true,
+        "fail_position": "closed",
+        "fragment_id": "rfrag_region_16"
+      },
+      "rfrag_region_16:n2": {
+        "type": "pipe_segment",
+        "flow_direction": "forward",
+        "fragment_id": "rfrag_region_16"
+      },
+      "rfrag_region_17:n0": {
+        "type": "pipe_segment",
+        "flow_direction": "forward",
+        "fragment_id": "rfrag_region_17"
+      },
+      "rfrag_region_17:n1": {
+        "type": "pipe_segment",
+        "flow_direction": "forward",
+        "fragment_id": "rfrag_region_17"
+      },
+      "rfrag_region_18:n0": {
+        "type": "pipe_segment",
+        "flow_direction": "forward",
+        "fragment_id": "rfrag_region_18"
+      },
+      "rfrag_region_18:n1": {
+        "type": "valve",
+        "subtype": "isolation",
+        "normally_open": true,
+        "fail_position": "closed",
+        "fragment_id": "rfrag_region_18"
+      },
+      "rfrag_region_18:n2": {
+        "type": "pipe_segment",
+        "flow_direction": "forward",
+        "fragment_id": "rfrag_region_18"
+      },
+      "rfrag_region_19:n0": {
+        "type": "pipe_segment",
+        "flow_direction": "forward",
+        "fragment_id": "rfrag_region_19"
+      },
+      "rfrag_region_19:n1": {
+        "type": "pipe_segment",
+        "flow_direction": "forward",
+        "fragment_id": "rfrag_region_19"
+      },
+      "rfrag_region_20:n0": {
+        "type": "pipe_segment",
+        "flow_direction": "forward",
+        "fragment_id": "rfrag_region_20"
+      },
+      "rfrag_region_20:n1": {
+        "type": "pipe_segment",
+        "flow_direction": "forward",
+        "fragment_id": "rfrag_region_20"
+      },
+      "rfrag_region_21:n0": {
+        "type": "pipe_segment",
+        "flow_direction": "forward",
+        "fragment_id": "rfrag_region_21"
+      },
+      "rfrag_region_21:n1": {
+        "type": "valve",
+        "subtype": "isolation",
+        "normally_open": true,
+        "fail_position": "closed",
+        "fragment_id": "rfrag_region_21"
+      },
+      "rfrag_region_21:n2": {
+        "type": "pipe_segment",
+        "flow_direction": "forward",
+        "fragment_id": "rfrag_region_21"
+      },
+      "rfrag_region_22:n0": {
+        "type": "pipe_segment",
+        "flow_direction": "forward",
+        "fragment_id": "rfrag_region_22"
+      },
+      "rfrag_region_22:n1": {
+        "type": "valve",
+        "subtype": "isolation",
+        "normally_open": true,
+        "fail_position": "closed",
+        "fragment_id": "rfrag_region_22"
+      },
+      "rfrag_region_22:n2": {
+        "type": "pipe_segment",
+        "flow_direction": "forward",
+        "fragment_id": "rfrag_region_22"
+      },
+      "rfrag_region_23:n0": {
+        "type": "pipe_segment",
+        "flow_direction": "forward",
+        "fragment_id": "rfrag_region_23"
+      },
+      "rfrag_region_23:n1": {
+        "type": "pipe_segment",
+        "flow_direction": "forward",
+        "fragment_id": "rfrag_region_23"
+      },
+      "rfrag_region_24:n0": {
+        "type": "pipe_segment",
+        "flow_direction": "forward",
+        "fragment_id": "rfrag_region_24"
+      },
+      "rfrag_region_24:n1": {
+        "type": "valve",
+        "subtype": "isolation",
+        "normally_open": true,
+        "fail_position": "closed",
+        "fragment_id": "rfrag_region_24"
+      },
+      "rfrag_region_24:n2": {
+        "type": "pipe_segment",
+        "flow_direction": "forward",
+        "fragment_id": "rfrag_region_24"
+      },
+      "cfrag_0:n0": {
+        "type": "pipe_segment",
+        "flow_direction": "forward",
+        "fragment_id": "cfrag_0"
+      },
+      "cfrag_0:n1": {
+        "type": "valve",
+        "subtype": "isolation",
+        "normally_open": true,
+        "fail_position": "closed",
+        "fragment_id": "cfrag_0"
+      },
+      "cfrag_0:n2": {
+        "type": "pipe_segment",
+        "flow_direction": "forward",
+        "fragment_id": "cfrag_0"
+      },
+      "cfrag_1:n0": {
+        "type": "pipe_segment",
+        "flow_direction": "forward",
+        "fragment_id": "cfrag_1"
+      },
+      "cfrag_1:n1": {
+        "type": "valve",
+        "subtype": "isolation",
+        "normally_open": true,
+        "fail_position": "closed",
+        "fragment_id": "cfrag_1"
+      },
+      "cfrag_1:n2": {
+        "type": "pipe_segment",
+        "flow_direction": "forward",
+        "fragment_id": "cfrag_1"
+      },
+      "cfrag_2:n0": {
+        "type": "pipe_segment",
+        "flow_direction": "forward",
+        "fragment_id": "cfrag_2"
+      },
+      "cfrag_2:n1": {
+        "type": "valve",
+        "subtype": "isolation",
+        "normally_open": true,
+        "fail_position": "closed",
+        "fragment_id": "cfrag_2"
+      },
+      "cfrag_2:n2": {
+        "type": "pipe_segment",
+        "flow_direction": "forward",
+        "fragment_id": "cfrag_2"
+      },
+      "cfrag_3:n0": {
+        "type": "pipe_segment",
+        "flow_direction": "forward",
+        "fragment_id": "cfrag_3"
+      },
+      "cfrag_3:n1": {
+        "type": "valve",
+        "subtype": "isolation",
+        "normally_open": true,
+        "fail_position": "closed",
+        "fragment_id": "cfrag_3"
+      },
+      "cfrag_3:n2": {
+        "type": "pipe_segment",
+        "flow_direction": "forward",
+        "fragment_id": "cfrag_3"
+      },
+      "cfrag_4:n0": {
+        "type": "pipe_segment",
+        "flow_direction": "forward",
+        "fragment_id": "cfrag_4"
+      },
+      "cfrag_4:n1": {
+        "type": "valve",
+        "subtype": "isolation",
+        "normally_open": true,
+        "fail_position": "closed",
+        "fragment_id": "cfrag_4"
+      },
+      "cfrag_4:n2": {
+        "type": "pipe_segment",
+        "flow_direction": "forward",
+        "fragment_id": "cfrag_4"
+      },
+      "cfrag_5:n0": {
+        "type": "pipe_segment",
+        "flow_direction": "forward",
+        "fragment_id": "cfrag_5"
+      },
+      "cfrag_5:n1": {
+        "type": "valve",
+        "subtype": "isolation",
+        "normally_open": true,
+        "fail_position": "closed",
+        "fragment_id": "cfrag_5"
+      },
+      "cfrag_5:n2": {
+        "type": "pipe_segment",
+        "flow_direction": "forward",
+        "fragment_id": "cfrag_5"
+      },
+      "efrag_0:n0": {
+        "type": "equipment_block",
+        "fragment_id": "efrag_0"
+      },
+      "efrag_0:n1": {
+        "type": "equipment_block",
+        "fragment_id": "efrag_0"
+      },
+      "efrag_0:n2": {
+        "type": "equipment_block",
+        "fragment_id": "efrag_0"
+      },
+      "efrag_1:n0": {
+        "type": "equipment_block",
+        "fragment_id": "efrag_1"
+      },
+      "efrag_1:n1": {
+        "type": "equipment_block",
+        "fragment_id": "efrag_1"
+      },
+      "efrag_2:n0": {
+        "type": "equipment_block",
+        "fragment_id": "efrag_2"
+      },
+      "efrag_2:n1": {
+        "type": "equipment_block",
+        "fragment_id": "efrag_2"
+      }
+    },
+    "edges": [
+      {
+        "from": "rfrag_region_0:n0",
+        "to": "rfrag_region_0:n1"
+      },
+      {
+        "from": "rfrag_region_0:n1",
+        "to": "rfrag_region_0:n2"
+      },
+      {
+        "from": "rfrag_region_1:n0",
+        "to": "rfrag_region_1:n1"
+      },
+      {
+        "from": "rfrag_region_1:n1",
+        "to": "rfrag_region_1:n2"
+      },
+      {
+        "from": "rfrag_region_2:n0",
+        "to": "rfrag_region_2:n1"
+      },
+      {
+        "from": "rfrag_region_3:n0",
+        "to": "rfrag_region_3:n1"
+      },
+      {
+        "from": "rfrag_region_3:n1",
+        "to": "rfrag_region_3:n2"
+      },
+      {
+        "from": "rfrag_region_3:n2",
+        "to": "rfrag_region_3:n3"
+      },
+      {
+        "from": "rfrag_region_3:n3",
+        "to": "rfrag_region_3:n4"
+      },
+      {
+        "from": "rfrag_region_4:n0",
+        "to": "rfrag_region_4:n1"
+      },
+      {
+        "from": "rfrag_region_5:n0",
+        "to": "rfrag_region_5:n1"
+      },
+      {
+        "from": "rfrag_region_6:n0",
+        "to": "rfrag_region_6:n1"
+      },
+      {
+        "from": "rfrag_region_6:n1",
+        "to": "rfrag_region_6:n2"
+      },
+      {
+        "from": "rfrag_region_7:n0",
+        "to": "rfrag_region_7:n1"
+      },
+      {
+        "from": "rfrag_region_7:n1",
+        "to": "rfrag_region_7:n2"
+      },
+      {
+        "from": "rfrag_region_8:n0",
+        "to": "rfrag_region_8:n1"
+      },
+      {
+        "from": "rfrag_region_8:n1",
+        "to": "rfrag_region_8:n2"
+      },
+      {
+        "from": "rfrag_region_9:n0",
+        "to": "rfrag_region_9:n1"
+      },
+      {
+        "from": "rfrag_region_9:n1",
+        "to": "rfrag_region_9:n2"
+      },
+      {
+        "from": "rfrag_region_10:n0",
+        "to": "rfrag_region_10:n1"
+      },
+      {
+        "from": "rfrag_region_10:n1",
+        "to": "rfrag_region_10:n2"
+      },
+      {
+        "from": "rfrag_region_10:n2",
+        "to": "rfrag_region_10:n3"
+      },
+      {
+        "from": "rfrag_region_11:n0",
+        "to": "rfrag_region_11:n1"
+      },
+      {
+        "from": "rfrag_region_12:n0",
+        "to": "rfrag_region_12:n1"
+      },
+      {
+        "from": "rfrag_region_12:n1",
+        "to": "rfrag_region_12:n2"
+      },
+      {
+        "from": "rfrag_region_13:n0",
+        "to": "rfrag_region_13:n1"
+      },
+      {
+        "from": "rfrag_region_13:n1",
+        "to": "rfrag_region_13:n2"
+      },
+      {
+        "from": "rfrag_region_14:n0",
+        "to": "rfrag_region_14:n1"
+      },
+      {
+        "from": "rfrag_region_14:n1",
+        "to": "rfrag_region_14:n2"
+      },
+      {
+        "from": "rfrag_region_15:n0",
+        "to": "rfrag_region_15:n1"
+      },
+      {
+        "from": "rfrag_region_16:n0",
+        "to": "rfrag_region_16:n1"
+      },
+      {
+        "from": "rfrag_region_16:n1",
+        "to": "rfrag_region_16:n2"
+      },
+      {
+        "from": "rfrag_region_17:n0",
+        "to": "rfrag_region_17:n1"
+      },
+      {
+        "from": "rfrag_region_18:n0",
+        "to": "rfrag_region_18:n1"
+      },
+      {
+        "from": "rfrag_region_18:n1",
+        "to": "rfrag_region_18:n2"
+      },
+      {
+        "from": "rfrag_region_19:n0",
+        "to": "rfrag_region_19:n1"
+      },
+      {
+        "from": "rfrag_region_20:n0",
+        "to": "rfrag_region_20:n1"
+      },
+      {
+        "from": "rfrag_region_21:n0",
+        "to": "rfrag_region_21:n1"
+      },
+      {
+        "from": "rfrag_region_21:n1",
+        "to": "rfrag_region_21:n2"
+      },
+      {
+        "from": "rfrag_region_22:n0",
+        "to": "rfrag_region_22:n1"
+      },
+      {
+        "from": "rfrag_region_22:n1",
+        "to": "rfrag_region_22:n2"
+      },
+      {
+        "from": "rfrag_region_23:n0",
+        "to": "rfrag_region_23:n1"
+      },
+      {
+        "from": "rfrag_region_24:n0",
+        "to": "rfrag_region_24:n1"
+      },
+      {
+        "from": "rfrag_region_24:n1",
+        "to": "rfrag_region_24:n2"
+      },
+      {
+        "from": "cfrag_0:n0",
+        "to": "cfrag_0:n1"
+      },
+      {
+        "from": "cfrag_0:n1",
+        "to": "cfrag_0:n2"
+      },
+      {
+        "from": "cfrag_1:n0",
+        "to": "cfrag_1:n1"
+      },
+      {
+        "from": "cfrag_1:n1",
+        "to": "cfrag_1:n2"
+      },
+      {
+        "from": "cfrag_2:n0",
+        "to": "cfrag_2:n1"
+      },
+      {
+        "from": "cfrag_2:n1",
+        "to": "cfrag_2:n2"
+      },
+      {
+        "from": "cfrag_3:n0",
+        "to": "cfrag_3:n1"
+      },
+      {
+        "from": "cfrag_3:n1",
+        "to": "cfrag_3:n2"
+      },
+      {
+        "from": "cfrag_4:n0",
+        "to": "cfrag_4:n1"
+      },
+      {
+        "from": "cfrag_4:n1",
+        "to": "cfrag_4:n2"
+      },
+      {
+        "from": "cfrag_5:n0",
+        "to": "cfrag_5:n1"
+      },
+      {
+        "from": "cfrag_5:n1",
+        "to": "cfrag_5:n2"
+      },
+      {
+        "from": "efrag_0:n0",
+        "to": "efrag_0:n1"
+      },
+      {
+        "from": "efrag_0:n1",
+        "to": "efrag_0:n2"
+      },
+      {
+        "from": "efrag_1:n0",
+        "to": "efrag_1:n1"
+      },
+      {
+        "from": "efrag_2:n0",
+        "to": "efrag_2:n1"
+      },
+      {
+        "from": "rfrag_region_1:n2",
+        "to": "cfrag_0:n0",
+        "stitch": true
+      },
+      {
+        "from": "cfrag_0:n2",
+        "to": "rfrag_region_13:n0",
+        "stitch": true
+      },
+      {
+        "from": "rfrag_region_7:n2",
+        "to": "cfrag_1:n0",
+        "stitch": true
+      },
+      {
+        "from": "cfrag_1:n2",
+        "to": "rfrag_region_24:n0",
+        "stitch": true
+      },
+      {
+        "from": "rfrag_region_8:n2",
+        "to": "cfrag_2:n0",
+        "stitch": true
+      },
+      {
+        "from": "cfrag_2:n2",
+        "to": "rfrag_region_16:n0",
+        "stitch": true
+      },
+      {
+        "from": "rfrag_region_8:n2",
+        "to": "cfrag_3:n0",
+        "stitch": true
+      },
+      {
+        "from": "cfrag_3:n2",
+        "to": "rfrag_region_14:n0",
+        "stitch": true
+      },
+      {
+        "from": "rfrag_region_9:n2",
+        "to": "cfrag_4:n0",
+        "stitch": true
+      },
+      {
+        "from": "cfrag_4:n2",
+        "to": "rfrag_region_21:n0",
+        "stitch": true
+      },
+      {
+        "from": "rfrag_region_14:n2",
+        "to": "cfrag_5:n0",
+        "stitch": true
+      },
+      {
+        "from": "cfrag_5:n2",
+        "to": "rfrag_region_16:n0",
+        "stitch": true
+      }
+    ]
+  },
+  "fragment_interfaces": {
+    "rfrag_region_0": {
+      "entry": "rfrag_region_0:n0",
+      "exit": "rfrag_region_0:n2"
+    },
+    "rfrag_region_1": {
+      "entry": "rfrag_region_1:n0",
+      "exit": "rfrag_region_1:n2"
+    },
+    "rfrag_region_2": {
+      "entry": "rfrag_region_2:n0",
+      "exit": "rfrag_region_2:n1"
+    },
+    "rfrag_region_3": {
+      "entry": "rfrag_region_3:n0",
+      "exit": "rfrag_region_3:n4"
+    },
+    "rfrag_region_4": {
+      "entry": "rfrag_region_4:n0",
+      "exit": "rfrag_region_4:n1"
+    },
+    "rfrag_region_5": {
+      "entry": "rfrag_region_5:n0",
+      "exit": "rfrag_region_5:n1"
+    },
+    "rfrag_region_6": {
+      "entry": "rfrag_region_6:n0",
+      "exit": "rfrag_region_6:n2"
+    },
+    "rfrag_region_7": {
+      "entry": "rfrag_region_7:n0",
+      "exit": "rfrag_region_7:n2"
+    },
+    "rfrag_region_8": {
+      "entry": "rfrag_region_8:n0",
+      "exit": "rfrag_region_8:n2"
+    },
+    "rfrag_region_9": {
+      "entry": "rfrag_region_9:n0",
+      "exit": "rfrag_region_9:n2"
+    },
+    "rfrag_region_10": {
+      "entry": "rfrag_region_10:n0",
+      "exit": "rfrag_region_10:n3"
+    },
+    "rfrag_region_11": {
+      "entry": "rfrag_region_11:n0",
+      "exit": "rfrag_region_11:n1"
+    },
+    "rfrag_region_12": {
+      "entry": "rfrag_region_12:n0",
+      "exit": "rfrag_region_12:n2"
+    },
+    "rfrag_region_13": {
+      "entry": "rfrag_region_13:n0",
+      "exit": "rfrag_region_13:n2"
+    },
+    "rfrag_region_14": {
+      "entry": "rfrag_region_14:n0",
+      "exit": "rfrag_region_14:n2"
+    },
+    "rfrag_region_15": {
+      "entry": "rfrag_region_15:n0",
+      "exit": "rfrag_region_15:n1"
+    },
+    "rfrag_region_16": {
+      "entry": "rfrag_region_16:n0",
+      "exit": "rfrag_region_16:n2"
+    },
+    "rfrag_region_17": {
+      "entry": "rfrag_region_17:n0",
+      "exit": "rfrag_region_17:n1"
+    },
+    "rfrag_region_18": {
+      "entry": "rfrag_region_18:n0",
+      "exit": "rfrag_region_18:n2"
+    },
+    "rfrag_region_19": {
+      "entry": "rfrag_region_19:n0",
+      "exit": "rfrag_region_19:n1"
+    },
+    "rfrag_region_20": {
+      "entry": "rfrag_region_20:n0",
+      "exit": "rfrag_region_20:n1"
+    },
+    "rfrag_region_21": {
+      "entry": "rfrag_region_21:n0",
+      "exit": "rfrag_region_21:n2"
+    },
+    "rfrag_region_22": {
+      "entry": "rfrag_region_22:n0",
+      "exit": "rfrag_region_22:n2"
+    },
+    "rfrag_region_23": {
+      "entry": "rfrag_region_23:n0",
+      "exit": "rfrag_region_23:n1"
+    },
+    "rfrag_region_24": {
+      "entry": "rfrag_region_24:n0",
+      "exit": "rfrag_region_24:n2"
+    },
+    "cfrag_0": {
+      "entry": "cfrag_0:n0",
+      "exit": "cfrag_0:n2"
+    },
+    "cfrag_1": {
+      "entry": "cfrag_1:n0",
+      "exit": "cfrag_1:n2"
+    },
+    "cfrag_2": {
+      "entry": "cfrag_2:n0",
+      "exit": "cfrag_2:n2"
+    },
+    "cfrag_3": {
+      "entry": "cfrag_3:n0",
+      "exit": "cfrag_3:n2"
+    },
+    "cfrag_4": {
+      "entry": "cfrag_4:n0",
+      "exit": "cfrag_4:n2"
+    },
+    "cfrag_5": {
+      "entry": "cfrag_5:n0",
+      "exit": "cfrag_5:n2"
+    },
+    "efrag_0": {
+      "entry": "efrag_0:n0",
+      "exit": "efrag_0:n2"
+    },
+    "efrag_1": {
+      "entry": "efrag_1:n0",
+      "exit": "efrag_1:n1"
+    },
+    "efrag_2": {
+      "entry": "efrag_2:n0",
+      "exit": "efrag_2:n1"
+    }
+  },
+  "layout_hints": {
+    "rfrag_region_0": {
+      "orientation": "horizontal",
+      "preferred_spacing": "medium",
+      "group": "region_0"
+    },
+    "rfrag_region_1": {
+      "orientation": "horizontal",
+      "preferred_spacing": "medium",
+      "group": "region_1"
+    },
+    "rfrag_region_2": {
+      "orientation": "horizontal",
+      "preferred_spacing": "medium",
+      "group": "region_2"
+    },
+    "rfrag_region_3": {
+      "orientation": "horizontal",
+      "preferred_spacing": "medium",
+      "group": "region_3"
+    },
+    "rfrag_region_4": {
+      "orientation": "horizontal",
+      "preferred_spacing": "medium",
+      "group": "region_4"
+    },
+    "rfrag_region_5": {
+      "orientation": "horizontal",
+      "preferred_spacing": "medium",
+      "group": "region_5"
+    },
+    "rfrag_region_6": {
+      "orientation": "horizontal",
+      "preferred_spacing": "medium",
+      "group": "region_6"
+    },
+    "rfrag_region_7": {
+      "orientation": "horizontal",
+      "preferred_spacing": "medium",
+      "group": "region_7"
+    },
+    "rfrag_region_8": {
+      "orientation": "horizontal",
+      "preferred_spacing": "medium",
+      "group": "region_8"
+    },
+    "rfrag_region_9": {
+      "orientation": "horizontal",
+      "preferred_spacing": "medium",
+      "group": "region_9"
+    },
+    "rfrag_region_10": {
+      "orientation": "horizontal",
+      "preferred_spacing": "medium",
+      "group": "region_10"
+    },
+    "rfrag_region_11": {
+      "orientation": "horizontal",
+      "preferred_spacing": "medium",
+      "group": "region_11"
+    },
+    "rfrag_region_12": {
+      "orientation": "horizontal",
+      "preferred_spacing": "medium",
+      "group": "region_12"
+    },
+    "rfrag_region_13": {
+      "orientation": "horizontal",
+      "preferred_spacing": "medium",
+      "group": "region_13"
+    },
+    "rfrag_region_14": {
+      "orientation": "horizontal",
+      "preferred_spacing": "medium",
+      "group": "region_14"
+    },
+    "rfrag_region_15": {
+      "orientation": "horizontal",
+      "preferred_spacing": "medium",
+      "group": "region_15"
+    },
+    "rfrag_region_16": {
+      "orientation": "horizontal",
+      "preferred_spacing": "medium",
+      "group": "region_16"
+    },
+    "rfrag_region_17": {
+      "orientation": "horizontal",
+      "preferred_spacing": "medium",
+      "group": "region_17"
+    },
+    "rfrag_region_18": {
+      "orientation": "horizontal",
+      "preferred_spacing": "medium",
+      "group": "region_18"
+    },
+    "rfrag_region_19": {
+      "orientation": "horizontal",
+      "preferred_spacing": "medium",
+      "group": "region_19"
+    },
+    "rfrag_region_20": {
+      "orientation": "horizontal",
+      "preferred_spacing": "medium",
+      "group": "region_20"
+    },
+    "rfrag_region_21": {
+      "orientation": "horizontal",
+      "preferred_spacing": "medium",
+      "group": "region_21"
+    },
+    "rfrag_region_22": {
+      "orientation": "horizontal",
+      "preferred_spacing": "medium",
+      "group": "region_22"
+    },
+    "rfrag_region_23": {
+      "orientation": "horizontal",
+      "preferred_spacing": "medium",
+      "group": "region_23"
+    },
+    "rfrag_region_24": {
+      "orientation": "horizontal",
+      "preferred_spacing": "medium",
+      "group": "region_24"
+    },
+    "cfrag_0": {
+      "orientation": "horizontal",
+      "preferred_spacing": "medium",
+      "group": "region_1"
+    },
+    "cfrag_1": {
+      "orientation": "horizontal",
+      "preferred_spacing": "medium",
+      "group": "region_7"
+    },
+    "cfrag_2": {
+      "orientation": "horizontal",
+      "preferred_spacing": "medium",
+      "group": "region_8"
+    },
+    "cfrag_3": {
+      "orientation": "horizontal",
+      "preferred_spacing": "medium",
+      "group": "region_8"
+    },
+    "cfrag_4": {
+      "orientation": "horizontal",
+      "preferred_spacing": "medium",
+      "group": "region_9"
+    },
+    "cfrag_5": {
+      "orientation": "horizontal",
+      "preferred_spacing": "medium",
+      "group": "region_14"
+    },
+    "efrag_0": {
+      "orientation": "vertical",
+      "preferred_spacing": "compact",
+      "group": "efrag_0"
+    },
+    "efrag_1": {
+      "orientation": "vertical",
+      "preferred_spacing": "compact",
+      "group": "efrag_1"
+    },
+    "efrag_2": {
+      "orientation": "vertical",
+      "preferred_spacing": "compact",
+      "group": "efrag_2"
+    }
+  },
+  "flow_analysis": {
+    "conflicts": []
+  }
+}

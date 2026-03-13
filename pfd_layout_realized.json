@@ -2,7 +2,7 @@
   "metadata": {
     "source_file": "pfd_global_graph.json",
     "schema_version": "1",
-    "layout_engine": "deterministic_v1",
+    "layout_engine": "spine_v2",
     "coordinate_system": "cartesian",
     "units": "mm",
     "patterns_expanded": false
@@ -20,11 +20,11 @@
       "type": "pipe_segment",
       "symbol": "pipe_straight",
       "position": {
-        "x": 15,
-        "y": 42.5
+        "x": 50.0,
+        "y": 72.5
       },
       "size": {
-        "width": 30,
+        "width": 40,
         "height": 15
       },
       "orientation": "horizontal",
@@ -34,7 +34,7 @@
           "y": 7.5
         },
         "out": {
-          "x": 30,
+          "x": 40,
           "y": 7.5
         }
       }
@@ -44,22 +44,22 @@
       "type": "equipment_block",
       "symbol": "equipment_generic",
       "position": {
-        "x": 70,
-        "y": 15.0
+        "x": 105.0,
+        "y": 50.0
       },
       "size": {
-        "width": 100,
-        "height": 70
+        "width": 80,
+        "height": 60
       },
       "orientation": "horizontal",
       "ports": {
         "in": {
           "x": 0,
-          "y": 35.0
+          "y": 30.0
         },
         "out": {
-          "x": 100,
-          "y": 35.0
+          "x": 80,
+          "y": 30.0
         }
       }
     },
@@ -68,22 +68,22 @@
       "type": "valve:isolation",
       "symbol": "valve_gate",
       "position": {
-        "x": 195,
-        "y": 25.0
+        "x": 200.0,
+        "y": 67.0
       },
       "size": {
-        "width": 50,
-        "height": 50
+        "width": 26,
+        "height": 26
       },
       "orientation": "horizontal",
       "ports": {
         "in": {
           "x": 0,
-          "y": 25.0
+          "y": 13.0
         },
         "out": {
-          "x": 50,
-          "y": 25.0
+          "x": 26,
+          "y": 13.0
         }
       }
     },
@@ -92,11 +92,11 @@
       "type": "pipe_segment",
       "symbol": "pipe_straight",
       "position": {
-        "x": 270,
-        "y": 42.5
+        "x": 241.0,
+        "y": 72.5
       },
       "size": {
-        "width": 30,
+        "width": 40,
         "height": 15
       },
       "orientation": "horizontal",
@@ -106,7 +106,7 @@
           "y": 7.5
         },
         "out": {
-          "x": 30,
+          "x": 40,
           "y": 7.5
         }
       }
@@ -116,11 +116,11 @@
       "type": "pipe_segment",
       "symbol": "pipe_straight",
       "position": {
-        "x": 515,
-        "y": 42.5
+        "x": 2679.0,
+        "y": 72.5
       },
       "size": {
-        "width": 30,
+        "width": 40,
         "height": 15
       },
       "orientation": "horizontal",
@@ -130,7 +130,7 @@
           "y": 7.5
         },
         "out": {
-          "x": 30,
+          "x": 40,
           "y": 7.5
         }
       }
@@ -140,22 +140,22 @@
       "type": "equipment_block",
       "symbol": "equipment_generic",
       "position": {
-        "x": 570,
-        "y": 15.0
+        "x": 2734.0,
+        "y": 50.0
       },
       "size": {
-        "width": 100,
-        "height": 70
+        "width": 80,
+        "height": 60
       },
       "orientation": "horizontal",
       "ports": {
         "in": {
           "x": 0,
-          "y": 35.0
+          "y": 30.0
         },
         "out": {
-          "x": 100,
-          "y": 35.0
+          "x": 80,
+          "y": 30.0
         }
       }
     },
@@ -164,22 +164,22 @@
       "type": "valve:isolation",
       "symbol": "valve_gate",
       "position": {
-        "x": 695,
-        "y": 25.0
+        "x": 2829.0,
+        "y": 67.0
       },
       "size": {
-        "width": 50,
-        "height": 50
+        "width": 26,
+        "height": 26
       },
       "orientation": "horizontal",
       "ports": {
         "in": {
           "x": 0,
-          "y": 25.0
+          "y": 13.0
         },
         "out": {
-          "x": 50,
-          "y": 25.0
+          "x": 26,
+          "y": 13.0
         }
       }
     },
@@ -188,11 +188,11 @@
       "type": "pipe_segment",
       "symbol": "pipe_straight",
       "position": {
-        "x": 770,
-        "y": 42.5
+        "x": 2870.0,
+        "y": 72.5
       },
       "size": {
-        "width": 30,
+        "width": 40,
         "height": 15
       },
       "orientation": "horizontal",
@@ -202,7 +202,7 @@
           "y": 7.5
         },
         "out": {
-          "x": 30,
+          "x": 40,
           "y": 7.5
         }
       }
@@ -212,11 +212,11 @@
       "type": "pipe_segment",
       "symbol": "pipe_straight",
       "position": {
-        "x": 1015,
-        "y": 42.5
+        "x": 50.0,
+        "y": 352.5
       },
       "size": {
-        "width": 30,
+        "width": 40,
         "height": 15
       },
       "orientation": "horizontal",
@@ -226,7 +226,7 @@
           "y": 7.5
         },
         "out": {
-          "x": 30,
+          "x": 40,
           "y": 7.5
         }
       }
@@ -236,22 +236,22 @@
       "type": "equipment_block",
       "symbol": "equipment_generic",
       "position": {
-        "x": 1070,
-        "y": 15.0
+        "x": 105.0,
+        "y": 330.0
       },
       "size": {
-        "width": 100,
-        "height": 70
+        "width": 80,
+        "height": 60
       },
       "orientation": "horizontal",
       "ports": {
         "in": {
           "x": 0,
-          "y": 35.0
+          "y": 30.0
         },
         "out": {
-          "x": 100,
-          "y": 35.0
+          "x": 80,
+          "y": 30.0
         }
       }
     },
@@ -260,22 +260,22 @@
       "type": "equipment_block",
       "symbol": "equipment_generic",
       "position": {
-        "x": 1195,
-        "y": 15.0
+        "x": 200.0,
+        "y": 330.0
       },
       "size": {
-        "width": 100,
-        "height": 70
+        "width": 80,
+        "height": 60
       },
       "orientation": "horizontal",
       "ports": {
         "in": {
           "x": 0,
-          "y": 35.0
+          "y": 30.0
         },
         "out": {
-          "x": 100,
-          "y": 35.0
+          "x": 80,
+          "y": 30.0
         }
       }
     },
@@ -284,22 +284,22 @@
       "type": "instrument:flow_meter",
       "symbol": "instrument_flow_meter",
       "position": {
-        "x": 1320,
-        "y": 25.0
+        "x": 295.0,
+        "y": 347.0
       },
       "size": {
-        "width": 50,
-        "height": 50
+        "width": 26,
+        "height": 26
       },
       "orientation": "horizontal",
       "ports": {
         "in": {
           "x": 0,
-          "y": 25.0
+          "y": 13.0
         },
         "out": {
-          "x": 50,
-          "y": 25.0
+          "x": 26,
+          "y": 13.0
         }
       }
     },
@@ -308,11 +308,11 @@
       "type": "pipe_segment",
       "symbol": "pipe_straight",
       "position": {
-        "x": 1395,
-        "y": 42.5
+        "x": 336.0,
+        "y": 352.5
       },
       "size": {
-        "width": 30,
+        "width": 40,
         "height": 15
       },
       "orientation": "horizontal",
@@ -322,7 +322,7 @@
           "y": 7.5
         },
         "out": {
-          "x": 30,
+          "x": 40,
           "y": 7.5
         }
       }
@@ -332,11 +332,11 @@
       "type": "pipe_segment",
       "symbol": "pipe_straight",
       "position": {
-        "x": 1515,
-        "y": 42.5
+        "x": 406.0,
+        "y": 352.5
       },
       "size": {
-        "width": 30,
+        "width": 40,
         "height": 15
       },
       "orientation": "horizontal",
@@ -346,7 +346,7 @@
           "y": 7.5
         },
         "out": {
-          "x": 30,
+          "x": 40,
           "y": 7.5
         }
       }
@@ -356,22 +356,22 @@
       "type": "equipment_block",
       "symbol": "equipment_generic",
       "position": {
-        "x": 1570,
-        "y": 15.0
+        "x": 461.0,
+        "y": 330.0
       },
       "size": {
-        "width": 100,
-        "height": 70
+        "width": 80,
+        "height": 60
       },
       "orientation": "horizontal",
       "ports": {
         "in": {
           "x": 0,
-          "y": 35.0
+          "y": 30.0
         },
         "out": {
-          "x": 100,
-          "y": 35.0
+          "x": 80,
+          "y": 30.0
         }
       }
     },
@@ -380,22 +380,22 @@
       "type": "valve:isolation",
       "symbol": "valve_gate",
       "position": {
-        "x": 1695,
-        "y": 25.0
+        "x": 556.0,
+        "y": 347.0
       },
       "size": {
-        "width": 50,
-        "height": 50
+        "width": 26,
+        "height": 26
       },
       "orientation": "horizontal",
       "ports": {
         "in": {
           "x": 0,
-          "y": 25.0
+          "y": 13.0
         },
         "out": {
-          "x": 50,
-          "y": 25.0
+          "x": 26,
+          "y": 13.0
         }
       }
     },
@@ -404,11 +404,11 @@
       "type": "pipe_segment",
       "symbol": "pipe_straight",
       "position": {
-        "x": 1770,
-        "y": 42.5
+        "x": 597.0,
+        "y": 352.5
       },
       "size": {
-        "width": 30,
+        "width": 40,
         "height": 15
       },
       "orientation": "horizontal",
@@ -418,7 +418,7 @@
           "y": 7.5
         },
         "out": {
-          "x": 30,
+          "x": 40,
           "y": 7.5
         }
       }
@@ -428,11 +428,11 @@
       "type": "pipe_segment",
       "symbol": "pipe_straight",
       "position": {
-        "x": 2015,
-        "y": 42.5
+        "x": 667.0,
+        "y": 352.5
       },
       "size": {
-        "width": 30,
+        "width": 40,
         "height": 15
       },
       "orientation": "horizontal",
@@ -442,7 +442,7 @@
           "y": 7.5
         },
         "out": {
-          "x": 30,
+          "x": 40,
           "y": 7.5
         }
       }
@@ -452,22 +452,22 @@
       "type": "equipment_block",
       "symbol": "equipment_generic",
       "position": {
-        "x": 2070,
-        "y": 15.0
+        "x": 722.0,
+        "y": 330.0
       },
       "size": {
-        "width": 100,
-        "height": 70
+        "width": 80,
+        "height": 60
       },
       "orientation": "horizontal",
       "ports": {
         "in": {
           "x": 0,
-          "y": 35.0
+          "y": 30.0
         },
         "out": {
-          "x": 100,
-          "y": 35.0
+          "x": 80,
+          "y": 30.0
         }
       }
     },
@@ -476,22 +476,22 @@
       "type": "valve:isolation",
       "symbol": "valve_gate",
       "position": {
-        "x": 2195,
-        "y": 25.0
+        "x": 817.0,
+        "y": 347.0
       },
       "size": {
-        "width": 50,
-        "height": 50
+        "width": 26,
+        "height": 26
       },
       "orientation": "horizontal",
       "ports": {
         "in": {
           "x": 0,
-          "y": 25.0
+          "y": 13.0
         },
         "out": {
-          "x": 50,
-          "y": 25.0
+          "x": 26,
+          "y": 13.0
         }
       }
     },
@@ -500,11 +500,11 @@
       "type": "pipe_segment",
       "symbol": "pipe_straight",
       "position": {
-        "x": 2270,
-        "y": 42.5
+        "x": 858.0,
+        "y": 352.5
       },
       "size": {
-        "width": 30,
+        "width": 40,
         "height": 15
       },
       "orientation": "horizontal",
@@ -514,7 +514,7 @@
           "y": 7.5
         },
         "out": {
-          "x": 30,
+          "x": 40,
           "y": 7.5
         }
       }
@@ -524,11 +524,11 @@
       "type": "pipe_segment",
       "symbol": "pipe_straight",
       "position": {
-        "x": 2515,
-        "y": 42.5
+        "x": 928.0,
+        "y": 352.5
       },
       "size": {
-        "width": 30,
+        "width": 40,
         "height": 15
       },
       "orientation": "horizontal",
@@ -538,7 +538,7 @@
           "y": 7.5
         },
         "out": {
-          "x": 30,
+          "x": 40,
           "y": 7.5
         }
       }
@@ -548,22 +548,22 @@
       "type": "equipment_block",
       "symbol": "equipment_generic",
       "position": {
-        "x": 2570,
-        "y": 15.0
+        "x": 983.0,
+        "y": 330.0
       },
       "size": {
-        "width": 100,
-        "height": 70
+        "width": 80,
+        "height": 60
       },
       "orientation": "horizontal",
       "ports": {
         "in": {
           "x": 0,
-          "y": 35.0
+          "y": 30.0
         },
         "out": {
-          "x": 100,
-          "y": 35.0
+          "x": 80,
+          "y": 30.0
         }
       }
     },
@@ -572,22 +572,22 @@
       "type": "equipment_block",
       "symbol": "equipment_generic",
       "position": {
-        "x": 2695,
-        "y": 15.0
+        "x": 1078.0,
+        "y": 330.0
       },
       "size": {
-        "width": 100,
-        "height": 70
+        "width": 80,
+        "height": 60
       },
       "orientation": "horizontal",
       "ports": {
         "in": {
           "x": 0,
-          "y": 35.0
+          "y": 30.0
         },
         "out": {
-          "x": 100,
-          "y": 35.0
+          "x": 80,
+          "y": 30.0
         }
       }
     },
@@ -596,22 +596,22 @@
       "type": "valve:isolation",
       "symbol": "valve_gate",
       "position": {
-        "x": 2820,
-        "y": 25.0
+        "x": 1173.0,
+        "y": 347.0
       },
       "size": {
-        "width": 50,
-        "height": 50
+        "width": 26,
+        "height": 26
       },
       "orientation": "horizontal",
       "ports": {
         "in": {
           "x": 0,
-          "y": 25.0
+          "y": 13.0
         },
         "out": {
-          "x": 50,
-          "y": 25.0
+          "x": 26,
+          "y": 13.0
         }
       }
     },
@@ -620,11 +620,11 @@
       "type": "pipe_segment",
       "symbol": "pipe_straight",
       "position": {
-        "x": 2895,
-        "y": 42.5
+        "x": 1214.0,
+        "y": 352.5
       },
       "size": {
-        "width": 30,
+        "width": 40,
         "height": 15
       },
       "orientation": "horizontal",
@@ -634,7 +634,7 @@
           "y": 7.5
         },
         "out": {
-          "x": 30,
+          "x": 40,
           "y": 7.5
         }
       }
@@ -644,11 +644,11 @@
       "type": "pipe_segment",
       "symbol": "pipe_straight",
       "position": {
-        "x": 15,
-        "y": 192.5
+        "x": 738.0,
+        "y": 72.5
       },
       "size": {
-        "width": 30,
+        "width": 40,
         "height": 15
       },
       "orientation": "horizontal",
@@ -658,7 +658,7 @@
           "y": 7.5
         },
         "out": {
-          "x": 30,
+          "x": 40,
           "y": 7.5
         }
       }
@@ -668,22 +668,22 @@
       "type": "equipment_block",
       "symbol": "equipment_generic",
       "position": {
-        "x": 70,
-        "y": 165.0
+        "x": 793.0,
+        "y": 50.0
       },
       "size": {
-        "width": 100,
-        "height": 70
+        "width": 80,
+        "height": 60
       },
       "orientation": "horizontal",
       "ports": {
         "in": {
           "x": 0,
-          "y": 35.0
+          "y": 30.0
         },
         "out": {
-          "x": 100,
-          "y": 35.0
+          "x": 80,
+          "y": 30.0
         }
       }
     },
@@ -692,22 +692,22 @@
       "type": "instrument:flow_meter",
       "symbol": "instrument_flow_meter",
       "position": {
-        "x": 195,
-        "y": 175.0
+        "x": 888.0,
+        "y": 67.0
       },
       "size": {
-        "width": 50,
-        "height": 50
+        "width": 26,
+        "height": 26
       },
       "orientation": "horizontal",
       "ports": {
         "in": {
           "x": 0,
-          "y": 25.0
+          "y": 13.0
         },
         "out": {
-          "x": 50,
-          "y": 25.0
+          "x": 26,
+          "y": 13.0
         }
       }
     },
@@ -716,11 +716,11 @@
       "type": "pipe_segment",
       "symbol": "pipe_straight",
       "position": {
-        "x": 270,
-        "y": 192.5
+        "x": 929.0,
+        "y": 72.5
       },
       "size": {
-        "width": 30,
+        "width": 40,
         "height": 15
       },
       "orientation": "horizontal",
@@ -730,7 +730,7 @@
           "y": 7.5
         },
         "out": {
-          "x": 30,
+          "x": 40,
           "y": 7.5
         }
       }
@@ -740,11 +740,11 @@
       "type": "pipe_segment",
       "symbol": "pipe_straight",
       "position": {
-        "x": 515,
-        "y": 192.5
+        "x": 1284.0,
+        "y": 352.5
       },
       "size": {
-        "width": 30,
+        "width": 40,
         "height": 15
       },
       "orientation": "horizontal",
@@ -754,7 +754,7 @@
           "y": 7.5
         },
         "out": {
-          "x": 30,
+          "x": 40,
           "y": 7.5
         }
       }
@@ -764,22 +764,22 @@
       "type": "equipment_block",
       "symbol": "equipment_generic",
       "position": {
-        "x": 570,
-        "y": 165.0
+        "x": 1339.0,
+        "y": 330.0
       },
       "size": {
-        "width": 100,
-        "height": 70
+        "width": 80,
+        "height": 60
       },
       "orientation": "horizontal",
       "ports": {
         "in": {
           "x": 0,
-          "y": 35.0
+          "y": 30.0
         },
         "out": {
-          "x": 100,
-          "y": 35.0
+          "x": 80,
+          "y": 30.0
         }
       }
     },
@@ -788,22 +788,22 @@
       "type": "valve:isolation",
       "symbol": "valve_gate",
       "position": {
-        "x": 695,
-        "y": 175.0
+        "x": 1434.0,
+        "y": 347.0
       },
       "size": {
-        "width": 50,
-        "height": 50
+        "width": 26,
+        "height": 26
       },
       "orientation": "horizontal",
       "ports": {
         "in": {
           "x": 0,
-          "y": 25.0
+          "y": 13.0
         },
         "out": {
-          "x": 50,
-          "y": 25.0
+          "x": 26,
+          "y": 13.0
         }
       }
     },
@@ -812,11 +812,11 @@
       "type": "pipe_segment",
       "symbol": "pipe_straight",
       "position": {
-        "x": 770,
-        "y": 192.5
+        "x": 1475.0,
+        "y": 352.5
       },
       "size": {
-        "width": 30,
+        "width": 40,
         "height": 15
       },
       "orientation": "horizontal",
@@ -826,7 +826,7 @@
           "y": 7.5
         },
         "out": {
-          "x": 30,
+          "x": 40,
           "y": 7.5
         }
       }
@@ -836,22 +836,22 @@
       "type": "valve:control",
       "symbol": "valve_control",
       "position": {
-        "x": 1015,
-        "y": 175.0
+        "x": 1545.0,
+        "y": 338.0
       },
       "size": {
-        "width": 50,
-        "height": 50
+        "width": 26,
+        "height": 44
       },
       "orientation": "horizontal",
       "ports": {
         "in": {
           "x": 0,
-          "y": 25.0
+          "y": 22.0
         },
         "out": {
-          "x": 50,
-          "y": 25.0
+          "x": 26,
+          "y": 22.0
         }
       }
     },
@@ -860,11 +860,11 @@
       "type": "pipe_segment",
       "symbol": "pipe_straight",
       "position": {
-        "x": 1090,
-        "y": 192.5
+        "x": 1586.0,
+        "y": 352.5
       },
       "size": {
-        "width": 30,
+        "width": 40,
         "height": 15
       },
       "orientation": "horizontal",
@@ -874,7 +874,7 @@
           "y": 7.5
         },
         "out": {
-          "x": 30,
+          "x": 40,
           "y": 7.5
         }
       }
@@ -884,22 +884,22 @@
       "type": "equipment_block",
       "symbol": "equipment_generic",
       "position": {
-        "x": 1145,
-        "y": 165.0
+        "x": 1641.0,
+        "y": 330.0
       },
       "size": {
-        "width": 100,
-        "height": 70
+        "width": 80,
+        "height": 60
       },
       "orientation": "horizontal",
       "ports": {
         "in": {
           "x": 0,
-          "y": 35.0
+          "y": 30.0
         },
         "out": {
-          "x": 100,
-          "y": 35.0
+          "x": 80,
+          "y": 30.0
         }
       }
     },
@@ -908,22 +908,22 @@
       "type": "valve:control",
       "symbol": "valve_control",
       "position": {
-        "x": 1270,
-        "y": 175.0
+        "x": 1736.0,
+        "y": 338.0
       },
       "size": {
-        "width": 50,
-        "height": 50
+        "width": 26,
+        "height": 44
       },
       "orientation": "horizontal",
       "ports": {
         "in": {
           "x": 0,
-          "y": 25.0
+          "y": 22.0
         },
         "out": {
-          "x": 50,
-          "y": 25.0
+          "x": 26,
+          "y": 22.0
         }
       }
     },
@@ -932,11 +932,11 @@
       "type": "pipe_segment",
       "symbol": "pipe_straight",
       "position": {
-        "x": 1515,
-        "y": 182.5
+        "x": 1412.0,
+        "y": 55.5
       },
       "size": {
-        "width": 30,
+        "width": 40,
         "height": 15
       },
       "orientation": "horizontal",
@@ -946,7 +946,7 @@
           "y": 7.5
         },
         "out": {
-          "x": 30,
+          "x": 40,
           "y": 7.5
         }
       }
@@ -956,22 +956,22 @@
       "type": "instrument:flow_meter",
       "symbol": "instrument_flow_meter",
       "position": {
-        "x": 1570,
-        "y": 165.0
+        "x": 1467.0,
+        "y": 50.0
       },
       "size": {
-        "width": 50,
-        "height": 50
+        "width": 26,
+        "height": 26
       },
       "orientation": "horizontal",
       "ports": {
         "in": {
           "x": 0,
-          "y": 25.0
+          "y": 13.0
         },
         "out": {
-          "x": 50,
-          "y": 25.0
+          "x": 26,
+          "y": 13.0
         }
       }
     },
@@ -980,11 +980,11 @@
       "type": "pipe_segment",
       "symbol": "pipe_straight",
       "position": {
-        "x": 1645,
-        "y": 182.5
+        "x": 1508.0,
+        "y": 55.5
       },
       "size": {
-        "width": 30,
+        "width": 40,
         "height": 15
       },
       "orientation": "horizontal",
@@ -994,7 +994,7 @@
           "y": 7.5
         },
         "out": {
-          "x": 30,
+          "x": 40,
           "y": 7.5
         }
       }
@@ -1004,11 +1004,11 @@
       "type": "pipe_segment",
       "symbol": "pipe_straight",
       "position": {
-        "x": 2015,
-        "y": 192.5
+        "x": 1792.0,
+        "y": 352.5
       },
       "size": {
-        "width": 30,
+        "width": 40,
         "height": 15
       },
       "orientation": "horizontal",
@@ -1018,7 +1018,7 @@
           "y": 7.5
         },
         "out": {
-          "x": 30,
+          "x": 40,
           "y": 7.5
         }
       }
@@ -1028,22 +1028,22 @@
       "type": "equipment_block",
       "symbol": "equipment_generic",
       "position": {
-        "x": 2070,
-        "y": 165.0
+        "x": 1847.0,
+        "y": 330.0
       },
       "size": {
-        "width": 100,
-        "height": 70
+        "width": 80,
+        "height": 60
       },
       "orientation": "horizontal",
       "ports": {
         "in": {
           "x": 0,
-          "y": 35.0
+          "y": 30.0
         },
         "out": {
-          "x": 100,
-          "y": 35.0
+          "x": 80,
+          "y": 30.0
         }
       }
     },
@@ -1052,22 +1052,22 @@
       "type": "valve:isolation",
       "symbol": "valve_gate",
       "position": {
-        "x": 2195,
-        "y": 175.0
+        "x": 1942.0,
+        "y": 347.0
       },
       "size": {
-        "width": 50,
-        "height": 50
+        "width": 26,
+        "height": 26
       },
       "orientation": "horizontal",
       "ports": {
         "in": {
           "x": 0,
-          "y": 25.0
+          "y": 13.0
         },
         "out": {
-          "x": 50,
-          "y": 25.0
+          "x": 26,
+          "y": 13.0
         }
       }
     },
@@ -1076,11 +1076,11 @@
       "type": "pipe_segment",
       "symbol": "pipe_straight",
       "position": {
-        "x": 2270,
-        "y": 192.5
+        "x": 1983.0,
+        "y": 352.5
       },
       "size": {
-        "width": 30,
+        "width": 40,
         "height": 15
       },
       "orientation": "horizontal",
@@ -1090,7 +1090,7 @@
           "y": 7.5
         },
         "out": {
-          "x": 30,
+          "x": 40,
           "y": 7.5
         }
       }
@@ -1100,11 +1100,11 @@
       "type": "pipe_segment",
       "symbol": "pipe_straight",
       "position": {
-        "x": 2515,
-        "y": 192.5
+        "x": 2053.0,
+        "y": 352.5
       },
       "size": {
-        "width": 30,
+        "width": 40,
         "height": 15
       },
       "orientation": "horizontal",
@@ -1114,7 +1114,7 @@
           "y": 7.5
         },
         "out": {
-          "x": 30,
+          "x": 40,
           "y": 7.5
         }
       }
@@ -1124,22 +1124,22 @@
       "type": "equipment_block",
       "symbol": "equipment_generic",
       "position": {
-        "x": 2570,
-        "y": 165.0
+        "x": 2108.0,
+        "y": 330.0
       },
       "size": {
-        "width": 100,
-        "height": 70
+        "width": 80,
+        "height": 60
       },
       "orientation": "horizontal",
       "ports": {
         "in": {
           "x": 0,
-          "y": 35.0
+          "y": 30.0
         },
         "out": {
-          "x": 100,
-          "y": 35.0
+          "x": 80,
+          "y": 30.0
         }
       }
     },
@@ -1148,22 +1148,22 @@
       "type": "valve:isolation",
       "symbol": "valve_gate",
       "position": {
-        "x": 2695,
-        "y": 175.0
+        "x": 2203.0,
+        "y": 347.0
       },
       "size": {
-        "width": 50,
-        "height": 50
+        "width": 26,
+        "height": 26
       },
       "orientation": "horizontal",
       "ports": {
         "in": {
           "x": 0,
-          "y": 25.0
+          "y": 13.0
         },
         "out": {
-          "x": 50,
-          "y": 25.0
+          "x": 26,
+          "y": 13.0
         }
       }
     },
@@ -1172,11 +1172,11 @@
       "type": "pipe_segment",
       "symbol": "pipe_straight",
       "position": {
-        "x": 2770,
-        "y": 192.5
+        "x": 2244.0,
+        "y": 352.5
       },
       "size": {
-        "width": 30,
+        "width": 40,
         "height": 15
       },
       "orientation": "horizontal",
@@ -1186,7 +1186,7 @@
           "y": 7.5
         },
         "out": {
-          "x": 30,
+          "x": 40,
           "y": 7.5
         }
       }
@@ -1196,11 +1196,11 @@
       "type": "pipe_segment",
       "symbol": "pipe_straight",
       "position": {
-        "x": 15,
-        "y": 332.5
+        "x": 2314.0,
+        "y": 335.5
       },
       "size": {
-        "width": 30,
+        "width": 40,
         "height": 15
       },
       "orientation": "horizontal",
@@ -1210,7 +1210,7 @@
           "y": 7.5
         },
         "out": {
-          "x": 30,
+          "x": 40,
           "y": 7.5
         }
       }
@@ -1220,22 +1220,22 @@
       "type": "valve:isolation",
       "symbol": "valve_gate",
       "position": {
-        "x": 70,
-        "y": 315.0
+        "x": 2369.0,
+        "y": 330.0
       },
       "size": {
-        "width": 50,
-        "height": 50
+        "width": 26,
+        "height": 26
       },
       "orientation": "horizontal",
       "ports": {
         "in": {
           "x": 0,
-          "y": 25.0
+          "y": 13.0
         },
         "out": {
-          "x": 50,
-          "y": 25.0
+          "x": 26,
+          "y": 13.0
         }
       }
     },
@@ -1244,11 +1244,11 @@
       "type": "pipe_segment",
       "symbol": "pipe_straight",
       "position": {
-        "x": 145,
-        "y": 332.5
+        "x": 2410.0,
+        "y": 335.5
       },
       "size": {
-        "width": 30,
+        "width": 40,
         "height": 15
       },
       "orientation": "horizontal",
@@ -1258,7 +1258,7 @@
           "y": 7.5
         },
         "out": {
-          "x": 30,
+          "x": 40,
           "y": 7.5
         }
       }
@@ -1268,22 +1268,22 @@
       "type": "valve:control",
       "symbol": "valve_control",
       "position": {
-        "x": 515,
-        "y": 325.0
+        "x": 2480.0,
+        "y": 338.0
       },
       "size": {
-        "width": 50,
-        "height": 50
+        "width": 26,
+        "height": 44
       },
       "orientation": "horizontal",
       "ports": {
         "in": {
           "x": 0,
-          "y": 25.0
+          "y": 22.0
         },
         "out": {
-          "x": 50,
-          "y": 25.0
+          "x": 26,
+          "y": 22.0
         }
       }
     },
@@ -1292,11 +1292,11 @@
       "type": "pipe_segment",
       "symbol": "pipe_straight",
       "position": {
-        "x": 590,
-        "y": 342.5
+        "x": 2521.0,
+        "y": 352.5
       },
       "size": {
-        "width": 30,
+        "width": 40,
         "height": 15
       },
       "orientation": "horizontal",
@@ -1306,7 +1306,7 @@
           "y": 7.5
         },
         "out": {
-          "x": 30,
+          "x": 40,
           "y": 7.5
         }
       }
@@ -1316,22 +1316,22 @@
       "type": "equipment_block",
       "symbol": "equipment_generic",
       "position": {
-        "x": 645,
-        "y": 315.0
+        "x": 2576.0,
+        "y": 330.0
       },
       "size": {
-        "width": 100,
-        "height": 70
+        "width": 80,
+        "height": 60
       },
       "orientation": "horizontal",
       "ports": {
         "in": {
           "x": 0,
-          "y": 35.0
+          "y": 30.0
         },
         "out": {
-          "x": 100,
-          "y": 35.0
+          "x": 80,
+          "y": 30.0
         }
       }
     },
@@ -1340,22 +1340,22 @@
       "type": "valve:control",
       "symbol": "valve_control",
       "position": {
-        "x": 770,
-        "y": 325.0
+        "x": 2671.0,
+        "y": 338.0
       },
       "size": {
-        "width": 50,
-        "height": 50
+        "width": 26,
+        "height": 44
       },
       "orientation": "horizontal",
       "ports": {
         "in": {
           "x": 0,
-          "y": 25.0
+          "y": 22.0
         },
         "out": {
-          "x": 50,
-          "y": 25.0
+          "x": 26,
+          "y": 22.0
         }
       }
     },
@@ -1364,22 +1364,22 @@
       "type": "valve:control",
       "symbol": "valve_control",
       "position": {
-        "x": 1015,
-        "y": 325.0
+        "x": 2005.0,
+        "y": 58.0
       },
       "size": {
-        "width": 50,
-        "height": 50
+        "width": 26,
+        "height": 44
       },
       "orientation": "horizontal",
       "ports": {
         "in": {
           "x": 0,
-          "y": 25.0
+          "y": 22.0
         },
         "out": {
-          "x": 50,
-          "y": 25.0
+          "x": 26,
+          "y": 22.0
         }
       }
     },
@@ -1388,11 +1388,11 @@
       "type": "pipe_segment",
       "symbol": "pipe_straight",
       "position": {
-        "x": 1090,
-        "y": 342.5
+        "x": 2046.0,
+        "y": 72.5
       },
       "size": {
-        "width": 30,
+        "width": 40,
         "height": 15
       },
       "orientation": "horizontal",
@@ -1402,7 +1402,7 @@
           "y": 7.5
         },
         "out": {
-          "x": 30,
+          "x": 40,
           "y": 7.5
         }
       }
@@ -1412,22 +1412,22 @@
       "type": "equipment_block",
       "symbol": "equipment_generic",
       "position": {
-        "x": 1145,
-        "y": 315.0
+        "x": 2101.0,
+        "y": 50.0
       },
       "size": {
-        "width": 100,
-        "height": 70
+        "width": 80,
+        "height": 60
       },
       "orientation": "horizontal",
       "ports": {
         "in": {
           "x": 0,
-          "y": 35.0
+          "y": 30.0
         },
         "out": {
-          "x": 100,
-          "y": 35.0
+          "x": 80,
+          "y": 30.0
         }
       }
     },
@@ -1436,22 +1436,22 @@
       "type": "valve:control",
       "symbol": "valve_control",
       "position": {
-        "x": 1270,
-        "y": 325.0
+        "x": 2196.0,
+        "y": 58.0
       },
       "size": {
-        "width": 50,
-        "height": 50
+        "width": 26,
+        "height": 44
       },
       "orientation": "horizontal",
       "ports": {
         "in": {
           "x": 0,
-          "y": 25.0
+          "y": 22.0
         },
         "out": {
-          "x": 50,
-          "y": 25.0
+          "x": 26,
+          "y": 22.0
         }
       }
     },
@@ -1460,11 +1460,11 @@
       "type": "pipe_segment",
       "symbol": "pipe_straight",
       "position": {
-        "x": 1515,
-        "y": 342.5
+        "x": 2727.0,
+        "y": 352.5
       },
       "size": {
-        "width": 30,
+        "width": 40,
         "height": 15
       },
       "orientation": "horizontal",
@@ -1474,7 +1474,7 @@
           "y": 7.5
         },
         "out": {
-          "x": 30,
+          "x": 40,
           "y": 7.5
         }
       }
@@ -1484,22 +1484,22 @@
       "type": "equipment_block",
       "symbol": "equipment_generic",
       "position": {
-        "x": 1570,
-        "y": 315.0
+        "x": 2782.0,
+        "y": 330.0
       },
       "size": {
-        "width": 100,
-        "height": 70
+        "width": 80,
+        "height": 60
       },
       "orientation": "horizontal",
       "ports": {
         "in": {
           "x": 0,
-          "y": 35.0
+          "y": 30.0
         },
         "out": {
-          "x": 100,
-          "y": 35.0
+          "x": 80,
+          "y": 30.0
         }
       }
     },
@@ -1508,22 +1508,22 @@
       "type": "valve:isolation",
       "symbol": "valve_gate",
       "position": {
-        "x": 1695,
-        "y": 325.0
+        "x": 2877.0,
+        "y": 347.0
       },
       "size": {
-        "width": 50,
-        "height": 50
+        "width": 26,
+        "height": 26
       },
       "orientation": "horizontal",
       "ports": {
         "in": {
           "x": 0,
-          "y": 25.0
+          "y": 13.0
         },
         "out": {
-          "x": 50,
-          "y": 25.0
+          "x": 26,
+          "y": 13.0
         }
       }
     },
@@ -1532,11 +1532,11 @@
       "type": "pipe_segment",
       "symbol": "pipe_straight",
       "position": {
-        "x": 1770,
-        "y": 342.5
+        "x": 2918.0,
+        "y": 352.5
       },
       "size": {
-        "width": 30,
+        "width": 40,
         "height": 15
       },
       "orientation": "horizontal",
@@ -1546,7 +1546,7 @@
           "y": 7.5
         },
         "out": {
-          "x": 30,
+          "x": 40,
           "y": 7.5
         }
       }
@@ -1556,11 +1556,11 @@
       "type": "pipe_segment",
       "symbol": "pipe_straight",
       "position": {
-        "x": 2015,
-        "y": 342.5
+        "x": 50.0,
+        "y": 632.5
       },
       "size": {
-        "width": 30,
+        "width": 40,
         "height": 15
       },
       "orientation": "horizontal",
@@ -1570,7 +1570,7 @@
           "y": 7.5
         },
         "out": {
-          "x": 30,
+          "x": 40,
           "y": 7.5
         }
       }
@@ -1580,22 +1580,22 @@
       "type": "equipment_block",
       "symbol": "equipment_generic",
       "position": {
-        "x": 2070,
-        "y": 315.0
+        "x": 105.0,
+        "y": 610.0
       },
       "size": {
-        "width": 100,
-        "height": 70
+        "width": 80,
+        "height": 60
       },
       "orientation": "horizontal",
       "ports": {
         "in": {
           "x": 0,
-          "y": 35.0
+          "y": 30.0
         },
         "out": {
-          "x": 100,
-          "y": 35.0
+          "x": 80,
+          "y": 30.0
         }
       }
     },
@@ -1604,11 +1604,11 @@
       "type": "pipe_segment",
       "symbol": "pipe_straight",
       "position": {
-        "x": 2195,
-        "y": 342.5
+        "x": 200.0,
+        "y": 632.5
       },
       "size": {
-        "width": 30,
+        "width": 40,
         "height": 15
       },
       "orientation": "horizontal",
@@ -1618,7 +1618,7 @@
           "y": 7.5
         },
         "out": {
-          "x": 30,
+          "x": 40,
           "y": 7.5
         }
       }
@@ -1628,11 +1628,11 @@
       "type": "pipe_segment",
       "symbol": "pipe_straight",
       "position": {
-        "x": 2515,
-        "y": 342.5
+        "x": 1744.0,
+        "y": 72.5
       },
       "size": {
-        "width": 30,
+        "width": 40,
         "height": 15
       },
       "orientation": "horizontal",
@@ -1642,7 +1642,7 @@
           "y": 7.5
         },
         "out": {
-          "x": 30,
+          "x": 40,
           "y": 7.5
         }
       }
@@ -1652,22 +1652,22 @@
       "type": "equipment_block",
       "symbol": "equipment_generic",
       "position": {
-        "x": 2570,
-        "y": 315.0
+        "x": 1799.0,
+        "y": 50.0
       },
       "size": {
-        "width": 100,
-        "height": 70
+        "width": 80,
+        "height": 60
       },
       "orientation": "horizontal",
       "ports": {
         "in": {
           "x": 0,
-          "y": 35.0
+          "y": 30.0
         },
         "out": {
-          "x": 100,
-          "y": 35.0
+          "x": 80,
+          "y": 30.0
         }
       }
     },
@@ -1676,22 +1676,22 @@
       "type": "instrument:flow_meter",
       "symbol": "instrument_flow_meter",
       "position": {
-        "x": 2695,
-        "y": 325.0
+        "x": 1894.0,
+        "y": 67.0
       },
       "size": {
-        "width": 50,
-        "height": 50
+        "width": 26,
+        "height": 26
       },
       "orientation": "horizontal",
       "ports": {
         "in": {
           "x": 0,
-          "y": 25.0
+          "y": 13.0
         },
         "out": {
-          "x": 50,
-          "y": 25.0
+          "x": 26,
+          "y": 13.0
         }
       }
     },
@@ -1700,11 +1700,11 @@
       "type": "pipe_segment",
       "symbol": "pipe_straight",
       "position": {
-        "x": 2770,
-        "y": 342.5
+        "x": 1935.0,
+        "y": 72.5
       },
       "size": {
-        "width": 30,
+        "width": 40,
         "height": 15
       },
       "orientation": "horizontal",
@@ -1714,7 +1714,7 @@
           "y": 7.5
         },
         "out": {
-          "x": 30,
+          "x": 40,
           "y": 7.5
         }
       }
@@ -1724,11 +1724,11 @@
       "type": "pipe_segment",
       "symbol": "pipe_straight",
       "position": {
-        "x": 15,
-        "y": 492.5
+        "x": 270.0,
+        "y": 632.5
       },
       "size": {
-        "width": 30,
+        "width": 40,
         "height": 15
       },
       "orientation": "horizontal",
@@ -1738,7 +1738,7 @@
           "y": 7.5
         },
         "out": {
-          "x": 30,
+          "x": 40,
           "y": 7.5
         }
       }
@@ -1748,22 +1748,22 @@
       "type": "equipment_block",
       "symbol": "equipment_generic",
       "position": {
-        "x": 70,
-        "y": 465.0
+        "x": 325.0,
+        "y": 610.0
       },
       "size": {
-        "width": 100,
-        "height": 70
+        "width": 80,
+        "height": 60
       },
       "orientation": "horizontal",
       "ports": {
         "in": {
           "x": 0,
-          "y": 35.0
+          "y": 30.0
         },
         "out": {
-          "x": 100,
-          "y": 35.0
+          "x": 80,
+          "y": 30.0
         }
       }
     },
@@ -1772,11 +1772,11 @@
       "type": "pipe_segment",
       "symbol": "pipe_straight",
       "position": {
-        "x": 195,
-        "y": 492.5
+        "x": 420.0,
+        "y": 632.5
       },
       "size": {
-        "width": 30,
+        "width": 40,
         "height": 15
       },
       "orientation": "horizontal",
@@ -1786,7 +1786,7 @@
           "y": 7.5
         },
         "out": {
-          "x": 30,
+          "x": 40,
           "y": 7.5
         }
       }
@@ -1796,22 +1796,22 @@
       "type": "valve:control",
       "symbol": "valve_control",
       "position": {
-        "x": 515,
-        "y": 475.0
+        "x": 490.0,
+        "y": 618.0
       },
       "size": {
-        "width": 50,
-        "height": 50
+        "width": 26,
+        "height": 44
       },
       "orientation": "horizontal",
       "ports": {
         "in": {
           "x": 0,
-          "y": 25.0
+          "y": 22.0
         },
         "out": {
-          "x": 50,
-          "y": 25.0
+          "x": 26,
+          "y": 22.0
         }
       }
     },
@@ -1820,11 +1820,11 @@
       "type": "pipe_segment",
       "symbol": "pipe_straight",
       "position": {
-        "x": 590,
-        "y": 492.5
+        "x": 531.0,
+        "y": 632.5
       },
       "size": {
-        "width": 30,
+        "width": 40,
         "height": 15
       },
       "orientation": "horizontal",
@@ -1834,7 +1834,7 @@
           "y": 7.5
         },
         "out": {
-          "x": 30,
+          "x": 40,
           "y": 7.5
         }
       }
@@ -1844,22 +1844,22 @@
       "type": "equipment_block",
       "symbol": "equipment_generic",
       "position": {
-        "x": 645,
-        "y": 465.0
+        "x": 586.0,
+        "y": 610.0
       },
       "size": {
-        "width": 100,
-        "height": 70
+        "width": 80,
+        "height": 60
       },
       "orientation": "horizontal",
       "ports": {
         "in": {
           "x": 0,
-          "y": 35.0
+          "y": 30.0
         },
         "out": {
-          "x": 100,
-          "y": 35.0
+          "x": 80,
+          "y": 30.0
         }
       }
     },
@@ -1868,22 +1868,22 @@
       "type": "valve:control",
       "symbol": "valve_control",
       "position": {
-        "x": 770,
-        "y": 475.0
+        "x": 681.0,
+        "y": 618.0
       },
       "size": {
-        "width": 50,
-        "height": 50
+        "width": 26,
+        "height": 44
       },
       "orientation": "horizontal",
       "ports": {
         "in": {
           "x": 0,
-          "y": 25.0
+          "y": 22.0
         },
         "out": {
-          "x": 50,
-          "y": 25.0
+          "x": 26,
+          "y": 22.0
         }
       }
     },
@@ -1892,11 +1892,11 @@
       "type": "pipe_segment",
       "symbol": "pipe_straight",
       "position": {
-        "x": 1015,
-        "y": 492.5
+        "x": 2418.0,
+        "y": 72.5
       },
       "size": {
-        "width": 30,
+        "width": 40,
         "height": 15
       },
       "orientation": "horizontal",
@@ -1906,7 +1906,7 @@
           "y": 7.5
         },
         "out": {
-          "x": 30,
+          "x": 40,
           "y": 7.5
         }
       }
@@ -1916,22 +1916,22 @@
       "type": "equipment_block",
       "symbol": "equipment_generic",
       "position": {
-        "x": 1070,
-        "y": 465.0
+        "x": 2473.0,
+        "y": 50.0
       },
       "size": {
-        "width": 100,
-        "height": 70
+        "width": 80,
+        "height": 60
       },
       "orientation": "horizontal",
       "ports": {
         "in": {
           "x": 0,
-          "y": 35.0
+          "y": 30.0
         },
         "out": {
-          "x": 100,
-          "y": 35.0
+          "x": 80,
+          "y": 30.0
         }
       }
     },
@@ -1940,22 +1940,22 @@
       "type": "valve:isolation",
       "symbol": "valve_gate",
       "position": {
-        "x": 1195,
-        "y": 475.0
+        "x": 2568.0,
+        "y": 67.0
       },
       "size": {
-        "width": 50,
-        "height": 50
+        "width": 26,
+        "height": 26
       },
       "orientation": "horizontal",
       "ports": {
         "in": {
           "x": 0,
-          "y": 25.0
+          "y": 13.0
         },
         "out": {
-          "x": 50,
-          "y": 25.0
+          "x": 26,
+          "y": 13.0
         }
       }
     },
@@ -1964,11 +1964,11 @@
       "type": "pipe_segment",
       "symbol": "pipe_straight",
       "position": {
-        "x": 1270,
-        "y": 492.5
+        "x": 2609.0,
+        "y": 72.5
       },
       "size": {
-        "width": 30,
+        "width": 40,
         "height": 15
       },
       "orientation": "horizontal",
@@ -1978,7 +1978,7 @@
           "y": 7.5
         },
         "out": {
-          "x": 30,
+          "x": 40,
           "y": 7.5
         }
       }
@@ -1988,22 +1988,22 @@
       "type": "valve:control",
       "symbol": "valve_control",
       "position": {
-        "x": 1515,
-        "y": 475.0
+        "x": 1165.0,
+        "y": 58.0
       },
       "size": {
-        "width": 50,
-        "height": 50
+        "width": 26,
+        "height": 44
       },
       "orientation": "horizontal",
       "ports": {
         "in": {
           "x": 0,
-          "y": 25.0
+          "y": 22.0
         },
         "out": {
-          "x": 50,
-          "y": 25.0
+          "x": 26,
+          "y": 22.0
         }
       }
     },
@@ -2012,11 +2012,11 @@
       "type": "pipe_segment",
       "symbol": "pipe_straight",
       "position": {
-        "x": 1590,
-        "y": 492.5
+        "x": 1206.0,
+        "y": 72.5
       },
       "size": {
-        "width": 30,
+        "width": 40,
         "height": 15
       },
       "orientation": "horizontal",
@@ -2026,7 +2026,7 @@
           "y": 7.5
         },
         "out": {
-          "x": 30,
+          "x": 40,
           "y": 7.5
         }
       }
@@ -2036,22 +2036,22 @@
       "type": "equipment_block",
       "symbol": "equipment_generic",
       "position": {
-        "x": 1645,
-        "y": 465.0
+        "x": 1261.0,
+        "y": 50.0
       },
       "size": {
-        "width": 100,
-        "height": 70
+        "width": 80,
+        "height": 60
       },
       "orientation": "horizontal",
       "ports": {
         "in": {
           "x": 0,
-          "y": 35.0
+          "y": 30.0
         },
         "out": {
-          "x": 100,
-          "y": 35.0
+          "x": 80,
+          "y": 30.0
         }
       }
     },
@@ -2060,22 +2060,22 @@
       "type": "valve:control",
       "symbol": "valve_control",
       "position": {
-        "x": 1770,
-        "y": 475.0
+        "x": 1356.0,
+        "y": 58.0
       },
       "size": {
-        "width": 50,
-        "height": 50
+        "width": 26,
+        "height": 44
       },
       "orientation": "horizontal",
       "ports": {
         "in": {
           "x": 0,
-          "y": 25.0
+          "y": 22.0
         },
         "out": {
-          "x": 50,
-          "y": 25.0
+          "x": 26,
+          "y": 22.0
         }
       }
     },
@@ -2084,11 +2084,11 @@
       "type": "pipe_segment",
       "symbol": "pipe_straight",
       "position": {
-        "x": 2015,
-        "y": 492.5
+        "x": 737.0,
+        "y": 632.5
       },
       "size": {
-        "width": 30,
+        "width": 40,
         "height": 15
       },
       "orientation": "horizontal",
@@ -2098,7 +2098,7 @@
           "y": 7.5
         },
         "out": {
-          "x": 30,
+          "x": 40,
           "y": 7.5
         }
       }
@@ -2108,22 +2108,22 @@
       "type": "equipment_block",
       "symbol": "equipment_generic",
       "position": {
-        "x": 2070,
-        "y": 465.0
+        "x": 792.0,
+        "y": 610.0
       },
       "size": {
-        "width": 100,
-        "height": 70
+        "width": 80,
+        "height": 60
       },
       "orientation": "horizontal",
       "ports": {
         "in": {
           "x": 0,
-          "y": 35.0
+          "y": 30.0
         },
         "out": {
-          "x": 100,
-          "y": 35.0
+          "x": 80,
+          "y": 30.0
         }
       }
     },
@@ -2132,22 +2132,22 @@
       "type": "valve:isolation",
       "symbol": "valve_gate",
       "position": {
-        "x": 2195,
-        "y": 475.0
+        "x": 887.0,
+        "y": 627.0
       },
       "size": {
-        "width": 50,
-        "height": 50
+        "width": 26,
+        "height": 26
       },
       "orientation": "horizontal",
       "ports": {
         "in": {
           "x": 0,
-          "y": 25.0
+          "y": 13.0
         },
         "out": {
-          "x": 50,
-          "y": 25.0
+          "x": 26,
+          "y": 13.0
         }
       }
     },
@@ -2156,11 +2156,11 @@
       "type": "pipe_segment",
       "symbol": "pipe_straight",
       "position": {
-        "x": 2270,
-        "y": 492.5
+        "x": 928.0,
+        "y": 632.5
       },
       "size": {
-        "width": 30,
+        "width": 40,
         "height": 15
       },
       "orientation": "horizontal",
@@ -2170,7 +2170,7 @@
           "y": 7.5
         },
         "out": {
-          "x": 30,
+          "x": 40,
           "y": 7.5
         }
       }
@@ -2180,11 +2180,11 @@
       "type": "pipe_segment",
       "symbol": "pipe_straight",
       "position": {
-        "x": 2515,
-        "y": 492.5
+        "x": 998.0,
+        "y": 632.5
       },
       "size": {
-        "width": 30,
+        "width": 40,
         "height": 15
       },
       "orientation": "horizontal",
@@ -2194,7 +2194,7 @@
           "y": 7.5
         },
         "out": {
-          "x": 30,
+          "x": 40,
           "y": 7.5
         }
       }
@@ -2204,22 +2204,22 @@
       "type": "equipment_block",
       "symbol": "equipment_generic",
       "position": {
-        "x": 2570,
-        "y": 465.0
+        "x": 1053.0,
+        "y": 610.0
       },
       "size": {
-        "width": 100,
-        "height": 70
+        "width": 80,
+        "height": 60
       },
       "orientation": "horizontal",
       "ports": {
         "in": {
           "x": 0,
-          "y": 35.0
+          "y": 30.0
         },
         "out": {
-          "x": 100,
-          "y": 35.0
+          "x": 80,
+          "y": 30.0
         }
       }
     },
@@ -2228,11 +2228,11 @@
       "type": "pipe_segment",
       "symbol": "pipe_straight",
       "position": {
-        "x": 2695,
-        "y": 492.5
+        "x": 1148.0,
+        "y": 632.5
       },
       "size": {
-        "width": 30,
+        "width": 40,
         "height": 15
       },
       "orientation": "horizontal",
@@ -2242,7 +2242,7 @@
           "y": 7.5
         },
         "out": {
-          "x": 30,
+          "x": 40,
           "y": 7.5
         }
       }
@@ -2252,11 +2252,11 @@
       "type": "pipe_segment",
       "symbol": "pipe_straight",
       "position": {
-        "x": 15,
-        "y": 642.5
+        "x": 1218.0,
+        "y": 632.5
       },
       "size": {
-        "width": 30,
+        "width": 40,
         "height": 15
       },
       "orientation": "horizontal",
@@ -2266,7 +2266,7 @@
           "y": 7.5
         },
         "out": {
-          "x": 30,
+          "x": 40,
           "y": 7.5
         }
       }
@@ -2276,22 +2276,22 @@
       "type": "equipment_block",
       "symbol": "equipment_generic",
       "position": {
-        "x": 70,
-        "y": 615.0
+        "x": 1273.0,
+        "y": 610.0
       },
       "size": {
-        "width": 100,
-        "height": 70
+        "width": 80,
+        "height": 60
       },
       "orientation": "horizontal",
       "ports": {
         "in": {
           "x": 0,
-          "y": 35.0
+          "y": 30.0
         },
         "out": {
-          "x": 100,
-          "y": 35.0
+          "x": 80,
+          "y": 30.0
         }
       }
     },
@@ -2300,11 +2300,11 @@
       "type": "pipe_segment",
       "symbol": "pipe_straight",
       "position": {
-        "x": 195,
-        "y": 642.5
+        "x": 1368.0,
+        "y": 632.5
       },
       "size": {
-        "width": 30,
+        "width": 40,
         "height": 15
       },
       "orientation": "horizontal",
@@ -2314,7 +2314,7 @@
           "y": 7.5
         },
         "out": {
-          "x": 30,
+          "x": 40,
           "y": 7.5
         }
       }
@@ -2324,11 +2324,11 @@
       "type": "pipe_segment",
       "symbol": "pipe_straight",
       "position": {
-        "x": 515,
-        "y": 615.0
+        "x": 1438.0,
+        "y": 610.0
       },
       "size": {
-        "width": 30,
+        "width": 40,
         "height": 15
       },
       "orientation": "horizontal",
@@ -2338,7 +2338,7 @@
           "y": 7.5
         },
         "out": {
-          "x": 30,
+          "x": 40,
           "y": 7.5
         }
       }
@@ -2348,11 +2348,11 @@
       "type": "pipe_segment",
       "symbol": "pipe_straight",
       "position": {
-        "x": 570,
-        "y": 615.0
+        "x": 1493.0,
+        "y": 610.0
       },
       "size": {
-        "width": 30,
+        "width": 40,
         "height": 15
       },
       "orientation": "horizontal",
@@ -2362,7 +2362,7 @@
           "y": 7.5
         },
         "out": {
-          "x": 30,
+          "x": 40,
           "y": 7.5
         }
       }
@@ -2372,11 +2372,11 @@
       "type": "pipe_segment",
       "symbol": "pipe_straight",
       "position": {
-        "x": 1015,
-        "y": 642.5
+        "x": 1563.0,
+        "y": 632.5
       },
       "size": {
-        "width": 30,
+        "width": 40,
         "height": 15
       },
       "orientation": "horizontal",
@@ -2386,7 +2386,7 @@
           "y": 7.5
         },
         "out": {
-          "x": 30,
+          "x": 40,
           "y": 7.5
         }
       }
@@ -2396,22 +2396,22 @@
       "type": "equipment_block",
       "symbol": "equipment_generic",
       "position": {
-        "x": 1070,
-        "y": 615.0
+        "x": 1618.0,
+        "y": 610.0
       },
       "size": {
-        "width": 100,
-        "height": 70
+        "width": 80,
+        "height": 60
       },
       "orientation": "horizontal",
       "ports": {
         "in": {
           "x": 0,
-          "y": 35.0
+          "y": 30.0
         },
         "out": {
-          "x": 100,
-          "y": 35.0
+          "x": 80,
+          "y": 30.0
         }
       }
     },
@@ -2420,22 +2420,22 @@
       "type": "instrument:flow_meter",
       "symbol": "instrument_flow_meter",
       "position": {
-        "x": 1195,
-        "y": 625.0
+        "x": 1713.0,
+        "y": 627.0
       },
       "size": {
-        "width": 50,
-        "height": 50
+        "width": 26,
+        "height": 26
       },
       "orientation": "horizontal",
       "ports": {
         "in": {
           "x": 0,
-          "y": 25.0
+          "y": 13.0
         },
         "out": {
-          "x": 50,
-          "y": 25.0
+          "x": 26,
+          "y": 13.0
         }
       }
     },
@@ -2444,11 +2444,11 @@
       "type": "pipe_segment",
       "symbol": "pipe_straight",
       "position": {
-        "x": 1270,
-        "y": 642.5
+        "x": 1754.0,
+        "y": 632.5
       },
       "size": {
-        "width": 30,
+        "width": 40,
         "height": 15
       },
       "orientation": "horizontal",
@@ -2458,7 +2458,7 @@
           "y": 7.5
         },
         "out": {
-          "x": 30,
+          "x": 40,
           "y": 7.5
         }
       }
@@ -2468,11 +2468,11 @@
       "type": "pipe_segment",
       "symbol": "pipe_straight",
       "position": {
-        "x": 1515,
-        "y": 642.5
+        "x": 1824.0,
+        "y": 632.5
       },
       "size": {
-        "width": 30,
+        "width": 40,
         "height": 15
       },
       "orientation": "horizontal",
@@ -2482,7 +2482,7 @@
           "y": 7.5
         },
         "out": {
-          "x": 30,
+          "x": 40,
           "y": 7.5
         }
       }
@@ -2492,22 +2492,22 @@
       "type": "equipment_block",
       "symbol": "equipment_generic",
       "position": {
-        "x": 1570,
-        "y": 615.0
+        "x": 1879.0,
+        "y": 610.0
       },
       "size": {
-        "width": 100,
-        "height": 70
+        "width": 80,
+        "height": 60
       },
       "orientation": "horizontal",
       "ports": {
         "in": {
           "x": 0,
-          "y": 35.0
+          "y": 30.0
         },
         "out": {
-          "x": 100,
-          "y": 35.0
+          "x": 80,
+          "y": 30.0
         }
       }
     },
@@ -2516,22 +2516,22 @@
       "type": "valve:isolation",
       "symbol": "valve_gate",
       "position": {
-        "x": 1695,
-        "y": 625.0
+        "x": 1974.0,
+        "y": 627.0
       },
       "size": {
-        "width": 50,
-        "height": 50
+        "width": 26,
+        "height": 26
       },
       "orientation": "horizontal",
       "ports": {
         "in": {
           "x": 0,
-          "y": 25.0
+          "y": 13.0
         },
         "out": {
-          "x": 50,
-          "y": 25.0
+          "x": 26,
+          "y": 13.0
         }
       }
     },
@@ -2540,11 +2540,11 @@
       "type": "pipe_segment",
       "symbol": "pipe_straight",
       "position": {
-        "x": 1770,
-        "y": 642.5
+        "x": 2015.0,
+        "y": 632.5
       },
       "size": {
-        "width": 30,
+        "width": 40,
         "height": 15
       },
       "orientation": "horizontal",
@@ -2554,7 +2554,7 @@
           "y": 7.5
         },
         "out": {
-          "x": 30,
+          "x": 40,
           "y": 7.5
         }
       }
@@ -2564,11 +2564,11 @@
       "type": "pipe_segment",
       "symbol": "pipe_straight",
       "position": {
-        "x": 2015,
-        "y": 642.5
+        "x": 477.0,
+        "y": 72.5
       },
       "size": {
-        "width": 30,
+        "width": 40,
         "height": 15
       },
       "orientation": "horizontal",
@@ -2578,7 +2578,7 @@
           "y": 7.5
         },
         "out": {
-          "x": 30,
+          "x": 40,
           "y": 7.5
         }
       }
@@ -2588,22 +2588,22 @@
       "type": "equipment_block",
       "symbol": "equipment_generic",
       "position": {
-        "x": 2070,
-        "y": 615.0
+        "x": 532.0,
+        "y": 50.0
       },
       "size": {
-        "width": 100,
-        "height": 70
+        "width": 80,
+        "height": 60
       },
       "orientation": "horizontal",
       "ports": {
         "in": {
           "x": 0,
-          "y": 35.0
+          "y": 30.0
         },
         "out": {
-          "x": 100,
-          "y": 35.0
+          "x": 80,
+          "y": 30.0
         }
       }
     },
@@ -2612,22 +2612,22 @@
       "type": "valve:isolation",
       "symbol": "valve_gate",
       "position": {
-        "x": 2195,
-        "y": 625.0
+        "x": 627.0,
+        "y": 67.0
       },
       "size": {
-        "width": 50,
-        "height": 50
+        "width": 26,
+        "height": 26
       },
       "orientation": "horizontal",
       "ports": {
         "in": {
           "x": 0,
-          "y": 25.0
+          "y": 13.0
         },
         "out": {
-          "x": 50,
-          "y": 25.0
+          "x": 26,
+          "y": 13.0
         }
       }
     },
@@ -2636,11 +2636,11 @@
       "type": "pipe_segment",
       "symbol": "pipe_straight",
       "position": {
-        "x": 2270,
-        "y": 642.5
+        "x": 668.0,
+        "y": 72.5
       },
       "size": {
-        "width": 30,
+        "width": 40,
         "height": 15
       },
       "orientation": "horizontal",
@@ -2650,7 +2650,7 @@
           "y": 7.5
         },
         "out": {
-          "x": 30,
+          "x": 40,
           "y": 7.5
         }
       }
@@ -2660,11 +2660,11 @@
       "type": "pipe_segment",
       "symbol": "pipe_straight",
       "position": {
-        "x": 2515,
-        "y": 642.5
+        "x": 2085.0,
+        "y": 632.5
       },
       "size": {
-        "width": 30,
+        "width": 40,
         "height": 15
       },
       "orientation": "horizontal",
@@ -2674,7 +2674,7 @@
           "y": 7.5
         },
         "out": {
-          "x": 30,
+          "x": 40,
           "y": 7.5
         }
       }
@@ -2684,22 +2684,22 @@
       "type": "equipment_block",
       "symbol": "equipment_generic",
       "position": {
-        "x": 2570,
-        "y": 615.0
+        "x": 2140.0,
+        "y": 610.0
       },
       "size": {
-        "width": 100,
-        "height": 70
+        "width": 80,
+        "height": 60
       },
       "orientation": "horizontal",
       "ports": {
         "in": {
           "x": 0,
-          "y": 35.0
+          "y": 30.0
         },
         "out": {
-          "x": 100,
-          "y": 35.0
+          "x": 80,
+          "y": 30.0
         }
       }
     },
@@ -2708,22 +2708,22 @@
       "type": "equipment_block",
       "symbol": "equipment_generic",
       "position": {
-        "x": 2695,
-        "y": 615.0
+        "x": 2235.0,
+        "y": 610.0
       },
       "size": {
-        "width": 100,
-        "height": 70
+        "width": 80,
+        "height": 60
       },
       "orientation": "horizontal",
       "ports": {
         "in": {
           "x": 0,
-          "y": 35.0
+          "y": 30.0
         },
         "out": {
-          "x": 100,
-          "y": 35.0
+          "x": 80,
+          "y": 30.0
         }
       }
     },
@@ -2732,22 +2732,22 @@
       "type": "valve:isolation",
       "symbol": "valve_gate",
       "position": {
-        "x": 2820,
-        "y": 625.0
+        "x": 2330.0,
+        "y": 627.0
       },
       "size": {
-        "width": 50,
-        "height": 50
+        "width": 26,
+        "height": 26
       },
       "orientation": "horizontal",
       "ports": {
         "in": {
           "x": 0,
-          "y": 25.0
+          "y": 13.0
         },
         "out": {
-          "x": 50,
-          "y": 25.0
+          "x": 26,
+          "y": 13.0
         }
       }
     },
@@ -2756,11 +2756,11 @@
       "type": "pipe_segment",
       "symbol": "pipe_straight",
       "position": {
-        "x": 2895,
-        "y": 642.5
+        "x": 2371.0,
+        "y": 632.5
       },
       "size": {
-        "width": 30,
+        "width": 40,
         "height": 15
       },
       "orientation": "horizontal",
@@ -2770,7 +2770,7 @@
           "y": 7.5
         },
         "out": {
-          "x": 30,
+          "x": 40,
           "y": 7.5
         }
       }
@@ -2780,11 +2780,11 @@
       "type": "pipe_segment",
       "symbol": "pipe_straight",
       "position": {
-        "x": 15,
-        "y": 792.5
+        "x": 2441.0,
+        "y": 632.5
       },
       "size": {
-        "width": 30,
+        "width": 40,
         "height": 15
       },
       "orientation": "horizontal",
@@ -2794,7 +2794,7 @@
           "y": 7.5
         },
         "out": {
-          "x": 30,
+          "x": 40,
           "y": 7.5
         }
       }
@@ -2804,22 +2804,22 @@
       "type": "equipment_block",
       "symbol": "equipment_generic",
       "position": {
-        "x": 70,
-        "y": 765.0
+        "x": 2496.0,
+        "y": 610.0
       },
       "size": {
-        "width": 100,
-        "height": 70
+        "width": 80,
+        "height": 60
       },
       "orientation": "horizontal",
       "ports": {
         "in": {
           "x": 0,
-          "y": 35.0
+          "y": 30.0
         },
         "out": {
-          "x": 100,
-          "y": 35.0
+          "x": 80,
+          "y": 30.0
         }
       }
     },
@@ -2828,11 +2828,11 @@
       "type": "pipe_segment",
       "symbol": "pipe_straight",
       "position": {
-        "x": 195,
-        "y": 792.5
+        "x": 2591.0,
+        "y": 632.5
       },
       "size": {
-        "width": 30,
+        "width": 40,
         "height": 15
       },
       "orientation": "horizontal",
@@ -2842,7 +2842,7 @@
           "y": 7.5
         },
         "out": {
-          "x": 30,
+          "x": 40,
           "y": 7.5
         }
       }
@@ -2852,11 +2852,11 @@
       "type": "pipe_segment",
       "symbol": "pipe_straight",
       "position": {
-        "x": 515,
-        "y": 792.5
+        "x": 2661.0,
+        "y": 632.5
       },
       "size": {
-        "width": 30,
+        "width": 40,
         "height": 15
       },
       "orientation": "horizontal",
@@ -2866,7 +2866,7 @@
           "y": 7.5
         },
         "out": {
-          "x": 30,
+          "x": 40,
           "y": 7.5
         }
       }
@@ -2876,22 +2876,22 @@
       "type": "equipment_block",
       "symbol": "equipment_generic",
       "position": {
-        "x": 570,
-        "y": 765.0
+        "x": 2716.0,
+        "y": 610.0
       },
       "size": {
-        "width": 100,
-        "height": 70
+        "width": 80,
+        "height": 60
       },
       "orientation": "horizontal",
       "ports": {
         "in": {
           "x": 0,
-          "y": 35.0
+          "y": 30.0
         },
         "out": {
-          "x": 100,
-          "y": 35.0
+          "x": 80,
+          "y": 30.0
         }
       }
     },
@@ -2900,22 +2900,22 @@
       "type": "valve:isolation",
       "symbol": "valve_gate",
       "position": {
-        "x": 695,
-        "y": 775.0
+        "x": 2811.0,
+        "y": 627.0
       },
       "size": {
-        "width": 50,
-        "height": 50
+        "width": 26,
+        "height": 26
       },
       "orientation": "horizontal",
       "ports": {
         "in": {
           "x": 0,
-          "y": 25.0
+          "y": 13.0
         },
         "out": {
-          "x": 50,
-          "y": 25.0
+          "x": 26,
+          "y": 13.0
         }
       }
     },
@@ -2924,11 +2924,11 @@
       "type": "pipe_segment",
       "symbol": "pipe_straight",
       "position": {
-        "x": 770,
-        "y": 792.5
+        "x": 2852.0,
+        "y": 632.5
       },
       "size": {
-        "width": 30,
+        "width": 40,
         "height": 15
       },
       "orientation": "horizontal",
@@ -2938,7 +2938,7 @@
           "y": 7.5
         },
         "out": {
-          "x": 30,
+          "x": 40,
           "y": 7.5
         }
       }
@@ -2948,22 +2948,22 @@
       "type": "valve:control",
       "symbol": "valve_control",
       "position": {
-        "x": 1015,
-        "y": 775.0
+        "x": 2922.0,
+        "y": 618.0
       },
       "size": {
-        "width": 50,
-        "height": 50
+        "width": 26,
+        "height": 44
       },
       "orientation": "horizontal",
       "ports": {
         "in": {
           "x": 0,
-          "y": 25.0
+          "y": 22.0
         },
         "out": {
-          "x": 50,
-          "y": 25.0
+          "x": 26,
+          "y": 22.0
         }
       }
     },
@@ -2972,11 +2972,11 @@
       "type": "pipe_segment",
       "symbol": "pipe_straight",
       "position": {
-        "x": 1090,
-        "y": 792.5
+        "x": 2963.0,
+        "y": 632.5
       },
       "size": {
-        "width": 30,
+        "width": 40,
         "height": 15
       },
       "orientation": "horizontal",
@@ -2986,7 +2986,7 @@
           "y": 7.5
         },
         "out": {
-          "x": 30,
+          "x": 40,
           "y": 7.5
         }
       }
@@ -2996,22 +2996,22 @@
       "type": "equipment_block",
       "symbol": "equipment_generic",
       "position": {
-        "x": 1145,
-        "y": 765.0
+        "x": 3018.0,
+        "y": 610.0
       },
       "size": {
-        "width": 100,
-        "height": 70
+        "width": 80,
+        "height": 60
       },
       "orientation": "horizontal",
       "ports": {
         "in": {
           "x": 0,
-          "y": 35.0
+          "y": 30.0
         },
         "out": {
-          "x": 100,
-          "y": 35.0
+          "x": 80,
+          "y": 30.0
         }
       }
     },
@@ -3020,22 +3020,22 @@
       "type": "valve:control",
       "symbol": "valve_control",
       "position": {
-        "x": 1270,
-        "y": 775.0
+        "x": 3113.0,
+        "y": 618.0
       },
       "size": {
-        "width": 50,
-        "height": 50
+        "width": 26,
+        "height": 44
       },
       "orientation": "horizontal",
       "ports": {
         "in": {
           "x": 0,
-          "y": 25.0
+          "y": 22.0
         },
         "out": {
-          "x": 50,
-          "y": 25.0
+          "x": 26,
+          "y": 22.0
         }
       }
     },
@@ -3044,11 +3044,11 @@
       "type": "pipe_segment",
       "symbol": "pipe_straight",
       "position": {
-        "x": 1515,
-        "y": 792.5
+        "x": 50.0,
+        "y": 912.5
       },
       "size": {
-        "width": 30,
+        "width": 40,
         "height": 15
       },
       "orientation": "horizontal",
@@ -3058,7 +3058,7 @@
           "y": 7.5
         },
         "out": {
-          "x": 30,
+          "x": 40,
           "y": 7.5
         }
       }
@@ -3068,22 +3068,22 @@
       "type": "equipment_block",
       "symbol": "equipment_generic",
       "position": {
-        "x": 1570,
-        "y": 765.0
+        "x": 105.0,
+        "y": 890.0
       },
       "size": {
-        "width": 100,
-        "height": 70
+        "width": 80,
+        "height": 60
       },
       "orientation": "horizontal",
       "ports": {
         "in": {
           "x": 0,
-          "y": 35.0
+          "y": 30.0
         },
         "out": {
-          "x": 100,
-          "y": 35.0
+          "x": 80,
+          "y": 30.0
         }
       }
     },
@@ -3092,22 +3092,22 @@
       "type": "valve:isolation",
       "symbol": "valve_gate",
       "position": {
-        "x": 1695,
-        "y": 775.0
+        "x": 200.0,
+        "y": 907.0
       },
       "size": {
-        "width": 50,
-        "height": 50
+        "width": 26,
+        "height": 26
       },
       "orientation": "horizontal",
       "ports": {
         "in": {
           "x": 0,
-          "y": 25.0
+          "y": 13.0
         },
         "out": {
-          "x": 50,
-          "y": 25.0
+          "x": 26,
+          "y": 13.0
         }
       }
     },
@@ -3116,11 +3116,11 @@
       "type": "pipe_segment",
       "symbol": "pipe_straight",
       "position": {
-        "x": 1770,
-        "y": 792.5
+        "x": 241.0,
+        "y": 912.5
       },
       "size": {
-        "width": 30,
+        "width": 40,
         "height": 15
       },
       "orientation": "horizontal",
@@ -3130,7 +3130,7 @@
           "y": 7.5
         },
         "out": {
-          "x": 30,
+          "x": 40,
           "y": 7.5
         }
       }
@@ -3140,11 +3140,11 @@
       "type": "pipe_segment",
       "symbol": "pipe_straight",
       "position": {
-        "x": 15,
-        "y": 1012.5
+        "x": 311.0,
+        "y": 55.5
       },
       "size": {
-        "width": 30,
+        "width": 40,
         "height": 15
       },
       "orientation": "horizontal",
@@ -3154,7 +3154,7 @@
           "y": 7.5
         },
         "out": {
-          "x": 30,
+          "x": 40,
           "y": 7.5
         }
       }
@@ -3164,22 +3164,22 @@
       "type": "valve:isolation",
       "symbol": "valve_gate",
       "position": {
-        "x": 70,
-        "y": 995.0
+        "x": 366.0,
+        "y": 50.0
       },
       "size": {
-        "width": 50,
-        "height": 50
+        "width": 26,
+        "height": 26
       },
       "orientation": "horizontal",
       "ports": {
         "in": {
           "x": 0,
-          "y": 25.0
+          "y": 13.0
         },
         "out": {
-          "x": 50,
-          "y": 25.0
+          "x": 26,
+          "y": 13.0
         }
       }
     },
@@ -3188,11 +3188,11 @@
       "type": "pipe_segment",
       "symbol": "pipe_straight",
       "position": {
-        "x": 145,
-        "y": 1012.5
+        "x": 407.0,
+        "y": 55.5
       },
       "size": {
-        "width": 30,
+        "width": 40,
         "height": 15
       },
       "orientation": "horizontal",
@@ -3202,7 +3202,7 @@
           "y": 7.5
         },
         "out": {
-          "x": 30,
+          "x": 40,
           "y": 7.5
         }
       }
@@ -3212,11 +3212,11 @@
       "type": "pipe_segment",
       "symbol": "pipe_straight",
       "position": {
-        "x": 265,
-        "y": 1012.5
+        "x": 999.0,
+        "y": 55.5
       },
       "size": {
-        "width": 30,
+        "width": 40,
         "height": 15
       },
       "orientation": "horizontal",
@@ -3226,7 +3226,7 @@
           "y": 7.5
         },
         "out": {
-          "x": 30,
+          "x": 40,
           "y": 7.5
         }
       }
@@ -3236,22 +3236,22 @@
       "type": "instrument:flow_meter",
       "symbol": "instrument_flow_meter",
       "position": {
-        "x": 320,
-        "y": 995.0
+        "x": 1054.0,
+        "y": 50.0
       },
       "size": {
-        "width": 50,
-        "height": 50
+        "width": 26,
+        "height": 26
       },
       "orientation": "horizontal",
       "ports": {
         "in": {
           "x": 0,
-          "y": 25.0
+          "y": 13.0
         },
         "out": {
-          "x": 50,
-          "y": 25.0
+          "x": 26,
+          "y": 13.0
         }
       }
     },
@@ -3260,11 +3260,11 @@
       "type": "pipe_segment",
       "symbol": "pipe_straight",
       "position": {
-        "x": 395,
-        "y": 1012.5
+        "x": 1095.0,
+        "y": 55.5
       },
       "size": {
-        "width": 30,
+        "width": 40,
         "height": 15
       },
       "orientation": "horizontal",
@@ -3274,7 +3274,7 @@
           "y": 7.5
         },
         "out": {
-          "x": 30,
+          "x": 40,
           "y": 7.5
         }
       }
@@ -3284,11 +3284,11 @@
       "type": "pipe_segment",
       "symbol": "pipe_straight",
       "position": {
-        "x": 515,
-        "y": 1012.5
+        "x": 1578.0,
+        "y": 55.5
       },
       "size": {
-        "width": 30,
+        "width": 40,
         "height": 15
       },
       "orientation": "horizontal",
@@ -3298,7 +3298,7 @@
           "y": 7.5
         },
         "out": {
-          "x": 30,
+          "x": 40,
           "y": 7.5
         }
       }
@@ -3308,22 +3308,22 @@
       "type": "instrument:flow_meter",
       "symbol": "instrument_flow_meter",
       "position": {
-        "x": 570,
-        "y": 995.0
+        "x": 1633.0,
+        "y": 50.0
       },
       "size": {
-        "width": 50,
-        "height": 50
+        "width": 26,
+        "height": 26
       },
       "orientation": "horizontal",
       "ports": {
         "in": {
           "x": 0,
-          "y": 25.0
+          "y": 13.0
         },
         "out": {
-          "x": 50,
-          "y": 25.0
+          "x": 26,
+          "y": 13.0
         }
       }
     },
@@ -3332,11 +3332,11 @@
       "type": "pipe_segment",
       "symbol": "pipe_straight",
       "position": {
-        "x": 645,
-        "y": 1012.5
+        "x": 1674.0,
+        "y": 55.5
       },
       "size": {
-        "width": 30,
+        "width": 40,
         "height": 15
       },
       "orientation": "horizontal",
@@ -3346,7 +3346,7 @@
           "y": 7.5
         },
         "out": {
-          "x": 30,
+          "x": 40,
           "y": 7.5
         }
       }
@@ -3356,11 +3356,11 @@
       "type": "pipe_segment",
       "symbol": "pipe_straight",
       "position": {
-        "x": 765,
-        "y": 1012.5
+        "x": 2252.0,
+        "y": 55.5
       },
       "size": {
-        "width": 30,
+        "width": 40,
         "height": 15
       },
       "orientation": "horizontal",
@@ -3370,7 +3370,7 @@
           "y": 7.5
         },
         "out": {
-          "x": 30,
+          "x": 40,
           "y": 7.5
         }
       }
@@ -3380,22 +3380,22 @@
       "type": "valve:isolation",
       "symbol": "valve_gate",
       "position": {
-        "x": 820,
-        "y": 995.0
+        "x": 2307.0,
+        "y": 50.0
       },
       "size": {
-        "width": 50,
-        "height": 50
+        "width": 26,
+        "height": 26
       },
       "orientation": "horizontal",
       "ports": {
         "in": {
           "x": 0,
-          "y": 25.0
+          "y": 13.0
         },
         "out": {
-          "x": 50,
-          "y": 25.0
+          "x": 26,
+          "y": 13.0
         }
       }
     },
@@ -3404,11 +3404,11 @@
       "type": "pipe_segment",
       "symbol": "pipe_straight",
       "position": {
-        "x": 895,
-        "y": 1012.5
+        "x": 2348.0,
+        "y": 55.5
       },
       "size": {
-        "width": 30,
+        "width": 40,
         "height": 15
       },
       "orientation": "horizontal",
@@ -3418,7 +3418,7 @@
           "y": 7.5
         },
         "out": {
-          "x": 30,
+          "x": 40,
           "y": 7.5
         }
       }
@@ -3428,22 +3428,22 @@
       "type": "equipment_block",
       "symbol": "equipment_generic",
       "position": {
-        "x": 15.0,
-        "y": 1245
+        "x": 50.0,
+        "y": 1210
       },
       "size": {
-        "width": 100,
-        "height": 70
+        "width": 80,
+        "height": 60
       },
       "orientation": "vertical",
       "ports": {
         "in": {
-          "x": 50.0,
+          "x": 40.0,
           "y": 0
         },
         "out": {
-          "x": 50.0,
-          "y": 70
+          "x": 40.0,
+          "y": 60
         }
       }
     },
@@ -3452,22 +3452,22 @@
       "type": "equipment_block",
       "symbol": "equipment_generic",
       "position": {
-        "x": 215.0,
-        "y": 1245
+        "x": 160.0,
+        "y": 1210
       },
       "size": {
-        "width": 100,
-        "height": 70
+        "width": 80,
+        "height": 60
       },
       "orientation": "vertical",
       "ports": {
         "in": {
-          "x": 50.0,
+          "x": 40.0,
           "y": 0
         },
         "out": {
-          "x": 50.0,
-          "y": 70
+          "x": 40.0,
+          "y": 60
         }
       }
     },
@@ -3476,22 +3476,22 @@
       "type": "equipment_block",
       "symbol": "equipment_generic",
       "position": {
-        "x": 415.0,
-        "y": 1245
+        "x": 270.0,
+        "y": 1210
       },
       "size": {
-        "width": 100,
-        "height": 70
+        "width": 80,
+        "height": 60
       },
       "orientation": "vertical",
       "ports": {
         "in": {
-          "x": 50.0,
+          "x": 40.0,
           "y": 0
         },
         "out": {
-          "x": 50.0,
-          "y": 70
+          "x": 40.0,
+          "y": 60
         }
       }
     },
@@ -3500,22 +3500,22 @@
       "type": "equipment_block",
       "symbol": "equipment_generic",
       "position": {
-        "x": 615.0,
-        "y": 1245
+        "x": 380.0,
+        "y": 1210
       },
       "size": {
-        "width": 100,
-        "height": 70
+        "width": 80,
+        "height": 60
       },
       "orientation": "vertical",
       "ports": {
         "in": {
-          "x": 50.0,
+          "x": 40.0,
           "y": 0
         },
         "out": {
-          "x": 50.0,
-          "y": 70
+          "x": 40.0,
+          "y": 60
         }
       }
     },
@@ -3524,22 +3524,22 @@
       "type": "equipment_block",
       "symbol": "equipment_generic",
       "position": {
-        "x": 615.0,
-        "y": 1340
+        "x": 380.0,
+        "y": 1285
       },
       "size": {
-        "width": 100,
-        "height": 70
+        "width": 80,
+        "height": 60
       },
       "orientation": "vertical",
       "ports": {
         "in": {
-          "x": 50.0,
+          "x": 40.0,
           "y": 0
         },
         "out": {
-          "x": 50.0,
-          "y": 70
+          "x": 40.0,
+          "y": 60
         }
       }
     },
@@ -3548,22 +3548,22 @@
       "type": "equipment_block",
       "symbol": "equipment_generic",
       "position": {
-        "x": 815.0,
-        "y": 1245
+        "x": 490.0,
+        "y": 1210
       },
       "size": {
-        "width": 100,
-        "height": 70
+        "width": 80,
+        "height": 60
       },
       "orientation": "vertical",
       "ports": {
         "in": {
-          "x": 50.0,
+          "x": 40.0,
           "y": 0
         },
         "out": {
-          "x": 50.0,
-          "y": 70
+          "x": 40.0,
+          "y": 60
         }
       }
     },
@@ -3572,22 +3572,22 @@
       "type": "equipment_block",
       "symbol": "equipment_generic",
       "position": {
-        "x": 1015.0,
-        "y": 1245
+        "x": 600.0,
+        "y": 1210
       },
       "size": {
-        "width": 100,
-        "height": 70
+        "width": 80,
+        "height": 60
       },
       "orientation": "vertical",
       "ports": {
         "in": {
-          "x": 50.0,
+          "x": 40.0,
           "y": 0
         },
         "out": {
-          "x": 50.0,
-          "y": 70
+          "x": 40.0,
+          "y": 60
         }
       }
     },
@@ -3596,22 +3596,22 @@
       "type": "equipment_block",
       "symbol": "equipment_generic",
       "position": {
-        "x": 15.0,
-        "y": 1745
+        "x": 710.0,
+        "y": 1210
       },
       "size": {
-        "width": 100,
-        "height": 70
+        "width": 80,
+        "height": 60
       },
       "orientation": "vertical",
       "ports": {
         "in": {
-          "x": 50.0,
+          "x": 40.0,
           "y": 0
         },
         "out": {
-          "x": 50.0,
-          "y": 70
+          "x": 40.0,
+          "y": 60
         }
       }
     },
@@ -3620,22 +3620,22 @@
       "type": "equipment_block",
       "symbol": "equipment_generic",
       "position": {
-        "x": 215.0,
-        "y": 1745
+        "x": 820.0,
+        "y": 1210
       },
       "size": {
-        "width": 100,
-        "height": 70
+        "width": 80,
+        "height": 60
       },
       "orientation": "vertical",
       "ports": {
         "in": {
-          "x": 50.0,
+          "x": 40.0,
           "y": 0
         },
         "out": {
-          "x": 50.0,
-          "y": 70
+          "x": 40.0,
+          "y": 60
         }
       }
     },
@@ -3644,22 +3644,22 @@
       "type": "equipment_block",
       "symbol": "equipment_generic",
       "position": {
-        "x": 215.0,
-        "y": 1840
+        "x": 820.0,
+        "y": 1285
       },
       "size": {
-        "width": 100,
-        "height": 70
+        "width": 80,
+        "height": 60
       },
       "orientation": "vertical",
       "ports": {
         "in": {
-          "x": 50.0,
+          "x": 40.0,
           "y": 0
         },
         "out": {
-          "x": 50.0,
-          "y": 70
+          "x": 40.0,
+          "y": 60
         }
       }
     },
@@ -3668,22 +3668,22 @@
       "type": "equipment_block",
       "symbol": "equipment_generic",
       "position": {
-        "x": 415.0,
-        "y": 1745
+        "x": 930.0,
+        "y": 1210
       },
       "size": {
-        "width": 100,
-        "height": 70
+        "width": 80,
+        "height": 60
       },
       "orientation": "vertical",
       "ports": {
         "in": {
-          "x": 50.0,
+          "x": 40.0,
           "y": 0
         },
         "out": {
-          "x": 50.0,
-          "y": 70
+          "x": 40.0,
+          "y": 60
         }
       }
     },
@@ -3692,22 +3692,22 @@
       "type": "equipment_block",
       "symbol": "equipment_generic",
       "position": {
-        "x": 415.0,
-        "y": 1840
+        "x": 930.0,
+        "y": 1285
       },
       "size": {
-        "width": 100,
-        "height": 70
+        "width": 80,
+        "height": 60
       },
       "orientation": "vertical",
       "ports": {
         "in": {
-          "x": 50.0,
+          "x": 40.0,
           "y": 0
         },
         "out": {
-          "x": 50.0,
-          "y": 70
+          "x": 40.0,
+          "y": 60
         }
       }
     },
@@ -3716,22 +3716,22 @@
       "type": "equipment_block",
       "symbol": "equipment_generic",
       "position": {
-        "x": 615.0,
-        "y": 1745
+        "x": 1040.0,
+        "y": 1210
       },
       "size": {
-        "width": 100,
-        "height": 70
+        "width": 80,
+        "height": 60
       },
       "orientation": "vertical",
       "ports": {
         "in": {
-          "x": 50.0,
+          "x": 40.0,
           "y": 0
         },
         "out": {
-          "x": 50.0,
-          "y": 70
+          "x": 40.0,
+          "y": 60
         }
       }
     },
@@ -3740,22 +3740,22 @@
       "type": "equipment_block",
       "symbol": "equipment_generic",
       "position": {
-        "x": 815.0,
-        "y": 1745
+        "x": 1150.0,
+        "y": 1210
       },
       "size": {
-        "width": 100,
-        "height": 70
+        "width": 80,
+        "height": 60
       },
       "orientation": "vertical",
       "ports": {
         "in": {
-          "x": 50.0,
+          "x": 40.0,
           "y": 0
         },
         "out": {
-          "x": 50.0,
-          "y": 70
+          "x": 40.0,
+          "y": 60
         }
       }
     },
@@ -3764,22 +3764,22 @@
       "type": "equipment_block",
       "symbol": "equipment_generic",
       "position": {
-        "x": 1015.0,
-        "y": 1745
+        "x": 1260.0,
+        "y": 1210
       },
       "size": {
-        "width": 100,
-        "height": 70
+        "width": 80,
+        "height": 60
       },
       "orientation": "vertical",
       "ports": {
         "in": {
-          "x": 50.0,
+          "x": 40.0,
           "y": 0
         },
         "out": {
-          "x": 50.0,
-          "y": 70
+          "x": 40.0,
+          "y": 60
         }
       }
     },
@@ -3788,22 +3788,22 @@
       "type": "equipment_block",
       "symbol": "equipment_generic",
       "position": {
-        "x": 15.0,
-        "y": 2245
+        "x": 1370.0,
+        "y": 1210
       },
       "size": {
-        "width": 100,
-        "height": 70
+        "width": 80,
+        "height": 60
       },
       "orientation": "vertical",
       "ports": {
         "in": {
-          "x": 50.0,
+          "x": 40.0,
           "y": 0
         },
         "out": {
-          "x": 50.0,
-          "y": 70
+          "x": 40.0,
+          "y": 60
         }
       }
     },
@@ -3812,22 +3812,22 @@
       "type": "equipment_block",
       "symbol": "equipment_generic",
       "position": {
-        "x": 15.0,
-        "y": 2340
+        "x": 1370.0,
+        "y": 1285
       },
       "size": {
-        "width": 100,
-        "height": 70
+        "width": 80,
+        "height": 60
       },
       "orientation": "vertical",
       "ports": {
         "in": {
-          "x": 50.0,
+          "x": 40.0,
           "y": 0
         },
         "out": {
-          "x": 50.0,
-          "y": 70
+          "x": 40.0,
+          "y": 60
         }
       }
     },
@@ -3836,22 +3836,22 @@
       "type": "equipment_block",
       "symbol": "equipment_generic",
       "position": {
-        "x": 15.0,
-        "y": 2435
+        "x": 1370.0,
+        "y": 1360
       },
       "size": {
-        "width": 100,
-        "height": 70
+        "width": 80,
+        "height": 60
       },
       "orientation": "vertical",
       "ports": {
         "in": {
-          "x": 50.0,
+          "x": 40.0,
           "y": 0
         },
         "out": {
-          "x": 50.0,
-          "y": 70
+          "x": 40.0,
+          "y": 60
         }
       }
     },
@@ -3860,22 +3860,22 @@
       "type": "equipment_block",
       "symbol": "equipment_generic",
       "position": {
-        "x": 215.0,
-        "y": 2245
+        "x": 1480.0,
+        "y": 1210
       },
       "size": {
-        "width": 100,
-        "height": 70
+        "width": 80,
+        "height": 60
       },
       "orientation": "vertical",
       "ports": {
         "in": {
-          "x": 50.0,
+          "x": 40.0,
           "y": 0
         },
         "out": {
-          "x": 50.0,
-          "y": 70
+          "x": 40.0,
+          "y": 60
         }
       }
     },
@@ -3884,22 +3884,22 @@
       "type": "equipment_block",
       "symbol": "equipment_generic",
       "position": {
-        "x": 415.0,
-        "y": 2245
+        "x": 1590.0,
+        "y": 1210
       },
       "size": {
-        "width": 100,
-        "height": 70
+        "width": 80,
+        "height": 60
       },
       "orientation": "vertical",
       "ports": {
         "in": {
-          "x": 50.0,
+          "x": 40.0,
           "y": 0
         },
         "out": {
-          "x": 50.0,
-          "y": 70
+          "x": 40.0,
+          "y": 60
         }
       }
     },
@@ -3908,22 +3908,22 @@
       "type": "equipment_block",
       "symbol": "equipment_generic",
       "position": {
-        "x": 415.0,
-        "y": 2340
+        "x": 1590.0,
+        "y": 1285
       },
       "size": {
-        "width": 100,
-        "height": 70
+        "width": 80,
+        "height": 60
       },
       "orientation": "vertical",
       "ports": {
         "in": {
-          "x": 50.0,
+          "x": 40.0,
           "y": 0
         },
         "out": {
-          "x": 50.0,
-          "y": 70
+          "x": 40.0,
+          "y": 60
         }
       }
     },
@@ -3932,22 +3932,22 @@
       "type": "equipment_block",
       "symbol": "equipment_generic",
       "position": {
-        "x": 415.0,
-        "y": 2435
+        "x": 1590.0,
+        "y": 1360
       },
       "size": {
-        "width": 100,
-        "height": 70
+        "width": 80,
+        "height": 60
       },
       "orientation": "vertical",
       "ports": {
         "in": {
-          "x": 50.0,
+          "x": 40.0,
           "y": 0
         },
         "out": {
-          "x": 50.0,
-          "y": 70
+          "x": 40.0,
+          "y": 60
         }
       }
     },
@@ -3956,22 +3956,22 @@
       "type": "equipment_block",
       "symbol": "equipment_generic",
       "position": {
-        "x": 615.0,
-        "y": 2245
+        "x": 1700.0,
+        "y": 1210
       },
       "size": {
-        "width": 100,
-        "height": 70
+        "width": 80,
+        "height": 60
       },
       "orientation": "vertical",
       "ports": {
         "in": {
-          "x": 50.0,
+          "x": 40.0,
           "y": 0
         },
         "out": {
-          "x": 50.0,
-          "y": 70
+          "x": 40.0,
+          "y": 60
         }
       }
     },
@@ -3980,22 +3980,22 @@
       "type": "equipment_block",
       "symbol": "equipment_generic",
       "position": {
-        "x": 815.0,
-        "y": 2245
+        "x": 1810.0,
+        "y": 1210
       },
       "size": {
-        "width": 100,
-        "height": 70
+        "width": 80,
+        "height": 60
       },
       "orientation": "vertical",
       "ports": {
         "in": {
-          "x": 50.0,
+          "x": 40.0,
           "y": 0
         },
         "out": {
-          "x": 50.0,
-          "y": 70
+          "x": 40.0,
+          "y": 60
         }
       }
     },
@@ -4004,22 +4004,22 @@
       "type": "equipment_block",
       "symbol": "equipment_generic",
       "position": {
-        "x": 815.0,
-        "y": 2340
+        "x": 1810.0,
+        "y": 1285
       },
       "size": {
-        "width": 100,
-        "height": 70
+        "width": 80,
+        "height": 60
       },
       "orientation": "vertical",
       "ports": {
         "in": {
-          "x": 50.0,
+          "x": 40.0,
           "y": 0
         },
         "out": {
-          "x": 50.0,
-          "y": 70
+          "x": 40.0,
+          "y": 60
         }
       }
     },
@@ -4028,22 +4028,22 @@
       "type": "equipment_block",
       "symbol": "equipment_generic",
       "position": {
-        "x": 1015.0,
-        "y": 2245
+        "x": 1920.0,
+        "y": 1210
       },
       "size": {
-        "width": 100,
-        "height": 70
+        "width": 80,
+        "height": 60
       },
       "orientation": "vertical",
       "ports": {
         "in": {
-          "x": 50.0,
+          "x": 40.0,
           "y": 0
         },
         "out": {
-          "x": 50.0,
-          "y": 70
+          "x": 40.0,
+          "y": 60
         }
       }
     },
@@ -4052,22 +4052,22 @@
       "type": "equipment_block",
       "symbol": "equipment_generic",
       "position": {
-        "x": 15.0,
-        "y": 2745
+        "x": 2030.0,
+        "y": 1210
       },
       "size": {
-        "width": 100,
-        "height": 70
+        "width": 80,
+        "height": 60
       },
       "orientation": "vertical",
       "ports": {
         "in": {
-          "x": 50.0,
+          "x": 40.0,
           "y": 0
         },
         "out": {
-          "x": 50.0,
-          "y": 70
+          "x": 40.0,
+          "y": 60
         }
       }
     },
@@ -4076,22 +4076,22 @@
       "type": "equipment_block",
       "symbol": "equipment_generic",
       "position": {
-        "x": 215.0,
-        "y": 2745
+        "x": 2140.0,
+        "y": 1210
       },
       "size": {
-        "width": 100,
-        "height": 70
+        "width": 80,
+        "height": 60
       },
       "orientation": "vertical",
       "ports": {
         "in": {
-          "x": 50.0,
+          "x": 40.0,
           "y": 0
         },
         "out": {
-          "x": 50.0,
-          "y": 70
+          "x": 40.0,
+          "y": 60
         }
       }
     },
@@ -4100,22 +4100,22 @@
       "type": "equipment_block",
       "symbol": "equipment_generic",
       "position": {
-        "x": 215.0,
-        "y": 2840
+        "x": 2140.0,
+        "y": 1285
       },
       "size": {
-        "width": 100,
-        "height": 70
+        "width": 80,
+        "height": 60
       },
       "orientation": "vertical",
       "ports": {
         "in": {
-          "x": 50.0,
+          "x": 40.0,
           "y": 0
         },
         "out": {
-          "x": 50.0,
-          "y": 70
+          "x": 40.0,
+          "y": 60
         }
       }
     },
@@ -4124,22 +4124,22 @@
       "type": "equipment_block",
       "symbol": "equipment_generic",
       "position": {
-        "x": 215.0,
-        "y": 2935
+        "x": 2140.0,
+        "y": 1360
       },
       "size": {
-        "width": 100,
-        "height": 70
+        "width": 80,
+        "height": 60
       },
       "orientation": "vertical",
       "ports": {
         "in": {
-          "x": 50.0,
+          "x": 40.0,
           "y": 0
         },
         "out": {
-          "x": 50.0,
-          "y": 70
+          "x": 40.0,
+          "y": 60
         }
       }
     },
@@ -4148,22 +4148,22 @@
       "type": "equipment_block",
       "symbol": "equipment_generic",
       "position": {
-        "x": 215.0,
-        "y": 3030
+        "x": 2140.0,
+        "y": 1435
       },
       "size": {
-        "width": 100,
-        "height": 70
+        "width": 80,
+        "height": 60
       },
       "orientation": "vertical",
       "ports": {
         "in": {
-          "x": 50.0,
+          "x": 40.0,
           "y": 0
         },
         "out": {
-          "x": 50.0,
-          "y": 70
+          "x": 40.0,
+          "y": 60
         }
       }
     },
@@ -4172,22 +4172,22 @@
       "type": "equipment_block",
       "symbol": "equipment_generic",
       "position": {
-        "x": 415.0,
-        "y": 2745
+        "x": 2250.0,
+        "y": 1210
       },
       "size": {
-        "width": 100,
-        "height": 70
+        "width": 80,
+        "height": 60
       },
       "orientation": "vertical",
       "ports": {
         "in": {
-          "x": 50.0,
+          "x": 40.0,
           "y": 0
         },
         "out": {
-          "x": 50.0,
-          "y": 70
+          "x": 40.0,
+          "y": 60
         }
       }
     },
@@ -4196,22 +4196,22 @@
       "type": "equipment_block",
       "symbol": "equipment_generic",
       "position": {
-        "x": 615.0,
-        "y": 2745
+        "x": 2360.0,
+        "y": 1210
       },
       "size": {
-        "width": 100,
-        "height": 70
+        "width": 80,
+        "height": 60
       },
       "orientation": "vertical",
       "ports": {
         "in": {
-          "x": 50.0,
+          "x": 40.0,
           "y": 0
         },
         "out": {
-          "x": 50.0,
-          "y": 70
+          "x": 40.0,
+          "y": 60
         }
       }
     },
@@ -4220,22 +4220,22 @@
       "type": "equipment_block",
       "symbol": "equipment_generic",
       "position": {
-        "x": 815.0,
-        "y": 2745
+        "x": 2470.0,
+        "y": 1210
       },
       "size": {
-        "width": 100,
-        "height": 70
+        "width": 80,
+        "height": 60
       },
       "orientation": "vertical",
       "ports": {
         "in": {
-          "x": 50.0,
+          "x": 40.0,
           "y": 0
         },
         "out": {
-          "x": 50.0,
-          "y": 70
+          "x": 40.0,
+          "y": 60
         }
       }
     },
@@ -4244,22 +4244,22 @@
       "type": "equipment_block",
       "symbol": "equipment_generic",
       "position": {
-        "x": 815.0,
-        "y": 2840
+        "x": 2470.0,
+        "y": 1285
       },
       "size": {
-        "width": 100,
-        "height": 70
+        "width": 80,
+        "height": 60
       },
       "orientation": "vertical",
       "ports": {
         "in": {
-          "x": 50.0,
+          "x": 40.0,
           "y": 0
         },
         "out": {
-          "x": 50.0,
-          "y": 70
+          "x": 40.0,
+          "y": 60
         }
       }
     },
@@ -4268,22 +4268,22 @@
       "type": "equipment_block",
       "symbol": "equipment_generic",
       "position": {
-        "x": 1015.0,
-        "y": 2745
+        "x": 2580.0,
+        "y": 1210
       },
       "size": {
-        "width": 100,
-        "height": 70
+        "width": 80,
+        "height": 60
       },
       "orientation": "vertical",
       "ports": {
         "in": {
-          "x": 50.0,
+          "x": 40.0,
           "y": 0
         },
         "out": {
-          "x": 50.0,
-          "y": 70
+          "x": 40.0,
+          "y": 60
         }
       }
     },
@@ -4292,22 +4292,22 @@
       "type": "equipment_block",
       "symbol": "equipment_generic",
       "position": {
-        "x": 15.0,
-        "y": 3245
+        "x": 2690.0,
+        "y": 1210
       },
       "size": {
-        "width": 100,
-        "height": 70
+        "width": 80,
+        "height": 60
       },
       "orientation": "vertical",
       "ports": {
         "in": {
-          "x": 50.0,
+          "x": 40.0,
           "y": 0
         },
         "out": {
-          "x": 50.0,
-          "y": 70
+          "x": 40.0,
+          "y": 60
         }
       }
     },
@@ -4316,22 +4316,22 @@
       "type": "equipment_block",
       "symbol": "equipment_generic",
       "position": {
-        "x": 215.0,
-        "y": 3245
+        "x": 2800.0,
+        "y": 1210
       },
       "size": {
-        "width": 100,
-        "height": 70
+        "width": 80,
+        "height": 60
       },
       "orientation": "vertical",
       "ports": {
         "in": {
-          "x": 50.0,
+          "x": 40.0,
           "y": 0
         },
         "out": {
-          "x": 50.0,
-          "y": 70
+          "x": 40.0,
+          "y": 60
         }
       }
     },
@@ -4340,22 +4340,22 @@
       "type": "equipment_block",
       "symbol": "equipment_generic",
       "position": {
-        "x": 415.0,
-        "y": 3245
+        "x": 2910.0,
+        "y": 1210
       },
       "size": {
-        "width": 100,
-        "height": 70
+        "width": 80,
+        "height": 60
       },
       "orientation": "vertical",
       "ports": {
         "in": {
-          "x": 50.0,
+          "x": 40.0,
           "y": 0
         },
         "out": {
-          "x": 50.0,
-          "y": 70
+          "x": 40.0,
+          "y": 60
         }
       }
     },
@@ -4364,22 +4364,22 @@
       "type": "equipment_block",
       "symbol": "equipment_generic",
       "position": {
-        "x": 415.0,
-        "y": 3340
+        "x": 2910.0,
+        "y": 1285
       },
       "size": {
-        "width": 100,
-        "height": 70
+        "width": 80,
+        "height": 60
       },
       "orientation": "vertical",
       "ports": {
         "in": {
-          "x": 50.0,
+          "x": 40.0,
           "y": 0
         },
         "out": {
-          "x": 50.0,
-          "y": 70
+          "x": 40.0,
+          "y": 60
         }
       }
     },
@@ -4388,22 +4388,22 @@
       "type": "equipment_block",
       "symbol": "equipment_generic",
       "position": {
-        "x": 615.0,
-        "y": 3245
+        "x": 3020.0,
+        "y": 1210
       },
       "size": {
-        "width": 100,
-        "height": 70
+        "width": 80,
+        "height": 60
       },
       "orientation": "vertical",
       "ports": {
         "in": {
-          "x": 50.0,
+          "x": 40.0,
           "y": 0
         },
         "out": {
-          "x": 50.0,
-          "y": 70
+          "x": 40.0,
+          "y": 60
         }
       }
     },
@@ -4412,22 +4412,22 @@
       "type": "equipment_block",
       "symbol": "equipment_generic",
       "position": {
-        "x": 815.0,
-        "y": 3245
+        "x": 50.0,
+        "y": 1370
       },
       "size": {
-        "width": 100,
-        "height": 70
+        "width": 80,
+        "height": 60
       },
       "orientation": "vertical",
       "ports": {
         "in": {
-          "x": 50.0,
+          "x": 40.0,
           "y": 0
         },
         "out": {
-          "x": 50.0,
-          "y": 70
+          "x": 40.0,
+          "y": 60
         }
       }
     },
@@ -4436,22 +4436,22 @@
       "type": "equipment_block",
       "symbol": "equipment_generic",
       "position": {
-        "x": 1015.0,
-        "y": 3245
+        "x": 160.0,
+        "y": 1370
       },
       "size": {
-        "width": 100,
-        "height": 70
+        "width": 80,
+        "height": 60
       },
       "orientation": "vertical",
       "ports": {
         "in": {
-          "x": 50.0,
+          "x": 40.0,
           "y": 0
         },
         "out": {
-          "x": 50.0,
-          "y": 70
+          "x": 40.0,
+          "y": 60
         }
       }
     }
@@ -4463,12 +4463,12 @@
       "type": "pipe",
       "path": [
         {
-          "x": 45,
-          "y": 50.0
+          "x": 90.0,
+          "y": 80.0
         },
         {
-          "x": 70,
-          "y": 50.0
+          "x": 105.0,
+          "y": 80.0
         }
       ],
       "style": {
@@ -4482,12 +4482,12 @@
       "type": "pipe",
       "path": [
         {
-          "x": 170,
-          "y": 50.0
+          "x": 185.0,
+          "y": 80.0
         },
         {
-          "x": 195,
-          "y": 50.0
+          "x": 200.0,
+          "y": 80.0
         }
       ],
       "style": {
@@ -4501,12 +4501,12 @@
       "type": "pipe",
       "path": [
         {
-          "x": 245,
-          "y": 50.0
+          "x": 226.0,
+          "y": 80.0
         },
         {
-          "x": 270,
-          "y": 50.0
+          "x": 241.0,
+          "y": 80.0
         }
       ],
       "style": {
@@ -4520,12 +4520,12 @@
       "type": "pipe",
       "path": [
         {
-          "x": 545,
-          "y": 50.0
+          "x": 2719.0,
+          "y": 80.0
         },
         {
-          "x": 570,
-          "y": 50.0
+          "x": 2734.0,
+          "y": 80.0
         }
       ],
       "style": {
@@ -4539,12 +4539,12 @@
       "type": "pipe",
       "path": [
         {
-          "x": 670,
-          "y": 50.0
+          "x": 2814.0,
+          "y": 80.0
         },
         {
-          "x": 695,
-          "y": 50.0
+          "x": 2829.0,
+          "y": 80.0
         }
       ],
       "style": {
@@ -4558,12 +4558,12 @@
       "type": "pipe",
       "path": [
         {
-          "x": 745,
-          "y": 50.0
+          "x": 2855.0,
+          "y": 80.0
         },
         {
-          "x": 770,
-          "y": 50.0
+          "x": 2870.0,
+          "y": 80.0
         }
       ],
       "style": {
@@ -4577,12 +4577,12 @@
       "type": "pipe",
       "path": [
         {
-          "x": 1045,
-          "y": 50.0
+          "x": 90.0,
+          "y": 360.0
         },
         {
-          "x": 1070,
-          "y": 50.0
+          "x": 105.0,
+          "y": 360.0
         }
       ],
       "style": {
@@ -4596,12 +4596,12 @@
       "type": "pipe",
       "path": [
         {
-          "x": 1170,
-          "y": 50.0
+          "x": 185.0,
+          "y": 360.0
         },
         {
-          "x": 1195,
-          "y": 50.0
+          "x": 200.0,
+          "y": 360.0
         }
       ],
       "style": {
@@ -4615,12 +4615,12 @@
       "type": "pipe",
       "path": [
         {
-          "x": 1295,
-          "y": 50.0
+          "x": 280.0,
+          "y": 360.0
         },
         {
-          "x": 1320,
-          "y": 50.0
+          "x": 295.0,
+          "y": 360.0
         }
       ],
       "style": {
@@ -4634,12 +4634,12 @@
       "type": "pipe",
       "path": [
         {
-          "x": 1370,
-          "y": 50.0
+          "x": 321.0,
+          "y": 360.0
         },
         {
-          "x": 1395,
-          "y": 50.0
+          "x": 336.0,
+          "y": 360.0
         }
       ],
       "style": {
@@ -4653,12 +4653,12 @@
       "type": "pipe",
       "path": [
         {
-          "x": 1545,
-          "y": 50.0
+          "x": 446.0,
+          "y": 360.0
         },
         {
-          "x": 1570,
-          "y": 50.0
+          "x": 461.0,
+          "y": 360.0
         }
       ],
       "style": {
@@ -4672,12 +4672,12 @@
       "type": "pipe",
       "path": [
         {
-          "x": 1670,
-          "y": 50.0
+          "x": 541.0,
+          "y": 360.0
         },
         {
-          "x": 1695,
-          "y": 50.0
+          "x": 556.0,
+          "y": 360.0
         }
       ],
       "style": {
@@ -4691,12 +4691,12 @@
       "type": "pipe",
       "path": [
         {
-          "x": 1745,
-          "y": 50.0
+          "x": 582.0,
+          "y": 360.0
         },
         {
-          "x": 1770,
-          "y": 50.0
+          "x": 597.0,
+          "y": 360.0
         }
       ],
       "style": {
@@ -4710,12 +4710,12 @@
       "type": "pipe",
       "path": [
         {
-          "x": 2045,
-          "y": 50.0
+          "x": 707.0,
+          "y": 360.0
         },
         {
-          "x": 2070,
-          "y": 50.0
+          "x": 722.0,
+          "y": 360.0
         }
       ],
       "style": {
@@ -4729,12 +4729,12 @@
       "type": "pipe",
       "path": [
         {
-          "x": 2170,
-          "y": 50.0
+          "x": 802.0,
+          "y": 360.0
         },
         {
-          "x": 2195,
-          "y": 50.0
+          "x": 817.0,
+          "y": 360.0
         }
       ],
       "style": {
@@ -4748,12 +4748,12 @@
       "type": "pipe",
       "path": [
         {
-          "x": 2245,
-          "y": 50.0
+          "x": 843.0,
+          "y": 360.0
         },
         {
-          "x": 2270,
-          "y": 50.0
+          "x": 858.0,
+          "y": 360.0
         }
       ],
       "style": {
@@ -4767,12 +4767,12 @@
       "type": "pipe",
       "path": [
         {
-          "x": 2545,
-          "y": 50.0
+          "x": 968.0,
+          "y": 360.0
         },
         {
-          "x": 2570,
-          "y": 50.0
+          "x": 983.0,
+          "y": 360.0
         }
       ],
       "style": {
@@ -4786,12 +4786,12 @@
       "type": "pipe",
       "path": [
         {
-          "x": 2670,
-          "y": 50.0
+          "x": 1063.0,
+          "y": 360.0
         },
         {
-          "x": 2695,
-          "y": 50.0
+          "x": 1078.0,
+          "y": 360.0
         }
       ],
       "style": {
@@ -4805,12 +4805,12 @@
       "type": "pipe",
       "path": [
         {
-          "x": 2795,
-          "y": 50.0
+          "x": 1158.0,
+          "y": 360.0
         },
         {
-          "x": 2820,
-          "y": 50.0
+          "x": 1173.0,
+          "y": 360.0
         }
       ],
       "style": {
@@ -4824,12 +4824,12 @@
       "type": "pipe",
       "path": [
         {
-          "x": 2870,
-          "y": 50.0
+          "x": 1199.0,
+          "y": 360.0
         },
         {
-          "x": 2895,
-          "y": 50.0
+          "x": 1214.0,
+          "y": 360.0
         }
       ],
       "style": {
@@ -4843,12 +4843,12 @@
       "type": "pipe",
       "path": [
         {
-          "x": 45,
-          "y": 200.0
+          "x": 778.0,
+          "y": 80.0
         },
         {
-          "x": 70,
-          "y": 200.0
+          "x": 793.0,
+          "y": 80.0
         }
       ],
       "style": {
@@ -4862,12 +4862,12 @@
       "type": "pipe",
       "path": [
         {
-          "x": 170,
-          "y": 200.0
+          "x": 873.0,
+          "y": 80.0
         },
         {
-          "x": 195,
-          "y": 200.0
+          "x": 888.0,
+          "y": 80.0
         }
       ],
       "style": {
@@ -4881,12 +4881,12 @@
       "type": "pipe",
       "path": [
         {
-          "x": 245,
-          "y": 200.0
+          "x": 914.0,
+          "y": 80.0
         },
         {
-          "x": 270,
-          "y": 200.0
+          "x": 929.0,
+          "y": 80.0
         }
       ],
       "style": {
@@ -4900,12 +4900,12 @@
       "type": "pipe",
       "path": [
         {
-          "x": 545,
-          "y": 200.0
+          "x": 1324.0,
+          "y": 360.0
         },
         {
-          "x": 570,
-          "y": 200.0
+          "x": 1339.0,
+          "y": 360.0
         }
       ],
       "style": {
@@ -4919,12 +4919,12 @@
       "type": "pipe",
       "path": [
         {
-          "x": 670,
-          "y": 200.0
+          "x": 1419.0,
+          "y": 360.0
         },
         {
-          "x": 695,
-          "y": 200.0
+          "x": 1434.0,
+          "y": 360.0
         }
       ],
       "style": {
@@ -4938,12 +4938,12 @@
       "type": "pipe",
       "path": [
         {
-          "x": 745,
-          "y": 200.0
+          "x": 1460.0,
+          "y": 360.0
         },
         {
-          "x": 770,
-          "y": 200.0
+          "x": 1475.0,
+          "y": 360.0
         }
       ],
       "style": {
@@ -4957,12 +4957,12 @@
       "type": "pipe",
       "path": [
         {
-          "x": 1065,
-          "y": 200.0
+          "x": 1571.0,
+          "y": 360.0
         },
         {
-          "x": 1090,
-          "y": 200.0
+          "x": 1586.0,
+          "y": 360.0
         }
       ],
       "style": {
@@ -4976,12 +4976,12 @@
       "type": "pipe",
       "path": [
         {
-          "x": 1120,
-          "y": 200.0
+          "x": 1626.0,
+          "y": 360.0
         },
         {
-          "x": 1145,
-          "y": 200.0
+          "x": 1641.0,
+          "y": 360.0
         }
       ],
       "style": {
@@ -4995,12 +4995,12 @@
       "type": "pipe",
       "path": [
         {
-          "x": 1245,
-          "y": 200.0
+          "x": 1721.0,
+          "y": 360.0
         },
         {
-          "x": 1270,
-          "y": 200.0
+          "x": 1736.0,
+          "y": 360.0
         }
       ],
       "style": {
@@ -5014,12 +5014,12 @@
       "type": "pipe",
       "path": [
         {
-          "x": 1545,
-          "y": 190.0
+          "x": 1452.0,
+          "y": 63.0
         },
         {
-          "x": 1570,
-          "y": 190.0
+          "x": 1467.0,
+          "y": 63.0
         }
       ],
       "style": {
@@ -5033,12 +5033,12 @@
       "type": "pipe",
       "path": [
         {
-          "x": 1620,
-          "y": 190.0
+          "x": 1493.0,
+          "y": 63.0
         },
         {
-          "x": 1645,
-          "y": 190.0
+          "x": 1508.0,
+          "y": 63.0
         }
       ],
       "style": {
@@ -5052,12 +5052,12 @@
       "type": "pipe",
       "path": [
         {
-          "x": 2045,
-          "y": 200.0
+          "x": 1832.0,
+          "y": 360.0
         },
         {
-          "x": 2070,
-          "y": 200.0
+          "x": 1847.0,
+          "y": 360.0
         }
       ],
       "style": {
@@ -5071,12 +5071,12 @@
       "type": "pipe",
       "path": [
         {
-          "x": 2170,
-          "y": 200.0
+          "x": 1927.0,
+          "y": 360.0
         },
         {
-          "x": 2195,
-          "y": 200.0
+          "x": 1942.0,
+          "y": 360.0
         }
       ],
       "style": {
@@ -5090,12 +5090,12 @@
       "type": "pipe",
       "path": [
         {
-          "x": 2245,
-          "y": 200.0
+          "x": 1968.0,
+          "y": 360.0
         },
         {
-          "x": 2270,
-          "y": 200.0
+          "x": 1983.0,
+          "y": 360.0
         }
       ],
       "style": {
@@ -5109,12 +5109,12 @@
       "type": "pipe",
       "path": [
         {
-          "x": 2545,
-          "y": 200.0
+          "x": 2093.0,
+          "y": 360.0
         },
         {
-          "x": 2570,
-          "y": 200.0
+          "x": 2108.0,
+          "y": 360.0
         }
       ],
       "style": {
@@ -5128,12 +5128,12 @@
       "type": "pipe",
       "path": [
         {
-          "x": 2670,
-          "y": 200.0
+          "x": 2188.0,
+          "y": 360.0
         },
         {
-          "x": 2695,
-          "y": 200.0
+          "x": 2203.0,
+          "y": 360.0
         }
       ],
       "style": {
@@ -5147,12 +5147,12 @@
       "type": "pipe",
       "path": [
         {
-          "x": 2745,
-          "y": 200.0
+          "x": 2229.0,
+          "y": 360.0
         },
         {
-          "x": 2770,
-          "y": 200.0
+          "x": 2244.0,
+          "y": 360.0
         }
       ],
       "style": {
@@ -5166,12 +5166,12 @@
       "type": "pipe",
       "path": [
         {
-          "x": 45,
-          "y": 340.0
+          "x": 2354.0,
+          "y": 343.0
         },
         {
-          "x": 70,
-          "y": 340.0
+          "x": 2369.0,
+          "y": 343.0
         }
       ],
       "style": {
@@ -5185,12 +5185,12 @@
       "type": "pipe",
       "path": [
         {
-          "x": 120,
-          "y": 340.0
+          "x": 2395.0,
+          "y": 343.0
         },
         {
-          "x": 145,
-          "y": 340.0
+          "x": 2410.0,
+          "y": 343.0
         }
       ],
       "style": {
@@ -5204,12 +5204,12 @@
       "type": "pipe",
       "path": [
         {
-          "x": 565,
-          "y": 350.0
+          "x": 2506.0,
+          "y": 360.0
         },
         {
-          "x": 590,
-          "y": 350.0
+          "x": 2521.0,
+          "y": 360.0
         }
       ],
       "style": {
@@ -5223,12 +5223,12 @@
       "type": "pipe",
       "path": [
         {
-          "x": 620,
-          "y": 350.0
+          "x": 2561.0,
+          "y": 360.0
         },
         {
-          "x": 645,
-          "y": 350.0
+          "x": 2576.0,
+          "y": 360.0
         }
       ],
       "style": {
@@ -5242,12 +5242,12 @@
       "type": "pipe",
       "path": [
         {
-          "x": 745,
-          "y": 350.0
+          "x": 2656.0,
+          "y": 360.0
         },
         {
-          "x": 770,
-          "y": 350.0
+          "x": 2671.0,
+          "y": 360.0
         }
       ],
       "style": {
@@ -5261,12 +5261,12 @@
       "type": "pipe",
       "path": [
         {
-          "x": 1065,
-          "y": 350.0
+          "x": 2031.0,
+          "y": 80.0
         },
         {
-          "x": 1090,
-          "y": 350.0
+          "x": 2046.0,
+          "y": 80.0
         }
       ],
       "style": {
@@ -5280,12 +5280,12 @@
       "type": "pipe",
       "path": [
         {
-          "x": 1120,
-          "y": 350.0
+          "x": 2086.0,
+          "y": 80.0
         },
         {
-          "x": 1145,
-          "y": 350.0
+          "x": 2101.0,
+          "y": 80.0
         }
       ],
       "style": {
@@ -5299,12 +5299,12 @@
       "type": "pipe",
       "path": [
         {
-          "x": 1245,
-          "y": 350.0
+          "x": 2181.0,
+          "y": 80.0
         },
         {
-          "x": 1270,
-          "y": 350.0
+          "x": 2196.0,
+          "y": 80.0
         }
       ],
       "style": {
@@ -5318,12 +5318,12 @@
       "type": "pipe",
       "path": [
         {
-          "x": 1545,
-          "y": 350.0
+          "x": 2767.0,
+          "y": 360.0
         },
         {
-          "x": 1570,
-          "y": 350.0
+          "x": 2782.0,
+          "y": 360.0
         }
       ],
       "style": {
@@ -5337,12 +5337,12 @@
       "type": "pipe",
       "path": [
         {
-          "x": 1670,
-          "y": 350.0
+          "x": 2862.0,
+          "y": 360.0
         },
         {
-          "x": 1695,
-          "y": 350.0
+          "x": 2877.0,
+          "y": 360.0
         }
       ],
       "style": {
@@ -5356,12 +5356,12 @@
       "type": "pipe",
       "path": [
         {
-          "x": 1745,
-          "y": 350.0
+          "x": 2903.0,
+          "y": 360.0
         },
         {
-          "x": 1770,
-          "y": 350.0
+          "x": 2918.0,
+          "y": 360.0
         }
       ],
       "style": {
@@ -5375,12 +5375,12 @@
       "type": "pipe",
       "path": [
         {
-          "x": 2045,
-          "y": 350.0
+          "x": 90.0,
+          "y": 640.0
         },
         {
-          "x": 2070,
-          "y": 350.0
+          "x": 105.0,
+          "y": 640.0
         }
       ],
       "style": {
@@ -5394,12 +5394,12 @@
       "type": "pipe",
       "path": [
         {
-          "x": 2170,
-          "y": 350.0
+          "x": 185.0,
+          "y": 640.0
         },
         {
-          "x": 2195,
-          "y": 350.0
+          "x": 200.0,
+          "y": 640.0
         }
       ],
       "style": {
@@ -5413,12 +5413,12 @@
       "type": "pipe",
       "path": [
         {
-          "x": 2545,
-          "y": 350.0
+          "x": 1784.0,
+          "y": 80.0
         },
         {
-          "x": 2570,
-          "y": 350.0
+          "x": 1799.0,
+          "y": 80.0
         }
       ],
       "style": {
@@ -5432,12 +5432,12 @@
       "type": "pipe",
       "path": [
         {
-          "x": 2670,
-          "y": 350.0
+          "x": 1879.0,
+          "y": 80.0
         },
         {
-          "x": 2695,
-          "y": 350.0
+          "x": 1894.0,
+          "y": 80.0
         }
       ],
       "style": {
@@ -5451,12 +5451,12 @@
       "type": "pipe",
       "path": [
         {
-          "x": 2745,
-          "y": 350.0
+          "x": 1920.0,
+          "y": 80.0
         },
         {
-          "x": 2770,
-          "y": 350.0
+          "x": 1935.0,
+          "y": 80.0
         }
       ],
       "style": {
@@ -5470,12 +5470,12 @@
       "type": "pipe",
       "path": [
         {
-          "x": 45,
-          "y": 500.0
+          "x": 310.0,
+          "y": 640.0
         },
         {
-          "x": 70,
-          "y": 500.0
+          "x": 325.0,
+          "y": 640.0
         }
       ],
       "style": {
@@ -5489,12 +5489,12 @@
       "type": "pipe",
       "path": [
         {
-          "x": 170,
-          "y": 500.0
+          "x": 405.0,
+          "y": 640.0
         },
         {
-          "x": 195,
-          "y": 500.0
+          "x": 420.0,
+          "y": 640.0
         }
       ],
       "style": {
@@ -5508,12 +5508,12 @@
       "type": "pipe",
       "path": [
         {
-          "x": 565,
-          "y": 500.0
+          "x": 516.0,
+          "y": 640.0
         },
         {
-          "x": 590,
-          "y": 500.0
+          "x": 531.0,
+          "y": 640.0
         }
       ],
       "style": {
@@ -5527,12 +5527,12 @@
       "type": "pipe",
       "path": [
         {
-          "x": 620,
-          "y": 500.0
+          "x": 571.0,
+          "y": 640.0
         },
         {
-          "x": 645,
-          "y": 500.0
+          "x": 586.0,
+          "y": 640.0
         }
       ],
       "style": {
@@ -5546,12 +5546,12 @@
       "type": "pipe",
       "path": [
         {
-          "x": 745,
-          "y": 500.0
+          "x": 666.0,
+          "y": 640.0
         },
         {
-          "x": 770,
-          "y": 500.0
+          "x": 681.0,
+          "y": 640.0
         }
       ],
       "style": {
@@ -5565,12 +5565,12 @@
       "type": "pipe",
       "path": [
         {
-          "x": 1045,
-          "y": 500.0
+          "x": 2458.0,
+          "y": 80.0
         },
         {
-          "x": 1070,
-          "y": 500.0
+          "x": 2473.0,
+          "y": 80.0
         }
       ],
       "style": {
@@ -5584,12 +5584,12 @@
       "type": "pipe",
       "path": [
         {
-          "x": 1170,
-          "y": 500.0
+          "x": 2553.0,
+          "y": 80.0
         },
         {
-          "x": 1195,
-          "y": 500.0
+          "x": 2568.0,
+          "y": 80.0
         }
       ],
       "style": {
@@ -5603,12 +5603,12 @@
       "type": "pipe",
       "path": [
         {
-          "x": 1245,
-          "y": 500.0
+          "x": 2594.0,
+          "y": 80.0
         },
         {
-          "x": 1270,
-          "y": 500.0
+          "x": 2609.0,
+          "y": 80.0
         }
       ],
       "style": {
@@ -5622,12 +5622,12 @@
       "type": "pipe",
       "path": [
         {
-          "x": 1565,
-          "y": 500.0
+          "x": 1191.0,
+          "y": 80.0
         },
         {
-          "x": 1590,
-          "y": 500.0
+          "x": 1206.0,
+          "y": 80.0
         }
       ],
       "style": {
@@ -5641,12 +5641,12 @@
       "type": "pipe",
       "path": [
         {
-          "x": 1620,
-          "y": 500.0
+          "x": 1246.0,
+          "y": 80.0
         },
         {
-          "x": 1645,
-          "y": 500.0
+          "x": 1261.0,
+          "y": 80.0
         }
       ],
       "style": {
@@ -5660,12 +5660,12 @@
       "type": "pipe",
       "path": [
         {
-          "x": 1745,
-          "y": 500.0
+          "x": 1341.0,
+          "y": 80.0
         },
         {
-          "x": 1770,
-          "y": 500.0
+          "x": 1356.0,
+          "y": 80.0
         }
       ],
       "style": {
@@ -5679,12 +5679,12 @@
       "type": "pipe",
       "path": [
         {
-          "x": 2045,
-          "y": 500.0
+          "x": 777.0,
+          "y": 640.0
         },
         {
-          "x": 2070,
-          "y": 500.0
+          "x": 792.0,
+          "y": 640.0
         }
       ],
       "style": {
@@ -5698,12 +5698,12 @@
       "type": "pipe",
       "path": [
         {
-          "x": 2170,
-          "y": 500.0
+          "x": 872.0,
+          "y": 640.0
         },
         {
-          "x": 2195,
-          "y": 500.0
+          "x": 887.0,
+          "y": 640.0
         }
       ],
       "style": {
@@ -5717,12 +5717,12 @@
       "type": "pipe",
       "path": [
         {
-          "x": 2245,
-          "y": 500.0
+          "x": 913.0,
+          "y": 640.0
         },
         {
-          "x": 2270,
-          "y": 500.0
+          "x": 928.0,
+          "y": 640.0
         }
       ],
       "style": {
@@ -5736,12 +5736,12 @@
       "type": "pipe",
       "path": [
         {
-          "x": 2545,
-          "y": 500.0
+          "x": 1038.0,
+          "y": 640.0
         },
         {
-          "x": 2570,
-          "y": 500.0
+          "x": 1053.0,
+          "y": 640.0
         }
       ],
       "style": {
@@ -5755,12 +5755,12 @@
       "type": "pipe",
       "path": [
         {
-          "x": 2670,
-          "y": 500.0
+          "x": 1133.0,
+          "y": 640.0
         },
         {
-          "x": 2695,
-          "y": 500.0
+          "x": 1148.0,
+          "y": 640.0
         }
       ],
       "style": {
@@ -5774,12 +5774,12 @@
       "type": "pipe",
       "path": [
         {
-          "x": 45,
-          "y": 650.0
+          "x": 1258.0,
+          "y": 640.0
         },
         {
-          "x": 70,
-          "y": 650.0
+          "x": 1273.0,
+          "y": 640.0
         }
       ],
       "style": {
@@ -5793,12 +5793,12 @@
       "type": "pipe",
       "path": [
         {
-          "x": 170,
-          "y": 650.0
+          "x": 1353.0,
+          "y": 640.0
         },
         {
-          "x": 195,
-          "y": 650.0
+          "x": 1368.0,
+          "y": 640.0
         }
       ],
       "style": {
@@ -5812,12 +5812,12 @@
       "type": "pipe",
       "path": [
         {
-          "x": 545,
-          "y": 622.5
+          "x": 1478.0,
+          "y": 617.5
         },
         {
-          "x": 570,
-          "y": 622.5
+          "x": 1493.0,
+          "y": 617.5
         }
       ],
       "style": {
@@ -5831,12 +5831,12 @@
       "type": "pipe",
       "path": [
         {
-          "x": 1045,
-          "y": 650.0
+          "x": 1603.0,
+          "y": 640.0
         },
         {
-          "x": 1070,
-          "y": 650.0
+          "x": 1618.0,
+          "y": 640.0
         }
       ],
       "style": {
@@ -5850,12 +5850,12 @@
       "type": "pipe",
       "path": [
         {
-          "x": 1170,
-          "y": 650.0
+          "x": 1698.0,
+          "y": 640.0
         },
         {
-          "x": 1195,
-          "y": 650.0
+          "x": 1713.0,
+          "y": 640.0
         }
       ],
       "style": {
@@ -5869,12 +5869,12 @@
       "type": "pipe",
       "path": [
         {
-          "x": 1245,
-          "y": 650.0
+          "x": 1739.0,
+          "y": 640.0
         },
         {
-          "x": 1270,
-          "y": 650.0
+          "x": 1754.0,
+          "y": 640.0
         }
       ],
       "style": {
@@ -5888,12 +5888,12 @@
       "type": "pipe",
       "path": [
         {
-          "x": 1545,
-          "y": 650.0
+          "x": 1864.0,
+          "y": 640.0
         },
         {
-          "x": 1570,
-          "y": 650.0
+          "x": 1879.0,
+          "y": 640.0
         }
       ],
       "style": {
@@ -5907,12 +5907,12 @@
       "type": "pipe",
       "path": [
         {
-          "x": 1670,
-          "y": 650.0
+          "x": 1959.0,
+          "y": 640.0
         },
         {
-          "x": 1695,
-          "y": 650.0
+          "x": 1974.0,
+          "y": 640.0
         }
       ],
       "style": {
@@ -5926,12 +5926,12 @@
       "type": "pipe",
       "path": [
         {
-          "x": 1745,
-          "y": 650.0
+          "x": 2000.0,
+          "y": 640.0
         },
         {
-          "x": 1770,
-          "y": 650.0
+          "x": 2015.0,
+          "y": 640.0
         }
       ],
       "style": {
@@ -5945,12 +5945,12 @@
       "type": "pipe",
       "path": [
         {
-          "x": 2045,
-          "y": 650.0
+          "x": 517.0,
+          "y": 80.0
         },
         {
-          "x": 2070,
-          "y": 650.0
+          "x": 532.0,
+          "y": 80.0
         }
       ],
       "style": {
@@ -5964,12 +5964,12 @@
       "type": "pipe",
       "path": [
         {
-          "x": 2170,
-          "y": 650.0
+          "x": 612.0,
+          "y": 80.0
         },
         {
-          "x": 2195,
-          "y": 650.0
+          "x": 627.0,
+          "y": 80.0
         }
       ],
       "style": {
@@ -5983,12 +5983,12 @@
       "type": "pipe",
       "path": [
         {
-          "x": 2245,
-          "y": 650.0
+          "x": 653.0,
+          "y": 80.0
         },
         {
-          "x": 2270,
-          "y": 650.0
+          "x": 668.0,
+          "y": 80.0
         }
       ],
       "style": {
@@ -6002,12 +6002,12 @@
       "type": "pipe",
       "path": [
         {
-          "x": 2545,
-          "y": 650.0
+          "x": 2125.0,
+          "y": 640.0
         },
         {
-          "x": 2570,
-          "y": 650.0
+          "x": 2140.0,
+          "y": 640.0
         }
       ],
       "style": {
@@ -6021,12 +6021,12 @@
       "type": "pipe",
       "path": [
         {
-          "x": 2670,
-          "y": 650.0
+          "x": 2220.0,
+          "y": 640.0
         },
         {
-          "x": 2695,
-          "y": 650.0
+          "x": 2235.0,
+          "y": 640.0
         }
       ],
       "style": {
@@ -6040,12 +6040,12 @@
       "type": "pipe",
       "path": [
         {
-          "x": 2795,
-          "y": 650.0
+          "x": 2315.0,
+          "y": 640.0
         },
         {
-          "x": 2820,
-          "y": 650.0
+          "x": 2330.0,
+          "y": 640.0
         }
       ],
       "style": {
@@ -6059,12 +6059,12 @@
       "type": "pipe",
       "path": [
         {
-          "x": 2870,
-          "y": 650.0
+          "x": 2356.0,
+          "y": 640.0
         },
         {
-          "x": 2895,
-          "y": 650.0
+          "x": 2371.0,
+          "y": 640.0
         }
       ],
       "style": {
@@ -6078,12 +6078,12 @@
       "type": "pipe",
       "path": [
         {
-          "x": 45,
-          "y": 800.0
+          "x": 2481.0,
+          "y": 640.0
         },
         {
-          "x": 70,
-          "y": 800.0
+          "x": 2496.0,
+          "y": 640.0
         }
       ],
       "style": {
@@ -6097,12 +6097,12 @@
       "type": "pipe",
       "path": [
         {
-          "x": 170,
-          "y": 800.0
+          "x": 2576.0,
+          "y": 640.0
         },
         {
-          "x": 195,
-          "y": 800.0
+          "x": 2591.0,
+          "y": 640.0
         }
       ],
       "style": {
@@ -6116,12 +6116,12 @@
       "type": "pipe",
       "path": [
         {
-          "x": 545,
-          "y": 800.0
+          "x": 2701.0,
+          "y": 640.0
         },
         {
-          "x": 570,
-          "y": 800.0
+          "x": 2716.0,
+          "y": 640.0
         }
       ],
       "style": {
@@ -6135,12 +6135,12 @@
       "type": "pipe",
       "path": [
         {
-          "x": 670,
-          "y": 800.0
+          "x": 2796.0,
+          "y": 640.0
         },
         {
-          "x": 695,
-          "y": 800.0
+          "x": 2811.0,
+          "y": 640.0
         }
       ],
       "style": {
@@ -6154,12 +6154,12 @@
       "type": "pipe",
       "path": [
         {
-          "x": 745,
-          "y": 800.0
+          "x": 2837.0,
+          "y": 640.0
         },
         {
-          "x": 770,
-          "y": 800.0
+          "x": 2852.0,
+          "y": 640.0
         }
       ],
       "style": {
@@ -6173,12 +6173,12 @@
       "type": "pipe",
       "path": [
         {
-          "x": 1065,
-          "y": 800.0
+          "x": 2948.0,
+          "y": 640.0
         },
         {
-          "x": 1090,
-          "y": 800.0
+          "x": 2963.0,
+          "y": 640.0
         }
       ],
       "style": {
@@ -6192,12 +6192,12 @@
       "type": "pipe",
       "path": [
         {
-          "x": 1120,
-          "y": 800.0
+          "x": 3003.0,
+          "y": 640.0
         },
         {
-          "x": 1145,
-          "y": 800.0
+          "x": 3018.0,
+          "y": 640.0
         }
       ],
       "style": {
@@ -6211,12 +6211,12 @@
       "type": "pipe",
       "path": [
         {
-          "x": 1245,
-          "y": 800.0
+          "x": 3098.0,
+          "y": 640.0
         },
         {
-          "x": 1270,
-          "y": 800.0
+          "x": 3113.0,
+          "y": 640.0
         }
       ],
       "style": {
@@ -6230,12 +6230,12 @@
       "type": "pipe",
       "path": [
         {
-          "x": 1545,
-          "y": 800.0
+          "x": 90.0,
+          "y": 920.0
         },
         {
-          "x": 1570,
-          "y": 800.0
+          "x": 105.0,
+          "y": 920.0
         }
       ],
       "style": {
@@ -6249,12 +6249,12 @@
       "type": "pipe",
       "path": [
         {
-          "x": 1670,
-          "y": 800.0
+          "x": 185.0,
+          "y": 920.0
         },
         {
-          "x": 1695,
-          "y": 800.0
+          "x": 200.0,
+          "y": 920.0
         }
       ],
       "style": {
@@ -6268,12 +6268,12 @@
       "type": "pipe",
       "path": [
         {
-          "x": 1745,
-          "y": 800.0
+          "x": 226.0,
+          "y": 920.0
         },
         {
-          "x": 1770,
-          "y": 800.0
+          "x": 241.0,
+          "y": 920.0
         }
       ],
       "style": {
@@ -6287,12 +6287,12 @@
       "type": "pipe",
       "path": [
         {
-          "x": 45,
-          "y": 1020.0
+          "x": 351.0,
+          "y": 63.0
         },
         {
-          "x": 70,
-          "y": 1020.0
+          "x": 366.0,
+          "y": 63.0
         }
       ],
       "style": {
@@ -6306,12 +6306,12 @@
       "type": "pipe",
       "path": [
         {
-          "x": 120,
-          "y": 1020.0
+          "x": 392.0,
+          "y": 63.0
         },
         {
-          "x": 145,
-          "y": 1020.0
+          "x": 407.0,
+          "y": 63.0
         }
       ],
       "style": {
@@ -6325,12 +6325,12 @@
       "type": "pipe",
       "path": [
         {
-          "x": 295,
-          "y": 1020.0
+          "x": 1039.0,
+          "y": 63.0
         },
         {
-          "x": 320,
-          "y": 1020.0
+          "x": 1054.0,
+          "y": 63.0
         }
       ],
       "style": {
@@ -6344,12 +6344,12 @@
       "type": "pipe",
       "path": [
         {
-          "x": 370,
-          "y": 1020.0
+          "x": 1080.0,
+          "y": 63.0
         },
         {
-          "x": 395,
-          "y": 1020.0
+          "x": 1095.0,
+          "y": 63.0
         }
       ],
       "style": {
@@ -6363,12 +6363,12 @@
       "type": "pipe",
       "path": [
         {
-          "x": 545,
-          "y": 1020.0
+          "x": 1618.0,
+          "y": 63.0
         },
         {
-          "x": 570,
-          "y": 1020.0
+          "x": 1633.0,
+          "y": 63.0
         }
       ],
       "style": {
@@ -6382,12 +6382,12 @@
       "type": "pipe",
       "path": [
         {
-          "x": 620,
-          "y": 1020.0
+          "x": 1659.0,
+          "y": 63.0
         },
         {
-          "x": 645,
-          "y": 1020.0
+          "x": 1674.0,
+          "y": 63.0
         }
       ],
       "style": {
@@ -6401,12 +6401,12 @@
       "type": "pipe",
       "path": [
         {
-          "x": 795,
-          "y": 1020.0
+          "x": 2292.0,
+          "y": 63.0
         },
         {
-          "x": 820,
-          "y": 1020.0
+          "x": 2307.0,
+          "y": 63.0
         }
       ],
       "style": {
@@ -6420,12 +6420,12 @@
       "type": "pipe",
       "path": [
         {
-          "x": 870,
-          "y": 1020.0
+          "x": 2333.0,
+          "y": 63.0
         },
         {
-          "x": 895,
-          "y": 1020.0
+          "x": 2348.0,
+          "y": 63.0
         }
       ],
       "style": {
@@ -6439,12 +6439,12 @@
       "type": "pipe",
       "path": [
         {
-          "x": 665.0,
-          "y": 1315
+          "x": 420.0,
+          "y": 1270
         },
         {
-          "x": 665.0,
-          "y": 1340
+          "x": 420.0,
+          "y": 1285
         }
       ],
       "style": {
@@ -6458,12 +6458,12 @@
       "type": "pipe",
       "path": [
         {
-          "x": 265.0,
-          "y": 1815
+          "x": 860.0,
+          "y": 1270
         },
         {
-          "x": 265.0,
-          "y": 1840
+          "x": 860.0,
+          "y": 1285
         }
       ],
       "style": {
@@ -6477,12 +6477,12 @@
       "type": "pipe",
       "path": [
         {
-          "x": 465.0,
-          "y": 1815
+          "x": 970.0,
+          "y": 1270
         },
         {
-          "x": 465.0,
-          "y": 1840
+          "x": 970.0,
+          "y": 1285
         }
       ],
       "style": {
@@ -6496,12 +6496,12 @@
       "type": "pipe",
       "path": [
         {
-          "x": 65.0,
-          "y": 2315
+          "x": 1410.0,
+          "y": 1270
         },
         {
-          "x": 65.0,
-          "y": 2340
+          "x": 1410.0,
+          "y": 1285
         }
       ],
       "style": {
@@ -6515,12 +6515,12 @@
       "type": "pipe",
       "path": [
         {
-          "x": 65.0,
-          "y": 2410
+          "x": 1410.0,
+          "y": 1345
         },
         {
-          "x": 65.0,
-          "y": 2435
+          "x": 1410.0,
+          "y": 1360
         }
       ],
       "style": {
@@ -6534,12 +6534,12 @@
       "type": "pipe",
       "path": [
         {
-          "x": 465.0,
-          "y": 2315
+          "x": 1630.0,
+          "y": 1270
         },
         {
-          "x": 465.0,
-          "y": 2340
+          "x": 1630.0,
+          "y": 1285
         }
       ],
       "style": {
@@ -6553,12 +6553,12 @@
       "type": "pipe",
       "path": [
         {
-          "x": 465.0,
-          "y": 2410
+          "x": 1630.0,
+          "y": 1345
         },
         {
-          "x": 465.0,
-          "y": 2435
+          "x": 1630.0,
+          "y": 1360
         }
       ],
       "style": {
@@ -6572,12 +6572,12 @@
       "type": "pipe",
       "path": [
         {
-          "x": 865.0,
-          "y": 2315
+          "x": 1850.0,
+          "y": 1270
         },
         {
-          "x": 865.0,
-          "y": 2340
+          "x": 1850.0,
+          "y": 1285
         }
       ],
       "style": {
@@ -6591,12 +6591,12 @@
       "type": "pipe",
       "path": [
         {
-          "x": 265.0,
-          "y": 2815
+          "x": 2180.0,
+          "y": 1270
         },
         {
-          "x": 265.0,
-          "y": 2840
+          "x": 2180.0,
+          "y": 1285
         }
       ],
       "style": {
@@ -6610,12 +6610,12 @@
       "type": "pipe",
       "path": [
         {
-          "x": 265.0,
-          "y": 2910
+          "x": 2180.0,
+          "y": 1345
         },
         {
-          "x": 265.0,
-          "y": 2935
+          "x": 2180.0,
+          "y": 1360
         }
       ],
       "style": {
@@ -6629,12 +6629,12 @@
       "type": "pipe",
       "path": [
         {
-          "x": 265.0,
-          "y": 3005
+          "x": 2180.0,
+          "y": 1420
         },
         {
-          "x": 265.0,
-          "y": 3030
+          "x": 2180.0,
+          "y": 1435
         }
       ],
       "style": {
@@ -6648,12 +6648,12 @@
       "type": "pipe",
       "path": [
         {
-          "x": 865.0,
-          "y": 2815
+          "x": 2510.0,
+          "y": 1270
         },
         {
-          "x": 865.0,
-          "y": 2840
+          "x": 2510.0,
+          "y": 1285
         }
       ],
       "style": {
@@ -6667,12 +6667,12 @@
       "type": "pipe",
       "path": [
         {
-          "x": 465.0,
-          "y": 3315
+          "x": 2950.0,
+          "y": 1270
         },
         {
-          "x": 465.0,
-          "y": 3340
+          "x": 2950.0,
+          "y": 1285
         }
       ],
       "style": {
@@ -6686,20 +6686,20 @@
       "type": "pipe",
       "path": [
         {
-          "x": 300,
-          "y": 50.0
+          "x": 281.0,
+          "y": 80.0
         },
         {
-          "x": 157.5,
-          "y": 50.0
+          "x": 296.0,
+          "y": 80.0
         },
         {
-          "x": 157.5,
-          "y": 1020.0
+          "x": 296.0,
+          "y": 63.0
         },
         {
-          "x": 15,
-          "y": 1020.0
+          "x": 311.0,
+          "y": 63.0
         }
       ],
       "style": {
@@ -6713,20 +6713,20 @@
       "type": "pipe",
       "path": [
         {
-          "x": 175,
-          "y": 1020.0
+          "x": 447.0,
+          "y": 63.0
         },
         {
-          "x": 1095.0,
-          "y": 1020.0
+          "x": 462.0,
+          "y": 63.0
         },
         {
-          "x": 1095.0,
-          "y": 650.0
+          "x": 462.0,
+          "y": 80.0
         },
         {
-          "x": 2015,
-          "y": 650.0
+          "x": 477.0,
+          "y": 80.0
         }
       ],
       "style": {
@@ -6740,20 +6740,20 @@
       "type": "pipe",
       "path": [
         {
-          "x": 300,
-          "y": 200.0
+          "x": 969.0,
+          "y": 80.0
         },
         {
-          "x": 282.5,
-          "y": 200.0
+          "x": 984.0,
+          "y": 80.0
         },
         {
-          "x": 282.5,
-          "y": 1020.0
+          "x": 984.0,
+          "y": 63.0
         },
         {
-          "x": 265,
-          "y": 1020.0
+          "x": 999.0,
+          "y": 63.0
         }
       ],
       "style": {
@@ -6767,20 +6767,20 @@
       "type": "pipe",
       "path": [
         {
-          "x": 425,
-          "y": 1020.0
+          "x": 1135.0,
+          "y": 63.0
         },
         {
-          "x": 970.0,
-          "y": 1020.0
+          "x": 1150.0,
+          "y": 63.0
         },
         {
-          "x": 970.0,
-          "y": 500.0
+          "x": 1150.0,
+          "y": 80.0
         },
         {
-          "x": 1515,
-          "y": 500.0
+          "x": 1165.0,
+          "y": 80.0
         }
       ],
       "style": {
@@ -6794,20 +6794,20 @@
       "type": "pipe",
       "path": [
         {
-          "x": 1675,
-          "y": 190.0
+          "x": 1548.0,
+          "y": 63.0
         },
         {
-          "x": 1095.0,
-          "y": 190.0
+          "x": 1563.0,
+          "y": 63.0
         },
         {
-          "x": 1095.0,
-          "y": 1020.0
+          "x": 1563.0,
+          "y": 63.0
         },
         {
-          "x": 515,
-          "y": 1020.0
+          "x": 1578.0,
+          "y": 63.0
         }
       ],
       "style": {
@@ -6821,20 +6821,20 @@
       "type": "pipe",
       "path": [
         {
-          "x": 675,
-          "y": 1020.0
+          "x": 1714.0,
+          "y": 63.0
         },
         {
-          "x": 1595.0,
-          "y": 1020.0
+          "x": 1729.0,
+          "y": 63.0
         },
         {
-          "x": 1595.0,
-          "y": 350.0
+          "x": 1729.0,
+          "y": 80.0
         },
         {
-          "x": 2515,
-          "y": 350.0
+          "x": 1744.0,
+          "y": 80.0
         }
       ],
       "style": {
@@ -6848,20 +6848,20 @@
       "type": "pipe",
       "path": [
         {
-          "x": 1320,
-          "y": 350.0
+          "x": 2222.0,
+          "y": 80.0
         },
         {
-          "x": 1042.5,
-          "y": 350.0
+          "x": 2237.0,
+          "y": 80.0
         },
         {
-          "x": 1042.5,
-          "y": 1020.0
+          "x": 2237.0,
+          "y": 63.0
         },
         {
-          "x": 765,
-          "y": 1020.0
+          "x": 2252.0,
+          "y": 63.0
         }
       ],
       "style": {
@@ -6875,20 +6875,20 @@
       "type": "pipe",
       "path": [
         {
-          "x": 925,
-          "y": 1020.0
+          "x": 2388.0,
+          "y": 63.0
         },
         {
-          "x": 970.0,
-          "y": 1020.0
+          "x": 2403.0,
+          "y": 63.0
         },
         {
-          "x": 970.0,
-          "y": 500.0
+          "x": 2403.0,
+          "y": 80.0
         },
         {
-          "x": 1015,
-          "y": 500.0
+          "x": 2418.0,
+          "y": 80.0
         }
       ],
       "style": {
@@ -6901,680 +6901,680 @@
     {
       "fragment_id": "rfrag_region_0",
       "bounding_box": {
-        "x": 0,
-        "y": 0,
-        "width": 315,
-        "height": 100
+        "x": 40.0,
+        "y": 40,
+        "width": 251,
+        "height": 80
       },
       "orientation": "left_to_right"
     },
     {
       "fragment_id": "rfrag_region_1",
       "bounding_box": {
-        "x": 500,
-        "y": 0,
-        "width": 315,
-        "height": 100
+        "x": 2669.0,
+        "y": 40,
+        "width": 251,
+        "height": 80
       },
       "orientation": "left_to_right"
     },
     {
       "fragment_id": "rfrag_region_2",
       "bounding_box": {
-        "x": 1000,
-        "y": 0,
-        "width": 440,
-        "height": 100
+        "x": 40.0,
+        "y": 320,
+        "width": 346,
+        "height": 80
       },
       "orientation": "left_to_right"
     },
     {
       "fragment_id": "rfrag_region_3",
       "bounding_box": {
-        "x": 1500,
-        "y": 0,
-        "width": 315,
-        "height": 100
+        "x": 396.0,
+        "y": 320,
+        "width": 251,
+        "height": 80
       },
       "orientation": "left_to_right"
     },
     {
       "fragment_id": "rfrag_region_4",
       "bounding_box": {
-        "x": 2000,
-        "y": 0,
-        "width": 315,
-        "height": 100
+        "x": 657.0,
+        "y": 320,
+        "width": 251,
+        "height": 80
       },
       "orientation": "left_to_right"
     },
     {
       "fragment_id": "rfrag_region_5",
       "bounding_box": {
-        "x": 2500,
-        "y": 0,
-        "width": 440,
-        "height": 100
+        "x": 918.0,
+        "y": 320,
+        "width": 346,
+        "height": 80
       },
       "orientation": "left_to_right"
     },
     {
       "fragment_id": "rfrag_region_6",
       "bounding_box": {
-        "x": 0,
-        "y": 150,
-        "width": 315,
-        "height": 100
+        "x": 728.0,
+        "y": 40,
+        "width": 251,
+        "height": 80
       },
       "orientation": "left_to_right"
     },
     {
       "fragment_id": "rfrag_region_7",
       "bounding_box": {
-        "x": 500,
-        "y": 150,
-        "width": 315,
-        "height": 100
+        "x": 1274.0,
+        "y": 320,
+        "width": 251,
+        "height": 80
       },
       "orientation": "left_to_right"
     },
     {
       "fragment_id": "rfrag_region_8",
       "bounding_box": {
-        "x": 1000,
-        "y": 150,
-        "width": 335,
-        "height": 100
+        "x": 1535.0,
+        "y": 320,
+        "width": 237,
+        "height": 80
       },
       "orientation": "left_to_right"
     },
     {
       "fragment_id": "rfrag_region_9",
       "bounding_box": {
-        "x": 1500,
-        "y": 150,
-        "width": 190,
-        "height": 80
+        "x": 1402.0,
+        "y": 40,
+        "width": 156,
+        "height": 46
       },
       "orientation": "left_to_right"
     },
     {
       "fragment_id": "rfrag_region_10",
       "bounding_box": {
-        "x": 2000,
-        "y": 150,
-        "width": 315,
-        "height": 100
+        "x": 1782.0,
+        "y": 320,
+        "width": 251,
+        "height": 80
       },
       "orientation": "left_to_right"
     },
     {
       "fragment_id": "rfrag_region_11",
       "bounding_box": {
-        "x": 2500,
-        "y": 150,
-        "width": 315,
-        "height": 100
+        "x": 2043.0,
+        "y": 320,
+        "width": 251,
+        "height": 80
       },
       "orientation": "left_to_right"
     },
     {
       "fragment_id": "rfrag_region_12",
       "bounding_box": {
-        "x": 0,
-        "y": 300,
-        "width": 190,
-        "height": 80
+        "x": 2304.0,
+        "y": 320,
+        "width": 156,
+        "height": 46
       },
       "orientation": "left_to_right"
     },
     {
       "fragment_id": "rfrag_region_13",
       "bounding_box": {
-        "x": 500,
-        "y": 300,
-        "width": 335,
-        "height": 100
+        "x": 2470.0,
+        "y": 320,
+        "width": 237,
+        "height": 80
       },
       "orientation": "left_to_right"
     },
     {
       "fragment_id": "rfrag_region_14",
       "bounding_box": {
-        "x": 1000,
-        "y": 300,
-        "width": 335,
-        "height": 100
+        "x": 1995.0,
+        "y": 40,
+        "width": 237,
+        "height": 80
       },
       "orientation": "left_to_right"
     },
     {
       "fragment_id": "rfrag_region_15",
       "bounding_box": {
-        "x": 1500,
-        "y": 300,
-        "width": 315,
-        "height": 100
+        "x": 2717.0,
+        "y": 320,
+        "width": 251,
+        "height": 80
       },
       "orientation": "left_to_right"
     },
     {
       "fragment_id": "rfrag_region_16",
       "bounding_box": {
-        "x": 2000,
-        "y": 300,
-        "width": 240,
-        "height": 100
+        "x": 40.0,
+        "y": 600,
+        "width": 210,
+        "height": 80
       },
       "orientation": "left_to_right"
     },
     {
       "fragment_id": "rfrag_region_17",
       "bounding_box": {
-        "x": 2500,
-        "y": 300,
-        "width": 315,
-        "height": 100
+        "x": 1734.0,
+        "y": 40,
+        "width": 251,
+        "height": 80
       },
       "orientation": "left_to_right"
     },
     {
       "fragment_id": "rfrag_region_18",
       "bounding_box": {
-        "x": 0,
-        "y": 450,
-        "width": 240,
-        "height": 100
+        "x": 260.0,
+        "y": 600,
+        "width": 210,
+        "height": 80
       },
       "orientation": "left_to_right"
     },
     {
       "fragment_id": "rfrag_region_19",
       "bounding_box": {
-        "x": 500,
-        "y": 450,
-        "width": 335,
-        "height": 100
+        "x": 480.0,
+        "y": 600,
+        "width": 237,
+        "height": 80
       },
       "orientation": "left_to_right"
     },
     {
       "fragment_id": "rfrag_region_20",
       "bounding_box": {
-        "x": 1000,
-        "y": 450,
-        "width": 315,
-        "height": 100
+        "x": 2408.0,
+        "y": 40,
+        "width": 251,
+        "height": 80
       },
       "orientation": "left_to_right"
     },
     {
       "fragment_id": "rfrag_region_21",
       "bounding_box": {
-        "x": 1500,
-        "y": 450,
-        "width": 335,
-        "height": 100
+        "x": 1155.0,
+        "y": 40,
+        "width": 237,
+        "height": 80
       },
       "orientation": "left_to_right"
     },
     {
       "fragment_id": "rfrag_region_22",
       "bounding_box": {
-        "x": 2000,
-        "y": 450,
-        "width": 315,
-        "height": 100
+        "x": 727.0,
+        "y": 600,
+        "width": 251,
+        "height": 80
       },
       "orientation": "left_to_right"
     },
     {
       "fragment_id": "rfrag_region_23",
       "bounding_box": {
-        "x": 2500,
-        "y": 450,
-        "width": 240,
-        "height": 100
+        "x": 988.0,
+        "y": 600,
+        "width": 210,
+        "height": 80
       },
       "orientation": "left_to_right"
     },
     {
       "fragment_id": "rfrag_region_24",
       "bounding_box": {
-        "x": 0,
+        "x": 1208.0,
         "y": 600,
-        "width": 240,
-        "height": 100
+        "width": 210,
+        "height": 80
       },
       "orientation": "left_to_right"
     },
     {
       "fragment_id": "rfrag_region_25",
       "bounding_box": {
-        "x": 500,
+        "x": 1428.0,
         "y": 600,
         "width": 115,
-        "height": 45
+        "height": 35
       },
       "orientation": "left_to_right"
     },
     {
       "fragment_id": "rfrag_region_26",
       "bounding_box": {
-        "x": 1000,
+        "x": 1553.0,
         "y": 600,
-        "width": 315,
-        "height": 100
+        "width": 251,
+        "height": 80
       },
       "orientation": "left_to_right"
     },
     {
       "fragment_id": "rfrag_region_27",
       "bounding_box": {
-        "x": 1500,
+        "x": 1814.0,
         "y": 600,
-        "width": 315,
-        "height": 100
+        "width": 251,
+        "height": 80
       },
       "orientation": "left_to_right"
     },
     {
       "fragment_id": "rfrag_region_28",
       "bounding_box": {
-        "x": 2000,
-        "y": 600,
-        "width": 315,
-        "height": 100
+        "x": 467.0,
+        "y": 40,
+        "width": 251,
+        "height": 80
       },
       "orientation": "left_to_right"
     },
     {
       "fragment_id": "rfrag_region_29",
       "bounding_box": {
-        "x": 2500,
+        "x": 2075.0,
         "y": 600,
-        "width": 440,
-        "height": 100
+        "width": 346,
+        "height": 80
       },
       "orientation": "left_to_right"
     },
     {
       "fragment_id": "rfrag_region_30",
       "bounding_box": {
-        "x": 0,
-        "y": 750,
-        "width": 240,
-        "height": 100
+        "x": 2431.0,
+        "y": 600,
+        "width": 210,
+        "height": 80
       },
       "orientation": "left_to_right"
     },
     {
       "fragment_id": "rfrag_region_31",
       "bounding_box": {
-        "x": 500,
-        "y": 750,
-        "width": 315,
-        "height": 100
+        "x": 2651.0,
+        "y": 600,
+        "width": 251,
+        "height": 80
       },
       "orientation": "left_to_right"
     },
     {
       "fragment_id": "rfrag_region_32",
       "bounding_box": {
-        "x": 1000,
-        "y": 750,
-        "width": 335,
-        "height": 100
+        "x": 2912.0,
+        "y": 600,
+        "width": 237,
+        "height": 80
       },
       "orientation": "left_to_right"
     },
     {
       "fragment_id": "rfrag_region_33",
       "bounding_box": {
-        "x": 1500,
-        "y": 750,
-        "width": 315,
-        "height": 100
+        "x": 40.0,
+        "y": 880,
+        "width": 251,
+        "height": 80
       },
       "orientation": "left_to_right"
     },
     {
       "fragment_id": "cfrag_0",
       "bounding_box": {
-        "x": 0,
-        "y": 980,
-        "width": 190,
-        "height": 80
+        "x": 301.0,
+        "y": 40,
+        "width": 156,
+        "height": 46
       },
       "orientation": "left_to_right"
     },
     {
       "fragment_id": "cfrag_1",
       "bounding_box": {
-        "x": 250,
-        "y": 980,
-        "width": 190,
-        "height": 80
+        "x": 989.0,
+        "y": 40,
+        "width": 156,
+        "height": 46
       },
       "orientation": "left_to_right"
     },
     {
       "fragment_id": "cfrag_2",
       "bounding_box": {
-        "x": 500,
-        "y": 980,
-        "width": 190,
-        "height": 80
+        "x": 1568.0,
+        "y": 40,
+        "width": 156,
+        "height": 46
       },
       "orientation": "left_to_right"
     },
     {
       "fragment_id": "cfrag_3",
       "bounding_box": {
-        "x": 750,
-        "y": 980,
-        "width": 190,
-        "height": 80
+        "x": 2242.0,
+        "y": 40,
+        "width": 156,
+        "height": 46
       },
       "orientation": "left_to_right"
     },
     {
       "fragment_id": "efrag_0",
       "bounding_box": {
-        "x": 0,
-        "y": 1230,
-        "width": 130,
-        "height": 100
+        "x": 40.0,
+        "y": 1200,
+        "width": 100,
+        "height": 80
       },
       "orientation": "top_to_bottom"
     },
     {
       "fragment_id": "efrag_1",
       "bounding_box": {
-        "x": 200,
-        "y": 1230,
-        "width": 130,
-        "height": 100
+        "x": 150.0,
+        "y": 1200,
+        "width": 100,
+        "height": 80
       },
       "orientation": "top_to_bottom"
     },
     {
       "fragment_id": "efrag_2",
       "bounding_box": {
-        "x": 400,
-        "y": 1230,
-        "width": 130,
-        "height": 100
+        "x": 260.0,
+        "y": 1200,
+        "width": 100,
+        "height": 80
       },
       "orientation": "top_to_bottom"
     },
     {
       "fragment_id": "efrag_3",
       "bounding_box": {
-        "x": 600,
-        "y": 1230,
-        "width": 130,
-        "height": 195
+        "x": 370.0,
+        "y": 1200,
+        "width": 100,
+        "height": 155
       },
       "orientation": "top_to_bottom"
     },
     {
       "fragment_id": "efrag_4",
       "bounding_box": {
-        "x": 800,
-        "y": 1230,
-        "width": 130,
-        "height": 100
+        "x": 480.0,
+        "y": 1200,
+        "width": 100,
+        "height": 80
       },
       "orientation": "top_to_bottom"
     },
     {
       "fragment_id": "efrag_5",
       "bounding_box": {
-        "x": 1000,
-        "y": 1230,
-        "width": 130,
-        "height": 100
+        "x": 590.0,
+        "y": 1200,
+        "width": 100,
+        "height": 80
       },
       "orientation": "top_to_bottom"
     },
     {
       "fragment_id": "efrag_6",
       "bounding_box": {
-        "x": 0,
-        "y": 1730,
-        "width": 130,
-        "height": 100
+        "x": 700.0,
+        "y": 1200,
+        "width": 100,
+        "height": 80
       },
       "orientation": "top_to_bottom"
     },
     {
       "fragment_id": "efrag_7",
       "bounding_box": {
-        "x": 200,
-        "y": 1730,
-        "width": 130,
-        "height": 195
+        "x": 810.0,
+        "y": 1200,
+        "width": 100,
+        "height": 155
       },
       "orientation": "top_to_bottom"
     },
     {
       "fragment_id": "efrag_8",
       "bounding_box": {
-        "x": 400,
-        "y": 1730,
-        "width": 130,
-        "height": 195
+        "x": 920.0,
+        "y": 1200,
+        "width": 100,
+        "height": 155
       },
       "orientation": "top_to_bottom"
     },
     {
       "fragment_id": "efrag_9",
       "bounding_box": {
-        "x": 600,
-        "y": 1730,
-        "width": 130,
-        "height": 100
+        "x": 1030.0,
+        "y": 1200,
+        "width": 100,
+        "height": 80
       },
       "orientation": "top_to_bottom"
     },
     {
       "fragment_id": "efrag_10",
       "bounding_box": {
-        "x": 800,
-        "y": 1730,
-        "width": 130,
-        "height": 100
+        "x": 1140.0,
+        "y": 1200,
+        "width": 100,
+        "height": 80
       },
       "orientation": "top_to_bottom"
     },
     {
       "fragment_id": "efrag_11",
       "bounding_box": {
-        "x": 1000,
-        "y": 1730,
-        "width": 130,
-        "height": 100
+        "x": 1250.0,
+        "y": 1200,
+        "width": 100,
+        "height": 80
       },
       "orientation": "top_to_bottom"
     },
     {
       "fragment_id": "efrag_12",
       "bounding_box": {
-        "x": 0,
-        "y": 2230,
-        "width": 130,
-        "height": 290
+        "x": 1360.0,
+        "y": 1200,
+        "width": 100,
+        "height": 230
       },
       "orientation": "top_to_bottom"
     },
     {
       "fragment_id": "efrag_13",
       "bounding_box": {
-        "x": 200,
-        "y": 2230,
-        "width": 130,
-        "height": 100
+        "x": 1470.0,
+        "y": 1200,
+        "width": 100,
+        "height": 80
       },
       "orientation": "top_to_bottom"
     },
     {
       "fragment_id": "efrag_14",
       "bounding_box": {
-        "x": 400,
-        "y": 2230,
-        "width": 130,
-        "height": 290
+        "x": 1580.0,
+        "y": 1200,
+        "width": 100,
+        "height": 230
       },
       "orientation": "top_to_bottom"
     },
     {
       "fragment_id": "efrag_15",
       "bounding_box": {
-        "x": 600,
-        "y": 2230,
-        "width": 130,
-        "height": 100
+        "x": 1690.0,
+        "y": 1200,
+        "width": 100,
+        "height": 80
       },
       "orientation": "top_to_bottom"
     },
     {
       "fragment_id": "efrag_16",
       "bounding_box": {
-        "x": 800,
-        "y": 2230,
-        "width": 130,
-        "height": 195
+        "x": 1800.0,
+        "y": 1200,
+        "width": 100,
+        "height": 155
       },
       "orientation": "top_to_bottom"
     },
     {
       "fragment_id": "efrag_17",
       "bounding_box": {
-        "x": 1000,
-        "y": 2230,
-        "width": 130,
-        "height": 100
+        "x": 1910.0,
+        "y": 1200,
+        "width": 100,
+        "height": 80
       },
       "orientation": "top_to_bottom"
     },
     {
       "fragment_id": "efrag_18",
       "bounding_box": {
-        "x": 0,
-        "y": 2730,
-        "width": 130,
-        "height": 100
+        "x": 2020.0,
+        "y": 1200,
+        "width": 100,
+        "height": 80
       },
       "orientation": "top_to_bottom"
     },
     {
       "fragment_id": "efrag_19",
       "bounding_box": {
-        "x": 200,
-        "y": 2730,
-        "width": 130,
-        "height": 385
+        "x": 2130.0,
+        "y": 1200,
+        "width": 100,
+        "height": 305
       },
       "orientation": "top_to_bottom"
     },
     {
       "fragment_id": "efrag_20",
       "bounding_box": {
-        "x": 400,
-        "y": 2730,
-        "width": 130,
-        "height": 100
+        "x": 2240.0,
+        "y": 1200,
+        "width": 100,
+        "height": 80
       },
       "orientation": "top_to_bottom"
     },
     {
       "fragment_id": "efrag_21",
       "bounding_box": {
-        "x": 600,
-        "y": 2730,
-        "width": 130,
-        "height": 100
+        "x": 2350.0,
+        "y": 1200,
+        "width": 100,
+        "height": 80
       },
       "orientation": "top_to_bottom"
     },
     {
       "fragment_id": "efrag_22",
       "bounding_box": {
-        "x": 800,
-        "y": 2730,
-        "width": 130,
-        "height": 195
+        "x": 2460.0,
+        "y": 1200,
+        "width": 100,
+        "height": 155
       },
       "orientation": "top_to_bottom"
     },
     {
       "fragment_id": "efrag_23",
       "bounding_box": {
-        "x": 1000,
-        "y": 2730,
-        "width": 130,
-        "height": 100
+        "x": 2570.0,
+        "y": 1200,
+        "width": 100,
+        "height": 80
       },
       "orientation": "top_to_bottom"
     },
     {
       "fragment_id": "efrag_24",
       "bounding_box": {
-        "x": 0,
-        "y": 3230,
-        "width": 130,
-        "height": 100
+        "x": 2680.0,
+        "y": 1200,
+        "width": 100,
+        "height": 80
       },
       "orientation": "top_to_bottom"
     },
     {
       "fragment_id": "efrag_25",
       "bounding_box": {
-        "x": 200,
-        "y": 3230,
-        "width": 130,
-        "height": 100
+        "x": 2790.0,
+        "y": 1200,
+        "width": 100,
+        "height": 80
       },
       "orientation": "top_to_bottom"
     },
     {
       "fragment_id": "efrag_26",
       "bounding_box": {
-        "x": 400,
-        "y": 3230,
-        "width": 130,
-        "height": 195
+        "x": 2900.0,
+        "y": 1200,
+        "width": 100,
+        "height": 155
       },
       "orientation": "top_to_bottom"
     },
     {
       "fragment_id": "efrag_27",
       "bounding_box": {
-        "x": 600,
-        "y": 3230,
-        "width": 130,
-        "height": 100
+        "x": 3010.0,
+        "y": 1200,
+        "width": 100,
+        "height": 80
       },
       "orientation": "top_to_bottom"
     },
     {
       "fragment_id": "efrag_28",
       "bounding_box": {
-        "x": 800,
-        "y": 3230,
-        "width": 130,
-        "height": 100
+        "x": 40.0,
+        "y": 1360,
+        "width": 100,
+        "height": 80
       },
       "orientation": "top_to_bottom"
     },
     {
       "fragment_id": "efrag_29",
       "bounding_box": {
-        "x": 1000,
-        "y": 3230,
-        "width": 130,
-        "height": 100
+        "x": 150.0,
+        "y": 1360,
+        "width": 100,
+        "height": 80
       },
       "orientation": "top_to_bottom"
     }

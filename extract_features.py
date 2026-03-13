@@ -17,9 +17,11 @@ Steps:
  11 - Repetition patterns
 """
 
+import argparse
 import json
 import math
 import collections
+import os
 import xml.etree.ElementTree as ET
 
 import networkx as nx
@@ -28,12 +30,11 @@ import networkx as nx
 # Constants
 # ---------------------------------------------------------------------------
 GRAPHML_NS = "http://graphml.graphdrawing.org/xmlns"
-SOURCE_FILE = "0.graphml"
-INPUT_PATH  = "/Users/surajprasad/Desktop/latent-space/drawings/0.graphml"
-OUTPUT_PATH = "/Users/surajprasad/Desktop/latent-space/drawings/ground_truth.json"
 
-SEMANTIC_TYPES  = {"valve", "general", "instrumentation", "arrow"}
+SEMANTIC_TYPES  = {"valve", "general", "instrumentation", "arrow", "inlet_outlet", "tank", "pump"}
 CONTROL_TYPES   = {"valve", "instrumentation"}
+EQUIPMENT_TYPES = {"general", "tank", "pump"}
+PIPE_TYPES      = {"general", "arrow", "inlet_outlet"}
 WIRE_TYPES      = {"connector", "crossing"}
 IGNORE_TYPES    = {"background"}
 
@@ -67,6 +68,8 @@ def parse_graphml(path: str):
             attrs[k] = data_el.text
 
         label = attrs.get("label", "")
+        # Normalize labels with slashes
+        label = label.replace("/", "_")
 
         # Determine bounding box
         # Integer keys d1-d4: xmin, ymin, xmax, ymax
@@ -267,7 +270,8 @@ def decompose_regions(G_semantic: nx.Graph):
       regions = list of region dicts
       region_of_node = {node_id: region_id}
     """
-    # G_pipes: only general + arrow nodes (no valves, no instrumentation)
+    # G_pipes: pipe-like nodes (general, arrow, inlet_outlet, tank, pump)
+    # Excludes control types (valve, instrumentation)
     pipe_nodes = [n for n, d in G_semantic.nodes(data=True)
                   if d.get("label") not in CONTROL_TYPES]
     G_pipes = G_semantic.subgraph(pipe_nodes).copy()
@@ -458,7 +462,7 @@ def degree_characterization(G_semantic: nx.Graph, regions: list):
 # Step 9 — Equipment Anchors
 # ---------------------------------------------------------------------------
 def equipment_anchors(G_semantic: nx.Graph, regions: list, region_of_node: dict):
-    equip_types = {"general", "instrumentation"}
+    equip_types = EQUIPMENT_TYPES | {"instrumentation"}
 
     per_region = {}
     global_equip_edges = []
@@ -574,8 +578,17 @@ def find_repetition_patterns(G_semantic: nx.Graph, regions: list):
 # Main
 # ---------------------------------------------------------------------------
 def main():
-    print(f"Parsing {INPUT_PATH} ...")
-    raw_nodes, raw_edges = parse_graphml(INPUT_PATH)
+    parser = argparse.ArgumentParser(description="Extract features from a P&ID GraphML file")
+    parser.add_argument("--input", default="0.graphml", help="Path to input GraphML file")
+    parser.add_argument("--output", default="ground_truth.json", help="Path to output JSON file")
+    args = parser.parse_args()
+
+    input_path = args.input
+    output_path = args.output
+    source_file = os.path.basename(input_path)
+
+    print(f"Parsing {input_path} ...")
+    raw_nodes, raw_edges = parse_graphml(input_path)
 
     # Raw counts (before any transformation)
     raw_counts = collections.Counter(n["label"] for n in raw_nodes.values())
@@ -614,9 +627,10 @@ def main():
 
     # Sanity check
     semantic_counts = collections.Counter(d["label"] for _, d in G_semantic.nodes(data=True))
-    expected = 58 + 34 + 25 + 4  # valve + general + instrumentation + arrow
     actual   = G_semantic.number_of_nodes()
-    print(f"  Semantic node counts: {dict(semantic_counts)} (expected ~{expected}, got {actual})")
+    non_semantic = sum(v for k, v in semantic_counts.items() if k not in SEMANTIC_TYPES)
+    assert non_semantic == 0, f"Unexpected non-semantic labels after contraction: {dict(semantic_counts)}"
+    print(f"  Semantic node counts: {dict(semantic_counts)} (total {actual})")
 
     # Build normalized graph lists
     norm_nodes = []
@@ -674,7 +688,7 @@ def main():
     # Assemble JSON
     ground_truth = {
         "metadata": {
-            "source_file":        SOURCE_FILE,
+            "source_file":        source_file,
             "raw_node_counts":    dict(raw_counts),
             "semantic_node_counts": dict(semantic_counts),
             "edge_counts": {
@@ -700,22 +714,22 @@ def main():
     }
 
     # Write output
-    print(f"\nWriting {OUTPUT_PATH} ...")
-    with open(OUTPUT_PATH, "w") as f:
+    print(f"\nWriting {output_path} ...")
+    with open(output_path, "w") as f:
         json.dump(ground_truth, f, indent=2)
 
     # Final sanity checks
     print("\n--- Sanity Checks ---")
-    print(f"  semantic nodes : {actual}  (expected {expected})")
+    print(f"  semantic nodes : {actual}")
     print(f"  crossings left : {remaining_cross}  (expected 0)")
     print(f"  connectors left: {remaining_conn}  (expected 0)")
     total_region_nodes = sum(len(r["nodes"]) for r in regions)
     print(f"  sum(region node counts): {total_region_nodes}")
     print(f"  regions: {len(regions)}")
     # Reload check
-    with open(OUTPUT_PATH) as f:
+    with open(output_path) as f:
         reloaded = json.load(f)
-    assert reloaded["metadata"]["source_file"] == SOURCE_FILE, "Reload check failed"
+    assert reloaded["metadata"]["source_file"] == source_file, "Reload check failed"
     print("  JSON reload: OK")
     print("\nDone.")
 

@@ -1,0 +1,6962 @@
+{
+  "metadata": {
+    "source_file": "/Users/surajprasad/Desktop/latent-space/drawings/out_v3/9/pfd_global_graph.json",
+    "schema_version": "1",
+    "layout_engine": "spine_v3",
+    "coordinate_system": "cartesian",
+    "units": "mm",
+    "patterns_expanded": false
+  },
+  "symbols": {
+    "pipe_segment": "pipe_straight",
+    "valve:isolation": "valve_gate",
+    "valve:control": "valve_control",
+    "instrument:flow_meter": "instrument_flow_meter",
+    "equipment_block": "equipment_generic",
+    "tank": "tank_vertical",
+    "pump": "pump_centrifugal",
+    "inlet_outlet": "inlet_outlet_flag"
+  },
+  "nodes": [
+    {
+      "global_id": "rfrag_region_0:n0",
+      "type": "pipe_segment",
+      "symbol": "pipe_straight",
+      "position": {
+        "x": 580,
+        "y": 450
+      },
+      "size": {
+        "width": 40,
+        "height": 12
+      },
+      "orientation": "horizontal",
+      "ports": {
+        "in": {
+          "x": 0,
+          "y": 6.0
+        },
+        "out": {
+          "x": 40,
+          "y": 6.0
+        }
+      }
+    },
+    {
+      "global_id": "rfrag_region_0:n1",
+      "type": "pipe_segment",
+      "symbol": "pipe_straight",
+      "position": {
+        "x": 625,
+        "y": 450
+      },
+      "size": {
+        "width": 40,
+        "height": 12
+      },
+      "orientation": "horizontal",
+      "ports": {
+        "in": {
+          "x": 0,
+          "y": 6.0
+        },
+        "out": {
+          "x": 40,
+          "y": 6.0
+        }
+      }
+    },
+    {
+      "global_id": "rfrag_region_1:n0",
+      "type": "valve:control",
+      "symbol": "valve_control",
+      "position": {
+        "x": 45,
+        "y": 55
+      },
+      "size": {
+        "width": 22,
+        "height": 38
+      },
+      "orientation": "horizontal",
+      "ports": {
+        "in": {
+          "x": 0,
+          "y": 19.0
+        },
+        "out": {
+          "x": 22,
+          "y": 19.0
+        }
+      }
+    },
+    {
+      "global_id": "rfrag_region_1:n1",
+      "type": "pipe_segment",
+      "symbol": "pipe_straight",
+      "position": {
+        "x": 70,
+        "y": 65
+      },
+      "size": {
+        "width": 40,
+        "height": 12
+      },
+      "orientation": "horizontal",
+      "ports": {
+        "in": {
+          "x": 0,
+          "y": 6.0
+        },
+        "out": {
+          "x": 40,
+          "y": 6.0
+        }
+      }
+    },
+    {
+      "global_id": "rfrag_region_1:n2",
+      "type": "equipment_block",
+      "symbol": "equipment_generic",
+      "position": {
+        "x": 120,
+        "y": 45
+      },
+      "size": {
+        "width": 80,
+        "height": 60
+      },
+      "orientation": "horizontal",
+      "ports": {
+        "in": {
+          "x": 0,
+          "y": 30.0
+        },
+        "out": {
+          "x": 80,
+          "y": 30.0
+        }
+      }
+    },
+    {
+      "global_id": "rfrag_region_1:n3",
+      "type": "equipment_block",
+      "symbol": "equipment_generic",
+      "position": {
+        "x": 205,
+        "y": 45
+      },
+      "size": {
+        "width": 80,
+        "height": 60
+      },
+      "orientation": "horizontal",
+      "ports": {
+        "in": {
+          "x": 0,
+          "y": 30.0
+        },
+        "out": {
+          "x": 80,
+          "y": 30.0
+        }
+      }
+    },
+    {
+      "global_id": "rfrag_region_1:n4",
+      "type": "equipment_block",
+      "symbol": "equipment_generic",
+      "position": {
+        "x": 290,
+        "y": 45
+      },
+      "size": {
+        "width": 80,
+        "height": 60
+      },
+      "orientation": "horizontal",
+      "ports": {
+        "in": {
+          "x": 0,
+          "y": 30.0
+        },
+        "out": {
+          "x": 80,
+          "y": 30.0
+        }
+      }
+    },
+    {
+      "global_id": "rfrag_region_1:n5",
+      "type": "equipment_block",
+      "symbol": "equipment_generic",
+      "position": {
+        "x": 375,
+        "y": 45
+      },
+      "size": {
+        "width": 80,
+        "height": 60
+      },
+      "orientation": "horizontal",
+      "ports": {
+        "in": {
+          "x": 0,
+          "y": 30.0
+        },
+        "out": {
+          "x": 80,
+          "y": 30.0
+        }
+      }
+    },
+    {
+      "global_id": "rfrag_region_1:n6",
+      "type": "equipment_block",
+      "symbol": "equipment_generic",
+      "position": {
+        "x": 460,
+        "y": 45
+      },
+      "size": {
+        "width": 80,
+        "height": 60
+      },
+      "orientation": "horizontal",
+      "ports": {
+        "in": {
+          "x": 0,
+          "y": 30.0
+        },
+        "out": {
+          "x": 80,
+          "y": 30.0
+        }
+      }
+    },
+    {
+      "global_id": "rfrag_region_1:n7",
+      "type": "valve:control",
+      "symbol": "valve_control",
+      "position": {
+        "x": 545,
+        "y": 55
+      },
+      "size": {
+        "width": 22,
+        "height": 38
+      },
+      "orientation": "horizontal",
+      "ports": {
+        "in": {
+          "x": 0,
+          "y": 19.0
+        },
+        "out": {
+          "x": 22,
+          "y": 19.0
+        }
+      }
+    },
+    {
+      "global_id": "rfrag_region_2:n0",
+      "type": "pipe_segment",
+      "symbol": "pipe_straight",
+      "position": {
+        "x": 680,
+        "y": 470
+      },
+      "size": {
+        "width": 40,
+        "height": 12
+      },
+      "orientation": "horizontal",
+      "ports": {
+        "in": {
+          "x": 0,
+          "y": 6.0
+        },
+        "out": {
+          "x": 40,
+          "y": 6.0
+        }
+      }
+    },
+    {
+      "global_id": "rfrag_region_2:n1",
+      "type": "equipment_block",
+      "symbol": "equipment_generic",
+      "position": {
+        "x": 725,
+        "y": 450
+      },
+      "size": {
+        "width": 80,
+        "height": 60
+      },
+      "orientation": "horizontal",
+      "ports": {
+        "in": {
+          "x": 0,
+          "y": 30.0
+        },
+        "out": {
+          "x": 80,
+          "y": 30.0
+        }
+      }
+    },
+    {
+      "global_id": "rfrag_region_2:n2",
+      "type": "pipe_segment",
+      "symbol": "pipe_straight",
+      "position": {
+        "x": 810,
+        "y": 470
+      },
+      "size": {
+        "width": 40,
+        "height": 12
+      },
+      "orientation": "horizontal",
+      "ports": {
+        "in": {
+          "x": 0,
+          "y": 6.0
+        },
+        "out": {
+          "x": 40,
+          "y": 6.0
+        }
+      }
+    },
+    {
+      "global_id": "rfrag_region_3:n0",
+      "type": "pipe_segment",
+      "symbol": "pipe_straight",
+      "position": {
+        "x": 45,
+        "y": 550
+      },
+      "size": {
+        "width": 40,
+        "height": 12
+      },
+      "orientation": "horizontal",
+      "ports": {
+        "in": {
+          "x": 0,
+          "y": 6.0
+        },
+        "out": {
+          "x": 40,
+          "y": 6.0
+        }
+      }
+    },
+    {
+      "global_id": "rfrag_region_3:n1",
+      "type": "equipment_block",
+      "symbol": "equipment_generic",
+      "position": {
+        "x": 90,
+        "y": 530
+      },
+      "size": {
+        "width": 80,
+        "height": 60
+      },
+      "orientation": "horizontal",
+      "ports": {
+        "in": {
+          "x": 0,
+          "y": 30.0
+        },
+        "out": {
+          "x": 80,
+          "y": 30.0
+        }
+      }
+    },
+    {
+      "global_id": "rfrag_region_3:n2",
+      "type": "pipe_segment",
+      "symbol": "pipe_straight",
+      "position": {
+        "x": 175,
+        "y": 550
+      },
+      "size": {
+        "width": 40,
+        "height": 12
+      },
+      "orientation": "horizontal",
+      "ports": {
+        "in": {
+          "x": 0,
+          "y": 6.0
+        },
+        "out": {
+          "x": 40,
+          "y": 6.0
+        }
+      }
+    },
+    {
+      "global_id": "rfrag_region_4:n0",
+      "type": "pipe_segment",
+      "symbol": "pipe_straight",
+      "position": {
+        "x": 300,
+        "y": 550
+      },
+      "size": {
+        "width": 40,
+        "height": 12
+      },
+      "orientation": "horizontal",
+      "ports": {
+        "in": {
+          "x": 0,
+          "y": 6.0
+        },
+        "out": {
+          "x": 40,
+          "y": 6.0
+        }
+      }
+    },
+    {
+      "global_id": "rfrag_region_4:n1",
+      "type": "equipment_block",
+      "symbol": "equipment_generic",
+      "position": {
+        "x": 345,
+        "y": 530
+      },
+      "size": {
+        "width": 80,
+        "height": 60
+      },
+      "orientation": "horizontal",
+      "ports": {
+        "in": {
+          "x": 0,
+          "y": 30.0
+        },
+        "out": {
+          "x": 80,
+          "y": 30.0
+        }
+      }
+    },
+    {
+      "global_id": "rfrag_region_4:n2",
+      "type": "pipe_segment",
+      "symbol": "pipe_straight",
+      "position": {
+        "x": 430,
+        "y": 550
+      },
+      "size": {
+        "width": 40,
+        "height": 12
+      },
+      "orientation": "horizontal",
+      "ports": {
+        "in": {
+          "x": 0,
+          "y": 6.0
+        },
+        "out": {
+          "x": 40,
+          "y": 6.0
+        }
+      }
+    },
+    {
+      "global_id": "rfrag_region_5:n0",
+      "type": "pipe_segment",
+      "symbol": "pipe_straight",
+      "position": {
+        "x": 555,
+        "y": 550
+      },
+      "size": {
+        "width": 40,
+        "height": 12
+      },
+      "orientation": "horizontal",
+      "ports": {
+        "in": {
+          "x": 0,
+          "y": 6.0
+        },
+        "out": {
+          "x": 40,
+          "y": 6.0
+        }
+      }
+    },
+    {
+      "global_id": "rfrag_region_5:n1",
+      "type": "equipment_block",
+      "symbol": "equipment_generic",
+      "position": {
+        "x": 600,
+        "y": 530
+      },
+      "size": {
+        "width": 80,
+        "height": 60
+      },
+      "orientation": "horizontal",
+      "ports": {
+        "in": {
+          "x": 0,
+          "y": 30.0
+        },
+        "out": {
+          "x": 80,
+          "y": 30.0
+        }
+      }
+    },
+    {
+      "global_id": "rfrag_region_5:n2",
+      "type": "pipe_segment",
+      "symbol": "pipe_straight",
+      "position": {
+        "x": 685,
+        "y": 550
+      },
+      "size": {
+        "width": 40,
+        "height": 12
+      },
+      "orientation": "horizontal",
+      "ports": {
+        "in": {
+          "x": 0,
+          "y": 6.0
+        },
+        "out": {
+          "x": 40,
+          "y": 6.0
+        }
+      }
+    },
+    {
+      "global_id": "rfrag_region_6:n0",
+      "type": "pipe_segment",
+      "symbol": "pipe_straight",
+      "position": {
+        "x": 705,
+        "y": 50
+      },
+      "size": {
+        "width": 40,
+        "height": 12
+      },
+      "orientation": "horizontal",
+      "ports": {
+        "in": {
+          "x": 0,
+          "y": 6.0
+        },
+        "out": {
+          "x": 40,
+          "y": 6.0
+        }
+      }
+    },
+    {
+      "global_id": "rfrag_region_6:n1",
+      "type": "valve:isolation",
+      "symbol": "valve_gate",
+      "position": {
+        "x": 750,
+        "y": 45
+      },
+      "size": {
+        "width": 22,
+        "height": 22
+      },
+      "orientation": "horizontal",
+      "ports": {
+        "in": {
+          "x": 0,
+          "y": 11.0
+        },
+        "out": {
+          "x": 22,
+          "y": 11.0
+        }
+      }
+    },
+    {
+      "global_id": "rfrag_region_6:n2",
+      "type": "pipe_segment",
+      "symbol": "pipe_straight",
+      "position": {
+        "x": 780,
+        "y": 50
+      },
+      "size": {
+        "width": 40,
+        "height": 12
+      },
+      "orientation": "horizontal",
+      "ports": {
+        "in": {
+          "x": 0,
+          "y": 6.0
+        },
+        "out": {
+          "x": 40,
+          "y": 6.0
+        }
+      }
+    },
+    {
+      "global_id": "rfrag_region_7:n0",
+      "type": "pipe_segment",
+      "symbol": "pipe_straight",
+      "position": {
+        "x": 45,
+        "y": 145
+      },
+      "size": {
+        "width": 40,
+        "height": 12
+      },
+      "orientation": "horizontal",
+      "ports": {
+        "in": {
+          "x": 0,
+          "y": 6.0
+        },
+        "out": {
+          "x": 40,
+          "y": 6.0
+        }
+      }
+    },
+    {
+      "global_id": "rfrag_region_7:n1",
+      "type": "equipment_block",
+      "symbol": "equipment_generic",
+      "position": {
+        "x": 90,
+        "y": 125
+      },
+      "size": {
+        "width": 80,
+        "height": 60
+      },
+      "orientation": "horizontal",
+      "ports": {
+        "in": {
+          "x": 0,
+          "y": 30.0
+        },
+        "out": {
+          "x": 80,
+          "y": 30.0
+        }
+      }
+    },
+    {
+      "global_id": "rfrag_region_7:n2",
+      "type": "valve:isolation",
+      "symbol": "valve_gate",
+      "position": {
+        "x": 175,
+        "y": 140
+      },
+      "size": {
+        "width": 22,
+        "height": 22
+      },
+      "orientation": "horizontal",
+      "ports": {
+        "in": {
+          "x": 0,
+          "y": 11.0
+        },
+        "out": {
+          "x": 22,
+          "y": 11.0
+        }
+      }
+    },
+    {
+      "global_id": "rfrag_region_7:n3",
+      "type": "pipe_segment",
+      "symbol": "pipe_straight",
+      "position": {
+        "x": 205,
+        "y": 145
+      },
+      "size": {
+        "width": 40,
+        "height": 12
+      },
+      "orientation": "horizontal",
+      "ports": {
+        "in": {
+          "x": 0,
+          "y": 6.0
+        },
+        "out": {
+          "x": 40,
+          "y": 6.0
+        }
+      }
+    },
+    {
+      "global_id": "rfrag_region_8:n0",
+      "type": "pipe_segment",
+      "symbol": "pipe_straight",
+      "position": {
+        "x": 810,
+        "y": 550
+      },
+      "size": {
+        "width": 40,
+        "height": 12
+      },
+      "orientation": "horizontal",
+      "ports": {
+        "in": {
+          "x": 0,
+          "y": 6.0
+        },
+        "out": {
+          "x": 40,
+          "y": 6.0
+        }
+      }
+    },
+    {
+      "global_id": "rfrag_region_8:n1",
+      "type": "equipment_block",
+      "symbol": "equipment_generic",
+      "position": {
+        "x": 855,
+        "y": 530
+      },
+      "size": {
+        "width": 80,
+        "height": 60
+      },
+      "orientation": "horizontal",
+      "ports": {
+        "in": {
+          "x": 0,
+          "y": 30.0
+        },
+        "out": {
+          "x": 80,
+          "y": 30.0
+        }
+      }
+    },
+    {
+      "global_id": "rfrag_region_8:n2",
+      "type": "pipe_segment",
+      "symbol": "pipe_straight",
+      "position": {
+        "x": 940,
+        "y": 550
+      },
+      "size": {
+        "width": 40,
+        "height": 12
+      },
+      "orientation": "horizontal",
+      "ports": {
+        "in": {
+          "x": 0,
+          "y": 6.0
+        },
+        "out": {
+          "x": 40,
+          "y": 6.0
+        }
+      }
+    },
+    {
+      "global_id": "rfrag_region_9:n0",
+      "type": "pipe_segment",
+      "symbol": "pipe_straight",
+      "position": {
+        "x": 45,
+        "y": 630
+      },
+      "size": {
+        "width": 40,
+        "height": 12
+      },
+      "orientation": "horizontal",
+      "ports": {
+        "in": {
+          "x": 0,
+          "y": 6.0
+        },
+        "out": {
+          "x": 40,
+          "y": 6.0
+        }
+      }
+    },
+    {
+      "global_id": "rfrag_region_9:n1",
+      "type": "equipment_block",
+      "symbol": "equipment_generic",
+      "position": {
+        "x": 90,
+        "y": 610
+      },
+      "size": {
+        "width": 80,
+        "height": 60
+      },
+      "orientation": "horizontal",
+      "ports": {
+        "in": {
+          "x": 0,
+          "y": 30.0
+        },
+        "out": {
+          "x": 80,
+          "y": 30.0
+        }
+      }
+    },
+    {
+      "global_id": "rfrag_region_9:n2",
+      "type": "valve:isolation",
+      "symbol": "valve_gate",
+      "position": {
+        "x": 175,
+        "y": 625
+      },
+      "size": {
+        "width": 22,
+        "height": 22
+      },
+      "orientation": "horizontal",
+      "ports": {
+        "in": {
+          "x": 0,
+          "y": 11.0
+        },
+        "out": {
+          "x": 22,
+          "y": 11.0
+        }
+      }
+    },
+    {
+      "global_id": "rfrag_region_9:n3",
+      "type": "pipe_segment",
+      "symbol": "pipe_straight",
+      "position": {
+        "x": 205,
+        "y": 630
+      },
+      "size": {
+        "width": 40,
+        "height": 12
+      },
+      "orientation": "horizontal",
+      "ports": {
+        "in": {
+          "x": 0,
+          "y": 6.0
+        },
+        "out": {
+          "x": 40,
+          "y": 6.0
+        }
+      }
+    },
+    {
+      "global_id": "rfrag_region_10:n0",
+      "type": "pipe_segment",
+      "symbol": "pipe_straight",
+      "position": {
+        "x": 325,
+        "y": 630
+      },
+      "size": {
+        "width": 40,
+        "height": 12
+      },
+      "orientation": "horizontal",
+      "ports": {
+        "in": {
+          "x": 0,
+          "y": 6.0
+        },
+        "out": {
+          "x": 40,
+          "y": 6.0
+        }
+      }
+    },
+    {
+      "global_id": "rfrag_region_10:n1",
+      "type": "equipment_block",
+      "symbol": "equipment_generic",
+      "position": {
+        "x": 370,
+        "y": 610
+      },
+      "size": {
+        "width": 80,
+        "height": 60
+      },
+      "orientation": "horizontal",
+      "ports": {
+        "in": {
+          "x": 0,
+          "y": 30.0
+        },
+        "out": {
+          "x": 80,
+          "y": 30.0
+        }
+      }
+    },
+    {
+      "global_id": "rfrag_region_10:n2",
+      "type": "valve:isolation",
+      "symbol": "valve_gate",
+      "position": {
+        "x": 455,
+        "y": 625
+      },
+      "size": {
+        "width": 22,
+        "height": 22
+      },
+      "orientation": "horizontal",
+      "ports": {
+        "in": {
+          "x": 0,
+          "y": 11.0
+        },
+        "out": {
+          "x": 22,
+          "y": 11.0
+        }
+      }
+    },
+    {
+      "global_id": "rfrag_region_10:n3",
+      "type": "pipe_segment",
+      "symbol": "pipe_straight",
+      "position": {
+        "x": 485,
+        "y": 630
+      },
+      "size": {
+        "width": 40,
+        "height": 12
+      },
+      "orientation": "horizontal",
+      "ports": {
+        "in": {
+          "x": 0,
+          "y": 6.0
+        },
+        "out": {
+          "x": 40,
+          "y": 6.0
+        }
+      }
+    },
+    {
+      "global_id": "rfrag_region_11:n0",
+      "type": "pipe_segment",
+      "symbol": "pipe_straight",
+      "position": {
+        "x": 610,
+        "y": 610
+      },
+      "size": {
+        "width": 40,
+        "height": 12
+      },
+      "orientation": "horizontal",
+      "ports": {
+        "in": {
+          "x": 0,
+          "y": 6.0
+        },
+        "out": {
+          "x": 40,
+          "y": 6.0
+        }
+      }
+    },
+    {
+      "global_id": "rfrag_region_11:n1",
+      "type": "pipe_segment",
+      "symbol": "pipe_straight",
+      "position": {
+        "x": 655,
+        "y": 610
+      },
+      "size": {
+        "width": 40,
+        "height": 12
+      },
+      "orientation": "horizontal",
+      "ports": {
+        "in": {
+          "x": 0,
+          "y": 6.0
+        },
+        "out": {
+          "x": 40,
+          "y": 6.0
+        }
+      }
+    },
+    {
+      "global_id": "rfrag_region_12:n0",
+      "type": "pipe_segment",
+      "symbol": "pipe_straight",
+      "position": {
+        "x": 710,
+        "y": 610
+      },
+      "size": {
+        "width": 40,
+        "height": 12
+      },
+      "orientation": "horizontal",
+      "ports": {
+        "in": {
+          "x": 0,
+          "y": 6.0
+        },
+        "out": {
+          "x": 40,
+          "y": 6.0
+        }
+      }
+    },
+    {
+      "global_id": "rfrag_region_12:n1",
+      "type": "pipe_segment",
+      "symbol": "pipe_straight",
+      "position": {
+        "x": 755,
+        "y": 610
+      },
+      "size": {
+        "width": 40,
+        "height": 12
+      },
+      "orientation": "horizontal",
+      "ports": {
+        "in": {
+          "x": 0,
+          "y": 6.0
+        },
+        "out": {
+          "x": 40,
+          "y": 6.0
+        }
+      }
+    },
+    {
+      "global_id": "rfrag_region_13:n0",
+      "type": "pipe_segment",
+      "symbol": "pipe_straight",
+      "position": {
+        "x": 45,
+        "y": 210
+      },
+      "size": {
+        "width": 40,
+        "height": 12
+      },
+      "orientation": "horizontal",
+      "ports": {
+        "in": {
+          "x": 0,
+          "y": 6.0
+        },
+        "out": {
+          "x": 40,
+          "y": 6.0
+        }
+      }
+    },
+    {
+      "global_id": "rfrag_region_13:n1",
+      "type": "valve:isolation",
+      "symbol": "valve_gate",
+      "position": {
+        "x": 90,
+        "y": 205
+      },
+      "size": {
+        "width": 22,
+        "height": 22
+      },
+      "orientation": "horizontal",
+      "ports": {
+        "in": {
+          "x": 0,
+          "y": 11.0
+        },
+        "out": {
+          "x": 22,
+          "y": 11.0
+        }
+      }
+    },
+    {
+      "global_id": "rfrag_region_13:n2",
+      "type": "pipe_segment",
+      "symbol": "pipe_straight",
+      "position": {
+        "x": 120,
+        "y": 210
+      },
+      "size": {
+        "width": 40,
+        "height": 12
+      },
+      "orientation": "horizontal",
+      "ports": {
+        "in": {
+          "x": 0,
+          "y": 6.0
+        },
+        "out": {
+          "x": 40,
+          "y": 6.0
+        }
+      }
+    },
+    {
+      "global_id": "rfrag_region_14:n0",
+      "type": "pipe_segment",
+      "symbol": "pipe_straight",
+      "position": {
+        "x": 455,
+        "y": 130
+      },
+      "size": {
+        "width": 40,
+        "height": 12
+      },
+      "orientation": "horizontal",
+      "ports": {
+        "in": {
+          "x": 0,
+          "y": 6.0
+        },
+        "out": {
+          "x": 40,
+          "y": 6.0
+        }
+      }
+    },
+    {
+      "global_id": "rfrag_region_14:n1",
+      "type": "valve:isolation",
+      "symbol": "valve_gate",
+      "position": {
+        "x": 500,
+        "y": 125
+      },
+      "size": {
+        "width": 22,
+        "height": 22
+      },
+      "orientation": "horizontal",
+      "ports": {
+        "in": {
+          "x": 0,
+          "y": 11.0
+        },
+        "out": {
+          "x": 22,
+          "y": 11.0
+        }
+      }
+    },
+    {
+      "global_id": "rfrag_region_14:n2",
+      "type": "pipe_segment",
+      "symbol": "pipe_straight",
+      "position": {
+        "x": 530,
+        "y": 130
+      },
+      "size": {
+        "width": 40,
+        "height": 12
+      },
+      "orientation": "horizontal",
+      "ports": {
+        "in": {
+          "x": 0,
+          "y": 6.0
+        },
+        "out": {
+          "x": 40,
+          "y": 6.0
+        }
+      }
+    },
+    {
+      "global_id": "rfrag_region_15:n0",
+      "type": "pipe_segment",
+      "symbol": "pipe_straight",
+      "position": {
+        "x": 45,
+        "y": 310
+      },
+      "size": {
+        "width": 40,
+        "height": 12
+      },
+      "orientation": "horizontal",
+      "ports": {
+        "in": {
+          "x": 0,
+          "y": 6.0
+        },
+        "out": {
+          "x": 40,
+          "y": 6.0
+        }
+      }
+    },
+    {
+      "global_id": "rfrag_region_15:n1",
+      "type": "equipment_block",
+      "symbol": "equipment_generic",
+      "position": {
+        "x": 90,
+        "y": 290
+      },
+      "size": {
+        "width": 80,
+        "height": 60
+      },
+      "orientation": "horizontal",
+      "ports": {
+        "in": {
+          "x": 0,
+          "y": 30.0
+        },
+        "out": {
+          "x": 80,
+          "y": 30.0
+        }
+      }
+    },
+    {
+      "global_id": "rfrag_region_15:n2",
+      "type": "valve:isolation",
+      "symbol": "valve_gate",
+      "position": {
+        "x": 175,
+        "y": 305
+      },
+      "size": {
+        "width": 22,
+        "height": 22
+      },
+      "orientation": "horizontal",
+      "ports": {
+        "in": {
+          "x": 0,
+          "y": 11.0
+        },
+        "out": {
+          "x": 22,
+          "y": 11.0
+        }
+      }
+    },
+    {
+      "global_id": "rfrag_region_15:n3",
+      "type": "pipe_segment",
+      "symbol": "pipe_straight",
+      "position": {
+        "x": 205,
+        "y": 310
+      },
+      "size": {
+        "width": 40,
+        "height": 12
+      },
+      "orientation": "horizontal",
+      "ports": {
+        "in": {
+          "x": 0,
+          "y": 6.0
+        },
+        "out": {
+          "x": 40,
+          "y": 6.0
+        }
+      }
+    },
+    {
+      "global_id": "rfrag_region_16:n0",
+      "type": "pipe_segment",
+      "symbol": "pipe_straight",
+      "position": {
+        "x": 805,
+        "y": 610
+      },
+      "size": {
+        "width": 40,
+        "height": 12
+      },
+      "orientation": "horizontal",
+      "ports": {
+        "in": {
+          "x": 0,
+          "y": 6.0
+        },
+        "out": {
+          "x": 40,
+          "y": 6.0
+        }
+      }
+    },
+    {
+      "global_id": "rfrag_region_16:n1",
+      "type": "pipe_segment",
+      "symbol": "pipe_straight",
+      "position": {
+        "x": 850,
+        "y": 610
+      },
+      "size": {
+        "width": 40,
+        "height": 12
+      },
+      "orientation": "horizontal",
+      "ports": {
+        "in": {
+          "x": 0,
+          "y": 6.0
+        },
+        "out": {
+          "x": 40,
+          "y": 6.0
+        }
+      }
+    },
+    {
+      "global_id": "rfrag_region_17:n0",
+      "type": "pipe_segment",
+      "symbol": "pipe_straight",
+      "position": {
+        "x": 455,
+        "y": 295
+      },
+      "size": {
+        "width": 40,
+        "height": 12
+      },
+      "orientation": "horizontal",
+      "ports": {
+        "in": {
+          "x": 0,
+          "y": 6.0
+        },
+        "out": {
+          "x": 40,
+          "y": 6.0
+        }
+      }
+    },
+    {
+      "global_id": "rfrag_region_17:n1",
+      "type": "valve:isolation",
+      "symbol": "valve_gate",
+      "position": {
+        "x": 500,
+        "y": 290
+      },
+      "size": {
+        "width": 22,
+        "height": 22
+      },
+      "orientation": "horizontal",
+      "ports": {
+        "in": {
+          "x": 0,
+          "y": 11.0
+        },
+        "out": {
+          "x": 22,
+          "y": 11.0
+        }
+      }
+    },
+    {
+      "global_id": "rfrag_region_17:n2",
+      "type": "pipe_segment",
+      "symbol": "pipe_straight",
+      "position": {
+        "x": 530,
+        "y": 295
+      },
+      "size": {
+        "width": 40,
+        "height": 12
+      },
+      "orientation": "horizontal",
+      "ports": {
+        "in": {
+          "x": 0,
+          "y": 6.0
+        },
+        "out": {
+          "x": 40,
+          "y": 6.0
+        }
+      }
+    },
+    {
+      "global_id": "rfrag_region_18:n0",
+      "type": "pipe_segment",
+      "symbol": "pipe_straight",
+      "position": {
+        "x": 905,
+        "y": 615
+      },
+      "size": {
+        "width": 40,
+        "height": 12
+      },
+      "orientation": "horizontal",
+      "ports": {
+        "in": {
+          "x": 0,
+          "y": 6.0
+        },
+        "out": {
+          "x": 40,
+          "y": 6.0
+        }
+      }
+    },
+    {
+      "global_id": "rfrag_region_18:n1",
+      "type": "valve:isolation",
+      "symbol": "valve_gate",
+      "position": {
+        "x": 950,
+        "y": 610
+      },
+      "size": {
+        "width": 22,
+        "height": 22
+      },
+      "orientation": "horizontal",
+      "ports": {
+        "in": {
+          "x": 0,
+          "y": 11.0
+        },
+        "out": {
+          "x": 22,
+          "y": 11.0
+        }
+      }
+    },
+    {
+      "global_id": "rfrag_region_18:n2",
+      "type": "pipe_segment",
+      "symbol": "pipe_straight",
+      "position": {
+        "x": 980,
+        "y": 615
+      },
+      "size": {
+        "width": 40,
+        "height": 12
+      },
+      "orientation": "horizontal",
+      "ports": {
+        "in": {
+          "x": 0,
+          "y": 6.0
+        },
+        "out": {
+          "x": 40,
+          "y": 6.0
+        }
+      }
+    },
+    {
+      "global_id": "rfrag_region_19:n0",
+      "type": "pipe_segment",
+      "symbol": "pipe_straight",
+      "position": {
+        "x": 45,
+        "y": 695
+      },
+      "size": {
+        "width": 40,
+        "height": 12
+      },
+      "orientation": "horizontal",
+      "ports": {
+        "in": {
+          "x": 0,
+          "y": 6.0
+        },
+        "out": {
+          "x": 40,
+          "y": 6.0
+        }
+      }
+    },
+    {
+      "global_id": "rfrag_region_19:n1",
+      "type": "pipe_segment",
+      "symbol": "pipe_straight",
+      "position": {
+        "x": 90,
+        "y": 695
+      },
+      "size": {
+        "width": 40,
+        "height": 12
+      },
+      "orientation": "horizontal",
+      "ports": {
+        "in": {
+          "x": 0,
+          "y": 6.0
+        },
+        "out": {
+          "x": 40,
+          "y": 6.0
+        }
+      }
+    },
+    {
+      "global_id": "rfrag_region_20:n0",
+      "type": "pipe_segment",
+      "symbol": "pipe_straight",
+      "position": {
+        "x": 295,
+        "y": 225
+      },
+      "size": {
+        "width": 40,
+        "height": 12
+      },
+      "orientation": "horizontal",
+      "ports": {
+        "in": {
+          "x": 0,
+          "y": 6.0
+        },
+        "out": {
+          "x": 40,
+          "y": 6.0
+        }
+      }
+    },
+    {
+      "global_id": "rfrag_region_20:n1",
+      "type": "equipment_block",
+      "symbol": "equipment_generic",
+      "position": {
+        "x": 340,
+        "y": 205
+      },
+      "size": {
+        "width": 80,
+        "height": 60
+      },
+      "orientation": "horizontal",
+      "ports": {
+        "in": {
+          "x": 0,
+          "y": 30.0
+        },
+        "out": {
+          "x": 80,
+          "y": 30.0
+        }
+      }
+    },
+    {
+      "global_id": "rfrag_region_20:n2",
+      "type": "valve:isolation",
+      "symbol": "valve_gate",
+      "position": {
+        "x": 425,
+        "y": 220
+      },
+      "size": {
+        "width": 22,
+        "height": 22
+      },
+      "orientation": "horizontal",
+      "ports": {
+        "in": {
+          "x": 0,
+          "y": 11.0
+        },
+        "out": {
+          "x": 22,
+          "y": 11.0
+        }
+      }
+    },
+    {
+      "global_id": "rfrag_region_20:n3",
+      "type": "pipe_segment",
+      "symbol": "pipe_straight",
+      "position": {
+        "x": 455,
+        "y": 225
+      },
+      "size": {
+        "width": 40,
+        "height": 12
+      },
+      "orientation": "horizontal",
+      "ports": {
+        "in": {
+          "x": 0,
+          "y": 6.0
+        },
+        "out": {
+          "x": 40,
+          "y": 6.0
+        }
+      }
+    },
+    {
+      "global_id": "rfrag_region_21:n0",
+      "type": "pipe_segment",
+      "symbol": "pipe_straight",
+      "position": {
+        "x": 45,
+        "y": 390
+      },
+      "size": {
+        "width": 40,
+        "height": 12
+      },
+      "orientation": "horizontal",
+      "ports": {
+        "in": {
+          "x": 0,
+          "y": 6.0
+        },
+        "out": {
+          "x": 40,
+          "y": 6.0
+        }
+      }
+    },
+    {
+      "global_id": "rfrag_region_21:n1",
+      "type": "equipment_block",
+      "symbol": "equipment_generic",
+      "position": {
+        "x": 90,
+        "y": 370
+      },
+      "size": {
+        "width": 80,
+        "height": 60
+      },
+      "orientation": "horizontal",
+      "ports": {
+        "in": {
+          "x": 0,
+          "y": 30.0
+        },
+        "out": {
+          "x": 80,
+          "y": 30.0
+        }
+      }
+    },
+    {
+      "global_id": "rfrag_region_21:n2",
+      "type": "valve:isolation",
+      "symbol": "valve_gate",
+      "position": {
+        "x": 175,
+        "y": 385
+      },
+      "size": {
+        "width": 22,
+        "height": 22
+      },
+      "orientation": "horizontal",
+      "ports": {
+        "in": {
+          "x": 0,
+          "y": 11.0
+        },
+        "out": {
+          "x": 22,
+          "y": 11.0
+        }
+      }
+    },
+    {
+      "global_id": "rfrag_region_21:n3",
+      "type": "pipe_segment",
+      "symbol": "pipe_straight",
+      "position": {
+        "x": 205,
+        "y": 390
+      },
+      "size": {
+        "width": 40,
+        "height": 12
+      },
+      "orientation": "horizontal",
+      "ports": {
+        "in": {
+          "x": 0,
+          "y": 6.0
+        },
+        "out": {
+          "x": 40,
+          "y": 6.0
+        }
+      }
+    },
+    {
+      "global_id": "rfrag_region_22:n0",
+      "type": "pipe_segment",
+      "symbol": "pipe_straight",
+      "position": {
+        "x": 45,
+        "y": 470
+      },
+      "size": {
+        "width": 40,
+        "height": 12
+      },
+      "orientation": "horizontal",
+      "ports": {
+        "in": {
+          "x": 0,
+          "y": 6.0
+        },
+        "out": {
+          "x": 40,
+          "y": 6.0
+        }
+      }
+    },
+    {
+      "global_id": "rfrag_region_22:n1",
+      "type": "equipment_block",
+      "symbol": "equipment_generic",
+      "position": {
+        "x": 90,
+        "y": 450
+      },
+      "size": {
+        "width": 80,
+        "height": 60
+      },
+      "orientation": "horizontal",
+      "ports": {
+        "in": {
+          "x": 0,
+          "y": 30.0
+        },
+        "out": {
+          "x": 80,
+          "y": 30.0
+        }
+      }
+    },
+    {
+      "global_id": "rfrag_region_22:n2",
+      "type": "valve:isolation",
+      "symbol": "valve_gate",
+      "position": {
+        "x": 175,
+        "y": 465
+      },
+      "size": {
+        "width": 22,
+        "height": 22
+      },
+      "orientation": "horizontal",
+      "ports": {
+        "in": {
+          "x": 0,
+          "y": 11.0
+        },
+        "out": {
+          "x": 22,
+          "y": 11.0
+        }
+      }
+    },
+    {
+      "global_id": "rfrag_region_22:n3",
+      "type": "pipe_segment",
+      "symbol": "pipe_straight",
+      "position": {
+        "x": 205,
+        "y": 470
+      },
+      "size": {
+        "width": 40,
+        "height": 12
+      },
+      "orientation": "horizontal",
+      "ports": {
+        "in": {
+          "x": 0,
+          "y": 6.0
+        },
+        "out": {
+          "x": 40,
+          "y": 6.0
+        }
+      }
+    },
+    {
+      "global_id": "rfrag_region_23:n0",
+      "type": "pipe_segment",
+      "symbol": "pipe_straight",
+      "position": {
+        "x": 455,
+        "y": 455
+      },
+      "size": {
+        "width": 40,
+        "height": 12
+      },
+      "orientation": "horizontal",
+      "ports": {
+        "in": {
+          "x": 0,
+          "y": 6.0
+        },
+        "out": {
+          "x": 40,
+          "y": 6.0
+        }
+      }
+    },
+    {
+      "global_id": "rfrag_region_23:n1",
+      "type": "valve:isolation",
+      "symbol": "valve_gate",
+      "position": {
+        "x": 500,
+        "y": 450
+      },
+      "size": {
+        "width": 22,
+        "height": 22
+      },
+      "orientation": "horizontal",
+      "ports": {
+        "in": {
+          "x": 0,
+          "y": 11.0
+        },
+        "out": {
+          "x": 22,
+          "y": 11.0
+        }
+      }
+    },
+    {
+      "global_id": "rfrag_region_23:n2",
+      "type": "pipe_segment",
+      "symbol": "pipe_straight",
+      "position": {
+        "x": 530,
+        "y": 455
+      },
+      "size": {
+        "width": 40,
+        "height": 12
+      },
+      "orientation": "horizontal",
+      "ports": {
+        "in": {
+          "x": 0,
+          "y": 6.0
+        },
+        "out": {
+          "x": 40,
+          "y": 6.0
+        }
+      }
+    },
+    {
+      "global_id": "rfrag_region_24:n0",
+      "type": "pipe_segment",
+      "symbol": "pipe_straight",
+      "position": {
+        "x": 145,
+        "y": 695
+      },
+      "size": {
+        "width": 40,
+        "height": 12
+      },
+      "orientation": "horizontal",
+      "ports": {
+        "in": {
+          "x": 0,
+          "y": 6.0
+        },
+        "out": {
+          "x": 40,
+          "y": 6.0
+        }
+      }
+    },
+    {
+      "global_id": "rfrag_region_24:n1",
+      "type": "pipe_segment",
+      "symbol": "pipe_straight",
+      "position": {
+        "x": 190,
+        "y": 695
+      },
+      "size": {
+        "width": 40,
+        "height": 12
+      },
+      "orientation": "horizontal",
+      "ports": {
+        "in": {
+          "x": 0,
+          "y": 6.0
+        },
+        "out": {
+          "x": 40,
+          "y": 6.0
+        }
+      }
+    },
+    {
+      "global_id": "rfrag_region_25:n0",
+      "type": "pipe_segment",
+      "symbol": "pipe_straight",
+      "position": {
+        "x": 245,
+        "y": 695
+      },
+      "size": {
+        "width": 40,
+        "height": 12
+      },
+      "orientation": "horizontal",
+      "ports": {
+        "in": {
+          "x": 0,
+          "y": 6.0
+        },
+        "out": {
+          "x": 40,
+          "y": 6.0
+        }
+      }
+    },
+    {
+      "global_id": "rfrag_region_25:n1",
+      "type": "pipe_segment",
+      "symbol": "pipe_straight",
+      "position": {
+        "x": 290,
+        "y": 695
+      },
+      "size": {
+        "width": 40,
+        "height": 12
+      },
+      "orientation": "horizontal",
+      "ports": {
+        "in": {
+          "x": 0,
+          "y": 6.0
+        },
+        "out": {
+          "x": 40,
+          "y": 6.0
+        }
+      }
+    },
+    {
+      "global_id": "rfrag_region_26:n0",
+      "type": "pipe_segment",
+      "symbol": "pipe_straight",
+      "position": {
+        "x": 340,
+        "y": 695
+      },
+      "size": {
+        "width": 40,
+        "height": 12
+      },
+      "orientation": "horizontal",
+      "ports": {
+        "in": {
+          "x": 0,
+          "y": 6.0
+        },
+        "out": {
+          "x": 40,
+          "y": 6.0
+        }
+      }
+    },
+    {
+      "global_id": "rfrag_region_26:n1",
+      "type": "pipe_segment",
+      "symbol": "pipe_straight",
+      "position": {
+        "x": 385,
+        "y": 695
+      },
+      "size": {
+        "width": 40,
+        "height": 12
+      },
+      "orientation": "horizontal",
+      "ports": {
+        "in": {
+          "x": 0,
+          "y": 6.0
+        },
+        "out": {
+          "x": 40,
+          "y": 6.0
+        }
+      }
+    },
+    {
+      "global_id": "rfrag_region_27:n0",
+      "type": "pipe_segment",
+      "symbol": "pipe_straight",
+      "position": {
+        "x": 440,
+        "y": 695
+      },
+      "size": {
+        "width": 40,
+        "height": 12
+      },
+      "orientation": "horizontal",
+      "ports": {
+        "in": {
+          "x": 0,
+          "y": 6.0
+        },
+        "out": {
+          "x": 40,
+          "y": 6.0
+        }
+      }
+    },
+    {
+      "global_id": "rfrag_region_27:n1",
+      "type": "pipe_segment",
+      "symbol": "pipe_straight",
+      "position": {
+        "x": 485,
+        "y": 695
+      },
+      "size": {
+        "width": 40,
+        "height": 12
+      },
+      "orientation": "horizontal",
+      "ports": {
+        "in": {
+          "x": 0,
+          "y": 6.0
+        },
+        "out": {
+          "x": 40,
+          "y": 6.0
+        }
+      }
+    },
+    {
+      "global_id": "rfrag_region_28:n0",
+      "type": "pipe_segment",
+      "symbol": "pipe_straight",
+      "position": {
+        "x": 540,
+        "y": 695
+      },
+      "size": {
+        "width": 40,
+        "height": 12
+      },
+      "orientation": "horizontal",
+      "ports": {
+        "in": {
+          "x": 0,
+          "y": 6.0
+        },
+        "out": {
+          "x": 40,
+          "y": 6.0
+        }
+      }
+    },
+    {
+      "global_id": "rfrag_region_28:n1",
+      "type": "pipe_segment",
+      "symbol": "pipe_straight",
+      "position": {
+        "x": 585,
+        "y": 695
+      },
+      "size": {
+        "width": 40,
+        "height": 12
+      },
+      "orientation": "horizontal",
+      "ports": {
+        "in": {
+          "x": 0,
+          "y": 6.0
+        },
+        "out": {
+          "x": 40,
+          "y": 6.0
+        }
+      }
+    },
+    {
+      "global_id": "rfrag_region_29:n0",
+      "type": "pipe_segment",
+      "symbol": "pipe_straight",
+      "position": {
+        "x": 455,
+        "y": 375
+      },
+      "size": {
+        "width": 40,
+        "height": 12
+      },
+      "orientation": "horizontal",
+      "ports": {
+        "in": {
+          "x": 0,
+          "y": 6.0
+        },
+        "out": {
+          "x": 40,
+          "y": 6.0
+        }
+      }
+    },
+    {
+      "global_id": "rfrag_region_29:n1",
+      "type": "valve:isolation",
+      "symbol": "valve_gate",
+      "position": {
+        "x": 500,
+        "y": 370
+      },
+      "size": {
+        "width": 22,
+        "height": 22
+      },
+      "orientation": "horizontal",
+      "ports": {
+        "in": {
+          "x": 0,
+          "y": 11.0
+        },
+        "out": {
+          "x": 22,
+          "y": 11.0
+        }
+      }
+    },
+    {
+      "global_id": "rfrag_region_29:n2",
+      "type": "pipe_segment",
+      "symbol": "pipe_straight",
+      "position": {
+        "x": 530,
+        "y": 375
+      },
+      "size": {
+        "width": 40,
+        "height": 12
+      },
+      "orientation": "horizontal",
+      "ports": {
+        "in": {
+          "x": 0,
+          "y": 6.0
+        },
+        "out": {
+          "x": 40,
+          "y": 6.0
+        }
+      }
+    },
+    {
+      "global_id": "rfrag_region_30:n0",
+      "type": "pipe_segment",
+      "symbol": "pipe_straight",
+      "position": {
+        "x": 640,
+        "y": 715
+      },
+      "size": {
+        "width": 40,
+        "height": 12
+      },
+      "orientation": "horizontal",
+      "ports": {
+        "in": {
+          "x": 0,
+          "y": 6.0
+        },
+        "out": {
+          "x": 40,
+          "y": 6.0
+        }
+      }
+    },
+    {
+      "global_id": "rfrag_region_30:n1",
+      "type": "equipment_block",
+      "symbol": "equipment_generic",
+      "position": {
+        "x": 685,
+        "y": 695
+      },
+      "size": {
+        "width": 80,
+        "height": 60
+      },
+      "orientation": "horizontal",
+      "ports": {
+        "in": {
+          "x": 0,
+          "y": 30.0
+        },
+        "out": {
+          "x": 80,
+          "y": 30.0
+        }
+      }
+    },
+    {
+      "global_id": "rfrag_region_30:n2",
+      "type": "valve:isolation",
+      "symbol": "valve_gate",
+      "position": {
+        "x": 770,
+        "y": 710
+      },
+      "size": {
+        "width": 22,
+        "height": 22
+      },
+      "orientation": "horizontal",
+      "ports": {
+        "in": {
+          "x": 0,
+          "y": 11.0
+        },
+        "out": {
+          "x": 22,
+          "y": 11.0
+        }
+      }
+    },
+    {
+      "global_id": "rfrag_region_30:n3",
+      "type": "pipe_segment",
+      "symbol": "pipe_straight",
+      "position": {
+        "x": 800,
+        "y": 715
+      },
+      "size": {
+        "width": 40,
+        "height": 12
+      },
+      "orientation": "horizontal",
+      "ports": {
+        "in": {
+          "x": 0,
+          "y": 6.0
+        },
+        "out": {
+          "x": 40,
+          "y": 6.0
+        }
+      }
+    },
+    {
+      "global_id": "rfrag_region_31:n0",
+      "type": "pipe_segment",
+      "symbol": "pipe_straight",
+      "position": {
+        "x": 45,
+        "y": 795
+      },
+      "size": {
+        "width": 40,
+        "height": 12
+      },
+      "orientation": "horizontal",
+      "ports": {
+        "in": {
+          "x": 0,
+          "y": 6.0
+        },
+        "out": {
+          "x": 40,
+          "y": 6.0
+        }
+      }
+    },
+    {
+      "global_id": "rfrag_region_31:n1",
+      "type": "equipment_block",
+      "symbol": "equipment_generic",
+      "position": {
+        "x": 90,
+        "y": 775
+      },
+      "size": {
+        "width": 80,
+        "height": 60
+      },
+      "orientation": "horizontal",
+      "ports": {
+        "in": {
+          "x": 0,
+          "y": 30.0
+        },
+        "out": {
+          "x": 80,
+          "y": 30.0
+        }
+      }
+    },
+    {
+      "global_id": "rfrag_region_31:n2",
+      "type": "valve:isolation",
+      "symbol": "valve_gate",
+      "position": {
+        "x": 175,
+        "y": 790
+      },
+      "size": {
+        "width": 22,
+        "height": 22
+      },
+      "orientation": "horizontal",
+      "ports": {
+        "in": {
+          "x": 0,
+          "y": 11.0
+        },
+        "out": {
+          "x": 22,
+          "y": 11.0
+        }
+      }
+    },
+    {
+      "global_id": "rfrag_region_31:n3",
+      "type": "pipe_segment",
+      "symbol": "pipe_straight",
+      "position": {
+        "x": 205,
+        "y": 795
+      },
+      "size": {
+        "width": 40,
+        "height": 12
+      },
+      "orientation": "horizontal",
+      "ports": {
+        "in": {
+          "x": 0,
+          "y": 6.0
+        },
+        "out": {
+          "x": 40,
+          "y": 6.0
+        }
+      }
+    },
+    {
+      "global_id": "rfrag_region_32:n0",
+      "type": "pipe_segment",
+      "symbol": "pipe_straight",
+      "position": {
+        "x": 325,
+        "y": 775
+      },
+      "size": {
+        "width": 40,
+        "height": 12
+      },
+      "orientation": "horizontal",
+      "ports": {
+        "in": {
+          "x": 0,
+          "y": 6.0
+        },
+        "out": {
+          "x": 40,
+          "y": 6.0
+        }
+      }
+    },
+    {
+      "global_id": "rfrag_region_32:n1",
+      "type": "pipe_segment",
+      "symbol": "pipe_straight",
+      "position": {
+        "x": 370,
+        "y": 775
+      },
+      "size": {
+        "width": 40,
+        "height": 12
+      },
+      "orientation": "horizontal",
+      "ports": {
+        "in": {
+          "x": 0,
+          "y": 6.0
+        },
+        "out": {
+          "x": 40,
+          "y": 6.0
+        }
+      }
+    },
+    {
+      "global_id": "rfrag_region_33:n0",
+      "type": "pipe_segment",
+      "symbol": "pipe_straight",
+      "position": {
+        "x": 425,
+        "y": 775
+      },
+      "size": {
+        "width": 40,
+        "height": 12
+      },
+      "orientation": "horizontal",
+      "ports": {
+        "in": {
+          "x": 0,
+          "y": 6.0
+        },
+        "out": {
+          "x": 40,
+          "y": 6.0
+        }
+      }
+    },
+    {
+      "global_id": "rfrag_region_33:n1",
+      "type": "pipe_segment",
+      "symbol": "pipe_straight",
+      "position": {
+        "x": 470,
+        "y": 775
+      },
+      "size": {
+        "width": 40,
+        "height": 12
+      },
+      "orientation": "horizontal",
+      "ports": {
+        "in": {
+          "x": 0,
+          "y": 6.0
+        },
+        "out": {
+          "x": 40,
+          "y": 6.0
+        }
+      }
+    },
+    {
+      "global_id": "rfrag_region_34:n0",
+      "type": "pipe_segment",
+      "symbol": "pipe_straight",
+      "position": {
+        "x": 525,
+        "y": 795
+      },
+      "size": {
+        "width": 40,
+        "height": 12
+      },
+      "orientation": "horizontal",
+      "ports": {
+        "in": {
+          "x": 0,
+          "y": 6.0
+        },
+        "out": {
+          "x": 40,
+          "y": 6.0
+        }
+      }
+    },
+    {
+      "global_id": "rfrag_region_34:n1",
+      "type": "equipment_block",
+      "symbol": "equipment_generic",
+      "position": {
+        "x": 570,
+        "y": 775
+      },
+      "size": {
+        "width": 80,
+        "height": 60
+      },
+      "orientation": "horizontal",
+      "ports": {
+        "in": {
+          "x": 0,
+          "y": 30.0
+        },
+        "out": {
+          "x": 80,
+          "y": 30.0
+        }
+      }
+    },
+    {
+      "global_id": "rfrag_region_34:n2",
+      "type": "valve:isolation",
+      "symbol": "valve_gate",
+      "position": {
+        "x": 655,
+        "y": 790
+      },
+      "size": {
+        "width": 22,
+        "height": 22
+      },
+      "orientation": "horizontal",
+      "ports": {
+        "in": {
+          "x": 0,
+          "y": 11.0
+        },
+        "out": {
+          "x": 22,
+          "y": 11.0
+        }
+      }
+    },
+    {
+      "global_id": "rfrag_region_34:n3",
+      "type": "pipe_segment",
+      "symbol": "pipe_straight",
+      "position": {
+        "x": 685,
+        "y": 795
+      },
+      "size": {
+        "width": 40,
+        "height": 12
+      },
+      "orientation": "horizontal",
+      "ports": {
+        "in": {
+          "x": 0,
+          "y": 6.0
+        },
+        "out": {
+          "x": 40,
+          "y": 6.0
+        }
+      }
+    },
+    {
+      "global_id": "rfrag_region_35:n0",
+      "type": "pipe_segment",
+      "symbol": "pipe_straight",
+      "position": {
+        "x": 805,
+        "y": 775
+      },
+      "size": {
+        "width": 40,
+        "height": 12
+      },
+      "orientation": "horizontal",
+      "ports": {
+        "in": {
+          "x": 0,
+          "y": 6.0
+        },
+        "out": {
+          "x": 40,
+          "y": 6.0
+        }
+      }
+    },
+    {
+      "global_id": "rfrag_region_35:n1",
+      "type": "pipe_segment",
+      "symbol": "pipe_straight",
+      "position": {
+        "x": 850,
+        "y": 775
+      },
+      "size": {
+        "width": 40,
+        "height": 12
+      },
+      "orientation": "horizontal",
+      "ports": {
+        "in": {
+          "x": 0,
+          "y": 6.0
+        },
+        "out": {
+          "x": 40,
+          "y": 6.0
+        }
+      }
+    },
+    {
+      "global_id": "rfrag_region_36:n0",
+      "type": "pipe_segment",
+      "symbol": "pipe_straight",
+      "position": {
+        "x": 905,
+        "y": 775
+      },
+      "size": {
+        "width": 40,
+        "height": 12
+      },
+      "orientation": "horizontal",
+      "ports": {
+        "in": {
+          "x": 0,
+          "y": 6.0
+        },
+        "out": {
+          "x": 40,
+          "y": 6.0
+        }
+      }
+    },
+    {
+      "global_id": "rfrag_region_36:n1",
+      "type": "pipe_segment",
+      "symbol": "pipe_straight",
+      "position": {
+        "x": 950,
+        "y": 775
+      },
+      "size": {
+        "width": 40,
+        "height": 12
+      },
+      "orientation": "horizontal",
+      "ports": {
+        "in": {
+          "x": 0,
+          "y": 6.0
+        },
+        "out": {
+          "x": 40,
+          "y": 6.0
+        }
+      }
+    },
+    {
+      "global_id": "rfrag_region_37:n0",
+      "type": "pipe_segment",
+      "symbol": "pipe_straight",
+      "position": {
+        "x": 45,
+        "y": 855
+      },
+      "size": {
+        "width": 40,
+        "height": 12
+      },
+      "orientation": "horizontal",
+      "ports": {
+        "in": {
+          "x": 0,
+          "y": 6.0
+        },
+        "out": {
+          "x": 40,
+          "y": 6.0
+        }
+      }
+    },
+    {
+      "global_id": "rfrag_region_37:n1",
+      "type": "pipe_segment",
+      "symbol": "pipe_straight",
+      "position": {
+        "x": 90,
+        "y": 855
+      },
+      "size": {
+        "width": 40,
+        "height": 12
+      },
+      "orientation": "horizontal",
+      "ports": {
+        "in": {
+          "x": 0,
+          "y": 6.0
+        },
+        "out": {
+          "x": 40,
+          "y": 6.0
+        }
+      }
+    },
+    {
+      "global_id": "rfrag_region_38:n0",
+      "type": "pipe_segment",
+      "symbol": "pipe_straight",
+      "position": {
+        "x": 145,
+        "y": 855
+      },
+      "size": {
+        "width": 40,
+        "height": 12
+      },
+      "orientation": "horizontal",
+      "ports": {
+        "in": {
+          "x": 0,
+          "y": 6.0
+        },
+        "out": {
+          "x": 40,
+          "y": 6.0
+        }
+      }
+    },
+    {
+      "global_id": "rfrag_region_38:n1",
+      "type": "pipe_segment",
+      "symbol": "pipe_straight",
+      "position": {
+        "x": 190,
+        "y": 855
+      },
+      "size": {
+        "width": 40,
+        "height": 12
+      },
+      "orientation": "horizontal",
+      "ports": {
+        "in": {
+          "x": 0,
+          "y": 6.0
+        },
+        "out": {
+          "x": 40,
+          "y": 6.0
+        }
+      }
+    },
+    {
+      "global_id": "cfrag_0:n0",
+      "type": "pipe_segment",
+      "symbol": "pipe_straight",
+      "position": {
+        "x": 580,
+        "y": 50
+      },
+      "size": {
+        "width": 40,
+        "height": 12
+      },
+      "orientation": "horizontal",
+      "ports": {
+        "in": {
+          "x": 0,
+          "y": 6.0
+        },
+        "out": {
+          "x": 40,
+          "y": 6.0
+        }
+      }
+    },
+    {
+      "global_id": "cfrag_0:n1",
+      "type": "valve:isolation",
+      "symbol": "valve_gate",
+      "position": {
+        "x": 625,
+        "y": 45
+      },
+      "size": {
+        "width": 22,
+        "height": 22
+      },
+      "orientation": "horizontal",
+      "ports": {
+        "in": {
+          "x": 0,
+          "y": 11.0
+        },
+        "out": {
+          "x": 22,
+          "y": 11.0
+        }
+      }
+    },
+    {
+      "global_id": "cfrag_0:n2",
+      "type": "pipe_segment",
+      "symbol": "pipe_straight",
+      "position": {
+        "x": 655,
+        "y": 50
+      },
+      "size": {
+        "width": 40,
+        "height": 12
+      },
+      "orientation": "horizontal",
+      "ports": {
+        "in": {
+          "x": 0,
+          "y": 6.0
+        },
+        "out": {
+          "x": 40,
+          "y": 6.0
+        }
+      }
+    },
+    {
+      "global_id": "cfrag_1:n0",
+      "type": "pipe_segment",
+      "symbol": "pipe_straight",
+      "position": {
+        "x": 325,
+        "y": 130
+      },
+      "size": {
+        "width": 40,
+        "height": 12
+      },
+      "orientation": "horizontal",
+      "ports": {
+        "in": {
+          "x": 0,
+          "y": 6.0
+        },
+        "out": {
+          "x": 40,
+          "y": 6.0
+        }
+      }
+    },
+    {
+      "global_id": "cfrag_1:n1",
+      "type": "valve:isolation",
+      "symbol": "valve_gate",
+      "position": {
+        "x": 370,
+        "y": 125
+      },
+      "size": {
+        "width": 22,
+        "height": 22
+      },
+      "orientation": "horizontal",
+      "ports": {
+        "in": {
+          "x": 0,
+          "y": 11.0
+        },
+        "out": {
+          "x": 22,
+          "y": 11.0
+        }
+      }
+    },
+    {
+      "global_id": "cfrag_1:n2",
+      "type": "pipe_segment",
+      "symbol": "pipe_straight",
+      "position": {
+        "x": 400,
+        "y": 130
+      },
+      "size": {
+        "width": 40,
+        "height": 12
+      },
+      "orientation": "horizontal",
+      "ports": {
+        "in": {
+          "x": 0,
+          "y": 6.0
+        },
+        "out": {
+          "x": 40,
+          "y": 6.0
+        }
+      }
+    },
+    {
+      "global_id": "cfrag_2:n0",
+      "type": "pipe_segment",
+      "symbol": "pipe_straight",
+      "position": {
+        "x": 170,
+        "y": 210
+      },
+      "size": {
+        "width": 40,
+        "height": 12
+      },
+      "orientation": "horizontal",
+      "ports": {
+        "in": {
+          "x": 0,
+          "y": 6.0
+        },
+        "out": {
+          "x": 40,
+          "y": 6.0
+        }
+      }
+    },
+    {
+      "global_id": "cfrag_2:n1",
+      "type": "valve:isolation",
+      "symbol": "valve_gate",
+      "position": {
+        "x": 215,
+        "y": 205
+      },
+      "size": {
+        "width": 22,
+        "height": 22
+      },
+      "orientation": "horizontal",
+      "ports": {
+        "in": {
+          "x": 0,
+          "y": 11.0
+        },
+        "out": {
+          "x": 22,
+          "y": 11.0
+        }
+      }
+    },
+    {
+      "global_id": "cfrag_2:n2",
+      "type": "pipe_segment",
+      "symbol": "pipe_straight",
+      "position": {
+        "x": 245,
+        "y": 210
+      },
+      "size": {
+        "width": 40,
+        "height": 12
+      },
+      "orientation": "horizontal",
+      "ports": {
+        "in": {
+          "x": 0,
+          "y": 6.0
+        },
+        "out": {
+          "x": 40,
+          "y": 6.0
+        }
+      }
+    },
+    {
+      "global_id": "cfrag_3:n0",
+      "type": "pipe_segment",
+      "symbol": "pipe_straight",
+      "position": {
+        "x": 325,
+        "y": 295
+      },
+      "size": {
+        "width": 40,
+        "height": 12
+      },
+      "orientation": "horizontal",
+      "ports": {
+        "in": {
+          "x": 0,
+          "y": 6.0
+        },
+        "out": {
+          "x": 40,
+          "y": 6.0
+        }
+      }
+    },
+    {
+      "global_id": "cfrag_3:n1",
+      "type": "valve:isolation",
+      "symbol": "valve_gate",
+      "position": {
+        "x": 370,
+        "y": 290
+      },
+      "size": {
+        "width": 22,
+        "height": 22
+      },
+      "orientation": "horizontal",
+      "ports": {
+        "in": {
+          "x": 0,
+          "y": 11.0
+        },
+        "out": {
+          "x": 22,
+          "y": 11.0
+        }
+      }
+    },
+    {
+      "global_id": "cfrag_3:n2",
+      "type": "pipe_segment",
+      "symbol": "pipe_straight",
+      "position": {
+        "x": 400,
+        "y": 295
+      },
+      "size": {
+        "width": 40,
+        "height": 12
+      },
+      "orientation": "horizontal",
+      "ports": {
+        "in": {
+          "x": 0,
+          "y": 6.0
+        },
+        "out": {
+          "x": 40,
+          "y": 6.0
+        }
+      }
+    },
+    {
+      "global_id": "cfrag_4:n0",
+      "type": "pipe_segment",
+      "symbol": "pipe_straight",
+      "position": {
+        "x": 325,
+        "y": 375
+      },
+      "size": {
+        "width": 40,
+        "height": 12
+      },
+      "orientation": "horizontal",
+      "ports": {
+        "in": {
+          "x": 0,
+          "y": 6.0
+        },
+        "out": {
+          "x": 40,
+          "y": 6.0
+        }
+      }
+    },
+    {
+      "global_id": "cfrag_4:n1",
+      "type": "valve:isolation",
+      "symbol": "valve_gate",
+      "position": {
+        "x": 370,
+        "y": 370
+      },
+      "size": {
+        "width": 22,
+        "height": 22
+      },
+      "orientation": "horizontal",
+      "ports": {
+        "in": {
+          "x": 0,
+          "y": 11.0
+        },
+        "out": {
+          "x": 22,
+          "y": 11.0
+        }
+      }
+    },
+    {
+      "global_id": "cfrag_4:n2",
+      "type": "pipe_segment",
+      "symbol": "pipe_straight",
+      "position": {
+        "x": 400,
+        "y": 375
+      },
+      "size": {
+        "width": 40,
+        "height": 12
+      },
+      "orientation": "horizontal",
+      "ports": {
+        "in": {
+          "x": 0,
+          "y": 6.0
+        },
+        "out": {
+          "x": 40,
+          "y": 6.0
+        }
+      }
+    },
+    {
+      "global_id": "cfrag_5:n0",
+      "type": "pipe_segment",
+      "symbol": "pipe_straight",
+      "position": {
+        "x": 325,
+        "y": 455
+      },
+      "size": {
+        "width": 40,
+        "height": 12
+      },
+      "orientation": "horizontal",
+      "ports": {
+        "in": {
+          "x": 0,
+          "y": 6.0
+        },
+        "out": {
+          "x": 40,
+          "y": 6.0
+        }
+      }
+    },
+    {
+      "global_id": "cfrag_5:n1",
+      "type": "valve:isolation",
+      "symbol": "valve_gate",
+      "position": {
+        "x": 370,
+        "y": 450
+      },
+      "size": {
+        "width": 22,
+        "height": 22
+      },
+      "orientation": "horizontal",
+      "ports": {
+        "in": {
+          "x": 0,
+          "y": 11.0
+        },
+        "out": {
+          "x": 22,
+          "y": 11.0
+        }
+      }
+    },
+    {
+      "global_id": "cfrag_5:n2",
+      "type": "pipe_segment",
+      "symbol": "pipe_straight",
+      "position": {
+        "x": 400,
+        "y": 455
+      },
+      "size": {
+        "width": 40,
+        "height": 12
+      },
+      "orientation": "horizontal",
+      "ports": {
+        "in": {
+          "x": 0,
+          "y": 6.0
+        },
+        "out": {
+          "x": 40,
+          "y": 6.0
+        }
+      }
+    },
+    {
+      "global_id": "efrag_0:n0",
+      "type": "equipment_block",
+      "symbol": "equipment_generic",
+      "position": {
+        "x": 255,
+        "y": 125
+      },
+      "size": {
+        "width": 60,
+        "height": 45
+      },
+      "orientation": "vertical",
+      "ports": {
+        "in": {
+          "x": 30.0,
+          "y": 0
+        },
+        "out": {
+          "x": 30.0,
+          "y": 45
+        }
+      }
+    },
+    {
+      "global_id": "efrag_1:n0",
+      "type": "equipment_block",
+      "symbol": "equipment_generic",
+      "position": {
+        "x": 255,
+        "y": 610
+      },
+      "size": {
+        "width": 60,
+        "height": 45
+      },
+      "orientation": "vertical",
+      "ports": {
+        "in": {
+          "x": 30.0,
+          "y": 0
+        },
+        "out": {
+          "x": 30.0,
+          "y": 45
+        }
+      }
+    },
+    {
+      "global_id": "efrag_2:n0",
+      "type": "equipment_block",
+      "symbol": "equipment_generic",
+      "position": {
+        "x": 45,
+        "y": 905
+      },
+      "size": {
+        "width": 60,
+        "height": 45
+      },
+      "orientation": "horizontal",
+      "ports": {
+        "in": {
+          "x": 0,
+          "y": 22.5
+        },
+        "out": {
+          "x": 60,
+          "y": 22.5
+        }
+      }
+    },
+    {
+      "global_id": "efrag_2:n1",
+      "type": "equipment_block",
+      "symbol": "equipment_generic",
+      "position": {
+        "x": 110,
+        "y": 900
+      },
+      "size": {
+        "width": 80,
+        "height": 60
+      },
+      "orientation": "horizontal",
+      "ports": {
+        "in": {
+          "x": 0,
+          "y": 30.0
+        },
+        "out": {
+          "x": 80,
+          "y": 30.0
+        }
+      }
+    },
+    {
+      "global_id": "efrag_2:n2",
+      "type": "equipment_block",
+      "symbol": "equipment_generic",
+      "position": {
+        "x": 195,
+        "y": 900
+      },
+      "size": {
+        "width": 80,
+        "height": 60
+      },
+      "orientation": "horizontal",
+      "ports": {
+        "in": {
+          "x": 0,
+          "y": 30.0
+        },
+        "out": {
+          "x": 80,
+          "y": 30.0
+        }
+      }
+    },
+    {
+      "global_id": "efrag_2:n3",
+      "type": "equipment_block",
+      "symbol": "equipment_generic",
+      "position": {
+        "x": 280,
+        "y": 900
+      },
+      "size": {
+        "width": 80,
+        "height": 60
+      },
+      "orientation": "horizontal",
+      "ports": {
+        "in": {
+          "x": 0,
+          "y": 30.0
+        },
+        "out": {
+          "x": 80,
+          "y": 30.0
+        }
+      }
+    },
+    {
+      "global_id": "efrag_2:n4",
+      "type": "equipment_block",
+      "symbol": "equipment_generic",
+      "position": {
+        "x": 365,
+        "y": 905
+      },
+      "size": {
+        "width": 60,
+        "height": 45
+      },
+      "orientation": "horizontal",
+      "ports": {
+        "in": {
+          "x": 0,
+          "y": 22.5
+        },
+        "out": {
+          "x": 60,
+          "y": 22.5
+        }
+      }
+    },
+    {
+      "global_id": "efrag_3:n0",
+      "type": "equipment_block",
+      "symbol": "equipment_generic",
+      "position": {
+        "x": 540,
+        "y": 610
+      },
+      "size": {
+        "width": 60,
+        "height": 45
+      },
+      "orientation": "vertical",
+      "ports": {
+        "in": {
+          "x": 30.0,
+          "y": 0
+        },
+        "out": {
+          "x": 30.0,
+          "y": 45
+        }
+      }
+    },
+    {
+      "global_id": "efrag_4:n0",
+      "type": "equipment_block",
+      "symbol": "equipment_generic",
+      "position": {
+        "x": 255,
+        "y": 290
+      },
+      "size": {
+        "width": 60,
+        "height": 45
+      },
+      "orientation": "vertical",
+      "ports": {
+        "in": {
+          "x": 30.0,
+          "y": 0
+        },
+        "out": {
+          "x": 30.0,
+          "y": 45
+        }
+      }
+    },
+    {
+      "global_id": "efrag_5:n0",
+      "type": "equipment_block",
+      "symbol": "equipment_generic",
+      "position": {
+        "x": 510,
+        "y": 205
+      },
+      "size": {
+        "width": 60,
+        "height": 45
+      },
+      "orientation": "vertical",
+      "ports": {
+        "in": {
+          "x": 30.0,
+          "y": 0
+        },
+        "out": {
+          "x": 30.0,
+          "y": 45
+        }
+      }
+    },
+    {
+      "global_id": "efrag_6:n0",
+      "type": "equipment_block",
+      "symbol": "equipment_generic",
+      "position": {
+        "x": 255,
+        "y": 370
+      },
+      "size": {
+        "width": 60,
+        "height": 45
+      },
+      "orientation": "vertical",
+      "ports": {
+        "in": {
+          "x": 30.0,
+          "y": 0
+        },
+        "out": {
+          "x": 30.0,
+          "y": 45
+        }
+      }
+    },
+    {
+      "global_id": "efrag_7:n0",
+      "type": "equipment_block",
+      "symbol": "equipment_generic",
+      "position": {
+        "x": 255,
+        "y": 450
+      },
+      "size": {
+        "width": 60,
+        "height": 45
+      },
+      "orientation": "vertical",
+      "ports": {
+        "in": {
+          "x": 30.0,
+          "y": 0
+        },
+        "out": {
+          "x": 30.0,
+          "y": 45
+        }
+      }
+    },
+    {
+      "global_id": "efrag_8:n0",
+      "type": "equipment_block",
+      "symbol": "equipment_generic",
+      "position": {
+        "x": 850,
+        "y": 695
+      },
+      "size": {
+        "width": 60,
+        "height": 45
+      },
+      "orientation": "vertical",
+      "ports": {
+        "in": {
+          "x": 30.0,
+          "y": 0
+        },
+        "out": {
+          "x": 30.0,
+          "y": 45
+        }
+      }
+    },
+    {
+      "global_id": "efrag_9:n0",
+      "type": "equipment_block",
+      "symbol": "equipment_generic",
+      "position": {
+        "x": 255,
+        "y": 775
+      },
+      "size": {
+        "width": 60,
+        "height": 45
+      },
+      "orientation": "vertical",
+      "ports": {
+        "in": {
+          "x": 30.0,
+          "y": 0
+        },
+        "out": {
+          "x": 30.0,
+          "y": 45
+        }
+      }
+    },
+    {
+      "global_id": "efrag_10:n0",
+      "type": "equipment_block",
+      "symbol": "equipment_generic",
+      "position": {
+        "x": 735,
+        "y": 775
+      },
+      "size": {
+        "width": 60,
+        "height": 45
+      },
+      "orientation": "vertical",
+      "ports": {
+        "in": {
+          "x": 30.0,
+          "y": 0
+        },
+        "out": {
+          "x": 30.0,
+          "y": 45
+        }
+      }
+    },
+    {
+      "global_id": "efrag_11:n0",
+      "type": "equipment_block",
+      "symbol": "equipment_generic",
+      "position": {
+        "x": 435,
+        "y": 900
+      },
+      "size": {
+        "width": 60,
+        "height": 45
+      },
+      "orientation": "horizontal",
+      "ports": {
+        "in": {
+          "x": 0,
+          "y": 22.5
+        },
+        "out": {
+          "x": 60,
+          "y": 22.5
+        }
+      }
+    },
+    {
+      "global_id": "efrag_11:n1",
+      "type": "equipment_block",
+      "symbol": "equipment_generic",
+      "position": {
+        "x": 500,
+        "y": 900
+      },
+      "size": {
+        "width": 60,
+        "height": 45
+      },
+      "orientation": "horizontal",
+      "ports": {
+        "in": {
+          "x": 0,
+          "y": 22.5
+        },
+        "out": {
+          "x": 60,
+          "y": 22.5
+        }
+      }
+    },
+    {
+      "global_id": "efrag_12:n0",
+      "type": "equipment_block",
+      "symbol": "equipment_generic",
+      "position": {
+        "x": 570,
+        "y": 900
+      },
+      "size": {
+        "width": 60,
+        "height": 45
+      },
+      "orientation": "horizontal",
+      "ports": {
+        "in": {
+          "x": 0,
+          "y": 22.5
+        },
+        "out": {
+          "x": 60,
+          "y": 22.5
+        }
+      }
+    },
+    {
+      "global_id": "efrag_12:n1",
+      "type": "equipment_block",
+      "symbol": "equipment_generic",
+      "position": {
+        "x": 635,
+        "y": 900
+      },
+      "size": {
+        "width": 60,
+        "height": 45
+      },
+      "orientation": "horizontal",
+      "ports": {
+        "in": {
+          "x": 0,
+          "y": 22.5
+        },
+        "out": {
+          "x": 60,
+          "y": 22.5
+        }
+      }
+    },
+    {
+      "global_id": "efrag_13:n0",
+      "type": "equipment_block",
+      "symbol": "equipment_generic",
+      "position": {
+        "x": 710,
+        "y": 900
+      },
+      "size": {
+        "width": 60,
+        "height": 45
+      },
+      "orientation": "horizontal",
+      "ports": {
+        "in": {
+          "x": 0,
+          "y": 22.5
+        },
+        "out": {
+          "x": 60,
+          "y": 22.5
+        }
+      }
+    },
+    {
+      "global_id": "efrag_13:n1",
+      "type": "equipment_block",
+      "symbol": "equipment_generic",
+      "position": {
+        "x": 775,
+        "y": 900
+      },
+      "size": {
+        "width": 60,
+        "height": 45
+      },
+      "orientation": "horizontal",
+      "ports": {
+        "in": {
+          "x": 0,
+          "y": 22.5
+        },
+        "out": {
+          "x": 60,
+          "y": 22.5
+        }
+      }
+    },
+    {
+      "global_id": "efrag_14:n0",
+      "type": "equipment_block",
+      "symbol": "equipment_generic",
+      "position": {
+        "x": 845,
+        "y": 900
+      },
+      "size": {
+        "width": 60,
+        "height": 45
+      },
+      "orientation": "horizontal",
+      "ports": {
+        "in": {
+          "x": 0,
+          "y": 22.5
+        },
+        "out": {
+          "x": 60,
+          "y": 22.5
+        }
+      }
+    },
+    {
+      "global_id": "efrag_14:n1",
+      "type": "equipment_block",
+      "symbol": "equipment_generic",
+      "position": {
+        "x": 910,
+        "y": 900
+      },
+      "size": {
+        "width": 60,
+        "height": 45
+      },
+      "orientation": "horizontal",
+      "ports": {
+        "in": {
+          "x": 0,
+          "y": 22.5
+        },
+        "out": {
+          "x": 60,
+          "y": 22.5
+        }
+      }
+    },
+    {
+      "global_id": "efrag_15:n0",
+      "type": "equipment_block",
+      "symbol": "equipment_generic",
+      "position": {
+        "x": 45,
+        "y": 975
+      },
+      "size": {
+        "width": 60,
+        "height": 45
+      },
+      "orientation": "horizontal",
+      "ports": {
+        "in": {
+          "x": 0,
+          "y": 22.5
+        },
+        "out": {
+          "x": 60,
+          "y": 22.5
+        }
+      }
+    },
+    {
+      "global_id": "efrag_15:n1",
+      "type": "equipment_block",
+      "symbol": "equipment_generic",
+      "position": {
+        "x": 110,
+        "y": 975
+      },
+      "size": {
+        "width": 60,
+        "height": 45
+      },
+      "orientation": "horizontal",
+      "ports": {
+        "in": {
+          "x": 0,
+          "y": 22.5
+        },
+        "out": {
+          "x": 60,
+          "y": 22.5
+        }
+      }
+    },
+    {
+      "global_id": "efrag_16:n0",
+      "type": "equipment_block",
+      "symbol": "equipment_generic",
+      "position": {
+        "x": 180,
+        "y": 975
+      },
+      "size": {
+        "width": 60,
+        "height": 45
+      },
+      "orientation": "horizontal",
+      "ports": {
+        "in": {
+          "x": 0,
+          "y": 22.5
+        },
+        "out": {
+          "x": 60,
+          "y": 22.5
+        }
+      }
+    },
+    {
+      "global_id": "efrag_16:n1",
+      "type": "equipment_block",
+      "symbol": "equipment_generic",
+      "position": {
+        "x": 245,
+        "y": 975
+      },
+      "size": {
+        "width": 60,
+        "height": 45
+      },
+      "orientation": "horizontal",
+      "ports": {
+        "in": {
+          "x": 0,
+          "y": 22.5
+        },
+        "out": {
+          "x": 60,
+          "y": 22.5
+        }
+      }
+    },
+    {
+      "global_id": "efrag_17:n0",
+      "type": "equipment_block",
+      "symbol": "equipment_generic",
+      "position": {
+        "x": 315,
+        "y": 975
+      },
+      "size": {
+        "width": 60,
+        "height": 45
+      },
+      "orientation": "horizontal",
+      "ports": {
+        "in": {
+          "x": 0,
+          "y": 22.5
+        },
+        "out": {
+          "x": 60,
+          "y": 22.5
+        }
+      }
+    },
+    {
+      "global_id": "efrag_17:n1",
+      "type": "equipment_block",
+      "symbol": "equipment_generic",
+      "position": {
+        "x": 380,
+        "y": 975
+      },
+      "size": {
+        "width": 60,
+        "height": 45
+      },
+      "orientation": "horizontal",
+      "ports": {
+        "in": {
+          "x": 0,
+          "y": 22.5
+        },
+        "out": {
+          "x": 60,
+          "y": 22.5
+        }
+      }
+    },
+    {
+      "global_id": "efrag_18:n0",
+      "type": "equipment_block",
+      "symbol": "equipment_generic",
+      "position": {
+        "x": 485,
+        "y": 530
+      },
+      "size": {
+        "width": 60,
+        "height": 45
+      },
+      "orientation": "vertical",
+      "ports": {
+        "in": {
+          "x": 30.0,
+          "y": 0
+        },
+        "out": {
+          "x": 30.0,
+          "y": 45
+        }
+      }
+    },
+    {
+      "global_id": "efrag_19:n0",
+      "type": "equipment_block",
+      "symbol": "equipment_generic",
+      "position": {
+        "x": 740,
+        "y": 530
+      },
+      "size": {
+        "width": 60,
+        "height": 45
+      },
+      "orientation": "vertical",
+      "ports": {
+        "in": {
+          "x": 30.0,
+          "y": 0
+        },
+        "out": {
+          "x": 30.0,
+          "y": 45
+        }
+      }
+    },
+    {
+      "global_id": "efrag_20:n0",
+      "type": "equipment_block",
+      "symbol": "equipment_generic",
+      "position": {
+        "x": 995,
+        "y": 530
+      },
+      "size": {
+        "width": 60,
+        "height": 45
+      },
+      "orientation": "vertical",
+      "ports": {
+        "in": {
+          "x": 30.0,
+          "y": 0
+        },
+        "out": {
+          "x": 30.0,
+          "y": 45
+        }
+      }
+    },
+    {
+      "global_id": "efrag_21:n0",
+      "type": "equipment_block",
+      "symbol": "equipment_generic",
+      "position": {
+        "x": 860,
+        "y": 450
+      },
+      "size": {
+        "width": 60,
+        "height": 45
+      },
+      "orientation": "vertical",
+      "ports": {
+        "in": {
+          "x": 30.0,
+          "y": 0
+        },
+        "out": {
+          "x": 30.0,
+          "y": 45
+        }
+      }
+    },
+    {
+      "global_id": "efrag_22:n0",
+      "type": "equipment_block",
+      "symbol": "equipment_generic",
+      "position": {
+        "x": 230,
+        "y": 530
+      },
+      "size": {
+        "width": 60,
+        "height": 45
+      },
+      "orientation": "vertical",
+      "ports": {
+        "in": {
+          "x": 30.0,
+          "y": 0
+        },
+        "out": {
+          "x": 30.0,
+          "y": 45
+        }
+      }
+    }
+  ],
+  "edges": [
+    {
+      "from": "rfrag_region_0:n0",
+      "to": "rfrag_region_0:n1",
+      "type": "pipe",
+      "path": [
+        {
+          "x": 620,
+          "y": 455
+        },
+        {
+          "x": 625,
+          "y": 455
+        }
+      ],
+      "style": {
+        "line_type": "solid",
+        "arrow": "flow"
+      }
+    },
+    {
+      "from": "rfrag_region_1:n0",
+      "to": "rfrag_region_1:n1",
+      "type": "pipe",
+      "path": [
+        {
+          "x": 65,
+          "y": 75
+        },
+        {
+          "x": 70,
+          "y": 70
+        }
+      ],
+      "style": {
+        "line_type": "solid",
+        "arrow": "flow"
+      }
+    },
+    {
+      "from": "rfrag_region_1:n1",
+      "to": "rfrag_region_1:n2",
+      "type": "pipe",
+      "path": [
+        {
+          "x": 110,
+          "y": 70
+        },
+        {
+          "x": 120,
+          "y": 75
+        }
+      ],
+      "style": {
+        "line_type": "solid",
+        "arrow": "flow"
+      }
+    },
+    {
+      "from": "rfrag_region_1:n2",
+      "to": "rfrag_region_1:n3",
+      "type": "pipe",
+      "path": [
+        {
+          "x": 200,
+          "y": 75
+        },
+        {
+          "x": 205,
+          "y": 75
+        }
+      ],
+      "style": {
+        "line_type": "solid",
+        "arrow": "flow"
+      }
+    },
+    {
+      "from": "rfrag_region_1:n3",
+      "to": "rfrag_region_1:n4",
+      "type": "pipe",
+      "path": [
+        {
+          "x": 285,
+          "y": 75
+        },
+        {
+          "x": 290,
+          "y": 75
+        }
+      ],
+      "style": {
+        "line_type": "solid",
+        "arrow": "flow"
+      }
+    },
+    {
+      "from": "rfrag_region_1:n4",
+      "to": "rfrag_region_1:n5",
+      "type": "pipe",
+      "path": [
+        {
+          "x": 370,
+          "y": 75
+        },
+        {
+          "x": 375,
+          "y": 75
+        }
+      ],
+      "style": {
+        "line_type": "solid",
+        "arrow": "flow"
+      }
+    },
+    {
+      "from": "rfrag_region_1:n5",
+      "to": "rfrag_region_1:n6",
+      "type": "pipe",
+      "path": [
+        {
+          "x": 455,
+          "y": 75
+        },
+        {
+          "x": 460,
+          "y": 75
+        }
+      ],
+      "style": {
+        "line_type": "solid",
+        "arrow": "flow"
+      }
+    },
+    {
+      "from": "rfrag_region_1:n6",
+      "to": "rfrag_region_1:n7",
+      "type": "pipe",
+      "path": [
+        {
+          "x": 540,
+          "y": 75
+        },
+        {
+          "x": 545,
+          "y": 75
+        }
+      ],
+      "style": {
+        "line_type": "solid",
+        "arrow": "flow"
+      }
+    },
+    {
+      "from": "rfrag_region_2:n0",
+      "to": "rfrag_region_2:n1",
+      "type": "pipe",
+      "path": [
+        {
+          "x": 720,
+          "y": 475
+        },
+        {
+          "x": 725,
+          "y": 480
+        }
+      ],
+      "style": {
+        "line_type": "solid",
+        "arrow": "flow"
+      }
+    },
+    {
+      "from": "rfrag_region_2:n1",
+      "to": "rfrag_region_2:n2",
+      "type": "pipe",
+      "path": [
+        {
+          "x": 805,
+          "y": 480
+        },
+        {
+          "x": 810,
+          "y": 475
+        }
+      ],
+      "style": {
+        "line_type": "solid",
+        "arrow": "flow"
+      }
+    },
+    {
+      "from": "rfrag_region_3:n0",
+      "to": "rfrag_region_3:n1",
+      "type": "pipe",
+      "path": [
+        {
+          "x": 85,
+          "y": 555
+        },
+        {
+          "x": 90,
+          "y": 560
+        }
+      ],
+      "style": {
+        "line_type": "solid",
+        "arrow": "flow"
+      }
+    },
+    {
+      "from": "rfrag_region_3:n1",
+      "to": "rfrag_region_3:n2",
+      "type": "pipe",
+      "path": [
+        {
+          "x": 170,
+          "y": 560
+        },
+        {
+          "x": 175,
+          "y": 555
+        }
+      ],
+      "style": {
+        "line_type": "solid",
+        "arrow": "flow"
+      }
+    },
+    {
+      "from": "rfrag_region_4:n0",
+      "to": "rfrag_region_4:n1",
+      "type": "pipe",
+      "path": [
+        {
+          "x": 340,
+          "y": 555
+        },
+        {
+          "x": 345,
+          "y": 560
+        }
+      ],
+      "style": {
+        "line_type": "solid",
+        "arrow": "flow"
+      }
+    },
+    {
+      "from": "rfrag_region_4:n1",
+      "to": "rfrag_region_4:n2",
+      "type": "pipe",
+      "path": [
+        {
+          "x": 425,
+          "y": 560
+        },
+        {
+          "x": 430,
+          "y": 555
+        }
+      ],
+      "style": {
+        "line_type": "solid",
+        "arrow": "flow"
+      }
+    },
+    {
+      "from": "rfrag_region_5:n0",
+      "to": "rfrag_region_5:n1",
+      "type": "pipe",
+      "path": [
+        {
+          "x": 595,
+          "y": 555
+        },
+        {
+          "x": 600,
+          "y": 560
+        }
+      ],
+      "style": {
+        "line_type": "solid",
+        "arrow": "flow"
+      }
+    },
+    {
+      "from": "rfrag_region_5:n1",
+      "to": "rfrag_region_5:n2",
+      "type": "pipe",
+      "path": [
+        {
+          "x": 680,
+          "y": 560
+        },
+        {
+          "x": 685,
+          "y": 555
+        }
+      ],
+      "style": {
+        "line_type": "solid",
+        "arrow": "flow"
+      }
+    },
+    {
+      "from": "rfrag_region_6:n0",
+      "to": "rfrag_region_6:n1",
+      "type": "pipe",
+      "path": [
+        {
+          "x": 745,
+          "y": 55
+        },
+        {
+          "x": 750,
+          "y": 55
+        }
+      ],
+      "style": {
+        "line_type": "solid",
+        "arrow": "flow"
+      }
+    },
+    {
+      "from": "rfrag_region_6:n1",
+      "to": "rfrag_region_6:n2",
+      "type": "pipe",
+      "path": [
+        {
+          "x": 770,
+          "y": 55
+        },
+        {
+          "x": 780,
+          "y": 55
+        }
+      ],
+      "style": {
+        "line_type": "solid",
+        "arrow": "flow"
+      }
+    },
+    {
+      "from": "rfrag_region_7:n0",
+      "to": "rfrag_region_7:n1",
+      "type": "pipe",
+      "path": [
+        {
+          "x": 85,
+          "y": 150
+        },
+        {
+          "x": 90,
+          "y": 155
+        }
+      ],
+      "style": {
+        "line_type": "solid",
+        "arrow": "flow"
+      }
+    },
+    {
+      "from": "rfrag_region_7:n1",
+      "to": "rfrag_region_7:n2",
+      "type": "pipe",
+      "path": [
+        {
+          "x": 170,
+          "y": 155
+        },
+        {
+          "x": 175,
+          "y": 150
+        }
+      ],
+      "style": {
+        "line_type": "solid",
+        "arrow": "flow"
+      }
+    },
+    {
+      "from": "rfrag_region_7:n2",
+      "to": "rfrag_region_7:n3",
+      "type": "pipe",
+      "path": [
+        {
+          "x": 195,
+          "y": 150
+        },
+        {
+          "x": 205,
+          "y": 150
+        }
+      ],
+      "style": {
+        "line_type": "solid",
+        "arrow": "flow"
+      }
+    },
+    {
+      "from": "rfrag_region_8:n0",
+      "to": "rfrag_region_8:n1",
+      "type": "pipe",
+      "path": [
+        {
+          "x": 850,
+          "y": 555
+        },
+        {
+          "x": 855,
+          "y": 560
+        }
+      ],
+      "style": {
+        "line_type": "solid",
+        "arrow": "flow"
+      }
+    },
+    {
+      "from": "rfrag_region_8:n1",
+      "to": "rfrag_region_8:n2",
+      "type": "pipe",
+      "path": [
+        {
+          "x": 935,
+          "y": 560
+        },
+        {
+          "x": 940,
+          "y": 555
+        }
+      ],
+      "style": {
+        "line_type": "solid",
+        "arrow": "flow"
+      }
+    },
+    {
+      "from": "rfrag_region_9:n0",
+      "to": "rfrag_region_9:n1",
+      "type": "pipe",
+      "path": [
+        {
+          "x": 85,
+          "y": 635
+        },
+        {
+          "x": 90,
+          "y": 640
+        }
+      ],
+      "style": {
+        "line_type": "solid",
+        "arrow": "flow"
+      }
+    },
+    {
+      "from": "rfrag_region_9:n1",
+      "to": "rfrag_region_9:n2",
+      "type": "pipe",
+      "path": [
+        {
+          "x": 170,
+          "y": 640
+        },
+        {
+          "x": 175,
+          "y": 635
+        }
+      ],
+      "style": {
+        "line_type": "solid",
+        "arrow": "flow"
+      }
+    },
+    {
+      "from": "rfrag_region_9:n2",
+      "to": "rfrag_region_9:n3",
+      "type": "pipe",
+      "path": [
+        {
+          "x": 195,
+          "y": 635
+        },
+        {
+          "x": 205,
+          "y": 635
+        }
+      ],
+      "style": {
+        "line_type": "solid",
+        "arrow": "flow"
+      }
+    },
+    {
+      "from": "rfrag_region_10:n0",
+      "to": "rfrag_region_10:n1",
+      "type": "pipe",
+      "path": [
+        {
+          "x": 365,
+          "y": 635
+        },
+        {
+          "x": 370,
+          "y": 640
+        }
+      ],
+      "style": {
+        "line_type": "solid",
+        "arrow": "flow"
+      }
+    },
+    {
+      "from": "rfrag_region_10:n1",
+      "to": "rfrag_region_10:n2",
+      "type": "pipe",
+      "path": [
+        {
+          "x": 450,
+          "y": 640
+        },
+        {
+          "x": 455,
+          "y": 635
+        }
+      ],
+      "style": {
+        "line_type": "solid",
+        "arrow": "flow"
+      }
+    },
+    {
+      "from": "rfrag_region_10:n2",
+      "to": "rfrag_region_10:n3",
+      "type": "pipe",
+      "path": [
+        {
+          "x": 475,
+          "y": 635
+        },
+        {
+          "x": 485,
+          "y": 635
+        }
+      ],
+      "style": {
+        "line_type": "solid",
+        "arrow": "flow"
+      }
+    },
+    {
+      "from": "rfrag_region_11:n0",
+      "to": "rfrag_region_11:n1",
+      "type": "pipe",
+      "path": [
+        {
+          "x": 650,
+          "y": 615
+        },
+        {
+          "x": 655,
+          "y": 615
+        }
+      ],
+      "style": {
+        "line_type": "solid",
+        "arrow": "flow"
+      }
+    },
+    {
+      "from": "rfrag_region_12:n0",
+      "to": "rfrag_region_12:n1",
+      "type": "pipe",
+      "path": [
+        {
+          "x": 750,
+          "y": 615
+        },
+        {
+          "x": 755,
+          "y": 615
+        }
+      ],
+      "style": {
+        "line_type": "solid",
+        "arrow": "flow"
+      }
+    },
+    {
+      "from": "rfrag_region_13:n0",
+      "to": "rfrag_region_13:n1",
+      "type": "pipe",
+      "path": [
+        {
+          "x": 85,
+          "y": 215
+        },
+        {
+          "x": 90,
+          "y": 215
+        }
+      ],
+      "style": {
+        "line_type": "solid",
+        "arrow": "flow"
+      }
+    },
+    {
+      "from": "rfrag_region_13:n1",
+      "to": "rfrag_region_13:n2",
+      "type": "pipe",
+      "path": [
+        {
+          "x": 110,
+          "y": 215
+        },
+        {
+          "x": 120,
+          "y": 215
+        }
+      ],
+      "style": {
+        "line_type": "solid",
+        "arrow": "flow"
+      }
+    },
+    {
+      "from": "rfrag_region_14:n0",
+      "to": "rfrag_region_14:n1",
+      "type": "pipe",
+      "path": [
+        {
+          "x": 495,
+          "y": 135
+        },
+        {
+          "x": 500,
+          "y": 135
+        }
+      ],
+      "style": {
+        "line_type": "solid",
+        "arrow": "flow"
+      }
+    },
+    {
+      "from": "rfrag_region_14:n1",
+      "to": "rfrag_region_14:n2",
+      "type": "pipe",
+      "path": [
+        {
+          "x": 520,
+          "y": 135
+        },
+        {
+          "x": 530,
+          "y": 135
+        }
+      ],
+      "style": {
+        "line_type": "solid",
+        "arrow": "flow"
+      }
+    },
+    {
+      "from": "rfrag_region_15:n0",
+      "to": "rfrag_region_15:n1",
+      "type": "pipe",
+      "path": [
+        {
+          "x": 85,
+          "y": 315
+        },
+        {
+          "x": 90,
+          "y": 320
+        }
+      ],
+      "style": {
+        "line_type": "solid",
+        "arrow": "flow"
+      }
+    },
+    {
+      "from": "rfrag_region_15:n1",
+      "to": "rfrag_region_15:n2",
+      "type": "pipe",
+      "path": [
+        {
+          "x": 170,
+          "y": 320
+        },
+        {
+          "x": 175,
+          "y": 315
+        }
+      ],
+      "style": {
+        "line_type": "solid",
+        "arrow": "flow"
+      }
+    },
+    {
+      "from": "rfrag_region_15:n2",
+      "to": "rfrag_region_15:n3",
+      "type": "pipe",
+      "path": [
+        {
+          "x": 195,
+          "y": 315
+        },
+        {
+          "x": 205,
+          "y": 315
+        }
+      ],
+      "style": {
+        "line_type": "solid",
+        "arrow": "flow"
+      }
+    },
+    {
+      "from": "rfrag_region_16:n0",
+      "to": "rfrag_region_16:n1",
+      "type": "pipe",
+      "path": [
+        {
+          "x": 845,
+          "y": 615
+        },
+        {
+          "x": 850,
+          "y": 615
+        }
+      ],
+      "style": {
+        "line_type": "solid",
+        "arrow": "flow"
+      }
+    },
+    {
+      "from": "rfrag_region_17:n0",
+      "to": "rfrag_region_17:n1",
+      "type": "pipe",
+      "path": [
+        {
+          "x": 495,
+          "y": 300
+        },
+        {
+          "x": 500,
+          "y": 300
+        }
+      ],
+      "style": {
+        "line_type": "solid",
+        "arrow": "flow"
+      }
+    },
+    {
+      "from": "rfrag_region_17:n1",
+      "to": "rfrag_region_17:n2",
+      "type": "pipe",
+      "path": [
+        {
+          "x": 520,
+          "y": 300
+        },
+        {
+          "x": 530,
+          "y": 300
+        }
+      ],
+      "style": {
+        "line_type": "solid",
+        "arrow": "flow"
+      }
+    },
+    {
+      "from": "rfrag_region_18:n0",
+      "to": "rfrag_region_18:n1",
+      "type": "pipe",
+      "path": [
+        {
+          "x": 945,
+          "y": 620
+        },
+        {
+          "x": 950,
+          "y": 620
+        }
+      ],
+      "style": {
+        "line_type": "solid",
+        "arrow": "flow"
+      }
+    },
+    {
+      "from": "rfrag_region_18:n1",
+      "to": "rfrag_region_18:n2",
+      "type": "pipe",
+      "path": [
+        {
+          "x": 970,
+          "y": 620
+        },
+        {
+          "x": 980,
+          "y": 620
+        }
+      ],
+      "style": {
+        "line_type": "solid",
+        "arrow": "flow"
+      }
+    },
+    {
+      "from": "rfrag_region_19:n0",
+      "to": "rfrag_region_19:n1",
+      "type": "pipe",
+      "path": [
+        {
+          "x": 85,
+          "y": 700
+        },
+        {
+          "x": 90,
+          "y": 700
+        }
+      ],
+      "style": {
+        "line_type": "solid",
+        "arrow": "flow"
+      }
+    },
+    {
+      "from": "rfrag_region_20:n0",
+      "to": "rfrag_region_20:n1",
+      "type": "pipe",
+      "path": [
+        {
+          "x": 335,
+          "y": 230
+        },
+        {
+          "x": 340,
+          "y": 235
+        }
+      ],
+      "style": {
+        "line_type": "solid",
+        "arrow": "flow"
+      }
+    },
+    {
+      "from": "rfrag_region_20:n1",
+      "to": "rfrag_region_20:n2",
+      "type": "pipe",
+      "path": [
+        {
+          "x": 420,
+          "y": 235
+        },
+        {
+          "x": 425,
+          "y": 230
+        }
+      ],
+      "style": {
+        "line_type": "solid",
+        "arrow": "flow"
+      }
+    },
+    {
+      "from": "rfrag_region_20:n2",
+      "to": "rfrag_region_20:n3",
+      "type": "pipe",
+      "path": [
+        {
+          "x": 445,
+          "y": 230
+        },
+        {
+          "x": 455,
+          "y": 230
+        }
+      ],
+      "style": {
+        "line_type": "solid",
+        "arrow": "flow"
+      }
+    },
+    {
+      "from": "rfrag_region_21:n0",
+      "to": "rfrag_region_21:n1",
+      "type": "pipe",
+      "path": [
+        {
+          "x": 85,
+          "y": 395
+        },
+        {
+          "x": 90,
+          "y": 400
+        }
+      ],
+      "style": {
+        "line_type": "solid",
+        "arrow": "flow"
+      }
+    },
+    {
+      "from": "rfrag_region_21:n1",
+      "to": "rfrag_region_21:n2",
+      "type": "pipe",
+      "path": [
+        {
+          "x": 170,
+          "y": 400
+        },
+        {
+          "x": 175,
+          "y": 395
+        }
+      ],
+      "style": {
+        "line_type": "solid",
+        "arrow": "flow"
+      }
+    },
+    {
+      "from": "rfrag_region_21:n2",
+      "to": "rfrag_region_21:n3",
+      "type": "pipe",
+      "path": [
+        {
+          "x": 195,
+          "y": 395
+        },
+        {
+          "x": 205,
+          "y": 395
+        }
+      ],
+      "style": {
+        "line_type": "solid",
+        "arrow": "flow"
+      }
+    },
+    {
+      "from": "rfrag_region_22:n0",
+      "to": "rfrag_region_22:n1",
+      "type": "pipe",
+      "path": [
+        {
+          "x": 85,
+          "y": 475
+        },
+        {
+          "x": 90,
+          "y": 480
+        }
+      ],
+      "style": {
+        "line_type": "solid",
+        "arrow": "flow"
+      }
+    },
+    {
+      "from": "rfrag_region_22:n1",
+      "to": "rfrag_region_22:n2",
+      "type": "pipe",
+      "path": [
+        {
+          "x": 170,
+          "y": 480
+        },
+        {
+          "x": 175,
+          "y": 475
+        }
+      ],
+      "style": {
+        "line_type": "solid",
+        "arrow": "flow"
+      }
+    },
+    {
+      "from": "rfrag_region_22:n2",
+      "to": "rfrag_region_22:n3",
+      "type": "pipe",
+      "path": [
+        {
+          "x": 195,
+          "y": 475
+        },
+        {
+          "x": 205,
+          "y": 475
+        }
+      ],
+      "style": {
+        "line_type": "solid",
+        "arrow": "flow"
+      }
+    },
+    {
+      "from": "rfrag_region_23:n0",
+      "to": "rfrag_region_23:n1",
+      "type": "pipe",
+      "path": [
+        {
+          "x": 495,
+          "y": 460
+        },
+        {
+          "x": 500,
+          "y": 460
+        }
+      ],
+      "style": {
+        "line_type": "solid",
+        "arrow": "flow"
+      }
+    },
+    {
+      "from": "rfrag_region_23:n1",
+      "to": "rfrag_region_23:n2",
+      "type": "pipe",
+      "path": [
+        {
+          "x": 520,
+          "y": 460
+        },
+        {
+          "x": 530,
+          "y": 460
+        }
+      ],
+      "style": {
+        "line_type": "solid",
+        "arrow": "flow"
+      }
+    },
+    {
+      "from": "rfrag_region_24:n0",
+      "to": "rfrag_region_24:n1",
+      "type": "pipe",
+      "path": [
+        {
+          "x": 185,
+          "y": 700
+        },
+        {
+          "x": 190,
+          "y": 700
+        }
+      ],
+      "style": {
+        "line_type": "solid",
+        "arrow": "flow"
+      }
+    },
+    {
+      "from": "rfrag_region_25:n0",
+      "to": "rfrag_region_25:n1",
+      "type": "pipe",
+      "path": [
+        {
+          "x": 285,
+          "y": 700
+        },
+        {
+          "x": 290,
+          "y": 700
+        }
+      ],
+      "style": {
+        "line_type": "solid",
+        "arrow": "flow"
+      }
+    },
+    {
+      "from": "rfrag_region_26:n0",
+      "to": "rfrag_region_26:n1",
+      "type": "pipe",
+      "path": [
+        {
+          "x": 380,
+          "y": 700
+        },
+        {
+          "x": 385,
+          "y": 700
+        }
+      ],
+      "style": {
+        "line_type": "solid",
+        "arrow": "flow"
+      }
+    },
+    {
+      "from": "rfrag_region_27:n0",
+      "to": "rfrag_region_27:n1",
+      "type": "pipe",
+      "path": [
+        {
+          "x": 480,
+          "y": 700
+        },
+        {
+          "x": 485,
+          "y": 700
+        }
+      ],
+      "style": {
+        "line_type": "solid",
+        "arrow": "flow"
+      }
+    },
+    {
+      "from": "rfrag_region_28:n0",
+      "to": "rfrag_region_28:n1",
+      "type": "pipe",
+      "path": [
+        {
+          "x": 580,
+          "y": 700
+        },
+        {
+          "x": 585,
+          "y": 700
+        }
+      ],
+      "style": {
+        "line_type": "solid",
+        "arrow": "flow"
+      }
+    },
+    {
+      "from": "rfrag_region_29:n0",
+      "to": "rfrag_region_29:n1",
+      "type": "pipe",
+      "path": [
+        {
+          "x": 495,
+          "y": 380
+        },
+        {
+          "x": 500,
+          "y": 380
+        }
+      ],
+      "style": {
+        "line_type": "solid",
+        "arrow": "flow"
+      }
+    },
+    {
+      "from": "rfrag_region_29:n1",
+      "to": "rfrag_region_29:n2",
+      "type": "pipe",
+      "path": [
+        {
+          "x": 520,
+          "y": 380
+        },
+        {
+          "x": 530,
+          "y": 380
+        }
+      ],
+      "style": {
+        "line_type": "solid",
+        "arrow": "flow"
+      }
+    },
+    {
+      "from": "rfrag_region_30:n0",
+      "to": "rfrag_region_30:n1",
+      "type": "pipe",
+      "path": [
+        {
+          "x": 680,
+          "y": 720
+        },
+        {
+          "x": 685,
+          "y": 725
+        }
+      ],
+      "style": {
+        "line_type": "solid",
+        "arrow": "flow"
+      }
+    },
+    {
+      "from": "rfrag_region_30:n1",
+      "to": "rfrag_region_30:n2",
+      "type": "pipe",
+      "path": [
+        {
+          "x": 765,
+          "y": 725
+        },
+        {
+          "x": 770,
+          "y": 720
+        }
+      ],
+      "style": {
+        "line_type": "solid",
+        "arrow": "flow"
+      }
+    },
+    {
+      "from": "rfrag_region_30:n2",
+      "to": "rfrag_region_30:n3",
+      "type": "pipe",
+      "path": [
+        {
+          "x": 790,
+          "y": 720
+        },
+        {
+          "x": 800,
+          "y": 720
+        }
+      ],
+      "style": {
+        "line_type": "solid",
+        "arrow": "flow"
+      }
+    },
+    {
+      "from": "rfrag_region_31:n0",
+      "to": "rfrag_region_31:n1",
+      "type": "pipe",
+      "path": [
+        {
+          "x": 85,
+          "y": 800
+        },
+        {
+          "x": 90,
+          "y": 805
+        }
+      ],
+      "style": {
+        "line_type": "solid",
+        "arrow": "flow"
+      }
+    },
+    {
+      "from": "rfrag_region_31:n1",
+      "to": "rfrag_region_31:n2",
+      "type": "pipe",
+      "path": [
+        {
+          "x": 170,
+          "y": 805
+        },
+        {
+          "x": 175,
+          "y": 800
+        }
+      ],
+      "style": {
+        "line_type": "solid",
+        "arrow": "flow"
+      }
+    },
+    {
+      "from": "rfrag_region_31:n2",
+      "to": "rfrag_region_31:n3",
+      "type": "pipe",
+      "path": [
+        {
+          "x": 195,
+          "y": 800
+        },
+        {
+          "x": 205,
+          "y": 800
+        }
+      ],
+      "style": {
+        "line_type": "solid",
+        "arrow": "flow"
+      }
+    },
+    {
+      "from": "rfrag_region_32:n0",
+      "to": "rfrag_region_32:n1",
+      "type": "pipe",
+      "path": [
+        {
+          "x": 365,
+          "y": 780
+        },
+        {
+          "x": 370,
+          "y": 780
+        }
+      ],
+      "style": {
+        "line_type": "solid",
+        "arrow": "flow"
+      }
+    },
+    {
+      "from": "rfrag_region_33:n0",
+      "to": "rfrag_region_33:n1",
+      "type": "pipe",
+      "path": [
+        {
+          "x": 465,
+          "y": 780
+        },
+        {
+          "x": 470,
+          "y": 780
+        }
+      ],
+      "style": {
+        "line_type": "solid",
+        "arrow": "flow"
+      }
+    },
+    {
+      "from": "rfrag_region_34:n0",
+      "to": "rfrag_region_34:n1",
+      "type": "pipe",
+      "path": [
+        {
+          "x": 565,
+          "y": 800
+        },
+        {
+          "x": 570,
+          "y": 805
+        }
+      ],
+      "style": {
+        "line_type": "solid",
+        "arrow": "flow"
+      }
+    },
+    {
+      "from": "rfrag_region_34:n1",
+      "to": "rfrag_region_34:n2",
+      "type": "pipe",
+      "path": [
+        {
+          "x": 650,
+          "y": 805
+        },
+        {
+          "x": 655,
+          "y": 800
+        }
+      ],
+      "style": {
+        "line_type": "solid",
+        "arrow": "flow"
+      }
+    },
+    {
+      "from": "rfrag_region_34:n2",
+      "to": "rfrag_region_34:n3",
+      "type": "pipe",
+      "path": [
+        {
+          "x": 675,
+          "y": 800
+        },
+        {
+          "x": 685,
+          "y": 800
+        }
+      ],
+      "style": {
+        "line_type": "solid",
+        "arrow": "flow"
+      }
+    },
+    {
+      "from": "rfrag_region_35:n0",
+      "to": "rfrag_region_35:n1",
+      "type": "pipe",
+      "path": [
+        {
+          "x": 845,
+          "y": 780
+        },
+        {
+          "x": 850,
+          "y": 780
+        }
+      ],
+      "style": {
+        "line_type": "solid",
+        "arrow": "flow"
+      }
+    },
+    {
+      "from": "rfrag_region_36:n0",
+      "to": "rfrag_region_36:n1",
+      "type": "pipe",
+      "path": [
+        {
+          "x": 945,
+          "y": 780
+        },
+        {
+          "x": 950,
+          "y": 780
+        }
+      ],
+      "style": {
+        "line_type": "solid",
+        "arrow": "flow"
+      }
+    },
+    {
+      "from": "rfrag_region_37:n0",
+      "to": "rfrag_region_37:n1",
+      "type": "pipe",
+      "path": [
+        {
+          "x": 85,
+          "y": 860
+        },
+        {
+          "x": 90,
+          "y": 860
+        }
+      ],
+      "style": {
+        "line_type": "solid",
+        "arrow": "flow"
+      }
+    },
+    {
+      "from": "rfrag_region_38:n0",
+      "to": "rfrag_region_38:n1",
+      "type": "pipe",
+      "path": [
+        {
+          "x": 185,
+          "y": 860
+        },
+        {
+          "x": 190,
+          "y": 860
+        }
+      ],
+      "style": {
+        "line_type": "solid",
+        "arrow": "flow"
+      }
+    },
+    {
+      "from": "cfrag_0:n0",
+      "to": "cfrag_0:n1",
+      "type": "pipe",
+      "path": [
+        {
+          "x": 620,
+          "y": 55
+        },
+        {
+          "x": 625,
+          "y": 55
+        }
+      ],
+      "style": {
+        "line_type": "solid",
+        "arrow": "flow"
+      }
+    },
+    {
+      "from": "cfrag_0:n1",
+      "to": "cfrag_0:n2",
+      "type": "pipe",
+      "path": [
+        {
+          "x": 645,
+          "y": 55
+        },
+        {
+          "x": 655,
+          "y": 55
+        }
+      ],
+      "style": {
+        "line_type": "solid",
+        "arrow": "flow"
+      }
+    },
+    {
+      "from": "cfrag_1:n0",
+      "to": "cfrag_1:n1",
+      "type": "pipe",
+      "path": [
+        {
+          "x": 365,
+          "y": 135
+        },
+        {
+          "x": 370,
+          "y": 135
+        }
+      ],
+      "style": {
+        "line_type": "solid",
+        "arrow": "flow"
+      }
+    },
+    {
+      "from": "cfrag_1:n1",
+      "to": "cfrag_1:n2",
+      "type": "pipe",
+      "path": [
+        {
+          "x": 390,
+          "y": 135
+        },
+        {
+          "x": 400,
+          "y": 135
+        }
+      ],
+      "style": {
+        "line_type": "solid",
+        "arrow": "flow"
+      }
+    },
+    {
+      "from": "cfrag_2:n0",
+      "to": "cfrag_2:n1",
+      "type": "pipe",
+      "path": [
+        {
+          "x": 210,
+          "y": 215
+        },
+        {
+          "x": 215,
+          "y": 215
+        }
+      ],
+      "style": {
+        "line_type": "solid",
+        "arrow": "flow"
+      }
+    },
+    {
+      "from": "cfrag_2:n1",
+      "to": "cfrag_2:n2",
+      "type": "pipe",
+      "path": [
+        {
+          "x": 235,
+          "y": 215
+        },
+        {
+          "x": 245,
+          "y": 215
+        }
+      ],
+      "style": {
+        "line_type": "solid",
+        "arrow": "flow"
+      }
+    },
+    {
+      "from": "cfrag_3:n0",
+      "to": "cfrag_3:n1",
+      "type": "pipe",
+      "path": [
+        {
+          "x": 365,
+          "y": 300
+        },
+        {
+          "x": 370,
+          "y": 300
+        }
+      ],
+      "style": {
+        "line_type": "solid",
+        "arrow": "flow"
+      }
+    },
+    {
+      "from": "cfrag_3:n1",
+      "to": "cfrag_3:n2",
+      "type": "pipe",
+      "path": [
+        {
+          "x": 390,
+          "y": 300
+        },
+        {
+          "x": 400,
+          "y": 300
+        }
+      ],
+      "style": {
+        "line_type": "solid",
+        "arrow": "flow"
+      }
+    },
+    {
+      "from": "cfrag_4:n0",
+      "to": "cfrag_4:n1",
+      "type": "pipe",
+      "path": [
+        {
+          "x": 365,
+          "y": 380
+        },
+        {
+          "x": 370,
+          "y": 380
+        }
+      ],
+      "style": {
+        "line_type": "solid",
+        "arrow": "flow"
+      }
+    },
+    {
+      "from": "cfrag_4:n1",
+      "to": "cfrag_4:n2",
+      "type": "pipe",
+      "path": [
+        {
+          "x": 390,
+          "y": 380
+        },
+        {
+          "x": 400,
+          "y": 380
+        }
+      ],
+      "style": {
+        "line_type": "solid",
+        "arrow": "flow"
+      }
+    },
+    {
+      "from": "cfrag_5:n0",
+      "to": "cfrag_5:n1",
+      "type": "pipe",
+      "path": [
+        {
+          "x": 365,
+          "y": 460
+        },
+        {
+          "x": 370,
+          "y": 460
+        }
+      ],
+      "style": {
+        "line_type": "solid",
+        "arrow": "flow"
+      }
+    },
+    {
+      "from": "cfrag_5:n1",
+      "to": "cfrag_5:n2",
+      "type": "pipe",
+      "path": [
+        {
+          "x": 390,
+          "y": 460
+        },
+        {
+          "x": 400,
+          "y": 460
+        }
+      ],
+      "style": {
+        "line_type": "solid",
+        "arrow": "flow"
+      }
+    },
+    {
+      "from": "efrag_2:n0",
+      "to": "efrag_2:n1",
+      "type": "pipe",
+      "path": [
+        {
+          "x": 75,
+          "y": 950
+        },
+        {
+          "x": 150,
+          "y": 900
+        }
+      ],
+      "style": {
+        "line_type": "solid",
+        "arrow": "flow"
+      }
+    },
+    {
+      "from": "efrag_2:n1",
+      "to": "efrag_2:n2",
+      "type": "pipe",
+      "path": [
+        {
+          "x": 150,
+          "y": 960
+        },
+        {
+          "x": 235,
+          "y": 900
+        }
+      ],
+      "style": {
+        "line_type": "solid",
+        "arrow": "flow"
+      }
+    },
+    {
+      "from": "efrag_2:n2",
+      "to": "efrag_2:n3",
+      "type": "pipe",
+      "path": [
+        {
+          "x": 235,
+          "y": 960
+        },
+        {
+          "x": 320,
+          "y": 900
+        }
+      ],
+      "style": {
+        "line_type": "solid",
+        "arrow": "flow"
+      }
+    },
+    {
+      "from": "efrag_2:n3",
+      "to": "efrag_2:n4",
+      "type": "pipe",
+      "path": [
+        {
+          "x": 320,
+          "y": 960
+        },
+        {
+          "x": 395,
+          "y": 905
+        }
+      ],
+      "style": {
+        "line_type": "solid",
+        "arrow": "flow"
+      }
+    },
+    {
+      "from": "efrag_11:n0",
+      "to": "efrag_11:n1",
+      "type": "pipe",
+      "path": [
+        {
+          "x": 465,
+          "y": 945
+        },
+        {
+          "x": 530,
+          "y": 900
+        }
+      ],
+      "style": {
+        "line_type": "solid",
+        "arrow": "flow"
+      }
+    },
+    {
+      "from": "efrag_12:n0",
+      "to": "efrag_12:n1",
+      "type": "pipe",
+      "path": [
+        {
+          "x": 600,
+          "y": 945
+        },
+        {
+          "x": 665,
+          "y": 900
+        }
+      ],
+      "style": {
+        "line_type": "solid",
+        "arrow": "flow"
+      }
+    },
+    {
+      "from": "efrag_13:n0",
+      "to": "efrag_13:n1",
+      "type": "pipe",
+      "path": [
+        {
+          "x": 740,
+          "y": 945
+        },
+        {
+          "x": 805,
+          "y": 900
+        }
+      ],
+      "style": {
+        "line_type": "solid",
+        "arrow": "flow"
+      }
+    },
+    {
+      "from": "efrag_14:n0",
+      "to": "efrag_14:n1",
+      "type": "pipe",
+      "path": [
+        {
+          "x": 875,
+          "y": 945
+        },
+        {
+          "x": 940,
+          "y": 900
+        }
+      ],
+      "style": {
+        "line_type": "solid",
+        "arrow": "flow"
+      }
+    },
+    {
+      "from": "efrag_15:n0",
+      "to": "efrag_15:n1",
+      "type": "pipe",
+      "path": [
+        {
+          "x": 75,
+          "y": 1020
+        },
+        {
+          "x": 140,
+          "y": 975
+        }
+      ],
+      "style": {
+        "line_type": "solid",
+        "arrow": "flow"
+      }
+    },
+    {
+      "from": "efrag_16:n0",
+      "to": "efrag_16:n1",
+      "type": "pipe",
+      "path": [
+        {
+          "x": 210,
+          "y": 1020
+        },
+        {
+          "x": 275,
+          "y": 975
+        }
+      ],
+      "style": {
+        "line_type": "solid",
+        "arrow": "flow"
+      }
+    },
+    {
+      "from": "efrag_17:n0",
+      "to": "efrag_17:n1",
+      "type": "pipe",
+      "path": [
+        {
+          "x": 345,
+          "y": 1020
+        },
+        {
+          "x": 410,
+          "y": 975
+        }
+      ],
+      "style": {
+        "line_type": "solid",
+        "arrow": "flow"
+      }
+    },
+    {
+      "from": "rfrag_region_1:n7",
+      "to": "cfrag_0:n0",
+      "type": "pipe",
+      "path": [
+        {
+          "x": 565,
+          "y": 75
+        },
+        {
+          "x": 585,
+          "y": 75
+        },
+        {
+          "x": 585,
+          "y": 55
+        },
+        {
+          "x": 580,
+          "y": 55
+        }
+      ],
+      "style": {
+        "line_type": "solid",
+        "arrow": "flow"
+      }
+    },
+    {
+      "from": "cfrag_0:n2",
+      "to": "rfrag_region_6:n0",
+      "type": "pipe",
+      "path": [
+        {
+          "x": 695,
+          "y": 55
+        },
+        {
+          "x": 700,
+          "y": 55
+        },
+        {
+          "x": 700,
+          "y": 55
+        },
+        {
+          "x": 705,
+          "y": 55
+        }
+      ],
+      "style": {
+        "line_type": "solid",
+        "arrow": "flow"
+      }
+    },
+    {
+      "from": "rfrag_region_7:n3",
+      "to": "cfrag_1:n0",
+      "type": "pipe",
+      "path": [
+        {
+          "x": 245,
+          "y": 150
+        },
+        {
+          "x": 285,
+          "y": 150
+        },
+        {
+          "x": 285,
+          "y": 135
+        },
+        {
+          "x": 325,
+          "y": 135
+        }
+      ],
+      "style": {
+        "line_type": "solid",
+        "arrow": "flow"
+      }
+    },
+    {
+      "from": "cfrag_1:n2",
+      "to": "rfrag_region_14:n0",
+      "type": "pipe",
+      "path": [
+        {
+          "x": 440,
+          "y": 135
+        },
+        {
+          "x": 450,
+          "y": 135
+        },
+        {
+          "x": 450,
+          "y": 135
+        },
+        {
+          "x": 455,
+          "y": 135
+        }
+      ],
+      "style": {
+        "line_type": "solid",
+        "arrow": "flow"
+      }
+    },
+    {
+      "from": "rfrag_region_13:n2",
+      "to": "cfrag_2:n0",
+      "type": "pipe",
+      "path": [
+        {
+          "x": 160,
+          "y": 215
+        },
+        {
+          "x": 165,
+          "y": 215
+        },
+        {
+          "x": 165,
+          "y": 215
+        },
+        {
+          "x": 170,
+          "y": 215
+        }
+      ],
+      "style": {
+        "line_type": "solid",
+        "arrow": "flow"
+      }
+    },
+    {
+      "from": "cfrag_2:n2",
+      "to": "rfrag_region_20:n0",
+      "type": "pipe",
+      "path": [
+        {
+          "x": 285,
+          "y": 215
+        },
+        {
+          "x": 290,
+          "y": 215
+        },
+        {
+          "x": 290,
+          "y": 230
+        },
+        {
+          "x": 295,
+          "y": 230
+        }
+      ],
+      "style": {
+        "line_type": "solid",
+        "arrow": "flow"
+      }
+    },
+    {
+      "from": "rfrag_region_15:n3",
+      "to": "cfrag_3:n0",
+      "type": "pipe",
+      "path": [
+        {
+          "x": 245,
+          "y": 315
+        },
+        {
+          "x": 285,
+          "y": 315
+        },
+        {
+          "x": 285,
+          "y": 300
+        },
+        {
+          "x": 325,
+          "y": 300
+        }
+      ],
+      "style": {
+        "line_type": "solid",
+        "arrow": "flow"
+      }
+    },
+    {
+      "from": "cfrag_3:n2",
+      "to": "rfrag_region_17:n0",
+      "type": "pipe",
+      "path": [
+        {
+          "x": 440,
+          "y": 300
+        },
+        {
+          "x": 450,
+          "y": 300
+        },
+        {
+          "x": 450,
+          "y": 300
+        },
+        {
+          "x": 455,
+          "y": 300
+        }
+      ],
+      "style": {
+        "line_type": "solid",
+        "arrow": "flow"
+      }
+    },
+    {
+      "from": "rfrag_region_21:n3",
+      "to": "cfrag_4:n0",
+      "type": "pipe",
+      "path": [
+        {
+          "x": 245,
+          "y": 395
+        },
+        {
+          "x": 285,
+          "y": 395
+        },
+        {
+          "x": 285,
+          "y": 380
+        },
+        {
+          "x": 325,
+          "y": 380
+        }
+      ],
+      "style": {
+        "line_type": "solid",
+        "arrow": "flow"
+      }
+    },
+    {
+      "from": "cfrag_4:n2",
+      "to": "rfrag_region_29:n0",
+      "type": "pipe",
+      "path": [
+        {
+          "x": 440,
+          "y": 380
+        },
+        {
+          "x": 450,
+          "y": 380
+        },
+        {
+          "x": 450,
+          "y": 380
+        },
+        {
+          "x": 455,
+          "y": 380
+        }
+      ],
+      "style": {
+        "line_type": "solid",
+        "arrow": "flow"
+      }
+    },
+    {
+      "from": "rfrag_region_22:n3",
+      "to": "cfrag_5:n0",
+      "type": "pipe",
+      "path": [
+        {
+          "x": 245,
+          "y": 475
+        },
+        {
+          "x": 285,
+          "y": 475
+        },
+        {
+          "x": 285,
+          "y": 460
+        },
+        {
+          "x": 325,
+          "y": 460
+        }
+      ],
+      "style": {
+        "line_type": "solid",
+        "arrow": "flow"
+      }
+    },
+    {
+      "from": "cfrag_5:n2",
+      "to": "rfrag_region_23:n0",
+      "type": "pipe",
+      "path": [
+        {
+          "x": 440,
+          "y": 460
+        },
+        {
+          "x": 450,
+          "y": 460
+        },
+        {
+          "x": 450,
+          "y": 460
+        },
+        {
+          "x": 455,
+          "y": 460
+        }
+      ],
+      "style": {
+        "line_type": "solid",
+        "arrow": "flow"
+      }
+    }
+  ],
+  "groups": [
+    {
+      "fragment_id": "rfrag_region_0",
+      "bounding_box": {
+        "x": 575,
+        "y": 445,
+        "width": 94,
+        "height": 18
+      },
+      "orientation": "left_to_right"
+    },
+    {
+      "fragment_id": "rfrag_region_1",
+      "bounding_box": {
+        "x": 40,
+        "y": 40,
+        "width": 528,
+        "height": 66
+      },
+      "orientation": "left_to_right"
+    },
+    {
+      "fragment_id": "rfrag_region_2",
+      "bounding_box": {
+        "x": 675,
+        "y": 445,
+        "width": 179,
+        "height": 66
+      },
+      "orientation": "left_to_right"
+    },
+    {
+      "fragment_id": "rfrag_region_3",
+      "bounding_box": {
+        "x": 40,
+        "y": 525,
+        "width": 179,
+        "height": 66
+      },
+      "orientation": "left_to_right"
+    },
+    {
+      "fragment_id": "rfrag_region_4",
+      "bounding_box": {
+        "x": 295,
+        "y": 525,
+        "width": 179,
+        "height": 66
+      },
+      "orientation": "left_to_right"
+    },
+    {
+      "fragment_id": "rfrag_region_5",
+      "bounding_box": {
+        "x": 550,
+        "y": 525,
+        "width": 179,
+        "height": 66
+      },
+      "orientation": "left_to_right"
+    },
+    {
+      "fragment_id": "rfrag_region_6",
+      "bounding_box": {
+        "x": 700,
+        "y": 40,
+        "width": 121,
+        "height": 28
+      },
+      "orientation": "left_to_right"
+    },
+    {
+      "fragment_id": "rfrag_region_7",
+      "bounding_box": {
+        "x": 40,
+        "y": 120,
+        "width": 206,
+        "height": 66
+      },
+      "orientation": "left_to_right"
+    },
+    {
+      "fragment_id": "rfrag_region_8",
+      "bounding_box": {
+        "x": 805,
+        "y": 525,
+        "width": 179,
+        "height": 66
+      },
+      "orientation": "left_to_right"
+    },
+    {
+      "fragment_id": "rfrag_region_9",
+      "bounding_box": {
+        "x": 40,
+        "y": 605,
+        "width": 206,
+        "height": 66
+      },
+      "orientation": "left_to_right"
+    },
+    {
+      "fragment_id": "rfrag_region_10",
+      "bounding_box": {
+        "x": 320,
+        "y": 605,
+        "width": 206,
+        "height": 66
+      },
+      "orientation": "left_to_right"
+    },
+    {
+      "fragment_id": "rfrag_region_11",
+      "bounding_box": {
+        "x": 605,
+        "y": 605,
+        "width": 94,
+        "height": 18
+      },
+      "orientation": "left_to_right"
+    },
+    {
+      "fragment_id": "rfrag_region_12",
+      "bounding_box": {
+        "x": 705,
+        "y": 605,
+        "width": 94,
+        "height": 18
+      },
+      "orientation": "left_to_right"
+    },
+    {
+      "fragment_id": "rfrag_region_13",
+      "bounding_box": {
+        "x": 40,
+        "y": 200,
+        "width": 121,
+        "height": 28
+      },
+      "orientation": "left_to_right"
+    },
+    {
+      "fragment_id": "rfrag_region_14",
+      "bounding_box": {
+        "x": 450,
+        "y": 120,
+        "width": 121,
+        "height": 28
+      },
+      "orientation": "left_to_right"
+    },
+    {
+      "fragment_id": "rfrag_region_15",
+      "bounding_box": {
+        "x": 40,
+        "y": 285,
+        "width": 206,
+        "height": 66
+      },
+      "orientation": "left_to_right"
+    },
+    {
+      "fragment_id": "rfrag_region_16",
+      "bounding_box": {
+        "x": 800,
+        "y": 605,
+        "width": 94,
+        "height": 18
+      },
+      "orientation": "left_to_right"
+    },
+    {
+      "fragment_id": "rfrag_region_17",
+      "bounding_box": {
+        "x": 450,
+        "y": 285,
+        "width": 121,
+        "height": 28
+      },
+      "orientation": "left_to_right"
+    },
+    {
+      "fragment_id": "rfrag_region_18",
+      "bounding_box": {
+        "x": 900,
+        "y": 605,
+        "width": 121,
+        "height": 28
+      },
+      "orientation": "left_to_right"
+    },
+    {
+      "fragment_id": "rfrag_region_19",
+      "bounding_box": {
+        "x": 40,
+        "y": 690,
+        "width": 94,
+        "height": 18
+      },
+      "orientation": "left_to_right"
+    },
+    {
+      "fragment_id": "rfrag_region_20",
+      "bounding_box": {
+        "x": 290,
+        "y": 200,
+        "width": 206,
+        "height": 66
+      },
+      "orientation": "left_to_right"
+    },
+    {
+      "fragment_id": "rfrag_region_21",
+      "bounding_box": {
+        "x": 40,
+        "y": 365,
+        "width": 206,
+        "height": 66
+      },
+      "orientation": "left_to_right"
+    },
+    {
+      "fragment_id": "rfrag_region_22",
+      "bounding_box": {
+        "x": 40,
+        "y": 445,
+        "width": 206,
+        "height": 66
+      },
+      "orientation": "left_to_right"
+    },
+    {
+      "fragment_id": "rfrag_region_23",
+      "bounding_box": {
+        "x": 450,
+        "y": 445,
+        "width": 121,
+        "height": 28
+      },
+      "orientation": "left_to_right"
+    },
+    {
+      "fragment_id": "rfrag_region_24",
+      "bounding_box": {
+        "x": 140,
+        "y": 690,
+        "width": 94,
+        "height": 18
+      },
+      "orientation": "left_to_right"
+    },
+    {
+      "fragment_id": "rfrag_region_25",
+      "bounding_box": {
+        "x": 240,
+        "y": 690,
+        "width": 94,
+        "height": 18
+      },
+      "orientation": "left_to_right"
+    },
+    {
+      "fragment_id": "rfrag_region_26",
+      "bounding_box": {
+        "x": 335,
+        "y": 690,
+        "width": 94,
+        "height": 18
+      },
+      "orientation": "left_to_right"
+    },
+    {
+      "fragment_id": "rfrag_region_27",
+      "bounding_box": {
+        "x": 435,
+        "y": 690,
+        "width": 94,
+        "height": 18
+      },
+      "orientation": "left_to_right"
+    },
+    {
+      "fragment_id": "rfrag_region_28",
+      "bounding_box": {
+        "x": 535,
+        "y": 690,
+        "width": 94,
+        "height": 18
+      },
+      "orientation": "left_to_right"
+    },
+    {
+      "fragment_id": "rfrag_region_29",
+      "bounding_box": {
+        "x": 450,
+        "y": 365,
+        "width": 121,
+        "height": 28
+      },
+      "orientation": "left_to_right"
+    },
+    {
+      "fragment_id": "rfrag_region_30",
+      "bounding_box": {
+        "x": 635,
+        "y": 690,
+        "width": 206,
+        "height": 66
+      },
+      "orientation": "left_to_right"
+    },
+    {
+      "fragment_id": "rfrag_region_31",
+      "bounding_box": {
+        "x": 40,
+        "y": 770,
+        "width": 206,
+        "height": 66
+      },
+      "orientation": "left_to_right"
+    },
+    {
+      "fragment_id": "rfrag_region_32",
+      "bounding_box": {
+        "x": 320,
+        "y": 770,
+        "width": 94,
+        "height": 18
+      },
+      "orientation": "left_to_right"
+    },
+    {
+      "fragment_id": "rfrag_region_33",
+      "bounding_box": {
+        "x": 420,
+        "y": 770,
+        "width": 94,
+        "height": 18
+      },
+      "orientation": "left_to_right"
+    },
+    {
+      "fragment_id": "rfrag_region_34",
+      "bounding_box": {
+        "x": 520,
+        "y": 770,
+        "width": 206,
+        "height": 66
+      },
+      "orientation": "left_to_right"
+    },
+    {
+      "fragment_id": "rfrag_region_35",
+      "bounding_box": {
+        "x": 800,
+        "y": 770,
+        "width": 94,
+        "height": 18
+      },
+      "orientation": "left_to_right"
+    },
+    {
+      "fragment_id": "rfrag_region_36",
+      "bounding_box": {
+        "x": 900,
+        "y": 770,
+        "width": 94,
+        "height": 18
+      },
+      "orientation": "left_to_right"
+    },
+    {
+      "fragment_id": "rfrag_region_37",
+      "bounding_box": {
+        "x": 40,
+        "y": 850,
+        "width": 94,
+        "height": 18
+      },
+      "orientation": "left_to_right"
+    },
+    {
+      "fragment_id": "rfrag_region_38",
+      "bounding_box": {
+        "x": 140,
+        "y": 850,
+        "width": 94,
+        "height": 18
+      },
+      "orientation": "left_to_right"
+    },
+    {
+      "fragment_id": "cfrag_0",
+      "bounding_box": {
+        "x": 575,
+        "y": 40,
+        "width": 121,
+        "height": 28
+      },
+      "orientation": "left_to_right"
+    },
+    {
+      "fragment_id": "cfrag_1",
+      "bounding_box": {
+        "x": 320,
+        "y": 120,
+        "width": 121,
+        "height": 28
+      },
+      "orientation": "left_to_right"
+    },
+    {
+      "fragment_id": "cfrag_2",
+      "bounding_box": {
+        "x": 165,
+        "y": 200,
+        "width": 121,
+        "height": 28
+      },
+      "orientation": "left_to_right"
+    },
+    {
+      "fragment_id": "cfrag_3",
+      "bounding_box": {
+        "x": 320,
+        "y": 285,
+        "width": 121,
+        "height": 28
+      },
+      "orientation": "left_to_right"
+    },
+    {
+      "fragment_id": "cfrag_4",
+      "bounding_box": {
+        "x": 320,
+        "y": 365,
+        "width": 121,
+        "height": 28
+      },
+      "orientation": "left_to_right"
+    },
+    {
+      "fragment_id": "cfrag_5",
+      "bounding_box": {
+        "x": 320,
+        "y": 445,
+        "width": 121,
+        "height": 28
+      },
+      "orientation": "left_to_right"
+    },
+    {
+      "fragment_id": "efrag_0",
+      "bounding_box": {
+        "x": 250,
+        "y": 120,
+        "width": 66,
+        "height": 51
+      },
+      "orientation": "top_to_bottom"
+    },
+    {
+      "fragment_id": "efrag_1",
+      "bounding_box": {
+        "x": 250,
+        "y": 605,
+        "width": 66,
+        "height": 51
+      },
+      "orientation": "top_to_bottom"
+    },
+    {
+      "fragment_id": "efrag_2",
+      "bounding_box": {
+        "x": 40,
+        "y": 895,
+        "width": 386,
+        "height": 66
+      },
+      "orientation": "left_to_right"
+    },
+    {
+      "fragment_id": "efrag_3",
+      "bounding_box": {
+        "x": 535,
+        "y": 605,
+        "width": 66,
+        "height": 51
+      },
+      "orientation": "top_to_bottom"
+    },
+    {
+      "fragment_id": "efrag_4",
+      "bounding_box": {
+        "x": 250,
+        "y": 285,
+        "width": 66,
+        "height": 51
+      },
+      "orientation": "top_to_bottom"
+    },
+    {
+      "fragment_id": "efrag_5",
+      "bounding_box": {
+        "x": 505,
+        "y": 200,
+        "width": 66,
+        "height": 51
+      },
+      "orientation": "top_to_bottom"
+    },
+    {
+      "fragment_id": "efrag_6",
+      "bounding_box": {
+        "x": 250,
+        "y": 365,
+        "width": 66,
+        "height": 51
+      },
+      "orientation": "top_to_bottom"
+    },
+    {
+      "fragment_id": "efrag_7",
+      "bounding_box": {
+        "x": 250,
+        "y": 445,
+        "width": 66,
+        "height": 51
+      },
+      "orientation": "top_to_bottom"
+    },
+    {
+      "fragment_id": "efrag_8",
+      "bounding_box": {
+        "x": 845,
+        "y": 690,
+        "width": 66,
+        "height": 51
+      },
+      "orientation": "top_to_bottom"
+    },
+    {
+      "fragment_id": "efrag_9",
+      "bounding_box": {
+        "x": 250,
+        "y": 770,
+        "width": 66,
+        "height": 51
+      },
+      "orientation": "top_to_bottom"
+    },
+    {
+      "fragment_id": "efrag_10",
+      "bounding_box": {
+        "x": 730,
+        "y": 770,
+        "width": 66,
+        "height": 51
+      },
+      "orientation": "top_to_bottom"
+    },
+    {
+      "fragment_id": "efrag_11",
+      "bounding_box": {
+        "x": 430,
+        "y": 895,
+        "width": 131,
+        "height": 51
+      },
+      "orientation": "left_to_right"
+    },
+    {
+      "fragment_id": "efrag_12",
+      "bounding_box": {
+        "x": 565,
+        "y": 895,
+        "width": 131,
+        "height": 51
+      },
+      "orientation": "left_to_right"
+    },
+    {
+      "fragment_id": "efrag_13",
+      "bounding_box": {
+        "x": 705,
+        "y": 895,
+        "width": 131,
+        "height": 51
+      },
+      "orientation": "left_to_right"
+    },
+    {
+      "fragment_id": "efrag_14",
+      "bounding_box": {
+        "x": 840,
+        "y": 895,
+        "width": 131,
+        "height": 51
+      },
+      "orientation": "left_to_right"
+    },
+    {
+      "fragment_id": "efrag_15",
+      "bounding_box": {
+        "x": 40,
+        "y": 970,
+        "width": 131,
+        "height": 51
+      },
+      "orientation": "left_to_right"
+    },
+    {
+      "fragment_id": "efrag_16",
+      "bounding_box": {
+        "x": 175,
+        "y": 970,
+        "width": 131,
+        "height": 51
+      },
+      "orientation": "left_to_right"
+    },
+    {
+      "fragment_id": "efrag_17",
+      "bounding_box": {
+        "x": 310,
+        "y": 970,
+        "width": 131,
+        "height": 51
+      },
+      "orientation": "left_to_right"
+    },
+    {
+      "fragment_id": "efrag_18",
+      "bounding_box": {
+        "x": 480,
+        "y": 525,
+        "width": 66,
+        "height": 51
+      },
+      "orientation": "top_to_bottom"
+    },
+    {
+      "fragment_id": "efrag_19",
+      "bounding_box": {
+        "x": 735,
+        "y": 525,
+        "width": 66,
+        "height": 51
+      },
+      "orientation": "top_to_bottom"
+    },
+    {
+      "fragment_id": "efrag_20",
+      "bounding_box": {
+        "x": 990,
+        "y": 525,
+        "width": 66,
+        "height": 51
+      },
+      "orientation": "top_to_bottom"
+    },
+    {
+      "fragment_id": "efrag_21",
+      "bounding_box": {
+        "x": 855,
+        "y": 445,
+        "width": 66,
+        "height": 51
+      },
+      "orientation": "top_to_bottom"
+    },
+    {
+      "fragment_id": "efrag_22",
+      "bounding_box": {
+        "x": 225,
+        "y": 525,
+        "width": 66,
+        "height": 51
+      },
+      "orientation": "top_to_bottom"
+    }
+  ]
+}

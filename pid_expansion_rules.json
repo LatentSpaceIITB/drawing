@@ -1,0 +1,173 @@
+{
+  "schema_version": "1",
+  "source_stage": "pfd_global_graph",
+  "target_stage": "pid_primitives",
+  "line_spec_defaults": {
+    "size": "4in",
+    "spec": "CS150",
+    "service": "Process"
+  },
+  "tag_counters": {
+    "valve:isolation":    {"prefix": "XV",  "start": 101},
+    "valve:control":      {"prefix": "FV",  "start": 201},
+    "controller":         {"prefix": "FC",  "start": 201},
+    "actuator":           {"prefix": "ACT", "start": 201},
+    "flow_meter":         {"prefix": "FT",  "start": 301},
+    "equipment":          {"prefix": "E",   "start": 1,   "pad": 3},
+    "pressure_inst":      {"prefix": "PI",  "start": 401},
+    "temperature_inst":   {"prefix": "TI",  "start": 501},
+    "drain_valve":        {"prefix": "DR",  "start": 601},
+    "line":               {"prefix": "L",   "start": 101, "suffix": "-A"},
+    "tank":               {"prefix": "TK",  "start": 701, "pad": 3},
+    "pump":               {"prefix": "P",   "start": 801, "pad": 3},
+    "level_inst":         {"prefix": "LI",  "start": 901},
+    "motor":              {"prefix": "M",   "start": 1001}
+  },
+  "rules": [
+    {
+      "id": "pipe_segment",
+      "match": {"node_type": "pipe_segment"},
+      "expand": {
+        "mode": "enrich",
+        "primary_fields": {
+          "line_id":  "<tag:line>",
+          "size":     "<default:size>",
+          "spec":     "<default:spec>",
+          "service":  "<default:service>"
+        }
+      },
+      "inherit": {"flow_direction": true}
+    },
+    {
+      "id": "equipment_block",
+      "match": {"node_type": "equipment_block"},
+      "expand": {
+        "mode": "augment",
+        "primary_fields": {
+          "tag":            "<tag:equipment>",
+          "equipment_type": "vessel",
+          "duty":           "process"
+        },
+        "added_nodes": [
+          {"local_id": "pi", "type": "instrument:pressure",    "tag_key": "pressure_inst"},
+          {"local_id": "ti", "type": "instrument:temperature",  "tag_key": "temperature_inst"}
+        ],
+        "added_edges": [
+          {"from": "self", "to": "pi", "kind": "sense"},
+          {"from": "self", "to": "ti", "kind": "sense"}
+        ]
+      },
+      "inherit": {"semantic_fields": true}
+    },
+    {
+      "id": "valve_isolation",
+      "match": {"node_type": "valve:isolation"},
+      "expand": {
+        "mode": "augment",
+        "primary_fields": {
+          "tag":        "<tag:valve:isolation>",
+          "valve_type": "gate"
+        },
+        "added_nodes": [
+          {"local_id": "drain", "type": "valve:drain", "normally_closed": true, "tag_key": "drain_valve"}
+        ],
+        "added_edges": [
+          {"from": "self", "to": "drain", "kind": "branch"}
+        ]
+      },
+      "inherit": {"normally_open": true, "fail_position": true}
+    },
+    {
+      "id": "valve_control",
+      "match": {"node_type": "valve:control"},
+      "expand": {
+        "mode": "replace",
+        "primary_fields": {
+          "tag":           "<tag:valve:control>",
+          "fail_position": "closed"
+        },
+        "added_nodes": [
+          {"local_id": "act", "type": "actuator:pneumatic",    "tag_key": "actuator"},
+          {"local_id": "fc",  "type": "instrument:controller", "tag_key": "controller"}
+        ],
+        "added_edges": [
+          {"from": "fc",  "to": "act",  "kind": "signal"},
+          {"from": "act", "to": "self", "kind": "mechanical"}
+        ]
+      },
+      "inherit": {"flow_direction": true, "control_loop": true}
+    },
+    {
+      "id": "flow_meter",
+      "match": {"node_type": "instrument:flow_meter"},
+      "expand": {
+        "mode": "replace",
+        "primary_fields": {
+          "tag": "<tag:flow_meter>"
+        },
+        "added_nodes": [
+          {"local_id": "ft", "type": "instrument:transmitter", "tag_key": "flow_meter"}
+        ],
+        "added_edges": [
+          {"from": "self", "to": "ft", "kind": "signal"}
+        ]
+      },
+      "inherit": {"measurement": true}
+    },
+    {
+      "id": "tank",
+      "match": {"node_type": "tank"},
+      "expand": {
+        "mode": "augment",
+        "primary_fields": {
+          "tag":            "<tag:tank>",
+          "equipment_type": "tank",
+          "duty":           "storage"
+        },
+        "added_nodes": [
+          {"local_id": "pi", "type": "instrument:pressure",    "tag_key": "pressure_inst"},
+          {"local_id": "ti", "type": "instrument:temperature",  "tag_key": "temperature_inst"},
+          {"local_id": "li", "type": "instrument:level",        "tag_key": "level_inst"}
+        ],
+        "added_edges": [
+          {"from": "self", "to": "pi", "kind": "sense"},
+          {"from": "self", "to": "ti", "kind": "sense"},
+          {"from": "self", "to": "li", "kind": "sense"}
+        ]
+      },
+      "inherit": {"semantic_fields": true}
+    },
+    {
+      "id": "pump",
+      "match": {"node_type": "pump"},
+      "expand": {
+        "mode": "augment",
+        "primary_fields": {
+          "tag":       "<tag:pump>",
+          "pump_type": "centrifugal"
+        },
+        "added_nodes": [
+          {"local_id": "motor", "type": "driver:motor", "tag_key": "motor"}
+        ],
+        "added_edges": [
+          {"from": "motor", "to": "self", "kind": "mechanical"}
+        ]
+      },
+      "inherit": {"flow_direction": true, "semantic_fields": true}
+    },
+    {
+      "id": "inlet_outlet",
+      "match": {"node_type": "inlet_outlet"},
+      "expand": {
+        "mode": "enrich",
+        "primary_fields": {
+          "line_id":  "<tag:line>",
+          "size":     "<default:size>",
+          "spec":     "<default:spec>",
+          "service":  "<default:service>"
+        }
+      },
+      "inherit": {"flow_direction": true}
+    }
+  ]
+}

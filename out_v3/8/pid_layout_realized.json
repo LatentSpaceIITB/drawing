@@ -1,0 +1,7231 @@
+{
+  "metadata": {
+    "schema_version": "1",
+    "source_files": [
+      "pid_primitives.json",
+      "pfd_layout_realized.json"
+    ],
+    "layout_engine": "deterministic_v2",
+    "units": "mm",
+    "coordinate_system": "top_left_origin",
+    "total_nodes": 140,
+    "total_edges": 118,
+    "groups": 34
+  },
+  "symbols": {
+    "pipe_segment": "pipe_straight",
+    "equipment_block": "vessel",
+    "valve:isolation": "gate_valve",
+    "valve:control": "control_valve",
+    "valve:drain": "drain_valve",
+    "instrument:flow_meter": "flow_element",
+    "actuator:pneumatic": "diaphragm_actuator",
+    "instrument:controller": "controller_bubble",
+    "instrument:transmitter": "transmitter_bubble",
+    "instrument:pressure": "pressure_indicator",
+    "instrument:temperature": "temperature_indicator",
+    "tank": "tank_horizontal",
+    "pump": "pump_centrifugal",
+    "inlet_outlet": "inlet_outlet_connector",
+    "motor:driver": "motor_driver",
+    "instrument:level": "level_indicator"
+  },
+  "nodes": [
+    {
+      "global_id": "rfrag_region_0:n0",
+      "type": "pipe_segment",
+      "symbol": "pipe_straight",
+      "tag": "L-101-A",
+      "pfd_origin": "rfrag_region_0:n0",
+      "is_added_node": false,
+      "fragment_id": "rfrag_region_0",
+      "position": {
+        "x": 425,
+        "y": 135
+      },
+      "size": {
+        "width": 40,
+        "height": 12
+      },
+      "orientation": "horizontal",
+      "ports": {
+        "in": {
+          "x": 0,
+          "y": 6.0
+        },
+        "out": {
+          "x": 40,
+          "y": 6.0
+        }
+      },
+      "semantics": {
+        "line_id": "L-101-A",
+        "size": "4in",
+        "spec": "CS150",
+        "service": "Process",
+        "flow_direction": "forward"
+      }
+    },
+    {
+      "global_id": "rfrag_region_0:n1",
+      "type": "valve:isolation",
+      "symbol": "gate_valve",
+      "tag": "XV-101",
+      "pfd_origin": "rfrag_region_0:n1",
+      "is_added_node": false,
+      "fragment_id": "rfrag_region_0",
+      "position": {
+        "x": 470,
+        "y": 130
+      },
+      "size": {
+        "width": 22,
+        "height": 22
+      },
+      "orientation": "horizontal",
+      "ports": {
+        "in": {
+          "x": 0,
+          "y": 11.0
+        },
+        "out": {
+          "x": 22,
+          "y": 11.0
+        }
+      },
+      "semantics": {
+        "tag": "XV-101",
+        "valve_type": "gate",
+        "normally_open": true,
+        "fail_position": "closed"
+      }
+    },
+    {
+      "global_id": "rfrag_region_0:n1:drain",
+      "type": "valve:drain",
+      "symbol": "drain_valve",
+      "tag": "DR-601",
+      "pfd_origin": "rfrag_region_0:n1",
+      "is_added_node": true,
+      "parent_id": "rfrag_region_0:n1",
+      "fragment_id": "rfrag_region_0",
+      "position": {
+        "x": 474,
+        "y": 154
+      },
+      "size": {
+        "width": 14,
+        "height": 14
+      },
+      "orientation": "vertical",
+      "ports": {
+        "in": {
+          "x": 7.0,
+          "y": 0
+        }
+      },
+      "semantics": {
+        "tag": "DR-601",
+        "normally_closed": true
+      }
+    },
+    {
+      "global_id": "rfrag_region_0:n2",
+      "type": "pipe_segment",
+      "symbol": "pipe_straight",
+      "tag": "L-102-A",
+      "pfd_origin": "rfrag_region_0:n2",
+      "is_added_node": false,
+      "fragment_id": "rfrag_region_0",
+      "position": {
+        "x": 500,
+        "y": 135
+      },
+      "size": {
+        "width": 40,
+        "height": 12
+      },
+      "orientation": "horizontal",
+      "ports": {
+        "in": {
+          "x": 0,
+          "y": 6.0
+        },
+        "out": {
+          "x": 40,
+          "y": 6.0
+        }
+      },
+      "semantics": {
+        "line_id": "L-102-A",
+        "size": "4in",
+        "spec": "CS150",
+        "service": "Process",
+        "flow_direction": "forward"
+      }
+    },
+    {
+      "global_id": "rfrag_region_1:n0",
+      "type": "pipe_segment",
+      "symbol": "pipe_straight",
+      "tag": "L-103-A",
+      "pfd_origin": "rfrag_region_1:n0",
+      "is_added_node": false,
+      "fragment_id": "rfrag_region_1",
+      "position": {
+        "x": 45,
+        "y": 50
+      },
+      "size": {
+        "width": 40,
+        "height": 12
+      },
+      "orientation": "horizontal",
+      "ports": {
+        "in": {
+          "x": 0,
+          "y": 6.0
+        },
+        "out": {
+          "x": 40,
+          "y": 6.0
+        }
+      },
+      "semantics": {
+        "line_id": "L-103-A",
+        "size": "4in",
+        "spec": "CS150",
+        "service": "Process",
+        "flow_direction": "forward"
+      }
+    },
+    {
+      "global_id": "rfrag_region_1:n1",
+      "type": "valve:isolation",
+      "symbol": "gate_valve",
+      "tag": "XV-102",
+      "pfd_origin": "rfrag_region_1:n1",
+      "is_added_node": false,
+      "fragment_id": "rfrag_region_1",
+      "position": {
+        "x": 90,
+        "y": 45
+      },
+      "size": {
+        "width": 22,
+        "height": 22
+      },
+      "orientation": "horizontal",
+      "ports": {
+        "in": {
+          "x": 0,
+          "y": 11.0
+        },
+        "out": {
+          "x": 22,
+          "y": 11.0
+        }
+      },
+      "semantics": {
+        "tag": "XV-102",
+        "valve_type": "gate",
+        "normally_open": true,
+        "fail_position": "closed"
+      }
+    },
+    {
+      "global_id": "rfrag_region_1:n1:drain",
+      "type": "valve:drain",
+      "symbol": "drain_valve",
+      "tag": "DR-602",
+      "pfd_origin": "rfrag_region_1:n1",
+      "is_added_node": true,
+      "parent_id": "rfrag_region_1:n1",
+      "fragment_id": "rfrag_region_1",
+      "position": {
+        "x": 94,
+        "y": 69
+      },
+      "size": {
+        "width": 14,
+        "height": 14
+      },
+      "orientation": "vertical",
+      "ports": {
+        "in": {
+          "x": 7.0,
+          "y": 0
+        }
+      },
+      "semantics": {
+        "tag": "DR-602",
+        "normally_closed": true
+      }
+    },
+    {
+      "global_id": "rfrag_region_1:n2",
+      "type": "pipe_segment",
+      "symbol": "pipe_straight",
+      "tag": "L-104-A",
+      "pfd_origin": "rfrag_region_1:n2",
+      "is_added_node": false,
+      "fragment_id": "rfrag_region_1",
+      "position": {
+        "x": 120,
+        "y": 50
+      },
+      "size": {
+        "width": 40,
+        "height": 12
+      },
+      "orientation": "horizontal",
+      "ports": {
+        "in": {
+          "x": 0,
+          "y": 6.0
+        },
+        "out": {
+          "x": 40,
+          "y": 6.0
+        }
+      },
+      "semantics": {
+        "line_id": "L-104-A",
+        "size": "4in",
+        "spec": "CS150",
+        "service": "Process",
+        "flow_direction": "forward"
+      }
+    },
+    {
+      "global_id": "rfrag_region_2:n0",
+      "type": "pipe_segment",
+      "symbol": "pipe_straight",
+      "tag": "L-105-A",
+      "pfd_origin": "rfrag_region_2:n0",
+      "is_added_node": false,
+      "fragment_id": "rfrag_region_2",
+      "position": {
+        "x": 550,
+        "y": 130
+      },
+      "size": {
+        "width": 40,
+        "height": 12
+      },
+      "orientation": "horizontal",
+      "ports": {
+        "in": {
+          "x": 0,
+          "y": 6.0
+        },
+        "out": {
+          "x": 40,
+          "y": 6.0
+        }
+      },
+      "semantics": {
+        "line_id": "L-105-A",
+        "size": "4in",
+        "spec": "CS150",
+        "service": "Process",
+        "flow_direction": "forward"
+      }
+    },
+    {
+      "global_id": "rfrag_region_2:n1",
+      "type": "pipe_segment",
+      "symbol": "pipe_straight",
+      "tag": "L-106-A",
+      "pfd_origin": "rfrag_region_2:n1",
+      "is_added_node": false,
+      "fragment_id": "rfrag_region_2",
+      "position": {
+        "x": 595,
+        "y": 130
+      },
+      "size": {
+        "width": 40,
+        "height": 12
+      },
+      "orientation": "horizontal",
+      "ports": {
+        "in": {
+          "x": 0,
+          "y": 6.0
+        },
+        "out": {
+          "x": 40,
+          "y": 6.0
+        }
+      },
+      "semantics": {
+        "line_id": "L-106-A",
+        "size": "4in",
+        "spec": "CS150",
+        "service": "Process",
+        "flow_direction": "forward"
+      }
+    },
+    {
+      "global_id": "rfrag_region_3:n0",
+      "type": "pipe_segment",
+      "symbol": "pipe_straight",
+      "tag": "L-107-A",
+      "pfd_origin": "rfrag_region_3:n0",
+      "is_added_node": false,
+      "fragment_id": "rfrag_region_3",
+      "position": {
+        "x": 45,
+        "y": 195
+      },
+      "size": {
+        "width": 40,
+        "height": 12
+      },
+      "orientation": "horizontal",
+      "ports": {
+        "in": {
+          "x": 0,
+          "y": 6.0
+        },
+        "out": {
+          "x": 40,
+          "y": 6.0
+        }
+      },
+      "semantics": {
+        "line_id": "L-107-A",
+        "size": "4in",
+        "spec": "CS150",
+        "service": "Process",
+        "flow_direction": "forward"
+      }
+    },
+    {
+      "global_id": "rfrag_region_3:n1",
+      "type": "equipment_block",
+      "symbol": "vessel",
+      "tag": "E-001",
+      "pfd_origin": "rfrag_region_3:n1",
+      "is_added_node": false,
+      "fragment_id": "rfrag_region_3",
+      "position": {
+        "x": 90,
+        "y": 175
+      },
+      "size": {
+        "width": 80,
+        "height": 60
+      },
+      "orientation": "horizontal",
+      "ports": {
+        "in": {
+          "x": 0,
+          "y": 30.0
+        },
+        "out": {
+          "x": 80,
+          "y": 30.0
+        }
+      },
+      "semantics": {
+        "tag": "E-001",
+        "equipment_type": "vessel",
+        "duty": "process"
+      }
+    },
+    {
+      "global_id": "rfrag_region_3:n1:pi",
+      "type": "instrument:pressure",
+      "symbol": "pressure_indicator",
+      "tag": "PI-401",
+      "pfd_origin": "rfrag_region_3:n1",
+      "is_added_node": true,
+      "parent_id": "rfrag_region_3:n1",
+      "fragment_id": "rfrag_region_3",
+      "position": {
+        "x": 174,
+        "y": 172
+      },
+      "size": {
+        "width": 18,
+        "height": 18
+      },
+      "orientation": "vertical",
+      "ports": {
+        "center": {
+          "x": 9.0,
+          "y": 9.0
+        }
+      },
+      "semantics": {
+        "tag": "PI-401"
+      }
+    },
+    {
+      "global_id": "rfrag_region_3:n1:ti",
+      "type": "instrument:temperature",
+      "symbol": "temperature_indicator",
+      "tag": "TI-501",
+      "pfd_origin": "rfrag_region_3:n1",
+      "is_added_node": true,
+      "parent_id": "rfrag_region_3:n1",
+      "fragment_id": "rfrag_region_3",
+      "position": {
+        "x": 174,
+        "y": 192
+      },
+      "size": {
+        "width": 18,
+        "height": 18
+      },
+      "orientation": "vertical",
+      "ports": {
+        "center": {
+          "x": 9.0,
+          "y": 9.0
+        }
+      },
+      "semantics": {
+        "tag": "TI-501"
+      }
+    },
+    {
+      "global_id": "rfrag_region_3:n2",
+      "type": "equipment_block",
+      "symbol": "vessel",
+      "tag": "E-002",
+      "pfd_origin": "rfrag_region_3:n2",
+      "is_added_node": false,
+      "fragment_id": "rfrag_region_3",
+      "position": {
+        "x": 175,
+        "y": 175
+      },
+      "size": {
+        "width": 80,
+        "height": 60
+      },
+      "orientation": "horizontal",
+      "ports": {
+        "in": {
+          "x": 0,
+          "y": 30.0
+        },
+        "out": {
+          "x": 80,
+          "y": 30.0
+        }
+      },
+      "semantics": {
+        "tag": "E-002",
+        "equipment_type": "vessel",
+        "duty": "process"
+      }
+    },
+    {
+      "global_id": "rfrag_region_3:n2:pi",
+      "type": "instrument:pressure",
+      "symbol": "pressure_indicator",
+      "tag": "PI-402",
+      "pfd_origin": "rfrag_region_3:n2",
+      "is_added_node": true,
+      "parent_id": "rfrag_region_3:n2",
+      "fragment_id": "rfrag_region_3",
+      "position": {
+        "x": 259,
+        "y": 172
+      },
+      "size": {
+        "width": 18,
+        "height": 18
+      },
+      "orientation": "vertical",
+      "ports": {
+        "center": {
+          "x": 9.0,
+          "y": 9.0
+        }
+      },
+      "semantics": {
+        "tag": "PI-402"
+      }
+    },
+    {
+      "global_id": "rfrag_region_3:n2:ti",
+      "type": "instrument:temperature",
+      "symbol": "temperature_indicator",
+      "tag": "TI-502",
+      "pfd_origin": "rfrag_region_3:n2",
+      "is_added_node": true,
+      "parent_id": "rfrag_region_3:n2",
+      "fragment_id": "rfrag_region_3",
+      "position": {
+        "x": 259,
+        "y": 192
+      },
+      "size": {
+        "width": 18,
+        "height": 18
+      },
+      "orientation": "vertical",
+      "ports": {
+        "center": {
+          "x": 9.0,
+          "y": 9.0
+        }
+      },
+      "semantics": {
+        "tag": "TI-502"
+      }
+    },
+    {
+      "global_id": "rfrag_region_3:n3",
+      "type": "equipment_block",
+      "symbol": "vessel",
+      "tag": "E-003",
+      "pfd_origin": "rfrag_region_3:n3",
+      "is_added_node": false,
+      "fragment_id": "rfrag_region_3",
+      "position": {
+        "x": 260,
+        "y": 175
+      },
+      "size": {
+        "width": 80,
+        "height": 60
+      },
+      "orientation": "horizontal",
+      "ports": {
+        "in": {
+          "x": 0,
+          "y": 30.0
+        },
+        "out": {
+          "x": 80,
+          "y": 30.0
+        }
+      },
+      "semantics": {
+        "tag": "E-003",
+        "equipment_type": "vessel",
+        "duty": "process"
+      }
+    },
+    {
+      "global_id": "rfrag_region_3:n3:pi",
+      "type": "instrument:pressure",
+      "symbol": "pressure_indicator",
+      "tag": "PI-403",
+      "pfd_origin": "rfrag_region_3:n3",
+      "is_added_node": true,
+      "parent_id": "rfrag_region_3:n3",
+      "fragment_id": "rfrag_region_3",
+      "position": {
+        "x": 344,
+        "y": 172
+      },
+      "size": {
+        "width": 18,
+        "height": 18
+      },
+      "orientation": "vertical",
+      "ports": {
+        "center": {
+          "x": 9.0,
+          "y": 9.0
+        }
+      },
+      "semantics": {
+        "tag": "PI-403"
+      }
+    },
+    {
+      "global_id": "rfrag_region_3:n3:ti",
+      "type": "instrument:temperature",
+      "symbol": "temperature_indicator",
+      "tag": "TI-503",
+      "pfd_origin": "rfrag_region_3:n3",
+      "is_added_node": true,
+      "parent_id": "rfrag_region_3:n3",
+      "fragment_id": "rfrag_region_3",
+      "position": {
+        "x": 344,
+        "y": 192
+      },
+      "size": {
+        "width": 18,
+        "height": 18
+      },
+      "orientation": "vertical",
+      "ports": {
+        "center": {
+          "x": 9.0,
+          "y": 9.0
+        }
+      },
+      "semantics": {
+        "tag": "TI-503"
+      }
+    },
+    {
+      "global_id": "rfrag_region_3:n4",
+      "type": "pipe_segment",
+      "symbol": "pipe_straight",
+      "tag": "L-108-A",
+      "pfd_origin": "rfrag_region_3:n4",
+      "is_added_node": false,
+      "fragment_id": "rfrag_region_3",
+      "position": {
+        "x": 345,
+        "y": 195
+      },
+      "size": {
+        "width": 40,
+        "height": 12
+      },
+      "orientation": "horizontal",
+      "ports": {
+        "in": {
+          "x": 0,
+          "y": 6.0
+        },
+        "out": {
+          "x": 40,
+          "y": 6.0
+        }
+      },
+      "semantics": {
+        "line_id": "L-108-A",
+        "size": "4in",
+        "spec": "CS150",
+        "service": "Process",
+        "flow_direction": "forward"
+      }
+    },
+    {
+      "global_id": "rfrag_region_4:n0",
+      "type": "pipe_segment",
+      "symbol": "pipe_straight",
+      "tag": "L-109-A",
+      "pfd_origin": "rfrag_region_4:n0",
+      "is_added_node": false,
+      "fragment_id": "rfrag_region_4",
+      "position": {
+        "x": 400,
+        "y": 175
+      },
+      "size": {
+        "width": 40,
+        "height": 12
+      },
+      "orientation": "horizontal",
+      "ports": {
+        "in": {
+          "x": 0,
+          "y": 6.0
+        },
+        "out": {
+          "x": 40,
+          "y": 6.0
+        }
+      },
+      "semantics": {
+        "line_id": "L-109-A",
+        "size": "4in",
+        "spec": "CS150",
+        "service": "Process",
+        "flow_direction": "forward"
+      }
+    },
+    {
+      "global_id": "rfrag_region_4:n1",
+      "type": "pipe_segment",
+      "symbol": "pipe_straight",
+      "tag": "L-110-A",
+      "pfd_origin": "rfrag_region_4:n1",
+      "is_added_node": false,
+      "fragment_id": "rfrag_region_4",
+      "position": {
+        "x": 445,
+        "y": 175
+      },
+      "size": {
+        "width": 40,
+        "height": 12
+      },
+      "orientation": "horizontal",
+      "ports": {
+        "in": {
+          "x": 0,
+          "y": 6.0
+        },
+        "out": {
+          "x": 40,
+          "y": 6.0
+        }
+      },
+      "semantics": {
+        "line_id": "L-110-A",
+        "size": "4in",
+        "spec": "CS150",
+        "service": "Process",
+        "flow_direction": "forward"
+      }
+    },
+    {
+      "global_id": "rfrag_region_5:n0",
+      "type": "pipe_segment",
+      "symbol": "pipe_straight",
+      "tag": "L-111-A",
+      "pfd_origin": "rfrag_region_5:n0",
+      "is_added_node": false,
+      "fragment_id": "rfrag_region_5",
+      "position": {
+        "x": 500,
+        "y": 175
+      },
+      "size": {
+        "width": 40,
+        "height": 12
+      },
+      "orientation": "horizontal",
+      "ports": {
+        "in": {
+          "x": 0,
+          "y": 6.0
+        },
+        "out": {
+          "x": 40,
+          "y": 6.0
+        }
+      },
+      "semantics": {
+        "line_id": "L-111-A",
+        "size": "4in",
+        "spec": "CS150",
+        "service": "Process",
+        "flow_direction": "forward"
+      }
+    },
+    {
+      "global_id": "rfrag_region_5:n1",
+      "type": "pipe_segment",
+      "symbol": "pipe_straight",
+      "tag": "L-112-A",
+      "pfd_origin": "rfrag_region_5:n1",
+      "is_added_node": false,
+      "fragment_id": "rfrag_region_5",
+      "position": {
+        "x": 545,
+        "y": 175
+      },
+      "size": {
+        "width": 40,
+        "height": 12
+      },
+      "orientation": "horizontal",
+      "ports": {
+        "in": {
+          "x": 0,
+          "y": 6.0
+        },
+        "out": {
+          "x": 40,
+          "y": 6.0
+        }
+      },
+      "semantics": {
+        "line_id": "L-112-A",
+        "size": "4in",
+        "spec": "CS150",
+        "service": "Process",
+        "flow_direction": "forward"
+      }
+    },
+    {
+      "global_id": "rfrag_region_6:n0",
+      "type": "pipe_segment",
+      "symbol": "pipe_straight",
+      "tag": "L-113-A",
+      "pfd_origin": "rfrag_region_6:n0",
+      "is_added_node": false,
+      "fragment_id": "rfrag_region_6",
+      "position": {
+        "x": 595,
+        "y": 180
+      },
+      "size": {
+        "width": 40,
+        "height": 12
+      },
+      "orientation": "horizontal",
+      "ports": {
+        "in": {
+          "x": 0,
+          "y": 6.0
+        },
+        "out": {
+          "x": 40,
+          "y": 6.0
+        }
+      },
+      "semantics": {
+        "line_id": "L-113-A",
+        "size": "4in",
+        "spec": "CS150",
+        "service": "Process",
+        "flow_direction": "forward"
+      }
+    },
+    {
+      "global_id": "rfrag_region_6:n1",
+      "type": "valve:isolation",
+      "symbol": "gate_valve",
+      "tag": "XV-103",
+      "pfd_origin": "rfrag_region_6:n1",
+      "is_added_node": false,
+      "fragment_id": "rfrag_region_6",
+      "position": {
+        "x": 640,
+        "y": 175
+      },
+      "size": {
+        "width": 22,
+        "height": 22
+      },
+      "orientation": "horizontal",
+      "ports": {
+        "in": {
+          "x": 0,
+          "y": 11.0
+        },
+        "out": {
+          "x": 22,
+          "y": 11.0
+        }
+      },
+      "semantics": {
+        "tag": "XV-103",
+        "valve_type": "gate",
+        "normally_open": true,
+        "fail_position": "closed"
+      }
+    },
+    {
+      "global_id": "rfrag_region_6:n1:drain",
+      "type": "valve:drain",
+      "symbol": "drain_valve",
+      "tag": "DR-603",
+      "pfd_origin": "rfrag_region_6:n1",
+      "is_added_node": true,
+      "parent_id": "rfrag_region_6:n1",
+      "fragment_id": "rfrag_region_6",
+      "position": {
+        "x": 644,
+        "y": 199
+      },
+      "size": {
+        "width": 14,
+        "height": 14
+      },
+      "orientation": "vertical",
+      "ports": {
+        "in": {
+          "x": 7.0,
+          "y": 0
+        }
+      },
+      "semantics": {
+        "tag": "DR-603",
+        "normally_closed": true
+      }
+    },
+    {
+      "global_id": "rfrag_region_6:n2",
+      "type": "pipe_segment",
+      "symbol": "pipe_straight",
+      "tag": "L-114-A",
+      "pfd_origin": "rfrag_region_6:n2",
+      "is_added_node": false,
+      "fragment_id": "rfrag_region_6",
+      "position": {
+        "x": 670,
+        "y": 180
+      },
+      "size": {
+        "width": 40,
+        "height": 12
+      },
+      "orientation": "horizontal",
+      "ports": {
+        "in": {
+          "x": 0,
+          "y": 6.0
+        },
+        "out": {
+          "x": 40,
+          "y": 6.0
+        }
+      },
+      "semantics": {
+        "line_id": "L-114-A",
+        "size": "4in",
+        "spec": "CS150",
+        "service": "Process",
+        "flow_direction": "forward"
+      }
+    },
+    {
+      "global_id": "rfrag_region_7:n0",
+      "type": "pipe_segment",
+      "symbol": "pipe_straight",
+      "tag": "L-115-A",
+      "pfd_origin": "rfrag_region_7:n0",
+      "is_added_node": false,
+      "fragment_id": "rfrag_region_7",
+      "position": {
+        "x": 425,
+        "y": 50
+      },
+      "size": {
+        "width": 40,
+        "height": 12
+      },
+      "orientation": "horizontal",
+      "ports": {
+        "in": {
+          "x": 0,
+          "y": 6.0
+        },
+        "out": {
+          "x": 40,
+          "y": 6.0
+        }
+      },
+      "semantics": {
+        "line_id": "L-115-A",
+        "size": "4in",
+        "spec": "CS150",
+        "service": "Process",
+        "flow_direction": "forward"
+      }
+    },
+    {
+      "global_id": "rfrag_region_7:n1",
+      "type": "valve:isolation",
+      "symbol": "gate_valve",
+      "tag": "XV-104",
+      "pfd_origin": "rfrag_region_7:n1",
+      "is_added_node": false,
+      "fragment_id": "rfrag_region_7",
+      "position": {
+        "x": 470,
+        "y": 45
+      },
+      "size": {
+        "width": 22,
+        "height": 22
+      },
+      "orientation": "horizontal",
+      "ports": {
+        "in": {
+          "x": 0,
+          "y": 11.0
+        },
+        "out": {
+          "x": 22,
+          "y": 11.0
+        }
+      },
+      "semantics": {
+        "tag": "XV-104",
+        "valve_type": "gate",
+        "normally_open": true,
+        "fail_position": "closed"
+      }
+    },
+    {
+      "global_id": "rfrag_region_7:n1:drain",
+      "type": "valve:drain",
+      "symbol": "drain_valve",
+      "tag": "DR-604",
+      "pfd_origin": "rfrag_region_7:n1",
+      "is_added_node": true,
+      "parent_id": "rfrag_region_7:n1",
+      "fragment_id": "rfrag_region_7",
+      "position": {
+        "x": 474,
+        "y": 69
+      },
+      "size": {
+        "width": 14,
+        "height": 14
+      },
+      "orientation": "vertical",
+      "ports": {
+        "in": {
+          "x": 7.0,
+          "y": 0
+        }
+      },
+      "semantics": {
+        "tag": "DR-604",
+        "normally_closed": true
+      }
+    },
+    {
+      "global_id": "rfrag_region_7:n2",
+      "type": "pipe_segment",
+      "symbol": "pipe_straight",
+      "tag": "L-116-A",
+      "pfd_origin": "rfrag_region_7:n2",
+      "is_added_node": false,
+      "fragment_id": "rfrag_region_7",
+      "position": {
+        "x": 500,
+        "y": 50
+      },
+      "size": {
+        "width": 40,
+        "height": 12
+      },
+      "orientation": "horizontal",
+      "ports": {
+        "in": {
+          "x": 0,
+          "y": 6.0
+        },
+        "out": {
+          "x": 40,
+          "y": 6.0
+        }
+      },
+      "semantics": {
+        "line_id": "L-116-A",
+        "size": "4in",
+        "spec": "CS150",
+        "service": "Process",
+        "flow_direction": "forward"
+      }
+    },
+    {
+      "global_id": "rfrag_region_8:n0",
+      "type": "pipe_segment",
+      "symbol": "pipe_straight",
+      "tag": "L-117-A",
+      "pfd_origin": "rfrag_region_8:n0",
+      "is_added_node": false,
+      "fragment_id": "rfrag_region_8",
+      "position": {
+        "x": 45,
+        "y": 95
+      },
+      "size": {
+        "width": 40,
+        "height": 12
+      },
+      "orientation": "horizontal",
+      "ports": {
+        "in": {
+          "x": 0,
+          "y": 6.0
+        },
+        "out": {
+          "x": 40,
+          "y": 6.0
+        }
+      },
+      "semantics": {
+        "line_id": "L-117-A",
+        "size": "4in",
+        "spec": "CS150",
+        "service": "Process",
+        "flow_direction": "forward"
+      }
+    },
+    {
+      "global_id": "rfrag_region_8:n1",
+      "type": "valve:isolation",
+      "symbol": "gate_valve",
+      "tag": "XV-105",
+      "pfd_origin": "rfrag_region_8:n1",
+      "is_added_node": false,
+      "fragment_id": "rfrag_region_8",
+      "position": {
+        "x": 90,
+        "y": 90
+      },
+      "size": {
+        "width": 22,
+        "height": 22
+      },
+      "orientation": "horizontal",
+      "ports": {
+        "in": {
+          "x": 0,
+          "y": 11.0
+        },
+        "out": {
+          "x": 22,
+          "y": 11.0
+        }
+      },
+      "semantics": {
+        "tag": "XV-105",
+        "valve_type": "gate",
+        "normally_open": true,
+        "fail_position": "closed"
+      }
+    },
+    {
+      "global_id": "rfrag_region_8:n1:drain",
+      "type": "valve:drain",
+      "symbol": "drain_valve",
+      "tag": "DR-605",
+      "pfd_origin": "rfrag_region_8:n1",
+      "is_added_node": true,
+      "parent_id": "rfrag_region_8:n1",
+      "fragment_id": "rfrag_region_8",
+      "position": {
+        "x": 94,
+        "y": 114
+      },
+      "size": {
+        "width": 14,
+        "height": 14
+      },
+      "orientation": "vertical",
+      "ports": {
+        "in": {
+          "x": 7.0,
+          "y": 0
+        }
+      },
+      "semantics": {
+        "tag": "DR-605",
+        "normally_closed": true
+      }
+    },
+    {
+      "global_id": "rfrag_region_8:n2",
+      "type": "pipe_segment",
+      "symbol": "pipe_straight",
+      "tag": "L-118-A",
+      "pfd_origin": "rfrag_region_8:n2",
+      "is_added_node": false,
+      "fragment_id": "rfrag_region_8",
+      "position": {
+        "x": 120,
+        "y": 95
+      },
+      "size": {
+        "width": 40,
+        "height": 12
+      },
+      "orientation": "horizontal",
+      "ports": {
+        "in": {
+          "x": 0,
+          "y": 6.0
+        },
+        "out": {
+          "x": 40,
+          "y": 6.0
+        }
+      },
+      "semantics": {
+        "line_id": "L-118-A",
+        "size": "4in",
+        "spec": "CS150",
+        "service": "Process",
+        "flow_direction": "forward"
+      }
+    },
+    {
+      "global_id": "rfrag_region_9:n0",
+      "type": "pipe_segment",
+      "symbol": "pipe_straight",
+      "tag": "L-119-A",
+      "pfd_origin": "rfrag_region_9:n0",
+      "is_added_node": false,
+      "fragment_id": "rfrag_region_9",
+      "position": {
+        "x": 45,
+        "y": 135
+      },
+      "size": {
+        "width": 40,
+        "height": 12
+      },
+      "orientation": "horizontal",
+      "ports": {
+        "in": {
+          "x": 0,
+          "y": 6.0
+        },
+        "out": {
+          "x": 40,
+          "y": 6.0
+        }
+      },
+      "semantics": {
+        "line_id": "L-119-A",
+        "size": "4in",
+        "spec": "CS150",
+        "service": "Process",
+        "flow_direction": "forward"
+      }
+    },
+    {
+      "global_id": "rfrag_region_9:n1",
+      "type": "valve:isolation",
+      "symbol": "gate_valve",
+      "tag": "XV-106",
+      "pfd_origin": "rfrag_region_9:n1",
+      "is_added_node": false,
+      "fragment_id": "rfrag_region_9",
+      "position": {
+        "x": 90,
+        "y": 130
+      },
+      "size": {
+        "width": 22,
+        "height": 22
+      },
+      "orientation": "horizontal",
+      "ports": {
+        "in": {
+          "x": 0,
+          "y": 11.0
+        },
+        "out": {
+          "x": 22,
+          "y": 11.0
+        }
+      },
+      "semantics": {
+        "tag": "XV-106",
+        "valve_type": "gate",
+        "normally_open": true,
+        "fail_position": "closed"
+      }
+    },
+    {
+      "global_id": "rfrag_region_9:n1:drain",
+      "type": "valve:drain",
+      "symbol": "drain_valve",
+      "tag": "DR-606",
+      "pfd_origin": "rfrag_region_9:n1",
+      "is_added_node": true,
+      "parent_id": "rfrag_region_9:n1",
+      "fragment_id": "rfrag_region_9",
+      "position": {
+        "x": 94,
+        "y": 154
+      },
+      "size": {
+        "width": 14,
+        "height": 14
+      },
+      "orientation": "vertical",
+      "ports": {
+        "in": {
+          "x": 7.0,
+          "y": 0
+        }
+      },
+      "semantics": {
+        "tag": "DR-606",
+        "normally_closed": true
+      }
+    },
+    {
+      "global_id": "rfrag_region_9:n2",
+      "type": "pipe_segment",
+      "symbol": "pipe_straight",
+      "tag": "L-120-A",
+      "pfd_origin": "rfrag_region_9:n2",
+      "is_added_node": false,
+      "fragment_id": "rfrag_region_9",
+      "position": {
+        "x": 120,
+        "y": 135
+      },
+      "size": {
+        "width": 40,
+        "height": 12
+      },
+      "orientation": "horizontal",
+      "ports": {
+        "in": {
+          "x": 0,
+          "y": 6.0
+        },
+        "out": {
+          "x": 40,
+          "y": 6.0
+        }
+      },
+      "semantics": {
+        "line_id": "L-120-A",
+        "size": "4in",
+        "spec": "CS150",
+        "service": "Process",
+        "flow_direction": "forward"
+      }
+    },
+    {
+      "global_id": "rfrag_region_10:n0",
+      "type": "valve:control",
+      "symbol": "control_valve",
+      "tag": "FV-201",
+      "pfd_origin": "rfrag_region_10:n0",
+      "is_added_node": false,
+      "fragment_id": "rfrag_region_10",
+      "position": {
+        "x": 45,
+        "y": 265
+      },
+      "size": {
+        "width": 22,
+        "height": 38
+      },
+      "orientation": "horizontal",
+      "ports": {
+        "in": {
+          "x": 0,
+          "y": 19.0
+        },
+        "out": {
+          "x": 22,
+          "y": 19.0
+        }
+      },
+      "semantics": {
+        "tag": "FV-201",
+        "fail_position": "closed",
+        "control_loop": true
+      }
+    },
+    {
+      "global_id": "rfrag_region_10:n0:act",
+      "type": "actuator:pneumatic",
+      "symbol": "diaphragm_actuator",
+      "tag": "ACT-201",
+      "pfd_origin": "rfrag_region_10:n0",
+      "is_added_node": true,
+      "parent_id": "rfrag_region_10:n0",
+      "fragment_id": "rfrag_region_10",
+      "position": {
+        "x": 47,
+        "y": 249
+      },
+      "size": {
+        "width": 18,
+        "height": 14
+      },
+      "orientation": "vertical",
+      "ports": {
+        "in": {
+          "x": 9.0,
+          "y": 14
+        },
+        "out": {
+          "x": 9.0,
+          "y": 0
+        }
+      },
+      "semantics": {
+        "tag": "ACT-201"
+      }
+    },
+    {
+      "global_id": "rfrag_region_10:n0:fc",
+      "type": "instrument:controller",
+      "symbol": "controller_bubble",
+      "tag": "FC-201",
+      "pfd_origin": "rfrag_region_10:n0",
+      "is_added_node": true,
+      "parent_id": "rfrag_region_10:n0",
+      "fragment_id": "rfrag_region_10",
+      "position": {
+        "x": 46,
+        "y": 229
+      },
+      "size": {
+        "width": 18,
+        "height": 18
+      },
+      "orientation": "vertical",
+      "ports": {
+        "center": {
+          "x": 9.0,
+          "y": 9.0
+        }
+      },
+      "semantics": {
+        "tag": "FC-201"
+      }
+    },
+    {
+      "global_id": "rfrag_region_10:n1",
+      "type": "pipe_segment",
+      "symbol": "pipe_straight",
+      "tag": "L-121-A",
+      "pfd_origin": "rfrag_region_10:n1",
+      "is_added_node": false,
+      "fragment_id": "rfrag_region_10",
+      "position": {
+        "x": 70,
+        "y": 275
+      },
+      "size": {
+        "width": 40,
+        "height": 12
+      },
+      "orientation": "horizontal",
+      "ports": {
+        "in": {
+          "x": 0,
+          "y": 6.0
+        },
+        "out": {
+          "x": 40,
+          "y": 6.0
+        }
+      },
+      "semantics": {
+        "line_id": "L-121-A",
+        "size": "4in",
+        "spec": "CS150",
+        "service": "Process",
+        "flow_direction": "forward"
+      }
+    },
+    {
+      "global_id": "rfrag_region_10:n2",
+      "type": "equipment_block",
+      "symbol": "vessel",
+      "tag": "E-004",
+      "pfd_origin": "rfrag_region_10:n2",
+      "is_added_node": false,
+      "fragment_id": "rfrag_region_10",
+      "position": {
+        "x": 120,
+        "y": 255
+      },
+      "size": {
+        "width": 80,
+        "height": 60
+      },
+      "orientation": "horizontal",
+      "ports": {
+        "in": {
+          "x": 0,
+          "y": 30.0
+        },
+        "out": {
+          "x": 80,
+          "y": 30.0
+        }
+      },
+      "semantics": {
+        "tag": "E-004",
+        "equipment_type": "vessel",
+        "duty": "process"
+      }
+    },
+    {
+      "global_id": "rfrag_region_10:n2:pi",
+      "type": "instrument:pressure",
+      "symbol": "pressure_indicator",
+      "tag": "PI-404",
+      "pfd_origin": "rfrag_region_10:n2",
+      "is_added_node": true,
+      "parent_id": "rfrag_region_10:n2",
+      "fragment_id": "rfrag_region_10",
+      "position": {
+        "x": 204,
+        "y": 252
+      },
+      "size": {
+        "width": 18,
+        "height": 18
+      },
+      "orientation": "vertical",
+      "ports": {
+        "center": {
+          "x": 9.0,
+          "y": 9.0
+        }
+      },
+      "semantics": {
+        "tag": "PI-404"
+      }
+    },
+    {
+      "global_id": "rfrag_region_10:n2:ti",
+      "type": "instrument:temperature",
+      "symbol": "temperature_indicator",
+      "tag": "TI-504",
+      "pfd_origin": "rfrag_region_10:n2",
+      "is_added_node": true,
+      "parent_id": "rfrag_region_10:n2",
+      "fragment_id": "rfrag_region_10",
+      "position": {
+        "x": 204,
+        "y": 272
+      },
+      "size": {
+        "width": 18,
+        "height": 18
+      },
+      "orientation": "vertical",
+      "ports": {
+        "center": {
+          "x": 9.0,
+          "y": 9.0
+        }
+      },
+      "semantics": {
+        "tag": "TI-504"
+      }
+    },
+    {
+      "global_id": "rfrag_region_10:n3",
+      "type": "valve:control",
+      "symbol": "control_valve",
+      "tag": "FV-202",
+      "pfd_origin": "rfrag_region_10:n3",
+      "is_added_node": false,
+      "fragment_id": "rfrag_region_10",
+      "position": {
+        "x": 205,
+        "y": 265
+      },
+      "size": {
+        "width": 22,
+        "height": 38
+      },
+      "orientation": "horizontal",
+      "ports": {
+        "in": {
+          "x": 0,
+          "y": 19.0
+        },
+        "out": {
+          "x": 22,
+          "y": 19.0
+        }
+      },
+      "semantics": {
+        "tag": "FV-202",
+        "fail_position": "closed",
+        "control_loop": true
+      }
+    },
+    {
+      "global_id": "rfrag_region_10:n3:act",
+      "type": "actuator:pneumatic",
+      "symbol": "diaphragm_actuator",
+      "tag": "ACT-202",
+      "pfd_origin": "rfrag_region_10:n3",
+      "is_added_node": true,
+      "parent_id": "rfrag_region_10:n3",
+      "fragment_id": "rfrag_region_10",
+      "position": {
+        "x": 207,
+        "y": 249
+      },
+      "size": {
+        "width": 18,
+        "height": 14
+      },
+      "orientation": "vertical",
+      "ports": {
+        "in": {
+          "x": 9.0,
+          "y": 14
+        },
+        "out": {
+          "x": 9.0,
+          "y": 0
+        }
+      },
+      "semantics": {
+        "tag": "ACT-202"
+      }
+    },
+    {
+      "global_id": "rfrag_region_10:n3:fc",
+      "type": "instrument:controller",
+      "symbol": "controller_bubble",
+      "tag": "FC-202",
+      "pfd_origin": "rfrag_region_10:n3",
+      "is_added_node": true,
+      "parent_id": "rfrag_region_10:n3",
+      "fragment_id": "rfrag_region_10",
+      "position": {
+        "x": 206,
+        "y": 229
+      },
+      "size": {
+        "width": 18,
+        "height": 18
+      },
+      "orientation": "vertical",
+      "ports": {
+        "center": {
+          "x": 9.0,
+          "y": 9.0
+        }
+      },
+      "semantics": {
+        "tag": "FC-202"
+      }
+    },
+    {
+      "global_id": "rfrag_region_11:n0",
+      "type": "pipe_segment",
+      "symbol": "pipe_straight",
+      "tag": "L-122-A",
+      "pfd_origin": "rfrag_region_11:n0",
+      "is_added_node": false,
+      "fragment_id": "rfrag_region_11",
+      "position": {
+        "x": 310,
+        "y": 255
+      },
+      "size": {
+        "width": 40,
+        "height": 12
+      },
+      "orientation": "horizontal",
+      "ports": {
+        "in": {
+          "x": 0,
+          "y": 6.0
+        },
+        "out": {
+          "x": 40,
+          "y": 6.0
+        }
+      },
+      "semantics": {
+        "line_id": "L-122-A",
+        "size": "4in",
+        "spec": "CS150",
+        "service": "Process",
+        "flow_direction": "forward"
+      }
+    },
+    {
+      "global_id": "rfrag_region_11:n1",
+      "type": "pipe_segment",
+      "symbol": "pipe_straight",
+      "tag": "L-123-A",
+      "pfd_origin": "rfrag_region_11:n1",
+      "is_added_node": false,
+      "fragment_id": "rfrag_region_11",
+      "position": {
+        "x": 355,
+        "y": 255
+      },
+      "size": {
+        "width": 40,
+        "height": 12
+      },
+      "orientation": "horizontal",
+      "ports": {
+        "in": {
+          "x": 0,
+          "y": 6.0
+        },
+        "out": {
+          "x": 40,
+          "y": 6.0
+        }
+      },
+      "semantics": {
+        "line_id": "L-123-A",
+        "size": "4in",
+        "spec": "CS150",
+        "service": "Process",
+        "flow_direction": "forward"
+      }
+    },
+    {
+      "global_id": "rfrag_region_12:n0",
+      "type": "pipe_segment",
+      "symbol": "pipe_straight",
+      "tag": "L-124-A",
+      "pfd_origin": "rfrag_region_12:n0",
+      "is_added_node": false,
+      "fragment_id": "rfrag_region_12",
+      "position": {
+        "x": 410,
+        "y": 260
+      },
+      "size": {
+        "width": 40,
+        "height": 12
+      },
+      "orientation": "horizontal",
+      "ports": {
+        "in": {
+          "x": 0,
+          "y": 6.0
+        },
+        "out": {
+          "x": 40,
+          "y": 6.0
+        }
+      },
+      "semantics": {
+        "line_id": "L-124-A",
+        "size": "4in",
+        "spec": "CS150",
+        "service": "Process",
+        "flow_direction": "forward"
+      }
+    },
+    {
+      "global_id": "rfrag_region_12:n1",
+      "type": "valve:isolation",
+      "symbol": "gate_valve",
+      "tag": "XV-107",
+      "pfd_origin": "rfrag_region_12:n1",
+      "is_added_node": false,
+      "fragment_id": "rfrag_region_12",
+      "position": {
+        "x": 455,
+        "y": 255
+      },
+      "size": {
+        "width": 22,
+        "height": 22
+      },
+      "orientation": "horizontal",
+      "ports": {
+        "in": {
+          "x": 0,
+          "y": 11.0
+        },
+        "out": {
+          "x": 22,
+          "y": 11.0
+        }
+      },
+      "semantics": {
+        "tag": "XV-107",
+        "valve_type": "gate",
+        "normally_open": true,
+        "fail_position": "closed"
+      }
+    },
+    {
+      "global_id": "rfrag_region_12:n1:drain",
+      "type": "valve:drain",
+      "symbol": "drain_valve",
+      "tag": "DR-607",
+      "pfd_origin": "rfrag_region_12:n1",
+      "is_added_node": true,
+      "parent_id": "rfrag_region_12:n1",
+      "fragment_id": "rfrag_region_12",
+      "position": {
+        "x": 459,
+        "y": 279
+      },
+      "size": {
+        "width": 14,
+        "height": 14
+      },
+      "orientation": "vertical",
+      "ports": {
+        "in": {
+          "x": 7.0,
+          "y": 0
+        }
+      },
+      "semantics": {
+        "tag": "DR-607",
+        "normally_closed": true
+      }
+    },
+    {
+      "global_id": "rfrag_region_12:n2",
+      "type": "pipe_segment",
+      "symbol": "pipe_straight",
+      "tag": "L-125-A",
+      "pfd_origin": "rfrag_region_12:n2",
+      "is_added_node": false,
+      "fragment_id": "rfrag_region_12",
+      "position": {
+        "x": 485,
+        "y": 260
+      },
+      "size": {
+        "width": 40,
+        "height": 12
+      },
+      "orientation": "horizontal",
+      "ports": {
+        "in": {
+          "x": 0,
+          "y": 6.0
+        },
+        "out": {
+          "x": 40,
+          "y": 6.0
+        }
+      },
+      "semantics": {
+        "line_id": "L-125-A",
+        "size": "4in",
+        "spec": "CS150",
+        "service": "Process",
+        "flow_direction": "forward"
+      }
+    },
+    {
+      "global_id": "rfrag_region_13:n0",
+      "type": "pipe_segment",
+      "symbol": "pipe_straight",
+      "tag": "L-126-A",
+      "pfd_origin": "rfrag_region_13:n0",
+      "is_added_node": false,
+      "fragment_id": "rfrag_region_13",
+      "position": {
+        "x": 295,
+        "y": 50
+      },
+      "size": {
+        "width": 40,
+        "height": 12
+      },
+      "orientation": "horizontal",
+      "ports": {
+        "in": {
+          "x": 0,
+          "y": 6.0
+        },
+        "out": {
+          "x": 40,
+          "y": 6.0
+        }
+      },
+      "semantics": {
+        "line_id": "L-126-A",
+        "size": "4in",
+        "spec": "CS150",
+        "service": "Process",
+        "flow_direction": "forward"
+      }
+    },
+    {
+      "global_id": "rfrag_region_13:n1",
+      "type": "valve:isolation",
+      "symbol": "gate_valve",
+      "tag": "XV-108",
+      "pfd_origin": "rfrag_region_13:n1",
+      "is_added_node": false,
+      "fragment_id": "rfrag_region_13",
+      "position": {
+        "x": 340,
+        "y": 45
+      },
+      "size": {
+        "width": 22,
+        "height": 22
+      },
+      "orientation": "horizontal",
+      "ports": {
+        "in": {
+          "x": 0,
+          "y": 11.0
+        },
+        "out": {
+          "x": 22,
+          "y": 11.0
+        }
+      },
+      "semantics": {
+        "tag": "XV-108",
+        "valve_type": "gate",
+        "normally_open": true,
+        "fail_position": "closed"
+      }
+    },
+    {
+      "global_id": "rfrag_region_13:n1:drain",
+      "type": "valve:drain",
+      "symbol": "drain_valve",
+      "tag": "DR-608",
+      "pfd_origin": "rfrag_region_13:n1",
+      "is_added_node": true,
+      "parent_id": "rfrag_region_13:n1",
+      "fragment_id": "rfrag_region_13",
+      "position": {
+        "x": 344,
+        "y": 69
+      },
+      "size": {
+        "width": 14,
+        "height": 14
+      },
+      "orientation": "vertical",
+      "ports": {
+        "in": {
+          "x": 7.0,
+          "y": 0
+        }
+      },
+      "semantics": {
+        "tag": "DR-608",
+        "normally_closed": true
+      }
+    },
+    {
+      "global_id": "rfrag_region_13:n2",
+      "type": "pipe_segment",
+      "symbol": "pipe_straight",
+      "tag": "L-127-A",
+      "pfd_origin": "rfrag_region_13:n2",
+      "is_added_node": false,
+      "fragment_id": "rfrag_region_13",
+      "position": {
+        "x": 370,
+        "y": 50
+      },
+      "size": {
+        "width": 40,
+        "height": 12
+      },
+      "orientation": "horizontal",
+      "ports": {
+        "in": {
+          "x": 0,
+          "y": 6.0
+        },
+        "out": {
+          "x": 40,
+          "y": 6.0
+        }
+      },
+      "semantics": {
+        "line_id": "L-127-A",
+        "size": "4in",
+        "spec": "CS150",
+        "service": "Process",
+        "flow_direction": "forward"
+      }
+    },
+    {
+      "global_id": "rfrag_region_14:n0",
+      "type": "pipe_segment",
+      "symbol": "pipe_straight",
+      "tag": "L-128-A",
+      "pfd_origin": "rfrag_region_14:n0",
+      "is_added_node": false,
+      "fragment_id": "rfrag_region_14",
+      "position": {
+        "x": 550,
+        "y": 95
+      },
+      "size": {
+        "width": 40,
+        "height": 12
+      },
+      "orientation": "horizontal",
+      "ports": {
+        "in": {
+          "x": 0,
+          "y": 6.0
+        },
+        "out": {
+          "x": 40,
+          "y": 6.0
+        }
+      },
+      "semantics": {
+        "line_id": "L-128-A",
+        "size": "4in",
+        "spec": "CS150",
+        "service": "Process",
+        "flow_direction": "forward"
+      }
+    },
+    {
+      "global_id": "rfrag_region_14:n1",
+      "type": "valve:isolation",
+      "symbol": "gate_valve",
+      "tag": "XV-109",
+      "pfd_origin": "rfrag_region_14:n1",
+      "is_added_node": false,
+      "fragment_id": "rfrag_region_14",
+      "position": {
+        "x": 595,
+        "y": 90
+      },
+      "size": {
+        "width": 22,
+        "height": 22
+      },
+      "orientation": "horizontal",
+      "ports": {
+        "in": {
+          "x": 0,
+          "y": 11.0
+        },
+        "out": {
+          "x": 22,
+          "y": 11.0
+        }
+      },
+      "semantics": {
+        "tag": "XV-109",
+        "valve_type": "gate",
+        "normally_open": true,
+        "fail_position": "closed"
+      }
+    },
+    {
+      "global_id": "rfrag_region_14:n1:drain",
+      "type": "valve:drain",
+      "symbol": "drain_valve",
+      "tag": "DR-609",
+      "pfd_origin": "rfrag_region_14:n1",
+      "is_added_node": true,
+      "parent_id": "rfrag_region_14:n1",
+      "fragment_id": "rfrag_region_14",
+      "position": {
+        "x": 599,
+        "y": 114
+      },
+      "size": {
+        "width": 14,
+        "height": 14
+      },
+      "orientation": "vertical",
+      "ports": {
+        "in": {
+          "x": 7.0,
+          "y": 0
+        }
+      },
+      "semantics": {
+        "tag": "DR-609",
+        "normally_closed": true
+      }
+    },
+    {
+      "global_id": "rfrag_region_14:n2",
+      "type": "pipe_segment",
+      "symbol": "pipe_straight",
+      "tag": "L-129-A",
+      "pfd_origin": "rfrag_region_14:n2",
+      "is_added_node": false,
+      "fragment_id": "rfrag_region_14",
+      "position": {
+        "x": 625,
+        "y": 95
+      },
+      "size": {
+        "width": 40,
+        "height": 12
+      },
+      "orientation": "horizontal",
+      "ports": {
+        "in": {
+          "x": 0,
+          "y": 6.0
+        },
+        "out": {
+          "x": 40,
+          "y": 6.0
+        }
+      },
+      "semantics": {
+        "line_id": "L-129-A",
+        "size": "4in",
+        "spec": "CS150",
+        "service": "Process",
+        "flow_direction": "forward"
+      }
+    },
+    {
+      "global_id": "rfrag_region_15:n0",
+      "type": "pipe_segment",
+      "symbol": "pipe_straight",
+      "tag": "L-130-A",
+      "pfd_origin": "rfrag_region_15:n0",
+      "is_added_node": false,
+      "fragment_id": "rfrag_region_15",
+      "position": {
+        "x": 535,
+        "y": 255
+      },
+      "size": {
+        "width": 40,
+        "height": 12
+      },
+      "orientation": "horizontal",
+      "ports": {
+        "in": {
+          "x": 0,
+          "y": 6.0
+        },
+        "out": {
+          "x": 40,
+          "y": 6.0
+        }
+      },
+      "semantics": {
+        "line_id": "L-130-A",
+        "size": "4in",
+        "spec": "CS150",
+        "service": "Process",
+        "flow_direction": "forward"
+      }
+    },
+    {
+      "global_id": "rfrag_region_15:n1",
+      "type": "pipe_segment",
+      "symbol": "pipe_straight",
+      "tag": "L-131-A",
+      "pfd_origin": "rfrag_region_15:n1",
+      "is_added_node": false,
+      "fragment_id": "rfrag_region_15",
+      "position": {
+        "x": 580,
+        "y": 255
+      },
+      "size": {
+        "width": 40,
+        "height": 12
+      },
+      "orientation": "horizontal",
+      "ports": {
+        "in": {
+          "x": 0,
+          "y": 6.0
+        },
+        "out": {
+          "x": 40,
+          "y": 6.0
+        }
+      },
+      "semantics": {
+        "line_id": "L-131-A",
+        "size": "4in",
+        "spec": "CS150",
+        "service": "Process",
+        "flow_direction": "forward"
+      }
+    },
+    {
+      "global_id": "rfrag_region_16:n0",
+      "type": "pipe_segment",
+      "symbol": "pipe_straight",
+      "tag": "L-132-A",
+      "pfd_origin": "rfrag_region_16:n0",
+      "is_added_node": false,
+      "fragment_id": "rfrag_region_16",
+      "position": {
+        "x": 295,
+        "y": 95
+      },
+      "size": {
+        "width": 40,
+        "height": 12
+      },
+      "orientation": "horizontal",
+      "ports": {
+        "in": {
+          "x": 0,
+          "y": 6.0
+        },
+        "out": {
+          "x": 40,
+          "y": 6.0
+        }
+      },
+      "semantics": {
+        "line_id": "L-132-A",
+        "size": "4in",
+        "spec": "CS150",
+        "service": "Process",
+        "flow_direction": "forward"
+      }
+    },
+    {
+      "global_id": "rfrag_region_16:n1",
+      "type": "valve:isolation",
+      "symbol": "gate_valve",
+      "tag": "XV-110",
+      "pfd_origin": "rfrag_region_16:n1",
+      "is_added_node": false,
+      "fragment_id": "rfrag_region_16",
+      "position": {
+        "x": 340,
+        "y": 90
+      },
+      "size": {
+        "width": 22,
+        "height": 22
+      },
+      "orientation": "horizontal",
+      "ports": {
+        "in": {
+          "x": 0,
+          "y": 11.0
+        },
+        "out": {
+          "x": 22,
+          "y": 11.0
+        }
+      },
+      "semantics": {
+        "tag": "XV-110",
+        "valve_type": "gate",
+        "normally_open": true,
+        "fail_position": "closed"
+      }
+    },
+    {
+      "global_id": "rfrag_region_16:n1:drain",
+      "type": "valve:drain",
+      "symbol": "drain_valve",
+      "tag": "DR-610",
+      "pfd_origin": "rfrag_region_16:n1",
+      "is_added_node": true,
+      "parent_id": "rfrag_region_16:n1",
+      "fragment_id": "rfrag_region_16",
+      "position": {
+        "x": 344,
+        "y": 114
+      },
+      "size": {
+        "width": 14,
+        "height": 14
+      },
+      "orientation": "vertical",
+      "ports": {
+        "in": {
+          "x": 7.0,
+          "y": 0
+        }
+      },
+      "semantics": {
+        "tag": "DR-610",
+        "normally_closed": true
+      }
+    },
+    {
+      "global_id": "rfrag_region_16:n2",
+      "type": "pipe_segment",
+      "symbol": "pipe_straight",
+      "tag": "L-133-A",
+      "pfd_origin": "rfrag_region_16:n2",
+      "is_added_node": false,
+      "fragment_id": "rfrag_region_16",
+      "position": {
+        "x": 370,
+        "y": 95
+      },
+      "size": {
+        "width": 40,
+        "height": 12
+      },
+      "orientation": "horizontal",
+      "ports": {
+        "in": {
+          "x": 0,
+          "y": 6.0
+        },
+        "out": {
+          "x": 40,
+          "y": 6.0
+        }
+      },
+      "semantics": {
+        "line_id": "L-133-A",
+        "size": "4in",
+        "spec": "CS150",
+        "service": "Process",
+        "flow_direction": "forward"
+      }
+    },
+    {
+      "global_id": "rfrag_region_17:n0",
+      "type": "pipe_segment",
+      "symbol": "pipe_straight",
+      "tag": "L-134-A",
+      "pfd_origin": "rfrag_region_17:n0",
+      "is_added_node": false,
+      "fragment_id": "rfrag_region_17",
+      "position": {
+        "x": 635,
+        "y": 255
+      },
+      "size": {
+        "width": 40,
+        "height": 12
+      },
+      "orientation": "horizontal",
+      "ports": {
+        "in": {
+          "x": 0,
+          "y": 6.0
+        },
+        "out": {
+          "x": 40,
+          "y": 6.0
+        }
+      },
+      "semantics": {
+        "line_id": "L-134-A",
+        "size": "4in",
+        "spec": "CS150",
+        "service": "Process",
+        "flow_direction": "forward"
+      }
+    },
+    {
+      "global_id": "rfrag_region_17:n1",
+      "type": "pipe_segment",
+      "symbol": "pipe_straight",
+      "tag": "L-135-A",
+      "pfd_origin": "rfrag_region_17:n1",
+      "is_added_node": false,
+      "fragment_id": "rfrag_region_17",
+      "position": {
+        "x": 680,
+        "y": 255
+      },
+      "size": {
+        "width": 40,
+        "height": 12
+      },
+      "orientation": "horizontal",
+      "ports": {
+        "in": {
+          "x": 0,
+          "y": 6.0
+        },
+        "out": {
+          "x": 40,
+          "y": 6.0
+        }
+      },
+      "semantics": {
+        "line_id": "L-135-A",
+        "size": "4in",
+        "spec": "CS150",
+        "service": "Process",
+        "flow_direction": "forward"
+      }
+    },
+    {
+      "global_id": "rfrag_region_18:n0",
+      "type": "pipe_segment",
+      "symbol": "pipe_straight",
+      "tag": "L-136-A",
+      "pfd_origin": "rfrag_region_18:n0",
+      "is_added_node": false,
+      "fragment_id": "rfrag_region_18",
+      "position": {
+        "x": 45,
+        "y": 375
+      },
+      "size": {
+        "width": 40,
+        "height": 12
+      },
+      "orientation": "horizontal",
+      "ports": {
+        "in": {
+          "x": 0,
+          "y": 6.0
+        },
+        "out": {
+          "x": 40,
+          "y": 6.0
+        }
+      },
+      "semantics": {
+        "line_id": "L-136-A",
+        "size": "4in",
+        "spec": "CS150",
+        "service": "Process",
+        "flow_direction": "forward"
+      }
+    },
+    {
+      "global_id": "rfrag_region_18:n1",
+      "type": "valve:isolation",
+      "symbol": "gate_valve",
+      "tag": "XV-111",
+      "pfd_origin": "rfrag_region_18:n1",
+      "is_added_node": false,
+      "fragment_id": "rfrag_region_18",
+      "position": {
+        "x": 90,
+        "y": 370
+      },
+      "size": {
+        "width": 22,
+        "height": 22
+      },
+      "orientation": "horizontal",
+      "ports": {
+        "in": {
+          "x": 0,
+          "y": 11.0
+        },
+        "out": {
+          "x": 22,
+          "y": 11.0
+        }
+      },
+      "semantics": {
+        "tag": "XV-111",
+        "valve_type": "gate",
+        "normally_open": true,
+        "fail_position": "closed"
+      }
+    },
+    {
+      "global_id": "rfrag_region_18:n1:drain",
+      "type": "valve:drain",
+      "symbol": "drain_valve",
+      "tag": "DR-611",
+      "pfd_origin": "rfrag_region_18:n1",
+      "is_added_node": true,
+      "parent_id": "rfrag_region_18:n1",
+      "fragment_id": "rfrag_region_18",
+      "position": {
+        "x": 94,
+        "y": 394
+      },
+      "size": {
+        "width": 14,
+        "height": 14
+      },
+      "orientation": "vertical",
+      "ports": {
+        "in": {
+          "x": 7.0,
+          "y": 0
+        }
+      },
+      "semantics": {
+        "tag": "DR-611",
+        "normally_closed": true
+      }
+    },
+    {
+      "global_id": "rfrag_region_18:n2",
+      "type": "pipe_segment",
+      "symbol": "pipe_straight",
+      "tag": "L-137-A",
+      "pfd_origin": "rfrag_region_18:n2",
+      "is_added_node": false,
+      "fragment_id": "rfrag_region_18",
+      "position": {
+        "x": 120,
+        "y": 375
+      },
+      "size": {
+        "width": 40,
+        "height": 12
+      },
+      "orientation": "horizontal",
+      "ports": {
+        "in": {
+          "x": 0,
+          "y": 6.0
+        },
+        "out": {
+          "x": 40,
+          "y": 6.0
+        }
+      },
+      "semantics": {
+        "line_id": "L-137-A",
+        "size": "4in",
+        "spec": "CS150",
+        "service": "Process",
+        "flow_direction": "forward"
+      }
+    },
+    {
+      "global_id": "rfrag_region_19:n0",
+      "type": "pipe_segment",
+      "symbol": "pipe_straight",
+      "tag": "L-138-A",
+      "pfd_origin": "rfrag_region_19:n0",
+      "is_added_node": false,
+      "fragment_id": "rfrag_region_19",
+      "position": {
+        "x": 170,
+        "y": 370
+      },
+      "size": {
+        "width": 40,
+        "height": 12
+      },
+      "orientation": "horizontal",
+      "ports": {
+        "in": {
+          "x": 0,
+          "y": 6.0
+        },
+        "out": {
+          "x": 40,
+          "y": 6.0
+        }
+      },
+      "semantics": {
+        "line_id": "L-138-A",
+        "size": "4in",
+        "spec": "CS150",
+        "service": "Process",
+        "flow_direction": "forward"
+      }
+    },
+    {
+      "global_id": "rfrag_region_19:n1",
+      "type": "pipe_segment",
+      "symbol": "pipe_straight",
+      "tag": "L-139-A",
+      "pfd_origin": "rfrag_region_19:n1",
+      "is_added_node": false,
+      "fragment_id": "rfrag_region_19",
+      "position": {
+        "x": 215,
+        "y": 370
+      },
+      "size": {
+        "width": 40,
+        "height": 12
+      },
+      "orientation": "horizontal",
+      "ports": {
+        "in": {
+          "x": 0,
+          "y": 6.0
+        },
+        "out": {
+          "x": 40,
+          "y": 6.0
+        }
+      },
+      "semantics": {
+        "line_id": "L-139-A",
+        "size": "4in",
+        "spec": "CS150",
+        "service": "Process",
+        "flow_direction": "forward"
+      }
+    },
+    {
+      "global_id": "rfrag_region_20:n0",
+      "type": "pipe_segment",
+      "symbol": "pipe_straight",
+      "tag": "L-140-A",
+      "pfd_origin": "rfrag_region_20:n0",
+      "is_added_node": false,
+      "fragment_id": "rfrag_region_20",
+      "position": {
+        "x": 270,
+        "y": 370
+      },
+      "size": {
+        "width": 40,
+        "height": 12
+      },
+      "orientation": "horizontal",
+      "ports": {
+        "in": {
+          "x": 0,
+          "y": 6.0
+        },
+        "out": {
+          "x": 40,
+          "y": 6.0
+        }
+      },
+      "semantics": {
+        "line_id": "L-140-A",
+        "size": "4in",
+        "spec": "CS150",
+        "service": "Process",
+        "flow_direction": "forward"
+      }
+    },
+    {
+      "global_id": "rfrag_region_20:n1",
+      "type": "pipe_segment",
+      "symbol": "pipe_straight",
+      "tag": "L-141-A",
+      "pfd_origin": "rfrag_region_20:n1",
+      "is_added_node": false,
+      "fragment_id": "rfrag_region_20",
+      "position": {
+        "x": 315,
+        "y": 370
+      },
+      "size": {
+        "width": 40,
+        "height": 12
+      },
+      "orientation": "horizontal",
+      "ports": {
+        "in": {
+          "x": 0,
+          "y": 6.0
+        },
+        "out": {
+          "x": 40,
+          "y": 6.0
+        }
+      },
+      "semantics": {
+        "line_id": "L-141-A",
+        "size": "4in",
+        "spec": "CS150",
+        "service": "Process",
+        "flow_direction": "forward"
+      }
+    },
+    {
+      "global_id": "rfrag_region_21:n0",
+      "type": "pipe_segment",
+      "symbol": "pipe_straight",
+      "tag": "L-142-A",
+      "pfd_origin": "rfrag_region_21:n0",
+      "is_added_node": false,
+      "fragment_id": "rfrag_region_21",
+      "position": {
+        "x": 295,
+        "y": 135
+      },
+      "size": {
+        "width": 40,
+        "height": 12
+      },
+      "orientation": "horizontal",
+      "ports": {
+        "in": {
+          "x": 0,
+          "y": 6.0
+        },
+        "out": {
+          "x": 40,
+          "y": 6.0
+        }
+      },
+      "semantics": {
+        "line_id": "L-142-A",
+        "size": "4in",
+        "spec": "CS150",
+        "service": "Process",
+        "flow_direction": "forward"
+      }
+    },
+    {
+      "global_id": "rfrag_region_21:n1",
+      "type": "valve:isolation",
+      "symbol": "gate_valve",
+      "tag": "XV-112",
+      "pfd_origin": "rfrag_region_21:n1",
+      "is_added_node": false,
+      "fragment_id": "rfrag_region_21",
+      "position": {
+        "x": 340,
+        "y": 130
+      },
+      "size": {
+        "width": 22,
+        "height": 22
+      },
+      "orientation": "horizontal",
+      "ports": {
+        "in": {
+          "x": 0,
+          "y": 11.0
+        },
+        "out": {
+          "x": 22,
+          "y": 11.0
+        }
+      },
+      "semantics": {
+        "tag": "XV-112",
+        "valve_type": "gate",
+        "normally_open": true,
+        "fail_position": "closed"
+      }
+    },
+    {
+      "global_id": "rfrag_region_21:n1:drain",
+      "type": "valve:drain",
+      "symbol": "drain_valve",
+      "tag": "DR-612",
+      "pfd_origin": "rfrag_region_21:n1",
+      "is_added_node": true,
+      "parent_id": "rfrag_region_21:n1",
+      "fragment_id": "rfrag_region_21",
+      "position": {
+        "x": 344,
+        "y": 154
+      },
+      "size": {
+        "width": 14,
+        "height": 14
+      },
+      "orientation": "vertical",
+      "ports": {
+        "in": {
+          "x": 7.0,
+          "y": 0
+        }
+      },
+      "semantics": {
+        "tag": "DR-612",
+        "normally_closed": true
+      }
+    },
+    {
+      "global_id": "rfrag_region_21:n2",
+      "type": "pipe_segment",
+      "symbol": "pipe_straight",
+      "tag": "L-143-A",
+      "pfd_origin": "rfrag_region_21:n2",
+      "is_added_node": false,
+      "fragment_id": "rfrag_region_21",
+      "position": {
+        "x": 370,
+        "y": 135
+      },
+      "size": {
+        "width": 40,
+        "height": 12
+      },
+      "orientation": "horizontal",
+      "ports": {
+        "in": {
+          "x": 0,
+          "y": 6.0
+        },
+        "out": {
+          "x": 40,
+          "y": 6.0
+        }
+      },
+      "semantics": {
+        "line_id": "L-143-A",
+        "size": "4in",
+        "spec": "CS150",
+        "service": "Process",
+        "flow_direction": "forward"
+      }
+    },
+    {
+      "global_id": "rfrag_region_22:n0",
+      "type": "pipe_segment",
+      "symbol": "pipe_straight",
+      "tag": "L-144-A",
+      "pfd_origin": "rfrag_region_22:n0",
+      "is_added_node": false,
+      "fragment_id": "rfrag_region_22",
+      "position": {
+        "x": 370,
+        "y": 375
+      },
+      "size": {
+        "width": 40,
+        "height": 12
+      },
+      "orientation": "horizontal",
+      "ports": {
+        "in": {
+          "x": 0,
+          "y": 6.0
+        },
+        "out": {
+          "x": 40,
+          "y": 6.0
+        }
+      },
+      "semantics": {
+        "line_id": "L-144-A",
+        "size": "4in",
+        "spec": "CS150",
+        "service": "Process",
+        "flow_direction": "forward"
+      }
+    },
+    {
+      "global_id": "rfrag_region_22:n1",
+      "type": "valve:isolation",
+      "symbol": "gate_valve",
+      "tag": "XV-113",
+      "pfd_origin": "rfrag_region_22:n1",
+      "is_added_node": false,
+      "fragment_id": "rfrag_region_22",
+      "position": {
+        "x": 415,
+        "y": 370
+      },
+      "size": {
+        "width": 22,
+        "height": 22
+      },
+      "orientation": "horizontal",
+      "ports": {
+        "in": {
+          "x": 0,
+          "y": 11.0
+        },
+        "out": {
+          "x": 22,
+          "y": 11.0
+        }
+      },
+      "semantics": {
+        "tag": "XV-113",
+        "valve_type": "gate",
+        "normally_open": true,
+        "fail_position": "closed"
+      }
+    },
+    {
+      "global_id": "rfrag_region_22:n1:drain",
+      "type": "valve:drain",
+      "symbol": "drain_valve",
+      "tag": "DR-613",
+      "pfd_origin": "rfrag_region_22:n1",
+      "is_added_node": true,
+      "parent_id": "rfrag_region_22:n1",
+      "fragment_id": "rfrag_region_22",
+      "position": {
+        "x": 419,
+        "y": 394
+      },
+      "size": {
+        "width": 14,
+        "height": 14
+      },
+      "orientation": "vertical",
+      "ports": {
+        "in": {
+          "x": 7.0,
+          "y": 0
+        }
+      },
+      "semantics": {
+        "tag": "DR-613",
+        "normally_closed": true
+      }
+    },
+    {
+      "global_id": "rfrag_region_22:n2",
+      "type": "pipe_segment",
+      "symbol": "pipe_straight",
+      "tag": "L-145-A",
+      "pfd_origin": "rfrag_region_22:n2",
+      "is_added_node": false,
+      "fragment_id": "rfrag_region_22",
+      "position": {
+        "x": 445,
+        "y": 375
+      },
+      "size": {
+        "width": 40,
+        "height": 12
+      },
+      "orientation": "horizontal",
+      "ports": {
+        "in": {
+          "x": 0,
+          "y": 6.0
+        },
+        "out": {
+          "x": 40,
+          "y": 6.0
+        }
+      },
+      "semantics": {
+        "line_id": "L-145-A",
+        "size": "4in",
+        "spec": "CS150",
+        "service": "Process",
+        "flow_direction": "forward"
+      }
+    },
+    {
+      "global_id": "rfrag_region_23:n0",
+      "type": "pipe_segment",
+      "symbol": "pipe_straight",
+      "tag": "L-146-A",
+      "pfd_origin": "rfrag_region_23:n0",
+      "is_added_node": false,
+      "fragment_id": "rfrag_region_23",
+      "position": {
+        "x": 495,
+        "y": 370
+      },
+      "size": {
+        "width": 40,
+        "height": 12
+      },
+      "orientation": "horizontal",
+      "ports": {
+        "in": {
+          "x": 0,
+          "y": 6.0
+        },
+        "out": {
+          "x": 40,
+          "y": 6.0
+        }
+      },
+      "semantics": {
+        "line_id": "L-146-A",
+        "size": "4in",
+        "spec": "CS150",
+        "service": "Process",
+        "flow_direction": "forward"
+      }
+    },
+    {
+      "global_id": "rfrag_region_23:n1",
+      "type": "pipe_segment",
+      "symbol": "pipe_straight",
+      "tag": "L-147-A",
+      "pfd_origin": "rfrag_region_23:n1",
+      "is_added_node": false,
+      "fragment_id": "rfrag_region_23",
+      "position": {
+        "x": 540,
+        "y": 370
+      },
+      "size": {
+        "width": 40,
+        "height": 12
+      },
+      "orientation": "horizontal",
+      "ports": {
+        "in": {
+          "x": 0,
+          "y": 6.0
+        },
+        "out": {
+          "x": 40,
+          "y": 6.0
+        }
+      },
+      "semantics": {
+        "line_id": "L-147-A",
+        "size": "4in",
+        "spec": "CS150",
+        "service": "Process",
+        "flow_direction": "forward"
+      }
+    },
+    {
+      "global_id": "rfrag_region_24:n0",
+      "type": "pipe_segment",
+      "symbol": "pipe_straight",
+      "tag": "L-148-A",
+      "pfd_origin": "rfrag_region_24:n0",
+      "is_added_node": false,
+      "fragment_id": "rfrag_region_24",
+      "position": {
+        "x": 675,
+        "y": 50
+      },
+      "size": {
+        "width": 40,
+        "height": 12
+      },
+      "orientation": "horizontal",
+      "ports": {
+        "in": {
+          "x": 0,
+          "y": 6.0
+        },
+        "out": {
+          "x": 40,
+          "y": 6.0
+        }
+      },
+      "semantics": {
+        "line_id": "L-148-A",
+        "size": "4in",
+        "spec": "CS150",
+        "service": "Process",
+        "flow_direction": "forward"
+      }
+    },
+    {
+      "global_id": "rfrag_region_24:n1",
+      "type": "valve:isolation",
+      "symbol": "gate_valve",
+      "tag": "XV-114",
+      "pfd_origin": "rfrag_region_24:n1",
+      "is_added_node": false,
+      "fragment_id": "rfrag_region_24",
+      "position": {
+        "x": 720,
+        "y": 45
+      },
+      "size": {
+        "width": 22,
+        "height": 22
+      },
+      "orientation": "horizontal",
+      "ports": {
+        "in": {
+          "x": 0,
+          "y": 11.0
+        },
+        "out": {
+          "x": 22,
+          "y": 11.0
+        }
+      },
+      "semantics": {
+        "tag": "XV-114",
+        "valve_type": "gate",
+        "normally_open": true,
+        "fail_position": "closed"
+      }
+    },
+    {
+      "global_id": "rfrag_region_24:n1:drain",
+      "type": "valve:drain",
+      "symbol": "drain_valve",
+      "tag": "DR-614",
+      "pfd_origin": "rfrag_region_24:n1",
+      "is_added_node": true,
+      "parent_id": "rfrag_region_24:n1",
+      "fragment_id": "rfrag_region_24",
+      "position": {
+        "x": 724,
+        "y": 69
+      },
+      "size": {
+        "width": 14,
+        "height": 14
+      },
+      "orientation": "vertical",
+      "ports": {
+        "in": {
+          "x": 7.0,
+          "y": 0
+        }
+      },
+      "semantics": {
+        "tag": "DR-614",
+        "normally_closed": true
+      }
+    },
+    {
+      "global_id": "rfrag_region_24:n2",
+      "type": "pipe_segment",
+      "symbol": "pipe_straight",
+      "tag": "L-149-A",
+      "pfd_origin": "rfrag_region_24:n2",
+      "is_added_node": false,
+      "fragment_id": "rfrag_region_24",
+      "position": {
+        "x": 750,
+        "y": 50
+      },
+      "size": {
+        "width": 40,
+        "height": 12
+      },
+      "orientation": "horizontal",
+      "ports": {
+        "in": {
+          "x": 0,
+          "y": 6.0
+        },
+        "out": {
+          "x": 40,
+          "y": 6.0
+        }
+      },
+      "semantics": {
+        "line_id": "L-149-A",
+        "size": "4in",
+        "spec": "CS150",
+        "service": "Process",
+        "flow_direction": "forward"
+      }
+    },
+    {
+      "global_id": "cfrag_0:n0",
+      "type": "pipe_segment",
+      "symbol": "pipe_straight",
+      "tag": "L-150-A",
+      "pfd_origin": "cfrag_0:n0",
+      "is_added_node": false,
+      "fragment_id": "cfrag_0",
+      "position": {
+        "x": 170,
+        "y": 50
+      },
+      "size": {
+        "width": 40,
+        "height": 12
+      },
+      "orientation": "horizontal",
+      "ports": {
+        "in": {
+          "x": 0,
+          "y": 6.0
+        },
+        "out": {
+          "x": 40,
+          "y": 6.0
+        }
+      },
+      "semantics": {
+        "line_id": "L-150-A",
+        "size": "4in",
+        "spec": "CS150",
+        "service": "Process",
+        "flow_direction": "forward"
+      }
+    },
+    {
+      "global_id": "cfrag_0:n1",
+      "type": "valve:isolation",
+      "symbol": "gate_valve",
+      "tag": "XV-115",
+      "pfd_origin": "cfrag_0:n1",
+      "is_added_node": false,
+      "fragment_id": "cfrag_0",
+      "position": {
+        "x": 215,
+        "y": 45
+      },
+      "size": {
+        "width": 22,
+        "height": 22
+      },
+      "orientation": "horizontal",
+      "ports": {
+        "in": {
+          "x": 0,
+          "y": 11.0
+        },
+        "out": {
+          "x": 22,
+          "y": 11.0
+        }
+      },
+      "semantics": {
+        "tag": "XV-115",
+        "valve_type": "gate",
+        "normally_open": true,
+        "fail_position": "closed"
+      }
+    },
+    {
+      "global_id": "cfrag_0:n1:drain",
+      "type": "valve:drain",
+      "symbol": "drain_valve",
+      "tag": "DR-615",
+      "pfd_origin": "cfrag_0:n1",
+      "is_added_node": true,
+      "parent_id": "cfrag_0:n1",
+      "fragment_id": "cfrag_0",
+      "position": {
+        "x": 219,
+        "y": 69
+      },
+      "size": {
+        "width": 14,
+        "height": 14
+      },
+      "orientation": "vertical",
+      "ports": {
+        "in": {
+          "x": 7.0,
+          "y": 0
+        }
+      },
+      "semantics": {
+        "tag": "DR-615",
+        "normally_closed": true
+      }
+    },
+    {
+      "global_id": "cfrag_0:n2",
+      "type": "pipe_segment",
+      "symbol": "pipe_straight",
+      "tag": "L-151-A",
+      "pfd_origin": "cfrag_0:n2",
+      "is_added_node": false,
+      "fragment_id": "cfrag_0",
+      "position": {
+        "x": 245,
+        "y": 50
+      },
+      "size": {
+        "width": 40,
+        "height": 12
+      },
+      "orientation": "horizontal",
+      "ports": {
+        "in": {
+          "x": 0,
+          "y": 6.0
+        },
+        "out": {
+          "x": 40,
+          "y": 6.0
+        }
+      },
+      "semantics": {
+        "line_id": "L-151-A",
+        "size": "4in",
+        "spec": "CS150",
+        "service": "Process",
+        "flow_direction": "forward"
+      }
+    },
+    {
+      "global_id": "cfrag_1:n0",
+      "type": "pipe_segment",
+      "symbol": "pipe_straight",
+      "tag": "L-152-A",
+      "pfd_origin": "cfrag_1:n0",
+      "is_added_node": false,
+      "fragment_id": "cfrag_1",
+      "position": {
+        "x": 550,
+        "y": 50
+      },
+      "size": {
+        "width": 40,
+        "height": 12
+      },
+      "orientation": "horizontal",
+      "ports": {
+        "in": {
+          "x": 0,
+          "y": 6.0
+        },
+        "out": {
+          "x": 40,
+          "y": 6.0
+        }
+      },
+      "semantics": {
+        "line_id": "L-152-A",
+        "size": "4in",
+        "spec": "CS150",
+        "service": "Process",
+        "flow_direction": "forward"
+      }
+    },
+    {
+      "global_id": "cfrag_1:n1",
+      "type": "valve:isolation",
+      "symbol": "gate_valve",
+      "tag": "XV-116",
+      "pfd_origin": "cfrag_1:n1",
+      "is_added_node": false,
+      "fragment_id": "cfrag_1",
+      "position": {
+        "x": 595,
+        "y": 45
+      },
+      "size": {
+        "width": 22,
+        "height": 22
+      },
+      "orientation": "horizontal",
+      "ports": {
+        "in": {
+          "x": 0,
+          "y": 11.0
+        },
+        "out": {
+          "x": 22,
+          "y": 11.0
+        }
+      },
+      "semantics": {
+        "tag": "XV-116",
+        "valve_type": "gate",
+        "normally_open": true,
+        "fail_position": "closed"
+      }
+    },
+    {
+      "global_id": "cfrag_1:n1:drain",
+      "type": "valve:drain",
+      "symbol": "drain_valve",
+      "tag": "DR-616",
+      "pfd_origin": "cfrag_1:n1",
+      "is_added_node": true,
+      "parent_id": "cfrag_1:n1",
+      "fragment_id": "cfrag_1",
+      "position": {
+        "x": 599,
+        "y": 69
+      },
+      "size": {
+        "width": 14,
+        "height": 14
+      },
+      "orientation": "vertical",
+      "ports": {
+        "in": {
+          "x": 7.0,
+          "y": 0
+        }
+      },
+      "semantics": {
+        "tag": "DR-616",
+        "normally_closed": true
+      }
+    },
+    {
+      "global_id": "cfrag_1:n2",
+      "type": "pipe_segment",
+      "symbol": "pipe_straight",
+      "tag": "L-153-A",
+      "pfd_origin": "cfrag_1:n2",
+      "is_added_node": false,
+      "fragment_id": "cfrag_1",
+      "position": {
+        "x": 625,
+        "y": 50
+      },
+      "size": {
+        "width": 40,
+        "height": 12
+      },
+      "orientation": "horizontal",
+      "ports": {
+        "in": {
+          "x": 0,
+          "y": 6.0
+        },
+        "out": {
+          "x": 40,
+          "y": 6.0
+        }
+      },
+      "semantics": {
+        "line_id": "L-153-A",
+        "size": "4in",
+        "spec": "CS150",
+        "service": "Process",
+        "flow_direction": "forward"
+      }
+    },
+    {
+      "global_id": "cfrag_2:n0",
+      "type": "pipe_segment",
+      "symbol": "pipe_straight",
+      "tag": "L-154-A",
+      "pfd_origin": "cfrag_2:n0",
+      "is_added_node": false,
+      "fragment_id": "cfrag_2",
+      "position": {
+        "x": 170,
+        "y": 95
+      },
+      "size": {
+        "width": 40,
+        "height": 12
+      },
+      "orientation": "horizontal",
+      "ports": {
+        "in": {
+          "x": 0,
+          "y": 6.0
+        },
+        "out": {
+          "x": 40,
+          "y": 6.0
+        }
+      },
+      "semantics": {
+        "line_id": "L-154-A",
+        "size": "4in",
+        "spec": "CS150",
+        "service": "Process",
+        "flow_direction": "forward"
+      }
+    },
+    {
+      "global_id": "cfrag_2:n1",
+      "type": "valve:isolation",
+      "symbol": "gate_valve",
+      "tag": "XV-117",
+      "pfd_origin": "cfrag_2:n1",
+      "is_added_node": false,
+      "fragment_id": "cfrag_2",
+      "position": {
+        "x": 215,
+        "y": 90
+      },
+      "size": {
+        "width": 22,
+        "height": 22
+      },
+      "orientation": "horizontal",
+      "ports": {
+        "in": {
+          "x": 0,
+          "y": 11.0
+        },
+        "out": {
+          "x": 22,
+          "y": 11.0
+        }
+      },
+      "semantics": {
+        "tag": "XV-117",
+        "valve_type": "gate",
+        "normally_open": true,
+        "fail_position": "closed"
+      }
+    },
+    {
+      "global_id": "cfrag_2:n1:drain",
+      "type": "valve:drain",
+      "symbol": "drain_valve",
+      "tag": "DR-617",
+      "pfd_origin": "cfrag_2:n1",
+      "is_added_node": true,
+      "parent_id": "cfrag_2:n1",
+      "fragment_id": "cfrag_2",
+      "position": {
+        "x": 219,
+        "y": 114
+      },
+      "size": {
+        "width": 14,
+        "height": 14
+      },
+      "orientation": "vertical",
+      "ports": {
+        "in": {
+          "x": 7.0,
+          "y": 0
+        }
+      },
+      "semantics": {
+        "tag": "DR-617",
+        "normally_closed": true
+      }
+    },
+    {
+      "global_id": "cfrag_2:n2",
+      "type": "pipe_segment",
+      "symbol": "pipe_straight",
+      "tag": "L-155-A",
+      "pfd_origin": "cfrag_2:n2",
+      "is_added_node": false,
+      "fragment_id": "cfrag_2",
+      "position": {
+        "x": 245,
+        "y": 95
+      },
+      "size": {
+        "width": 40,
+        "height": 12
+      },
+      "orientation": "horizontal",
+      "ports": {
+        "in": {
+          "x": 0,
+          "y": 6.0
+        },
+        "out": {
+          "x": 40,
+          "y": 6.0
+        }
+      },
+      "semantics": {
+        "line_id": "L-155-A",
+        "size": "4in",
+        "spec": "CS150",
+        "service": "Process",
+        "flow_direction": "forward"
+      }
+    },
+    {
+      "global_id": "cfrag_3:n0",
+      "type": "pipe_segment",
+      "symbol": "pipe_straight",
+      "tag": "L-156-A",
+      "pfd_origin": "cfrag_3:n0",
+      "is_added_node": false,
+      "fragment_id": "cfrag_3",
+      "position": {
+        "x": 675,
+        "y": 95
+      },
+      "size": {
+        "width": 40,
+        "height": 12
+      },
+      "orientation": "horizontal",
+      "ports": {
+        "in": {
+          "x": 0,
+          "y": 6.0
+        },
+        "out": {
+          "x": 40,
+          "y": 6.0
+        }
+      },
+      "semantics": {
+        "line_id": "L-156-A",
+        "size": "4in",
+        "spec": "CS150",
+        "service": "Process",
+        "flow_direction": "forward"
+      }
+    },
+    {
+      "global_id": "cfrag_3:n1",
+      "type": "valve:isolation",
+      "symbol": "gate_valve",
+      "tag": "XV-118",
+      "pfd_origin": "cfrag_3:n1",
+      "is_added_node": false,
+      "fragment_id": "cfrag_3",
+      "position": {
+        "x": 720,
+        "y": 90
+      },
+      "size": {
+        "width": 22,
+        "height": 22
+      },
+      "orientation": "horizontal",
+      "ports": {
+        "in": {
+          "x": 0,
+          "y": 11.0
+        },
+        "out": {
+          "x": 22,
+          "y": 11.0
+        }
+      },
+      "semantics": {
+        "tag": "XV-118",
+        "valve_type": "gate",
+        "normally_open": true,
+        "fail_position": "closed"
+      }
+    },
+    {
+      "global_id": "cfrag_3:n1:drain",
+      "type": "valve:drain",
+      "symbol": "drain_valve",
+      "tag": "DR-618",
+      "pfd_origin": "cfrag_3:n1",
+      "is_added_node": true,
+      "parent_id": "cfrag_3:n1",
+      "fragment_id": "cfrag_3",
+      "position": {
+        "x": 724,
+        "y": 114
+      },
+      "size": {
+        "width": 14,
+        "height": 14
+      },
+      "orientation": "vertical",
+      "ports": {
+        "in": {
+          "x": 7.0,
+          "y": 0
+        }
+      },
+      "semantics": {
+        "tag": "DR-618",
+        "normally_closed": true
+      }
+    },
+    {
+      "global_id": "cfrag_3:n2",
+      "type": "pipe_segment",
+      "symbol": "pipe_straight",
+      "tag": "L-157-A",
+      "pfd_origin": "cfrag_3:n2",
+      "is_added_node": false,
+      "fragment_id": "cfrag_3",
+      "position": {
+        "x": 750,
+        "y": 95
+      },
+      "size": {
+        "width": 40,
+        "height": 12
+      },
+      "orientation": "horizontal",
+      "ports": {
+        "in": {
+          "x": 0,
+          "y": 6.0
+        },
+        "out": {
+          "x": 40,
+          "y": 6.0
+        }
+      },
+      "semantics": {
+        "line_id": "L-157-A",
+        "size": "4in",
+        "spec": "CS150",
+        "service": "Process",
+        "flow_direction": "forward"
+      }
+    },
+    {
+      "global_id": "cfrag_4:n0",
+      "type": "pipe_segment",
+      "symbol": "pipe_straight",
+      "tag": "L-158-A",
+      "pfd_origin": "cfrag_4:n0",
+      "is_added_node": false,
+      "fragment_id": "cfrag_4",
+      "position": {
+        "x": 170,
+        "y": 135
+      },
+      "size": {
+        "width": 40,
+        "height": 12
+      },
+      "orientation": "horizontal",
+      "ports": {
+        "in": {
+          "x": 0,
+          "y": 6.0
+        },
+        "out": {
+          "x": 40,
+          "y": 6.0
+        }
+      },
+      "semantics": {
+        "line_id": "L-158-A",
+        "size": "4in",
+        "spec": "CS150",
+        "service": "Process",
+        "flow_direction": "forward"
+      }
+    },
+    {
+      "global_id": "cfrag_4:n1",
+      "type": "valve:isolation",
+      "symbol": "gate_valve",
+      "tag": "XV-119",
+      "pfd_origin": "cfrag_4:n1",
+      "is_added_node": false,
+      "fragment_id": "cfrag_4",
+      "position": {
+        "x": 215,
+        "y": 130
+      },
+      "size": {
+        "width": 22,
+        "height": 22
+      },
+      "orientation": "horizontal",
+      "ports": {
+        "in": {
+          "x": 0,
+          "y": 11.0
+        },
+        "out": {
+          "x": 22,
+          "y": 11.0
+        }
+      },
+      "semantics": {
+        "tag": "XV-119",
+        "valve_type": "gate",
+        "normally_open": true,
+        "fail_position": "closed"
+      }
+    },
+    {
+      "global_id": "cfrag_4:n1:drain",
+      "type": "valve:drain",
+      "symbol": "drain_valve",
+      "tag": "DR-619",
+      "pfd_origin": "cfrag_4:n1",
+      "is_added_node": true,
+      "parent_id": "cfrag_4:n1",
+      "fragment_id": "cfrag_4",
+      "position": {
+        "x": 219,
+        "y": 154
+      },
+      "size": {
+        "width": 14,
+        "height": 14
+      },
+      "orientation": "vertical",
+      "ports": {
+        "in": {
+          "x": 7.0,
+          "y": 0
+        }
+      },
+      "semantics": {
+        "tag": "DR-619",
+        "normally_closed": true
+      }
+    },
+    {
+      "global_id": "cfrag_4:n2",
+      "type": "pipe_segment",
+      "symbol": "pipe_straight",
+      "tag": "L-159-A",
+      "pfd_origin": "cfrag_4:n2",
+      "is_added_node": false,
+      "fragment_id": "cfrag_4",
+      "position": {
+        "x": 245,
+        "y": 135
+      },
+      "size": {
+        "width": 40,
+        "height": 12
+      },
+      "orientation": "horizontal",
+      "ports": {
+        "in": {
+          "x": 0,
+          "y": 6.0
+        },
+        "out": {
+          "x": 40,
+          "y": 6.0
+        }
+      },
+      "semantics": {
+        "line_id": "L-159-A",
+        "size": "4in",
+        "spec": "CS150",
+        "service": "Process",
+        "flow_direction": "forward"
+      }
+    },
+    {
+      "global_id": "cfrag_5:n0",
+      "type": "pipe_segment",
+      "symbol": "pipe_straight",
+      "tag": "L-160-A",
+      "pfd_origin": "cfrag_5:n0",
+      "is_added_node": false,
+      "fragment_id": "cfrag_5",
+      "position": {
+        "x": 425,
+        "y": 95
+      },
+      "size": {
+        "width": 40,
+        "height": 12
+      },
+      "orientation": "horizontal",
+      "ports": {
+        "in": {
+          "x": 0,
+          "y": 6.0
+        },
+        "out": {
+          "x": 40,
+          "y": 6.0
+        }
+      },
+      "semantics": {
+        "line_id": "L-160-A",
+        "size": "4in",
+        "spec": "CS150",
+        "service": "Process",
+        "flow_direction": "forward"
+      }
+    },
+    {
+      "global_id": "cfrag_5:n1",
+      "type": "valve:isolation",
+      "symbol": "gate_valve",
+      "tag": "XV-120",
+      "pfd_origin": "cfrag_5:n1",
+      "is_added_node": false,
+      "fragment_id": "cfrag_5",
+      "position": {
+        "x": 470,
+        "y": 90
+      },
+      "size": {
+        "width": 22,
+        "height": 22
+      },
+      "orientation": "horizontal",
+      "ports": {
+        "in": {
+          "x": 0,
+          "y": 11.0
+        },
+        "out": {
+          "x": 22,
+          "y": 11.0
+        }
+      },
+      "semantics": {
+        "tag": "XV-120",
+        "valve_type": "gate",
+        "normally_open": true,
+        "fail_position": "closed"
+      }
+    },
+    {
+      "global_id": "cfrag_5:n1:drain",
+      "type": "valve:drain",
+      "symbol": "drain_valve",
+      "tag": "DR-620",
+      "pfd_origin": "cfrag_5:n1",
+      "is_added_node": true,
+      "parent_id": "cfrag_5:n1",
+      "fragment_id": "cfrag_5",
+      "position": {
+        "x": 474,
+        "y": 114
+      },
+      "size": {
+        "width": 14,
+        "height": 14
+      },
+      "orientation": "vertical",
+      "ports": {
+        "in": {
+          "x": 7.0,
+          "y": 0
+        }
+      },
+      "semantics": {
+        "tag": "DR-620",
+        "normally_closed": true
+      }
+    },
+    {
+      "global_id": "cfrag_5:n2",
+      "type": "pipe_segment",
+      "symbol": "pipe_straight",
+      "tag": "L-161-A",
+      "pfd_origin": "cfrag_5:n2",
+      "is_added_node": false,
+      "fragment_id": "cfrag_5",
+      "position": {
+        "x": 500,
+        "y": 95
+      },
+      "size": {
+        "width": 40,
+        "height": 12
+      },
+      "orientation": "horizontal",
+      "ports": {
+        "in": {
+          "x": 0,
+          "y": 6.0
+        },
+        "out": {
+          "x": 40,
+          "y": 6.0
+        }
+      },
+      "semantics": {
+        "line_id": "L-161-A",
+        "size": "4in",
+        "spec": "CS150",
+        "service": "Process",
+        "flow_direction": "forward"
+      }
+    },
+    {
+      "global_id": "efrag_0:n0",
+      "type": "equipment_block",
+      "symbol": "vessel",
+      "tag": "E-005",
+      "pfd_origin": "efrag_0:n0",
+      "is_added_node": false,
+      "fragment_id": "efrag_0",
+      "position": {
+        "x": 45,
+        "y": 430
+      },
+      "size": {
+        "width": 60,
+        "height": 45
+      },
+      "orientation": "horizontal",
+      "ports": {
+        "in": {
+          "x": 0,
+          "y": 22.5
+        },
+        "out": {
+          "x": 60,
+          "y": 22.5
+        }
+      },
+      "semantics": {
+        "tag": "E-005",
+        "equipment_type": "vessel",
+        "duty": "process"
+      }
+    },
+    {
+      "global_id": "efrag_0:n0:pi",
+      "type": "instrument:pressure",
+      "symbol": "pressure_indicator",
+      "tag": "PI-405",
+      "pfd_origin": "efrag_0:n0",
+      "is_added_node": true,
+      "parent_id": "efrag_0:n0",
+      "fragment_id": "efrag_0",
+      "position": {
+        "x": 109,
+        "y": 427
+      },
+      "size": {
+        "width": 18,
+        "height": 18
+      },
+      "orientation": "vertical",
+      "ports": {
+        "center": {
+          "x": 9.0,
+          "y": 9.0
+        }
+      },
+      "semantics": {
+        "tag": "PI-405"
+      }
+    },
+    {
+      "global_id": "efrag_0:n0:ti",
+      "type": "instrument:temperature",
+      "symbol": "temperature_indicator",
+      "tag": "TI-505",
+      "pfd_origin": "efrag_0:n0",
+      "is_added_node": true,
+      "parent_id": "efrag_0:n0",
+      "fragment_id": "efrag_0",
+      "position": {
+        "x": 109,
+        "y": 447
+      },
+      "size": {
+        "width": 18,
+        "height": 18
+      },
+      "orientation": "vertical",
+      "ports": {
+        "center": {
+          "x": 9.0,
+          "y": 9.0
+        }
+      },
+      "semantics": {
+        "tag": "TI-505"
+      }
+    },
+    {
+      "global_id": "efrag_0:n1",
+      "type": "equipment_block",
+      "symbol": "vessel",
+      "tag": "E-006",
+      "pfd_origin": "efrag_0:n1",
+      "is_added_node": false,
+      "fragment_id": "efrag_0",
+      "position": {
+        "x": 110,
+        "y": 425
+      },
+      "size": {
+        "width": 80,
+        "height": 60
+      },
+      "orientation": "horizontal",
+      "ports": {
+        "in": {
+          "x": 0,
+          "y": 30.0
+        },
+        "out": {
+          "x": 80,
+          "y": 30.0
+        }
+      },
+      "semantics": {
+        "tag": "E-006",
+        "equipment_type": "vessel",
+        "duty": "process"
+      }
+    },
+    {
+      "global_id": "efrag_0:n1:pi",
+      "type": "instrument:pressure",
+      "symbol": "pressure_indicator",
+      "tag": "PI-406",
+      "pfd_origin": "efrag_0:n1",
+      "is_added_node": true,
+      "parent_id": "efrag_0:n1",
+      "fragment_id": "efrag_0",
+      "position": {
+        "x": 194,
+        "y": 422
+      },
+      "size": {
+        "width": 18,
+        "height": 18
+      },
+      "orientation": "vertical",
+      "ports": {
+        "center": {
+          "x": 9.0,
+          "y": 9.0
+        }
+      },
+      "semantics": {
+        "tag": "PI-406"
+      }
+    },
+    {
+      "global_id": "efrag_0:n1:ti",
+      "type": "instrument:temperature",
+      "symbol": "temperature_indicator",
+      "tag": "TI-506",
+      "pfd_origin": "efrag_0:n1",
+      "is_added_node": true,
+      "parent_id": "efrag_0:n1",
+      "fragment_id": "efrag_0",
+      "position": {
+        "x": 194,
+        "y": 442
+      },
+      "size": {
+        "width": 18,
+        "height": 18
+      },
+      "orientation": "vertical",
+      "ports": {
+        "center": {
+          "x": 9.0,
+          "y": 9.0
+        }
+      },
+      "semantics": {
+        "tag": "TI-506"
+      }
+    },
+    {
+      "global_id": "efrag_0:n2",
+      "type": "equipment_block",
+      "symbol": "vessel",
+      "tag": "E-007",
+      "pfd_origin": "efrag_0:n2",
+      "is_added_node": false,
+      "fragment_id": "efrag_0",
+      "position": {
+        "x": 195,
+        "y": 430
+      },
+      "size": {
+        "width": 60,
+        "height": 45
+      },
+      "orientation": "horizontal",
+      "ports": {
+        "in": {
+          "x": 0,
+          "y": 22.5
+        },
+        "out": {
+          "x": 60,
+          "y": 22.5
+        }
+      },
+      "semantics": {
+        "tag": "E-007",
+        "equipment_type": "vessel",
+        "duty": "process"
+      }
+    },
+    {
+      "global_id": "efrag_0:n2:pi",
+      "type": "instrument:pressure",
+      "symbol": "pressure_indicator",
+      "tag": "PI-407",
+      "pfd_origin": "efrag_0:n2",
+      "is_added_node": true,
+      "parent_id": "efrag_0:n2",
+      "fragment_id": "efrag_0",
+      "position": {
+        "x": 259,
+        "y": 427
+      },
+      "size": {
+        "width": 18,
+        "height": 18
+      },
+      "orientation": "vertical",
+      "ports": {
+        "center": {
+          "x": 9.0,
+          "y": 9.0
+        }
+      },
+      "semantics": {
+        "tag": "PI-407"
+      }
+    },
+    {
+      "global_id": "efrag_0:n2:ti",
+      "type": "instrument:temperature",
+      "symbol": "temperature_indicator",
+      "tag": "TI-507",
+      "pfd_origin": "efrag_0:n2",
+      "is_added_node": true,
+      "parent_id": "efrag_0:n2",
+      "fragment_id": "efrag_0",
+      "position": {
+        "x": 259,
+        "y": 447
+      },
+      "size": {
+        "width": 18,
+        "height": 18
+      },
+      "orientation": "vertical",
+      "ports": {
+        "center": {
+          "x": 9.0,
+          "y": 9.0
+        }
+      },
+      "semantics": {
+        "tag": "TI-507"
+      }
+    },
+    {
+      "global_id": "efrag_1:n0",
+      "type": "equipment_block",
+      "symbol": "vessel",
+      "tag": "E-008",
+      "pfd_origin": "efrag_1:n0",
+      "is_added_node": false,
+      "fragment_id": "efrag_1",
+      "position": {
+        "x": 240,
+        "y": 255
+      },
+      "size": {
+        "width": 60,
+        "height": 45
+      },
+      "orientation": "vertical",
+      "ports": {
+        "in": {
+          "x": 30.0,
+          "y": 0
+        },
+        "out": {
+          "x": 30.0,
+          "y": 45
+        }
+      },
+      "semantics": {
+        "tag": "E-008",
+        "equipment_type": "vessel",
+        "duty": "process"
+      }
+    },
+    {
+      "global_id": "efrag_1:n0:pi",
+      "type": "instrument:pressure",
+      "symbol": "pressure_indicator",
+      "tag": "PI-408",
+      "pfd_origin": "efrag_1:n0",
+      "is_added_node": true,
+      "parent_id": "efrag_1:n0",
+      "fragment_id": "efrag_1",
+      "position": {
+        "x": 304,
+        "y": 252
+      },
+      "size": {
+        "width": 18,
+        "height": 18
+      },
+      "orientation": "vertical",
+      "ports": {
+        "center": {
+          "x": 9.0,
+          "y": 9.0
+        }
+      },
+      "semantics": {
+        "tag": "PI-408"
+      }
+    },
+    {
+      "global_id": "efrag_1:n0:ti",
+      "type": "instrument:temperature",
+      "symbol": "temperature_indicator",
+      "tag": "TI-508",
+      "pfd_origin": "efrag_1:n0",
+      "is_added_node": true,
+      "parent_id": "efrag_1:n0",
+      "fragment_id": "efrag_1",
+      "position": {
+        "x": 304,
+        "y": 272
+      },
+      "size": {
+        "width": 18,
+        "height": 18
+      },
+      "orientation": "vertical",
+      "ports": {
+        "center": {
+          "x": 9.0,
+          "y": 9.0
+        }
+      },
+      "semantics": {
+        "tag": "TI-508"
+      }
+    },
+    {
+      "global_id": "efrag_1:n1",
+      "type": "equipment_block",
+      "symbol": "vessel",
+      "tag": "E-009",
+      "pfd_origin": "efrag_1:n1",
+      "is_added_node": false,
+      "fragment_id": "efrag_1",
+      "position": {
+        "x": 240,
+        "y": 305
+      },
+      "size": {
+        "width": 60,
+        "height": 45
+      },
+      "orientation": "vertical",
+      "ports": {
+        "in": {
+          "x": 30.0,
+          "y": 0
+        },
+        "out": {
+          "x": 30.0,
+          "y": 45
+        }
+      },
+      "semantics": {
+        "tag": "E-009",
+        "equipment_type": "vessel",
+        "duty": "process"
+      }
+    },
+    {
+      "global_id": "efrag_1:n1:pi",
+      "type": "instrument:pressure",
+      "symbol": "pressure_indicator",
+      "tag": "PI-409",
+      "pfd_origin": "efrag_1:n1",
+      "is_added_node": true,
+      "parent_id": "efrag_1:n1",
+      "fragment_id": "efrag_1",
+      "position": {
+        "x": 304,
+        "y": 302
+      },
+      "size": {
+        "width": 18,
+        "height": 18
+      },
+      "orientation": "vertical",
+      "ports": {
+        "center": {
+          "x": 9.0,
+          "y": 9.0
+        }
+      },
+      "semantics": {
+        "tag": "PI-409"
+      }
+    },
+    {
+      "global_id": "efrag_1:n1:ti",
+      "type": "instrument:temperature",
+      "symbol": "temperature_indicator",
+      "tag": "TI-509",
+      "pfd_origin": "efrag_1:n1",
+      "is_added_node": true,
+      "parent_id": "efrag_1:n1",
+      "fragment_id": "efrag_1",
+      "position": {
+        "x": 304,
+        "y": 322
+      },
+      "size": {
+        "width": 18,
+        "height": 18
+      },
+      "orientation": "vertical",
+      "ports": {
+        "center": {
+          "x": 9.0,
+          "y": 9.0
+        }
+      },
+      "semantics": {
+        "tag": "TI-509"
+      }
+    },
+    {
+      "global_id": "efrag_2:n0",
+      "type": "equipment_block",
+      "symbol": "vessel",
+      "tag": "E-010",
+      "pfd_origin": "efrag_2:n0",
+      "is_added_node": false,
+      "fragment_id": "efrag_2",
+      "position": {
+        "x": 265,
+        "y": 425
+      },
+      "size": {
+        "width": 60,
+        "height": 45
+      },
+      "orientation": "horizontal",
+      "ports": {
+        "in": {
+          "x": 0,
+          "y": 22.5
+        },
+        "out": {
+          "x": 60,
+          "y": 22.5
+        }
+      },
+      "semantics": {
+        "tag": "E-010",
+        "equipment_type": "vessel",
+        "duty": "process"
+      }
+    },
+    {
+      "global_id": "efrag_2:n0:pi",
+      "type": "instrument:pressure",
+      "symbol": "pressure_indicator",
+      "tag": "PI-410",
+      "pfd_origin": "efrag_2:n0",
+      "is_added_node": true,
+      "parent_id": "efrag_2:n0",
+      "fragment_id": "efrag_2",
+      "position": {
+        "x": 329,
+        "y": 422
+      },
+      "size": {
+        "width": 18,
+        "height": 18
+      },
+      "orientation": "vertical",
+      "ports": {
+        "center": {
+          "x": 9.0,
+          "y": 9.0
+        }
+      },
+      "semantics": {
+        "tag": "PI-410"
+      }
+    },
+    {
+      "global_id": "efrag_2:n0:ti",
+      "type": "instrument:temperature",
+      "symbol": "temperature_indicator",
+      "tag": "TI-510",
+      "pfd_origin": "efrag_2:n0",
+      "is_added_node": true,
+      "parent_id": "efrag_2:n0",
+      "fragment_id": "efrag_2",
+      "position": {
+        "x": 329,
+        "y": 442
+      },
+      "size": {
+        "width": 18,
+        "height": 18
+      },
+      "orientation": "vertical",
+      "ports": {
+        "center": {
+          "x": 9.0,
+          "y": 9.0
+        }
+      },
+      "semantics": {
+        "tag": "TI-510"
+      }
+    },
+    {
+      "global_id": "efrag_2:n1",
+      "type": "equipment_block",
+      "symbol": "vessel",
+      "tag": "E-011",
+      "pfd_origin": "efrag_2:n1",
+      "is_added_node": false,
+      "fragment_id": "efrag_2",
+      "position": {
+        "x": 330,
+        "y": 425
+      },
+      "size": {
+        "width": 60,
+        "height": 45
+      },
+      "orientation": "horizontal",
+      "ports": {
+        "in": {
+          "x": 0,
+          "y": 22.5
+        },
+        "out": {
+          "x": 60,
+          "y": 22.5
+        }
+      },
+      "semantics": {
+        "tag": "E-011",
+        "equipment_type": "vessel",
+        "duty": "process"
+      }
+    },
+    {
+      "global_id": "efrag_2:n1:pi",
+      "type": "instrument:pressure",
+      "symbol": "pressure_indicator",
+      "tag": "PI-411",
+      "pfd_origin": "efrag_2:n1",
+      "is_added_node": true,
+      "parent_id": "efrag_2:n1",
+      "fragment_id": "efrag_2",
+      "position": {
+        "x": 394,
+        "y": 422
+      },
+      "size": {
+        "width": 18,
+        "height": 18
+      },
+      "orientation": "vertical",
+      "ports": {
+        "center": {
+          "x": 9.0,
+          "y": 9.0
+        }
+      },
+      "semantics": {
+        "tag": "PI-411"
+      }
+    },
+    {
+      "global_id": "efrag_2:n1:ti",
+      "type": "instrument:temperature",
+      "symbol": "temperature_indicator",
+      "tag": "TI-511",
+      "pfd_origin": "efrag_2:n1",
+      "is_added_node": true,
+      "parent_id": "efrag_2:n1",
+      "fragment_id": "efrag_2",
+      "position": {
+        "x": 394,
+        "y": 442
+      },
+      "size": {
+        "width": 18,
+        "height": 18
+      },
+      "orientation": "vertical",
+      "ports": {
+        "center": {
+          "x": 9.0,
+          "y": 9.0
+        }
+      },
+      "semantics": {
+        "tag": "TI-511"
+      }
+    }
+  ],
+  "edges": [
+    {
+      "edge_id": "pe_0",
+      "from": "rfrag_region_0:n0",
+      "to": "rfrag_region_0:n1",
+      "kind": "process",
+      "style": "solid",
+      "line_id": "L-101-A",
+      "stitch": false,
+      "path": [
+        {
+          "x": 465,
+          "y": 141.0
+        },
+        {
+          "x": 470,
+          "y": 141.0
+        }
+      ]
+    },
+    {
+      "edge_id": "pe_1",
+      "from": "rfrag_region_0:n1",
+      "to": "rfrag_region_0:n2",
+      "kind": "process",
+      "style": "solid",
+      "line_id": "L-102-A",
+      "stitch": false,
+      "path": [
+        {
+          "x": 492,
+          "y": 141.0
+        },
+        {
+          "x": 500,
+          "y": 141.0
+        }
+      ]
+    },
+    {
+      "edge_id": "pe_2",
+      "from": "rfrag_region_1:n0",
+      "to": "rfrag_region_1:n1",
+      "kind": "process",
+      "style": "solid",
+      "line_id": "L-103-A",
+      "stitch": false,
+      "path": [
+        {
+          "x": 85,
+          "y": 56.0
+        },
+        {
+          "x": 90,
+          "y": 56.0
+        }
+      ]
+    },
+    {
+      "edge_id": "pe_3",
+      "from": "rfrag_region_1:n1",
+      "to": "rfrag_region_1:n2",
+      "kind": "process",
+      "style": "solid",
+      "line_id": "L-104-A",
+      "stitch": false,
+      "path": [
+        {
+          "x": 112,
+          "y": 56.0
+        },
+        {
+          "x": 120,
+          "y": 56.0
+        }
+      ]
+    },
+    {
+      "edge_id": "pe_4",
+      "from": "rfrag_region_2:n0",
+      "to": "rfrag_region_2:n1",
+      "kind": "process",
+      "style": "solid",
+      "line_id": "L-105-A",
+      "stitch": false,
+      "path": [
+        {
+          "x": 590,
+          "y": 136.0
+        },
+        {
+          "x": 595,
+          "y": 136.0
+        }
+      ]
+    },
+    {
+      "edge_id": "pe_5",
+      "from": "rfrag_region_3:n0",
+      "to": "rfrag_region_3:n1",
+      "kind": "process",
+      "style": "solid",
+      "line_id": "L-107-A",
+      "stitch": false,
+      "path": [
+        {
+          "x": 85,
+          "y": 201.0
+        },
+        {
+          "x": 90,
+          "y": 205.0
+        }
+      ]
+    },
+    {
+      "edge_id": "pe_6",
+      "from": "rfrag_region_3:n1",
+      "to": "rfrag_region_3:n2",
+      "kind": "process",
+      "style": "solid",
+      "line_id": null,
+      "stitch": false,
+      "path": [
+        {
+          "x": 170,
+          "y": 205.0
+        },
+        {
+          "x": 175,
+          "y": 205.0
+        }
+      ]
+    },
+    {
+      "edge_id": "pe_7",
+      "from": "rfrag_region_3:n2",
+      "to": "rfrag_region_3:n3",
+      "kind": "process",
+      "style": "solid",
+      "line_id": null,
+      "stitch": false,
+      "path": [
+        {
+          "x": 255,
+          "y": 205.0
+        },
+        {
+          "x": 260,
+          "y": 205.0
+        }
+      ]
+    },
+    {
+      "edge_id": "pe_8",
+      "from": "rfrag_region_3:n3",
+      "to": "rfrag_region_3:n4",
+      "kind": "process",
+      "style": "solid",
+      "line_id": "L-108-A",
+      "stitch": false,
+      "path": [
+        {
+          "x": 340,
+          "y": 205.0
+        },
+        {
+          "x": 345,
+          "y": 201.0
+        }
+      ]
+    },
+    {
+      "edge_id": "pe_9",
+      "from": "rfrag_region_4:n0",
+      "to": "rfrag_region_4:n1",
+      "kind": "process",
+      "style": "solid",
+      "line_id": "L-109-A",
+      "stitch": false,
+      "path": [
+        {
+          "x": 440,
+          "y": 181.0
+        },
+        {
+          "x": 445,
+          "y": 181.0
+        }
+      ]
+    },
+    {
+      "edge_id": "pe_10",
+      "from": "rfrag_region_5:n0",
+      "to": "rfrag_region_5:n1",
+      "kind": "process",
+      "style": "solid",
+      "line_id": "L-111-A",
+      "stitch": false,
+      "path": [
+        {
+          "x": 540,
+          "y": 181.0
+        },
+        {
+          "x": 545,
+          "y": 181.0
+        }
+      ]
+    },
+    {
+      "edge_id": "pe_11",
+      "from": "rfrag_region_6:n0",
+      "to": "rfrag_region_6:n1",
+      "kind": "process",
+      "style": "solid",
+      "line_id": "L-113-A",
+      "stitch": false,
+      "path": [
+        {
+          "x": 635,
+          "y": 186.0
+        },
+        {
+          "x": 640,
+          "y": 186.0
+        }
+      ]
+    },
+    {
+      "edge_id": "pe_12",
+      "from": "rfrag_region_6:n1",
+      "to": "rfrag_region_6:n2",
+      "kind": "process",
+      "style": "solid",
+      "line_id": "L-114-A",
+      "stitch": false,
+      "path": [
+        {
+          "x": 662,
+          "y": 186.0
+        },
+        {
+          "x": 670,
+          "y": 186.0
+        }
+      ]
+    },
+    {
+      "edge_id": "pe_13",
+      "from": "rfrag_region_7:n0",
+      "to": "rfrag_region_7:n1",
+      "kind": "process",
+      "style": "solid",
+      "line_id": "L-115-A",
+      "stitch": false,
+      "path": [
+        {
+          "x": 465,
+          "y": 56.0
+        },
+        {
+          "x": 470,
+          "y": 56.0
+        }
+      ]
+    },
+    {
+      "edge_id": "pe_14",
+      "from": "rfrag_region_7:n1",
+      "to": "rfrag_region_7:n2",
+      "kind": "process",
+      "style": "solid",
+      "line_id": "L-116-A",
+      "stitch": false,
+      "path": [
+        {
+          "x": 492,
+          "y": 56.0
+        },
+        {
+          "x": 500,
+          "y": 56.0
+        }
+      ]
+    },
+    {
+      "edge_id": "pe_15",
+      "from": "rfrag_region_8:n0",
+      "to": "rfrag_region_8:n1",
+      "kind": "process",
+      "style": "solid",
+      "line_id": "L-117-A",
+      "stitch": false,
+      "path": [
+        {
+          "x": 85,
+          "y": 101.0
+        },
+        {
+          "x": 90,
+          "y": 101.0
+        }
+      ]
+    },
+    {
+      "edge_id": "pe_16",
+      "from": "rfrag_region_8:n1",
+      "to": "rfrag_region_8:n2",
+      "kind": "process",
+      "style": "solid",
+      "line_id": "L-118-A",
+      "stitch": false,
+      "path": [
+        {
+          "x": 112,
+          "y": 101.0
+        },
+        {
+          "x": 120,
+          "y": 101.0
+        }
+      ]
+    },
+    {
+      "edge_id": "pe_17",
+      "from": "rfrag_region_9:n0",
+      "to": "rfrag_region_9:n1",
+      "kind": "process",
+      "style": "solid",
+      "line_id": "L-119-A",
+      "stitch": false,
+      "path": [
+        {
+          "x": 85,
+          "y": 141.0
+        },
+        {
+          "x": 90,
+          "y": 141.0
+        }
+      ]
+    },
+    {
+      "edge_id": "pe_18",
+      "from": "rfrag_region_9:n1",
+      "to": "rfrag_region_9:n2",
+      "kind": "process",
+      "style": "solid",
+      "line_id": "L-120-A",
+      "stitch": false,
+      "path": [
+        {
+          "x": 112,
+          "y": 141.0
+        },
+        {
+          "x": 120,
+          "y": 141.0
+        }
+      ]
+    },
+    {
+      "edge_id": "pe_19",
+      "from": "rfrag_region_10:n0",
+      "to": "rfrag_region_10:n1",
+      "kind": "process",
+      "style": "solid",
+      "line_id": "L-121-A",
+      "stitch": false,
+      "path": [
+        {
+          "x": 67,
+          "y": 284.0
+        },
+        {
+          "x": 70,
+          "y": 281.0
+        }
+      ]
+    },
+    {
+      "edge_id": "pe_20",
+      "from": "rfrag_region_10:n1",
+      "to": "rfrag_region_10:n2",
+      "kind": "process",
+      "style": "solid",
+      "line_id": "L-121-A",
+      "stitch": false,
+      "path": [
+        {
+          "x": 110,
+          "y": 281.0
+        },
+        {
+          "x": 120,
+          "y": 285.0
+        }
+      ]
+    },
+    {
+      "edge_id": "pe_21",
+      "from": "rfrag_region_10:n2",
+      "to": "rfrag_region_10:n3",
+      "kind": "process",
+      "style": "solid",
+      "line_id": null,
+      "stitch": false,
+      "path": [
+        {
+          "x": 200,
+          "y": 285.0
+        },
+        {
+          "x": 205,
+          "y": 284.0
+        }
+      ]
+    },
+    {
+      "edge_id": "pe_22",
+      "from": "rfrag_region_11:n0",
+      "to": "rfrag_region_11:n1",
+      "kind": "process",
+      "style": "solid",
+      "line_id": "L-122-A",
+      "stitch": false,
+      "path": [
+        {
+          "x": 350,
+          "y": 261.0
+        },
+        {
+          "x": 355,
+          "y": 261.0
+        }
+      ]
+    },
+    {
+      "edge_id": "pe_23",
+      "from": "rfrag_region_12:n0",
+      "to": "rfrag_region_12:n1",
+      "kind": "process",
+      "style": "solid",
+      "line_id": "L-124-A",
+      "stitch": false,
+      "path": [
+        {
+          "x": 450,
+          "y": 266.0
+        },
+        {
+          "x": 455,
+          "y": 266.0
+        }
+      ]
+    },
+    {
+      "edge_id": "pe_24",
+      "from": "rfrag_region_12:n1",
+      "to": "rfrag_region_12:n2",
+      "kind": "process",
+      "style": "solid",
+      "line_id": "L-125-A",
+      "stitch": false,
+      "path": [
+        {
+          "x": 477,
+          "y": 266.0
+        },
+        {
+          "x": 485,
+          "y": 266.0
+        }
+      ]
+    },
+    {
+      "edge_id": "pe_25",
+      "from": "rfrag_region_13:n0",
+      "to": "rfrag_region_13:n1",
+      "kind": "process",
+      "style": "solid",
+      "line_id": "L-126-A",
+      "stitch": false,
+      "path": [
+        {
+          "x": 335,
+          "y": 56.0
+        },
+        {
+          "x": 340,
+          "y": 56.0
+        }
+      ]
+    },
+    {
+      "edge_id": "pe_26",
+      "from": "rfrag_region_13:n1",
+      "to": "rfrag_region_13:n2",
+      "kind": "process",
+      "style": "solid",
+      "line_id": "L-127-A",
+      "stitch": false,
+      "path": [
+        {
+          "x": 362,
+          "y": 56.0
+        },
+        {
+          "x": 370,
+          "y": 56.0
+        }
+      ]
+    },
+    {
+      "edge_id": "pe_27",
+      "from": "rfrag_region_14:n0",
+      "to": "rfrag_region_14:n1",
+      "kind": "process",
+      "style": "solid",
+      "line_id": "L-128-A",
+      "stitch": false,
+      "path": [
+        {
+          "x": 590,
+          "y": 101.0
+        },
+        {
+          "x": 595,
+          "y": 101.0
+        }
+      ]
+    },
+    {
+      "edge_id": "pe_28",
+      "from": "rfrag_region_14:n1",
+      "to": "rfrag_region_14:n2",
+      "kind": "process",
+      "style": "solid",
+      "line_id": "L-129-A",
+      "stitch": false,
+      "path": [
+        {
+          "x": 617,
+          "y": 101.0
+        },
+        {
+          "x": 625,
+          "y": 101.0
+        }
+      ]
+    },
+    {
+      "edge_id": "pe_29",
+      "from": "rfrag_region_15:n0",
+      "to": "rfrag_region_15:n1",
+      "kind": "process",
+      "style": "solid",
+      "line_id": "L-130-A",
+      "stitch": false,
+      "path": [
+        {
+          "x": 575,
+          "y": 261.0
+        },
+        {
+          "x": 580,
+          "y": 261.0
+        }
+      ]
+    },
+    {
+      "edge_id": "pe_30",
+      "from": "rfrag_region_16:n0",
+      "to": "rfrag_region_16:n1",
+      "kind": "process",
+      "style": "solid",
+      "line_id": "L-132-A",
+      "stitch": false,
+      "path": [
+        {
+          "x": 335,
+          "y": 101.0
+        },
+        {
+          "x": 340,
+          "y": 101.0
+        }
+      ]
+    },
+    {
+      "edge_id": "pe_31",
+      "from": "rfrag_region_16:n1",
+      "to": "rfrag_region_16:n2",
+      "kind": "process",
+      "style": "solid",
+      "line_id": "L-133-A",
+      "stitch": false,
+      "path": [
+        {
+          "x": 362,
+          "y": 101.0
+        },
+        {
+          "x": 370,
+          "y": 101.0
+        }
+      ]
+    },
+    {
+      "edge_id": "pe_32",
+      "from": "rfrag_region_17:n0",
+      "to": "rfrag_region_17:n1",
+      "kind": "process",
+      "style": "solid",
+      "line_id": "L-134-A",
+      "stitch": false,
+      "path": [
+        {
+          "x": 675,
+          "y": 261.0
+        },
+        {
+          "x": 680,
+          "y": 261.0
+        }
+      ]
+    },
+    {
+      "edge_id": "pe_33",
+      "from": "rfrag_region_18:n0",
+      "to": "rfrag_region_18:n1",
+      "kind": "process",
+      "style": "solid",
+      "line_id": "L-136-A",
+      "stitch": false,
+      "path": [
+        {
+          "x": 85,
+          "y": 381.0
+        },
+        {
+          "x": 90,
+          "y": 381.0
+        }
+      ]
+    },
+    {
+      "edge_id": "pe_34",
+      "from": "rfrag_region_18:n1",
+      "to": "rfrag_region_18:n2",
+      "kind": "process",
+      "style": "solid",
+      "line_id": "L-137-A",
+      "stitch": false,
+      "path": [
+        {
+          "x": 112,
+          "y": 381.0
+        },
+        {
+          "x": 120,
+          "y": 381.0
+        }
+      ]
+    },
+    {
+      "edge_id": "pe_35",
+      "from": "rfrag_region_19:n0",
+      "to": "rfrag_region_19:n1",
+      "kind": "process",
+      "style": "solid",
+      "line_id": "L-138-A",
+      "stitch": false,
+      "path": [
+        {
+          "x": 210,
+          "y": 376.0
+        },
+        {
+          "x": 215,
+          "y": 376.0
+        }
+      ]
+    },
+    {
+      "edge_id": "pe_36",
+      "from": "rfrag_region_20:n0",
+      "to": "rfrag_region_20:n1",
+      "kind": "process",
+      "style": "solid",
+      "line_id": "L-140-A",
+      "stitch": false,
+      "path": [
+        {
+          "x": 310,
+          "y": 376.0
+        },
+        {
+          "x": 315,
+          "y": 376.0
+        }
+      ]
+    },
+    {
+      "edge_id": "pe_37",
+      "from": "rfrag_region_21:n0",
+      "to": "rfrag_region_21:n1",
+      "kind": "process",
+      "style": "solid",
+      "line_id": "L-142-A",
+      "stitch": false,
+      "path": [
+        {
+          "x": 335,
+          "y": 141.0
+        },
+        {
+          "x": 340,
+          "y": 141.0
+        }
+      ]
+    },
+    {
+      "edge_id": "pe_38",
+      "from": "rfrag_region_21:n1",
+      "to": "rfrag_region_21:n2",
+      "kind": "process",
+      "style": "solid",
+      "line_id": "L-143-A",
+      "stitch": false,
+      "path": [
+        {
+          "x": 362,
+          "y": 141.0
+        },
+        {
+          "x": 370,
+          "y": 141.0
+        }
+      ]
+    },
+    {
+      "edge_id": "pe_39",
+      "from": "rfrag_region_22:n0",
+      "to": "rfrag_region_22:n1",
+      "kind": "process",
+      "style": "solid",
+      "line_id": "L-144-A",
+      "stitch": false,
+      "path": [
+        {
+          "x": 410,
+          "y": 381.0
+        },
+        {
+          "x": 415,
+          "y": 381.0
+        }
+      ]
+    },
+    {
+      "edge_id": "pe_40",
+      "from": "rfrag_region_22:n1",
+      "to": "rfrag_region_22:n2",
+      "kind": "process",
+      "style": "solid",
+      "line_id": "L-145-A",
+      "stitch": false,
+      "path": [
+        {
+          "x": 437,
+          "y": 381.0
+        },
+        {
+          "x": 445,
+          "y": 381.0
+        }
+      ]
+    },
+    {
+      "edge_id": "pe_41",
+      "from": "rfrag_region_23:n0",
+      "to": "rfrag_region_23:n1",
+      "kind": "process",
+      "style": "solid",
+      "line_id": "L-146-A",
+      "stitch": false,
+      "path": [
+        {
+          "x": 535,
+          "y": 376.0
+        },
+        {
+          "x": 540,
+          "y": 376.0
+        }
+      ]
+    },
+    {
+      "edge_id": "pe_42",
+      "from": "rfrag_region_24:n0",
+      "to": "rfrag_region_24:n1",
+      "kind": "process",
+      "style": "solid",
+      "line_id": "L-148-A",
+      "stitch": false,
+      "path": [
+        {
+          "x": 715,
+          "y": 56.0
+        },
+        {
+          "x": 720,
+          "y": 56.0
+        }
+      ]
+    },
+    {
+      "edge_id": "pe_43",
+      "from": "rfrag_region_24:n1",
+      "to": "rfrag_region_24:n2",
+      "kind": "process",
+      "style": "solid",
+      "line_id": "L-149-A",
+      "stitch": false,
+      "path": [
+        {
+          "x": 742,
+          "y": 56.0
+        },
+        {
+          "x": 750,
+          "y": 56.0
+        }
+      ]
+    },
+    {
+      "edge_id": "pe_44",
+      "from": "cfrag_0:n0",
+      "to": "cfrag_0:n1",
+      "kind": "process",
+      "style": "solid",
+      "line_id": "L-150-A",
+      "stitch": false,
+      "path": [
+        {
+          "x": 210,
+          "y": 56.0
+        },
+        {
+          "x": 215,
+          "y": 56.0
+        }
+      ]
+    },
+    {
+      "edge_id": "pe_45",
+      "from": "cfrag_0:n1",
+      "to": "cfrag_0:n2",
+      "kind": "process",
+      "style": "solid",
+      "line_id": "L-151-A",
+      "stitch": false,
+      "path": [
+        {
+          "x": 237,
+          "y": 56.0
+        },
+        {
+          "x": 245,
+          "y": 56.0
+        }
+      ]
+    },
+    {
+      "edge_id": "pe_46",
+      "from": "cfrag_1:n0",
+      "to": "cfrag_1:n1",
+      "kind": "process",
+      "style": "solid",
+      "line_id": "L-152-A",
+      "stitch": false,
+      "path": [
+        {
+          "x": 590,
+          "y": 56.0
+        },
+        {
+          "x": 595,
+          "y": 56.0
+        }
+      ]
+    },
+    {
+      "edge_id": "pe_47",
+      "from": "cfrag_1:n1",
+      "to": "cfrag_1:n2",
+      "kind": "process",
+      "style": "solid",
+      "line_id": "L-153-A",
+      "stitch": false,
+      "path": [
+        {
+          "x": 617,
+          "y": 56.0
+        },
+        {
+          "x": 625,
+          "y": 56.0
+        }
+      ]
+    },
+    {
+      "edge_id": "pe_48",
+      "from": "cfrag_2:n0",
+      "to": "cfrag_2:n1",
+      "kind": "process",
+      "style": "solid",
+      "line_id": "L-154-A",
+      "stitch": false,
+      "path": [
+        {
+          "x": 210,
+          "y": 101.0
+        },
+        {
+          "x": 215,
+          "y": 101.0
+        }
+      ]
+    },
+    {
+      "edge_id": "pe_49",
+      "from": "cfrag_2:n1",
+      "to": "cfrag_2:n2",
+      "kind": "process",
+      "style": "solid",
+      "line_id": "L-155-A",
+      "stitch": false,
+      "path": [
+        {
+          "x": 237,
+          "y": 101.0
+        },
+        {
+          "x": 245,
+          "y": 101.0
+        }
+      ]
+    },
+    {
+      "edge_id": "pe_50",
+      "from": "cfrag_3:n0",
+      "to": "cfrag_3:n1",
+      "kind": "process",
+      "style": "solid",
+      "line_id": "L-156-A",
+      "stitch": false,
+      "path": [
+        {
+          "x": 715,
+          "y": 101.0
+        },
+        {
+          "x": 720,
+          "y": 101.0
+        }
+      ]
+    },
+    {
+      "edge_id": "pe_51",
+      "from": "cfrag_3:n1",
+      "to": "cfrag_3:n2",
+      "kind": "process",
+      "style": "solid",
+      "line_id": "L-157-A",
+      "stitch": false,
+      "path": [
+        {
+          "x": 742,
+          "y": 101.0
+        },
+        {
+          "x": 750,
+          "y": 101.0
+        }
+      ]
+    },
+    {
+      "edge_id": "pe_52",
+      "from": "cfrag_4:n0",
+      "to": "cfrag_4:n1",
+      "kind": "process",
+      "style": "solid",
+      "line_id": "L-158-A",
+      "stitch": false,
+      "path": [
+        {
+          "x": 210,
+          "y": 141.0
+        },
+        {
+          "x": 215,
+          "y": 141.0
+        }
+      ]
+    },
+    {
+      "edge_id": "pe_53",
+      "from": "cfrag_4:n1",
+      "to": "cfrag_4:n2",
+      "kind": "process",
+      "style": "solid",
+      "line_id": "L-159-A",
+      "stitch": false,
+      "path": [
+        {
+          "x": 237,
+          "y": 141.0
+        },
+        {
+          "x": 245,
+          "y": 141.0
+        }
+      ]
+    },
+    {
+      "edge_id": "pe_54",
+      "from": "cfrag_5:n0",
+      "to": "cfrag_5:n1",
+      "kind": "process",
+      "style": "solid",
+      "line_id": "L-160-A",
+      "stitch": false,
+      "path": [
+        {
+          "x": 465,
+          "y": 101.0
+        },
+        {
+          "x": 470,
+          "y": 101.0
+        }
+      ]
+    },
+    {
+      "edge_id": "pe_55",
+      "from": "cfrag_5:n1",
+      "to": "cfrag_5:n2",
+      "kind": "process",
+      "style": "solid",
+      "line_id": "L-161-A",
+      "stitch": false,
+      "path": [
+        {
+          "x": 492,
+          "y": 101.0
+        },
+        {
+          "x": 500,
+          "y": 101.0
+        }
+      ]
+    },
+    {
+      "edge_id": "pe_56",
+      "from": "efrag_0:n0",
+      "to": "efrag_0:n1",
+      "kind": "process",
+      "style": "solid",
+      "line_id": null,
+      "stitch": false,
+      "path": [
+        {
+          "x": 75.0,
+          "y": 475
+        },
+        {
+          "x": 150.0,
+          "y": 425
+        }
+      ]
+    },
+    {
+      "edge_id": "pe_57",
+      "from": "efrag_0:n1",
+      "to": "efrag_0:n2",
+      "kind": "process",
+      "style": "solid",
+      "line_id": null,
+      "stitch": false,
+      "path": [
+        {
+          "x": 150.0,
+          "y": 485
+        },
+        {
+          "x": 225.0,
+          "y": 430
+        }
+      ]
+    },
+    {
+      "edge_id": "pe_58",
+      "from": "efrag_1:n0",
+      "to": "efrag_1:n1",
+      "kind": "process",
+      "style": "solid",
+      "line_id": null,
+      "stitch": false,
+      "path": [
+        {
+          "x": 270.0,
+          "y": 300
+        },
+        {
+          "x": 270.0,
+          "y": 305
+        }
+      ]
+    },
+    {
+      "edge_id": "pe_59",
+      "from": "efrag_2:n0",
+      "to": "efrag_2:n1",
+      "kind": "process",
+      "style": "solid",
+      "line_id": null,
+      "stitch": false,
+      "path": [
+        {
+          "x": 295.0,
+          "y": 470
+        },
+        {
+          "x": 360.0,
+          "y": 425
+        }
+      ]
+    },
+    {
+      "edge_id": "pe_60",
+      "from": "rfrag_region_1:n2",
+      "to": "cfrag_0:n0",
+      "kind": "process",
+      "style": "solid",
+      "line_id": "L-104-A",
+      "stitch": true,
+      "path": [
+        {
+          "x": 160,
+          "y": 56.0
+        },
+        {
+          "x": 165.0,
+          "y": 56.0
+        },
+        {
+          "x": 165.0,
+          "y": 56.0
+        },
+        {
+          "x": 170,
+          "y": 56.0
+        }
+      ]
+    },
+    {
+      "edge_id": "pe_61",
+      "from": "cfrag_0:n2",
+      "to": "rfrag_region_13:n0",
+      "kind": "process",
+      "style": "solid",
+      "line_id": "L-151-A",
+      "stitch": true,
+      "path": [
+        {
+          "x": 285,
+          "y": 56.0
+        },
+        {
+          "x": 290.0,
+          "y": 56.0
+        },
+        {
+          "x": 290.0,
+          "y": 56.0
+        },
+        {
+          "x": 295,
+          "y": 56.0
+        }
+      ]
+    },
+    {
+      "edge_id": "pe_62",
+      "from": "rfrag_region_7:n2",
+      "to": "cfrag_1:n0",
+      "kind": "process",
+      "style": "solid",
+      "line_id": "L-116-A",
+      "stitch": true,
+      "path": [
+        {
+          "x": 540,
+          "y": 56.0
+        },
+        {
+          "x": 545.0,
+          "y": 56.0
+        },
+        {
+          "x": 545.0,
+          "y": 56.0
+        },
+        {
+          "x": 550,
+          "y": 56.0
+        }
+      ]
+    },
+    {
+      "edge_id": "pe_63",
+      "from": "cfrag_1:n2",
+      "to": "rfrag_region_24:n0",
+      "kind": "process",
+      "style": "solid",
+      "line_id": "L-153-A",
+      "stitch": true,
+      "path": [
+        {
+          "x": 665,
+          "y": 56.0
+        },
+        {
+          "x": 670.0,
+          "y": 56.0
+        },
+        {
+          "x": 670.0,
+          "y": 56.0
+        },
+        {
+          "x": 675,
+          "y": 56.0
+        }
+      ]
+    },
+    {
+      "edge_id": "pe_64",
+      "from": "rfrag_region_8:n2",
+      "to": "cfrag_2:n0",
+      "kind": "process",
+      "style": "solid",
+      "line_id": "L-118-A",
+      "stitch": true,
+      "path": [
+        {
+          "x": 160,
+          "y": 101.0
+        },
+        {
+          "x": 165.0,
+          "y": 101.0
+        },
+        {
+          "x": 165.0,
+          "y": 101.0
+        },
+        {
+          "x": 170,
+          "y": 101.0
+        }
+      ]
+    },
+    {
+      "edge_id": "pe_65",
+      "from": "cfrag_2:n2",
+      "to": "rfrag_region_16:n0",
+      "kind": "process",
+      "style": "solid",
+      "line_id": "L-155-A",
+      "stitch": true,
+      "path": [
+        {
+          "x": 285,
+          "y": 101.0
+        },
+        {
+          "x": 290.0,
+          "y": 101.0
+        },
+        {
+          "x": 290.0,
+          "y": 101.0
+        },
+        {
+          "x": 295,
+          "y": 101.0
+        }
+      ]
+    },
+    {
+      "edge_id": "pe_66",
+      "from": "rfrag_region_8:n2",
+      "to": "cfrag_3:n0",
+      "kind": "process",
+      "style": "solid",
+      "line_id": "L-118-A",
+      "stitch": true,
+      "path": [
+        {
+          "x": 160,
+          "y": 101.0
+        },
+        {
+          "x": 417.5,
+          "y": 101.0
+        },
+        {
+          "x": 417.5,
+          "y": 101.0
+        },
+        {
+          "x": 675,
+          "y": 101.0
+        }
+      ]
+    },
+    {
+      "edge_id": "pe_67",
+      "from": "cfrag_3:n2",
+      "to": "rfrag_region_14:n0",
+      "kind": "process",
+      "style": "solid",
+      "line_id": "L-157-A",
+      "stitch": true,
+      "path": [
+        {
+          "x": 790,
+          "y": 101.0
+        },
+        {
+          "x": 670.0,
+          "y": 101.0
+        },
+        {
+          "x": 670.0,
+          "y": 101.0
+        },
+        {
+          "x": 550,
+          "y": 101.0
+        }
+      ]
+    },
+    {
+      "edge_id": "pe_68",
+      "from": "rfrag_region_9:n2",
+      "to": "cfrag_4:n0",
+      "kind": "process",
+      "style": "solid",
+      "line_id": "L-120-A",
+      "stitch": true,
+      "path": [
+        {
+          "x": 160,
+          "y": 141.0
+        },
+        {
+          "x": 165.0,
+          "y": 141.0
+        },
+        {
+          "x": 165.0,
+          "y": 141.0
+        },
+        {
+          "x": 170,
+          "y": 141.0
+        }
+      ]
+    },
+    {
+      "edge_id": "pe_69",
+      "from": "cfrag_4:n2",
+      "to": "rfrag_region_21:n0",
+      "kind": "process",
+      "style": "solid",
+      "line_id": "L-159-A",
+      "stitch": true,
+      "path": [
+        {
+          "x": 285,
+          "y": 141.0
+        },
+        {
+          "x": 290.0,
+          "y": 141.0
+        },
+        {
+          "x": 290.0,
+          "y": 141.0
+        },
+        {
+          "x": 295,
+          "y": 141.0
+        }
+      ]
+    },
+    {
+      "edge_id": "pe_70",
+      "from": "rfrag_region_14:n2",
+      "to": "cfrag_5:n0",
+      "kind": "process",
+      "style": "solid",
+      "line_id": "L-129-A",
+      "stitch": true,
+      "path": [
+        {
+          "x": 665,
+          "y": 101.0
+        },
+        {
+          "x": 545.0,
+          "y": 101.0
+        },
+        {
+          "x": 545.0,
+          "y": 101.0
+        },
+        {
+          "x": 425,
+          "y": 101.0
+        }
+      ]
+    },
+    {
+      "edge_id": "pe_71",
+      "from": "cfrag_5:n2",
+      "to": "rfrag_region_16:n0",
+      "kind": "process",
+      "style": "solid",
+      "line_id": "L-161-A",
+      "stitch": true,
+      "path": [
+        {
+          "x": 540,
+          "y": 101.0
+        },
+        {
+          "x": 417.5,
+          "y": 101.0
+        },
+        {
+          "x": 417.5,
+          "y": 101.0
+        },
+        {
+          "x": 295,
+          "y": 101.0
+        }
+      ]
+    },
+    {
+      "edge_id": "xe_0",
+      "from": "rfrag_region_0:n1",
+      "to": "rfrag_region_0:n1:drain",
+      "kind": "branch",
+      "style": "solid",
+      "signal_type": "branch",
+      "path": [
+        {
+          "x": 481.0,
+          "y": 141.0
+        },
+        {
+          "x": 481.0,
+          "y": 161.0
+        }
+      ]
+    },
+    {
+      "edge_id": "xe_1",
+      "from": "rfrag_region_1:n1",
+      "to": "rfrag_region_1:n1:drain",
+      "kind": "branch",
+      "style": "solid",
+      "signal_type": "branch",
+      "path": [
+        {
+          "x": 101.0,
+          "y": 56.0
+        },
+        {
+          "x": 101.0,
+          "y": 76.0
+        }
+      ]
+    },
+    {
+      "edge_id": "xe_2",
+      "from": "rfrag_region_3:n1",
+      "to": "rfrag_region_3:n1:pi",
+      "kind": "sense",
+      "style": "dashed",
+      "signal_type": "sense",
+      "path": [
+        {
+          "x": 130.0,
+          "y": 205.0
+        },
+        {
+          "x": 183.0,
+          "y": 181.0
+        }
+      ]
+    },
+    {
+      "edge_id": "xe_3",
+      "from": "rfrag_region_3:n1",
+      "to": "rfrag_region_3:n1:ti",
+      "kind": "sense",
+      "style": "dashed",
+      "signal_type": "sense",
+      "path": [
+        {
+          "x": 130.0,
+          "y": 205.0
+        },
+        {
+          "x": 183.0,
+          "y": 201.0
+        }
+      ]
+    },
+    {
+      "edge_id": "xe_4",
+      "from": "rfrag_region_3:n2",
+      "to": "rfrag_region_3:n2:pi",
+      "kind": "sense",
+      "style": "dashed",
+      "signal_type": "sense",
+      "path": [
+        {
+          "x": 215.0,
+          "y": 205.0
+        },
+        {
+          "x": 268.0,
+          "y": 181.0
+        }
+      ]
+    },
+    {
+      "edge_id": "xe_5",
+      "from": "rfrag_region_3:n2",
+      "to": "rfrag_region_3:n2:ti",
+      "kind": "sense",
+      "style": "dashed",
+      "signal_type": "sense",
+      "path": [
+        {
+          "x": 215.0,
+          "y": 205.0
+        },
+        {
+          "x": 268.0,
+          "y": 201.0
+        }
+      ]
+    },
+    {
+      "edge_id": "xe_6",
+      "from": "rfrag_region_3:n3",
+      "to": "rfrag_region_3:n3:pi",
+      "kind": "sense",
+      "style": "dashed",
+      "signal_type": "sense",
+      "path": [
+        {
+          "x": 300.0,
+          "y": 205.0
+        },
+        {
+          "x": 353.0,
+          "y": 181.0
+        }
+      ]
+    },
+    {
+      "edge_id": "xe_7",
+      "from": "rfrag_region_3:n3",
+      "to": "rfrag_region_3:n3:ti",
+      "kind": "sense",
+      "style": "dashed",
+      "signal_type": "sense",
+      "path": [
+        {
+          "x": 300.0,
+          "y": 205.0
+        },
+        {
+          "x": 353.0,
+          "y": 201.0
+        }
+      ]
+    },
+    {
+      "edge_id": "xe_8",
+      "from": "rfrag_region_6:n1",
+      "to": "rfrag_region_6:n1:drain",
+      "kind": "branch",
+      "style": "solid",
+      "signal_type": "branch",
+      "path": [
+        {
+          "x": 651.0,
+          "y": 186.0
+        },
+        {
+          "x": 651.0,
+          "y": 206.0
+        }
+      ]
+    },
+    {
+      "edge_id": "xe_9",
+      "from": "rfrag_region_7:n1",
+      "to": "rfrag_region_7:n1:drain",
+      "kind": "branch",
+      "style": "solid",
+      "signal_type": "branch",
+      "path": [
+        {
+          "x": 481.0,
+          "y": 56.0
+        },
+        {
+          "x": 481.0,
+          "y": 76.0
+        }
+      ]
+    },
+    {
+      "edge_id": "xe_10",
+      "from": "rfrag_region_8:n1",
+      "to": "rfrag_region_8:n1:drain",
+      "kind": "branch",
+      "style": "solid",
+      "signal_type": "branch",
+      "path": [
+        {
+          "x": 101.0,
+          "y": 101.0
+        },
+        {
+          "x": 101.0,
+          "y": 121.0
+        }
+      ]
+    },
+    {
+      "edge_id": "xe_11",
+      "from": "rfrag_region_9:n1",
+      "to": "rfrag_region_9:n1:drain",
+      "kind": "branch",
+      "style": "solid",
+      "signal_type": "branch",
+      "path": [
+        {
+          "x": 101.0,
+          "y": 141.0
+        },
+        {
+          "x": 101.0,
+          "y": 161.0
+        }
+      ]
+    },
+    {
+      "edge_id": "xe_12",
+      "from": "rfrag_region_10:n0:fc",
+      "to": "rfrag_region_10:n0:act",
+      "kind": "signal",
+      "style": "dashed",
+      "signal_type": "signal",
+      "path": [
+        {
+          "x": 55.0,
+          "y": 238.0
+        },
+        {
+          "x": 56.0,
+          "y": 256.0
+        }
+      ]
+    },
+    {
+      "edge_id": "xe_13",
+      "from": "rfrag_region_10:n0:act",
+      "to": "rfrag_region_10:n0",
+      "kind": "mechanical",
+      "style": "solid",
+      "signal_type": "mechanical",
+      "path": [
+        {
+          "x": 56.0,
+          "y": 256.0
+        },
+        {
+          "x": 56.0,
+          "y": 284.0
+        }
+      ]
+    },
+    {
+      "edge_id": "xe_14",
+      "from": "rfrag_region_10:n2",
+      "to": "rfrag_region_10:n2:pi",
+      "kind": "sense",
+      "style": "dashed",
+      "signal_type": "sense",
+      "path": [
+        {
+          "x": 160.0,
+          "y": 285.0
+        },
+        {
+          "x": 213.0,
+          "y": 261.0
+        }
+      ]
+    },
+    {
+      "edge_id": "xe_15",
+      "from": "rfrag_region_10:n2",
+      "to": "rfrag_region_10:n2:ti",
+      "kind": "sense",
+      "style": "dashed",
+      "signal_type": "sense",
+      "path": [
+        {
+          "x": 160.0,
+          "y": 285.0
+        },
+        {
+          "x": 213.0,
+          "y": 281.0
+        }
+      ]
+    },
+    {
+      "edge_id": "xe_16",
+      "from": "rfrag_region_10:n3:fc",
+      "to": "rfrag_region_10:n3:act",
+      "kind": "signal",
+      "style": "dashed",
+      "signal_type": "signal",
+      "path": [
+        {
+          "x": 215.0,
+          "y": 238.0
+        },
+        {
+          "x": 216.0,
+          "y": 256.0
+        }
+      ]
+    },
+    {
+      "edge_id": "xe_17",
+      "from": "rfrag_region_10:n3:act",
+      "to": "rfrag_region_10:n3",
+      "kind": "mechanical",
+      "style": "solid",
+      "signal_type": "mechanical",
+      "path": [
+        {
+          "x": 216.0,
+          "y": 256.0
+        },
+        {
+          "x": 216.0,
+          "y": 284.0
+        }
+      ]
+    },
+    {
+      "edge_id": "xe_18",
+      "from": "rfrag_region_12:n1",
+      "to": "rfrag_region_12:n1:drain",
+      "kind": "branch",
+      "style": "solid",
+      "signal_type": "branch",
+      "path": [
+        {
+          "x": 466.0,
+          "y": 266.0
+        },
+        {
+          "x": 466.0,
+          "y": 286.0
+        }
+      ]
+    },
+    {
+      "edge_id": "xe_19",
+      "from": "rfrag_region_13:n1",
+      "to": "rfrag_region_13:n1:drain",
+      "kind": "branch",
+      "style": "solid",
+      "signal_type": "branch",
+      "path": [
+        {
+          "x": 351.0,
+          "y": 56.0
+        },
+        {
+          "x": 351.0,
+          "y": 76.0
+        }
+      ]
+    },
+    {
+      "edge_id": "xe_20",
+      "from": "rfrag_region_14:n1",
+      "to": "rfrag_region_14:n1:drain",
+      "kind": "branch",
+      "style": "solid",
+      "signal_type": "branch",
+      "path": [
+        {
+          "x": 606.0,
+          "y": 101.0
+        },
+        {
+          "x": 606.0,
+          "y": 121.0
+        }
+      ]
+    },
+    {
+      "edge_id": "xe_21",
+      "from": "rfrag_region_16:n1",
+      "to": "rfrag_region_16:n1:drain",
+      "kind": "branch",
+      "style": "solid",
+      "signal_type": "branch",
+      "path": [
+        {
+          "x": 351.0,
+          "y": 101.0
+        },
+        {
+          "x": 351.0,
+          "y": 121.0
+        }
+      ]
+    },
+    {
+      "edge_id": "xe_22",
+      "from": "rfrag_region_18:n1",
+      "to": "rfrag_region_18:n1:drain",
+      "kind": "branch",
+      "style": "solid",
+      "signal_type": "branch",
+      "path": [
+        {
+          "x": 101.0,
+          "y": 381.0
+        },
+        {
+          "x": 101.0,
+          "y": 401.0
+        }
+      ]
+    },
+    {
+      "edge_id": "xe_23",
+      "from": "rfrag_region_21:n1",
+      "to": "rfrag_region_21:n1:drain",
+      "kind": "branch",
+      "style": "solid",
+      "signal_type": "branch",
+      "path": [
+        {
+          "x": 351.0,
+          "y": 141.0
+        },
+        {
+          "x": 351.0,
+          "y": 161.0
+        }
+      ]
+    },
+    {
+      "edge_id": "xe_24",
+      "from": "rfrag_region_22:n1",
+      "to": "rfrag_region_22:n1:drain",
+      "kind": "branch",
+      "style": "solid",
+      "signal_type": "branch",
+      "path": [
+        {
+          "x": 426.0,
+          "y": 381.0
+        },
+        {
+          "x": 426.0,
+          "y": 401.0
+        }
+      ]
+    },
+    {
+      "edge_id": "xe_25",
+      "from": "rfrag_region_24:n1",
+      "to": "rfrag_region_24:n1:drain",
+      "kind": "branch",
+      "style": "solid",
+      "signal_type": "branch",
+      "path": [
+        {
+          "x": 731.0,
+          "y": 56.0
+        },
+        {
+          "x": 731.0,
+          "y": 76.0
+        }
+      ]
+    },
+    {
+      "edge_id": "xe_26",
+      "from": "cfrag_0:n1",
+      "to": "cfrag_0:n1:drain",
+      "kind": "branch",
+      "style": "solid",
+      "signal_type": "branch",
+      "path": [
+        {
+          "x": 226.0,
+          "y": 56.0
+        },
+        {
+          "x": 226.0,
+          "y": 76.0
+        }
+      ]
+    },
+    {
+      "edge_id": "xe_27",
+      "from": "cfrag_1:n1",
+      "to": "cfrag_1:n1:drain",
+      "kind": "branch",
+      "style": "solid",
+      "signal_type": "branch",
+      "path": [
+        {
+          "x": 606.0,
+          "y": 56.0
+        },
+        {
+          "x": 606.0,
+          "y": 76.0
+        }
+      ]
+    },
+    {
+      "edge_id": "xe_28",
+      "from": "cfrag_2:n1",
+      "to": "cfrag_2:n1:drain",
+      "kind": "branch",
+      "style": "solid",
+      "signal_type": "branch",
+      "path": [
+        {
+          "x": 226.0,
+          "y": 101.0
+        },
+        {
+          "x": 226.0,
+          "y": 121.0
+        }
+      ]
+    },
+    {
+      "edge_id": "xe_29",
+      "from": "cfrag_3:n1",
+      "to": "cfrag_3:n1:drain",
+      "kind": "branch",
+      "style": "solid",
+      "signal_type": "branch",
+      "path": [
+        {
+          "x": 731.0,
+          "y": 101.0
+        },
+        {
+          "x": 731.0,
+          "y": 121.0
+        }
+      ]
+    },
+    {
+      "edge_id": "xe_30",
+      "from": "cfrag_4:n1",
+      "to": "cfrag_4:n1:drain",
+      "kind": "branch",
+      "style": "solid",
+      "signal_type": "branch",
+      "path": [
+        {
+          "x": 226.0,
+          "y": 141.0
+        },
+        {
+          "x": 226.0,
+          "y": 161.0
+        }
+      ]
+    },
+    {
+      "edge_id": "xe_31",
+      "from": "cfrag_5:n1",
+      "to": "cfrag_5:n1:drain",
+      "kind": "branch",
+      "style": "solid",
+      "signal_type": "branch",
+      "path": [
+        {
+          "x": 481.0,
+          "y": 101.0
+        },
+        {
+          "x": 481.0,
+          "y": 121.0
+        }
+      ]
+    },
+    {
+      "edge_id": "xe_32",
+      "from": "efrag_0:n0",
+      "to": "efrag_0:n0:pi",
+      "kind": "sense",
+      "style": "dashed",
+      "signal_type": "sense",
+      "path": [
+        {
+          "x": 75.0,
+          "y": 452.5
+        },
+        {
+          "x": 118.0,
+          "y": 436.0
+        }
+      ]
+    },
+    {
+      "edge_id": "xe_33",
+      "from": "efrag_0:n0",
+      "to": "efrag_0:n0:ti",
+      "kind": "sense",
+      "style": "dashed",
+      "signal_type": "sense",
+      "path": [
+        {
+          "x": 75.0,
+          "y": 452.5
+        },
+        {
+          "x": 118.0,
+          "y": 456.0
+        }
+      ]
+    },
+    {
+      "edge_id": "xe_34",
+      "from": "efrag_0:n1",
+      "to": "efrag_0:n1:pi",
+      "kind": "sense",
+      "style": "dashed",
+      "signal_type": "sense",
+      "path": [
+        {
+          "x": 150.0,
+          "y": 455.0
+        },
+        {
+          "x": 203.0,
+          "y": 431.0
+        }
+      ]
+    },
+    {
+      "edge_id": "xe_35",
+      "from": "efrag_0:n1",
+      "to": "efrag_0:n1:ti",
+      "kind": "sense",
+      "style": "dashed",
+      "signal_type": "sense",
+      "path": [
+        {
+          "x": 150.0,
+          "y": 455.0
+        },
+        {
+          "x": 203.0,
+          "y": 451.0
+        }
+      ]
+    },
+    {
+      "edge_id": "xe_36",
+      "from": "efrag_0:n2",
+      "to": "efrag_0:n2:pi",
+      "kind": "sense",
+      "style": "dashed",
+      "signal_type": "sense",
+      "path": [
+        {
+          "x": 225.0,
+          "y": 452.5
+        },
+        {
+          "x": 268.0,
+          "y": 436.0
+        }
+      ]
+    },
+    {
+      "edge_id": "xe_37",
+      "from": "efrag_0:n2",
+      "to": "efrag_0:n2:ti",
+      "kind": "sense",
+      "style": "dashed",
+      "signal_type": "sense",
+      "path": [
+        {
+          "x": 225.0,
+          "y": 452.5
+        },
+        {
+          "x": 268.0,
+          "y": 456.0
+        }
+      ]
+    },
+    {
+      "edge_id": "xe_38",
+      "from": "efrag_1:n0",
+      "to": "efrag_1:n0:pi",
+      "kind": "sense",
+      "style": "dashed",
+      "signal_type": "sense",
+      "path": [
+        {
+          "x": 270.0,
+          "y": 277.5
+        },
+        {
+          "x": 313.0,
+          "y": 261.0
+        }
+      ]
+    },
+    {
+      "edge_id": "xe_39",
+      "from": "efrag_1:n0",
+      "to": "efrag_1:n0:ti",
+      "kind": "sense",
+      "style": "dashed",
+      "signal_type": "sense",
+      "path": [
+        {
+          "x": 270.0,
+          "y": 277.5
+        },
+        {
+          "x": 313.0,
+          "y": 281.0
+        }
+      ]
+    },
+    {
+      "edge_id": "xe_40",
+      "from": "efrag_1:n1",
+      "to": "efrag_1:n1:pi",
+      "kind": "sense",
+      "style": "dashed",
+      "signal_type": "sense",
+      "path": [
+        {
+          "x": 270.0,
+          "y": 327.5
+        },
+        {
+          "x": 313.0,
+          "y": 311.0
+        }
+      ]
+    },
+    {
+      "edge_id": "xe_41",
+      "from": "efrag_1:n1",
+      "to": "efrag_1:n1:ti",
+      "kind": "sense",
+      "style": "dashed",
+      "signal_type": "sense",
+      "path": [
+        {
+          "x": 270.0,
+          "y": 327.5
+        },
+        {
+          "x": 313.0,
+          "y": 331.0
+        }
+      ]
+    },
+    {
+      "edge_id": "xe_42",
+      "from": "efrag_2:n0",
+      "to": "efrag_2:n0:pi",
+      "kind": "sense",
+      "style": "dashed",
+      "signal_type": "sense",
+      "path": [
+        {
+          "x": 295.0,
+          "y": 447.5
+        },
+        {
+          "x": 338.0,
+          "y": 431.0
+        }
+      ]
+    },
+    {
+      "edge_id": "xe_43",
+      "from": "efrag_2:n0",
+      "to": "efrag_2:n0:ti",
+      "kind": "sense",
+      "style": "dashed",
+      "signal_type": "sense",
+      "path": [
+        {
+          "x": 295.0,
+          "y": 447.5
+        },
+        {
+          "x": 338.0,
+          "y": 451.0
+        }
+      ]
+    },
+    {
+      "edge_id": "xe_44",
+      "from": "efrag_2:n1",
+      "to": "efrag_2:n1:pi",
+      "kind": "sense",
+      "style": "dashed",
+      "signal_type": "sense",
+      "path": [
+        {
+          "x": 360.0,
+          "y": 447.5
+        },
+        {
+          "x": 403.0,
+          "y": 431.0
+        }
+      ]
+    },
+    {
+      "edge_id": "xe_45",
+      "from": "efrag_2:n1",
+      "to": "efrag_2:n1:ti",
+      "kind": "sense",
+      "style": "dashed",
+      "signal_type": "sense",
+      "path": [
+        {
+          "x": 360.0,
+          "y": 447.5
+        },
+        {
+          "x": 403.0,
+          "y": 451.0
+        }
+      ]
+    }
+  ],
+  "groups": [
+    {
+      "group_id": "rfrag_region_0",
+      "group_type": "region_fragment",
+      "bounding_box": {
+        "x": 425,
+        "y": 130,
+        "w": 115,
+        "h": 38
+      }
+    },
+    {
+      "group_id": "rfrag_region_1",
+      "group_type": "region_fragment",
+      "bounding_box": {
+        "x": 45,
+        "y": 45,
+        "w": 115,
+        "h": 38
+      }
+    },
+    {
+      "group_id": "rfrag_region_2",
+      "group_type": "region_fragment",
+      "bounding_box": {
+        "x": 550,
+        "y": 130,
+        "w": 85,
+        "h": 12
+      }
+    },
+    {
+      "group_id": "rfrag_region_3",
+      "group_type": "region_fragment",
+      "bounding_box": {
+        "x": 45,
+        "y": 172,
+        "w": 340,
+        "h": 63
+      }
+    },
+    {
+      "group_id": "rfrag_region_4",
+      "group_type": "region_fragment",
+      "bounding_box": {
+        "x": 400,
+        "y": 175,
+        "w": 85,
+        "h": 12
+      }
+    },
+    {
+      "group_id": "rfrag_region_5",
+      "group_type": "region_fragment",
+      "bounding_box": {
+        "x": 500,
+        "y": 175,
+        "w": 85,
+        "h": 12
+      }
+    },
+    {
+      "group_id": "rfrag_region_6",
+      "group_type": "region_fragment",
+      "bounding_box": {
+        "x": 595,
+        "y": 175,
+        "w": 115,
+        "h": 38
+      }
+    },
+    {
+      "group_id": "rfrag_region_7",
+      "group_type": "region_fragment",
+      "bounding_box": {
+        "x": 425,
+        "y": 45,
+        "w": 115,
+        "h": 38
+      }
+    },
+    {
+      "group_id": "rfrag_region_8",
+      "group_type": "region_fragment",
+      "bounding_box": {
+        "x": 45,
+        "y": 90,
+        "w": 115,
+        "h": 38
+      }
+    },
+    {
+      "group_id": "rfrag_region_9",
+      "group_type": "region_fragment",
+      "bounding_box": {
+        "x": 45,
+        "y": 130,
+        "w": 115,
+        "h": 38
+      }
+    },
+    {
+      "group_id": "rfrag_region_10",
+      "group_type": "region_fragment",
+      "bounding_box": {
+        "x": 45,
+        "y": 229,
+        "w": 182,
+        "h": 86
+      }
+    },
+    {
+      "group_id": "rfrag_region_11",
+      "group_type": "region_fragment",
+      "bounding_box": {
+        "x": 310,
+        "y": 255,
+        "w": 85,
+        "h": 12
+      }
+    },
+    {
+      "group_id": "rfrag_region_12",
+      "group_type": "region_fragment",
+      "bounding_box": {
+        "x": 410,
+        "y": 255,
+        "w": 115,
+        "h": 38
+      }
+    },
+    {
+      "group_id": "rfrag_region_13",
+      "group_type": "region_fragment",
+      "bounding_box": {
+        "x": 295,
+        "y": 45,
+        "w": 115,
+        "h": 38
+      }
+    },
+    {
+      "group_id": "rfrag_region_14",
+      "group_type": "region_fragment",
+      "bounding_box": {
+        "x": 550,
+        "y": 90,
+        "w": 115,
+        "h": 38
+      }
+    },
+    {
+      "group_id": "rfrag_region_15",
+      "group_type": "region_fragment",
+      "bounding_box": {
+        "x": 535,
+        "y": 255,
+        "w": 85,
+        "h": 12
+      }
+    },
+    {
+      "group_id": "rfrag_region_16",
+      "group_type": "region_fragment",
+      "bounding_box": {
+        "x": 295,
+        "y": 90,
+        "w": 115,
+        "h": 38
+      }
+    },
+    {
+      "group_id": "rfrag_region_17",
+      "group_type": "region_fragment",
+      "bounding_box": {
+        "x": 635,
+        "y": 255,
+        "w": 85,
+        "h": 12
+      }
+    },
+    {
+      "group_id": "rfrag_region_18",
+      "group_type": "region_fragment",
+      "bounding_box": {
+        "x": 45,
+        "y": 370,
+        "w": 115,
+        "h": 38
+      }
+    },
+    {
+      "group_id": "rfrag_region_19",
+      "group_type": "region_fragment",
+      "bounding_box": {
+        "x": 170,
+        "y": 370,
+        "w": 85,
+        "h": 12
+      }
+    },
+    {
+      "group_id": "rfrag_region_20",
+      "group_type": "region_fragment",
+      "bounding_box": {
+        "x": 270,
+        "y": 370,
+        "w": 85,
+        "h": 12
+      }
+    },
+    {
+      "group_id": "rfrag_region_21",
+      "group_type": "region_fragment",
+      "bounding_box": {
+        "x": 295,
+        "y": 130,
+        "w": 115,
+        "h": 38
+      }
+    },
+    {
+      "group_id": "rfrag_region_22",
+      "group_type": "region_fragment",
+      "bounding_box": {
+        "x": 370,
+        "y": 370,
+        "w": 115,
+        "h": 38
+      }
+    },
+    {
+      "group_id": "rfrag_region_23",
+      "group_type": "region_fragment",
+      "bounding_box": {
+        "x": 495,
+        "y": 370,
+        "w": 85,
+        "h": 12
+      }
+    },
+    {
+      "group_id": "rfrag_region_24",
+      "group_type": "region_fragment",
+      "bounding_box": {
+        "x": 675,
+        "y": 45,
+        "w": 115,
+        "h": 38
+      }
+    },
+    {
+      "group_id": "cfrag_0",
+      "group_type": "connectivity_fragment",
+      "bounding_box": {
+        "x": 170,
+        "y": 45,
+        "w": 115,
+        "h": 38
+      }
+    },
+    {
+      "group_id": "cfrag_1",
+      "group_type": "connectivity_fragment",
+      "bounding_box": {
+        "x": 550,
+        "y": 45,
+        "w": 115,
+        "h": 38
+      }
+    },
+    {
+      "group_id": "cfrag_2",
+      "group_type": "connectivity_fragment",
+      "bounding_box": {
+        "x": 170,
+        "y": 90,
+        "w": 115,
+        "h": 38
+      }
+    },
+    {
+      "group_id": "cfrag_3",
+      "group_type": "connectivity_fragment",
+      "bounding_box": {
+        "x": 675,
+        "y": 90,
+        "w": 115,
+        "h": 38
+      }
+    },
+    {
+      "group_id": "cfrag_4",
+      "group_type": "connectivity_fragment",
+      "bounding_box": {
+        "x": 170,
+        "y": 130,
+        "w": 115,
+        "h": 38
+      }
+    },
+    {
+      "group_id": "cfrag_5",
+      "group_type": "connectivity_fragment",
+      "bounding_box": {
+        "x": 425,
+        "y": 90,
+        "w": 115,
+        "h": 38
+      }
+    },
+    {
+      "group_id": "efrag_0",
+      "group_type": "equipment_cluster",
+      "bounding_box": {
+        "x": 45,
+        "y": 422,
+        "w": 232,
+        "h": 63
+      }
+    },
+    {
+      "group_id": "efrag_1",
+      "group_type": "equipment_cluster",
+      "bounding_box": {
+        "x": 240,
+        "y": 252,
+        "w": 82,
+        "h": 98
+      }
+    },
+    {
+      "group_id": "efrag_2",
+      "group_type": "equipment_cluster",
+      "bounding_box": {
+        "x": 265,
+        "y": 422,
+        "w": 147,
+        "h": 48
+      }
+    }
+  ]
+}

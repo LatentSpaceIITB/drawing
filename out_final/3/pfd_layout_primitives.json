@@ -1,0 +1,1243 @@
+{
+  "metadata": {
+    "source_file": "pfd_macros.json",
+    "expansion_table_file": "expansion_table.json",
+    "primitive_vocabulary": [
+      "equipment_block",
+      "inlet_outlet",
+      "instrument",
+      "pipe_segment",
+      "pump",
+      "tank",
+      "valve"
+    ],
+    "generation_method": "deterministic",
+    "schema_version": "2"
+  },
+  "layout_primitives": [
+    {
+      "fragment_id": "rfrag_region_0",
+      "fragment_type": "region_fragment",
+      "macro_template": "ISOLATED_SEGMENT",
+      "layout_graph": {
+        "nodes": [
+          {
+            "id": "n0",
+            "type": "pipe_segment",
+            "flow_direction": "forward"
+          },
+          {
+            "id": "n1",
+            "type": "equipment_block"
+          },
+          {
+            "id": "n2",
+            "type": "pipe_segment",
+            "flow_direction": "forward"
+          }
+        ],
+        "edges": [
+          {
+            "from": "n0",
+            "to": "n1"
+          },
+          {
+            "from": "n1",
+            "to": "n2"
+          }
+        ]
+      },
+      "interfaces": {
+        "entry": "n0",
+        "exit": "n2"
+      }
+    },
+    {
+      "fragment_id": "rfrag_region_1",
+      "fragment_type": "region_fragment",
+      "macro_template": "CONTROLLED_TRANSFER",
+      "layout_graph": {
+        "nodes": [
+          {
+            "id": "n0",
+            "type": "valve",
+            "subtype": "control",
+            "control_loop": true
+          },
+          {
+            "id": "n1",
+            "type": "pipe_segment",
+            "flow_direction": "forward"
+          },
+          {
+            "id": "n2",
+            "type": "equipment_block"
+          },
+          {
+            "id": "n3",
+            "type": "equipment_block"
+          },
+          {
+            "id": "n4",
+            "type": "equipment_block"
+          },
+          {
+            "id": "n5",
+            "type": "equipment_block"
+          },
+          {
+            "id": "n6",
+            "type": "equipment_block"
+          },
+          {
+            "id": "n7",
+            "type": "equipment_block"
+          },
+          {
+            "id": "n8",
+            "type": "equipment_block"
+          },
+          {
+            "id": "n9",
+            "type": "equipment_block"
+          },
+          {
+            "id": "n10",
+            "type": "equipment_block"
+          },
+          {
+            "id": "n11",
+            "type": "equipment_block"
+          },
+          {
+            "id": "n12",
+            "type": "equipment_block"
+          },
+          {
+            "id": "n13",
+            "type": "equipment_block"
+          },
+          {
+            "id": "n14",
+            "type": "equipment_block"
+          },
+          {
+            "id": "n15",
+            "type": "valve",
+            "subtype": "control",
+            "control_loop": true
+          }
+        ],
+        "edges": [
+          {
+            "from": "n0",
+            "to": "n1"
+          },
+          {
+            "from": "n1",
+            "to": "n2"
+          },
+          {
+            "from": "n2",
+            "to": "n3"
+          },
+          {
+            "from": "n3",
+            "to": "n4"
+          },
+          {
+            "from": "n4",
+            "to": "n5"
+          },
+          {
+            "from": "n5",
+            "to": "n6"
+          },
+          {
+            "from": "n6",
+            "to": "n7"
+          },
+          {
+            "from": "n7",
+            "to": "n8"
+          },
+          {
+            "from": "n8",
+            "to": "n9"
+          },
+          {
+            "from": "n9",
+            "to": "n10"
+          },
+          {
+            "from": "n10",
+            "to": "n11"
+          },
+          {
+            "from": "n11",
+            "to": "n12"
+          },
+          {
+            "from": "n12",
+            "to": "n13"
+          },
+          {
+            "from": "n13",
+            "to": "n14"
+          },
+          {
+            "from": "n14",
+            "to": "n15"
+          }
+        ]
+      },
+      "interfaces": {
+        "entry": "n0",
+        "exit": "n15"
+      }
+    },
+    {
+      "fragment_id": "rfrag_region_2",
+      "fragment_type": "region_fragment",
+      "macro_template": "LINEAR_TRANSFER",
+      "layout_graph": {
+        "nodes": [
+          {
+            "id": "n0",
+            "type": "pipe_segment",
+            "flow_direction": "forward"
+          },
+          {
+            "id": "n1",
+            "type": "equipment_block"
+          },
+          {
+            "id": "n2",
+            "type": "equipment_block"
+          },
+          {
+            "id": "n3",
+            "type": "equipment_block"
+          },
+          {
+            "id": "n4",
+            "type": "equipment_block"
+          },
+          {
+            "id": "n5",
+            "type": "equipment_block"
+          },
+          {
+            "id": "n6",
+            "type": "equipment_block"
+          },
+          {
+            "id": "n7",
+            "type": "equipment_block"
+          },
+          {
+            "id": "n8",
+            "type": "valve",
+            "subtype": "isolation",
+            "normally_open": true,
+            "fail_position": "closed"
+          },
+          {
+            "id": "n9",
+            "type": "pipe_segment",
+            "flow_direction": "forward"
+          }
+        ],
+        "edges": [
+          {
+            "from": "n0",
+            "to": "n1"
+          },
+          {
+            "from": "n1",
+            "to": "n2"
+          },
+          {
+            "from": "n2",
+            "to": "n3"
+          },
+          {
+            "from": "n3",
+            "to": "n4"
+          },
+          {
+            "from": "n4",
+            "to": "n5"
+          },
+          {
+            "from": "n5",
+            "to": "n6"
+          },
+          {
+            "from": "n6",
+            "to": "n7"
+          },
+          {
+            "from": "n7",
+            "to": "n8"
+          },
+          {
+            "from": "n8",
+            "to": "n9"
+          }
+        ]
+      },
+      "interfaces": {
+        "entry": "n0",
+        "exit": "n9"
+      }
+    },
+    {
+      "fragment_id": "rfrag_region_3",
+      "fragment_type": "region_fragment",
+      "macro_template": "LINEAR_TRANSFER",
+      "layout_graph": {
+        "nodes": [
+          {
+            "id": "n0",
+            "type": "pipe_segment",
+            "flow_direction": "forward"
+          },
+          {
+            "id": "n1",
+            "type": "valve",
+            "subtype": "isolation",
+            "normally_open": true,
+            "fail_position": "closed"
+          },
+          {
+            "id": "n2",
+            "type": "pipe_segment",
+            "flow_direction": "forward"
+          }
+        ],
+        "edges": [
+          {
+            "from": "n0",
+            "to": "n1"
+          },
+          {
+            "from": "n1",
+            "to": "n2"
+          }
+        ]
+      },
+      "interfaces": {
+        "entry": "n0",
+        "exit": "n2"
+      }
+    },
+    {
+      "fragment_id": "rfrag_region_4",
+      "fragment_type": "region_fragment",
+      "macro_template": "LINEAR_TRANSFER",
+      "layout_graph": {
+        "nodes": [
+          {
+            "id": "n0",
+            "type": "pipe_segment",
+            "flow_direction": "forward"
+          },
+          {
+            "id": "n1",
+            "type": "valve",
+            "subtype": "isolation",
+            "normally_open": true,
+            "fail_position": "closed"
+          },
+          {
+            "id": "n2",
+            "type": "pipe_segment",
+            "flow_direction": "forward"
+          }
+        ],
+        "edges": [
+          {
+            "from": "n0",
+            "to": "n1"
+          },
+          {
+            "from": "n1",
+            "to": "n2"
+          }
+        ]
+      },
+      "interfaces": {
+        "entry": "n0",
+        "exit": "n2"
+      }
+    },
+    {
+      "fragment_id": "rfrag_region_5",
+      "fragment_type": "region_fragment",
+      "macro_template": "ISOLATED_SEGMENT",
+      "layout_graph": {
+        "nodes": [
+          {
+            "id": "n0",
+            "type": "pipe_segment",
+            "flow_direction": "forward"
+          },
+          {
+            "id": "n1",
+            "type": "pipe_segment",
+            "flow_direction": "forward"
+          }
+        ],
+        "edges": [
+          {
+            "from": "n0",
+            "to": "n1"
+          }
+        ]
+      },
+      "interfaces": {
+        "entry": "n0",
+        "exit": "n1"
+      }
+    },
+    {
+      "fragment_id": "rfrag_region_6",
+      "fragment_type": "region_fragment",
+      "macro_template": "LINEAR_TRANSFER",
+      "layout_graph": {
+        "nodes": [
+          {
+            "id": "n0",
+            "type": "pipe_segment",
+            "flow_direction": "forward"
+          },
+          {
+            "id": "n1",
+            "type": "valve",
+            "subtype": "isolation",
+            "normally_open": true,
+            "fail_position": "closed"
+          },
+          {
+            "id": "n2",
+            "type": "pipe_segment",
+            "flow_direction": "forward"
+          }
+        ],
+        "edges": [
+          {
+            "from": "n0",
+            "to": "n1"
+          },
+          {
+            "from": "n1",
+            "to": "n2"
+          }
+        ]
+      },
+      "interfaces": {
+        "entry": "n0",
+        "exit": "n2"
+      }
+    },
+    {
+      "fragment_id": "rfrag_region_7",
+      "fragment_type": "region_fragment",
+      "macro_template": "ISOLATED_SEGMENT",
+      "layout_graph": {
+        "nodes": [
+          {
+            "id": "n0",
+            "type": "pipe_segment",
+            "flow_direction": "forward"
+          },
+          {
+            "id": "n1",
+            "type": "equipment_block"
+          },
+          {
+            "id": "n2",
+            "type": "pipe_segment",
+            "flow_direction": "forward"
+          }
+        ],
+        "edges": [
+          {
+            "from": "n0",
+            "to": "n1"
+          },
+          {
+            "from": "n1",
+            "to": "n2"
+          }
+        ]
+      },
+      "interfaces": {
+        "entry": "n0",
+        "exit": "n2"
+      }
+    },
+    {
+      "fragment_id": "rfrag_region_8",
+      "fragment_type": "region_fragment",
+      "macro_template": "LINEAR_TRANSFER",
+      "layout_graph": {
+        "nodes": [
+          {
+            "id": "n0",
+            "type": "pipe_segment",
+            "flow_direction": "forward"
+          },
+          {
+            "id": "n1",
+            "type": "valve",
+            "subtype": "isolation",
+            "normally_open": true,
+            "fail_position": "closed"
+          },
+          {
+            "id": "n2",
+            "type": "pipe_segment",
+            "flow_direction": "forward"
+          }
+        ],
+        "edges": [
+          {
+            "from": "n0",
+            "to": "n1"
+          },
+          {
+            "from": "n1",
+            "to": "n2"
+          }
+        ]
+      },
+      "interfaces": {
+        "entry": "n0",
+        "exit": "n2"
+      }
+    },
+    {
+      "fragment_id": "rfrag_region_9",
+      "fragment_type": "region_fragment",
+      "macro_template": "LINEAR_TRANSFER",
+      "layout_graph": {
+        "nodes": [
+          {
+            "id": "n0",
+            "type": "pipe_segment",
+            "flow_direction": "forward"
+          },
+          {
+            "id": "n1",
+            "type": "valve",
+            "subtype": "isolation",
+            "normally_open": true,
+            "fail_position": "closed"
+          },
+          {
+            "id": "n2",
+            "type": "pipe_segment",
+            "flow_direction": "forward"
+          }
+        ],
+        "edges": [
+          {
+            "from": "n0",
+            "to": "n1"
+          },
+          {
+            "from": "n1",
+            "to": "n2"
+          }
+        ]
+      },
+      "interfaces": {
+        "entry": "n0",
+        "exit": "n2"
+      }
+    },
+    {
+      "fragment_id": "rfrag_region_10",
+      "fragment_type": "region_fragment",
+      "macro_template": "LINEAR_TRANSFER",
+      "layout_graph": {
+        "nodes": [
+          {
+            "id": "n0",
+            "type": "pipe_segment",
+            "flow_direction": "forward"
+          },
+          {
+            "id": "n1",
+            "type": "valve",
+            "subtype": "isolation",
+            "normally_open": true,
+            "fail_position": "closed"
+          },
+          {
+            "id": "n2",
+            "type": "pipe_segment",
+            "flow_direction": "forward"
+          }
+        ],
+        "edges": [
+          {
+            "from": "n0",
+            "to": "n1"
+          },
+          {
+            "from": "n1",
+            "to": "n2"
+          }
+        ]
+      },
+      "interfaces": {
+        "entry": "n0",
+        "exit": "n2"
+      }
+    },
+    {
+      "fragment_id": "rfrag_region_11",
+      "fragment_type": "region_fragment",
+      "macro_template": "ISOLATED_SEGMENT",
+      "layout_graph": {
+        "nodes": [
+          {
+            "id": "n0",
+            "type": "pipe_segment",
+            "flow_direction": "forward"
+          },
+          {
+            "id": "n1",
+            "type": "equipment_block"
+          },
+          {
+            "id": "n2",
+            "type": "pipe_segment",
+            "flow_direction": "forward"
+          }
+        ],
+        "edges": [
+          {
+            "from": "n0",
+            "to": "n1"
+          },
+          {
+            "from": "n1",
+            "to": "n2"
+          }
+        ]
+      },
+      "interfaces": {
+        "entry": "n0",
+        "exit": "n2"
+      }
+    },
+    {
+      "fragment_id": "rfrag_region_12",
+      "fragment_type": "region_fragment",
+      "macro_template": "LINEAR_TRANSFER",
+      "layout_graph": {
+        "nodes": [
+          {
+            "id": "n0",
+            "type": "pipe_segment",
+            "flow_direction": "forward"
+          },
+          {
+            "id": "n1",
+            "type": "valve",
+            "subtype": "isolation",
+            "normally_open": true,
+            "fail_position": "closed"
+          },
+          {
+            "id": "n2",
+            "type": "pipe_segment",
+            "flow_direction": "forward"
+          }
+        ],
+        "edges": [
+          {
+            "from": "n0",
+            "to": "n1"
+          },
+          {
+            "from": "n1",
+            "to": "n2"
+          }
+        ]
+      },
+      "interfaces": {
+        "entry": "n0",
+        "exit": "n2"
+      }
+    },
+    {
+      "fragment_id": "rfrag_region_13",
+      "fragment_type": "region_fragment",
+      "macro_template": "LINEAR_TRANSFER",
+      "layout_graph": {
+        "nodes": [
+          {
+            "id": "n0",
+            "type": "pipe_segment",
+            "flow_direction": "forward"
+          },
+          {
+            "id": "n1",
+            "type": "valve",
+            "subtype": "isolation",
+            "normally_open": true,
+            "fail_position": "closed"
+          },
+          {
+            "id": "n2",
+            "type": "pipe_segment",
+            "flow_direction": "forward"
+          }
+        ],
+        "edges": [
+          {
+            "from": "n0",
+            "to": "n1"
+          },
+          {
+            "from": "n1",
+            "to": "n2"
+          }
+        ]
+      },
+      "interfaces": {
+        "entry": "n0",
+        "exit": "n2"
+      }
+    },
+    {
+      "fragment_id": "rfrag_region_14",
+      "fragment_type": "region_fragment",
+      "macro_template": "ISOLATED_SEGMENT",
+      "layout_graph": {
+        "nodes": [
+          {
+            "id": "n0",
+            "type": "pipe_segment",
+            "flow_direction": "forward"
+          },
+          {
+            "id": "n1",
+            "type": "equipment_block"
+          },
+          {
+            "id": "n2",
+            "type": "pipe_segment",
+            "flow_direction": "forward"
+          }
+        ],
+        "edges": [
+          {
+            "from": "n0",
+            "to": "n1"
+          },
+          {
+            "from": "n1",
+            "to": "n2"
+          }
+        ]
+      },
+      "interfaces": {
+        "entry": "n0",
+        "exit": "n2"
+      }
+    },
+    {
+      "fragment_id": "rfrag_region_15",
+      "fragment_type": "region_fragment",
+      "macro_template": "LINEAR_TRANSFER",
+      "layout_graph": {
+        "nodes": [
+          {
+            "id": "n0",
+            "type": "pipe_segment",
+            "flow_direction": "forward"
+          },
+          {
+            "id": "n1",
+            "type": "valve",
+            "subtype": "isolation",
+            "normally_open": true,
+            "fail_position": "closed"
+          },
+          {
+            "id": "n2",
+            "type": "pipe_segment",
+            "flow_direction": "forward"
+          }
+        ],
+        "edges": [
+          {
+            "from": "n0",
+            "to": "n1"
+          },
+          {
+            "from": "n1",
+            "to": "n2"
+          }
+        ]
+      },
+      "interfaces": {
+        "entry": "n0",
+        "exit": "n2"
+      }
+    },
+    {
+      "fragment_id": "cfrag_0",
+      "fragment_type": "connectivity_fragment",
+      "macro_template": "CONNECTIVITY_VALVE",
+      "layout_graph": {
+        "nodes": [
+          {
+            "id": "n0",
+            "type": "pipe_segment",
+            "flow_direction": "forward"
+          },
+          {
+            "id": "n1",
+            "type": "valve",
+            "subtype": "isolation",
+            "normally_open": true,
+            "fail_position": "closed"
+          },
+          {
+            "id": "n2",
+            "type": "pipe_segment",
+            "flow_direction": "forward"
+          }
+        ],
+        "edges": [
+          {
+            "from": "n0",
+            "to": "n1"
+          },
+          {
+            "from": "n1",
+            "to": "n2"
+          }
+        ]
+      },
+      "interfaces": {
+        "entry": "n0",
+        "exit": "n2"
+      },
+      "cross_fragment_edge": {
+        "from_fragment": "rfrag_region_1",
+        "to_fragment": "rfrag_region_10",
+        "via": "valve"
+      }
+    },
+    {
+      "fragment_id": "cfrag_1",
+      "fragment_type": "connectivity_fragment",
+      "macro_template": "CONNECTIVITY_VALVE",
+      "layout_graph": {
+        "nodes": [
+          {
+            "id": "n0",
+            "type": "pipe_segment",
+            "flow_direction": "forward"
+          },
+          {
+            "id": "n1",
+            "type": "valve",
+            "subtype": "isolation",
+            "normally_open": true,
+            "fail_position": "closed"
+          },
+          {
+            "id": "n2",
+            "type": "pipe_segment",
+            "flow_direction": "forward"
+          }
+        ],
+        "edges": [
+          {
+            "from": "n0",
+            "to": "n1"
+          },
+          {
+            "from": "n1",
+            "to": "n2"
+          }
+        ]
+      },
+      "interfaces": {
+        "entry": "n0",
+        "exit": "n2"
+      },
+      "cross_fragment_edge": {
+        "from_fragment": "rfrag_region_3",
+        "to_fragment": "rfrag_region_6",
+        "via": "valve"
+      }
+    },
+    {
+      "fragment_id": "efrag_0",
+      "fragment_type": "equipment_cluster_fragment",
+      "macro_template": "EQUIPMENT_CLUSTER",
+      "layout_graph": {
+        "nodes": [
+          {
+            "id": "n0",
+            "type": "equipment_block"
+          },
+          {
+            "id": "n1",
+            "type": "equipment_block"
+          },
+          {
+            "id": "n2",
+            "type": "equipment_block"
+          },
+          {
+            "id": "n3",
+            "type": "equipment_block"
+          },
+          {
+            "id": "n4",
+            "type": "equipment_block"
+          },
+          {
+            "id": "n5",
+            "type": "equipment_block"
+          },
+          {
+            "id": "n6",
+            "type": "equipment_block"
+          },
+          {
+            "id": "n7",
+            "type": "equipment_block"
+          },
+          {
+            "id": "n8",
+            "type": "equipment_block"
+          },
+          {
+            "id": "n9",
+            "type": "equipment_block"
+          },
+          {
+            "id": "n10",
+            "type": "equipment_block"
+          },
+          {
+            "id": "n11",
+            "type": "equipment_block"
+          },
+          {
+            "id": "n12",
+            "type": "equipment_block"
+          },
+          {
+            "id": "n13",
+            "type": "equipment_block"
+          },
+          {
+            "id": "n14",
+            "type": "equipment_block"
+          },
+          {
+            "id": "n15",
+            "type": "equipment_block"
+          },
+          {
+            "id": "n16",
+            "type": "equipment_block"
+          },
+          {
+            "id": "n17",
+            "type": "equipment_block"
+          },
+          {
+            "id": "n18",
+            "type": "equipment_block"
+          }
+        ],
+        "edges": [
+          {
+            "from": "n0",
+            "to": "n1"
+          },
+          {
+            "from": "n1",
+            "to": "n2"
+          },
+          {
+            "from": "n2",
+            "to": "n3"
+          },
+          {
+            "from": "n3",
+            "to": "n4"
+          },
+          {
+            "from": "n4",
+            "to": "n5"
+          },
+          {
+            "from": "n5",
+            "to": "n6"
+          },
+          {
+            "from": "n6",
+            "to": "n7"
+          },
+          {
+            "from": "n7",
+            "to": "n8"
+          },
+          {
+            "from": "n8",
+            "to": "n9"
+          },
+          {
+            "from": "n9",
+            "to": "n10"
+          },
+          {
+            "from": "n10",
+            "to": "n11"
+          },
+          {
+            "from": "n11",
+            "to": "n12"
+          },
+          {
+            "from": "n12",
+            "to": "n13"
+          },
+          {
+            "from": "n13",
+            "to": "n14"
+          },
+          {
+            "from": "n14",
+            "to": "n15"
+          },
+          {
+            "from": "n15",
+            "to": "n16"
+          },
+          {
+            "from": "n16",
+            "to": "n17"
+          },
+          {
+            "from": "n17",
+            "to": "n18"
+          }
+        ]
+      },
+      "interfaces": {
+        "entry": "n0",
+        "exit": "n18"
+      }
+    },
+    {
+      "fragment_id": "efrag_1",
+      "fragment_type": "equipment_cluster_fragment",
+      "macro_template": "EQUIPMENT_CLUSTER",
+      "layout_graph": {
+        "nodes": [
+          {
+            "id": "n0",
+            "type": "equipment_block"
+          },
+          {
+            "id": "n1",
+            "type": "equipment_block"
+          },
+          {
+            "id": "n2",
+            "type": "equipment_block"
+          },
+          {
+            "id": "n3",
+            "type": "equipment_block"
+          },
+          {
+            "id": "n4",
+            "type": "equipment_block"
+          },
+          {
+            "id": "n5",
+            "type": "equipment_block"
+          },
+          {
+            "id": "n6",
+            "type": "equipment_block"
+          }
+        ],
+        "edges": [
+          {
+            "from": "n0",
+            "to": "n1"
+          },
+          {
+            "from": "n1",
+            "to": "n2"
+          },
+          {
+            "from": "n2",
+            "to": "n3"
+          },
+          {
+            "from": "n3",
+            "to": "n4"
+          },
+          {
+            "from": "n4",
+            "to": "n5"
+          },
+          {
+            "from": "n5",
+            "to": "n6"
+          }
+        ]
+      },
+      "interfaces": {
+        "entry": "n0",
+        "exit": "n6"
+      }
+    },
+    {
+      "fragment_id": "efrag_2",
+      "fragment_type": "equipment_cluster_fragment",
+      "macro_template": "EQUIPMENT_CLUSTER",
+      "layout_graph": {
+        "nodes": [
+          {
+            "id": "n0",
+            "type": "equipment_block"
+          }
+        ],
+        "edges": []
+      },
+      "interfaces": {
+        "entry": "n0",
+        "exit": "n0"
+      }
+    },
+    {
+      "fragment_id": "efrag_3",
+      "fragment_type": "equipment_cluster_fragment",
+      "macro_template": "EQUIPMENT_CLUSTER",
+      "layout_graph": {
+        "nodes": [
+          {
+            "id": "n0",
+            "type": "equipment_block"
+          }
+        ],
+        "edges": []
+      },
+      "interfaces": {
+        "entry": "n0",
+        "exit": "n0"
+      }
+    },
+    {
+      "fragment_id": "efrag_4",
+      "fragment_type": "equipment_cluster_fragment",
+      "macro_template": "EQUIPMENT_CLUSTER",
+      "layout_graph": {
+        "nodes": [
+          {
+            "id": "n0",
+            "type": "equipment_block"
+          }
+        ],
+        "edges": []
+      },
+      "interfaces": {
+        "entry": "n0",
+        "exit": "n0"
+      }
+    },
+    {
+      "fragment_id": "efrag_5",
+      "fragment_type": "equipment_cluster_fragment",
+      "macro_template": "EQUIPMENT_CLUSTER",
+      "layout_graph": {
+        "nodes": [
+          {
+            "id": "n0",
+            "type": "equipment_block"
+          }
+        ],
+        "edges": []
+      },
+      "interfaces": {
+        "entry": "n0",
+        "exit": "n0"
+      }
+    },
+    {
+      "fragment_id": "pfrag_topo_group_0",
+      "fragment_type": "pattern_fragment",
+      "macro_template": "PATTERN_REF",
+      "layout_graph": {
+        "nodes": [],
+        "edges": []
+      },
+      "interfaces": {},
+      "pattern_ref": "pfrag_topo_group_0"
+    },
+    {
+      "fragment_id": "pfrag_topo_group_1",
+      "fragment_type": "pattern_fragment",
+      "macro_template": "PATTERN_REF",
+      "layout_graph": {
+        "nodes": [],
+        "edges": []
+      },
+      "interfaces": {},
+      "pattern_ref": "pfrag_topo_group_1"
+    },
+    {
+      "fragment_id": "pfrag_topo_group_2",
+      "fragment_type": "pattern_fragment",
+      "macro_template": "PATTERN_REF",
+      "layout_graph": {
+        "nodes": [],
+        "edges": []
+      },
+      "interfaces": {},
+      "pattern_ref": "pfrag_topo_group_2"
+    },
+    {
+      "fragment_id": "pfrag_valve_seq_0",
+      "fragment_type": "pattern_fragment",
+      "macro_template": "PATTERN_REF",
+      "layout_graph": {
+        "nodes": [],
+        "edges": []
+      },
+      "interfaces": {},
+      "pattern_ref": "pfrag_valve_seq_0"
+    },
+    {
+      "fragment_id": "pfrag_valve_seq_1",
+      "fragment_type": "pattern_fragment",
+      "macro_template": "PATTERN_REF",
+      "layout_graph": {
+        "nodes": [],
+        "edges": []
+      },
+      "interfaces": {},
+      "pattern_ref": "pfrag_valve_seq_1"
+    }
+  ]
+}

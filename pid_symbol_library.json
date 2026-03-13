@@ -1,0 +1,864 @@
+{
+  "schema_version": "2",
+  "standard": "ISO 10628-2 / ISO 14617 + ISA 5.1",
+  "coordinate_system": "top_left_origin_normalized",
+  "note": "All coords in [0,1]. Scaling: x_actual=x_norm*w, y_actual=y_norm*h, r_actual=r_norm*min(w,h). stroke_width is absolute (mm). Circle elements with bisect:true emit an additional chord line at cy.",
+  "resolution_rules": [
+    {
+      "match": {
+        "ntype": "valve:isolation",
+        "semantics.fail_position": "closed"
+      },
+      "symbol": "gate_valve_fc"
+    },
+    {
+      "match": {
+        "ntype": "valve:isolation",
+        "semantics.fail_position": "open"
+      },
+      "symbol": "gate_valve_fo"
+    },
+    {
+      "match": {
+        "ntype": "valve:isolation"
+      },
+      "symbol": "gate_valve"
+    },
+    {
+      "match": {
+        "ntype": "valve:control"
+      },
+      "symbol": "control_valve"
+    },
+    {
+      "match": {
+        "ntype": "valve:drain"
+      },
+      "symbol": "drain_valve"
+    },
+    {
+      "match": {
+        "ntype": "instrument:flow_meter"
+      },
+      "symbol": "flow_element"
+    },
+    {
+      "match": {
+        "ntype": "actuator:pneumatic"
+      },
+      "symbol": "diaphragm_actuator"
+    },
+    {
+      "match": {
+        "ntype": "instrument:controller"
+      },
+      "symbol": "controller_bubble"
+    },
+    {
+      "match": {
+        "ntype": "instrument:transmitter"
+      },
+      "symbol": "transmitter_bubble"
+    },
+    {
+      "match": {
+        "ntype": "instrument:pressure"
+      },
+      "symbol": "pressure_indicator"
+    },
+    {
+      "match": {
+        "ntype": "instrument:temperature"
+      },
+      "symbol": "temperature_indicator"
+    },
+    {
+      "match": {
+        "ntype": "instrument:level"
+      },
+      "symbol": "level_indicator"
+    },
+    {
+      "match": {
+        "ntype": "tank"
+      },
+      "symbol": "tank_horizontal"
+    },
+    {
+      "match": {
+        "ntype": "pump"
+      },
+      "symbol": "pump_centrifugal"
+    },
+    {
+      "match": {
+        "ntype": "inlet_outlet"
+      },
+      "symbol": "inlet_outlet_connector"
+    },
+    {
+      "match": {
+        "ntype": "motor:driver"
+      },
+      "symbol": "motor_driver"
+    },
+    {
+      "match": {
+        "ntype": "pipe_segment"
+      },
+      "symbol": "pipe_straight"
+    },
+    {
+      "match": {
+        "ntype": "equipment_block"
+      },
+      "symbol": "vessel"
+    }
+  ],
+  "symbols": {
+    "pipe_straight": {
+      "description": "Single-line pipe segment \u2014 ISO 10628-2 pipe representation",
+      "cv_discriminator": "1-D horizontal stroke at node centerline; no enclosed fill area",
+      "elements": [
+        {
+          "type": "line",
+          "x1": 0.0,
+          "y1": 0.5,
+          "x2": 1.0,
+          "y2": 0.5,
+          "stroke": "$stroke",
+          "stroke_width": 3.0
+        }
+      ]
+    },
+    "vessel": {
+      "description": "Equipment / process vessel \u2014 ISO 10628-2 generic equipment block with nozzle stripe",
+      "cv_discriminator": "Full rounded rect + internal horizontal stripe at 82% height distinguishes from plain box",
+      "elements": [
+        {
+          "type": "rect",
+          "x": 0.0,
+          "y": 0.0,
+          "w": 1.0,
+          "h": 1.0,
+          "fill": "$fill",
+          "stroke": "$stroke",
+          "stroke_width": 2.0,
+          "rx_norm": 0.05,
+          "ry_norm": 0.07
+        },
+        {
+          "type": "line",
+          "x1": 0.0,
+          "y1": 0.82,
+          "x2": 1.0,
+          "y2": 0.82,
+          "stroke": "$stroke",
+          "stroke_width": 0.8
+        }
+      ]
+    },
+    "gate_valve": {
+      "description": "Gate valve (generic) \u2014 ISO 10628-2 bowtie with stem; fallback for unknown fail position",
+      "cv_discriminator": "Bowtie topology: two outward-vertex triangles sharing centre vertex at (0.5, 0.5); stem to top edge",
+      "elements": [
+        {
+          "type": "polygon",
+          "points": [
+            [
+              0.0,
+              0.0
+            ],
+            [
+              0.5,
+              0.5
+            ],
+            [
+              0.0,
+              1.0
+            ]
+          ],
+          "fill": "$fill",
+          "stroke": "$stroke",
+          "stroke_width": 1.2
+        },
+        {
+          "type": "polygon",
+          "points": [
+            [
+              1.0,
+              0.0
+            ],
+            [
+              0.5,
+              0.5
+            ],
+            [
+              1.0,
+              1.0
+            ]
+          ],
+          "fill": "$fill",
+          "stroke": "$stroke",
+          "stroke_width": 1.2
+        },
+        {
+          "type": "line",
+          "x1": 0.5,
+          "y1": 0.5,
+          "x2": 0.5,
+          "y2": 0.0,
+          "stroke": "$stroke",
+          "stroke_width": 1.0
+        }
+      ]
+    },
+    "gate_valve_fc": {
+      "description": "Gate valve fail-closed \u2014 ISO 10628-2 bowtie + stem + horizontal FC bar across stem",
+      "cv_discriminator": "Bowtie + thick horizontal bar at y\u22480.07 spanning 0.25\u20130.75 width; bar = fail-closed indicator",
+      "elements": [
+        {
+          "type": "polygon",
+          "points": [
+            [
+              0.0,
+              0.0
+            ],
+            [
+              0.5,
+              0.5
+            ],
+            [
+              0.0,
+              1.0
+            ]
+          ],
+          "fill": "$fill",
+          "stroke": "$stroke",
+          "stroke_width": 1.2
+        },
+        {
+          "type": "polygon",
+          "points": [
+            [
+              1.0,
+              0.0
+            ],
+            [
+              0.5,
+              0.5
+            ],
+            [
+              1.0,
+              1.0
+            ]
+          ],
+          "fill": "$fill",
+          "stroke": "$stroke",
+          "stroke_width": 1.2
+        },
+        {
+          "type": "line",
+          "x1": 0.5,
+          "y1": 0.5,
+          "x2": 0.5,
+          "y2": 0.07,
+          "stroke": "$stroke",
+          "stroke_width": 1.0
+        },
+        {
+          "type": "line",
+          "x1": 0.25,
+          "y1": 0.07,
+          "x2": 0.75,
+          "y2": 0.07,
+          "stroke": "$stroke",
+          "stroke_width": 2.5
+        }
+      ]
+    },
+    "gate_valve_fo": {
+      "description": "Gate valve fail-open \u2014 ISO 10628-2 bowtie + stem + diagonal FO line near top",
+      "cv_discriminator": "Bowtie + diagonal line near top of stem; diagonal = fail-open indicator",
+      "elements": [
+        {
+          "type": "polygon",
+          "points": [
+            [
+              0.0,
+              0.0
+            ],
+            [
+              0.5,
+              0.5
+            ],
+            [
+              0.0,
+              1.0
+            ]
+          ],
+          "fill": "$fill",
+          "stroke": "$stroke",
+          "stroke_width": 1.2
+        },
+        {
+          "type": "polygon",
+          "points": [
+            [
+              1.0,
+              0.0
+            ],
+            [
+              0.5,
+              0.5
+            ],
+            [
+              1.0,
+              1.0
+            ]
+          ],
+          "fill": "$fill",
+          "stroke": "$stroke",
+          "stroke_width": 1.2
+        },
+        {
+          "type": "line",
+          "x1": 0.5,
+          "y1": 0.5,
+          "x2": 0.5,
+          "y2": 0.07,
+          "stroke": "$stroke",
+          "stroke_width": 1.0
+        },
+        {
+          "type": "line",
+          "x1": 0.25,
+          "y1": 0.12,
+          "x2": 0.75,
+          "y2": 0.02,
+          "stroke": "$stroke",
+          "stroke_width": 1.8
+        }
+      ]
+    },
+    "control_valve": {
+      "description": "Control valve with pneumatic diaphragm actuator \u2014 ISO 10628-2 three-part vertical stack",
+      "cv_discriminator": "Unique three-part stack: solid pneumatic triangle (top) / thick base bar (middle) / valve-body bowtie (bottom)",
+      "elements": [
+        {
+          "type": "polygon",
+          "points": [
+            [
+              0.0,
+              0.5
+            ],
+            [
+              0.5,
+              0.75
+            ],
+            [
+              0.0,
+              1.0
+            ]
+          ],
+          "fill": "$fill",
+          "stroke": "$stroke",
+          "stroke_width": 1.2
+        },
+        {
+          "type": "polygon",
+          "points": [
+            [
+              1.0,
+              0.5
+            ],
+            [
+              0.5,
+              0.75
+            ],
+            [
+              1.0,
+              1.0
+            ]
+          ],
+          "fill": "$fill",
+          "stroke": "$stroke",
+          "stroke_width": 1.2
+        },
+        {
+          "type": "line",
+          "x1": 0.5,
+          "y1": 0.75,
+          "x2": 0.5,
+          "y2": 0.35,
+          "stroke": "$stroke",
+          "stroke_width": 1.0
+        },
+        {
+          "type": "line",
+          "x1": 0.15,
+          "y1": 0.35,
+          "x2": 0.85,
+          "y2": 0.35,
+          "stroke": "$stroke",
+          "stroke_width": 2.5
+        },
+        {
+          "type": "polygon",
+          "points": [
+            [
+              0.2,
+              0.0
+            ],
+            [
+              0.8,
+              0.0
+            ],
+            [
+              0.5,
+              0.35
+            ]
+          ],
+          "fill": "$stroke",
+          "stroke": "$stroke",
+          "stroke_width": 0.8
+        }
+      ]
+    },
+    "drain_valve": {
+      "description": "Drain / blowdown valve \u2014 single downward-pointing equilateral triangle",
+      "cv_discriminator": "Apex-down orientation; single open triangle occupying full node height",
+      "elements": [
+        {
+          "type": "polygon",
+          "points": [
+            [
+              0.15,
+              0.0
+            ],
+            [
+              0.85,
+              0.0
+            ],
+            [
+              0.5,
+              1.0
+            ]
+          ],
+          "fill": "$fill",
+          "stroke": "$stroke",
+          "stroke_width": 1.2
+        }
+      ]
+    },
+    "flow_element": {
+      "description": "Orifice plate flow element \u2014 symmetrical plate pair flanking a pipe centerline with DP taps",
+      "cv_discriminator": "Two narrow filled vertical rects at x\u22480.28 and x\u22480.72 flanking a horizontal centerline; NOT a diamond",
+      "elements": [
+        {
+          "type": "line",
+          "x1": 0.0,
+          "y1": 0.5,
+          "x2": 1.0,
+          "y2": 0.5,
+          "stroke": "$stroke",
+          "stroke_width": 1.5
+        },
+        {
+          "type": "rect",
+          "x": 0.24,
+          "y": 0.22,
+          "w": 0.07,
+          "h": 0.56,
+          "fill": "$stroke",
+          "stroke": "$stroke",
+          "stroke_width": 0.5
+        },
+        {
+          "type": "rect",
+          "x": 0.69,
+          "y": 0.22,
+          "w": 0.07,
+          "h": 0.56,
+          "fill": "$stroke",
+          "stroke": "$stroke",
+          "stroke_width": 0.5
+        },
+        {
+          "type": "line",
+          "x1": 0.275,
+          "y1": 0.22,
+          "x2": 0.275,
+          "y2": 0.05,
+          "stroke": "$stroke",
+          "stroke_width": 0.9
+        },
+        {
+          "type": "line",
+          "x1": 0.725,
+          "y1": 0.22,
+          "x2": 0.725,
+          "y2": 0.05,
+          "stroke": "$stroke",
+          "stroke_width": 0.9
+        }
+      ]
+    },
+    "diaphragm_actuator": {
+      "description": "Standalone pneumatic diaphragm actuator \u2014 solid filled downward triangle + thick top bar",
+      "cv_discriminator": "Filled (solid) downward triangle + thick horizontal bar at top; distinct from all valve shapes",
+      "elements": [
+        {
+          "type": "polygon",
+          "points": [
+            [
+              0.1,
+              0.05
+            ],
+            [
+              0.9,
+              0.05
+            ],
+            [
+              0.5,
+              1.0
+            ]
+          ],
+          "fill": "$stroke",
+          "stroke": "$stroke",
+          "stroke_width": 0.8
+        },
+        {
+          "type": "line",
+          "x1": 0.05,
+          "y1": 0.05,
+          "x2": 0.95,
+          "y2": 0.05,
+          "stroke": "$stroke",
+          "stroke_width": 3.0
+        }
+      ]
+    },
+    "controller_bubble": {
+      "description": "ISA 5.1 instrument function bubble \u2014 circle + horizontal bisect line; upper half = tag label",
+      "cv_discriminator": "Circle with visible horizontal chord at cy; upper half holds tag letters; in-line with signal connections",
+      "elements": [
+        {
+          "type": "circle",
+          "cx": 0.5,
+          "cy": 0.5,
+          "r_norm": 0.44,
+          "fill": "$fill",
+          "stroke": "$stroke",
+          "stroke_width": 1.0,
+          "bisect": true,
+          "bisect_stroke_width": 0.7
+        }
+      ]
+    },
+    "transmitter_bubble": {
+      "description": "ISA 5.1 transmitter bubble \u2014 identical geometry to controller_bubble; differentiated by tag (FT vs FC)",
+      "cv_discriminator": "Circle + bisect line; tag content (FT-xxx) is the discriminator from controller_bubble (FC-xxx)",
+      "elements": [
+        {
+          "type": "circle",
+          "cx": 0.5,
+          "cy": 0.5,
+          "r_norm": 0.44,
+          "fill": "$fill",
+          "stroke": "$stroke",
+          "stroke_width": 1.0,
+          "bisect": true,
+          "bisect_stroke_width": 0.7
+        }
+      ]
+    },
+    "pressure_indicator": {
+      "description": "ISA 5.1 pressure indicator bubble \u2014 circle + bisect line; label = PI",
+      "cv_discriminator": "Circle + bisect line; PI label in upper half; fill colour distinguishes from other bubbles",
+      "elements": [
+        {
+          "type": "circle",
+          "cx": 0.5,
+          "cy": 0.5,
+          "r_norm": 0.44,
+          "fill": "$fill",
+          "stroke": "$stroke",
+          "stroke_width": 1.0,
+          "bisect": true,
+          "bisect_stroke_width": 0.7
+        }
+      ]
+    },
+    "temperature_indicator": {
+      "description": "ISA 5.1 temperature indicator bubble \u2014 circle + bisect line; label = TI",
+      "cv_discriminator": "Circle + bisect line; TI label in upper half; fill colour distinguishes from other bubbles",
+      "elements": [
+        {
+          "type": "circle",
+          "cx": 0.5,
+          "cy": 0.5,
+          "r_norm": 0.44,
+          "fill": "$fill",
+          "stroke": "$stroke",
+          "stroke_width": 1.0,
+          "bisect": true,
+          "bisect_stroke_width": 0.7
+        }
+      ]
+    },
+    "level_indicator": {
+      "description": "ISA 5.1 level indicator bubble \u2014 circle + bisect line; label = LI",
+      "cv_discriminator": "Circle + bisect line; LI label in upper half; fill colour distinguishes from other bubbles",
+      "elements": [
+        {
+          "type": "circle",
+          "cx": 0.5,
+          "cy": 0.5,
+          "r_norm": 0.44,
+          "fill": "$fill",
+          "stroke": "$stroke",
+          "stroke_width": 1.0,
+          "bisect": true,
+          "bisect_stroke_width": 0.7
+        }
+      ]
+    },
+    "tank_horizontal": {
+      "description": "Horizontal storage tank \u2014 ISO 10628-2 horizontal cylinder with rounded ends",
+      "cv_discriminator": "Full rounded rect with large rx/ry creating capsule shape; distinct from vessel by curvature",
+      "elements": [
+        {
+          "type": "rect",
+          "x": 0.0,
+          "y": 0.0,
+          "w": 1.0,
+          "h": 1.0,
+          "fill": "$fill",
+          "stroke": "$stroke",
+          "stroke_width": 2.0,
+          "rx_norm": 0.12,
+          "ry_norm": 0.5
+        }
+      ]
+    },
+    "pump_centrifugal": {
+      "description": "Centrifugal pump \u2014 ISO 10628-2 circle with discharge triangle",
+      "cv_discriminator": "Circle body + right-pointing triangle at 3-o'clock; triangle = discharge nozzle",
+      "elements": [
+        {
+          "type": "circle",
+          "cx": 0.5,
+          "cy": 0.5,
+          "r_norm": 0.42,
+          "fill": "$fill",
+          "stroke": "$stroke",
+          "stroke_width": 1.5
+        },
+        {
+          "type": "polygon",
+          "points": [
+            [
+              0.71,
+              0.08
+            ],
+            [
+              1.05,
+              0.5
+            ],
+            [
+              0.71,
+              0.92
+            ]
+          ],
+          "fill": "$fill",
+          "stroke": "$stroke",
+          "stroke_width": 1.2
+        }
+      ]
+    },
+    "inlet_outlet_connector": {
+      "description": "Process inlet/outlet connector \u2014 diamond shape",
+      "cv_discriminator": "Diamond (rotated square) shape indicating process boundary connection",
+      "elements": [
+        {
+          "type": "polygon",
+          "points": [
+            [
+              0.5,
+              0.0
+            ],
+            [
+              1.0,
+              0.5
+            ],
+            [
+              0.5,
+              1.0
+            ],
+            [
+              0.0,
+              0.5
+            ]
+          ],
+          "fill": "$fill",
+          "stroke": "$stroke",
+          "stroke_width": 1.2
+        }
+      ]
+    },
+    "motor_driver": {
+      "description": "Electric motor driver \u2014 circle with M label (ISO 10628)",
+      "cv_discriminator": "Circle with 'M' letter inside; solid fill distinguishes from instrument bubbles",
+      "elements": [
+        {
+          "type": "circle",
+          "cx": 0.5,
+          "cy": 0.5,
+          "r_norm": 0.42,
+          "fill": "$fill",
+          "stroke": "$stroke",
+          "stroke_width": 1.2
+        }
+      ]
+    },
+    "heat_exchanger": {
+      "description": "Shell-and-tube heat exchanger \u2014 tube sheets at 15%/85%, two tube-pass lines",
+      "cv_discriminator": "Rect with two vertical tube-sheet lines at 15% and 85% + two horizontal tube-pass lines",
+      "elements": [
+        {
+          "type": "rect",
+          "x": 0.0,
+          "y": 0.0,
+          "w": 1.0,
+          "h": 1.0,
+          "fill": "$fill",
+          "stroke": "$stroke",
+          "stroke_width": 1.8,
+          "rx_norm": 0.04,
+          "ry_norm": 0.06
+        },
+        {
+          "type": "line",
+          "x1": 0.15,
+          "y1": 0.0,
+          "x2": 0.15,
+          "y2": 1.0,
+          "stroke": "$stroke",
+          "stroke_width": 1.2
+        },
+        {
+          "type": "line",
+          "x1": 0.85,
+          "y1": 0.0,
+          "x2": 0.85,
+          "y2": 1.0,
+          "stroke": "$stroke",
+          "stroke_width": 1.2
+        },
+        {
+          "type": "line",
+          "x1": 0.15,
+          "y1": 0.35,
+          "x2": 0.85,
+          "y2": 0.35,
+          "stroke": "$stroke",
+          "stroke_width": 0.7
+        },
+        {
+          "type": "line",
+          "x1": 0.15,
+          "y1": 0.65,
+          "x2": 0.85,
+          "y2": 0.65,
+          "stroke": "$stroke",
+          "stroke_width": 0.7
+        }
+      ]
+    },
+    "column_tower": {
+      "description": "Distillation column / packed tower \u2014 narrowed body with horizontal tray lines",
+      "cv_discriminator": "Narrow centered rect (70% width) with three evenly spaced tray lines at 30%/50%/70% height",
+      "elements": [
+        {
+          "type": "rect",
+          "x": 0.15,
+          "y": 0.0,
+          "w": 0.7,
+          "h": 1.0,
+          "fill": "$fill",
+          "stroke": "$stroke",
+          "stroke_width": 1.8,
+          "rx_norm": 0.03,
+          "ry_norm": 0.03
+        },
+        {
+          "type": "line",
+          "x1": 0.15,
+          "y1": 0.3,
+          "x2": 0.85,
+          "y2": 0.3,
+          "stroke": "$stroke",
+          "stroke_width": 0.8
+        },
+        {
+          "type": "line",
+          "x1": 0.15,
+          "y1": 0.5,
+          "x2": 0.85,
+          "y2": 0.5,
+          "stroke": "$stroke",
+          "stroke_width": 0.8
+        },
+        {
+          "type": "line",
+          "x1": 0.15,
+          "y1": 0.7,
+          "x2": 0.85,
+          "y2": 0.7,
+          "stroke": "$stroke",
+          "stroke_width": 0.8
+        }
+      ]
+    },
+    "compressor": {
+      "description": "Compressor / blower \u2014 diamond (rotated square) with inner impeller circle",
+      "cv_discriminator": "Diamond polygon with inscribed circle at 22% r_norm \u2014 unique rhombus outline distinguishes from all rect/circle symbols",
+      "elements": [
+        {
+          "type": "polygon",
+          "points": [
+            [
+              0.5,
+              0.0
+            ],
+            [
+              1.0,
+              0.5
+            ],
+            [
+              0.5,
+              1.0
+            ],
+            [
+              0.0,
+              0.5
+            ]
+          ],
+          "fill": "$fill",
+          "stroke": "$stroke",
+          "stroke_width": 1.8
+        },
+        {
+          "type": "circle",
+          "cx": 0.5,
+          "cy": 0.5,
+          "r_norm": 0.22,
+          "fill": "$fill",
+          "stroke": "$stroke",
+          "stroke_width": 1.0
+        }
+      ]
+    }
+  }
+}

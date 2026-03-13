@@ -6,7 +6,10 @@
       "ISOLATION_VALVE",
       "CONTROL_VALVE",
       "FLOW_METER",
-      "EQUIPMENT_BLOCK"
+      "EQUIPMENT_BLOCK",
+      "TANK",
+      "PUMP",
+      "INLET_OUTLET"
     ],
     "generation_method": "deterministic",
     "schema_version": "2"

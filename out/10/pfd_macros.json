@@ -1,0 +1,1358 @@
+{
+  "metadata": {
+    "source_file": "fragments.json",
+    "macro_vocabulary": [
+      "PIPE_RUN",
+      "ISOLATION_VALVE",
+      "CONTROL_VALVE",
+      "FLOW_METER",
+      "EQUIPMENT_BLOCK",
+      "TANK",
+      "PUMP",
+      "INLET_OUTLET"
+    ],
+    "generation_method": "deterministic",
+    "schema_version": "2"
+  },
+  "macros": [
+    {
+      "fragment_id": "rfrag_region_0",
+      "fragment_type": "region_fragment",
+      "macro_template": "LINEAR_TRANSFER",
+      "macro_sequence": [
+        "PIPE_RUN",
+        "ISOLATION_VALVE",
+        "PIPE_RUN"
+      ],
+      "parameters": {
+        "equipment_blocks": 0,
+        "isolation_valves": 1,
+        "control_valves": 0,
+        "flow_meters": 0
+      }
+    },
+    {
+      "fragment_id": "rfrag_region_1",
+      "fragment_type": "region_fragment",
+      "macro_template": "LINEAR_TRANSFER",
+      "macro_sequence": [
+        "PIPE_RUN",
+        "ISOLATION_VALVE",
+        "PIPE_RUN"
+      ],
+      "parameters": {
+        "equipment_blocks": 6,
+        "isolation_valves": 1,
+        "control_valves": 0,
+        "flow_meters": 0
+      }
+    },
+    {
+      "fragment_id": "rfrag_region_2",
+      "fragment_type": "region_fragment",
+      "macro_template": "ISOLATED_SEGMENT",
+      "macro_sequence": [
+        "PIPE_RUN",
+        "PIPE_RUN"
+      ],
+      "parameters": {
+        "equipment_blocks": 3,
+        "isolation_valves": 0,
+        "control_valves": 0,
+        "flow_meters": 0
+      }
+    },
+    {
+      "fragment_id": "rfrag_region_3",
+      "fragment_type": "region_fragment",
+      "macro_template": "ISOLATED_SEGMENT",
+      "macro_sequence": [
+        "PIPE_RUN",
+        "PIPE_RUN"
+      ],
+      "parameters": {
+        "equipment_blocks": 0,
+        "isolation_valves": 0,
+        "control_valves": 0,
+        "flow_meters": 0
+      }
+    },
+    {
+      "fragment_id": "rfrag_region_4",
+      "fragment_type": "region_fragment",
+      "macro_template": "CONTROLLED_TRANSFER",
+      "macro_sequence": [
+        "CONTROL_VALVE",
+        "PIPE_RUN",
+        "CONTROL_VALVE"
+      ],
+      "parameters": {
+        "equipment_blocks": 10,
+        "isolation_valves": 0,
+        "control_valves": 5,
+        "flow_meters": 3
+      }
+    },
+    {
+      "fragment_id": "rfrag_region_5",
+      "fragment_type": "region_fragment",
+      "macro_template": "LINEAR_TRANSFER",
+      "macro_sequence": [
+        "PIPE_RUN",
+        "ISOLATION_VALVE",
+        "PIPE_RUN"
+      ],
+      "parameters": {
+        "equipment_blocks": 0,
+        "isolation_valves": 1,
+        "control_valves": 0,
+        "flow_meters": 0
+      }
+    },
+    {
+      "fragment_id": "rfrag_region_6",
+      "fragment_type": "region_fragment",
+      "macro_template": "ISOLATED_SEGMENT",
+      "macro_sequence": [
+        "PIPE_RUN",
+        "PIPE_RUN"
+      ],
+      "parameters": {
+        "equipment_blocks": 3,
+        "isolation_valves": 0,
+        "control_valves": 0,
+        "flow_meters": 0
+      }
+    },
+    {
+      "fragment_id": "rfrag_region_7",
+      "fragment_type": "region_fragment",
+      "macro_template": "ISOLATED_SEGMENT",
+      "macro_sequence": [
+        "PIPE_RUN",
+        "PIPE_RUN"
+      ],
+      "parameters": {
+        "equipment_blocks": 3,
+        "isolation_valves": 0,
+        "control_valves": 0,
+        "flow_meters": 0
+      }
+    },
+    {
+      "fragment_id": "rfrag_region_8",
+      "fragment_type": "region_fragment",
+      "macro_template": "LINEAR_TRANSFER",
+      "macro_sequence": [
+        "PIPE_RUN",
+        "ISOLATION_VALVE",
+        "PIPE_RUN"
+      ],
+      "parameters": {
+        "equipment_blocks": 0,
+        "isolation_valves": 1,
+        "control_valves": 0,
+        "flow_meters": 0
+      }
+    },
+    {
+      "fragment_id": "rfrag_region_9",
+      "fragment_type": "region_fragment",
+      "macro_template": "LINEAR_TRANSFER",
+      "macro_sequence": [
+        "PIPE_RUN",
+        "ISOLATION_VALVE",
+        "PIPE_RUN"
+      ],
+      "parameters": {
+        "equipment_blocks": 0,
+        "isolation_valves": 1,
+        "control_valves": 0,
+        "flow_meters": 0
+      }
+    },
+    {
+      "fragment_id": "rfrag_region_10",
+      "fragment_type": "region_fragment",
+      "macro_template": "LINEAR_TRANSFER",
+      "macro_sequence": [
+        "PIPE_RUN",
+        "ISOLATION_VALVE",
+        "PIPE_RUN"
+      ],
+      "parameters": {
+        "equipment_blocks": 0,
+        "isolation_valves": 1,
+        "control_valves": 0,
+        "flow_meters": 0
+      }
+    },
+    {
+      "fragment_id": "rfrag_region_11",
+      "fragment_type": "region_fragment",
+      "macro_template": "ISOLATED_SEGMENT",
+      "macro_sequence": [
+        "PIPE_RUN",
+        "PIPE_RUN"
+      ],
+      "parameters": {
+        "equipment_blocks": 0,
+        "isolation_valves": 0,
+        "control_valves": 0,
+        "flow_meters": 0
+      }
+    },
+    {
+      "fragment_id": "rfrag_region_12",
+      "fragment_type": "region_fragment",
+      "macro_template": "LINEAR_TRANSFER",
+      "macro_sequence": [
+        "PIPE_RUN",
+        "ISOLATION_VALVE",
+        "PIPE_RUN"
+      ],
+      "parameters": {
+        "equipment_blocks": 0,
+        "isolation_valves": 1,
+        "control_valves": 0,
+        "flow_meters": 0
+      }
+    },
+    {
+      "fragment_id": "rfrag_region_13",
+      "fragment_type": "region_fragment",
+      "macro_template": "LINEAR_TRANSFER",
+      "macro_sequence": [
+        "PIPE_RUN",
+        "ISOLATION_VALVE",
+        "PIPE_RUN"
+      ],
+      "parameters": {
+        "equipment_blocks": 0,
+        "isolation_valves": 1,
+        "control_valves": 0,
+        "flow_meters": 0
+      }
+    },
+    {
+      "fragment_id": "rfrag_region_14",
+      "fragment_type": "region_fragment",
+      "macro_template": "LINEAR_TRANSFER",
+      "macro_sequence": [
+        "PIPE_RUN",
+        "ISOLATION_VALVE",
+        "PIPE_RUN"
+      ],
+      "parameters": {
+        "equipment_blocks": 0,
+        "isolation_valves": 1,
+        "control_valves": 0,
+        "flow_meters": 0
+      }
+    },
+    {
+      "fragment_id": "rfrag_region_15",
+      "fragment_type": "region_fragment",
+      "macro_template": "LINEAR_TRANSFER",
+      "macro_sequence": [
+        "PIPE_RUN",
+        "ISOLATION_VALVE",
+        "PIPE_RUN"
+      ],
+      "parameters": {
+        "equipment_blocks": 0,
+        "isolation_valves": 1,
+        "control_valves": 0,
+        "flow_meters": 0
+      }
+    },
+    {
+      "fragment_id": "rfrag_region_16",
+      "fragment_type": "region_fragment",
+      "macro_template": "CONTROLLED_TRANSFER",
+      "macro_sequence": [
+        "CONTROL_VALVE",
+        "PIPE_RUN",
+        "CONTROL_VALVE"
+      ],
+      "parameters": {
+        "equipment_blocks": 6,
+        "isolation_valves": 0,
+        "control_valves": 2,
+        "flow_meters": 0
+      }
+    },
+    {
+      "fragment_id": "rfrag_region_17",
+      "fragment_type": "region_fragment",
+      "macro_template": "ISOLATED_SEGMENT",
+      "macro_sequence": [
+        "PIPE_RUN",
+        "PIPE_RUN"
+      ],
+      "parameters": {
+        "equipment_blocks": 0,
+        "isolation_valves": 0,
+        "control_valves": 0,
+        "flow_meters": 0
+      }
+    },
+    {
+      "fragment_id": "rfrag_region_18",
+      "fragment_type": "region_fragment",
+      "macro_template": "ISOLATED_SEGMENT",
+      "macro_sequence": [
+        "PIPE_RUN",
+        "PIPE_RUN"
+      ],
+      "parameters": {
+        "equipment_blocks": 3,
+        "isolation_valves": 0,
+        "control_valves": 0,
+        "flow_meters": 0
+      }
+    },
+    {
+      "fragment_id": "rfrag_region_19",
+      "fragment_type": "region_fragment",
+      "macro_template": "ISOLATED_SEGMENT",
+      "macro_sequence": [
+        "PIPE_RUN",
+        "PIPE_RUN"
+      ],
+      "parameters": {
+        "equipment_blocks": 0,
+        "isolation_valves": 0,
+        "control_valves": 0,
+        "flow_meters": 0
+      }
+    },
+    {
+      "fragment_id": "rfrag_region_20",
+      "fragment_type": "region_fragment",
+      "macro_template": "LINEAR_TRANSFER",
+      "macro_sequence": [
+        "PIPE_RUN",
+        "ISOLATION_VALVE",
+        "PIPE_RUN"
+      ],
+      "parameters": {
+        "equipment_blocks": 0,
+        "isolation_valves": 1,
+        "control_valves": 0,
+        "flow_meters": 0
+      }
+    },
+    {
+      "fragment_id": "rfrag_region_21",
+      "fragment_type": "region_fragment",
+      "macro_template": "CONTROLLED_TRANSFER",
+      "macro_sequence": [
+        "CONTROL_VALVE",
+        "PIPE_RUN",
+        "CONTROL_VALVE"
+      ],
+      "parameters": {
+        "equipment_blocks": 4,
+        "isolation_valves": 0,
+        "control_valves": 4,
+        "flow_meters": 0
+      }
+    },
+    {
+      "fragment_id": "rfrag_region_22",
+      "fragment_type": "region_fragment",
+      "macro_template": "ISOLATED_SEGMENT",
+      "macro_sequence": [
+        "PIPE_RUN",
+        "PIPE_RUN"
+      ],
+      "parameters": {
+        "equipment_blocks": 0,
+        "isolation_valves": 0,
+        "control_valves": 0,
+        "flow_meters": 0
+      }
+    },
+    {
+      "fragment_id": "rfrag_region_23",
+      "fragment_type": "region_fragment",
+      "macro_template": "ISOLATED_SEGMENT",
+      "macro_sequence": [
+        "PIPE_RUN",
+        "PIPE_RUN"
+      ],
+      "parameters": {
+        "equipment_blocks": 0,
+        "isolation_valves": 0,
+        "control_valves": 0,
+        "flow_meters": 0
+      }
+    },
+    {
+      "fragment_id": "rfrag_region_24",
+      "fragment_type": "region_fragment",
+      "macro_template": "ISOLATED_SEGMENT",
+      "macro_sequence": [
+        "PIPE_RUN",
+        "PIPE_RUN"
+      ],
+      "parameters": {
+        "equipment_blocks": 0,
+        "isolation_valves": 0,
+        "control_valves": 0,
+        "flow_meters": 0
+      }
+    },
+    {
+      "fragment_id": "rfrag_region_25",
+      "fragment_type": "region_fragment",
+      "macro_template": "MEASUREMENT_ONLY",
+      "macro_sequence": [
+        "PIPE_RUN",
+        "FLOW_METER",
+        "PIPE_RUN"
+      ],
+      "parameters": {
+        "equipment_blocks": 1,
+        "isolation_valves": 0,
+        "control_valves": 0,
+        "flow_meters": 1
+      }
+    },
+    {
+      "fragment_id": "rfrag_region_26",
+      "fragment_type": "region_fragment",
+      "macro_template": "LINEAR_TRANSFER",
+      "macro_sequence": [
+        "PIPE_RUN",
+        "ISOLATION_VALVE",
+        "PIPE_RUN"
+      ],
+      "parameters": {
+        "equipment_blocks": 0,
+        "isolation_valves": 1,
+        "control_valves": 0,
+        "flow_meters": 0
+      }
+    },
+    {
+      "fragment_id": "rfrag_region_27",
+      "fragment_type": "region_fragment",
+      "macro_template": "LINEAR_TRANSFER",
+      "macro_sequence": [
+        "PIPE_RUN",
+        "ISOLATION_VALVE",
+        "PIPE_RUN"
+      ],
+      "parameters": {
+        "equipment_blocks": 3,
+        "isolation_valves": 1,
+        "control_valves": 0,
+        "flow_meters": 0
+      }
+    },
+    {
+      "fragment_id": "rfrag_region_28",
+      "fragment_type": "region_fragment",
+      "macro_template": "LINEAR_TRANSFER",
+      "macro_sequence": [
+        "PIPE_RUN",
+        "ISOLATION_VALVE",
+        "PIPE_RUN"
+      ],
+      "parameters": {
+        "equipment_blocks": 0,
+        "isolation_valves": 1,
+        "control_valves": 0,
+        "flow_meters": 0
+      }
+    },
+    {
+      "fragment_id": "rfrag_region_29",
+      "fragment_type": "region_fragment",
+      "macro_template": "ISOLATED_SEGMENT",
+      "macro_sequence": [
+        "PIPE_RUN",
+        "PIPE_RUN"
+      ],
+      "parameters": {
+        "equipment_blocks": 0,
+        "isolation_valves": 0,
+        "control_valves": 0,
+        "flow_meters": 0
+      }
+    },
+    {
+      "fragment_id": "rfrag_region_30",
+      "fragment_type": "region_fragment",
+      "macro_template": "LINEAR_TRANSFER",
+      "macro_sequence": [
+        "PIPE_RUN",
+        "ISOLATION_VALVE",
+        "PIPE_RUN"
+      ],
+      "parameters": {
+        "equipment_blocks": 0,
+        "isolation_valves": 1,
+        "control_valves": 0,
+        "flow_meters": 0
+      }
+    },
+    {
+      "fragment_id": "rfrag_region_31",
+      "fragment_type": "region_fragment",
+      "macro_template": "LINEAR_TRANSFER",
+      "macro_sequence": [
+        "PIPE_RUN",
+        "ISOLATION_VALVE",
+        "PIPE_RUN"
+      ],
+      "parameters": {
+        "equipment_blocks": 0,
+        "isolation_valves": 1,
+        "control_valves": 0,
+        "flow_meters": 0
+      }
+    },
+    {
+      "fragment_id": "rfrag_region_32",
+      "fragment_type": "region_fragment",
+      "macro_template": "ISOLATED_SEGMENT",
+      "macro_sequence": [
+        "PIPE_RUN",
+        "PIPE_RUN"
+      ],
+      "parameters": {
+        "equipment_blocks": 0,
+        "isolation_valves": 0,
+        "control_valves": 0,
+        "flow_meters": 0
+      }
+    },
+    {
+      "fragment_id": "rfrag_region_33",
+      "fragment_type": "region_fragment",
+      "macro_template": "ISOLATED_SEGMENT",
+      "macro_sequence": [
+        "PIPE_RUN",
+        "PIPE_RUN"
+      ],
+      "parameters": {
+        "equipment_blocks": 0,
+        "isolation_valves": 0,
+        "control_valves": 0,
+        "flow_meters": 0
+      }
+    },
+    {
+      "fragment_id": "rfrag_region_34",
+      "fragment_type": "region_fragment",
+      "macro_template": "CONTROLLED_TRANSFER",
+      "macro_sequence": [
+        "CONTROL_VALVE",
+        "PIPE_RUN",
+        "CONTROL_VALVE"
+      ],
+      "parameters": {
+        "equipment_blocks": 4,
+        "isolation_valves": 0,
+        "control_valves": 4,
+        "flow_meters": 0
+      }
+    },
+    {
+      "fragment_id": "rfrag_region_35",
+      "fragment_type": "region_fragment",
+      "macro_template": "LINEAR_TRANSFER",
+      "macro_sequence": [
+        "PIPE_RUN",
+        "ISOLATION_VALVE",
+        "PIPE_RUN"
+      ],
+      "parameters": {
+        "equipment_blocks": 0,
+        "isolation_valves": 1,
+        "control_valves": 0,
+        "flow_meters": 0
+      }
+    },
+    {
+      "fragment_id": "rfrag_region_36",
+      "fragment_type": "region_fragment",
+      "macro_template": "ISOLATED_SEGMENT",
+      "macro_sequence": [
+        "PIPE_RUN",
+        "PIPE_RUN"
+      ],
+      "parameters": {
+        "equipment_blocks": 0,
+        "isolation_valves": 0,
+        "control_valves": 0,
+        "flow_meters": 0
+      }
+    },
+    {
+      "fragment_id": "rfrag_region_37",
+      "fragment_type": "region_fragment",
+      "macro_template": "LINEAR_TRANSFER",
+      "macro_sequence": [
+        "PIPE_RUN",
+        "ISOLATION_VALVE",
+        "PIPE_RUN"
+      ],
+      "parameters": {
+        "equipment_blocks": 0,
+        "isolation_valves": 1,
+        "control_valves": 0,
+        "flow_meters": 0
+      }
+    },
+    {
+      "fragment_id": "rfrag_region_38",
+      "fragment_type": "region_fragment",
+      "macro_template": "ISOLATED_SEGMENT",
+      "macro_sequence": [
+        "PIPE_RUN",
+        "PIPE_RUN"
+      ],
+      "parameters": {
+        "equipment_blocks": 0,
+        "isolation_valves": 0,
+        "control_valves": 0,
+        "flow_meters": 0
+      }
+    },
+    {
+      "fragment_id": "rfrag_region_39",
+      "fragment_type": "region_fragment",
+      "macro_template": "ISOLATED_SEGMENT",
+      "macro_sequence": [
+        "PIPE_RUN",
+        "PIPE_RUN"
+      ],
+      "parameters": {
+        "equipment_blocks": 0,
+        "isolation_valves": 0,
+        "control_valves": 0,
+        "flow_meters": 0
+      }
+    },
+    {
+      "fragment_id": "rfrag_region_40",
+      "fragment_type": "region_fragment",
+      "macro_template": "LINEAR_TRANSFER",
+      "macro_sequence": [
+        "PIPE_RUN",
+        "ISOLATION_VALVE",
+        "PIPE_RUN"
+      ],
+      "parameters": {
+        "equipment_blocks": 0,
+        "isolation_valves": 1,
+        "control_valves": 0,
+        "flow_meters": 0
+      }
+    },
+    {
+      "fragment_id": "rfrag_region_41",
+      "fragment_type": "region_fragment",
+      "macro_template": "ISOLATED_SEGMENT",
+      "macro_sequence": [
+        "PIPE_RUN",
+        "PIPE_RUN"
+      ],
+      "parameters": {
+        "equipment_blocks": 0,
+        "isolation_valves": 0,
+        "control_valves": 0,
+        "flow_meters": 0
+      }
+    },
+    {
+      "fragment_id": "rfrag_region_42",
+      "fragment_type": "region_fragment",
+      "macro_template": "ISOLATED_SEGMENT",
+      "macro_sequence": [
+        "PIPE_RUN",
+        "PIPE_RUN"
+      ],
+      "parameters": {
+        "equipment_blocks": 0,
+        "isolation_valves": 0,
+        "control_valves": 0,
+        "flow_meters": 0
+      }
+    },
+    {
+      "fragment_id": "rfrag_region_43",
+      "fragment_type": "region_fragment",
+      "macro_template": "CONTROLLED_TRANSFER",
+      "macro_sequence": [
+        "CONTROL_VALVE",
+        "PIPE_RUN",
+        "CONTROL_VALVE"
+      ],
+      "parameters": {
+        "equipment_blocks": 3,
+        "isolation_valves": 0,
+        "control_valves": 2,
+        "flow_meters": 0
+      }
+    },
+    {
+      "fragment_id": "rfrag_region_44",
+      "fragment_type": "region_fragment",
+      "macro_template": "CONTROLLED_TRANSFER",
+      "macro_sequence": [
+        "CONTROL_VALVE",
+        "PIPE_RUN",
+        "CONTROL_VALVE"
+      ],
+      "parameters": {
+        "equipment_blocks": 3,
+        "isolation_valves": 0,
+        "control_valves": 2,
+        "flow_meters": 0
+      }
+    },
+    {
+      "fragment_id": "rfrag_region_45",
+      "fragment_type": "region_fragment",
+      "macro_template": "LINEAR_TRANSFER",
+      "macro_sequence": [
+        "PIPE_RUN",
+        "ISOLATION_VALVE",
+        "PIPE_RUN"
+      ],
+      "parameters": {
+        "equipment_blocks": 0,
+        "isolation_valves": 1,
+        "control_valves": 0,
+        "flow_meters": 0
+      }
+    },
+    {
+      "fragment_id": "rfrag_region_46",
+      "fragment_type": "region_fragment",
+      "macro_template": "ISOLATED_SEGMENT",
+      "macro_sequence": [
+        "PIPE_RUN",
+        "PIPE_RUN"
+      ],
+      "parameters": {
+        "equipment_blocks": 0,
+        "isolation_valves": 0,
+        "control_valves": 0,
+        "flow_meters": 0
+      }
+    },
+    {
+      "fragment_id": "rfrag_region_47",
+      "fragment_type": "region_fragment",
+      "macro_template": "LINEAR_TRANSFER",
+      "macro_sequence": [
+        "PIPE_RUN",
+        "ISOLATION_VALVE",
+        "PIPE_RUN"
+      ],
+      "parameters": {
+        "equipment_blocks": 0,
+        "isolation_valves": 1,
+        "control_valves": 0,
+        "flow_meters": 0
+      }
+    },
+    {
+      "fragment_id": "rfrag_region_48",
+      "fragment_type": "region_fragment",
+      "macro_template": "LINEAR_TRANSFER",
+      "macro_sequence": [
+        "PIPE_RUN",
+        "ISOLATION_VALVE",
+        "PIPE_RUN"
+      ],
+      "parameters": {
+        "equipment_blocks": 0,
+        "isolation_valves": 1,
+        "control_valves": 0,
+        "flow_meters": 0
+      }
+    },
+    {
+      "fragment_id": "rfrag_region_49",
+      "fragment_type": "region_fragment",
+      "macro_template": "LINEAR_TRANSFER",
+      "macro_sequence": [
+        "PIPE_RUN",
+        "ISOLATION_VALVE",
+        "PIPE_RUN"
+      ],
+      "parameters": {
+        "equipment_blocks": 0,
+        "isolation_valves": 1,
+        "control_valves": 0,
+        "flow_meters": 0
+      }
+    },
+    {
+      "fragment_id": "rfrag_region_50",
+      "fragment_type": "region_fragment",
+      "macro_template": "ISOLATED_SEGMENT",
+      "macro_sequence": [
+        "PIPE_RUN",
+        "PIPE_RUN"
+      ],
+      "parameters": {
+        "equipment_blocks": 0,
+        "isolation_valves": 0,
+        "control_valves": 0,
+        "flow_meters": 0
+      }
+    },
+    {
+      "fragment_id": "rfrag_region_51",
+      "fragment_type": "region_fragment",
+      "macro_template": "ISOLATED_SEGMENT",
+      "macro_sequence": [
+        "PIPE_RUN",
+        "PIPE_RUN"
+      ],
+      "parameters": {
+        "equipment_blocks": 0,
+        "isolation_valves": 0,
+        "control_valves": 0,
+        "flow_meters": 0
+      }
+    },
+    {
+      "fragment_id": "rfrag_region_52",
+      "fragment_type": "region_fragment",
+      "macro_template": "ISOLATED_SEGMENT",
+      "macro_sequence": [
+        "PIPE_RUN",
+        "PIPE_RUN"
+      ],
+      "parameters": {
+        "equipment_blocks": 0,
+        "isolation_valves": 0,
+        "control_valves": 0,
+        "flow_meters": 0
+      }
+    },
+    {
+      "fragment_id": "rfrag_region_53",
+      "fragment_type": "region_fragment",
+      "macro_template": "LINEAR_TRANSFER",
+      "macro_sequence": [
+        "PIPE_RUN",
+        "ISOLATION_VALVE",
+        "PIPE_RUN"
+      ],
+      "parameters": {
+        "equipment_blocks": 0,
+        "isolation_valves": 1,
+        "control_valves": 0,
+        "flow_meters": 0
+      }
+    },
+    {
+      "fragment_id": "rfrag_region_54",
+      "fragment_type": "region_fragment",
+      "macro_template": "ISOLATED_SEGMENT",
+      "macro_sequence": [
+        "PIPE_RUN",
+        "PIPE_RUN"
+      ],
+      "parameters": {
+        "equipment_blocks": 0,
+        "isolation_valves": 0,
+        "control_valves": 0,
+        "flow_meters": 0
+      }
+    },
+    {
+      "fragment_id": "rfrag_region_55",
+      "fragment_type": "region_fragment",
+      "macro_template": "ISOLATED_SEGMENT",
+      "macro_sequence": [
+        "PIPE_RUN",
+        "PIPE_RUN"
+      ],
+      "parameters": {
+        "equipment_blocks": 0,
+        "isolation_valves": 0,
+        "control_valves": 0,
+        "flow_meters": 0
+      }
+    },
+    {
+      "fragment_id": "rfrag_region_56",
+      "fragment_type": "region_fragment",
+      "macro_template": "ISOLATED_SEGMENT",
+      "macro_sequence": [
+        "PIPE_RUN",
+        "PIPE_RUN"
+      ],
+      "parameters": {
+        "equipment_blocks": 0,
+        "isolation_valves": 0,
+        "control_valves": 0,
+        "flow_meters": 0
+      }
+    },
+    {
+      "fragment_id": "rfrag_region_57",
+      "fragment_type": "region_fragment",
+      "macro_template": "ISOLATED_SEGMENT",
+      "macro_sequence": [
+        "PIPE_RUN",
+        "PIPE_RUN"
+      ],
+      "parameters": {
+        "equipment_blocks": 0,
+        "isolation_valves": 0,
+        "control_valves": 0,
+        "flow_meters": 0
+      }
+    },
+    {
+      "fragment_id": "rfrag_region_58",
+      "fragment_type": "region_fragment",
+      "macro_template": "LINEAR_TRANSFER",
+      "macro_sequence": [
+        "PIPE_RUN",
+        "ISOLATION_VALVE",
+        "PIPE_RUN"
+      ],
+      "parameters": {
+        "equipment_blocks": 0,
+        "isolation_valves": 1,
+        "control_valves": 0,
+        "flow_meters": 0
+      }
+    },
+    {
+      "fragment_id": "cfrag_0",
+      "fragment_type": "connectivity_fragment",
+      "macro_template": "CONNECTIVITY_VALVE",
+      "macro_sequence": [
+        "PIPE_RUN",
+        "ISOLATION_VALVE",
+        "PIPE_RUN"
+      ],
+      "parameters": {
+        "from_region": "region_0",
+        "to_region": "region_1"
+      }
+    },
+    {
+      "fragment_id": "cfrag_1",
+      "fragment_type": "connectivity_fragment",
+      "macro_template": "CONNECTIVITY_VALVE",
+      "macro_sequence": [
+        "PIPE_RUN",
+        "ISOLATION_VALVE",
+        "PIPE_RUN"
+      ],
+      "parameters": {
+        "from_region": "region_4",
+        "to_region": "region_13"
+      }
+    },
+    {
+      "fragment_id": "cfrag_2",
+      "fragment_type": "connectivity_fragment",
+      "macro_template": "CONNECTIVITY_VALVE",
+      "macro_sequence": [
+        "PIPE_RUN",
+        "ISOLATION_VALVE",
+        "PIPE_RUN"
+      ],
+      "parameters": {
+        "from_region": "region_4",
+        "to_region": "region_12"
+      }
+    },
+    {
+      "fragment_id": "cfrag_3",
+      "fragment_type": "connectivity_fragment",
+      "macro_template": "CONNECTIVITY_VALVE",
+      "macro_sequence": [
+        "PIPE_RUN",
+        "ISOLATION_VALVE",
+        "PIPE_RUN"
+      ],
+      "parameters": {
+        "from_region": "region_4",
+        "to_region": "region_48"
+      }
+    },
+    {
+      "fragment_id": "cfrag_4",
+      "fragment_type": "connectivity_fragment",
+      "macro_template": "CONNECTIVITY_VALVE",
+      "macro_sequence": [
+        "PIPE_RUN",
+        "ISOLATION_VALVE",
+        "PIPE_RUN"
+      ],
+      "parameters": {
+        "from_region": "region_4",
+        "to_region": "region_43"
+      }
+    },
+    {
+      "fragment_id": "cfrag_5",
+      "fragment_type": "connectivity_fragment",
+      "macro_template": "CONNECTIVITY_VALVE",
+      "macro_sequence": [
+        "PIPE_RUN",
+        "ISOLATION_VALVE",
+        "PIPE_RUN"
+      ],
+      "parameters": {
+        "from_region": "region_5",
+        "to_region": "region_53"
+      }
+    },
+    {
+      "fragment_id": "cfrag_6",
+      "fragment_type": "connectivity_fragment",
+      "macro_template": "CONNECTIVITY_VALVE",
+      "macro_sequence": [
+        "PIPE_RUN",
+        "ISOLATION_VALVE",
+        "PIPE_RUN"
+      ],
+      "parameters": {
+        "from_region": "region_8",
+        "to_region": "region_34"
+      }
+    },
+    {
+      "fragment_id": "cfrag_7",
+      "fragment_type": "connectivity_fragment",
+      "macro_template": "CONNECTIVITY_VALVE",
+      "macro_sequence": [
+        "PIPE_RUN",
+        "ISOLATION_VALVE",
+        "PIPE_RUN"
+      ],
+      "parameters": {
+        "from_region": "region_9",
+        "to_region": "region_44"
+      }
+    },
+    {
+      "fragment_id": "cfrag_8",
+      "fragment_type": "connectivity_fragment",
+      "macro_template": "CONNECTIVITY_VALVE",
+      "macro_sequence": [
+        "PIPE_RUN",
+        "ISOLATION_VALVE",
+        "PIPE_RUN"
+      ],
+      "parameters": {
+        "from_region": "region_10",
+        "to_region": "region_20"
+      }
+    },
+    {
+      "fragment_id": "cfrag_9",
+      "fragment_type": "connectivity_fragment",
+      "macro_template": "CONNECTIVITY_VALVE",
+      "macro_sequence": [
+        "PIPE_RUN",
+        "ISOLATION_VALVE",
+        "PIPE_RUN"
+      ],
+      "parameters": {
+        "from_region": "region_15",
+        "to_region": "region_16"
+      }
+    },
+    {
+      "fragment_id": "cfrag_10",
+      "fragment_type": "connectivity_fragment",
+      "macro_template": "CONNECTIVITY_VALVE",
+      "macro_sequence": [
+        "PIPE_RUN",
+        "ISOLATION_VALVE",
+        "PIPE_RUN"
+      ],
+      "parameters": {
+        "from_region": "region_21",
+        "to_region": "region_40"
+      }
+    },
+    {
+      "fragment_id": "cfrag_11",
+      "fragment_type": "connectivity_fragment",
+      "macro_template": "CONNECTIVITY_VALVE",
+      "macro_sequence": [
+        "PIPE_RUN",
+        "ISOLATION_VALVE",
+        "PIPE_RUN"
+      ],
+      "parameters": {
+        "from_region": "region_21",
+        "to_region": "region_31"
+      }
+    },
+    {
+      "fragment_id": "cfrag_12",
+      "fragment_type": "connectivity_fragment",
+      "macro_template": "CONNECTIVITY_VALVE",
+      "macro_sequence": [
+        "PIPE_RUN",
+        "ISOLATION_VALVE",
+        "PIPE_RUN"
+      ],
+      "parameters": {
+        "from_region": "region_30",
+        "to_region": "region_43"
+      }
+    },
+    {
+      "fragment_id": "cfrag_13",
+      "fragment_type": "connectivity_fragment",
+      "macro_template": "CONNECTIVITY_VALVE",
+      "macro_sequence": [
+        "PIPE_RUN",
+        "ISOLATION_VALVE",
+        "PIPE_RUN"
+      ],
+      "parameters": {
+        "from_region": "region_45",
+        "to_region": "region_47"
+      }
+    },
+    {
+      "fragment_id": "efrag_0",
+      "fragment_type": "equipment_cluster_fragment",
+      "macro_template": "EQUIPMENT_CLUSTER",
+      "macro_sequence": [
+        "EQUIPMENT_BLOCK"
+      ],
+      "parameters": {
+        "cluster_size": 3,
+        "is_cross_region": false
+      }
+    },
+    {
+      "fragment_id": "efrag_1",
+      "fragment_type": "equipment_cluster_fragment",
+      "macro_template": "EQUIPMENT_CLUSTER",
+      "macro_sequence": [
+        "EQUIPMENT_BLOCK"
+      ],
+      "parameters": {
+        "cluster_size": 3,
+        "is_cross_region": false
+      }
+    },
+    {
+      "fragment_id": "efrag_2",
+      "fragment_type": "equipment_cluster_fragment",
+      "macro_template": "EQUIPMENT_CLUSTER",
+      "macro_sequence": [
+        "EQUIPMENT_BLOCK"
+      ],
+      "parameters": {
+        "cluster_size": 6,
+        "is_cross_region": false
+      }
+    },
+    {
+      "fragment_id": "efrag_3",
+      "fragment_type": "equipment_cluster_fragment",
+      "macro_template": "EQUIPMENT_CLUSTER",
+      "macro_sequence": [
+        "EQUIPMENT_BLOCK"
+      ],
+      "parameters": {
+        "cluster_size": 13,
+        "is_cross_region": false
+      }
+    },
+    {
+      "fragment_id": "efrag_4",
+      "fragment_type": "equipment_cluster_fragment",
+      "macro_template": "EQUIPMENT_CLUSTER",
+      "macro_sequence": [
+        "EQUIPMENT_BLOCK"
+      ],
+      "parameters": {
+        "cluster_size": 3,
+        "is_cross_region": false
+      }
+    },
+    {
+      "fragment_id": "efrag_5",
+      "fragment_type": "equipment_cluster_fragment",
+      "macro_template": "EQUIPMENT_CLUSTER",
+      "macro_sequence": [
+        "EQUIPMENT_BLOCK"
+      ],
+      "parameters": {
+        "cluster_size": 3,
+        "is_cross_region": false
+      }
+    },
+    {
+      "fragment_id": "efrag_6",
+      "fragment_type": "equipment_cluster_fragment",
+      "macro_template": "EQUIPMENT_CLUSTER",
+      "macro_sequence": [
+        "EQUIPMENT_BLOCK"
+      ],
+      "parameters": {
+        "cluster_size": 4,
+        "is_cross_region": false
+      }
+    },
+    {
+      "fragment_id": "efrag_7",
+      "fragment_type": "equipment_cluster_fragment",
+      "macro_template": "EQUIPMENT_CLUSTER",
+      "macro_sequence": [
+        "EQUIPMENT_BLOCK"
+      ],
+      "parameters": {
+        "cluster_size": 4,
+        "is_cross_region": false
+      }
+    },
+    {
+      "fragment_id": "efrag_8",
+      "fragment_type": "equipment_cluster_fragment",
+      "macro_template": "EQUIPMENT_CLUSTER",
+      "macro_sequence": [
+        "EQUIPMENT_BLOCK"
+      ],
+      "parameters": {
+        "cluster_size": 3,
+        "is_cross_region": false
+      }
+    },
+    {
+      "fragment_id": "efrag_9",
+      "fragment_type": "equipment_cluster_fragment",
+      "macro_template": "EQUIPMENT_CLUSTER",
+      "macro_sequence": [
+        "EQUIPMENT_BLOCK"
+      ],
+      "parameters": {
+        "cluster_size": 6,
+        "is_cross_region": false
+      }
+    },
+    {
+      "fragment_id": "efrag_10",
+      "fragment_type": "equipment_cluster_fragment",
+      "macro_template": "EQUIPMENT_CLUSTER",
+      "macro_sequence": [
+        "EQUIPMENT_BLOCK"
+      ],
+      "parameters": {
+        "cluster_size": 3,
+        "is_cross_region": false
+      }
+    },
+    {
+      "fragment_id": "efrag_11",
+      "fragment_type": "equipment_cluster_fragment",
+      "macro_template": "EQUIPMENT_CLUSTER",
+      "macro_sequence": [
+        "EQUIPMENT_BLOCK"
+      ],
+      "parameters": {
+        "cluster_size": 3,
+        "is_cross_region": false
+      }
+    },
+    {
+      "fragment_id": "efrag_12",
+      "fragment_type": "equipment_cluster_fragment",
+      "macro_template": "EQUIPMENT_CLUSTER",
+      "macro_sequence": [
+        "EQUIPMENT_BLOCK"
+      ],
+      "parameters": {
+        "cluster_size": 3,
+        "is_cross_region": false
+      }
+    },
+    {
+      "fragment_id": "pfrag_topo_group_0",
+      "fragment_type": "pattern_fragment",
+      "macro_template": "PATTERN_REF",
+      "macro_sequence": [],
+      "pattern_ref": "pfrag_topo_group_0"
+    },
+    {
+      "fragment_id": "pfrag_topo_group_1",
+      "fragment_type": "pattern_fragment",
+      "macro_template": "PATTERN_REF",
+      "macro_sequence": [],
+      "pattern_ref": "pfrag_topo_group_1"
+    },
+    {
+      "fragment_id": "pfrag_topo_group_2",
+      "fragment_type": "pattern_fragment",
+      "macro_template": "PATTERN_REF",
+      "macro_sequence": [],
+      "pattern_ref": "pfrag_topo_group_2"
+    },
+    {
+      "fragment_id": "pfrag_topo_group_3",
+      "fragment_type": "pattern_fragment",
+      "macro_template": "PATTERN_REF",
+      "macro_sequence": [],
+      "pattern_ref": "pfrag_topo_group_3"
+    },
+    {
+      "fragment_id": "pfrag_topo_group_4",
+      "fragment_type": "pattern_fragment",
+      "macro_template": "PATTERN_REF",
+      "macro_sequence": [],
+      "pattern_ref": "pfrag_topo_group_4"
+    },
+    {
+      "fragment_id": "pfrag_topo_group_5",
+      "fragment_type": "pattern_fragment",
+      "macro_template": "PATTERN_REF",
+      "macro_sequence": [],
+      "pattern_ref": "pfrag_topo_group_5"
+    },
+    {
+      "fragment_id": "pfrag_valve_seq_0",
+      "fragment_type": "pattern_fragment",
+      "macro_template": "PATTERN_REF",
+      "macro_sequence": [],
+      "pattern_ref": "pfrag_valve_seq_0"
+    },
+    {
+      "fragment_id": "pfrag_valve_seq_1",
+      "fragment_type": "pattern_fragment",
+      "macro_template": "PATTERN_REF",
+      "macro_sequence": [],
+      "pattern_ref": "pfrag_valve_seq_1"
+    },
+    {
+      "fragment_id": "pfrag_valve_seq_2",
+      "fragment_type": "pattern_fragment",
+      "macro_template": "PATTERN_REF",
+      "macro_sequence": [],
+      "pattern_ref": "pfrag_valve_seq_2"
+    },
+    {
+      "fragment_id": "pfrag_valve_seq_3",
+      "fragment_type": "pattern_fragment",
+      "macro_template": "PATTERN_REF",
+      "macro_sequence": [],
+      "pattern_ref": "pfrag_valve_seq_3"
+    }
+  ]
+}

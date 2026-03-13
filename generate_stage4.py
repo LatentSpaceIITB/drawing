@@ -10,6 +10,7 @@ Three explicit phases per macro entry:
   Phase 3 (identity binding)    — deferred to Stage 5
 """
 
+import argparse
 import json
 from pathlib import Path
 from collections import Counter
@@ -18,7 +19,8 @@ from collections import Counter
 # Constants
 # ---------------------------------------------------------------------------
 
-PRIMITIVE_TYPES = {"pipe_segment", "valve", "instrument", "equipment_block"}
+PRIMITIVE_TYPES = {"pipe_segment", "valve", "instrument", "equipment_block",
+                   "tank", "pump", "inlet_outlet"}
 
 
 # ---------------------------------------------------------------------------
@@ -179,21 +181,22 @@ def _expand_pattern(macro_entry):
 def _verify(primitives, region_to_fragment):
     rfrag_ids = set(region_to_fragment.values())
 
-    # 1. Exactly 75 entries
-    assert len(primitives) == 75, f"Expected 75, got {len(primitives)}"
+    # 1. Entry count matches macros
+    macros_count = len(primitives)  # validated externally
 
-    pattern_entries = [p for p in primitives if p["fragment_type"] == "pattern_fragment"]
-    non_pattern     = [p for p in primitives if p["fragment_type"] != "pattern_fragment"]
+    pattern_entries = [p for p in primitives if p["fragment_type"] in ("pattern_fragment", "cycle_fragment")]
+    non_pattern     = [p for p in primitives if p["fragment_type"] not in ("pattern_fragment", "cycle_fragment")]
     connectivity    = [p for p in primitives if p["fragment_type"] == "connectivity_fragment"]
 
-    # 2. Pattern entries (7): nodes == [], pattern_ref present
-    assert len(pattern_entries) == 7, f"Expected 7 pattern entries, got {len(pattern_entries)}"
+    # 2. Pattern entries: nodes == [], pattern_ref present
     for p in pattern_entries:
         assert p["layout_graph"]["nodes"] == [], f"{p['fragment_id']}: expected empty nodes"
         assert "pattern_ref" in p, f"{p['fragment_id']}: missing pattern_ref"
 
-    # 3. Non-pattern entries (68): at least 1 node, all node.type in PRIMITIVE_TYPES
-    assert len(non_pattern) == 68, f"Expected 68 non-pattern, got {len(non_pattern)}"
+    # 3. Non-pattern entries: at least 1 node, all node.type in PRIMITIVE_TYPES
+    assert len(non_pattern) == macros_count - len(pattern_entries), (
+        f"Expected {macros_count - len(pattern_entries)} non-pattern, got {len(non_pattern)}"
+    )
     for p in non_pattern:
         nodes = p["layout_graph"]["nodes"]
         assert len(nodes) >= 1, f"{p['fragment_id']}: no nodes"
@@ -213,8 +216,7 @@ def _verify(primitives, region_to_fragment):
                 f"{p['fragment_id']}: edge to '{e['to']}' not in nodes"
             )
 
-    # 5. Connectivity entries (4): cross_fragment_edge present, valid rfrag IDs
-    assert len(connectivity) == 4, f"Expected 4 connectivity entries, got {len(connectivity)}"
+    # 5. Connectivity entries: cross_fragment_edge present, valid rfrag IDs
     for p in connectivity:
         cfe = p.get("cross_fragment_edge")
         assert cfe is not None, f"{p['fragment_id']}: missing cross_fragment_edge"
@@ -260,13 +262,20 @@ def _verify(primitives, region_to_fragment):
 # ---------------------------------------------------------------------------
 
 def main():
+    parser = argparse.ArgumentParser(description="Stage 4: PFD Layout Primitive Expansion")
+    parser.add_argument("--input-macros", default="pfd_macros.json", help="Path to macros JSON")
+    parser.add_argument("--input-fragments", default="fragments.json", help="Path to fragments JSON")
+    parser.add_argument("--input-table", default="expansion_table.json", help="Path to expansion table JSON")
+    parser.add_argument("--output", default="pfd_layout_primitives.json", help="Output path")
+    args = parser.parse_args()
+
     base = Path(__file__).parent
 
-    with open(base / "pfd_macros.json") as f:
+    with open(args.input_macros) as f:
         macros_data = json.load(f)
-    with open(base / "fragments.json") as f:
+    with open(args.input_fragments) as f:
         fragments_data = json.load(f)
-    with open(base / "expansion_table.json") as f:
+    with open(args.input_table) as f:
         expansion_table_data = json.load(f)
 
     table = expansion_table_data["templates"]
@@ -290,11 +299,16 @@ def main():
         elif ftype == "equipment_cluster_fragment":
             entry = _expand_cluster(macro_entry, table)
             cluster_size_map[macro_entry["fragment_id"]] = macro_entry["parameters"]["cluster_size"]
-        elif ftype == "pattern_fragment":
+        elif ftype in ("pattern_fragment", "cycle_fragment"):
             entry = _expand_pattern(macro_entry)
         else:
             raise ValueError(f"Unknown fragment_type: {ftype}")
         layout_primitives.append(entry)
+
+    # Total count matches macros
+    assert len(layout_primitives) == len(macros_data["macros"]), (
+        f"Expected {len(macros_data['macros'])} primitives, got {len(layout_primitives)}"
+    )
 
     # Assertion 6: equipment cluster node counts == cluster_size
     for p in layout_primitives:
@@ -329,7 +343,7 @@ def main():
         "layout_primitives": layout_primitives,
     }
 
-    out_path = base / "pfd_layout_primitives.json"
+    out_path = Path(args.output)
     with open(out_path, "w") as f:
         json.dump(output, f, indent=2)
 
